@@ -1,0 +1,141 @@
+{
+  "culture": "United States",
+  "id": "us",
+  "flag": "US",
+  "blurb": "The American scheme splits the carcass between the 12th and 13th ribs into fore- and hindquarter, then works outward from the spine: the eight primals are chuck, rib, short loin, sirloin, round, brisket, short plate and flank, with the shanks taken off the legs. It is built to maximise big, uniformly sized grilling steaks from the middle meats - the rib and loin are only about a quarter of the carcass but carry the ribeye, strip, T-bone, porterhouse and tenderloin - while the hard-working shoulder, leg and belly are boned out for roasts, barbecue and ground beef. A 1300 lb steer yields an 806 lb carcass and about 638 lb of retail cuts, of which roughly 59 percent are roasts and steaks and 41 percent ground beef and stew meat.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cut_of_beef",
+    "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
+    "https://www.ams.usda.gov/sites/default/files/media/LSimps700.pdf",
+    "https://animalrangeextension.montana.edu/beef/documents/CarcassBreakdown.pdf",
+    "https://www.beefitswhatsfordinner.com/cuts/cut/2946/square-cut-chuck-primal",
+    "https://www.beefitswhatsfordinner.com/cuts/cut/2947/rib-primal",
+    "https://www.beefitswhatsfordinner.com/cuts/cut/44453/loin-primal",
+    "https://www.beefitswhatsfordinner.com/cuts/cut/2949/round-primal",
+    "https://www.beefitswhatsfordinner.com/cuts/cut/2952/flank-primal",
+    "https://www.beefitswhatsfordinner.com/cuts/cut/44467/shank-primal"
+  ],
+  "cuts": [
+    {
+      "id": "round",
+      "name": "Round",
+      "native": "Round",
+      "region": "Hindquarter: x 0.00-0.22, from the tail base forward to the cut made just anterior to the ball of the femur (IMPS 158). That butchery line sits between the hip joint at 0.16 and the hook bone at 0.24, so the primal stops a little short of the 0.24 landmark; it fills the whole rump and thigh above the stifle, z 0.45-0.92.",
+      "x": [0.0, 0.22],
+      "z": [0.45, 0.92],
+      "full_width": true,
+      "description": "The rump and hind leg - the animal's propulsion muscles, so the meat is very lean, close-grained and only moderately tender. Sold as large lean roasts, marinated or thin-sliced steaks, deli roast beef, and a great deal of grind.",
+      "dishes": ["roast beef", "sauerbraten", "London broil", "beef jerky", "ground beef"]
+    },
+    {
+      "id": "hindshank",
+      "name": "Hind Shank",
+      "native": "Hind Shank",
+      "region": "Below the round, x 0.00-0.22, z 0.28-0.45: the lower hind leg, removed from the round by a cut through the stifle joint that follows the seam between the shank and the heel (IMPS 157). Below the hock at z 0.28 only bone and tendon remain.",
+      "x": [0.0, 0.22],
+      "z": [0.28, 0.45],
+      "full_width": true,
+      "description": "Constantly worked leg muscle wrapped around a marrow bone, dense with collagen and extremely tough raw. Sawn into shank cross-cuts and braised or simmered for hours until the connective tissue turns to gelatin.",
+      "dishes": ["osso buco", "beef and barley soup", "braised shank", "beef stock", "caldo de res"]
+    },
+    {
+      "id": "sirloin",
+      "name": "Sirloin",
+      "native": "Sirloin",
+      "region": "x 0.22-0.36, upper: the posterior section of the full loin (IMPS 181), running from the round cut at the femur ball forward to a straight cut just anterior to the hip cartilage that exposes the gluteus medius, z 0.70-0.92. Divides into top sirloin above and bottom sirloin (tri-tip, ball tip, flap) below.",
+      "x": [0.22, 0.36],
+      "z": [0.7, 0.92],
+      "full_width": true,
+      "description": "The hip end of the back, over the pelvis - more worked than the short loin, so less tender but beefier, with a good fat cap. Grilled and broiled as everyday steaks, or roasted whole as tri-tip.",
+      "dishes": ["sirloin steak", "tri-tip roast (Santa Maria barbecue)", "steak kebabs", "coulotte cap roast", "carne asada"]
+    },
+    {
+      "id": "short_loin",
+      "name": "Short Loin",
+      "native": "Short Loin",
+      "region": "x 0.36-0.46, upper: the anterior section of the loin (IMPS 173), from the sirloin cut at the hip cartilage forward to the natural curvature of the 13th rib, z 0.70-0.92. Because the carcass is quartered between the 12th and 13th ribs, the short loin carries the 13th rib and so reaches a hair forward of the 0.46 last-rib landmark. The tenderloin lies underneath it and runs on into the sirloin.",
+      "x": [0.36, 0.46],
+      "z": [0.7, 0.92],
+      "full_width": true,
+      "description": "The lumbar back, which supports weight but barely moves, so it holds the two most tender muscles on the carcass: the strip loin above the bone and the tenderloin tucked beneath it. Cooked fast and hot - grilled, broiled or pan-seared, never braised.",
+      "dishes": ["T-bone steak", "porterhouse steak", "New York strip steak", "filet mignon", "chateaubriand"]
+    },
+    {
+      "id": "flank",
+      "name": "Flank",
+      "native": "Flank",
+      "region": "The thin abdominal sheet under the loin, x 0.24-0.46, z 0.52-0.70, removed from the short loin and sirloin by a straight cut running ventral to the longissimus dorsi. A flat wall of muscle on each side of the belly, not a full-width block.",
+      "x": [0.24, 0.46],
+      "z": [0.52, 0.7],
+      "full_width": false,
+      "description": "The abdominal wall that carries the gut - lean, boneless and coarse, with a pronounced long grain. Marinated and grilled or braised, then sliced thinly across the grain; most of the primal by weight is simply ground.",
+      "dishes": ["flank steak", "fajitas", "carne asada", "London broil", "ropa vieja"]
+    },
+    {
+      "id": "rib",
+      "name": "Rib",
+      "native": "Rib",
+      "region": "x 0.46-0.56, upper: ribs 6 to 12 inclusive (IMPS 103), separated from the chuck by a straight cut between the 5th and 6th ribs and from the loin along the curvature of the 12th rib, with the short plate cut away below, z 0.70-0.92.",
+      "x": [0.46, 0.56],
+      "z": [0.7, 0.92],
+      "full_width": true,
+      "description": "The thoracic back over the ribcage, used for support rather than locomotion, so it is tender and heavily marbled with intramuscular fat. Roasted whole on the bone or cut into thick steaks for the grill.",
+      "dishes": ["prime rib / standing rib roast", "ribeye steak", "cowboy steak", "beef back ribs", "ribeye cap (spinalis)"]
+    },
+    {
+      "id": "short_plate",
+      "name": "Short Plate",
+      "native": "Short Plate",
+      "region": "Immediately ventral to the rib primal (IMPS 121), x 0.46-0.56, z 0.50-0.70, carrying the lower ends of the same seven ribs; the flank end follows the curvature of the 12th rib. A belly sheet on each side rather than a full-width block.",
+      "x": [0.46, 0.56],
+      "z": [0.5, 0.7],
+      "full_width": false,
+      "description": "The lower ribcage and forward belly behind the brisket - fatty layered muscle and rib bone that wants long moist heat, though the diaphragm muscles taken here are grilled hard and fast and sliced thin.",
+      "dishes": ["beef short ribs", "outside skirt steak for fajitas", "inside skirt steak", "hanger steak", "pastrami navel"]
+    },
+    {
+      "id": "chuck",
+      "name": "Chuck",
+      "native": "Chuck",
+      "region": "x 0.56-0.80, upper: the square-cut chuck (IMPS 113) is what remains of the forequarter after the rib, short plate, brisket and foreshank are removed, its rib end a straight cut between the 5th and 6th ribs. It includes the neck forward to the poll at 0.80 unless ordered neck-off (113B/115C), z 0.55-0.92.",
+      "x": [0.56, 0.8],
+      "z": [0.55, 0.92],
+      "full_width": true,
+      "description": "Shoulder, blade and neck - the hardest-working muscle group on the animal, deeply flavoured but shot through with connective tissue and therefore mostly tough. Braised, pot-roasted or ground, though a few seam-cut muscles (flat iron, teres major) are tender enough to grill.",
+      "dishes": ["pot roast", "beef stew", "ground beef for hamburgers", "flat iron steak", "chili con carne"]
+    },
+    {
+      "id": "brisket",
+      "name": "Brisket",
+      "native": "Brisket",
+      "region": "The chest floor between and ahead of the forelegs, x 0.56-0.74, z 0.42-0.55: it takes in the anterior sternum and shows the cartilaginous junction of the 1st rib with the sternum plus a cross-section of four ribs (IMPS 118). Brisket is medial and foreshank lateral at the same x, so the split between them is expressed here in z.",
+      "x": [0.56, 0.74],
+      "z": [0.42, 0.55],
+      "full_width": true,
+      "description": "The breast muscle that bears the front weight of an animal with no collarbone - dense, grainy and interleaved with fat and collagen. It needs many hours of low moist or smoky heat, which is the whole premise of American barbecue.",
+      "dishes": ["Texas smoked brisket", "corned beef", "pastrami", "braised brisket", "burnt ends"]
+    },
+    {
+      "id": "foreshank",
+      "name": "Fore Shank",
+      "native": "Fore Shank",
+      "region": "The foreleg below the elbow, x 0.56-0.70, z 0.28-0.42, removed from the square-cut chuck by a straight cut exposing a cross-section of the humerus and parted from the brisket along the natural seam (IMPS 117). Lateral to the brisket, which occupies the same x range medially.",
+      "x": [0.56, 0.7],
+      "z": [0.28, 0.42],
+      "full_width": true,
+      "description": "The front leg - among the toughest and leanest meat on the carcass, almost all working muscle sheathed in collagen around a marrow bone. Cross-cut and simmered, where the gelatin it gives up is the point.",
+      "dishes": ["beef stew", "soup bones and stock", "osso buco", "shank cross-cut braise", "pho broth"]
+    },
+    {
+      "id": "cheek",
+      "name": "Cheek Meat",
+      "native": "Cheek Meat",
+      "region": "On the head, x 0.86-1.00, z 0.58-0.78: the group of muscles lying external to the upper and lower jaw bones (IMPS 723, variety meats). Not part of any carcass primal - it is harvested at the head table, not off the hanging side.",
+      "x": [0.86, 1.0],
+      "z": [0.58, 0.78],
+      "full_width": true,
+      "description": "The jaw muscle, worked all day by chewing, so it is dense with collagen and impossible to cook quickly. Braised until it collapses into a glossy, gelatinous texture; in the US it is mostly a taqueria and restaurant cut rather than a supermarket one.",
+      "dishes": ["barbacoa tacos", "braised beef cheeks", "birria", "beef cheek ragu"]
+    }
+  ]
+}
