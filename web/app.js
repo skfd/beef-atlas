@@ -373,6 +373,10 @@ function buildAbout() {
      <p>The model is procedural: a lofted cross-section profile built in Blender, then
      partitioned by each tradition's boundaries. Nothing is hand-sculpted, so the same
      animal really is underneath all six.</p>
+     <p>There is a longer writeup on where the six traditions agree and disagree —
+     the British false friend, the shoulder, the diaphragm —
+     <a href="https://github.com/skfd/beef-atlas/blob/main/docs/differences.md"
+        target="_blank" rel="noopener">here</a>.</p>
      <p class="d-label">Sources fetched for the cut data</p><ul>${sources}</ul>`;
 }
 

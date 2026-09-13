@@ -12,9 +12,19 @@
 const path = require('path');
 const fs = require('fs');
 
-const PLAYWRIGHT = process.env.PLAYWRIGHT_PATH ||
-  'C:/Users/kk/AppData/Local/npm-cache/_npx/e41f203b7505f1fb/node_modules/playwright';
-const { chromium } = require(PLAYWRIGHT);
+// Playwright may be installed locally, globally, or only in the npx cache. Set
+// PLAYWRIGHT_PATH at the package directory if none of the usual resolution works.
+function loadPlaywright() {
+  const candidates = [process.env.PLAYWRIGHT_PATH, 'playwright', 'playwright-core']
+    .filter(Boolean);
+  for (const c of candidates) {
+    try { return require(c); } catch { /* try the next one */ }
+  }
+  throw new Error(
+    'Cannot find Playwright. Install it (npm i -D playwright) or set PLAYWRIGHT_PATH ' +
+    'to the package directory, e.g. one under AppData/Local/npm-cache/_npx/.');
+}
+const { chromium } = loadPlaywright();
 
 const base = process.argv[2] || 'http://127.0.0.1:8731/';
 const outDir = process.argv[3] || path.join(__dirname, '..', 'build', 'shots');

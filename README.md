@@ -7,6 +7,8 @@ can be compared directly rather than as six unrelated charts.
 
 ![The US short loin selected, with the equivalent cut in five other traditions](docs/atlas-us-short-loin.png)
 
+**[Read the writeup on how the six traditions differ →](docs/differences.md)**
+
 Pick a cut and the panel tells you what the muscle does on the living animal, how it
 is therefore cooked, what it is famous for — and, the part that makes it an atlas,
 **which cuts occupy that same piece of animal everywhere else**. The US short loin is
@@ -30,7 +32,7 @@ Then open <http://127.0.0.1:8731/>. `three.js` comes from a pinned CDN
 
 Blender is a **portable extract** at `~/Tools/blender-4.5` — it is not on `PATH` and
 was never installed machine-wide, so nothing needed a UAC prompt. Add it with
-`setx PATH "%PATH%;C:\Users\kk\Tools\blender-4.5"` if you want `blender` to just work.
+`setx PATH "%PATH%;%USERPROFILE%\Tools\blender-4.5"` if you want `blender` to just work.
 
 ```sh
 python tools/check_data.py                                   # validate the cut data
