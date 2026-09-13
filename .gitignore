@@ -2,3 +2,4 @@ build/
 __pycache__/
 tools/_gen_*.py
 *.blend1
+assets/

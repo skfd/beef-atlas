@@ -53,6 +53,50 @@ The build takes about two minutes for all six traditions and writes `web/models/
 view, explodes the carcass and steps through every tradition, failing on any console
 error. A 3D page nobody has rendered is not finished.
 
+## Swapping the cow for a different model
+
+The 130 cut rectangles are authored against the *frame*, not against a particular
+mesh, so replacing the animal is a data-free operation:
+
+```sh
+blender -b --python blender/import_model.py -- --input your-cow.glb --keep-largest
+blender -b --python blender/build.py --            # every tradition, re-carved
+```
+
+`import_model.py` reads glb/gltf/obj/fbx/stl/ply/blend, **detects** which way the
+animal faces, scales it into the frame, welds it into one manifold shell and writes
+`assets/cow_normalized.blend`, which `blender/cow.py` then uses instead of the
+procedural cow. Delete that file to go back.
+
+Orientation is detected rather than declared, because a wrong `--forward` flag
+produces a cow lying on its side that still exports perfectly happily. For a
+standing quadruped the bounding box settles it — longest axis is nose-to-tail,
+shortest is across — and the signs have reliable tells: the centroid of a barrel on
+thin legs sits above mid-height, and the muzzle end is much narrower than the
+buttock. `--forward`/`--up` override it. `--keep-largest` throws away plinths,
+ground planes and bystanders.
+
+It then prints where the anatomy actually landed against the FRAME.md landmarks and
+**refuses to bless a mesh that fails validation**, because a new model will not have
+identical proportions and the cut data assumes those landmarks.
+
+### Finding a model you can actually ship
+
+This repo is public, so the licence has to permit redistribution — "free to
+download" usually does not. What the search turned up:
+
+| Source | Licence | Usable? |
+|---|---|---|
+| [Ungarisches Steppenrind](https://sketchfab.com/3d-models/ungarisches-steppenrind-6c6b19d0a86e472a968c4fbad8a45636), [Pinzgauer Stier](https://sketchfab.com/3d-models/pinzgauer-stier-b6053e511ceb40cc9096aa63f9eebe56) (noe-3d.at) | **CC0** | Scans of 1883 stone bull *statues* in Vienna — sculptural proportions, and the first includes a herdsman. Use `--keep-largest`. |
+| [Realistic Holstein Cow](https://sketchfab.com/3d-models/realistic-holstein-cow-game-ready-asset-0bd2f1c0c79a4b5b9d36e67f0f700c5e) (3Dima) | **CC-BY** | 13k faces, game-ready, standing. Best shape match; needs attribution. |
+| Poly Pizza, Quaternius, Kenney | CC0 / CC-BY | Stylised low-poly — a downgrade on the procedural cow. |
+| TurboSquid / CGTrader / Free3D "free" | Personal-use | **Not redistributable.** Avoid. |
+
+Sketchfab requires a signed-in account to download (the API returns 401 to
+anonymous callers), so grabbing one is a browser job. Download it, run the two
+commands above, and record the model and its licence in this README plus the page's
+About panel if it is CC-BY.
+
 ## How it is put together
 
 | Path | What it is |
@@ -60,6 +104,7 @@ error. A 3D page nobody has rendered is not finished.
 | `data/FRAME.md` | The normalized cow frame. **Read this first.** |
 | `data/cuts_*.json` | One tradition each: names, anatomy, cooking, dishes, sources. |
 | `blender/cow.py` | The cow mesh, a lofted cross-section profile. |
+| `blender/import_model.py` | Fits a downloaded model into the frame, replacing the above. |
 | `blender/cuts.py` | Turns hand-drawn rectangles into a true partition of the body. |
 | `blender/build.py` | Carves each tradition and exports one GLB per tradition. |
 | `web/` | The page. `app.js` is three.js; there is no build step. |

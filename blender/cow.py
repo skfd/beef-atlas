@@ -23,9 +23,35 @@ complaining.
 import bpy
 import bmesh
 import math
+import os
 from mathutils import Vector
 
 SCALE = 10.0
+
+# If an external model has been fitted into the frame by blender/import_model.py,
+# every build uses it instead of the procedural animal below. The cut data is
+# written against the frame rather than against a particular mesh, so swapping
+# the cow really is a drop-in -- see the landmark check that import_model prints.
+IMPORTED = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                        "assets", "cow_normalized.blend")
+
+
+def _load_imported(path):
+    bpy.ops.wm.append(filepath=os.path.join(path, "Object", "cow"),
+                      directory=os.path.join(path, "Object"), filename="cow")
+    meshes = [o for o in bpy.context.scene.objects if o.type == 'MESH']
+    if not meshes:
+        raise RuntimeError(f"{path} contained no object named 'cow'")
+    for o in meshes:
+        o.select_set(True)
+    bpy.context.view_layer.objects.active = meshes[0]
+    if len(meshes) > 1:
+        bpy.ops.object.join()
+    cow = bpy.context.active_object
+    cow.name = "cow"
+    bpy.ops.object.transform_apply(location=True, rotation=True, scale=True)
+    bpy.ops.object.shade_smooth()
+    return cow
 
 # (x, top of back, belly line, half-width above the midline, half-width below)
 # Read it as a side view plus a width: the first three numbers are the silhouette,
@@ -144,6 +170,8 @@ def _build_body():
 
 def build_cow(voxel=0.038, smooth_iterations=3, decimate_ratio=0.28):
     _wipe()
+    if os.path.exists(IMPORTED):
+        return _load_imported(IMPORTED)
     parts = [_build_body()]
 
     for side in (1, -1):
