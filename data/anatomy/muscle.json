@@ -1,0 +1,1824 @@
+{
+  "system": "muscle",
+  "sources": [
+    "https://bovine.unl.edu/",
+    "https://www.beefresearch.org/resources/product-quality/fact-sheets/muscle-profiling",
+    "https://en.wikipedia.org/wiki/Cut_of_beef",
+    "https://en.wikipedia.org/wiki/Hanger_steak",
+    "https://en.wikipedia.org/wiki/Picanha",
+    "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
+    "https://www.k-beef.co.kr/web/eng/contents/M040-05",
+    "https://fr.wikipedia.org/wiki/Hampe_(viande)",
+    "https://fr.wikipedia.org/wiki/Onglet_(viande)",
+    "https://www.chefsteps.com/cuts/beef-top-sirloin-cap",
+    "https://www.meatidentifier.com/blog/denver-steak-flat-iron-teres-major-emerging-chuck-cuts-buying-cooking-guide"
+  ],
+  "parts": [
+    {
+      "id": "longissimus",
+      "name": "Longissimus dorsi",
+      "latin": "M. longissimus thoracis et lumborum",
+      "system": "muscle",
+      "group": "back",
+      "depth": 1,
+      "mirror": true,
+      "colour": "#9c2b26",
+      "blurb": "The long back muscle, running from the pelvis to the neck either side of the spinous processes. It extends and steadies the spine and barely moves, which is exactly why it stays tender.",
+      "beef": "The loin eye, and the single most valuable muscle on the animal: ribeye and New York strip in the US, entrecôte and faux-filet in France, 등심/채끓 in Korea, リブロース and サーロイン in Japan, contrafilé in Brazil, толстый/тонкий край in Russia.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.252,
+            0.056,
+            0.82
+          ],
+          "b": [
+            0.7,
+            0.052,
+            0.848
+          ],
+          "w": 0.038,
+          "d": 0.046,
+          "bow": [
+            0,
+            0.01,
+            0.006
+          ],
+          "ends": 0.45,
+          "bulge": 0.52,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "spinalis-dorsi",
+      "name": "Spinalis dorsi",
+      "latin": "M. spinalis et semispinalis thoracis",
+      "system": "muscle",
+      "group": "back",
+      "depth": 1,
+      "mirror": true,
+      "colour": "#a8352c",
+      "blurb": "A strap lying along the top of the longissimus over the withers and the fore ribs, tying the thoracic spines together.",
+      "beef": "The ribeye cap or deckle - the fattiest, most prized strip of the rib. 살치살 in Korea, capa de filé in Brazil, chuck flap tail in the US trade, part of the basses côtes in France.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.43,
+            0.038,
+            0.854
+          ],
+          "b": [
+            0.732,
+            0.032,
+            0.848
+          ],
+          "w": 0.024,
+          "d": 0.026,
+          "bow": [
+            0,
+            0.008,
+            0.006
+          ],
+          "ends": 0.45,
+          "bulge": 0.45,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "multifidus",
+      "name": "Multifidus",
+      "latin": "Mm. multifidi dorsi",
+      "system": "muscle",
+      "group": "back",
+      "depth": 2,
+      "mirror": true,
+      "colour": "#8a2622",
+      "blurb": "Short oblique bundles filling the gutter between the spinous and transverse processes, from the sacrum to the neck; they twist and stabilise one vertebra against the next.",
+      "beef": "Inside the bone of a T-bone or a côte de bœuf, the small dark eye above the vertebral body; sold as part of the chuck roll further forward.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.14,
+            0.022,
+            0.8
+          ],
+          "b": [
+            0.72,
+            0.02,
+            0.828
+          ],
+          "w": 0.016,
+          "d": 0.024,
+          "bow": [
+            0,
+            0.004,
+            0.004
+          ],
+          "ends": 0.5,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "iliocostalis",
+      "name": "Iliocostalis",
+      "latin": "M. iliocostalis thoracis et lumborum",
+      "system": "muscle",
+      "group": "back",
+      "depth": 2,
+      "mirror": true,
+      "colour": "#93302a",
+      "blurb": "The outermost column of the erector spinae, running along the rib angles from the ilium to the neck and bending the trunk sideways.",
+      "beef": "Trimmed off with the rib and chuck as the lifter or blade meat over the ribs; in France it goes into the plat de côtes, in Russia into the покромка.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.23,
+            0.098,
+            0.782
+          ],
+          "b": [
+            0.62,
+            0.108,
+            0.79
+          ],
+          "w": 0.02,
+          "d": 0.03,
+          "bow": [
+            0,
+            0.014,
+            -0.008
+          ],
+          "ends": 0.4,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "psoas-major",
+      "name": "Psoas major",
+      "latin": "M. psoas major",
+      "system": "muscle",
+      "group": "back",
+      "depth": 2,
+      "mirror": true,
+      "colour": "#ab3b31",
+      "blurb": "Slung under the lumbar vertebrae from the last ribs to the lesser trochanter of the femur; it flexes the hip and carries no weight at all, which is the whole reason for its texture.",
+      "beef": "The tenderloin: filet mignon and châteaubriand, filet in France, 안심 in Korea, ヒレ in Japan, filé mignon in Brazil, вырезка in Russia, fillet in Britain. The most tender and least fatty muscle on the carcass.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.16,
+            0.048,
+            0.712
+          ],
+          "b": [
+            0.452,
+            0.046,
+            0.756
+          ],
+          "w": 0.031,
+          "d": 0.031,
+          "bow": [
+            0,
+            0.004,
+            -0.004
+          ],
+          "ends": 0.22,
+          "bulge": 0.34,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "psoas-minor",
+      "name": "Psoas minor",
+      "latin": "M. psoas minor",
+      "system": "muscle",
+      "group": "back",
+      "depth": 2,
+      "mirror": true,
+      "colour": "#b0453a",
+      "blurb": "A slender strap running alongside and above the psoas major onto the brim of the pelvis, helping to flex the lumbar spine.",
+      "beef": "The chain or side strap peeled off the tenderloin when it is trimmed - not the hanger, which is the diaphragm. Mostly ground or sold as tenderloin tips.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.145,
+            0.032,
+            0.748
+          ],
+          "b": [
+            0.47,
+            0.032,
+            0.776
+          ],
+          "w": 0.013,
+          "d": 0.014,
+          "bow": [
+            0,
+            0.002,
+            0
+          ],
+          "ends": 0.3,
+          "bulge": 0.4,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "quadratus-lumborum",
+      "name": "Quadratus lumborum",
+      "latin": "M. quadratus lumborum",
+      "system": "muscle",
+      "group": "back",
+      "depth": 2,
+      "mirror": true,
+      "colour": "#85251f",
+      "blurb": "A deep sheet under the lumbar transverse processes, bracing the loin against the sideways pull of the hind limb.",
+      "beef": "Left on the bone when the loin is boned out, or trimmed into the sirloin; it is the scrap of dark meat found under a porterhouse bone.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.2,
+            0.03,
+            0.772
+          ],
+          "b": [
+            0.49,
+            0.03,
+            0.79
+          ],
+          "w": 0.016,
+          "d": 0.015,
+          "bow": [
+            0,
+            0.004,
+            0
+          ],
+          "ends": 0.45,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "sacrocaudalis",
+      "name": "Sacrocaudalis",
+      "latin": "Mm. sacrocaudales dorsalis et ventralis",
+      "system": "muscle",
+      "group": "back",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#8e2d27",
+      "blurb": "The tail's own muscles, arising off the sacrum and running into the caudal vertebrae; they swing the tail all day to keep flies off.",
+      "beef": "Oxtail - queue de bœuf, 꼬리, テール, rabo, хвост. Pure collagen and bone, and the making of a long-simmered broth.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.092,
+            0.026,
+            0.852
+          ],
+          "b": [
+            0.034,
+            0.02,
+            0.804
+          ],
+          "w": 0.016,
+          "d": 0.018,
+          "bow": [
+            0,
+            0.002,
+            0.004
+          ],
+          "ends": 0.4,
+          "bulge": 0.4,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "gluteus-medius",
+      "name": "Gluteus medius",
+      "latin": "M. gluteus medius",
+      "system": "muscle",
+      "group": "hindlimb",
+      "depth": 1,
+      "mirror": true,
+      "colour": "#a13029",
+      "blurb": "The great hip extensor, filling the wing of the ilium and driving the animal forward at every stride.",
+      "beef": "The heart of the rump: the top sirloin butt centre in the US, rumsteck in France, ランプ in Japan, alcatra in Brazil, кострец in Russia, rump in Britain.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.3,
+            0.06,
+            0.844
+          ],
+          "b": [
+            0.092,
+            0.062,
+            0.814
+          ],
+          "w": 0.038,
+          "d": 0.036,
+          "bow": [
+            0,
+            0.008,
+            0.01
+          ],
+          "ends": 0.4,
+          "bulge": 0.45,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "gluteus-superficialis",
+      "name": "Gluteus superficialis",
+      "latin": "M. gluteus superficialis",
+      "system": "muscle",
+      "group": "hindlimb",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#932924",
+      "blurb": "In cattle this muscle is fused with the biceps femoris into the gluteobiceps, so it is a cap over the point of the buttock rather than a separate belly; it abducts and extends the hip.",
+      "beef": "The outer skin of the rump - it is taken with the picanha/rump cap in Brazil, with the culotte in France and with the seoldo (설도) in Korea.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.29,
+            0.084,
+            0.852
+          ],
+          "b": [
+            0.094,
+            0.104,
+            0.768
+          ],
+          "w": 0.03,
+          "d": 0.046,
+          "bow": [
+            -0.01,
+            0.008,
+            0
+          ],
+          "ends": 0.42,
+          "bulge": 0.45,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "tensor-fasciae-latae",
+      "name": "Tensor fasciae latae",
+      "latin": "M. tensor fasciae latae",
+      "system": "muscle",
+      "group": "hindlimb",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#aa3e33",
+      "blurb": "A triangular muscle running from the hook bone down into the fascia lata; it tightens the sheet of fascia over the thigh and swings the limb forward.",
+      "beef": "The tri-tip: aiguillette baronne in France, maminha in Brazil, 삼각살 in Korea, bottom sirloin tri-tip in the US, the sirloin tip corner of the UK thick flank.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.248,
+            0.098,
+            0.856
+          ],
+          "b": [
+            0.214,
+            0.116,
+            0.572
+          ],
+          "w": 0.03,
+          "d": 0.046,
+          "bow": [
+            0.022,
+            0.01,
+            0
+          ],
+          "ends": 0.3,
+          "bulge": 0.4,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "biceps-femoris",
+      "name": "Biceps femoris",
+      "latin": "M. biceps femoris",
+      "system": "muscle",
+      "group": "hindlimb",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#8e2823",
+      "blurb": "The huge muscle covering the whole outside of the thigh, from the sacrum and pin bone down to the stifle and hock; it extends the hip and is worked at every step.",
+      "beef": "The bottom round / outside flat in the US, silverside and gîte à la noix in France and Britain, coxao duro in Brazil, 설도 in Korea, ссек in Russia - and its tapering cap, with the fat left on, is the picanha, coulotte or rump cap.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.162,
+            0.106,
+            0.866
+          ],
+          "b": [
+            0.14,
+            0.112,
+            0.558
+          ],
+          "w": 0.036,
+          "d": 0.074,
+          "bow": [
+            -0.044,
+            0.01,
+            0
+          ],
+          "ends": 0.45,
+          "bulge": 0.42,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "semitendinosus",
+      "name": "Semitendinosus",
+      "latin": "M. semitendinosus",
+      "system": "muscle",
+      "group": "hindlimb",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#a5342b",
+      "blurb": "A long cylinder down the back of the thigh from the ischium to the tibia, extending the hip and flexing the stifle.",
+      "beef": "The eye of round: rond de gîte or semelle in France, lagarto in Brazil, глазной мускул in Russia, ソトモモ in Japan. Fine-grained and so lean it is used raw for carpaccio and cooked only rare or long.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.078,
+            0.086,
+            0.8
+          ],
+          "b": [
+            0.118,
+            0.092,
+            0.566
+          ],
+          "w": 0.03,
+          "d": 0.034,
+          "bow": [
+            -0.02,
+            0.01,
+            0
+          ],
+          "ends": 0.42,
+          "bulge": 0.42,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "semimembranosus",
+      "name": "Semimembranosus",
+      "latin": "M. semimembranosus",
+      "system": "muscle",
+      "group": "hindlimb",
+      "depth": 1,
+      "mirror": true,
+      "colour": "#99302a",
+      "blurb": "The big muscle of the inner thigh, from the ischium to the medial femur; it adducts and extends the hip and works less than the outside of the leg.",
+      "beef": "Topside or inside round - tende de tranche in France, 우둔 in Korea, ウチモモ in Japan, coxão mole in Brazil, щуп in Russia. Naturally tender and very lean; the French poire and merlan hide against it.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.095,
+            0.062,
+            0.816
+          ],
+          "b": [
+            0.152,
+            0.066,
+            0.564
+          ],
+          "w": 0.04,
+          "d": 0.05,
+          "bow": [
+            -0.01,
+            0.012,
+            0
+          ],
+          "ends": 0.45,
+          "bulge": 0.42,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "adductor",
+      "name": "Adductor",
+      "latin": "M. adductor magnus et brevis",
+      "system": "muscle",
+      "group": "hindlimb",
+      "depth": 2,
+      "mirror": true,
+      "colour": "#8d2b26",
+      "blurb": "Deep on the inner thigh between the pelvis and the femur, pulling the leg back under the body.",
+      "beef": "Sold inside the topside/inside round, and the piece a French butcher takes the poire and the merlan from; in Germany and Russia it goes into the огузок.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.12,
+            0.046,
+            0.768
+          ],
+          "b": [
+            0.168,
+            0.052,
+            0.584
+          ],
+          "w": 0.028,
+          "d": 0.038,
+          "bow": [
+            -0.006,
+            0.008,
+            0
+          ],
+          "ends": 0.4,
+          "bulge": 0.45,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "obturator-externus",
+      "name": "Obturator externus",
+      "latin": "M. obturatorius externus",
+      "system": "muscle",
+      "group": "hindlimb",
+      "depth": 2,
+      "mirror": true,
+      "colour": "#b45248",
+      "blurb": "A small flat muscle covering the obturator foramen on the floor of the pelvis and running into the hip socket; it rotates the thigh outward and bears no load.",
+      "beef": "The araignée or spider steak - a morceau du boucher, two per carcass, webbed with a spidery membrane and richly marbled. In the US it is the oyster or spider steak, in Japan ハツ; grilled fast and eaten saignant.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.128,
+            0.05,
+            0.686
+          ],
+          "b": [
+            0.192,
+            0.074,
+            0.716
+          ],
+          "w": 0.022,
+          "d": 0.024,
+          "bow": [
+            0,
+            0.006,
+            0.006
+          ],
+          "ends": 0.45,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "quadriceps-femoris",
+      "name": "Quadriceps femoris (vasti)",
+      "latin": "Mm. vastus lateralis, medialis et intermedius",
+      "system": "muscle",
+      "group": "hindlimb",
+      "depth": 1,
+      "mirror": true,
+      "colour": "#a83a30",
+      "blurb": "The three vasti wrapping the front and sides of the femur; with the rectus femoris they straighten the stifle and hold the animal up.",
+      "beef": "The knuckle or sirloin tip: tranche grasse in France, シンタマ in Japan, patinho in Brazil, thick flank in Britain, подбедерок in Russia.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.212,
+            0.096,
+            0.716
+          ],
+          "b": [
+            0.19,
+            0.1,
+            0.56
+          ],
+          "w": 0.038,
+          "d": 0.048,
+          "bow": [
+            0.026,
+            0.01,
+            0
+          ],
+          "ends": 0.4,
+          "bulge": 0.45,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "rectus-femoris",
+      "name": "Rectus femoris",
+      "latin": "M. rectus femoris",
+      "system": "muscle",
+      "group": "hindlimb",
+      "depth": 1,
+      "mirror": true,
+      "colour": "#b0453a",
+      "blurb": "The one head of the quadriceps that crosses the hip as well as the stifle, running from the ilium straight down to the patella.",
+      "beef": "The centre of the knuckle - シンシン in Japan, the rond de tranche of the French tranche grasse, the core of the US sirloin tip roast.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.222,
+            0.086,
+            0.768
+          ],
+          "b": [
+            0.194,
+            0.092,
+            0.566
+          ],
+          "w": 0.028,
+          "d": 0.038,
+          "bow": [
+            0.026,
+            0.006,
+            0
+          ],
+          "ends": 0.3,
+          "bulge": 0.42,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "gracilis",
+      "name": "Gracilis",
+      "latin": "M. gracilis",
+      "system": "muscle",
+      "group": "hindlimb",
+      "depth": 1,
+      "mirror": true,
+      "colour": "#bb5347",
+      "blurb": "A thin flat sheet on the very inside of the thigh, from the pelvic symphysis to the tibia; it draws the leg inward and is paler than the muscles around it.",
+      "beef": "The flat, pale sheet peeled off the inside round - sold with the topside or, trimmed off, ground. In France it is part of the tende de tranche.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.102,
+            0.036,
+            0.744
+          ],
+          "b": [
+            0.162,
+            0.04,
+            0.572
+          ],
+          "w": 0.014,
+          "d": 0.046,
+          "bow": [
+            -0.006,
+            0.004,
+            0
+          ],
+          "ends": 0.5,
+          "bulge": 0.45,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "gastrocnemius",
+      "name": "Gastrocnemius",
+      "latin": "M. gastrocnemius",
+      "system": "muscle",
+      "group": "hindlimb",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#7d221f",
+      "blurb": "The calf muscle of the gaskin, running from the back of the femur to the point of the hock through the Achilles tendon; it drives the animal forward and never stops working.",
+      "beef": "The heel muscle of the hind shank - gîte or jarret arrière in France, 사태 in Korea, スネ in Japan, ossobuco in Brazil and Italy, голяшка in Russia. All collagen, and the body of a good broth.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.168,
+            0.102,
+            0.57
+          ],
+          "b": [
+            0.192,
+            0.102,
+            0.36
+          ],
+          "w": 0.018,
+          "d": 0.02,
+          "bow": [
+            -0.003,
+            0,
+            0
+          ],
+          "ends": 0.3,
+          "bulge": 0.38,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "infraspinatus",
+      "name": "Infraspinatus",
+      "latin": "M. infraspinatus",
+      "system": "muscle",
+      "group": "forelimb",
+      "depth": 1,
+      "mirror": true,
+      "colour": "#a4332b",
+      "blurb": "A flat muscle filling the hollow behind the spine of the scapula and running to the head of the humerus, which it steadies like a ligament at every stride.",
+      "beef": "The flat iron or top blade - the second most tender muscle in the carcass once its central sheet of gristle is split out. Paleron in France, 부채살 in Korea, ミスジ in Japan, oyster blade in Britain and Australia.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.6,
+            0.106,
+            0.846
+          ],
+          "b": [
+            0.7,
+            0.086,
+            0.636
+          ],
+          "w": 0.02,
+          "d": 0.044,
+          "bow": [
+            0.006,
+            0.01,
+            0
+          ],
+          "ends": 0.4,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "supraspinatus",
+      "name": "Supraspinatus",
+      "latin": "M. supraspinatus",
+      "system": "muscle",
+      "group": "forelimb",
+      "depth": 1,
+      "mirror": true,
+      "colour": "#ac3f34",
+      "blurb": "The cone of muscle in front of the scapular spine, reaching down to the greater tubercle of the humerus; it swings the shoulder forward.",
+      "beef": "Chuck tender or mock tender in the US, shoulder petite tender, トウガラシ in Japan (named for its chilli-pepper shape), and part of the French macreuse. Lean and neat-looking but sinewy inside.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.662,
+            0.084,
+            0.848
+          ],
+          "b": [
+            0.726,
+            0.056,
+            0.648
+          ],
+          "w": 0.024,
+          "d": 0.034,
+          "bow": [
+            0.014,
+            0.006,
+            0
+          ],
+          "ends": 0.3,
+          "bulge": 0.45,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "subscapularis",
+      "name": "Subscapularis",
+      "latin": "M. subscapularis",
+      "system": "muscle",
+      "group": "forelimb",
+      "depth": 2,
+      "mirror": true,
+      "colour": "#8b2722",
+      "blurb": "The whole inner face of the shoulder blade, between the scapula and the rib cage, pulling the humerus in against the body.",
+      "beef": "Taken with the shoulder clod or the chuck roll; in Japan it falls in the カタロース, in France in the paleron's deeper half.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.6,
+            0.07,
+            0.84
+          ],
+          "b": [
+            0.7,
+            0.058,
+            0.644
+          ],
+          "w": 0.018,
+          "d": 0.04,
+          "bow": [
+            0.006,
+            -0.004,
+            0
+          ],
+          "ends": 0.4,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "deltoideus",
+      "name": "Deltoid",
+      "latin": "M. deltoideus",
+      "system": "muscle",
+      "group": "forelimb",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#97302a",
+      "blurb": "A superficial strap from the spine of the scapula to the deltoid tuberosity of the humerus, flexing the shoulder joint.",
+      "beef": "Sold within the shoulder clod or the arm roast; in Brazil it goes into the paleta, in Russia into the плечевая часть.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.608,
+            0.116,
+            0.812
+          ],
+          "b": [
+            0.682,
+            0.098,
+            0.604
+          ],
+          "w": 0.016,
+          "d": 0.026,
+          "bow": [
+            0.008,
+            0.008,
+            0
+          ],
+          "ends": 0.35,
+          "bulge": 0.45,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "triceps-brachii",
+      "name": "Triceps brachii",
+      "latin": "M. triceps brachii",
+      "system": "muscle",
+      "group": "forelimb",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#92291f",
+      "blurb": "The large wedge behind the humerus, from the caudal border of the scapula to the point of the elbow; it straightens the elbow and takes the shock of landing.",
+      "beef": "The shoulder clod and arm roast - macreuse à pot-au-feu in France, カタ in Japan, paleta in Brazil, плечевая часть in Russia, clod in Britain. Deep-flavoured, and strictly braising meat.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.585,
+            0.102,
+            0.788
+          ],
+          "b": [
+            0.624,
+            0.096,
+            0.566
+          ],
+          "w": 0.04,
+          "d": 0.052,
+          "bow": [
+            -0.014,
+            0.014,
+            0
+          ],
+          "ends": 0.4,
+          "bulge": 0.45,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "teres-major",
+      "name": "Teres major",
+      "latin": "M. teres major",
+      "system": "muscle",
+      "group": "forelimb",
+      "depth": 1,
+      "mirror": true,
+      "colour": "#b0453a",
+      "blurb": "A small spindle on the caudal border of the scapula running to the medial humerus, drawing the arm backward.",
+      "beef": "The petite tender, bistro filet or shoulder tender - one of the few genuinely tender muscles in the chuck, cut as a small whole roast and grilled.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.612,
+            0.076,
+            0.76
+          ],
+          "b": [
+            0.674,
+            0.07,
+            0.636
+          ],
+          "w": 0.016,
+          "d": 0.024,
+          "bow": [
+            0,
+            -0.004,
+            0
+          ],
+          "ends": 0.28,
+          "bulge": 0.45,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "serratus-ventralis",
+      "name": "Serratus ventralis",
+      "latin": "M. serratus ventralis",
+      "system": "muscle",
+      "group": "forelimb",
+      "depth": 1,
+      "mirror": true,
+      "colour": "#a03830",
+      "blurb": "The great fan that slings the trunk between the shoulder blades - cattle have no collarbone, so this muscle, not a joint, is what carries the front of the animal.",
+      "beef": "The Denver steak and boneless short rib of the chuck in the US, ザブトン in Japan, jumeau in France, покромка in Russia. Richly marbled and surprisingly tender for a working muscle.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.492,
+            0.096,
+            0.678
+          ],
+          "b": [
+            0.726,
+            0.08,
+            0.754
+          ],
+          "w": 0.026,
+          "d": 0.068,
+          "bow": [
+            0,
+            0.016,
+            0.004
+          ],
+          "ends": 0.4,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "latissimus-dorsi",
+      "name": "Latissimus dorsi",
+      "latin": "M. latissimus dorsi",
+      "system": "muscle",
+      "group": "forelimb",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#8f2d28",
+      "blurb": "A broad superficial fan from the thoracolumbar fascia forward onto the humerus, pulling the whole forelimb backward under the body.",
+      "beef": "Trimmed as the outer layer of the chuck and rib - it is part of the lifter meat over a rib roast and of the French basses côtes; most of it is ground.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.404,
+            0.122,
+            0.842
+          ],
+          "b": [
+            0.636,
+            0.102,
+            0.672
+          ],
+          "w": 0.014,
+          "d": 0.066,
+          "bow": [
+            0,
+            0.012,
+            0
+          ],
+          "ends": 0.45,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "trapezius",
+      "name": "Trapezius",
+      "latin": "M. trapezius",
+      "system": "muscle",
+      "group": "forelimb",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#a63a30",
+      "blurb": "The most superficial muscle of the back, a thin triangle from the nuchal ligament and thoracic spines out to the spine of the scapula; it lifts and steadies the shoulder blade.",
+      "beef": "Skinned off with the fat over the chuck and neck. In zebu cattle it lies over the hump that Brazilians sell as cupim.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.462,
+            0.058,
+            0.87
+          ],
+          "b": [
+            0.786,
+            0.052,
+            0.836
+          ],
+          "w": 0.024,
+          "d": 0.034,
+          "bow": [
+            0,
+            0.014,
+            -0.012
+          ],
+          "ends": 0.4,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "rhomboideus",
+      "name": "Rhomboideus",
+      "latin": "M. rhomboideus cervicis et thoracis",
+      "system": "muscle",
+      "group": "forelimb",
+      "depth": 1,
+      "mirror": true,
+      "colour": "#9a2f28",
+      "blurb": "A thick band under the trapezius running from the nuchal crest and the first thoracic spines to the dorsal border of the scapula, hauling the blade upward.",
+      "beef": "In zebu and zebu-cross cattle this muscle and its fat make the hump: cupim in Brazil, one of the great barbecue cuts. In taurine cattle it is simply chuck.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.545,
+            0.042,
+            0.882
+          ],
+          "b": [
+            0.792,
+            0.038,
+            0.826
+          ],
+          "w": 0.026,
+          "d": 0.028,
+          "bow": [
+            0,
+            0.008,
+            0.01
+          ],
+          "ends": 0.45,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "brachiocephalicus",
+      "name": "Brachiocephalicus",
+      "latin": "M. brachiocephalicus",
+      "system": "muscle",
+      "group": "forelimb",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#ab4036",
+      "blurb": "The long superficial strap down the side of the neck from the head to the humerus; it swings the foreleg forward and, when the leg is planted, turns the head.",
+      "beef": "Part of the neck and clod - collier in France, 목심 in Korea, ネック in Japan, pescoço in Brazil. Coarse, gelatinous, and the best thing in a long stew.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.828,
+            0.05,
+            0.792
+          ],
+          "b": [
+            0.678,
+            0.088,
+            0.644
+          ],
+          "w": 0.018,
+          "d": 0.032,
+          "bow": [
+            0,
+            0.002,
+            0.008
+          ],
+          "ends": 0.35,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "omotransversarius",
+      "name": "Omotransversarius",
+      "latin": "M. omotransversarius",
+      "system": "muscle",
+      "group": "forelimb",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#b24a3d",
+      "blurb": "A narrow superficial band from the wing of the atlas and the cervical transverse processes to the spine of the scapula, drawing the shoulder forward.",
+      "beef": "Boned out with the neck and clod, and ground; visible as the thin strip over the shoulder when a chuck is seam-butchered.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.8,
+            0.052,
+            0.786
+          ],
+          "b": [
+            0.658,
+            0.092,
+            0.744
+          ],
+          "w": 0.012,
+          "d": 0.022,
+          "bow": [
+            0,
+            0.006,
+            0.004
+          ],
+          "ends": 0.35,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "biceps-brachii",
+      "name": "Biceps brachii",
+      "latin": "M. biceps brachii",
+      "system": "muscle",
+      "group": "forelimb",
+      "depth": 2,
+      "mirror": true,
+      "colour": "#a7392f",
+      "blurb": "A spindle in front of the humerus from the scapula to the radius, flexing the elbow and helping to lock the foreleg straight when the animal stands.",
+      "beef": "Inside the arm roast and the shoulder clod, on the front face of the humerus; boned out for braising, or ground.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.664,
+            0.078,
+            0.672
+          ],
+          "b": [
+            0.638,
+            0.084,
+            0.578
+          ],
+          "w": 0.018,
+          "d": 0.026,
+          "bow": [
+            0.008,
+            0,
+            0
+          ],
+          "ends": 0.3,
+          "bulge": 0.45,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "extensor-carpi-radialis",
+      "name": "Extensor carpi radialis",
+      "latin": "M. extensor carpi radialis",
+      "system": "muscle",
+      "group": "forelimb",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#832420",
+      "blurb": "The big muscle on the front of the forearm, tapering into a long tendon to the knee; it straightens the carpus at every stride.",
+      "beef": "The fore shank or shin: gîte avant in France, 앞사태 in Korea, スネ in Japan, músculo in Brazil, рулька in Russia. Lean bundles in a sleeve of tendon - bouillon meat.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.62,
+            0.092,
+            0.542
+          ],
+          "b": [
+            0.616,
+            0.092,
+            0.336
+          ],
+          "w": 0.02,
+          "d": 0.02,
+          "bow": [
+            0.006,
+            0,
+            0
+          ],
+          "ends": 0.28,
+          "bulge": 0.35,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "splenius",
+      "name": "Splenius",
+      "latin": "M. splenius capitis et cervicis",
+      "system": "muscle",
+      "group": "neck",
+      "depth": 1,
+      "mirror": true,
+      "colour": "#95291f",
+      "blurb": "A broad triangular sheet from the nuchal ligament and the withers forward to the atlas and the skull; it raises the head, which on a beef animal is heavy work.",
+      "beef": "The neck: collier in France, 목심 in Korea, ネック in Japan, acém and pescoço in Brazil, шея in Russia, neck and clod in Britain.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.65,
+            0.046,
+            0.844
+          ],
+          "b": [
+            0.824,
+            0.044,
+            0.792
+          ],
+          "w": 0.024,
+          "d": 0.032,
+          "bow": [
+            0,
+            0.008,
+            0.006
+          ],
+          "ends": 0.4,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "complexus",
+      "name": "Complexus",
+      "latin": "M. semispinalis capitis",
+      "system": "muscle",
+      "group": "neck",
+      "depth": 2,
+      "mirror": true,
+      "colour": "#8a2823",
+      "blurb": "The deep column under the splenius, running from the first thoracic vertebrae to the occiput; with the nuchal ligament it is the cantilever that holds the head out in front of the body.",
+      "beef": "Boned out with the neck, and the source of the neck chain a butcher pulls off the cervical vertebrae; mostly stew and grinding meat.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.638,
+            0.032,
+            0.846
+          ],
+          "b": [
+            0.828,
+            0.03,
+            0.794
+          ],
+          "w": 0.022,
+          "d": 0.028,
+          "bow": [
+            0,
+            0.006,
+            0.004
+          ],
+          "ends": 0.45,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "sternocephalicus",
+      "name": "Sternocephalicus",
+      "latin": "M. sternocephalicus",
+      "system": "muscle",
+      "group": "neck",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#a83c31",
+      "blurb": "The rope of muscle down the underside of the neck from the sternum to the jaw and mastoid; it pulls the head down to graze.",
+      "beef": "Taken with the neck and the sticking piece - зарез in Russia, part of the collier in France. Tough, stringy, and full of flavour once simmered.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.7,
+            0.046,
+            0.64
+          ],
+          "b": [
+            0.868,
+            0.04,
+            0.766
+          ],
+          "w": 0.016,
+          "d": 0.022,
+          "bow": [
+            0,
+            0.006,
+            0.01
+          ],
+          "ends": 0.32,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "longus-colli",
+      "name": "Longus colli",
+      "latin": "M. longus colli",
+      "system": "muscle",
+      "group": "neck",
+      "depth": 2,
+      "mirror": true,
+      "colour": "#b0453a",
+      "blurb": "A deep chain of bundles along the underside of the cervical and first thoracic vertebral bodies, flexing the neck downward.",
+      "beef": "제비추리 (jebichuri, 'swallow's tail') in Korea, a prized grilling strip pulled from the inside of the first ribs; elsewhere it is neck trim and goes into the grinder.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.584,
+            0.028,
+            0.742
+          ],
+          "b": [
+            0.84,
+            0.026,
+            0.75
+          ],
+          "w": 0.016,
+          "d": 0.028,
+          "bow": [
+            0,
+            0.004,
+            -0.006
+          ],
+          "ends": 0.4,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "masseter",
+      "name": "Masseter",
+      "latin": "M. masseter",
+      "system": "muscle",
+      "group": "head",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#9e2f26",
+      "blurb": "The chewing muscle on the side of the jaw. A cow ruminates six to eight hours a day, so this is one of the hardest-working muscles on the animal.",
+      "beef": "Cheek meat: joue de bœuf in France, ox cheek in Britain, cachete or barbacoa in Mexico, 머리고기 in Korea. Braised for hours until it collapses into something silky.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.84,
+            0.038,
+            0.79
+          ],
+          "b": [
+            0.918,
+            0.032,
+            0.762
+          ],
+          "w": 0.016,
+          "d": 0.026,
+          "bow": [
+            0,
+            0.006,
+            0
+          ],
+          "ends": 0.4,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "temporalis",
+      "name": "Temporalis",
+      "latin": "M. temporalis",
+      "system": "muscle",
+      "group": "head",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#b04a3e",
+      "blurb": "Fills the temporal fossa on the side of the skull above the eye and closes the jaw with the masseter.",
+      "beef": "Sold with head meat - the small dark nuggets in barbacoa de cabeza and in Korean 머리고기; never a retail cut on its own.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.856,
+            0.03,
+            0.798
+          ],
+          "b": [
+            0.902,
+            0.028,
+            0.79
+          ],
+          "w": 0.012,
+          "d": 0.016,
+          "bow": [
+            0,
+            0.004,
+            0.002
+          ],
+          "ends": 0.4,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "pectoralis-profundus",
+      "name": "Deep pectoral",
+      "latin": "M. pectoralis profundus",
+      "system": "muscle",
+      "group": "thorax",
+      "depth": 1,
+      "mirror": true,
+      "colour": "#8d2a24",
+      "blurb": "The deep breast muscle, running from the sternum and abdominal tunic forward and up onto the humerus; with no collarbone it is one of the slings that carries the animal's front end.",
+      "beef": "The brisket flat or first cut - gros bout de poitrine in France, 양지 in Korea, カタバラ in Japan, peito in Brazil, грудинка in Russia. The whole premise of Texas barbecue and of corned beef.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.492,
+            0.044,
+            0.532
+          ],
+          "b": [
+            0.688,
+            0.048,
+            0.596
+          ],
+          "w": 0.036,
+          "d": 0.03,
+          "bow": [
+            0,
+            0.008,
+            -0.008
+          ],
+          "ends": 0.4,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "pectoralis-superficialis",
+      "name": "Superficial pectoral",
+      "latin": "M. pectoralis superficialis",
+      "system": "muscle",
+      "group": "thorax",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#a13931",
+      "blurb": "The fatty muscle across the point of the breast between the forelegs, holding the limb in against the chest.",
+      "beef": "The brisket point or deckle - 차돌박이 in Korea, sliced paper thin for the grill; burnt ends in the US, and the fattier half of a French gros bout de poitrine.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.65,
+            0.036,
+            0.578
+          ],
+          "b": [
+            0.756,
+            0.028,
+            0.664
+          ],
+          "w": 0.026,
+          "d": 0.028,
+          "bow": [
+            0,
+            0.012,
+            -0.006
+          ],
+          "ends": 0.4,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "rectus-abdominis",
+      "name": "Rectus abdominis",
+      "latin": "M. rectus abdominis",
+      "system": "muscle",
+      "group": "abdomen",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#aa4036",
+      "blurb": "The long strap along the floor of the belly from the pubis to the sternum, crossed by tendinous bands; it holds up the enormous weight of the rumen.",
+      "beef": "This is the flank steak: bavette de flanchet in France, 치마살 in Korea, fraldinha in Brazil, пашина in Russia, thin flank in Britain. Long coarse grain, grilled hard and sliced across.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.152,
+            0.046,
+            0.526
+          ],
+          "b": [
+            0.58,
+            0.044,
+            0.522
+          ],
+          "w": 0.052,
+          "d": 0.024,
+          "bow": [
+            0,
+            0.006,
+            0.004
+          ],
+          "ends": 0.62,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "obliquus-externus-abdominis",
+      "name": "External oblique",
+      "latin": "M. obliquus externus abdominis",
+      "system": "muscle",
+      "group": "abdomen",
+      "depth": 0,
+      "mirror": true,
+      "colour": "#b1483c",
+      "blurb": "The outer of the three sheets of the abdominal wall, its fibres running down and back from the ribs to the linea alba and the hook bone.",
+      "beef": "The outer layer of the flank and plate - flanchet in France, 업진살 in Korea, matambre in Brazil and Argentina, завиток in Russia. Rolled and tied for the pot, or sheeted out for the grill.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.562,
+            0.13,
+            0.632
+          ],
+          "b": [
+            0.276,
+            0.11,
+            0.59
+          ],
+          "w": 0.01,
+          "d": 0.09,
+          "bow": [
+            0,
+            0.012,
+            0.016
+          ],
+          "ends": 0.45,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "obliquus-internus-abdominis",
+      "name": "Internal oblique",
+      "latin": "M. obliquus internus abdominis",
+      "system": "muscle",
+      "group": "abdomen",
+      "depth": 1,
+      "mirror": true,
+      "colour": "#a33a2f",
+      "blurb": "The middle sheet of the belly wall, fanning forward and down from the hook bone to the last ribs; its fibres cross those of the external oblique, which is what makes the abdominal wall strong in every direction.",
+      "beef": "The bavette d'aloyau in France and the flap meat or sirloin flap in the US - カイノミ in Japan, aba de filé in Brazil. Loose-grained, deeply beefy, and treated like a first-class steak despite its grade.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.282,
+            0.102,
+            0.632
+          ],
+          "b": [
+            0.462,
+            0.112,
+            0.668
+          ],
+          "w": 0.01,
+          "d": 0.076,
+          "bow": [
+            0,
+            0.01,
+            0.014
+          ],
+          "ends": 0.45,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "transversus-abdominis",
+      "name": "Transversus abdominis",
+      "latin": "M. transversus abdominis",
+      "system": "muscle",
+      "group": "abdomen",
+      "depth": 2,
+      "mirror": true,
+      "colour": "#b45044",
+      "blurb": "The innermost sheet of the abdominal wall, its fibres running straight up and down; it squeezes the abdomen and is what a cow uses to breathe out hard.",
+      "beef": "The inside skirt steak - the American fajita cut, and the thinner of the two skirts. Sold with the flank or plate; in Japan it goes into the トモバラ.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.292,
+            0.086,
+            0.63
+          ],
+          "b": [
+            0.47,
+            0.094,
+            0.658
+          ],
+          "w": 0.009,
+          "d": 0.064,
+          "bow": [
+            0,
+            0.008,
+            0.01
+          ],
+          "ends": 0.45,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "intercostalis",
+      "name": "Intercostals",
+      "latin": "Mm. intercostales externi et interni",
+      "system": "muscle",
+      "group": "thorax",
+      "depth": 2,
+      "mirror": true,
+      "colour": "#8a2722",
+      "blurb": "The two layers of short muscle filling every space between the ribs; they swing the rib cage open and shut with each breath, thirty times a minute, all the animal's life.",
+      "beef": "Rib finger meat - 갈비살 in Korea, the meat between the bones of a plate short rib, the tendron and plat de côtes in France, ponta de agulha in Brazil.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.482,
+            0.128,
+            0.66
+          ],
+          "b": [
+            0.638,
+            0.126,
+            0.666
+          ],
+          "w": 0.01,
+          "d": 0.094,
+          "bow": [
+            0,
+            0.006,
+            0
+          ],
+          "ends": 0.5,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    },
+    {
+      "id": "diaphragm",
+      "name": "Diaphragm",
+      "latin": "Diaphragma (pars costalis)",
+      "system": "muscle",
+      "group": "thorax",
+      "depth": 2,
+      "mirror": false,
+      "colour": "#b8574a",
+      "blurb": "The dome of muscle and tendon that seals the chest off from the belly and is the engine of breathing: it flattens to draw air in and relaxes to let it out, without ever bearing weight. Its rim is anchored to the last ribs and sternum, its centre is a tendon, and its two pillars reach back under the spine.",
+      "beef": "Its fleshy costal rim is the outside skirt steak - hampe in France, 안창살 in Korea, ハラミ in Japan, диафрагма in Russia. Worked constantly but never loaded, so the grain is long and loose and the flavour almost offal-rich: membrane off, very hot pan, served rare.",
+      "shape": [
+        {
+          "t": "blob",
+          "lumps": [
+            [
+              0.47,
+              0.0,
+              0.664,
+              0.05,
+              0.168,
+              0.156,
+              0,
+              18,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diaphragm-crus",
+      "name": "Diaphragm, crus",
+      "latin": "Diaphragma (crus dextrum)",
+      "system": "muscle",
+      "group": "thorax",
+      "depth": 2,
+      "mirror": true,
+      "colour": "#a5362c",
+      "blurb": "The two pillars of the diaphragm, thick tendinous straps running back from the dome under the spine to the first lumbar vertebrae. They are what the breathing dome pulls against, and they carry none of the animal's weight.",
+      "beef": "The hanger steak - onglet in France, 토시살 in Korea, サガリ in Japan, the butcher's own cut, kept back because there is only one V-shaped piece of it on a carcass. A long, inedible membrane runs down the middle of the V; strip it, grill the two halves hard, and eat them rare.",
+      "shape": [
+        {
+          "t": "fusiform",
+          "a": [
+            0.392,
+            0.034,
+            0.784
+          ],
+          "b": [
+            0.474,
+            0.044,
+            0.662
+          ],
+          "w": 0.02,
+          "d": 0.032,
+          "bow": [
+            0.008,
+            0.004,
+            0
+          ],
+          "ends": 0.3,
+          "bulge": 0.5,
+          "seg": 20
+        }
+      ]
+    }
+  ]
+}
