@@ -1,7 +1,7 @@
 {
  "culture": "United Kingdom",
  "id": "uk",
- "note": "The UK is the best-sourced tradition in this table, because AHDB's Meat Purchasing Guide publishes a page per sub-cut and routinely puts the Latin name in the page title — `Feather – split and fully trimmed (Infraspinatus)`, `Main Topside Muscle (semimembranosus)`, `Clod Shin (Boneless) (Biceps Brachaii)`. That gives UK-native muscle attributions for the whole hind leg and most of the shoulder, without having to bridge through American cut names. Two things it does not give: rib numbers for anything except the fore rib, and any muscle name at all for thick rib, thin rib, brisket, shin or the head. Where a bound is stated it is stated once, in the fore rib spec, and the rest of the rib arithmetic here is derived from it and graded `inferred`. Note also that AHDB serves the same guide from four hostnames — ahdb.org.uk, archive.ahdb.org.uk, horticulture.ahdb.org.uk, potatoes.ahdb.org.uk — with identical content; the URL cited is the one actually fetched.",
+ "note": "The UK is the best-sourced tradition in this table, because AHDB's Meat Purchasing Guide publishes a page per sub-cut and routinely puts the Latin name in the page title — `Feather – split and fully trimmed (Infraspinatus)`, `Main Topside Muscle (semimembranosus)`, `Clod Shin (Boneless) (Biceps Brachaii)`. That gives UK-native muscle attributions for the whole hind leg and most of the shoulder, without having to bridge through American cut names. Two things it does not give: rib numbers for anything except the fore rib, and any muscle name at all for thick rib, thin rib, brisket, shin or the head. Rib numbers appear in exactly two specs — the fore rib is 'ribs 7, 8, 9 and 10' and the sirloin is 'A 3-rib sirloin' — and the rest of the rib arithmetic here is derived from those two and graded `inferred`. Note also that AHDB serves the same guide from four hostnames — ahdb.org.uk, archive.ahdb.org.uk, horticulture.ahdb.org.uk, potatoes.ahdb.org.uk — with identical content; the URL cited is the one actually fetched.",
  "sources": [
   "https://ahdb.org.uk/main-topside-muscle-semimembranosus",
   "https://archive.ahdb.org.uk/silverside-steaks-thin-cut-cut-across-the-grain",
@@ -9,6 +9,7 @@
   "https://ahdb.org.uk/rump-cap-picanha",
   "https://archive.ahdb.org.uk/sirloin-steak-without-d-muscle",
   "https://ahdb.org.uk/fore-rib-bone-in",
+  "https://archive.ahdb.org.uk/sirloin-steaks-standard-trim",
   "https://archive.ahdb.org.uk/rib-eye-roll",
   "https://ahdb.org.uk/trade/beef/steaks-daubes-and-ribs/boneless-ribs-intercostal-muscles",
   "https://archive.ahdb.org.uk/feather-split-and-fully-trimmed-infraspinatus",
@@ -130,10 +131,10 @@
    "sources": [
     {"url": "https://archive.ahdb.org.uk/pave-muscle-thick-flank",
      "supports": ["muscles", "bounds"],
-     "quote": "Separate the Pavé muscle (Vastus Medialis) from the main muscle block"},
+     "quote": "Separate the Pavé muscle (Vastus Medialis) from the main muscle block."},
     {"url": "https://archive.ahdb.org.uk/pave-muscle-thick-flank",
      "supports": ["muscles", "bounds"],
-     "quote": "Remove the muscle running along the femur (Vastus Intermedius)"},
+     "quote": "Remove the muscle running along the femur (Vastus Intermedius)."},
     {"url": "https://archive.ahdb.org.uk/pave-muscle-thick-flank",
      "supports": ["bounds"],
      "quote": "The pavé muscle from the thick flank is positioned next to the topside and is extremely tender."},
@@ -181,8 +182,6 @@
      "note": "the rump cap / picanha — the terminal triangular end of the gluteobiceps, seamed off the rest of the rump; the silverside takes the same muscle behind the aitch bone"},
     {"id": "tensor-fasciae-latae", "role": "major", "extent": "whole", "seam": true,
      "note": "AHDB's 'tail muscle (TFL)', removed from the untrimmed rump before the cap is taken. The American tri-tip, which US practice counts to the bottom sirloin"},
-    {"id": "gluteus-superficialis", "role": "trace", "extent": "whole",
-     "note": "not separately dissectible in cattle — it is fused into the gluteobiceps complex, and is here only because the model carries an id for it"},
     {"id": "longissimus", "role": "trace", "extent": "portion",
      "from": "ilium", "to": "sacrum",
      "note": "the last scrap of loin eye over the ilium, on a rump cut long"},
@@ -222,7 +221,7 @@
      "supports": ["bounds"],
      "quote": "Prepared from a 2-rib bone sirloin with the rump ('D' muscle) section removed. 70 mm wide backstrap is removed. 25 mm tail and fat thickness 10 mm maximum."}
    ],
-   "dispute": "The gluteus medius attribution is bridged, not native: AHDB's rump pages never give a Latin name for the main rump muscle. The bridge is Wikipedia's 'largely equivalent to the American sirloin' plus the Calkins row 'Gluteus medius  Top sirloin', which is two trade-grade steps rather than one, so the grade stays trade and does not rise. The rump cap and the TFL, by contrast, are AHDB's own words. The AHDB sirloin B004 spec is cited for bounds because it is the one place a UK spec pins the rump/sirloin line: the 'D' muscle — the anterior tongue of the gluteus medius that a long-cut sirloin would carry — is defined there as belonging to the rump. Finally, the gluteus superficialis is listed as trace only because the model has an id for it; FINDINGS.md establishes that cattle have no separately dissectible superficial gluteal, so no source will ever name it for this cut."
+   "dispute": "The gluteus medius attribution is bridged, not native: AHDB's rump pages never give a Latin name for the main rump muscle. The bridge is Wikipedia's 'largely equivalent to the American sirloin' plus the Calkins row 'Gluteus medius  Top sirloin', which is two trade-grade steps rather than one, so the grade stays trade and does not rise. The rump cap and the TFL, by contrast, are AHDB's own words. The AHDB sirloin B004 spec is cited for bounds because it is the one place a UK spec pins the rump/sirloin line: the 'D' muscle — the anterior tongue of the gluteus medius that a long-cut sirloin would carry — is defined there as belonging to the rump. The model's `gluteus-superficialis` is deliberately absent from this cut and from the whole file: FINDINGS.md establishes that cattle have no separately dissectible superficial gluteal — it is fused into the gluteobiceps and recognisable only by fibre direction — so no source can name it, and the biceps femoris entry above already accounts for that mass."
   },
   {
    "id": "sirloin",
@@ -264,6 +263,9 @@
     {"url": "https://archive.ahdb.org.uk/sirloin-steak-without-d-muscle",
      "supports": ["muscles", "bounds"],
      "quote": "Prepared from a 2-rib bone sirloin with the rump ('D' muscle) section removed. 70 mm wide backstrap is removed. 25 mm tail and fat thickness 10 mm maximum."},
+    {"url": "https://archive.ahdb.org.uk/sirloin-steaks-standard-trim",
+     "supports": ["bounds"],
+     "quote": "A 3-rib sirloin. Flank remove 40 mm from the tip of the eye muscle. 25 mm backstrap is removed and fat levels not to exceed 10–15 mm."},
     {"url": "https://ahdb.org.uk/fore-rib-bone-in",
      "supports": ["bounds"],
      "quote": "The fore rib contains ribs 7, 8, 9 and 10 counting from the neck upwards. Maximum 60 mm tail. Maximum fat thickness 10 mm."},
@@ -274,7 +276,7 @@
      "supports": ["muscles"],
      "quote": "5.2.1.6 Contre-filet : renferme trois (3) muscles : le gluteus medius; le longissimus dorsi; et le multifidus dorsi"}
    ],
-   "dispute": "How many wing ribs the sirloin carries is not settled even within AHDB. The Sirloin B004 spec says '2-rib bone sirloin'; the V005 standard-trim spec is written for a 3-rib sirloin; the atlas's own cut text says three. Since the fore rib is fixed at ribs 7-10 by the B001 spec, a three-rib sirloin begins at rib 11 and a two-rib sirloin at rib 12. Rib 11 is taken here as the outer bound, with the spread recorded rather than averaged away. The false-friend problem is exactly why the bound matters more than the name: `longissimus` alone cannot tell a British sirloin from an American one, and `from rib-11 to ilium` can — an American short loin would start at rib 13 and an American sirloin would not contain the longissimus as its defining muscle at all. Gluteus medius is listed as a trace only, on the strength of AHDB explicitly assigning the 'D' muscle to the rump; the CFIA contre-filet quote, which does list the gluteus, describes a Canadian cut whose line sits further back, and is cited here for the longissimus/multifidus pairing rather than for the gluteus."
+   "dispute": "How many wing ribs the sirloin carries is not settled even within AHDB. The Sirloin B004 spec says '2-rib bone sirloin'; the V005 standard-trim spec opens 'A 3-rib sirloin'; the atlas's own cut text says three. Since the fore rib is fixed at ribs 7-10 by the B001 spec, a three-rib sirloin begins at rib 11 and a two-rib sirloin at rib 12. Rib 11 is taken here as the outer bound, with the spread recorded rather than averaged away. The false-friend problem is exactly why the bound matters more than the name: `longissimus` alone cannot tell a British sirloin from an American one, and `from rib-11 to ilium` can — an American short loin would start at rib 13 and an American sirloin would not contain the longissimus as its defining muscle at all. Gluteus medius is listed as a trace only, on the strength of AHDB explicitly assigning the 'D' muscle to the rump; the CFIA contre-filet quote, which does list the gluteus, describes a Canadian cut whose line sits further back, and is cited here for the longissimus/multifidus pairing rather than for the gluteus."
   },
   {
    "id": "fillet",
@@ -318,10 +320,7 @@
     {"id": "obliquus-externus-abdominis", "role": "major", "extent": "portion",
      "from": "rib-13", "to": "ilium"},
     {"id": "diaphragm-crus", "role": "minor", "extent": "whole",
-     "note": "the thick skirt = onglet = the two crura, the American hanger. It is attached to the last rib and the front of the lumbar vertebrae, so it falls in this region, but AHDB sells it as offal (Offal B002), not as part of any primal"},
-    {"id": "diaphragm", "role": "trace", "extent": "portion",
-     "from": "rib-13", "to": "seam",
-     "note": "only the caudal edge of the costal sheet; the bulk of it belongs with the rib plate, see `thin-rib`"}
+     "note": "the thick skirt = onglet = the two crura, the American hanger. It is attached to the last rib and the front of the lumbar vertebrae, so it falls in this region, but AHDB sells it as offal (Offal B002), not as part of any primal. The costal sheet of the same diaphragm is given entirely to `thin-rib`"}
    ],
    "bone_in": false,
    "evidence": "contested",
@@ -358,7 +357,7 @@
      "supports": ["muscles"],
      "quote": "Obliquus internus abdominus  Sirloin butt flap"}
    ],
-   "dispute": "The UK skirt trio is the interesting case here, and only two thirds of it is settled.\n\nTHICK SKIRT: settled. It is the onglet, and the onglet is the crura. Scotch Beef PGI describes the thick skirt as an internal organ hanging below the heart off the diaphragm; Wikipedia's hanger-steak entry gives 'skirt (UK)' as a synonym and pins the anatomy to 'the crura, or legs, of the diaphragm … attached to the last rib and to the front of several of the lumbar vertebrae'. That is `diaphragm-crus`, and it agrees with the French onglet finding already in FINDINGS.md. So the British naming does NOT swap onglet and hampe, despite 'thick skirt' sounding as though it ought to mean the thicker costal sheet. FINDINGS.md's warning that UK 'thick skirt' muddies the onglet/hampe pair is about the name, not about the anatomy: the anatomy comes out the same as the French.\n\nTHIN SKIRT: settled, and settled by AHDB itself, whose page is titled with the Latin — 'Inside Skirt (Transversus Abdominis)'.\n\nGOOSE SKIRT: not settled, and this is why the cut is graded contested. (a) The common trade answer is the rectus abdominis, the muscle Calkins calls simply 'Flank'. (b) Great British Chefs conflates it both with bavette and with thick flank — 'Bavette – also known as thick flank or goose skirt' — which cannot be right, since AHDB's own thick flank is the quadriceps in the hind leg while its bavette is Thin Flank B006 in the belly, and those are not the same muscle or the same quarter of the animal. (c) Some UK retail copy calls goose skirt part of the diaphragm, which would collide head-on with thick skirt. AHDB's own Goose Skirt page (Thin Flank B002) settles nothing: it says only that the cut is trimmed of gristle and fat, and names no muscle at all. (a) is taken as the entry, with (b) and (c) recorded rather than adopted.\n\nA fourth point, which is an absence rather than a conflict: the costal diaphragm — the American outside skirt, the French hampe — has no distinct British name. AHDB's 'Skirt Steaks (diaphragm)' is filed under Offal B002 and trims the whole diaphragm as one item without separating the sheet from the crura. So `diaphragm` appears here only as a caudal trace and carries its real weight in `thin-rib`.\n\nBounds: inferred throughout. No UK spec gives a rib or vertebral boundary for the thin flank; the last rib is used as the cranial end because that is where the carcass is quartered."
+   "dispute": "The UK skirt trio is the interesting case here, and only two thirds of it is settled.\n\nTHICK SKIRT: settled. It is the onglet, and the onglet is the crura. Scotch Beef PGI describes the thick skirt as an internal organ hanging below the heart off the diaphragm; Wikipedia's hanger-steak entry gives 'skirt (UK)' as a synonym and pins the anatomy to 'the crura, or legs, of the diaphragm … attached to the last rib and to the front of several of the lumbar vertebrae'. That is `diaphragm-crus`, and it agrees with the French onglet finding already in FINDINGS.md. So the British naming does NOT swap onglet and hampe, despite 'thick skirt' sounding as though it ought to mean the thicker costal sheet. FINDINGS.md's warning that UK 'thick skirt' muddies the onglet/hampe pair is about the name, not about the anatomy: the anatomy comes out the same as the French.\n\nTHIN SKIRT: settled, and settled by AHDB itself, whose page is titled with the Latin — 'Inside Skirt (Transversus Abdominis)'.\n\nGOOSE SKIRT: not settled, and this is why the cut is graded contested. (a) The common trade answer is the rectus abdominis, the muscle Calkins calls simply 'Flank'. (b) Great British Chefs conflates it both with bavette and with thick flank — 'Bavette – also known as thick flank or goose skirt' — which cannot be right, since AHDB's own thick flank is the quadriceps in the hind leg while its bavette is Thin Flank B006 in the belly, and those are not the same muscle or the same quarter of the animal. (c) Some UK retail copy calls goose skirt part of the diaphragm, which would collide head-on with thick skirt. AHDB's own Goose Skirt page (Thin Flank B002) settles nothing: it says only that the cut is trimmed of gristle and fat, and names no muscle at all. (a) is taken as the entry, with (b) and (c) recorded rather than adopted.\n\nA fourth point, which is an absence rather than a conflict: the costal diaphragm — the American outside skirt, the French hampe — has no distinct British name. AHDB's 'Skirt Steaks (diaphragm)' is filed under Offal B002 and trims the whole diaphragm as one item without separating the sheet from the crura. So the costal sheet is given entirely to `thin-rib` and does not appear here at all, even though its caudal edge does reach the flank — a `whole` has to be exclusive if these bounds are ever to carve geometry.\n\nBounds: inferred throughout. No UK spec gives a rib or vertebral boundary for the thin flank; the last rib is used as the cranial end because that is where the carcass is quartered."
   },
   {
    "id": "fore-rib",
@@ -420,12 +419,9 @@
     {"id": "serratus-ventralis", "role": "minor", "extent": "portion",
      "from": "rib-06", "to": "rib-10"},
     {"id": "obliquus-externus-abdominis", "role": "minor", "extent": "portion",
-     "from": "rib-06", "to": "rib-10"},
-    {"id": "rectus-abdominis", "role": "trace", "extent": "portion",
-     "from": "rib-06", "to": "rib-10",
-     "note": "the cranial tip only; the thin flank takes the strap"},
+     "from": "rib-06", "to": "rib-13"},
     {"id": "transversus-abdominis", "role": "trace", "extent": "portion",
-     "from": "rib-06", "to": "rib-10"},
+     "from": "rib-06", "to": "rib-13"},
     {"id": "pectoralis-profundus", "role": "trace", "extent": "portion",
      "from": "sternum", "to": "seam",
      "note": "the caudal tail of it; the brisket takes the bulk"},
@@ -449,7 +445,7 @@
      "supports": ["bounds"],
      "quote": "The fore rib contains ribs 7, 8, 9 and 10 counting from the neck upwards. Maximum 60 mm tail. Maximum fat thickness 10 mm."}
    ],
-   "dispute": "No UK source names a muscle for the thin rib as a primal — AHDB has no thin rib page at all. The entry is assembled from the boneless-rib (intercostal) page, which is filed under Fore Rib and describes the same ribs from below, and from the Offal B002 skirt page. Bounds are inferred: rib 6 at the front because the atlas's thin rib sits forward of the fore rib's own rib 7, rib 10 at the back because AHDB's fore rib stops there. Placing the costal diaphragm here rather than in `thin-flank` is a judgement call: the diaphragm attaches to ribs 8-13 so it straddles both, but the sheet's mass lies over the rib plate and only its caudal edge reaches the flank. AHDB itself makes no such distinction — it trims the whole diaphragm, crura and all, as one offal item."
+   "dispute": "No UK source names a muscle for the thin rib as a primal — AHDB has no thin rib page at all. The entry is assembled from the boneless-rib (intercostal) page, which is filed under Fore Rib and describes the same ribs from below, and from the Offal B002 skirt page. Bounds are inferred: rib 6 at the front because the atlas's thin rib sits forward of the fore rib's own rib 7, rib 10 at the back for the rib bones themselves, because AHDB's fore rib stops there — but the belly-wall sheets are carried back to rib 13, since the thin flank's own entries only begin behind the last rib and something has to own ribs 10 to 13. us.json's short_plate makes the same call with the same muscles. Placing the costal diaphragm here rather than in `thin-flank` is a judgement call: the diaphragm attaches to ribs 8-13 so it straddles both, but the sheet's mass lies over the rib plate and only its caudal edge reaches the flank. AHDB itself makes no such distinction — it trims the whole diaphragm, crura and all, as one offal item."
   },
   {
    "id": "thick-rib",
@@ -530,13 +526,13 @@
      "quote": "For this product the spider muscle (Serratus ventralis) must be matured for a minimum of 14 days."},
     {"url": "https://archive.ahdb.org.uk/denver-steak-large-cut-across-the-grain",
      "supports": ["muscles", "bounds"],
-     "quote": "Follow the natural seam of the top muscles of the chuck roll starting with the chuck eye remove the crest muscle (Rhomboideus)"},
+     "quote": "Follow the natural seam of the top muscles of the chuck roll starting with the chuck eye remove the crest muscle (Rhomboideus)."},
     {"url": "https://ahdb.org.uk/neck-and-chuck-roll-seam-cut-group-of-neck-and-feather-bone-muscles",
      "supports": ["muscles"],
-     "quote": "Remove the small Rib Eye Fillet (Longissimus dorsi)"},
+     "quote": "Remove the small Rib Eye Fillet (Longissimus dorsi)."},
     {"url": "https://ahdb.org.uk/neck-and-chuck-roll-seam-cut-group-of-neck-and-feather-bone-muscles",
      "supports": ["muscles"],
-     "quote": "Remove the Splenius muscle following natural seams"},
+     "quote": "From the remainder remove the Splenius muscle by…"},
     {"url": "https://bovine.unl.edu/muscle-descriptions/20",
      "supports": ["muscles"],
      "quote": "Supraspinatus — Common Name: Mock tender, Chuck tender, Scotch tender, Chuck fillet"},
@@ -596,7 +592,7 @@
      "quote": "The clod shin is a single muscle from the shoulder with a similar grain to shin, hence the name. It is ideal for slow or sous vide cooking."},
     {"url": "https://ahdb.org.uk/neck-and-chuck-roll-seam-cut-group-of-neck-and-feather-bone-muscles",
      "supports": ["muscles"],
-     "quote": "Remove the neck chain muscle (Longus colli)"},
+     "quote": "Start by removing the neck chain muscle (Longus colli)."},
     {"url": "https://potatoes.ahdb.org.uk/clod-flat-muscle-brachialis",
      "supports": ["muscles"],
      "quote": "This cut is from the shoulder and is situated next to the Baby LMC."},
