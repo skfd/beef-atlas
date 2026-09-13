@@ -16,7 +16,7 @@
 }
 </script>
 </head>
-<body>
+<body data-mode="cuts">
 
 <div id="stage">
   <canvas id="view"></canvas>
@@ -29,6 +29,11 @@
   <p class="tagline">One animal. Seven ways of taking it apart.</p>
 </header>
 
+<nav id="modes" aria-label="Which model">
+  <button data-mode="cuts" aria-current="true">Cuts</button>
+  <button data-mode="anatomy">Anatomy</button>
+</nav>
+
 <nav id="cultures" aria-label="Butchery tradition"></nav>
 
 <aside id="legend" class="panel">
@@ -38,6 +43,9 @@
   </div>
   <p id="blurb"></p>
   <ol id="cut-list"></ol>
+  <h2 id="part-count">Anatomy</h2>
+  <p id="anatomy-loading" hidden>Building the animal&hellip;</p>
+  <ol id="part-list"></ol>
 </aside>
 
 <aside id="detail" class="panel" hidden>
@@ -46,10 +54,28 @@
 </aside>
 
 <div id="controls">
-  <label class="slider">
+  <label class="slider" id="c-explode">
     <span>Explode</span>
     <input id="explode" type="range" min="0" max="100" value="0" aria-label="Explode the carcass">
   </label>
+  <div id="anat-controls">
+    <div class="layers" role="group" aria-label="Layers">
+      <label class="check"><input id="layer-skin" type="checkbox" checked><span>Hide</span></label>
+      <label class="check"><input id="layer-muscle" type="checkbox" checked><span>Muscle</span></label>
+      <label class="check"><input id="layer-viscera" type="checkbox" checked><span>Organs</span></label>
+      <label class="check"><input id="layer-skeleton" type="checkbox" checked><span>Bone</span></label>
+    </div>
+    <label class="slider">
+      <span>Peel</span>
+      <input id="peel" type="range" min="0" max="2" step="1" value="0"
+             aria-label="Strip the superficial muscle layers away">
+    </label>
+    <label class="slider">
+      <span>Cutaway</span>
+      <input id="cutaway" type="range" min="0" max="100" value="0"
+             aria-label="Slice the near side of the animal away">
+    </label>
+  </div>
   <label class="check">
     <input id="spin" type="checkbox">
     <span>Spin</span>

@@ -149,9 +149,17 @@ def main():
         obj["system"] = spec.get("system", "")
         obj["depth"] = spec.get("depth", 0)
         made.append(obj)
+        vs = obj.data.vertices
+        # Where the part actually ended up, in frame units. The page needs this to
+        # work out which cuts a muscle falls inside, using the same rectangle
+        # overlap it already uses to line up one tradition against another -- so
+        # the muscle-to-cut correspondence is measured off the model rather than
+        # typed in and left to rot.
+        bbox = [[round(min(v.co[i] for v in vs), 4) for i in range(3)],
+                [round(max(v.co[i] for v in vs), 4) for i in range(3)]]
         report.append({"id": spec["id"], "system": spec.get("system"),
                        "faces": len(obj.data.polygons),
-                       "outside": round(outside, 4),
+                       "outside": round(outside, 4), "bbox": bbox,
                        "seconds": round(time.time() - t0, 1)})
         flag = "  <-- OUTSIDE THE HIDE" if outside > 0.02 else ""
         print(f"PART {spec['id']:<26} {report[-1]['faces']:>6} faces  "
@@ -204,6 +212,10 @@ def main():
     manifest = os.path.join(ROOT, "build", "anatomy_report.json")
     os.makedirs(os.path.dirname(manifest), exist_ok=True)
     open(manifest, "w", encoding="utf-8").write(json.dumps(out, indent=2))
+    if not opts["only"] and not opts["part"]:
+        sys.path.insert(0, os.path.join(ROOT, "tools"))
+        import make_anatomy_data
+        make_anatomy_data.write(ROOT)
     print("ANATOMY_DONE " + json.dumps({k: v for k, v in out.items() if k != "detail"}))
 
 

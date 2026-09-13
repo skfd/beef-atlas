@@ -380,3 +380,126 @@ html, body {
   .slider input { width: 88px; }
   #colophon { display: none; }
 }
+
+/* ---------- model switch: the schematic cow, or what it is made of ---------- */
+
+#modes {
+  position: fixed;
+  top: 20px;
+  right: 26px;
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  background: var(--panel);
+  border: 1px solid var(--panel-line);
+  border-radius: 999px;
+  backdrop-filter: blur(14px);
+  z-index: 4;
+}
+
+#modes button {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--ink-dim);
+  font: inherit;
+  font-size: 13px;
+  padding: 7px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s, color 0.15s;
+}
+#modes button:hover { color: var(--ink); }
+#modes button[aria-current="true"] { background: var(--accent); color: #fff; }
+
+/* Only one of the two legends and one of the two control sets at a time. */
+body[data-mode="cuts"] #part-count,
+body[data-mode="cuts"] #part-list,
+body[data-mode="cuts"] #anat-controls,
+body[data-mode="anatomy"] #legend-title,
+body[data-mode="anatomy"] #blurb,
+body[data-mode="anatomy"] #cut-list,
+body[data-mode="anatomy"] #c-explode { display: none; }
+
+#part-count {
+  font-family: var(--serif);
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+#anatomy-loading {
+  margin: 0 0 8px;
+  font-size: 12.5px;
+  color: var(--ink-dim);
+}
+
+#part-list {
+  list-style: none;
+  margin: 0;
+  padding: 0 10px 0 0;
+  overflow-y: auto;
+  flex: 1;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 233, 214, 0.2) transparent;
+}
+
+#part-list li {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 6px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 1.25;
+  transition: background 0.12s;
+}
+#part-list li:hover { background: rgba(255, 233, 214, 0.08); }
+#part-list li[aria-selected="true"] { background: rgba(232, 96, 60, 0.22); }
+/* Lit by a cut selected over in the schematic model, not by being picked here. */
+#part-list li.lit { background: rgba(232, 96, 60, 0.12); }
+#part-list li.lit .cut-native { color: #ffd0bf; }
+
+#part-list li.part-head {
+  cursor: default;
+  padding: 12px 8px 4px;
+  font-size: 11px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+#part-list li.part-head:hover { background: none; }
+
+#anat-controls {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+#anat-controls .layers {
+  display: flex;
+  gap: 10px;
+}
+
+#peel { width: 68px; }
+
+#legend.collapsed #part-count,
+#legend.collapsed #part-list,
+#legend.collapsed #anatomy-loading { display: none; }
+
+.elsewhere.muscles .el-flag {
+  min-width: 34px;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+.elsewhere.muscles .el-pct { font-style: italic; color: var(--ink-faint); }
+
+.see-anatomy { margin: 2px 0 4px; padding: 0; }
+
+@media (max-width: 900px) {
+  #modes { top: auto; bottom: 76px; right: 12px; }
+  #anat-controls { gap: 8px; flex-wrap: wrap; }
+  #anat-controls .layers { gap: 6px; }
+}
