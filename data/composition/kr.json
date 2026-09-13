@@ -1,0 +1,718 @@
+{
+ "culture": "Korea",
+ "id": "kr",
+ "note": "Korea is the tradition with a real cut-to-muscle law behind it, and this pass reached it. 「소·돼지 식육의 표시방법 및 부위 구분기준」 (식품의약품안전처고시 제2019-113호, 시행 2019. 12. 1.) [별표 3] 쇠고기 및 돼지고기의 부위별 분할정형기준 gives, for each of the 10 대분할 and 39 소분할 cuts, a 분할정형기준 paragraph naming the constituent muscles in Korean anatomical terms with the Sino-Korean term in parentheses — 배쪽톱니근(복거근), 가시아래근(극하근), 긴목근(경장근). Almost every Korean entry below is therefore `standard` rather than `trade`. HOW IT WAS REACHED, because FINDINGS.md records law.go.kr as JS-gated and that is only half true: the landing page `admRulInfoP.do?admRulSeq=2100000184120` is indeed an empty JS shell, but `admRulLsInfoR.do?admRulSeq=2100000184120` returns the 본문 as plain text, `admRulBylInfoR.do?admRulSeq=2100000184120` lists the four 별표, and `admRulBylContentsInfoR.do?bylSeq=2026095` returns a stub containing eleven print-image URLs of the form `flDownload.do?flSeq=52030011`. Those images fetch cleanly with a Referer header (they are Windows BMPs served as image/gif) and are legible when upscaled; the .hwp viewer path beside them is 403/404. The Korean quotes attributed to law.go.kr below are transcribed by eye from those page bitmaps, with the load-bearing rows re-read at higher zoom to check the hangul — pages 1-3 are the 대분할 table, pages 4-7 the 소분할 table, pages 8-11 are pork. Run-in spacing in the original (the 고시 is typeset with wide inter-word gaps) is normalised to single spaces and the 부위명칭 cell is prefixed to the 분할정형기준 cell so each quote says which cut it defines; nothing else is changed, and translations are kept out of `quote` and put in `note`. The meatlab and ko.wikipedia quotes were taken from raw page source rather than from a summarising fetch, and every one was string-matched back against that source before being written here. BOUNDS CONVENTION: the 고시 numbers thoracic vertebrae (제N등뼈/흉추) where this model has one `thoracic-vertebrae` id but thirteen individual ribs, so 제N등뼈 is written as `rib-NN` throughout — T6 to T9 for 꽃등심살 becomes rib-06 to rib-09. Where the 고시 says 근막을 따라 분리 the entry carries `seam: true`. Several Korean cuts are defined by bone and by shape and name no muscle at all — 차돌박이 is 'ribs 1 to 7, about 15 cm wide, including the hard white fat', 갈비살 is 'the 갈비 with the bones taken out', 앞사태 is 'the several muscles wrapping the radius-ulna' — and those are graded honestly rather than filled in with Latin.",
+ "sources": [
+  "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+  "https://www.meatlab.co.kr/blogPost/grilling_theory_9",
+  "https://www.meatlab.co.kr/blogPost/grilling_theory_10",
+  "https://www.meatlab.co.kr/blogPost/grilling_theory_11",
+  "https://ko.wikipedia.org/wiki/%EC%A0%9C%EB%B9%84%EC%B6%94%EB%A6%AC",
+  "https://ko.wikipedia.org/wiki/%EC%95%88%EC%B0%BD%EC%82%B4",
+  "https://www.nationalbeef.com/product/71292/beef-rib-finger-meat-2/",
+  "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf"
+ ],
+ "cuts": [
+  {
+   "id": "ansim",
+   "muscles": [
+    {"id": "psoas-major", "role": "defining", "extent": "whole",
+     "note": "큰허리근(대요근); the whole tenderloin is pulled, head and all"},
+    {"id": "psoas-minor", "role": "major", "extent": "whole",
+     "note": "작은허리근(소요근); the Korean spec keeps the side strap in, where the US trim spec 189A takes it off"}
+   ],
+   "unmodelled": [
+    {"latin": "M. iliacus", "role": "minor",
+     "where": "fused with the psoas major against the ilium; the 고시 calls it 엉덩근(장골근) in the 안심살 row and 장골허리근(엉덩근) in the 안심 primal row, i.e. the iliopsoas"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles"],
+     "quote": "안심살 큰허리근(대요근), 작은허리근(소요근), 엉덩근(장골근)으로 구성되며 허리뼈(요추)와의 결합조직 및 표면지방을 제거하여 정형한 것"},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["bounds"],
+     "quote": "안심 허리뼈(요추) 안쪽의 신장지방을 분리한 후 두덩뼈(치골)아랫부분과 평행으로 안심머리 부분을 절단한 다음, 엉덩뼈(장골) 및 허리뼈(요추)를 따라 장골허리근(엉덩근), 작은허리근(소요근) 및 큰허리근(대요근)을 절개하고 지방덩어리를 제거 정형한다."},
+    {"url": "https://www.meatlab.co.kr/blogPost/grilling_theory_10",
+     "supports": ["muscles"],
+     "quote": "안심은 허리뼈 안쪽에서 뻗어나와 골반을 지나 넓적다리뼈 위쪽으로 이어지는 큰허리근 및 작은허리근(psoas major/minor)을 말한다."}
+   ],
+   "dispute": null
+  },
+  {
+   "id": "deungsim",
+   "muscles": [
+    {"id": "longissimus", "role": "defining", "extent": "portion",
+     "from": "rib-01", "to": "rib-13",
+     "note": "등가장긴근(배최장근). The Korean 등심 runs the full thirteen thoracic segments — it is the US chuck eye roll plus the ribeye in one primal, which is why 윗등심살 (T1-T5) is sold in Korea as loin and in the US as chuck"},
+    {"id": "serratus-ventralis", "role": "major", "extent": "portion",
+     "from": "rib-01", "to": "rib-05", "seam": true,
+     "note": "the 살치살 cap, seamed off the longissimus over 윗등심살; the 고시 counts it as part of 등심, not of 앞다리"},
+    {"id": "spinalis-dorsi", "role": "major", "extent": "portion",
+     "from": "rib-01", "to": "rib-13",
+     "note": "the ribeye cap. The 고시 does not enumerate it for 등심; it is here from anatomy and from the 떡심 and 새우살 the Korean trade describes riding on the eye"},
+    {"id": "multifidus", "role": "minor", "extent": "portion",
+     "from": "rib-01", "to": "rib-13"},
+    {"id": "iliocostalis", "role": "minor", "extent": "portion",
+     "from": "rib-01", "to": "rib-13"},
+    {"id": "intercostalis", "role": "trace", "extent": "portion",
+     "from": "rib-01", "to": "rib-13",
+     "note": "only what stays on the eye above the 갈비 cut, which the 고시 places within 5 cm of the lateral edge of the longissimus"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles", "bounds"],
+     "quote": "등심 도체의 마지막 등뼈(흉추)와 제1허리뼈(요추)사이를 직선으로 절단하고, 등가장긴근(배최장근)의 바깥쪽 선단 5cm이내에서 2분체 분할정중선과 평행으로 절개하여 갈비 부위와 분리한 후, 등뼈(흉추)와 목뼈(경추)를 발골하고 제7목뼈와 제1등뼈(흉추)사이에서 2분체 분할정중선과 수직으로 절단하여 생산한다. 어깨뼈(견갑골) 바깥쪽의 넓은등근(광배근)은 앞다리부위에 포함시켜 제외시키고, 과다한 지방덩어리를 제거 정형하며 윗등심살, 꽃등심살, 아래등심살, 살치살이 포함된다."},
+    {"url": "https://www.meatlab.co.kr/blogPost/grilling_theory_9",
+     "supports": ["muscles"],
+     "quote": "등심에서 가장 중심이 되는 동그란 근육이 사람으로 치면 척추기립근의 중심을 이루는 등가장긴근(longissimus dorsi)에 해당한다."}
+   ],
+   "dispute": "The 고시 names exactly one muscle for the 등심 primal — 등가장긴근(배최장근) — and one exclusion, 넓은등근(광배근), which it sends to 앞다리 as 갈비덧살. The serratus ventralis entry is standard because the 살치살 subcut row names it and puts 살치살 inside 등심. Spinalis, multifidus, iliocostalis and the intercostal trace are inferred from the position of the cut, not from the regulation, so the muscle list is standard at its core and inferred at its edges. Note the front boundary: the Korean 등심 starts at the 7th cervical / 1st thoracic joint and so swallows what the US calls the chuck eye roll — meatlab puts it plainly, 윗등심 부위는 한국에서는 등심인데, 미국에서는 목심(Chuck eye roll)으로 분류된다."
+  },
+  {
+   "id": "kkotdeungsim",
+   "muscles": [
+    {"id": "longissimus", "role": "defining", "extent": "portion",
+     "from": "rib-06", "to": "rib-09",
+     "note": "꽃등심살 is defined purely as a rib span of the same muscle: T6 to T9. The US ribeye is T6-T12, so the Korean 꽃등심 is the front two-thirds of it and 아래등심살 (T10-T13) is the rest"},
+    {"id": "spinalis-dorsi", "role": "major", "extent": "portion",
+     "from": "rib-06", "to": "rib-09", "seam": true,
+     "note": "the 떡심-bearing cap; meatlab uses the presence of the 떡심, the yellow nuchal-ligament cord, to tell 꽃등심 and 윗등심 from 아래등심"},
+    {"id": "multifidus", "role": "minor", "extent": "portion",
+     "from": "rib-06", "to": "rib-09"},
+    {"id": "iliocostalis", "role": "minor", "extent": "portion",
+     "from": "rib-06", "to": "rib-09"},
+    {"id": "serratus-ventralis", "role": "trace", "extent": "portion",
+     "from": "rib-06", "to": "rib-09",
+     "note": "the lifter meat below the eye; the 살치살 proper is in front of this, over T1-T5"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["bounds"],
+     "quote": "꽃등심살 대분할된 등심부위에서 제5~제6등뼈(흉추)사이와 제9~제10등뼈(흉추)사이를 2분체 분할정중선과 수직으로 절단하여 제6등뼈(흉추)에서 제9등뼈(흉추)까지의 부위를 정형한 것"},
+    {"url": "https://www.meatlab.co.kr/blogPost/grilling_theory_9",
+     "supports": ["bounds"],
+     "quote": "참고로 한우 꽃등심은 등뼈 6~9번에 해당하며, 등뼈 10~13까지는 아래등심인데"}
+   ],
+   "dispute": "This is the clean case for the whole table: the Korean regulation identifies 꽃등심살 by nothing but a pair of saw lines on the vertebral column, T5/T6 and T9/T10, and names no muscle at all. The longissimus entry is standard because the parent 등심 row names 등가장긴근(배최장근) for the primal and this is a sub-span of it; the accompanying muscles are inferred from position. A muscle list alone could not distinguish 꽃등심살, 윗등심살 and 아래등심살 — only the bounds can, which is exactly the argument SCHEMA.md makes for per-muscle from/to."
+  },
+  {
+   "id": "salchisal",
+   "muscles": [
+    {"id": "serratus-ventralis", "role": "defining", "extent": "portion",
+     "from": "rib-01", "to": "rib-05", "seam": true,
+     "note": "배쪽톱니근(복거근). The same muscle is the US Denver steak / chuck flap and the Japanese ザブトン; 살치살 is the dorsal end of that fan, seamed off the longissimus over 윗등심살"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles", "bounds"],
+     "quote": "살치살 윗등심살의 앞다리부위를 분리한 쪽에 붙어있는 배쪽톱니근(복거근)으로 윗등심살부위에서 등가장긴근(배최장근)과의 근막을 따라 분리하여 정형한 것"},
+    {"url": "https://www.meatlab.co.kr/blogPost/grilling_theory_11",
+     "supports": ["muscles"],
+     "quote": "정식 명칭은 배톱니근(serratus ventralis)이라는 근육으로, 옆구리 쪽 갈비뼈에서 팔을 향해 뻗어있는 근육을 말한다."},
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Serratus ventralis  Boneless short ribs; Inside chuck; Underblade"}
+   ],
+   "dispute": "This entry overrides the brief, which said to grade 살치살 `contested` on the strength of FINDINGS.md's note that the Korean regulation defines it by shape and position and names no muscle. The current regulation does name a muscle. 식품의약품안전처고시 제2019-113호 [별표 3], quoted above and re-read at high zoom to check the hangul, says 배쪽톱니근(복거근) — serratus ventralis — and pins the seam to the fascia against 등가장긴근(배최장근). The shape-only wording FINDINGS quotes (윗등심살 앞부분에 붙어 있는 삼각형 모양의 근육을 분리하여 정형한 것) is not the current text; it belongs to an older notice, and law.go.kr's admRulSeq=2894 is a different instrument again (농림부고시 제2007-82호, 식육의 부위별·등급별 및 종류별 구분방법). The remaining dissent is thin: namu.wiki is reported to say spinalis and is 403, so no quotable text exists; and this atlas's own cut blurb in cuts_kr.json describes 살치살 as the spinalis dorsi. Both are outweighed by a government specification and a trade source agreeing on serratus ventralis. The confusion is honest geography — 살치살 sits where the chuck flap and the rib cap physically meet — and the Korean trade's name for the muscle wrapping the eye is 새우살, not 살치살. Recorded here, not adopted."
+  },
+  {
+   "id": "chaekkeut",
+   "muscles": [
+    {"id": "longissimus", "role": "defining", "extent": "portion",
+     "from": "rib-13", "to": "sacrum",
+     "note": "허리최장근(요최장근) — the lumbar continuation of the same muscle that is 등심 in front of the last thoracic vertebra"},
+    {"id": "iliocostalis", "role": "major", "extent": "portion",
+     "from": "rib-13", "to": "sacrum", "note": "엉덩갈비근(장늑근)"},
+    {"id": "multifidus", "role": "major", "extent": "portion",
+     "from": "rib-13", "to": "sacrum", "note": "뭇갈래근(다열근)"},
+    {"id": "obliquus-externus-abdominis", "role": "minor", "extent": "portion",
+     "from": "lumbar-vertebrae", "to": "ilium",
+     "note": "the 고시 requires the cut over the top of the ilium to be placed so that 배바깥경사근(외복사근) is included"},
+    {"id": "quadratus-lumborum", "role": "trace", "extent": "portion",
+     "from": "rib-13", "to": "sacrum"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles"],
+     "quote": "채끝살 허리최장근(요최장근), 엉덩갈비근(장늑근), 뭇갈래근(다열근)으로 구성되며 대분할 채끝부위와 같은 요령으로 등심에서 분리하여 정형한 것"},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["bounds"],
+     "quote": "채끝 마지막 등뼈(흉추)와 제1허리뼈(요추)사이에서 제13갈비뼈(늑골)를 따라 절단하고 마지막 허리뼈(요추)와 엉덩이뼈(천추골)사이를 절개한 후 엉덩뼈(장골)상단을 배바깥경사근(외복사근)이 포함되도록 절단하며, 제13갈비뼈(늑골) 끝부분에서 복부 절개선과 평행으로 절단하고, 등가장긴근(배최장근)의 바깥쪽 선단 5cm이내에서 2분체 분할정중선과 평행으로 치마양지부위를 절단·분리해내며, 과다한 지방을 제거 정형한다."}
+   ],
+   "dispute": null
+  },
+  {
+   "id": "moksim",
+   "muscles": [
+    {"id": "complexus", "role": "major", "extent": "whole",
+     "note": "반가시근(반극근). The model's latin for this id is M. semispinalis capitis; the 고시's 반극근 is the same semispinalis mass of the bovine neck"},
+    {"id": "splenius", "role": "major", "extent": "whole", "note": "널판근(판상근)"},
+    {"id": "rhomboideus", "role": "major", "extent": "whole",
+     "note": "목마름모근(경능형근). The 등심 primal row sends the rest of it here too — the 마름모근(멍에살) outside the nuchal ligament is classified as 목심"},
+    {"id": "brachiocephalicus", "role": "major", "extent": "whole",
+     "note": "상완머리근(상완두근)"},
+    {"id": "longus-colli", "role": "minor", "extent": "portion",
+     "from": "cervical-vertebrae", "to": "rib-01",
+     "note": "긴목근(경장근) — the cervical half of it. The thoracic half of the same muscle, T1 to T6, is lifted out as 제비추리 and classified under 갈비, which is why this one muscle needs two different bounds in this table"},
+    {"id": "trapezius", "role": "minor", "extent": "whole"},
+    {"id": "omotransversarius", "role": "minor", "extent": "whole"}
+   ],
+   "unmodelled": [
+    {"latin": "M. longissimus capitis et atlantis", "role": "major",
+     "where": "alongside the cervical vertebrae above the longus colli; the 고시 names it as 머리 및 환추최장근"},
+    {"latin": "M. spinalis cervicis", "role": "minor",
+     "where": "on the dorsal cervical spines under the nuchal ligament, continuous with the spinalis dorsi behind it; 고시 목가시근(경극근)"},
+    {"latin": "M. longus capitis", "role": "minor",
+     "where": "ventral to the cervical vertebrae in front of the longus colli; 고시 긴머리근(두장근)"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles"],
+     "quote": "목심살 머리 및 환추최장근, 반가시근(반극근), 널판근(판상근), 목마름모근(경능형근), 목가시근(경극근), 긴머리근(두장근), 상완머리근(상완두근) 및 긴목근(경장근)으로 구성되어 있는 제1~제7목뼈(경추)부위의 근육들로서 대분할 목심부위의 분할정형기준과 동일하게 분리하여 정형한 것"},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["bounds"],
+     "quote": "목심 제1~제7목뼈(경추)부위의 근육들로서 앞다리와 양지부위를 제외하고, 제7목뼈(경추)와 제1등뼈(흉추)사이를 절단하여 등심부위와 분리한 후 정형한다. 항인대(떡심)을 기준으로 바깥쪽의 마름모근(멍에살)도 분리하여 목심으로 분류한다."}
+   ],
+   "dispute": "The trapezius and omotransversarius entries are not in the 고시 list and are inferred from position — everything else on this cut is named by the regulation. Three of the eight muscles the 고시 does name have no id in this model and are recorded as unmodelled; 머리 및 환추최장근 is written by the regulation as a single item covering the longissimus capitis and the longissimus atlantis together."
+  },
+  {
+   "id": "apdari",
+   "muscles": [
+    {"id": "supraspinatus", "role": "major", "extent": "whole",
+     "note": "가시위근(극상근) — 꾸리살, the chuck tender, above the scapular spine"},
+    {"id": "infraspinatus", "role": "major", "extent": "whole",
+     "note": "가시아래근(극하근) — 부채살, the flat iron, below the scapular spine"},
+    {"id": "subscapularis", "role": "major", "extent": "whole",
+     "note": "견갑오목근(견갑하근) — 부채덮개살, on the medial face of the blade"},
+    {"id": "latissimus-dorsi", "role": "major", "extent": "whole",
+     "note": "넓은등근(활배근) — 갈비덧살. The 등심 row explicitly hands this muscle over to 앞다리 rather than keeping it with the loin"},
+    {"id": "biceps-brachii", "role": "major", "extent": "whole",
+     "note": "상완두갈래근(상완이두근), named in the 앞다리 primal row"},
+    {"id": "triceps-brachii", "role": "major", "extent": "whole",
+     "note": "the bulk of 앞다리살, the muscles wrapping the humerus"},
+    {"id": "teres-major", "role": "minor", "extent": "whole"},
+    {"id": "deltoideus", "role": "minor", "extent": "whole"},
+    {"id": "omotransversarius", "role": "trace", "extent": "whole"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles", "bounds"],
+     "quote": "앞다리 상완뼈(상완골)을 둘러싸고 있는 상완두갈래근(상완이두근), 어깨 끝의 넓은등근(광배근)을 포함하고 있는 것으로 몸체와 상완뼈(상완골)사이의 근막을 따라서 등뼈(흉추) 방향으로 어깨뼈(견갑골) 끝의 연골부위 끝까지 올라가서 넓은등근(활배근) 위쪽의 두터운 부위의 1/3지점에서 등뼈(흉추)와 직선되게 절단하고, 발골하여 사태부위를 분리해내어 생산하며 과다한 지방을 제거 정형하고, 꾸리살, 부채살, 앞다리살, 갈비덧살, 부채덮개살이 포함된다."},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles"],
+     "quote": "앞다리살 어깨뼈(견갑골) 안쪽부분과 상완뼈(상완골)을 감싸고 있는 근육들로 앞다리부위에서 꾸리살, 부채살, 부채덮개살, 갈비덧살 부위를 제외한 부분을 분리 정형한 것"},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles"],
+     "quote": "꾸리살 어깨뼈(견갑골) 바깥쪽 견갑가시돌기 상단부에 있는 가시위근(극상근)으로 견갑가시돌기를 경계로 하여 부채살에서 근막을 따라 절단하여 정형한 것"}
+   ],
+   "dispute": "Four of the five 소분할 rows under 앞다리 name a muscle outright (극상근, 극하근, 견갑하근, 활배근) and the primal row adds 상완이두근; the fifth, 앞다리살, is defined as the muscles wrapping the medial scapula and the humerus without enumerating them. Triceps brachii, teres major, deltoideus and omotransversarius are this table's reading of that phrase, from anatomy, not from the regulation. Note the primal's odd upper boundary: 앞다리 is cut at one third of the way down the thick part above the latissimus, which is why 갈비덧살 — a slab of latissimus lying over the ribs — ends up classified as shoulder rather than as rib."
+  },
+  {
+   "id": "buchaesal",
+   "muscles": [
+    {"id": "infraspinatus", "role": "defining", "extent": "whole", "seam": true,
+     "note": "가시아래근(극하근), with the central tendon that gives the cut its fan (부채) name; the same muscle is the US flat iron, the French paleron and the Japanese ミスジ"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles", "bounds"],
+     "quote": "부채살 어깨뼈(견갑골) 바깥쪽 견갑가시돌기 하단부에 있는 가시아래근(극하근)으로 앞다리살, 꾸리살부위와 근막을 따라 분리 정형한 것"},
+    {"url": "https://www.meatlab.co.kr/blogPost/grilling_theory_11",
+     "supports": ["muscles"],
+     "quote": "해부학적으로 가시아래근(infraspinatus)이라 하여 등 쪽 날개 모양의 뼈에 붙어 있는 근육인데, 어깨를 감싸듯 네 방향에 붙어 팔을 돌리는 데 쓰는 근육들(회전근개) 중 하나다."}
+   ],
+   "dispute": "FINDINGS.md flags that ko.wikipedia gives 가시위근 (supraspinatus) for 부채살 and asks whether that is a transcription error. It is. The 고시 settles it in one line: the spinous process of the scapula is the boundary, 가시위근(극상근) above it is 꾸리살 and 가시아래근(극하근) below it is 부채살. Do not adopt the ko.wikipedia reading."
+  },
+  {
+   "id": "yangji",
+   "muscles": [
+    {"id": "pectoralis-profundus", "role": "defining", "extent": "whole",
+     "note": "깊은흉근(심흉근) — the deep pectoral, the bulk of 양지머리"},
+    {"id": "pectoralis-superficialis", "role": "defining", "extent": "whole",
+     "note": "얕은흉근(천흉근) — the superficial pectoral, the 차돌박이 side"},
+    {"id": "rectus-abdominis", "role": "major", "extent": "whole",
+     "note": "배곧은근(복직근) — sold as 앞치마살 at the lumbar end"},
+    {"id": "obliquus-internus-abdominis", "role": "major", "extent": "whole",
+     "note": "배속경사근(내복사근) — 치마살"},
+    {"id": "obliquus-externus-abdominis", "role": "major", "extent": "whole",
+     "note": "배바깥경사근(외복사근)"},
+    {"id": "transversus-abdominis", "role": "major", "extent": "whole",
+     "note": "배가로근(복횡근) — 업진안살, the thin inner sheet over ribs 7 to 13"},
+    {"id": "sternocephalicus", "role": "minor", "extent": "whole",
+     "note": "흉골유돌근, named in the primal row as part of what the cut along the jugular groove must include"},
+    {"id": "brachiocephalicus", "role": "minor", "extent": "portion",
+     "from": "sternum", "to": "humerus",
+     "note": "the 고시's 쇄골머리근(쇄골두근) is the cleidocephalic part of the brachiocephalicus in NAV terms; the rest of the muscle stays with 목심"},
+    {"id": "intercostalis", "role": "trace", "extent": "portion",
+     "from": "rib-01", "to": "rib-13",
+     "note": "only what the sternum-and-costal-cartilage cut leaves on the belly side"}
+   ],
+   "unmodelled": [
+    {"latin": "M. cutaneus trunci", "role": "minor",
+     "where": "a thin sheet of skin muscle over the flank, superficial to the external oblique; the 고시 calls it 몸통피부근(동피근) and counts it among the muscles of 치마양지"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles", "bounds"],
+     "quote": "양지 뒷다리 하퇴부의 뒷무릎(후슬)부위에 있는 겸부의 지방덩어리에서 몸통피부근(동피근)과 배곧은근(복직근)의 얇은 막을 따라 뒷다리 대퇴근막긴장근(대퇴근막장근)과 분리하고, 복부의 배바깥경사근(외복사근)과 배가로근(복횡근)을 후4분체에서 분리하여 치마양지부위를 분리한다. 전4분체에서 갈비연골(늑연골), 칼돌기연골(검상연골), 가슴뼈(흉골)를 따라 깊은흉근(심흉근), 얕은흉근(천흉근)을 절개하여 갈비부위와 분리하고, 바깥쪽 목정맥(경정맥)을 따라 쇄골머리근(쇄골두근), 흉골유돌근을 포함하도록 절단하여 목심부위와 분리시켜 지방덩어리를 제거 정형하여 생산하며 양지머리, 차돌박이, 업진살, 업진안살과 채끝부위에 연접되어 분리된 복부의 치마양지, 치마살, 앞치마살이 포함된다."},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles"],
+     "quote": "치마양지 제1허리뼈(요추)에서 뒷다리 관골 절단면까지 복부근육들로 배속경사근(내복사근), 배곧은근(복직근), 배바깥경사근(외복사근)과 몸통피부근(동피근)이 주를 이루며, 채끝부위 등가장긴근(배최장근) 선단에서 2분체 분할정중선과 수평으로 절단하여 정형한 것으로 치마살과 앞치마살을 포함한 것"},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["bounds"],
+     "quote": "양지머리 제1목뼈(경추)에서 제7갈비뼈(늑골)사이의 흉골 부위에 붙어 있는 양지부위 근육들로 차돌박이 주변근육을 포함하며, 목심과 갈비부위에서 분리한 후 정형한 것"}
+   ],
+   "dispute": "양지 is the widest Korean primal and the regulation names every muscle in it, which is unusual — it runs from the first cervical vertebra to the hip, taking the whole chest floor and the whole abdominal wall. In Western terms it is brisket plus plate plus flank in one primal, which is why the US analogues of its subcuts scatter across three IMPS primals. The 대퇴근막긴장근(대퇴근막장근) named in the first quote is a boundary, not a constituent: the cut is made along it to leave the tensor fasciae latae behind with the hind leg, where 설도 sells it as 삼각살."
+  },
+  {
+   "id": "chadolbagi",
+   "muscles": [
+    {"id": "pectoralis-superficialis", "role": "defining", "extent": "portion",
+     "from": "rib-01", "to": "rib-07", "seam": true,
+     "note": "얕은가슴근 / the 고시's 얕은흉근(천흉근); the hard white fat embedded in it is the 차돌 (quartz) of the name"}
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.meatlab.co.kr/blogPost/grilling_theory_11",
+     "supports": ["muscles"],
+     "quote": "조금 더 정확히 말하자면, 갈비뼈 1~7번이 위치한 앞가슴 부위에 해당한다. 해부학적으로 따지자면 얕은가슴근(superficial pectoral M.)과 단단한 지방층을 포함하는 부위인데"},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["bounds"],
+     "quote": "차돌박이 제1갈비뼈(늑골)에서 제7갈비뼈(늑골) 하단부의 희고 단단한 지방을 포함한 근육부위로 폭을 15cm정도로 하여 양지머리에서 분리한 후 정형한 것"}
+   ],
+   "dispute": "The regulation defines 차돌박이 by bone span, by width and by the fat, and names no muscle: ribs 1 to 7, about 15 cm wide, taken off 양지머리. Only the parent 양지 row names pectorals at all, and it names both — 깊은흉근(심흉근) and 얕은흉근(천흉근). meatlab picks the superficial one, which is consistent with the US pairing FINDINGS.md establishes (brisket point = superficial pectoral, brisket flat = deep pectoral), so that is what is recorded, graded trade rather than standard. Worth flagging: this atlas's own blurb in cuts_kr.json calls 차돌박이 the deep pectoral at the very front of the brisket, which is the inverted pairing FINDINGS.md warns about. The cut file is not editable from here; the discrepancy is noted, not fixed."
+  },
+  {
+   "id": "eopjinsal",
+   "muscles": [
+    {"id": "transversus-abdominis", "role": "defining", "extent": "portion",
+     "from": "rib-07", "to": "rib-13",
+     "note": "배가로근(복횡근) — this is 업진안살, the thin inner plate, which the 고시 says 업진살 includes. It is the only muscle the regulation names anywhere in this cut"},
+    {"id": "obliquus-externus-abdominis", "role": "major", "extent": "portion",
+     "from": "rib-07", "to": "rib-13"},
+    {"id": "obliquus-internus-abdominis", "role": "major", "extent": "portion",
+     "from": "rib-07", "to": "rib-13"},
+    {"id": "rectus-abdominis", "role": "minor", "extent": "portion",
+     "from": "rib-07", "to": "rib-13",
+     "note": "the thoracic end of it; the lumbar end is sold separately as 앞치마살"},
+    {"id": "intercostalis", "role": "trace", "extent": "portion",
+     "from": "rib-07", "to": "rib-13",
+     "note": "what stays on the costal-cartilage side of the 갈비 separation"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles", "bounds"],
+     "quote": "업진살 제7갈비뼈(늑골)에서 제13갈비뼈(늑골) 하단부까지의 연골부위를 덮고 있는 복부근육들에서 갈비와 분리하여 정형한 것으로 업진안살을 포함한다."},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles"],
+     "quote": "업진안살 제7~제13갈비뼈(늑골) 복강안쪽에 위치하는 배가로근(복횡근)만으로 이루어진 부위로 가늘고 길며 얇은 판 형태를 이루고 있으며 업진살 부위에서 분리 정형한 것"},
+    {"url": "https://www.meatlab.co.kr/blogPost/grilling_theory_11",
+     "supports": ["muscles"],
+     "quote": "겉으로 만져지는 옆구리 근육은 배바깥경사근(external abdominal oblique)이고, 맨 안쪽 근육은 배가로근(transversus abdominis)인데, 좀 질긴 녀석들이라 국거리로 쓰고, 둘 사이에 있는 좀 더 부드러운 근육인 치마살은 구이용이나 육회용으로 쓰인다."}
+   ],
+   "dispute": "The 고시 says only 복부근육들 — the abdominal muscles — for 업진살 itself, and names a muscle for exactly one of its layers, 업진안살 = 배가로근(복횡근). The transversus entry is therefore standard; the external oblique, internal oblique and rectus entries are this table's reading of 복부근육들, inferred from the three-layer anatomy of the abdominal wall that the meatlab quote sets out. A mixed list of this kind is normal here and follows the house treatment of the US `round`."
+  },
+  {
+   "id": "usamgyeop",
+   "muscles": [
+    {"id": "transversus-abdominis", "role": "defining", "extent": "portion",
+     "from": "rib-07", "to": "rib-13",
+     "note": "same wall as 업진살; frozen and shaved thin, the layers of lean and fat read as stripes, which is what 삼겹 means"},
+    {"id": "obliquus-externus-abdominis", "role": "major", "extent": "portion",
+     "from": "rib-07", "to": "rib-13"},
+    {"id": "obliquus-internus-abdominis", "role": "major", "extent": "portion",
+     "from": "rib-07", "to": "rib-13"},
+    {"id": "rectus-abdominis", "role": "minor", "extent": "portion",
+     "from": "rib-07", "to": "rib-13"}
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.meatlab.co.kr/blogPost/grilling_theory_11",
+     "supports": ["muscles"],
+     "quote": "오죽하면 ‘소의 삼겹살’, 그러니까 우삼겹이라고 부르겠는가."},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["bounds"],
+     "quote": "업진살 제7갈비뼈(늑골)에서 제13갈비뼈(늑골) 하단부까지의 연골부위를 덮고 있는 복부근육들에서 갈비와 분리하여 정형한 것으로 업진안살을 포함한다."}
+   ],
+   "dispute": "우삼겹 is not one of the 39 소분할 and appears nowhere in the 고시 — it is a menu name. The link to a regulated cut rests on the meatlab quote, whose subject in context is 업진살: the paragraph is about 업진살 and ends by saying that is why it gets called 소의 삼겹살, 우삼겹. The muscles and bounds are then 업진살's, with the same caveat that only 배가로근(복횡근) is named by the regulation and the other layers are inferred. Graded trade for that reason, one step below 업진살 itself."
+  },
+  {
+   "id": "chimasal",
+   "muscles": [
+    {"id": "obliquus-internus-abdominis", "role": "defining", "extent": "portion",
+     "from": "lumbar-vertebrae", "to": "ilium", "seam": true,
+     "note": "배속경사근(내복사근), the middle of the three abdominal layers, taken out of 치마양지 on its own"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles"],
+     "quote": "치마살 치마양지부위에서 배속경사근(내복사근)만을 분리하여 정형한 것"},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["bounds"],
+     "quote": "치마양지 제1허리뼈(요추)에서 뒷다리 관골 절단면까지 복부근육들로 배속경사근(내복사근), 배곧은근(복직근), 배바깥경사근(외복사근)과 몸통피부근(동피근)이 주를 이루며, 채끝부위 등가장긴근(배최장근) 선단에서 2분체 분할정중선과 수평으로 절단하여 정형한 것으로 치마살과 앞치마살을 포함한 것"},
+    {"url": "https://www.meatlab.co.kr/blogPost/grilling_theory_11",
+     "supports": ["muscles"],
+     "quote": "치마살은 옆구리 쪽에 위치한 배속경사근(internal abdominal oblique)으로, 몸통을 움직이는 데 쓰는 3겹의 근육 중에 가운데에 위치한 녀석이다."}
+   ],
+   "dispute": "The English gloss in cuts_kr.json calls 치마살 flank steak, and that is the one place the Korean vocabulary and the Western vocabulary cross wires. The internal oblique is the US flap meat / sirloin butt flap and the French bavette d'aloyau (FINDINGS.md, UNECE 2203). The muscle that is actually flank steak — rectus abdominis, UNECE 2210, bavette de flanchet — is the Korean 앞치마살, defined by the 고시 as 제3~제6허리뼈(요추)까지의 복부절개선 방향에 위치하는 배곧은근(복직근)을 분리 정형한 것. Both the regulation and meatlab agree on the muscle, so the assignment is not in doubt; only the English label is. The cut file is not editable from here."
+  },
+  {
+   "id": "galbi",
+   "muscles": [
+    {"id": "intercostalis", "role": "defining", "extent": "portion",
+     "from": "rib-01", "to": "rib-13",
+     "note": "늑골사이근(늑간근), named by the 고시 in the 마구리 row; these are the muscles that stay between the bones once 등심 and 양지 have been cut away"},
+    {"id": "diaphragm", "role": "major", "extent": "whole",
+     "note": "안창살. Classified here by the nature of the 대분할 division rather than because it is rib muscle"},
+    {"id": "diaphragm-crus", "role": "major", "extent": "portion",
+     "from": "rib-09", "to": "lumbar-vertebrae", "note": "토시살"},
+    {"id": "longus-colli", "role": "minor", "extent": "portion",
+     "from": "rib-01", "to": "rib-06", "note": "제비추리, likewise classified here by the division rule"},
+    {"id": "serratus-ventralis", "role": "minor", "extent": "portion",
+     "from": "rib-06", "to": "rib-13",
+     "note": "the ventral end of the fan left on the ribs after 등심 takes 살치살 off the front"},
+    {"id": "latissimus-dorsi", "role": "trace", "extent": "portion",
+     "from": "rib-01", "to": "rib-13",
+     "note": "only what the 앞다리 cut leaves; most of it is pulled forward as 갈비덧살"}
+   ],
+   "bone_in": true,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles", "bounds"],
+     "quote": "갈비 앞다리 부분을 분리한 다음 갈비뼈(늑골)주위와 근육에서 등심과 양지부위의 근육을 절단 분리한 후, 등뼈(흉추)에서 갈비뼈(늑골)를 분리시킨 것으로서 갈비뼈(늑골)를 포함시키고, 과다한 지방을 제거 정형하며 본갈비, 꽃갈비, 참갈비, 갈비살, 마구리를 포함한다. 대분할 구분의 특성상 토시살, 안창살, 제비추리도 동 부위에 포함하여 분류한다."},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles"],
+     "quote": "마구리 대분할된 갈비부위에서 등심부위가 제거된 늑골두 부분과 양지가 분리된 가슴뼈(흉골)와 갈비연골(늑연골) 부분으로서 늑골사이근(늑간근)이 붙어있는 부분을 따라 타원형으로 절단하여 분리한 것"},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["bounds"],
+     "quote": "꽃갈비 대분할된 갈비부위에서 제5~제6갈비뼈(늑골)사이와 제8~제9갈비뼈(늑골)사이를 절단하여 제6갈비뼈(늑골)에서 제8갈비뼈(늑골)까지의 부위를 정형한 것"}
+   ],
+   "dispute": "갈비 is the clearest bone-defined primal in the table and the only Korean 대분할 that keeps its bones. Its whole definition is a set of cuts against the rib cage — separate 앞다리, cut the 등심 and 양지 muscle away, part the ribs from the thoracic vertebrae, keep the ribs — and its three main subcuts are pure rib spans: 본갈비 ribs 1-5, 꽃갈비 ribs 6-8, 참갈비 ribs 9-13. The regulation also uses it as a catch-all: the closing sentence sweeps 토시살, 안창살 and 제비추리 into 갈비 by the nature of the 대분할 division, even though the diaphragm, its crura and the longus colli are not rib muscles in any anatomical sense. That sentence is why those three cuts are recorded in this table as 갈비 subcuts. Note the 꽃갈비 / 꽃등심 trap: 꽃갈비 is ribs 6-8 while 꽃등심살 is thoracic vertebrae 6-9 — different spans of different tissue, despite the shared 꽃."
+  },
+  {
+   "id": "galbisal",
+   "muscles": [
+    {"id": "intercostalis", "role": "defining", "extent": "portion",
+     "from": "rib-01", "to": "rib-13",
+     "note": "the rib-finger meat between the bones. National Beef bounds the US equivalent to ribs 6 through 12; the Korean cut comes off all thirteen, since 본갈비살, 꽃갈비살 and 참갈비살 are all 갈비살"},
+    {"id": "serratus-ventralis", "role": "major", "extent": "portion",
+     "from": "rib-06", "to": "rib-13",
+     "note": "the sheet over the ribs that the US calls boneless short ribs; 갈비살 takes it wherever 등심 and 앞다리 have not"},
+    {"id": "latissimus-dorsi", "role": "trace", "extent": "portion",
+     "from": "rib-01", "to": "rib-13"}
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.nationalbeef.com/product/71292/beef-rib-finger-meat-2/",
+     "supports": ["muscles"],
+     "quote": "Beef Rib Finger Meat is derived from the intercostal muscle located between ribs 6 through 12"},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["bounds"],
+     "quote": "갈비살 갈비부위에서 뼈를 제거하여 살코기부위만을 정형한 것(본갈비살, 꽃갈비살, 참갈비살을 포함한다)"},
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Serratus ventralis  Boneless short ribs; Inside chuck; Underblade"}
+   ],
+   "dispute": "The 고시 line for 갈비살 is an instruction, not a description: take the 갈비 and remove the bones. It names no muscle. The intercostal assignment comes from National Beef's rib-finger spec, which FINDINGS.md already established, and from the neighbouring 마구리 row, which is the one place the regulation does say 늑골사이근(늑간근). Two cautions. Korean 갈비살 is broader than US rib fingers — it is all the lean off the 갈비 primal, not only the strips between the bones, which is why serratus ventralis is listed as major on the Calkins boneless-short-ribs row. And the National Beef rib span (6-12) is the US rib primal's, not the Korean 갈비's; the bounds recorded here are the 고시's ribs 1-13, since 본갈비살 and 참갈비살 are explicitly included."
+  },
+  {
+   "id": "anchangsal",
+   "muscles": [
+    {"id": "diaphragm", "role": "defining", "extent": "whole",
+     "note": "횡격막근 — the costal sheet itself, the US outside skirt and the French hampe. The tough membrane is peeled before grilling"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles", "bounds"],
+     "quote": "안창살 갈비안쪽의 가슴뼈(흉골) 끝에서 허리뼈(요추)까지 갈비를 가로질러있는 얇고 평평하게 복강 내에 노출되어 분포하는 횡격막근으로 갈비뼈(늑골)에서 분리하여 정형한 것"},
+    {"url": "https://www.meatlab.co.kr/blogPost/grilling_theory_11",
+     "supports": ["muscles"],
+     "quote": "횡격막 자체는 안창살, 여기에 붙어서 횡격막을 움직이는 데 도움을 주는 근육이 토시살이다."},
+    {"url": "https://ko.wikipedia.org/wiki/%EC%95%88%EC%B0%BD%EC%82%B4",
+     "supports": ["muscles"],
+     "quote": "안창살은 소의 갈비 부위 가운데 하나로, 갈비 안쪽의 가슴뼈 끝에서 허리뼈까지 가로지르는 근육인 횡격막을 분리해 정형한 것이다."}
+   ],
+   "dispute": null
+  },
+  {
+   "id": "tosisal",
+   "muscles": [
+    {"id": "diaphragm-crus", "role": "defining", "extent": "portion",
+     "from": "rib-09", "to": "lumbar-vertebrae", "seam": true,
+     "note": "the crural pillar that pulls the diaphragm down — the US hanger, the French onglet, the UK thick skirt. The 고시 pins its attachments to the 9th thoracic and the 1st lumbar vertebra, which is the crus, not the sheet"}
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.meatlab.co.kr/blogPost/grilling_theory_11",
+     "supports": ["muscles"],
+     "quote": "토시살은 횡격막에 붙어서 숨 쉴 때마다 횡격막을 내렸다 올렸다 하는 근육을 말한다."},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["bounds"],
+     "quote": "토시살 제9등뼈(흉추)와 제1허리뼈(요추)에 부착되어 횡격막(안창살)사이의 복강에 노출되어있는 근육으로 안창살과 등뼈(흉추)에서 분리 정형한 것"},
+    {"url": "https://www.meatlab.co.kr/blogPost/grilling_theory_11",
+     "supports": ["muscles"],
+     "quote": "Hanger steak라는 부위를 달라고 하면 되는데, 혹시 못 알아듣는다면 Onglet이나 pillar를 아느냐고 물어보면 된다."}
+   ],
+   "dispute": "The regulation locates 토시살 precisely — attached to T9 and L1, exposed in the abdominal cavity between the diaphragm sheets, separated from 안창살 and from the thoracic vertebrae — but never names the muscle, so the bounds are standard and the muscle is trade. meatlab supplies the muscle twice over, once functionally (the muscle that lowers and raises the diaphragm with every breath) and once by English equivalence, hanger steak / onglet / pillar; pillar is the crus. The claim sometimes met online that 토시살 is the psoas minor is refuted: no source links them, and the 고시's T9-L1 attachment is the crural attachment, not the psoas. FINDINGS.md traces that claim to UNL putting tenderloin names on Psoas minor while Calkins puts Tenderloin on Psoas major — an inconsistency between two checkoff-funded sources, not evidence about 토시살."
+  },
+  {
+   "id": "jebichuri",
+   "muscles": [
+    {"id": "longus-colli", "role": "defining", "extent": "portion",
+     "from": "rib-01", "to": "rib-06",
+     "note": "긴목근(경장근), the thoracic run of it under the vertebrae along the rib heads. The cervical run of the same muscle stays with 목심 — two cuts, one muscle, told apart only by the bound"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles", "bounds"],
+     "quote": "제비추리 제1등뼈(흉추)에서 제6등뼈(흉추)와 갈비뼈(늑골) 접합부위를 따라 분포하는 띠 모양의 긴목근(경장근)으로 목심 및 등심이 분리되는 지점에서 직선으로 절단하여 정형한 것"},
+    {"url": "https://www.meatlab.co.kr/blogPost/grilling_theory_11",
+     "supports": ["muscles"],
+     "quote": "제비추리는 긴목근(longus colli)이라 하여 목을 움직이는 근육인데, 등에 비해 목의 움직임이 많으니 이는 어쩔 수 없는 일이다."},
+    {"url": "https://ko.wikipedia.org/wiki/%EC%A0%9C%EB%B9%84%EC%B6%94%EB%A6%AC",
+     "supports": ["muscles", "bounds"],
+     "quote": "목뼈에서 갈비 앞쪽까지, 제1등뼈에서 제6등뼈와 갈비뼈 접합 부위를 따라 길게 붙어 있는 띠 모양의 긴목근을 목심과 등심이 분리되는 지점에서 직선으로 절단하여 분리·정형한 것이다."}
+   ],
+   "dispute": null
+  },
+  {
+   "id": "udun",
+   "muscles": [
+    {"id": "semimembranosus", "role": "defining", "extent": "whole",
+     "note": "반막모양근(반막양근) — 우둔살 proper, the top / inside round"},
+    {"id": "adductor", "role": "major", "extent": "whole",
+     "note": "내향근(내전근), taken with the semimembranosus as one 우둔살"},
+    {"id": "semitendinosus", "role": "major", "extent": "whole",
+     "note": "반힘줄모양근(반건양근) — 홍두깨살, the eye of round, which the 고시 calls a single cylindrical muscle"},
+    {"id": "gracilis", "role": "minor", "extent": "whole",
+     "note": "치골경골근(박근), the thin cap on the medial face"}
+   ],
+   "unmodelled": [
+    {"latin": "M. pectineus", "role": "trace",
+     "where": "medial thigh between the adductor and the gracilis; not named by the 고시, which lists four muscles for 우둔 where CFIA's inside-round list includes the pectineus"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles", "bounds"],
+     "quote": "우둔 뒷다리에서 넓적다리뼈(대퇴골) 안쪽을 이루는 내향근(내전근), 반막모양근(반막양근), 치골경골근(박근), 반힘줄모양근(반건양근)으로 된 부위로서 정강이뼈(하퇴골)주위의 사태부위를 제외하여 생산하며 우둔살, 홍두깨살이 포함된다."},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles"],
+     "quote": "홍두깨살 뒷다리 안쪽의 홍두깨모양의 단일근육으로 반힘줄모양근(반건양근)이며, 우둔 안쪽부위 근막을 따라 우둔살과 분리한 후 정형한 것"}
+   ],
+   "dispute": null
+  },
+  {
+   "id": "seoldo",
+   "muscles": [
+    {"id": "biceps-femoris", "role": "defining", "extent": "portion",
+     "from": "ilium", "to": "tibia",
+     "note": "대퇴두갈래근(대퇴이두근) — 설깃살, and its triangular top end is lifted off as 설깃머리살"},
+    {"id": "gluteus-medius", "role": "major", "extent": "whole",
+     "note": "중간둔부근(중둔근) — the bulk of 보섭살, the Korean rump"},
+    {"id": "quadriceps-femoris", "role": "major", "extent": "whole",
+     "note": "대퇴네갈래근(대퇴사두근) — 도가니살, the knuckle, wrapping the femur from the patella"},
+    {"id": "rectus-femoris", "role": "major", "extent": "whole",
+     "note": "the fourth head of the same group, counted inside 도가니살"},
+    {"id": "tensor-fasciae-latae", "role": "major", "extent": "whole",
+     "note": "대퇴근막긴장근(대퇴근막장근) — 삼각살, the tri-tip"},
+    {"id": "gluteus-superficialis", "role": "minor", "extent": "whole",
+     "note": "표층둔부근(천둔근), named by the 고시 in both the 설도 and the 보섭살 rows. In cattle it is fused into the gluteobiceps complex and is not separately dissectible in practice — the regulation names it anyway, and it is reproduced as written"}
+   ],
+   "unmodelled": [
+    {"latin": "M. gluteus profundus", "role": "minor",
+     "where": "deep to the gluteus medius over the hip joint; the 고시 names it 깊은둔부근(심둔근) in the 보섭살 row"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles", "bounds"],
+     "quote": "설도 뒷다리의 엉치뼈(관골), 넓적다리뼈(대퇴골)에서 우둔부위를 제외한 부위이며 중간둔부근(중둔근), 표층둔부근(천둔근), 대퇴두갈래근(대퇴이두근), 대퇴네갈래근(대퇴사두근) 등으로 이루어진 부위로서 인대와 피하지방 및 근간지방덩어리를 제거 정형하며 보섭살, 설깃살, 설깃머리살, 도가니살, 삼각살이 포함된다."},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles"],
+     "quote": "보섭살 뒷다리의 엉덩이를 이루는 부위로 엉치뼈(관골)를 감싸고 있는 중간둔부근(중둔근), 표층둔부근(천둔근), 깊은둔부근(심둔근) 등으로 이루어져 있으며, 엉치뼈, 넓적다리뼈(대퇴골)를 제거한 뒤 대퇴관절(고관절)에서 엉치뼈의 엉덩뼈(장골)과 좌골면을 기준으로 도가니살과 설깃살을 분리한 후 정형한 것"},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles"],
+     "quote": "도가니살 뒷다리 무릎뼈(슬개골)에서 시작하여 넓적다리뼈(대퇴골)를 감싸고 있는 근육부위로 대퇴네갈래근(대퇴사두근)으로 이루어져 있으며, 뒷다리 설도부위에서 보섭살, 삼각살, 설깃살과 설깃머리살 부위를 분리한 후 정형한 것"}
+   ],
+   "dispute": "One caution on the gluteus superficialis entry, carried over from FINDINGS.md: cattle have no separately dissectible superficial gluteal — IMAIOS records that it is incorporated into the gluteobiceps complex and is recognizable only by a slightly different orientation of its fibers. The 고시 names 표층둔부근(천둔근) twice, so it is listed here as the regulation writes it, with the caveat rather than a correction. Bounds on the biceps femoris are the model's: the gluteobiceps is cut across where 설도 parts from 보섭살 at the hip joint and runs down to the stifle."
+  },
+  {
+   "id": "samgaksal",
+   "muscles": [
+    {"id": "tensor-fasciae-latae", "role": "defining", "extent": "whole", "seam": true,
+     "note": "대퇴근막긴장근(대퇴근막장근) — the same muscle as the US tri-tip and knuckle cap, seamed off 보섭살"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles", "bounds"],
+     "quote": "대퇴근막긴장근(대퇴근막장근)으로 이루어져 있으며, 보섭살에서 분리한 후 정형한 것"},
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Tensor fascia latae  Tri‐tip"}
+   ],
+   "dispute": "The 고시 row for 삼각살 carries a printer's duplication in the source bitmap — the opening phrase 뒷다리의 바깥쪽 엉덩이부위로 대퇴근막긴장근 is set twice, the first time truncated — so the quote above is the clean tail of the cell rather than the whole cell, verbatim as far as it goes. The row as printed reads 뒷다리의 바깥쪽 엉덩이부위로 대퇴근막긴장근뒷다리의 바깥쪽 엉덩이부위로 대퇴근막긴장근(대퇴근막장근)으로 이루어져 있으며, 보섭살에서 분리한 후 정형한 것. Calkins independently gives Tensor fascia latae / Tri-tip, so the Korean and American cuts are the same muscle under two names."
+  },
+  {
+   "id": "satae",
+   "muscles": [
+    {"id": "gastrocnemius", "role": "defining", "extent": "portion",
+     "from": "femur", "to": "tarsus",
+     "note": "장딴지근(비복근) — 뭉치사태, wrapping the stifle at the lower end of the femur"},
+    {"id": "extensor-carpi-radialis", "role": "major", "extent": "whole",
+     "note": "in the foreshank half of the primal; the 고시 names no forelimb muscle beyond 상완근"},
+    {"id": "triceps-brachii", "role": "trace", "extent": "portion",
+     "from": "humerus", "to": "seam",
+     "note": "only what the 앞다리 separation leaves below the elbow"}
+   ],
+   "unmodelled": [
+    {"latin": "M. flexor digitorum superficialis", "role": "major",
+     "where": "caudal to the tibia, inside the gastrocnemius and continuous with the Achilles tendon; the 고시 names it 얕은뒷발가락굽힘근(천지굴근) and sells it on its own as 아롱사태"},
+    {"latin": "M. brachialis", "role": "major",
+     "where": "wrapped round the humerus in the fold of the elbow; the 고시's 상완근, sold as 상박살"},
+    {"latin": "M. flexor digitorum profundus", "role": "major",
+     "where": "caudal to the tibia and to the radius, deep to the superficial flexor on both legs"},
+    {"latin": "M. tibialis cranialis", "role": "minor",
+     "where": "in front of the tibia, lateral to its crest"},
+    {"latin": "M. extensor digitorum communis", "role": "minor",
+     "where": "cranial to the radius, lateral to the extensor carpi radialis"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles", "bounds"],
+     "quote": "사태 앞다리의 전완뼈(전완골)과 상완뼈(상완골) 일부, 뒷다리의 정강이뼈(하퇴골)를 둘러싸고 있는 작은 근육들로서 앞다리와 우둔부위 하단에서 분리하여 인대 및 지방을 제거하여 정형하며 앞사태, 뒷사태, 뭉치사태, 아롱사태, 상박살이 포함된다."},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles"],
+     "quote": "뭉치사태 넓적다리뼈(대퇴골) 하단부의 무릎관절(슬관절)을 감싸고 있는 장딴지근(비복근)으로 된 부위로서 뒷사태와 분리 정형한 것으로 천지굴근 포함한 것"},
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["muscles"],
+     "quote": "아롱사태 뭉치사태 안쪽에 있는 단일근육이며 얕은뒷발가락굽힘근(천지굴근)으로서 아킬레스건에 이어진 근육을 따라 뭉치사태 하단부에서 상단부까지 절개 후 분리 정형한 것"}
+   ],
+   "dispute": "사태 is the one Korean primal that spans both ends of the animal — the regulation defines it as the small muscles wrapping the radius-ulna and part of the humerus in front and the tibia behind, taken off the bottom of 앞다리 and 우둔. That is a bone definition, and for the primal as a whole it names no muscle; the three muscles recorded as standard here come from subcut rows (비복근 for 뭉치사태, 천지굴근 for 아롱사태, 상완근 for 상박살). The rest of the shank — the digital flexors and extensors — is bovine limb anatomy rather than a butchery claim, the same situation as the US `hindshank` and `foreshank`, and is listed unmodelled. Two of the three muscles the 고시 does name have no id in this model."
+  },
+  {
+   "id": "apsatae",
+   "muscles": [
+    {"id": "extensor-carpi-radialis", "role": "major", "extent": "whole"},
+    {"id": "triceps-brachii", "role": "trace", "extent": "portion",
+     "from": "humerus", "to": "seam",
+     "note": "only the tail below the elbow; the body of the muscle goes with 앞다리살"}
+   ],
+   "unmodelled": [
+    {"latin": "M. flexor carpi ulnaris", "role": "major",
+     "where": "caudal to the radius and ulna, behind the extensor carpi radialis"},
+    {"latin": "M. flexor digitorum profundus", "role": "major",
+     "where": "caudal to the radius, the deepest of the foreleg flexors"},
+    {"latin": "M. extensor digitorum communis", "role": "minor",
+     "where": "cranial to the radius, lateral to the extensor carpi radialis"},
+    {"latin": "M. ulnaris lateralis", "role": "minor",
+     "where": "on the lateral face of the forearm"}
+   ],
+   "bone_in": false,
+   "evidence": "inferred",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184120",
+     "supports": ["bounds"],
+     "quote": "앞사태 앞다리의 전완뼈(전완골)과 상완뼈(상완골) 일부를 감싸고 있는 여러 근육들로 근막을 따라 앞다리에서 분리 정형한 것"}
+   ],
+   "dispute": "No source names a muscle for 앞사태, and the 고시 declines to on purpose: the several muscles wrapping the radius-ulna and part of the humerus, separated along the fascia. That is a bone-and-seam definition, which is why the bounds are standard and the muscles are inferred. The list is bovine forelimb anatomy — the carpal and digital flexors and extensors — exactly as for the US `foreshank`, and for the same reason: none of it is sold as a named muscle anywhere, it is simmered on the bone for 곰탕. The one Korean subcut that does lift a named forelimb muscle out, 상박살 = 상완근 (M. brachialis), is defined off 앞사태 rather than as part of it."
+  },
+  {
+   "id": "kkori",
+   "muscles": [
+    {"id": "sacrocaudalis", "role": "defining", "extent": "whole",
+     "note": "the dorsal and ventral tail muscles wrapping the caudal vertebrae; much of the eating is the collagen between them"}
+   ],
+   "unmodelled": [
+    {"latin": "Mm. intertransversarii caudae", "role": "minor",
+     "where": "between the transverse processes of the caudal vertebrae, lateral to the sacrocaudalis"},
+    {"latin": "M. coccygeus", "role": "trace",
+     "where": "at the root of the tail, between the sacrum and the ischium"}
+   ],
+   "bone_in": true,
+   "evidence": "inferred",
+   "bounds_evidence": "inferred",
+   "sources": [],
+   "dispute": "꼬리 is a 부산물, not one of the ten 대분할, so it falls outside 「소·돼지 식육의 표시방법 및 부위 구분기준」 entirely — the 고시 covers the carcass primals and says nothing about the tail, the tongue, the feet or the bones. No fetched source names a muscle for it. The list is bovine caudal anatomy: the cut is a chain of caudal vertebrae with the sacrocaudalis group around them, sawn into segments through the joints, and what 꼬리곰탕 actually extracts is the collagen of those joints rather than any named muscle. Graded inferred on both axes accordingly."
+  },
+  {
+   "id": "useol",
+   "muscles": [],
+   "unmodelled": [
+    {"latin": "Mm. linguales proprii", "role": "major",
+     "where": "the intrinsic longitudinal and transverse fibres of the tongue body itself, inside the extrinsic muscles"},
+    {"latin": "M. genioglossus", "role": "major",
+     "where": "a fan running from the mandibular symphysis back through the body of the tongue"},
+    {"latin": "M. hyoglossus", "role": "major",
+     "where": "from the hyoid apparatus into the side of the tongue, lateral to the genioglossus"},
+    {"latin": "M. styloglossus", "role": "minor",
+     "where": "from the stylohyoid into the side of the tongue, above the hyoglossus"}
+   ],
+   "bone_in": false,
+   "evidence": "inferred",
+   "bounds_evidence": "inferred",
+   "sources": [],
+   "dispute": "우설 is a 부산물 like 꼬리 and is outside the 고시's scope; no Korean or Western source fetched this pass names a muscle for it. It also falls outside Calkins, whose table is the 32 carcass muscles ranked for tenderness and has no row for the head. Nothing in this model corresponds to any part of the tongue, so `muscles` is deliberately empty and the four tongue muscles are recorded as unmodelled from bovine anatomy rather than from a beef source — the honest answer is that the atlas has no tongue. The cut is bounded by the tongue's own attachment to the hyoid apparatus, which this skeleton does model as `hyoid`, so a future pass could bound it properly once the muscles exist."
+  }
+ ]
+}
