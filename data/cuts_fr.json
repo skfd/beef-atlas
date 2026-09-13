@@ -39,13 +39,13 @@
       "id": "rumsteck",
       "name": "Rump",
       "native": "Rumsteck",
-      "region": "The top slab over the hip and pin bone, x 0.06-0.30, z 0.74-0.92 — from the tail base forward to just short of the lumbar vertebrae.",
+      "region": "The top slab over the pelvis, from the tail base forward to the sirloin/short-loin line, x 0.06-0.36, z 0.80-0.92.",
       "x": [
         0.06,
-        0.3
+        0.36
       ],
       "z": [
-        0.74,
+        0.8,
         0.92
       ],
       "full_width": true,
@@ -61,10 +61,10 @@
       "id": "aiguillette-baronne",
       "name": "Sirloin tip / tri-tip",
       "native": "Aiguillette baronne",
-      "region": "A long conical piece at the front-lower tip of the rumsteck, between the rump and the noix, x 0.22-0.30, z 0.62-0.74.",
+      "region": "A long conical piece at the front-lower tip of the rumsteck, between the rump and the noix, x 0.22-0.28, z 0.62-0.74.",
       "x": [
         0.22,
-        0.3
+        0.28
       ],
       "z": [
         0.62,
@@ -103,13 +103,13 @@
       "id": "rond-de-gite",
       "name": "Eye of round",
       "native": "Rond de gîte",
-      "region": "The hindmost muscle of the thigh, behind the femur, x 0.00-0.07, z 0.34-0.66.",
+      "region": "The hindmost muscle of the thigh, behind the femur and above the gaskin, x 0.00-0.07, z 0.46-0.66.",
       "x": [
         0.0,
         0.07
       ],
       "z": [
-        0.34,
+        0.46,
         0.66
       ],
       "full_width": true,
@@ -125,13 +125,13 @@
       "id": "gite-a-la-noix",
       "name": "Silverside",
       "native": "Gîte à la noix",
-      "region": "The middle-rear of the thigh, x 0.07-0.14, z 0.34-0.64, wrapping the back of the femur ahead of the rond de gîte.",
+      "region": "The middle-rear of the thigh, x 0.07-0.14, z 0.46-0.64, wrapping the back of the femur ahead of the rond de gîte.",
       "x": [
         0.07,
         0.14
       ],
       "z": [
-        0.34,
+        0.46,
         0.64
       ],
       "full_width": true,
@@ -147,13 +147,13 @@
       "id": "tende-de-tranche",
       "name": "Topside",
       "native": "Tende de tranche",
-      "region": "The large muscle on the inner face of the thigh, x 0.14-0.21, z 0.38-0.62 — the medial side of the leg between hock and hip.",
+      "region": "The large muscle on the inner face of the thigh, x 0.14-0.21, z 0.46-0.62 — the medial side of the leg between gaskin and hip.",
       "x": [
         0.14,
         0.21
       ],
       "z": [
-        0.38,
+        0.46,
         0.62
       ],
       "full_width": true,
@@ -170,13 +170,13 @@
       "id": "tranche-grasse",
       "name": "Thick flank / knuckle",
       "native": "Tranche grasse",
-      "region": "The front of the thigh over the stifle, x 0.21-0.29, z 0.36-0.60, ahead of the femur.",
+      "region": "The front of the thigh over the stifle, x 0.21-0.29, z 0.46-0.60, ahead of the femur.",
       "x": [
         0.21,
         0.29
       ],
       "z": [
-        0.36,
+        0.46,
         0.6
       ],
       "full_width": true,
@@ -192,14 +192,14 @@
       "id": "gite-arriere",
       "name": "Hind shank",
       "native": "Gîte (jarret arrière)",
-      "region": "The rear shank below the hock, x 0.03-0.13, z 0.06-0.34; the hock sits at z 0.28.",
+      "region": "The whole lower hind leg — gaskin and shank below the thigh, x 0.03-0.13, z 0.06-0.46; the hock sits at z 0.28.",
       "x": [
         0.03,
         0.13
       ],
       "z": [
         0.06,
-        0.34
+        0.46
       ],
       "full_width": true,
       "description": "The lower hind leg — hard-working muscles laced with tendon and collagen around the shank bone and its marrow. Emphatically a bouillir/mijoter cut: hours of gentle wet heat turn the collagen to gelatine and give the broth its body.",
@@ -214,9 +214,9 @@
       "id": "faux-filet",
       "name": "Sirloin / strip loin",
       "native": "Faux-filet (contre-filet)",
-      "region": "The long back muscle above the lumbar and last thoracic vertebrae, x 0.30-0.46, z 0.80-0.94, between the rumsteck and the ribs.",
+      "region": "The long back muscle above the lumbar and last thoracic vertebrae, x 0.36-0.46, z 0.80-0.94, between the rumsteck and the ribs.",
       "x": [
-        0.3,
+        0.36,
         0.46
       ],
       "z": [
@@ -236,9 +236,9 @@
       "id": "filet",
       "name": "Tenderloin",
       "native": "Filet",
-      "region": "Tucked inside the carcass underneath the lumbar spine, x 0.30-0.46, z 0.70-0.80, directly beneath the faux-filet.",
+      "region": "Tucked inside the carcass underneath the lumbar spine, x 0.28-0.46, z 0.70-0.80, beneath the faux-filet and reaching back under the rumsteck.",
       "x": [
-        0.3,
+        0.28,
         0.46
       ],
       "z": [
@@ -259,9 +259,9 @@
       "id": "bavette-d-aloyau",
       "name": "Flank steak (loin end)",
       "native": "Bavette d'aloyau",
-      "region": "The upper flank flap where the abdominal wall meets the loin, x 0.30-0.40, z 0.56-0.70, just below the filet and behind the last rib.",
+      "region": "The upper flank flap where the abdominal wall meets the loin, x 0.29-0.40, z 0.56-0.70, just below the filet and behind the last rib.",
       "x": [
-        0.3,
+        0.29,
         0.4
       ],
       "z": [
@@ -430,10 +430,10 @@
       "id": "tendron",
       "name": "Rib tips / short plate",
       "native": "Tendron, milieu de poitrine",
-      "region": "The mid-breast over the rib cartilages and sternum, x 0.46-0.58, z 0.44-0.54.",
+      "region": "The mid-breast over the rib cartilages and sternum, x 0.46-0.56, z 0.44-0.54, behind the brisket.",
       "x": [
         0.46,
-        0.58
+        0.56
       ],
       "z": [
         0.44,
@@ -452,13 +452,13 @@
       "id": "gros-bout-de-poitrine",
       "name": "Brisket",
       "native": "Gros bout de poitrine",
-      "region": "The front of the breast below and between the forelegs, x 0.58-0.72, z 0.44-0.56, ahead of the elbow at x 0.62.",
+      "region": "The front of the breast below and between the forelegs, x 0.62-0.72, z 0.46-0.56, ahead of the elbow at x 0.62.",
       "x": [
-        0.58,
+        0.62,
         0.72
       ],
       "z": [
-        0.44,
+        0.46,
         0.56
       ],
       "full_width": true,
@@ -563,17 +563,17 @@
       "id": "macreuse-a-pot-au-feu",
       "name": "Shoulder clod",
       "native": "Macreuse à pot-au-feu",
-      "region": "The muscle mass wrapping the humerus on the foreleg above the shank, x 0.58-0.70, z 0.30-0.44.",
+      "region": "The muscle mass wrapping the humerus on the outer foreleg, behind and above the elbow at x 0.62, z 0.46-0.56.",
       "x": [
-        0.58,
-        0.7
+        0.56,
+        0.62
       ],
       "z": [
-        0.3,
-        0.44
+        0.46,
+        0.56
       ],
       "full_width": true,
-      "description": "A big block of muscle on the front limb, worked at every stride and dense with sinew. Firmer than the macreuse à bifteck and a troisième catégorie bouillir cut that needs long, slow simmering to turn tender.",
+      "description": "A big block of muscle around the humerus of the front limb, worked at every stride and dense with sinew. Firmer than the macreuse à bifteck and a troisième catégorie bouillir cut that needs long, slow simmering to turn tender.",
       "dishes": [
         "pot-au-feu",
         "bœuf mode",
@@ -585,14 +585,14 @@
       "id": "gite-avant",
       "name": "Fore shank / shin",
       "native": "Gîte avant (jarret)",
-      "region": "The foreleg below the knee, x 0.58-0.70, z 0.06-0.30; the knee sits at z 0.28.",
+      "region": "The whole lower foreleg — forearm and shin below the elbow, x 0.58-0.70, z 0.06-0.46; the knee sits at z 0.28.",
       "x": [
         0.58,
         0.7
       ],
       "z": [
         0.06,
-        0.3
+        0.46
       ],
       "full_width": true,
       "description": "The shin of the front leg: lean muscle bundles wrapped in tendon around a marrow bone, about as hard-working as meat gets. A bouillir cut whose collagen is exactly what a good bouillon or a bœuf en gelée needs.",

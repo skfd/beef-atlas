@@ -18,14 +18,14 @@ cut("queue", "Oxtail", "Queue",
     ["queue de b\u0153uf en hochepot", "pot-au-feu", "daube de queue de b\u0153uf", "parmentier de queue de b\u0153uf"])
 
 cut("rumsteck", "Rump", "Rumsteck",
-    "The top slab over the hip and pin bone, x 0.06-0.30, z 0.74-0.92 \u2014 from the tail base forward to just short of the lumbar vertebrae.",
-    [0.06, 0.30], [0.74, 0.92], True,
+    "The top slab over the pelvis, from the tail base forward to the sirloin/short-loin line, x 0.06-0.36, z 0.80-0.92.",
+    [0.06, 0.36], [0.80, 0.92], True,
     "A large, lean, close-grained muscle group capping the pelvis, only moderately worked, so it is tender without being soft. A premi\u00e8re cat\u00e9gorie griller/r\u00f4tir cut, taken as thick pav\u00e9s or roasted whole.",
     ["rumsteck grill\u00e9", "brochettes de b\u0153uf", "fondue bourguignonne", "rosbif"])
 
 cut("aiguillette-baronne", "Sirloin tip / tri-tip", "Aiguillette baronne",
-    "A long conical piece at the front-lower tip of the rumsteck, between the rump and the noix, x 0.22-0.30, z 0.62-0.74.",
-    [0.22, 0.30], [0.62, 0.74], True,
+    "A long conical piece at the front-lower tip of the rumsteck, between the rump and the noix, x 0.22-0.28, z 0.62-0.74.",
+    [0.22, 0.28], [0.62, 0.74], True,
     "A tapering, needle-shaped muscle at the junction of the back and the hind limb, moderately worked and well flavoured, weighing 800 g to 1.2 kg. Versatile: sliced thin to griller, barded and tied to r\u00f4tir, or braised whole in a cocotte.",
     ["aiguillette baronne r\u00f4tie", "b\u0153uf \u00e0 la ficelle", "aiguillette brais\u00e9e aux carottes"])
 
@@ -37,51 +37,51 @@ cut("araignee", "Spider steak", "Araign\u00e9e",
 
 # ---- hind leg / thigh, tiled rear to front ----
 cut("rond-de-gite", "Eye of round", "Rond de g\u00eete",
-    "The hindmost muscle of the thigh, behind the femur, x 0.00-0.07, z 0.34-0.66.",
-    [0.00, 0.07], [0.34, 0.66], True,
+    "The hindmost muscle of the thigh, behind the femur and above the gaskin, x 0.00-0.07, z 0.46-0.66.",
+    [0.00, 0.07], [0.46, 0.66], True,
     "Also called the semelle ('shoe sole'), a cylindrical, extremely lean and fine-grained muscle at the very back of the leg with almost no fat. Tender enough to eat raw in tartare or carpaccio, but cooked it tightens quickly, so it is otherwise braised or mijot\u00e9.",
     ["carpaccio de b\u0153uf", "tartare", "b\u0153uf mode", "b\u0153uf brais\u00e9"])
 
 cut("gite-a-la-noix", "Silverside", "G\u00eete \u00e0 la noix",
-    "The middle-rear of the thigh, x 0.07-0.14, z 0.34-0.64, wrapping the back of the femur ahead of the rond de g\u00eete.",
-    [0.07, 0.14], [0.34, 0.64], True,
+    "The middle-rear of the thigh, x 0.07-0.14, z 0.46-0.64, wrapping the back of the femur ahead of the rond de g\u00eete.",
+    [0.07, 0.14], [0.46, 0.64], True,
     "A long muscle of the rear thigh with short fibres and a fine grain, lean and reasonably tender for a leg muscle. Cut into steaks to griller or barded and tied to r\u00f4tir; the firmer end goes to braiser.",
     ["r\u00f4ti de g\u00eete \u00e0 la noix", "b\u0153uf \u00e0 la mode", "steak de g\u00eete", "b\u0153uf brais\u00e9 aux carottes"])
 
 cut("tende-de-tranche", "Topside", "Tende de tranche",
-    "The large muscle on the inner face of the thigh, x 0.14-0.21, z 0.38-0.62 \u2014 the medial side of the leg between hock and hip.",
-    [0.14, 0.21], [0.38, 0.62], True,
+    "The large muscle on the inner face of the thigh, x 0.14-0.21, z 0.46-0.62 \u2014 the medial side of the leg between gaskin and hip.",
+    [0.14, 0.21], [0.46, 0.62], True,
     "The biggest piece of the thigh, on the inner face where the muscles do least work, so the meat is naturally tender and very lean. It hides the two prized morceaux du boucher \u2014 the small round poire (500-600 g) and the long flat merlan (800 g-1 kg) \u2014 and the whole group is griller/r\u00f4tir meat.",
     ["bifteck", "poire et merlan grill\u00e9s", "fondue bourguignonne", "r\u00f4ti de tende de tranche", "escalopes de b\u0153uf"])
 
 cut("tranche-grasse", "Thick flank / knuckle", "Tranche grasse",
-    "The front of the thigh over the stifle, x 0.21-0.29, z 0.36-0.60, ahead of the femur.",
-    [0.21, 0.29], [0.36, 0.60], True,
+    "The front of the thigh over the stifle, x 0.21-0.29, z 0.46-0.60, ahead of the femur.",
+    [0.21, 0.29], [0.46, 0.60], True,
     "The quadriceps group at the front of the leg, broken down by the trade into plat de tranche, rond de tranche and mouvant; well used in walking, so firmer and more sinewy than the tende de tranche. Sliced thin it grills, but most of it is braiser/mijoter meat.",
     ["b\u0153uf bourguignon", "paupiettes de b\u0153uf", "bifteck", "daube proven\u00e7ale"])
 
 cut("gite-arriere", "Hind shank", "G\u00eete (jarret arri\u00e8re)",
-    "The rear shank below the hock, x 0.03-0.13, z 0.06-0.34; the hock sits at z 0.28.",
-    [0.03, 0.13], [0.06, 0.34], True,
+    "The whole lower hind leg — gaskin and shank below the thigh, x 0.03-0.13, z 0.06-0.46; the hock sits at z 0.28.",
+    [0.03, 0.13], [0.06, 0.46], True,
     "The lower hind leg \u2014 hard-working muscles laced with tendon and collagen around the shank bone and its marrow. Emphatically a bouillir/mijoter cut: hours of gentle wet heat turn the collagen to gelatine and give the broth its body.",
     ["pot-au-feu", "osso-buco de b\u0153uf", "g\u00eete en gel\u00e9e", "bouillon de b\u0153uf"])
 
 # ---- loin ----
 cut("faux-filet", "Sirloin / strip loin", "Faux-filet (contre-filet)",
-    "The long back muscle above the lumbar and last thoracic vertebrae, x 0.30-0.46, z 0.80-0.94, between the rumsteck and the ribs.",
-    [0.30, 0.46], [0.80, 0.94], True,
+    "The long back muscle above the lumbar and last thoracic vertebrae, x 0.36-0.46, z 0.80-0.94, between the rumsteck and the ribs.",
+    [0.36, 0.46], [0.80, 0.94], True,
     "The longissimus dorsi running along the top of the spine, a postural muscle that is barely worked and carries a firm cap of fat. A premi\u00e8re cat\u00e9gorie griller/r\u00f4tir cut with more chew and more flavour than the filet.",
     ["entrec\u00f4te faux-filet grill\u00e9e", "pav\u00e9 de faux-filet", "rosbif", "contre-filet sauce b\u00e9arnaise"])
 
 cut("filet", "Tenderloin", "Filet",
-    "Tucked inside the carcass underneath the lumbar spine, x 0.30-0.46, z 0.70-0.80, directly beneath the faux-filet.",
-    [0.30, 0.46], [0.70, 0.80], False,
+    "Tucked inside the carcass underneath the lumbar spine, x 0.28-0.46, z 0.70-0.80, beneath the faux-filet and reaching back under the rumsteck.",
+    [0.28, 0.46], [0.70, 0.80], False,
     "The psoas major, slung under the backbone where it never bears weight, which makes it the most tender and least fatty muscle on the animal. The top of the premi\u00e8re cat\u00e9gorie: grill or roast it quickly, usually barded because it has no fat of its own.",
     ["tournedos Rossini", "filet de b\u0153uf en cro\u00fbte", "chateaubriand", "filet mignon", "b\u0153uf Wellington"])
 
 cut("bavette-d-aloyau", "Flank steak (loin end)", "Bavette d'aloyau",
-    "The upper flank flap where the abdominal wall meets the loin, x 0.30-0.40, z 0.56-0.70, just below the filet and behind the last rib.",
-    [0.30, 0.40], [0.56, 0.70], False,
+    "The upper flank flap where the abdominal wall meets the loin, x 0.29-0.40, z 0.56-0.70, just below the filet and behind the last rib.",
+    [0.29, 0.40], [0.56, 0.70], False,
     "A flat sheet of abdominal muscle with long, coarse, clearly visible fibres and a deep beefy taste. A deuxi\u00e8me cat\u00e9gorie griller cut treated like a first: seared hard, served saignant and always sliced across the grain.",
     ["bavette \u00e0 l'\u00e9chalote", "bavette grill\u00e9e", "bavette au poivre"])
 
@@ -130,14 +130,14 @@ cut("basses-cotes", "Chuck rib / blade end", "Basses c\u00f4tes",
 
 # ---- belly / brisket ----
 cut("tendron", "Rib tips / short plate", "Tendron, milieu de poitrine",
-    "The mid-breast over the rib cartilages and sternum, x 0.46-0.58, z 0.44-0.54.",
-    [0.46, 0.58], [0.44, 0.54], True,
+    "The mid-breast over the rib cartilages and sternum, x 0.46-0.56, z 0.44-0.54, behind the brisket.",
+    [0.46, 0.56], [0.44, 0.54], True,
     "Alternating layers of muscle, fat and the soft cartilage of the rib ends, taken from the floor of the chest. A troisi\u00e8me cat\u00e9gorie mijoter cut whose cartilage melts to gelatine over long cooking; sliced very thin it can also be grilled.",
     ["tendron de b\u0153uf en cocotte", "pot-au-feu", "tendron brais\u00e9", "tendron au barbecue"])
 
 cut("gros-bout-de-poitrine", "Brisket", "Gros bout de poitrine",
-    "The front of the breast below and between the forelegs, x 0.58-0.72, z 0.44-0.56, ahead of the elbow at x 0.62.",
-    [0.58, 0.72], [0.44, 0.56], True,
+    "The front of the breast below and between the forelegs, x 0.62-0.72, z 0.46-0.56, ahead of the elbow at x 0.62.",
+    [0.62, 0.72], [0.46, 0.56], True,
     "Three pectoral muscles slung under the shoulder that carry much of the animal's forward weight with no collarbone to help, so they are dense, fatty and full of collagen. A bouillir/mijoter cut, and the traditional piece for salting.",
     ["pot-au-feu", "b\u0153uf gros sel", "poitrine sal\u00e9e", "pot\u00e9e auvergnate"])
 
@@ -167,14 +167,14 @@ cut("jumeau-a-pot-au-feu", "Chuck (stewing twin)", "Jumeau \u00e0 pot-au-feu",
     ["pot-au-feu", "b\u0153uf bourguignon", "daube", "rago\u00fbt de b\u0153uf"])
 
 cut("macreuse-a-pot-au-feu", "Shoulder clod", "Macreuse \u00e0 pot-au-feu",
-    "The muscle mass wrapping the humerus on the foreleg above the shank, x 0.58-0.70, z 0.30-0.44.",
-    [0.58, 0.70], [0.30, 0.44], True,
-    "A big block of muscle on the front limb, worked at every stride and dense with sinew. Firmer than the macreuse \u00e0 bifteck and a troisi\u00e8me cat\u00e9gorie bouillir cut that needs long, slow simmering to turn tender.",
+    "The muscle mass wrapping the humerus on the outer foreleg, behind and above the elbow at x 0.62, z 0.46-0.56.",
+    [0.56, 0.62], [0.46, 0.56], True,
+    "A big block of muscle around the humerus of the front limb, worked at every stride and dense with sinew. Firmer than the macreuse \u00e0 bifteck and a troisi\u00e8me cat\u00e9gorie bouillir cut that needs long, slow simmering to turn tender.",
     ["pot-au-feu", "b\u0153uf mode", "rago\u00fbt", "bouillon"])
 
 cut("gite-avant", "Fore shank / shin", "G\u00eete avant (jarret)",
-    "The foreleg below the knee, x 0.58-0.70, z 0.06-0.30; the knee sits at z 0.28.",
-    [0.58, 0.70], [0.06, 0.30], True,
+    "The whole lower foreleg — forearm and shin below the elbow, x 0.58-0.70, z 0.06-0.46; the knee sits at z 0.28.",
+    [0.58, 0.70], [0.06, 0.46], True,
     "The shin of the front leg: lean muscle bundles wrapped in tendon around a marrow bone, about as hard-working as meat gets. A bouillir cut whose collagen is exactly what a good bouillon or a b\u0153uf en gel\u00e9e needs.",
     ["pot-au-feu", "jarret de b\u0153uf", "b\u0153uf en gel\u00e9e", "bouillon"])
 

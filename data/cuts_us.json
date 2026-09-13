@@ -24,7 +24,7 @@
       "x": [0.0, 0.22],
       "z": [0.45, 0.92],
       "full_width": true,
-      "description": "The rump and hind leg - the animal's propulsion muscles, so the meat is very lean, close-grained and only moderately tender. Sold as large lean roasts, marinated or thin-sliced steaks, deli roast beef, and a great deal of grind.",
+      "description": "The rump and hind leg - the animal's propulsion muscles, so the meat is very lean, close-grained and only moderately tender. Broken into top (inside) round, bottom round or gooseneck, eye of round, sirloin tip (knuckle) and rump, sold as lean roasts, marinated steaks, deli roast beef and a great deal of grind.",
       "dishes": ["roast beef", "sauerbraten", "London broil", "beef jerky", "ground beef"]
     },
     {
@@ -64,8 +64,8 @@
       "id": "flank",
       "name": "Flank",
       "native": "Flank",
-      "region": "The thin abdominal sheet under the loin, x 0.24-0.46, z 0.52-0.70, removed from the short loin and sirloin by a straight cut running ventral to the longissimus dorsi. A flat wall of muscle on each side of the belly, not a full-width block.",
-      "x": [0.24, 0.46],
+      "region": "The thin abdominal sheet under the loin, x 0.22-0.46, z 0.52-0.70, removed from the short loin and sirloin by a straight cut running ventral to the longissimus dorsi and reaching back to the round end, within an inch of the tensor fasciae latae (IMPS 181). A flat wall of muscle on each side of the belly, not a full-width block.",
+      "x": [0.22, 0.46],
       "z": [0.52, 0.7],
       "full_width": false,
       "description": "The abdominal wall that carries the gut - lean, boneless and coarse, with a pronounced long grain. Marinated and grilled or braised, then sliced thinly across the grain; most of the primal by weight is simply ground.",
@@ -79,7 +79,7 @@
       "x": [0.46, 0.56],
       "z": [0.7, 0.92],
       "full_width": true,
-      "description": "The thoracic back over the ribcage, used for support rather than locomotion, so it is tender and heavily marbled with intramuscular fat. Roasted whole on the bone or cut into thick steaks for the grill.",
+      "description": "The thoracic back over the ribcage, used for support rather than locomotion, so it is tender and heavily marbled with intramuscular fat. Roasted whole on the bone as prime rib or broken into the ribeye roll, ribeye cap, blade (lifter) meat, back ribs and rib short ribs.",
       "dishes": ["prime rib / standing rib roast", "ribeye steak", "cowboy steak", "beef back ribs", "ribeye cap (spinalis)"]
     },
     {
@@ -101,7 +101,7 @@
       "x": [0.56, 0.8],
       "z": [0.55, 0.92],
       "full_width": true,
-      "description": "Shoulder, blade and neck - the hardest-working muscle group on the animal, deeply flavoured but shot through with connective tissue and therefore mostly tough. Braised, pot-roasted or ground, though a few seam-cut muscles (flat iron, teres major) are tender enough to grill.",
+      "description": "Shoulder, blade and neck - the hardest-working muscle group on the animal, deeply flavoured but shot through with connective tissue and therefore mostly tough. It yields the chuck roll, chuck eye, under blade, shoulder clod, arm and 7-bone blade roasts, chuck tender (mock tender) and chuck short ribs, mostly braised, pot-roasted or ground, though a few seam-cut muscles (flat iron, teres major) are tender enough to grill.",
       "dishes": ["pot roast", "beef stew", "ground beef for hamburgers", "flat iron steak", "chili con carne"]
     },
     {
@@ -112,7 +112,7 @@
       "x": [0.56, 0.74],
       "z": [0.42, 0.55],
       "full_width": true,
-      "description": "The breast muscle that bears the front weight of an animal with no collarbone - dense, grainy and interleaved with fat and collagen. It needs many hours of low moist or smoky heat, which is the whole premise of American barbecue.",
+      "description": "The breast muscle that bears the front weight of an animal with no collarbone - dense, grainy and interleaved with fat and collagen. Sold whole, boneless deckle-on or deckle-off, or split into the flat (first cut) and the fattier point, and it needs many hours of low moist or smoky heat - the whole premise of American barbecue.",
       "dishes": ["Texas smoked brisket", "corned beef", "pastrami", "braised brisket", "burnt ends"]
     },
     {
