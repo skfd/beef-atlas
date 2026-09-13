@@ -41,6 +41,9 @@ LOCAL = (
     ("IMPS_100", "sources/imps100.txt"),
     ("LSimps700", "sources/imps700.txt"),
     ("ams.usda.gov", "sources/imps100.txt"),
+    # law.go.kr serves this appendix as page images, never as text.
+    ("admRulSeq=2100000184120", "sources/kr-byl3.txt"),
+    ("bylSeq=2026095", "sources/kr-byl3.txt"),
     ("paffa.org", "calkins-table.md"),
     ("agrireseau.net", "calkins-table.md"),
 )

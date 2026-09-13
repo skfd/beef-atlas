@@ -219,7 +219,7 @@ answer**. These are the ones already known to resist:
 
 | Cut | State |
 |---|---|
-| **살치살** | The Korean regulation defines it by shape and position and names **no muscle**: "윗등심살 앞부분에 붙어 있는 삼각형 모양의 근육을 분리하여 정형한 것". meatlab.co.kr says *serratus ventralis*; namu.wiki says *spinalis* (403, snippet only). It is the chuck-flap region where the two physically meet. **Do not pick one.** |
+| **살치살** | **Settled from the primary source.** [별표 3] names the muscle outright: "윗등심살의 앞다리부위를 분리한 쪽에 붙어있는 배쪽톱니근(복거근)으로…" — 배쪽톱니근(복거근) is *M. serratus ventralis*. The earlier note here, that the regulation "names no muscle" and describes only a 삼각형 모양의 근육, was wrong: that wording is not on the page. Read from the official page images, now transcribed in `sources/kr-byl3.txt`. namu.wiki's *spinalis* is the mistake. |
 | **araignée** | Nine fetches, not one names an obturator. All sources describe position only — "le muscle qui tapisse l'intérieur du trou coxal du bassin". The *fausse* araignée gets an obturator; the araignée does not. fr.wikipedia offers a human adductor analogy — not an answer. |
 | **poire** | No muscle in any source. OQLF lists it as a sub-piece of the tende de tranche. |
 | **aiguillette baronne** | Nomenclature well sourced ("La pointe de la culotte de bœuf"), muscle not. Its tri-tip equation is unresolved **in both directions**. |
