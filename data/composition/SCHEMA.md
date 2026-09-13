@@ -104,6 +104,22 @@ standard muscles and inferred bounds is normal and the table should say so.
 `standard` or `trade` — the validator enforces it. `supports` says which part of the
 entry the quote backs: `muscles`, `bounds`, or both.
 
+`locator` is optional and is where a clause number, item number or field name goes —
+`"5.2.1.6 Contre-filet"`, `"muscle 53, Common Name field"`. It is **not** part of the
+quote. Assembling a label and a quoted fragment into one `quote` string produces a
+sentence that appears on no page.
+
+> **WebFetch does not return raw text.** It runs a small model over the page, and that
+> model paraphrases, summarises, merges adjacent passages and translates out of the
+> source language — silently, and plausibly. A `quote` taken from an ordinary WebFetch
+> answer can be a fabrication that reads perfectly. Ask for it explicitly — *"quote the
+> passage word for word inside quotation marks; do not merge adjacent sentences, do not
+> summarise, do not translate"* — and treat only the text that comes back **inside
+> quotation marks** as quotable. If a passage cannot be recovered verbatim, drop the
+> grade to `inferred` and say what the source said in `dispute`. An honest `inferred` is
+> fine; a quote that was never on the page is the one failure this whole table exists to
+> prevent.
+
 For `inferred`, name the reasoning in `dispute`. For `contested`, list at least two
 candidates with their sources. **"No source names a muscle for this cut" is a correct
 and valuable answer** — several Korean and French cuts are defined by regulation in

@@ -1,7 +1,7 @@
 {
  "culture": "United States",
  "id": "us",
- "note": "The worked example for the schema. US cuts in this atlas are IMPS primals, which is the easy case for bounds (they are defined by named ribs and joints) and the hard case for sources: IMPS Series 100 itself is behind a 403 at ams.usda.gov and behind a login at meattrack.com, so boundaries that IMPS states are graded `inferred` here and carry the reasoning rather than a quote we cannot produce. Muscle lists lean on CFIA, whose Canadian primals share the American cutting lines, and on the Calkins & Sullivan table reproduced in calkins-table.md.",
+ "note": "The worked example for the schema. US cuts in this atlas are IMPS primals, which is the easy case for bounds (they are defined by named ribs and joints) and the hard case for sources: IMPS Series 100 itself is behind a 403 at ams.usda.gov and behind a login at meattrack.com, so boundaries that IMPS states are graded `inferred` here and carry the reasoning rather than a quote we cannot produce. Muscle lists lean on CFIA, whose Canadian primals share the American cutting lines, and on the Calkins & Sullivan table reproduced in calkins-table.md. Quotes here are strictly the text a fetch returned inside quotation marks; where a source numbers its clauses, the number is a `locator` on the source rather than part of the quote. WebFetch paraphrases and merges adjacent passages unless asked for verbatim text, so anything assembled around a quoted fragment is a fabrication waiting to be trusted.",
  "sources": [
   "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
   "https://meat.tamu.edu/meat-science/teaching/ansc-307-meats/beef-loin-porterhouse-steak/",
@@ -16,389 +16,904 @@
   {
    "id": "round",
    "muscles": [
-    {"id": "semimembranosus", "role": "defining", "extent": "whole",
-     "note": "top (inside) round"},
-    {"id": "adductor", "role": "major", "extent": "whole"},
-    {"id": "gracilis", "role": "major", "extent": "whole",
-     "note": "the thin cap on the inside round"},
-    {"id": "biceps-femoris", "role": "defining", "extent": "portion",
-     "from": "ilium", "to": "tibia",
-     "note": "bottom (outside) round; the gluteobiceps is cut across where the round is separated from the sirloin"},
-    {"id": "semitendinosus", "role": "major", "extent": "whole", "note": "eye of round"},
-    {"id": "quadriceps-femoris", "role": "major", "extent": "whole", "note": "knuckle / sirloin tip"},
-    {"id": "rectus-femoris", "role": "major", "extent": "whole", "note": "knuckle centre"},
-    {"id": "gluteus-medius", "role": "minor", "extent": "portion",
-     "from": "ilium", "to": "femur",
-     "note": "only the rump end; the bulk of it is in the sirloin in front of the cut"},
-    {"id": "gastrocnemius", "role": "trace", "extent": "portion",
-     "from": "femur", "to": "seam",
-     "note": "the heel; most of it goes with the hind shank"},
-    {"id": "obturator-externus", "role": "trace", "extent": "whole"}
+    {
+     "id": "semimembranosus",
+     "role": "defining",
+     "extent": "whole",
+     "note": "top (inside) round"
+    },
+    {
+     "id": "adductor",
+     "role": "major",
+     "extent": "whole"
+    },
+    {
+     "id": "gracilis",
+     "role": "major",
+     "extent": "whole",
+     "note": "the thin cap on the inside round"
+    },
+    {
+     "id": "biceps-femoris",
+     "role": "defining",
+     "extent": "portion",
+     "from": "ilium",
+     "to": "tibia",
+     "note": "bottom (outside) round; the gluteobiceps is cut across where the round is separated from the sirloin"
+    },
+    {
+     "id": "semitendinosus",
+     "role": "major",
+     "extent": "whole",
+     "note": "eye of round"
+    },
+    {
+     "id": "quadriceps-femoris",
+     "role": "major",
+     "extent": "whole",
+     "note": "knuckle / sirloin tip"
+    },
+    {
+     "id": "rectus-femoris",
+     "role": "major",
+     "extent": "whole",
+     "note": "knuckle centre"
+    },
+    {
+     "id": "gluteus-medius",
+     "role": "minor",
+     "extent": "portion",
+     "from": "ilium",
+     "to": "femur",
+     "note": "only the rump end; the bulk of it is in the sirloin in front of the cut"
+    },
+    {
+     "id": "gastrocnemius",
+     "role": "trace",
+     "extent": "portion",
+     "from": "femur",
+     "to": "seam",
+     "note": "the heel; most of it goes with the hind shank"
+    },
+    {
+     "id": "obturator-externus",
+     "role": "trace",
+     "extent": "whole"
+    }
    ],
    "unmodelled": [
-    {"latin": "M. pectineus", "role": "minor",
-     "where": "medial thigh, between the adductor and the gracilis; CFIA counts it as one of the four inside-round muscles"},
-    {"latin": "M. sartorius", "role": "minor",
-     "where": "a flat strap on the medial thigh over the adductor; the French merlan"},
-    {"latin": "M. popliteus", "role": "trace",
-     "where": "behind the stifle, deep to the gastrocnemius"}
+    {
+     "latin": "M. pectineus",
+     "role": "minor",
+     "where": "medial thigh, between the adductor and the gracilis; CFIA counts it as one of the four inside-round muscles"
+    },
+    {
+     "latin": "M. sartorius",
+     "role": "minor",
+     "where": "a flat strap on the medial thigh over the adductor; the French merlan"
+    },
+    {
+     "latin": "M. popliteus",
+     "role": "trace",
+     "where": "behind the stifle, deep to the gastrocnemius"
+    }
    ],
    "bone_in": true,
    "evidence": "standard",
    "bounds_evidence": "inferred",
    "sources": [
-    {"url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
-     "supports": ["muscles"],
-     "quote": "5.3.2.1 Intérieur de ronde : renferme quatre (4) muscles : le pectineus, l'adductor, le gracilis et le semimembranosus"},
-    {"url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
-     "supports": ["muscles"],
-     "quote": "5.3.2.2 Extérieur de ronde : renferme trois (3) muscles principaux : le vastus lateralis, le biceps femoris et le semitendinosus"},
-    {"url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
-     "supports": ["muscles"],
-     "quote": "5.3.5 Pointe de surlonge : renferme trois (3) muscles principaux : le vastus lateralis, le rectus femoris et le vastus medialis"}
+    {
+     "url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "renferme quatre (4) muscles : le pectineus, l'adductor, le gracilis et le semimembranosus",
+     "locator": "5.3.2.1 Intérieur de ronde"
+    },
+    {
+     "url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "renferme trois (3) muscles principaux : le vastus lateralis, le biceps femoris et le semitendinosus",
+     "locator": "5.3.2.2 Extérieur de ronde"
+    },
+    {
+     "url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "renferme trois (3) muscles principaux : le vastus lateralis, le rectus femoris et le vastus medialis",
+     "locator": "5.3.5 Pointe de surlonge"
+    }
    ],
    "dispute": "Bounds: IMPS 158 separates the round from the loin by a cut just anterior to the ball of the femur. That is the boundary used here, but IMPS Series 100 is not fetchable (ams.usda.gov 403, meattrack.com login), so it is graded inferred rather than carrying a quote. Note also that CFIA's extérieur de ronde list includes vastus lateralis, which every other source places in the knuckle; reproduced as written rather than corrected."
   },
   {
    "id": "hindshank",
    "muscles": [
-    {"id": "gastrocnemius", "role": "defining", "extent": "portion",
-     "from": "femur", "to": "tarsus",
-     "note": "the round heel; the round takes the proximal end of the same muscle"}
+    {
+     "id": "gastrocnemius",
+     "role": "defining",
+     "extent": "portion",
+     "from": "femur",
+     "to": "tarsus",
+     "note": "the round heel; the round takes the proximal end of the same muscle"
+    }
    ],
    "unmodelled": [
-    {"latin": "M. flexor digitorum profundus", "role": "major",
-     "where": "caudal to the tibia, deep to the gastrocnemius"},
-    {"latin": "M. flexor digitorum superficialis", "role": "major",
-     "where": "caudal to the tibia, superficial to the deep flexor"},
-    {"latin": "M. tibialis cranialis", "role": "minor",
-     "where": "in front of the tibia, lateral to its crest"},
-    {"latin": "M. extensor digitorum longus", "role": "minor",
-     "where": "craniolateral to the tibia, alongside the tibialis cranialis"}
+    {
+     "latin": "M. flexor digitorum profundus",
+     "role": "major",
+     "where": "caudal to the tibia, deep to the gastrocnemius"
+    },
+    {
+     "latin": "M. flexor digitorum superficialis",
+     "role": "major",
+     "where": "caudal to the tibia, superficial to the deep flexor"
+    },
+    {
+     "latin": "M. tibialis cranialis",
+     "role": "minor",
+     "where": "in front of the tibia, lateral to its crest"
+    },
+    {
+     "latin": "M. extensor digitorum longus",
+     "role": "minor",
+     "where": "craniolateral to the tibia, alongside the tibialis cranialis"
+    }
    ],
    "bone_in": true,
    "evidence": "trade",
    "bounds_evidence": "inferred",
    "sources": [
-    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
-     "supports": ["muscles"],
-     "quote": "Gastrocnemius  Round heel"}
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Gastrocnemius  Round heel"
+    }
    ],
    "dispute": "Only the gastrocnemius is named by a source. The rest of the shank is the digital flexor and extensor group, which no beef source enumerates because none of it is sold as a named muscle — it is braised on the bone. Those are listed as unmodelled from bovine anatomy, not from a beef source. Bounds: IMPS 157 cuts through the stifle; not quotable, see `round`."
   },
   {
    "id": "sirloin",
    "muscles": [
-    {"id": "gluteus-medius", "role": "defining", "extent": "whole",
-     "note": "top sirloin"},
-    {"id": "biceps-femoris", "role": "major", "extent": "portion",
-     "from": "sacrum", "to": "ilium", "seam": true,
-     "note": "the top sirloin cap — coulotte, picanha — seamed off the gluteus medius"},
-    {"id": "tensor-fasciae-latae", "role": "major", "extent": "whole",
-     "note": "tri-tip, in the bottom sirloin"},
-    {"id": "obliquus-internus-abdominis", "role": "major", "extent": "portion",
-     "from": "ilium", "to": "seam",
-     "note": "the sirloin butt flap — the French bavette d'aloyau, UNECE 2203"},
-    {"id": "longissimus", "role": "major", "extent": "portion",
-     "from": "ilium", "to": "lumbar-vertebrae",
-     "note": "the posterior end of the loin eye; the same muscle is the strip loin in front of the hip cartilage"},
-    {"id": "multifidus", "role": "minor", "extent": "portion",
-     "from": "ilium", "to": "lumbar-vertebrae"},
-    {"id": "psoas-major", "role": "minor", "extent": "portion",
-     "from": "ilium", "to": "lumbar-vertebrae",
-     "note": "the butt end of the tenderloin, unless the tenderloin is pulled whole"},
-    {"id": "obliquus-externus-abdominis", "role": "minor", "extent": "portion",
-     "from": "ilium", "to": "seam"},
-    {"id": "transversus-abdominis", "role": "trace", "extent": "portion",
-     "from": "ilium", "to": "seam"},
-    {"id": "rectus-femoris", "role": "minor", "extent": "portion",
-     "from": "ilium", "to": "seam", "note": "the ball tip, at the bottom sirloin's round end"}
+    {
+     "id": "gluteus-medius",
+     "role": "defining",
+     "extent": "whole",
+     "note": "top sirloin"
+    },
+    {
+     "id": "biceps-femoris",
+     "role": "major",
+     "extent": "portion",
+     "from": "sacrum",
+     "to": "ilium",
+     "seam": true,
+     "note": "the top sirloin cap — coulotte, picanha — seamed off the gluteus medius"
+    },
+    {
+     "id": "tensor-fasciae-latae",
+     "role": "major",
+     "extent": "whole",
+     "note": "tri-tip, in the bottom sirloin"
+    },
+    {
+     "id": "obliquus-internus-abdominis",
+     "role": "major",
+     "extent": "portion",
+     "from": "ilium",
+     "to": "seam",
+     "note": "the sirloin butt flap — the French bavette d'aloyau, UNECE 2203"
+    },
+    {
+     "id": "longissimus",
+     "role": "major",
+     "extent": "portion",
+     "from": "ilium",
+     "to": "lumbar-vertebrae",
+     "note": "the posterior end of the loin eye; the same muscle is the strip loin in front of the hip cartilage"
+    },
+    {
+     "id": "multifidus",
+     "role": "minor",
+     "extent": "portion",
+     "from": "ilium",
+     "to": "lumbar-vertebrae"
+    },
+    {
+     "id": "psoas-major",
+     "role": "minor",
+     "extent": "portion",
+     "from": "ilium",
+     "to": "lumbar-vertebrae",
+     "note": "the butt end of the tenderloin, unless the tenderloin is pulled whole"
+    },
+    {
+     "id": "obliquus-externus-abdominis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "ilium",
+     "to": "seam"
+    },
+    {
+     "id": "transversus-abdominis",
+     "role": "trace",
+     "extent": "portion",
+     "from": "ilium",
+     "to": "seam"
+    },
+    {
+     "id": "rectus-femoris",
+     "role": "minor",
+     "extent": "portion",
+     "from": "ilium",
+     "to": "seam",
+     "note": "the ball tip, at the bottom sirloin's round end"
+    }
    ],
    "unmodelled": [
-    {"latin": "M. gluteus profundus", "role": "minor",
-     "where": "deep to the gluteus medius, over the hip joint"},
-    {"latin": "M. gluteus accessorius", "role": "trace",
-     "where": "between the gluteus medius and the gluteus profundus"}
+    {
+     "latin": "M. gluteus profundus",
+     "role": "minor",
+     "where": "deep to the gluteus medius, over the hip joint"
+    },
+    {
+     "latin": "M. gluteus accessorius",
+     "role": "trace",
+     "where": "between the gluteus medius and the gluteus profundus"
+    }
    ],
    "bone_in": true,
    "evidence": "standard",
    "bounds_evidence": "inferred",
    "sources": [
-    {"url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
-     "supports": ["muscles"],
-     "quote": "5.2.1.5 Coquille d'aloyau : renferme des parties des muscles abdominaux: l'obliquus abdominis externus; l'obliquus abdominis internus; le transversus abdominis et les muscles de la longe; le gluteus medius; le longissimus dorsi; et le multifidus dorsi"},
-    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
-     "supports": ["muscles"],
-     "quote": "Gluteus medius  Top sirloin"},
-    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
-     "supports": ["muscles"],
-     "quote": "Tensor fascia latae  Tri-tip"}
+    {
+     "url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "renferme des parties des muscles abdominaux: l'obliquus abdominis externus; l'obliquus abdominis internus; le transversus abdominis et les muscles de la longe; le gluteus medius; le longissimus dorsi; et le multifidus dorsi",
+     "locator": "5.2.1.5 Coquille d'aloyau"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Gluteus medius  Top sirloin"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Tensor fascia latae  Tri-tip"
+    }
    ],
    "dispute": "Bounds: IMPS 181 runs from the round cut at the femur ball forward to a straight cut just anterior to the hip cartilage that exposes the gluteus medius. Not quotable — see `round`."
   },
   {
    "id": "short_loin",
    "muscles": [
-    {"id": "longissimus", "role": "defining", "extent": "portion",
-     "from": "rib-13", "to": "ilium",
-     "note": "the strip loin. The same muscle is the ribeye in front of rib 13 and the chuck eye in front of rib 5 — the three cuts are one longissimus divided by two saw lines, which is why the boundary and not the name is what identifies this cut"},
-    {"id": "psoas-major", "role": "major", "extent": "portion",
-     "from": "rib-13", "to": "ilium",
-     "note": "the tenderloin; the butt end runs on into the sirloin"},
-    {"id": "psoas-minor", "role": "minor", "extent": "whole",
-     "note": "the chain / side strap, removed by some trim specs"},
-    {"id": "multifidus", "role": "minor", "extent": "portion",
-     "from": "rib-13", "to": "ilium", "note": "the sub-eye"},
-    {"id": "gluteus-medius", "role": "trace", "extent": "portion",
-     "from": "ilium", "to": "ilium",
-     "note": "appears only on the last porterhouse steaks, at the sirloin end"},
-    {"id": "quadratus-lumborum", "role": "trace", "extent": "portion",
-     "from": "rib-13", "to": "ilium"}
+    {
+     "id": "longissimus",
+     "role": "defining",
+     "extent": "portion",
+     "from": "rib-13",
+     "to": "ilium",
+     "note": "the strip loin. The same muscle is the ribeye in front of rib 13 and the chuck eye in front of rib 5 — the three cuts are one longissimus divided by two saw lines, which is why the boundary and not the name is what identifies this cut"
+    },
+    {
+     "id": "psoas-major",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-13",
+     "to": "ilium",
+     "note": "the tenderloin; the butt end runs on into the sirloin"
+    },
+    {
+     "id": "psoas-minor",
+     "role": "minor",
+     "extent": "whole",
+     "note": "the chain / side strap, removed by some trim specs"
+    },
+    {
+     "id": "multifidus",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-13",
+     "to": "ilium",
+     "note": "the sub-eye"
+    },
+    {
+     "id": "gluteus-medius",
+     "role": "trace",
+     "extent": "portion",
+     "from": "ilium",
+     "to": "ilium",
+     "note": "appears only on the last porterhouse steaks, at the sirloin end"
+    },
+    {
+     "id": "quadratus-lumborum",
+     "role": "trace",
+     "extent": "portion",
+     "from": "rib-13",
+     "to": "ilium"
+    }
    ],
    "unmodelled": [
-    {"latin": "M. iliacus", "role": "minor",
-     "where": "fused with the psoas major as the iliopsoas, against the ilium"},
-    {"latin": "M. iliocostalis lumborum", "role": "trace",
-     "where": "lateral to the longissimus over the lumbar vertebrae"}
+    {
+     "latin": "M. iliacus",
+     "role": "minor",
+     "where": "fused with the psoas major as the iliopsoas, against the ilium"
+    },
+    {
+     "latin": "M. iliocostalis lumborum",
+     "role": "trace",
+     "where": "lateral to the longissimus over the lumbar vertebrae"
+    }
    ],
    "bone_in": true,
    "evidence": "standard",
    "bounds_evidence": "inferred",
    "sources": [
-    {"url": "https://meat.tamu.edu/meat-science/teaching/ansc-307-meats/beef-loin-porterhouse-steak/",
-     "supports": ["muscles"],
-     "quote": "M. psoas major 2. M. longissimus lumborum 3. M. gluteus medius 4. M. multifidi"},
-    {"url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
-     "supports": ["muscles"],
-     "quote": "5.2.1.6 Contre-filet : renferme trois (3) muscles : le gluteus medius; le longissimus dorsi; et le multifidus dorsi"},
-    {"url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
-     "supports": ["muscles"],
-     "quote": "5.2.1.4 Filet : désigne le muscle principal (psoas major et minor) à forme cylindrique"}
+    {
+     "url": "https://meat.tamu.edu/meat-science/teaching/ansc-307-meats/beef-loin-porterhouse-steak/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "M. psoas major 2. M. longissimus lumborum 3. M. gluteus medius 4. M. multifidi"
+    },
+    {
+     "url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "renferme trois (3) muscles : le gluteus medius; le longissimus dorsi; et le multifidus dorsi",
+     "locator": "5.2.1.6 Contre-filet"
+    },
+    {
+     "url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "désigne le muscle principal (psoas major et minor) à forme cylindrique",
+     "locator": "5.2.1.4 Filet"
+    }
    ],
    "dispute": "Bounds: IMPS 173 runs from the sirloin cut at the hip cartilage forward to the natural curvature of the 13th rib; because the carcass is quartered between the 12th and 13th ribs, the short loin carries the 13th rib. That rib number is the single most important boundary in the whole table and it is not quotable from IMPS — see `round`."
   },
   {
    "id": "flank",
    "muscles": [
-    {"id": "rectus-abdominis", "role": "defining", "extent": "whole",
-     "note": "the flank steak itself; UNECE calls the same muscle the flank steak, item 2210, and the French bavette de flanchet"},
-    {"id": "obliquus-internus-abdominis", "role": "major", "extent": "portion",
-     "from": "ilium", "to": "rib-13", "seam": true},
-    {"id": "obliquus-externus-abdominis", "role": "major", "extent": "portion",
-     "from": "ilium", "to": "rib-13"},
-    {"id": "transversus-abdominis", "role": "minor", "extent": "portion",
-     "from": "ilium", "to": "rib-13", "note": "the inside skirt"}
+    {
+     "id": "rectus-abdominis",
+     "role": "defining",
+     "extent": "whole",
+     "note": "the flank steak itself; UNECE calls the same muscle the flank steak, item 2210, and the French bavette de flanchet"
+    },
+    {
+     "id": "obliquus-internus-abdominis",
+     "role": "major",
+     "extent": "portion",
+     "from": "ilium",
+     "to": "rib-13",
+     "seam": true
+    },
+    {
+     "id": "obliquus-externus-abdominis",
+     "role": "major",
+     "extent": "portion",
+     "from": "ilium",
+     "to": "rib-13"
+    },
+    {
+     "id": "transversus-abdominis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "ilium",
+     "to": "rib-13",
+     "note": "the inside skirt"
+    }
    ],
    "bone_in": false,
    "evidence": "standard",
    "bounds_evidence": "trade",
    "sources": [
-    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
-     "supports": ["muscles"],
-     "quote": "Rectus abdominus  Flank"},
-    {"url": "https://archive.ahdb.org.uk/inside-skirt-transversus-abdominis",
-     "supports": ["muscles", "bounds"],
-     "quote": "Inside skirt (Transversus abdominis)."},
-    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
-     "supports": ["muscles"],
-     "quote": "Obliquus internus abdominus  Sirloin butt flap"}
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Rectus abdominus  Flank"
+    },
+    {
+     "url": "https://archive.ahdb.org.uk/inside-skirt-transversus-abdominis",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "Inside skirt (Transversus abdominis)."
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Obliquus internus abdominus  Sirloin butt flap"
+    }
    ],
    "dispute": null
   },
   {
    "id": "rib",
    "muscles": [
-    {"id": "longissimus", "role": "defining", "extent": "portion",
-     "from": "rib-06", "to": "rib-12",
-     "note": "the ribeye. Seven rib segments of the same muscle that is the strip loin behind rib 13"},
-    {"id": "spinalis-dorsi", "role": "major", "extent": "portion",
-     "from": "rib-06", "to": "rib-12", "seam": true,
-     "note": "the ribeye cap or deckle — the most prized muscle on the carcass by weight"},
-    {"id": "multifidus", "role": "minor", "extent": "portion",
-     "from": "rib-06", "to": "rib-12"},
-    {"id": "iliocostalis", "role": "minor", "extent": "portion",
-     "from": "rib-06", "to": "rib-12"},
-    {"id": "serratus-ventralis", "role": "major", "extent": "portion",
-     "from": "rib-06", "to": "rib-12",
-     "note": "the lifter or blade meat under the ribeye; the chuck takes the rest of the same fan"},
-    {"id": "intercostalis", "role": "minor", "extent": "portion",
-     "from": "rib-06", "to": "rib-12", "note": "rib fingers, between the bones"},
-    {"id": "latissimus-dorsi", "role": "trace", "extent": "portion",
-     "from": "rib-06", "to": "rib-12"},
-    {"id": "trapezius", "role": "trace", "extent": "portion",
-     "from": "rib-06", "to": "rib-12"}
+    {
+     "id": "longissimus",
+     "role": "defining",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-12",
+     "note": "the ribeye. Seven rib segments of the same muscle that is the strip loin behind rib 13"
+    },
+    {
+     "id": "spinalis-dorsi",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-12",
+     "seam": true,
+     "note": "the ribeye cap or deckle — the most prized muscle on the carcass by weight"
+    },
+    {
+     "id": "multifidus",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-12"
+    },
+    {
+     "id": "iliocostalis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-12"
+    },
+    {
+     "id": "serratus-ventralis",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-12",
+     "note": "the lifter or blade meat under the ribeye; the chuck takes the rest of the same fan"
+    },
+    {
+     "id": "intercostalis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-12",
+     "note": "rib fingers, between the bones"
+    },
+    {
+     "id": "latissimus-dorsi",
+     "role": "trace",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-12"
+    },
+    {
+     "id": "trapezius",
+     "role": "trace",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-12"
+    }
    ],
    "bone_in": true,
    "evidence": "trade",
    "bounds_evidence": "inferred",
    "sources": [
-    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
-     "supports": ["muscles"],
-     "quote": "Longissimus thoracis  Ribeye"},
-    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
-     "supports": ["muscles"],
-     "quote": "Spinalis dorsi  Rib cap"},
-    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
-     "supports": ["muscles"],
-     "quote": "Serratus ventralis  Boneless short ribs; Inside chuck; Underblade"},
-    {"url": "https://www.nationalbeef.com/product/71292/beef-rib-finger-meat-2/",
-     "supports": ["muscles", "bounds"],
-     "quote": "Beef Rib Finger Meat is derived from the intercostal muscle located between ribs 6 through 12"}
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Longissimus thoracis  Ribeye"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Spinalis dorsi  Rib cap"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Serratus ventralis  Boneless short ribs; Inside chuck; Underblade"
+    },
+    {
+     "url": "https://www.nationalbeef.com/product/71292/beef-rib-finger-meat-2/",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "Beef Rib Finger Meat is derived from the intercostal muscle located between ribs 6 through 12 and are normally 8\" to 10\" in length."
+    }
    ],
    "dispute": "Bounds: IMPS 103 is ribs 6 to 12 inclusive, separated from the chuck between the 5th and 6th ribs and from the loin along the curvature of the 12th. The National Beef rib-finger description independently confirms 'ribs 6 through 12' for this primal, which is why the intercostal entry carries the bounds flag — but for the primal boundary itself IMPS remains the authority and is not quotable, see `round`."
   },
   {
    "id": "short_plate",
    "muscles": [
-    {"id": "intercostalis", "role": "defining", "extent": "portion",
-     "from": "rib-06", "to": "rib-12",
-     "note": "the lower ends of the same seven ribs the rib primal carries"},
-    {"id": "diaphragm", "role": "major", "extent": "whole",
-     "note": "the outside skirt — IMPS 121C is the costal part of the diaphragm with the peritoneum on"},
-    {"id": "transversus-abdominis", "role": "major", "extent": "portion",
-     "from": "rib-06", "to": "rib-13", "note": "the inside skirt"},
-    {"id": "rectus-abdominis", "role": "minor", "extent": "portion",
-     "from": "rib-06", "to": "rib-13",
-     "note": "the cranial end; the flank takes the rest"},
-    {"id": "serratus-ventralis", "role": "minor", "extent": "portion",
-     "from": "rib-06", "to": "rib-12"},
-    {"id": "obliquus-externus-abdominis", "role": "minor", "extent": "portion",
-     "from": "rib-06", "to": "rib-13"},
-    {"id": "pectoralis-profundus", "role": "trace", "extent": "portion",
-     "from": "sternum", "to": "seam",
-     "note": "the caudal tail of it; the brisket takes the bulk"}
+    {
+     "id": "intercostalis",
+     "role": "defining",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-12",
+     "note": "the lower ends of the same seven ribs the rib primal carries"
+    },
+    {
+     "id": "diaphragm",
+     "role": "major",
+     "extent": "whole",
+     "note": "the outside skirt — IMPS 121C is the costal part of the diaphragm with the peritoneum on"
+    },
+    {
+     "id": "transversus-abdominis",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-13",
+     "note": "the inside skirt"
+    },
+    {
+     "id": "rectus-abdominis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-13",
+     "note": "the cranial end; the flank takes the rest"
+    },
+    {
+     "id": "serratus-ventralis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-12"
+    },
+    {
+     "id": "obliquus-externus-abdominis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-13"
+    },
+    {
+     "id": "pectoralis-profundus",
+     "role": "trace",
+     "extent": "portion",
+     "from": "sternum",
+     "to": "seam",
+     "note": "the caudal tail of it; the brisket takes the bulk"
+    }
    ],
    "bone_in": true,
    "evidence": "standard",
    "bounds_evidence": "inferred",
    "sources": [
-    {"url": "https://www.whatchefswant.com/wp-content/uploads/2020/09/Outside-Skirt-00100.pdf",
-     "supports": ["muscles"],
-     "quote": "The outside skirt derives from the medial side of the rib bones of the plate and rib primals. This boneless item is removed from the short plate and shall consist of the diaphragm including the serous membrane (peritoneum) attached."},
-    {"url": "https://archive.ahdb.org.uk/inside-skirt-transversus-abdominis",
-     "supports": ["muscles"],
-     "quote": "Inside skirt (Transversus abdominis)."},
-    {"url": "https://bovine.unl.edu/muscle-descriptions/53",
-     "supports": ["muscles"],
-     "quote": "Diaphragm — Common Name: Skirt, Outside skirt, Hanging Tender"}
+    {
+     "url": "https://www.whatchefswant.com/wp-content/uploads/2020/09/Outside-Skirt-00100.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "The outside skirt derives from the medial side of the rib bones of the plate and rib primals. This boneless item is removed from the short plate and shall consist of the diaphragm including the serous membrane (peritoneum) attached."
+    },
+    {
+     "url": "https://archive.ahdb.org.uk/inside-skirt-transversus-abdominis",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Inside skirt (Transversus abdominis)."
+    },
+    {
+     "url": "https://bovine.unl.edu/muscle-descriptions/53",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Skirt, Outside skirt, Hanging Tender",
+     "locator": "muscle 53, Diaphragm, Common Name field"
+    }
    ],
    "dispute": "UNL lumps the outside skirt and the hanger together under `Diaphragm`. They are different parts of it: the costal part is the outside skirt and belongs to the plate, the lumbar crura are the hanger. The IMPS 121C spec quoted here is the one that pins the plate's share. Bounds: IMPS 121, not quotable — see `round`."
   },
   {
    "id": "chuck",
    "muscles": [
-    {"id": "longissimus", "role": "major", "extent": "portion",
-     "from": "rib-01", "to": "rib-05",
-     "note": "the chuck eye — the front five rib segments of the ribeye muscle"},
-    {"id": "spinalis-dorsi", "role": "major", "extent": "portion",
-     "from": "rib-01", "to": "rib-05"},
-    {"id": "serratus-ventralis", "role": "defining", "extent": "portion",
-     "from": "rib-01", "to": "rib-05",
-     "note": "the Denver steak / underblade / ザブトン; the rib primal takes the caudal end of the same fan"},
-    {"id": "infraspinatus", "role": "defining", "extent": "whole",
-     "note": "the flat iron / top blade, lateral to the scapular spine"},
-    {"id": "supraspinatus", "role": "major", "extent": "whole",
-     "note": "the chuck tender / mock tender"},
-    {"id": "subscapularis", "role": "major", "extent": "whole",
-     "note": "on the medial face of the scapula"},
-    {"id": "triceps-brachii", "role": "major", "extent": "whole",
-     "note": "the shoulder clod heart"},
-    {"id": "teres-major", "role": "major", "extent": "whole",
-     "note": "the petite tender / shoulder tender"},
-    {"id": "deltoideus", "role": "minor", "extent": "whole"},
-    {"id": "rhomboideus", "role": "major", "extent": "whole",
-     "note": "hump meat — the Brazilian cupim on a zebu animal"},
-    {"id": "trapezius", "role": "minor", "extent": "whole"},
-    {"id": "latissimus-dorsi", "role": "minor", "extent": "portion",
-     "from": "rib-01", "to": "rib-05"},
-    {"id": "multifidus", "role": "minor", "extent": "portion",
-     "from": "rib-01", "to": "rib-05"},
-    {"id": "complexus", "role": "major", "extent": "whole",
-     "note": "the neck; the chuck includes the neck in the square-cut form"},
-    {"id": "splenius", "role": "major", "extent": "whole"},
-    {"id": "longus-colli", "role": "minor", "extent": "whole",
-     "note": "under the cervical vertebrae — the Korean 제비추리"},
-    {"id": "brachiocephalicus", "role": "minor", "extent": "whole"},
-    {"id": "omotransversarius", "role": "minor", "extent": "whole"},
-    {"id": "biceps-brachii", "role": "minor", "extent": "whole"},
-    {"id": "intercostalis", "role": "trace", "extent": "portion",
-     "from": "rib-01", "to": "rib-05"},
-    {"id": "pectoralis-superficialis", "role": "trace", "extent": "portion",
-     "from": "sternum", "to": "humerus"}
+    {
+     "id": "longissimus",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-01",
+     "to": "rib-05",
+     "note": "the chuck eye — the front five rib segments of the ribeye muscle"
+    },
+    {
+     "id": "spinalis-dorsi",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-01",
+     "to": "rib-05"
+    },
+    {
+     "id": "serratus-ventralis",
+     "role": "defining",
+     "extent": "portion",
+     "from": "rib-01",
+     "to": "rib-05",
+     "note": "the Denver steak / underblade / ザブトン; the rib primal takes the caudal end of the same fan"
+    },
+    {
+     "id": "infraspinatus",
+     "role": "defining",
+     "extent": "whole",
+     "note": "the flat iron / top blade, lateral to the scapular spine"
+    },
+    {
+     "id": "supraspinatus",
+     "role": "major",
+     "extent": "whole",
+     "note": "the chuck tender / mock tender"
+    },
+    {
+     "id": "subscapularis",
+     "role": "major",
+     "extent": "whole",
+     "note": "on the medial face of the scapula"
+    },
+    {
+     "id": "triceps-brachii",
+     "role": "major",
+     "extent": "whole",
+     "note": "the shoulder clod heart"
+    },
+    {
+     "id": "teres-major",
+     "role": "major",
+     "extent": "whole",
+     "note": "the petite tender / shoulder tender"
+    },
+    {
+     "id": "deltoideus",
+     "role": "minor",
+     "extent": "whole"
+    },
+    {
+     "id": "rhomboideus",
+     "role": "major",
+     "extent": "whole",
+     "note": "hump meat — the Brazilian cupim on a zebu animal"
+    },
+    {
+     "id": "trapezius",
+     "role": "minor",
+     "extent": "whole"
+    },
+    {
+     "id": "latissimus-dorsi",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-01",
+     "to": "rib-05"
+    },
+    {
+     "id": "multifidus",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-01",
+     "to": "rib-05"
+    },
+    {
+     "id": "complexus",
+     "role": "major",
+     "extent": "whole",
+     "note": "the neck; the chuck includes the neck in the square-cut form"
+    },
+    {
+     "id": "splenius",
+     "role": "major",
+     "extent": "whole"
+    },
+    {
+     "id": "longus-colli",
+     "role": "minor",
+     "extent": "whole",
+     "note": "under the cervical vertebrae — the Korean 제비추리"
+    },
+    {
+     "id": "brachiocephalicus",
+     "role": "minor",
+     "extent": "whole"
+    },
+    {
+     "id": "omotransversarius",
+     "role": "minor",
+     "extent": "whole"
+    },
+    {
+     "id": "biceps-brachii",
+     "role": "minor",
+     "extent": "whole"
+    },
+    {
+     "id": "intercostalis",
+     "role": "trace",
+     "extent": "portion",
+     "from": "rib-01",
+     "to": "rib-05"
+    },
+    {
+     "id": "pectoralis-superficialis",
+     "role": "trace",
+     "extent": "portion",
+     "from": "sternum",
+     "to": "humerus"
+    }
    ],
    "unmodelled": [
-    {"latin": "Mm. cutaneus omo-brachialis", "role": "trace",
-     "where": "a superficial sheet over the shoulder; Calkins calls it the shoulder rose"}
+    {
+     "latin": "Mm. cutaneus omo-brachialis",
+     "role": "trace",
+     "where": "a superficial sheet over the shoulder; Calkins calls it the shoulder rose"
+    }
    ],
    "bone_in": true,
    "evidence": "standard",
    "bounds_evidence": "inferred",
    "sources": [
-    {"url": "https://inspection.canada.ca/exigences-en-matiere-d-etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/specifications-viande-vendue-en-gros/boeuf/fra/1420818026745/1420818177324",
-     "supports": ["muscles"],
-     "quote": "muscles longissimus dorsi, rhomboideus, spinalis dorsi, complexus, multifidus dorsi, serratus ventralis, subscapularis et splenius"},
-    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
-     "supports": ["muscles"],
-     "quote": "Longissimus dorsi (chuck)  Chuck Eye"},
-    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
-     "supports": ["muscles"],
-     "quote": "Infraspinatus  Top blade; Flat Iron; Triangle"},
-    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
-     "supports": ["muscles"],
-     "quote": "Supraspinatus  Mock tender; Chuck tender; Scotch tender"},
-    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
-     "supports": ["muscles"],
-     "quote": "Teres major  Shoulder Tender; Petite Tender"},
-    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
-     "supports": ["muscles"],
-     "quote": "Triceps brachii  Clod heart; Shoulder center; Shoulder top; Ranch Cut"},
-    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
-     "supports": ["muscles"],
-     "quote": "Rhomboideus  Hump meat"}
+    {
+     "url": "https://inspection.canada.ca/exigences-en-matiere-d-etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/specifications-viande-vendue-en-gros/boeuf/fra/1420818026745/1420818177324",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "muscles longissimus dorsi, rhomboideus, spinalis dorsi, complexus, multifidus dorsi, serratus ventralis, subscapularis et splenius"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Longissimus dorsi (chuck)  Chuck Eye"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Infraspinatus  Top blade; Flat Iron; Triangle"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Supraspinatus  Mock tender; Chuck tender; Scotch tender"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Teres major  Shoulder Tender; Petite Tender"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Triceps brachii  Clod heart; Shoulder center; Shoulder top; Ranch Cut"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Rhomboideus  Hump meat"
+    }
    ],
    "dispute": "The CFIA quote is for the bloc d'épaule, the Canadian chuck block, whose cutting line matches the American square-cut chuck; it is the only fetchable source that enumerates the chuck's back muscles. The limb and neck muscles beyond that list come from Calkins, one row at a time. Bounds: IMPS 113 is a straight cut between the 5th and 6th ribs — the same not-quotable problem as `round`."
   },
   {
    "id": "brisket",
    "muscles": [
-    {"id": "pectoralis-profundus", "role": "defining", "extent": "whole",
-     "note": "the flat, IMPS 120A — the deep or ascending pectoral, on the medial surface"},
-    {"id": "pectoralis-superficialis", "role": "defining", "extent": "whole",
-     "note": "the point or deckle, IMPS 120B — the superficial pectoral, lateral and fattier"}
+    {
+     "id": "pectoralis-profundus",
+     "role": "defining",
+     "extent": "whole",
+     "note": "the flat, IMPS 120A — the deep or ascending pectoral, on the medial surface"
+    },
+    {
+     "id": "pectoralis-superficialis",
+     "role": "defining",
+     "extent": "whole",
+     "note": "the point or deckle, IMPS 120B — the superficial pectoral, lateral and fattier"
+    }
    ],
    "bone_in": false,
    "evidence": "standard",
    "bounds_evidence": "standard",
    "sources": [
-    {"url": "https://meat.tamu.edu/120-beef-brisket-deckle-off-boneless/",
-     "supports": ["muscles", "bounds"],
-     "quote": "The two muscles (deep and superficial pectoral) may also be separated by following the natural seam between the muscles to make a 120A Beef Brisket Flat and a 120B Beef Brisket Point."},
-    {"url": "https://meat.tamu.edu/120-beef-brisket-deckle-off-boneless/",
-     "supports": ["muscles"],
-     "quote": "located on the most interior (medial) surface of the brisket"},
-    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
-     "supports": ["muscles"],
-     "quote": "Deep pectoral  Brisket"}
+    {
+     "url": "https://meat.tamu.edu/120-beef-brisket-deckle-off-boneless/",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "The two muscles (deep and superficial pectoral) may also be separated by following the natural seam between the muscles to make a 120A Beef Brisket Flat and a 120B Beef Brisket Point."
+    },
+    {
+     "url": "https://meat.tamu.edu/120-beef-brisket-deckle-off-boneless/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "located on the most interior (medial) surface of the brisket"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Deep pectoral  Brisket"
+    }
    ],
    "dispute": "This is the pairing most often published inverted — BBQ writing routinely swaps flat and point. TAMU (IMPS/English naming), UNL (Latin) and IMAIOS (NAV) agree: flat = deep pectoral = pectoralis profundus = pectoralis ascendens; point = superficial pectoral. UNL puts the word 'Deckle' on both entries, so do not disambiguate from UNL alone."
   },
   {
    "id": "foreshank",
    "muscles": [
-    {"id": "extensor-carpi-radialis", "role": "major", "extent": "whole"},
-    {"id": "triceps-brachii", "role": "trace", "extent": "portion",
-     "from": "humerus", "to": "seam",
-     "note": "only what the shank cut leaves below the elbow; the clod takes the muscle"}
+    {
+     "id": "extensor-carpi-radialis",
+     "role": "major",
+     "extent": "whole"
+    },
+    {
+     "id": "triceps-brachii",
+     "role": "trace",
+     "extent": "portion",
+     "from": "humerus",
+     "to": "seam",
+     "note": "only what the shank cut leaves below the elbow; the clod takes the muscle"
+    }
    ],
    "unmodelled": [
-    {"latin": "M. flexor carpi ulnaris", "role": "major",
-     "where": "caudal to the radius and ulna, behind the extensor carpi radialis"},
-    {"latin": "M. flexor digitorum profundus", "role": "major",
-     "where": "caudal to the radius, the deepest of the foreleg flexors"},
-    {"latin": "M. extensor digitorum communis", "role": "minor",
-     "where": "cranial to the radius, lateral to the extensor carpi radialis"},
-    {"latin": "M. ulnaris lateralis", "role": "minor",
-     "where": "on the lateral face of the forearm"}
+    {
+     "latin": "M. flexor carpi ulnaris",
+     "role": "major",
+     "where": "caudal to the radius and ulna, behind the extensor carpi radialis"
+    },
+    {
+     "latin": "M. flexor digitorum profundus",
+     "role": "major",
+     "where": "caudal to the radius, the deepest of the foreleg flexors"
+    },
+    {
+     "latin": "M. extensor digitorum communis",
+     "role": "minor",
+     "where": "cranial to the radius, lateral to the extensor carpi radialis"
+    },
+    {
+     "latin": "M. ulnaris lateralis",
+     "role": "minor",
+     "where": "on the lateral face of the forearm"
+    }
    ],
    "bone_in": true,
    "evidence": "inferred",
@@ -409,16 +924,30 @@
   {
    "id": "cheek",
    "muscles": [
-    {"id": "masseter", "role": "defining", "extent": "whole",
-     "note": "the cheek proper — carne de cachete, joue de boeuf, 머리고기"},
-    {"id": "temporalis", "role": "minor", "extent": "whole",
-     "note": "above the eye; taken with the head meat rather than the cheek in most trims"}
+    {
+     "id": "masseter",
+     "role": "defining",
+     "extent": "whole",
+     "note": "the cheek proper — carne de cachete, joue de boeuf, 머리고기"
+    },
+    {
+     "id": "temporalis",
+     "role": "minor",
+     "extent": "whole",
+     "note": "above the eye; taken with the head meat rather than the cheek in most trims"
+    }
    ],
    "unmodelled": [
-    {"latin": "M. pterygoideus medialis et lateralis", "role": "minor",
-     "where": "on the medial face of the mandible, opposite the masseter"},
-    {"latin": "M. buccinator", "role": "trace",
-     "where": "in the cheek wall, superficial and cranial to the masseter"}
+    {
+     "latin": "M. pterygoideus medialis et lateralis",
+     "role": "minor",
+     "where": "on the medial face of the mandible, opposite the masseter"
+    },
+    {
+     "latin": "M. buccinator",
+     "role": "trace",
+     "where": "in the cheek wall, superficial and cranial to the masseter"
+    }
    ],
    "bone_in": false,
    "evidence": "inferred",
