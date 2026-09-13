@@ -1,8 +1,10 @@
 {
  "culture": "United States",
  "id": "us",
- "note": "The worked example for the schema. US cuts in this atlas are IMPS primals, which is the easy case for bounds (they are defined by named ribs and joints) and the hard case for sources: IMPS Series 100 itself is behind a 403 at ams.usda.gov and behind a login at meattrack.com, so boundaries that IMPS states are graded `inferred` here and carry the reasoning rather than a quote we cannot produce. Muscle lists lean on CFIA, whose Canadian primals share the American cutting lines, and on the Calkins & Sullivan table reproduced in calkins-table.md. Quotes here are strictly the text a fetch returned inside quotation marks; where a source numbers its clauses, the number is a `locator` on the source rather than part of the quote. WebFetch paraphrases and merges adjacent passages unless asked for verbatim text, so anything assembled around a quoted fragment is a fabrication waiting to be trusted.",
+ "note": "The worked example for the schema. US cuts in this atlas are IMPS primals, which is the easy case for bounds (they are defined by named ribs and joints) and the hard case for sources: IMPS Series 100 is unreachable live -- 403 at ams.usda.gov, login at meattrack.com -- but a copy of the November 2014 PDF was recovered from an earlier pass's cache and its text is reproduced verbatim in imps-items.md, which is what the boundary quotes cite. Muscle lists lean on CFIA, whose Canadian primals share the American cutting lines, and on the Calkins & Sullivan table reproduced in calkins-table.md. Quotes here are strictly the text a fetch returned inside quotation marks; where a source numbers its clauses, the number is a `locator` on the source rather than part of the quote. WebFetch paraphrases and merges adjacent passages unless asked for verbatim text, so anything assembled around a quoted fragment is a fabrication waiting to be trusted.",
  "sources": [
+  "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
+  "https://www.ams.usda.gov/sites/default/files/media/LSimps700.pdf",
   "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
   "https://meat.tamu.edu/meat-science/teaching/ansc-307-meats/beef-loin-porterhouse-steak/",
   "https://meat.tamu.edu/120-beef-brisket-deckle-off-boneless/",
@@ -100,8 +102,16 @@
    ],
    "bone_in": true,
    "evidence": "standard",
-   "bounds_evidence": "inferred",
+   "bounds_evidence": "standard",
    "sources": [
+    {
+     "url": "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "The loin end shall be exposed by a straight cut which is anterior to but not more than 1.0 inch (25 mm) from the posterior end of the protuberance of the femur pocket.",
+     "locator": "Item No. 158, Beef Round, Primal"
+    },
     {
      "url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
      "supports": [
@@ -127,7 +137,7 @@
      "locator": "5.3.5 Pointe de surlonge"
     }
    ],
-   "dispute": "Bounds: IMPS 158 separates the round from the loin by a cut just anterior to the ball of the femur. That is the boundary used here, but IMPS Series 100 is not fetchable (ams.usda.gov 403, meattrack.com login), so it is graded inferred rather than carrying a quote. Note also that CFIA's extérieur de ronde list includes vastus lateralis, which every other source places in the knuckle; reproduced as written rather than corrected."
+   "dispute": "IMPS Series 100 is quoted directly now: a copy of the November 2014 PDF was recovered and its text is reproduced in imps-items.md. Bounds: IMPS 158 separates the round from the loin by a cut just anterior to the ball of the femur. That is the boundary used here, but IMPS Series 100 is not fetchable (ams.usda.gov 403, meattrack.com login), so it is graded inferred rather than carrying a quote. Note also that CFIA's extérieur de ronde list includes vastus lateralis, which every other source places in the knuckle; reproduced as written rather than corrected."
   },
   {
    "id": "hindshank",
@@ -164,9 +174,18 @@
     }
    ],
    "bone_in": true,
-   "evidence": "trade",
-   "bounds_evidence": "inferred",
+   "evidence": "standard",
+   "bounds_evidence": "standard",
    "sources": [
+    {
+     "url": "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "The hindshank shall be removed by a cut through the stifle joint that follows the natural seam between the shank and the heel (M. gastrocnemius and M. super digital flexor).",
+     "locator": "Item No. 158, hindshank removal"
+    },
     {
      "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
      "supports": [
@@ -175,7 +194,7 @@
      "quote": "Gastrocnemius  Round heel"
     }
    ],
-   "dispute": "Only the gastrocnemius is named by a source. The rest of the shank is the digital flexor and extensor group, which no beef source enumerates because none of it is sold as a named muscle — it is braised on the bone. Those are listed as unmodelled from bovine anatomy, not from a beef source. Bounds: IMPS 157 cuts through the stifle; not quotable, see `round`."
+   "dispute": "IMPS Series 100 is quoted directly now: a copy of the November 2014 PDF was recovered and its text is reproduced in imps-items.md. Only the gastrocnemius is named by a source. The rest of the shank is the digital flexor and extensor group, which no beef source enumerates because none of it is sold as a named muscle — it is braised on the bone. Those are listed as unmodelled from bovine anatomy, not from a beef source. Bounds: IMPS 157 cuts through the stifle; not quotable, see `round`."
   },
   {
    "id": "sirloin",
@@ -269,8 +288,16 @@
    ],
    "bone_in": true,
    "evidence": "standard",
-   "bounds_evidence": "inferred",
+   "bounds_evidence": "standard",
    "sources": [
+    {
+     "url": "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "The short loin shall be removed by a straight cut anterior to the hip cartilage and approximately parallel with the round end exposing the M. gluteus medius. The round shall be removed by a straight cut anterior to the ball and/or protuberance of the femur.",
+     "locator": "Item No. 181, Beef Loin, Sirloin"
+    },
     {
      "url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
      "supports": [
@@ -294,7 +321,7 @@
      "quote": "Tensor fascia latae  Tri-tip"
     }
    ],
-   "dispute": "Bounds: IMPS 181 runs from the round cut at the femur ball forward to a straight cut just anterior to the hip cartilage that exposes the gluteus medius. Not quotable — see `round`."
+   "dispute": "IMPS Series 100 is quoted directly now: a copy of the November 2014 PDF was recovered and its text is reproduced in imps-items.md. Bounds: IMPS 181 runs from the round cut at the femur ball forward to a straight cut just anterior to the hip cartilage that exposes the gluteus medius. Not quotable — see `round`."
   },
   {
    "id": "short_loin",
@@ -359,8 +386,16 @@
    ],
    "bone_in": true,
    "evidence": "standard",
-   "bounds_evidence": "inferred",
+   "bounds_evidence": "standard",
    "sources": [
+    {
+     "url": "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "This item consists of the anterior section of the loin and contains the 13th rib. The rib end shall follow the natural curvature of the 13th rib. The sirloin shall be removed by a straight cut anterior to the hip cartilage, forming an approximate right angle with the length of the short loin that exposes the M. gluteus medius.",
+     "locator": "Item No. 173, Beef Loin, Short Loin"
+    },
     {
      "url": "https://meat.tamu.edu/meat-science/teaching/ansc-307-meats/beef-loin-porterhouse-steak/",
      "supports": [
@@ -385,7 +420,7 @@
      "locator": "5.2.1.4 Filet"
     }
    ],
-   "dispute": "Bounds: IMPS 173 runs from the sirloin cut at the hip cartilage forward to the natural curvature of the 13th rib; because the carcass is quartered between the 12th and 13th ribs, the short loin carries the 13th rib. That rib number is the single most important boundary in the whole table and it is not quotable from IMPS — see `round`."
+   "dispute": "IMPS Series 100 is quoted directly now: a copy of the November 2014 PDF was recovered and its text is reproduced in imps-items.md. Bounds: IMPS 173 runs from the sirloin cut at the hip cartilage forward to the natural curvature of the 13th rib; because the carcass is quartered between the 12th and 13th ribs, the short loin carries the 13th rib. That rib number is the single most important boundary in the whole table and it is not quotable from IMPS — see `round`."
   },
   {
    "id": "flank",
@@ -422,8 +457,16 @@
    ],
    "bone_in": false,
    "evidence": "standard",
-   "bounds_evidence": "trade",
+   "bounds_evidence": "standard",
    "sources": [
+    {
+     "url": "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "The flank shall be removed by a straight cut ventral to but not more than 6.0 inches (15.0 cm) from the M. longissimus dorsi at the rib end to a point on the sirloin end that is ventral to, but not more than 10.0 inches (25.4 cm) from, the M. lon",
+     "locator": "Item No. 173, flank removal"
+    },
     {
      "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
      "supports": [
@@ -447,7 +490,7 @@
      "quote": "Obliquus internus abdominus  Sirloin butt flap"
     }
    ],
-   "dispute": null
+   "dispute": "IMPS Series 100 is quoted directly now: a copy of the November 2014 PDF was recovered and its text is reproduced in imps-items.md."
   },
   {
    "id": "rib",
@@ -516,8 +559,16 @@
    ],
    "bone_in": true,
    "evidence": "trade",
-   "bounds_evidence": "inferred",
+   "bounds_evidence": "standard",
    "sources": [
+    {
+     "url": "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "The primal rib is that portion of the forequarter remaining after removal of the cross-cut chuck and short plate and shall contain seven ribs (6th to 12th inclusive), the posterior tip of the blade bone (scapula), and the thoracic vertebra attached to the ribs. The loin end shall follow the natural curvature of the 12th rib. The chuck is removed by a straight cut between the 5th and 6th ribs.",
+     "locator": "Item No. 103, Beef Rib, Primal"
+    },
     {
      "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
      "supports": [
@@ -548,7 +599,7 @@
      "quote": "Beef Rib Finger Meat is derived from the intercostal muscle located between ribs 6 through 12 and are normally 8\" to 10\" in length."
     }
    ],
-   "dispute": "Bounds: IMPS 103 is ribs 6 to 12 inclusive, separated from the chuck between the 5th and 6th ribs and from the loin along the curvature of the 12th. The National Beef rib-finger description independently confirms 'ribs 6 through 12' for this primal, which is why the intercostal entry carries the bounds flag — but for the primal boundary itself IMPS remains the authority and is not quotable, see `round`."
+   "dispute": "IMPS Series 100 is quoted directly now: a copy of the November 2014 PDF was recovered and its text is reproduced in imps-items.md. Bounds: IMPS 103 is ribs 6 to 12 inclusive, separated from the chuck between the 5th and 6th ribs and from the loin along the curvature of the 12th. The National Beef rib-finger description independently confirms 'ribs 6 through 12' for this primal, which is why the intercostal entry carries the bounds flag — but for the primal boundary itself IMPS remains the authority and is not quotable, see `round`."
   },
   {
    "id": "short_plate",
@@ -608,8 +659,17 @@
    ],
    "bone_in": true,
    "evidence": "standard",
-   "bounds_evidence": "inferred",
+   "bounds_evidence": "standard",
    "sources": [
+    {
+     "url": "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "This item is that portion of the forequarter immediately ventral to Item No. 103. The flank end shall follow the natural curvature of the 12th rib. The M. pectoralis profundi shall not completely extend to the dorsal edge of the brisket side. Seven ribs shall be present. The rib side shall be a straight cut which exposes the M. serratus ventralis to be continuous for at least 2 ribs.",
+     "locator": "Item No. 121, Beef Plate, Short Plate"
+    },
     {
      "url": "https://www.whatchefswant.com/wp-content/uploads/2020/09/Outside-Skirt-00100.pdf",
      "supports": [
@@ -633,7 +693,7 @@
      "locator": "muscle 53, Diaphragm, Common Name field"
     }
    ],
-   "dispute": "UNL lumps the outside skirt and the hanger together under `Diaphragm`. They are different parts of it: the costal part is the outside skirt and belongs to the plate, the lumbar crura are the hanger. The IMPS 121C spec quoted here is the one that pins the plate's share. Bounds: IMPS 121, not quotable — see `round`."
+   "dispute": "IMPS Series 100 is quoted directly now: a copy of the November 2014 PDF was recovered and its text is reproduced in imps-items.md. UNL lumps the outside skirt and the hanger together under `Diaphragm`. They are different parts of it: the costal part is the outside skirt and belongs to the plate, the lumbar crura are the hanger. The IMPS 121C spec quoted here is the one that pins the plate's share. Bounds: IMPS 121, not quotable — see `round`."
   },
   {
    "id": "chuck",
@@ -777,8 +837,16 @@
    ],
    "bone_in": true,
    "evidence": "standard",
-   "bounds_evidence": "inferred",
+   "bounds_evidence": "standard",
    "sources": [
+    {
+     "url": "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "The rib end of the chuck shall be prepared by a straight cut between the 5th and 6th ribs. The brisket and foreshank shall be removed by a straight cut which is at an approximate right angle to the rib end. Evidence of the cartilaginous juncture of the 1st rib and the sternum shall be present on the brisket side.",
+     "locator": "Item No. 113, Beef Chuck, Square-Cut"
+    },
     {
      "url": "https://inspection.canada.ca/exigences-en-matiere-d-etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/specifications-viande-vendue-en-gros/boeuf/fra/1420818026745/1420818177324",
      "supports": [
@@ -829,7 +897,7 @@
      "quote": "Rhomboideus  Hump meat"
     }
    ],
-   "dispute": "The CFIA quote is for the bloc d'épaule, the Canadian chuck block, whose cutting line matches the American square-cut chuck; it is the only fetchable source that enumerates the chuck's back muscles. The limb and neck muscles beyond that list come from Calkins, one row at a time. Bounds: IMPS 113 is a straight cut between the 5th and 6th ribs — the same not-quotable problem as `round`."
+   "dispute": "IMPS Series 100 is quoted directly now: a copy of the November 2014 PDF was recovered and its text is reproduced in imps-items.md. The CFIA quote is for the bloc d'épaule, the Canadian chuck block, whose cutting line matches the American square-cut chuck; it is the only fetchable source that enumerates the chuck's back muscles. The limb and neck muscles beyond that list come from Calkins, one row at a time. Bounds: IMPS 113 is a straight cut between the 5th and 6th ribs — the same not-quotable problem as `round`."
   },
   {
    "id": "brisket",
@@ -851,6 +919,23 @@
    "evidence": "standard",
    "bounds_evidence": "standard",
    "sources": [
+    {
+     "url": "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "This item includes the anterior end of the sternum bones, M. pectoralis profundi, and the M. pectoralis superficialis (web muscle). The brisket is separated from the foreshank as specified in Item No. 117.",
+     "locator": "Item No. 118, Beef Brisket"
+    },
+    {
+     "url": "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "This item may be prepared from any 41 IMPS boneless brisket item and shall consist only of the M. pectoralis profundi.",
+     "locator": "Item No. 120A, Beef Brisket, Flat Cut, Boneless (IM)"
+    },
     {
      "url": "https://meat.tamu.edu/120-beef-brisket-deckle-off-boneless/",
      "supports": [
@@ -874,7 +959,7 @@
      "quote": "Deep pectoral  Brisket"
     }
    ],
-   "dispute": "This is the pairing most often published inverted — BBQ writing routinely swaps flat and point. TAMU (IMPS/English naming), UNL (Latin) and IMAIOS (NAV) agree: flat = deep pectoral = pectoralis profundus = pectoralis ascendens; point = superficial pectoral. UNL puts the word 'Deckle' on both entries, so do not disambiguate from UNL alone."
+   "dispute": "IMPS Series 100 is quoted directly now: a copy of the November 2014 PDF was recovered and its text is reproduced in imps-items.md. This is the pairing most often published inverted — BBQ writing routinely swaps flat and point. TAMU (IMPS/English naming), UNL (Latin) and IMAIOS (NAV) agree: flat = deep pectoral = pectoralis profundus = pectoralis ascendens; point = superficial pectoral. UNL puts the word 'Deckle' on both entries, so do not disambiguate from UNL alone."
   },
   {
    "id": "foreshank",
@@ -917,9 +1002,18 @@
    ],
    "bone_in": true,
    "evidence": "inferred",
-   "bounds_evidence": "inferred",
-   "sources": [],
-   "dispute": "No beef source enumerates the foreshank's muscles, for the same reason as the hind shank: none of it is sold as a named muscle, it is shin and osso buco on the bone. The list is bovine forelimb anatomy, not a butchery claim, and is graded inferred accordingly. Bounds: IMPS 117 is a straight cut exposing a cross-section of the humerus, parted from the brisket along the natural seam — from the atlas's own IMPS-based region text, not quotable."
+   "bounds_evidence": "standard",
+   "sources": [
+    {
+     "url": "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "The foreshank shall be removed from the square-cut chuck by a straight cut exposing a cross section of the humerus. The brisket shall be removed by a cut through the natural seam.",
+     "locator": "Item No. 117, Beef Foreshank"
+    }
+   ],
+   "dispute": "IMPS Series 100 is quoted directly now: a copy of the November 2014 PDF was recovered and its text is reproduced in imps-items.md. No beef source enumerates the foreshank's muscles, for the same reason as the hind shank: none of it is sold as a named muscle, it is shin and osso buco on the bone. The list is bovine forelimb anatomy, not a butchery claim, and is graded inferred accordingly. Bounds: IMPS 117 is a straight cut exposing a cross-section of the humerus, parted from the brisket along the natural seam — from the atlas's own IMPS-based region text, not quotable."
   },
   {
    "id": "cheek",
@@ -939,11 +1033,6 @@
    ],
    "unmodelled": [
     {
-     "latin": "M. pterygoideus medialis et lateralis",
-     "role": "minor",
-     "where": "on the medial face of the mandible, opposite the masseter"
-    },
-    {
      "latin": "M. buccinator",
      "role": "trace",
      "where": "in the cheek wall, superficial and cranial to the masseter"
@@ -951,9 +1040,18 @@
    ],
    "bone_in": false,
    "evidence": "inferred",
-   "bounds_evidence": "inferred",
-   "sources": [],
-   "dispute": "Calkins does not cover the head — its table is the 32 muscles ranked for tenderness, all from the carcass. IMPS 723 is a variety-meat item harvested at the head table and its text is not fetchable. That cheek meat is the masseter is not seriously disputed anywhere, but nothing fetched this pass states it, so it is graded inferred rather than given a quote it does not have."
+   "bounds_evidence": "standard",
+   "sources": [
+    {
+     "url": "https://www.ams.usda.gov/sites/default/files/media/LSimps700.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Cheek meat is the group of muscles lying external to the upper and lower jaw bones including the mouth lining (membrane) and all connective tissue extending from the lip portion of the mouth back.",
+     "locator": "Item No. 723, Cheek Meat"
+    }
+   ],
+   "dispute": "IMPS 723 defines cheek meat as the muscles lying *external* to the jaw bones, which is the masseter and excludes the pterygoids on the medial face -- so they are no longer listed. It still names no muscle in Latin, so the muscle list stays inferred while the boundary is now standard."
   }
  ]
 }
