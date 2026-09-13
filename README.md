@@ -127,6 +127,8 @@ About panel if it is CC-BY.
 |---|---|
 | `data/FRAME.md` | The normalized cow frame. **Read this first.** |
 | `data/cuts_*.json` | One tradition each: names, anatomy, cooking, dishes, sources. |
+| `data/composition/COVERAGE.md` | **Can the cuts be rebuilt on muscles? Read this.** |
+| `data/composition/*.json` | What each cut is made of: muscles, bone boundaries, sources. |
 | `data/anatomy/AUTHORING.md` | How to author a bone, a muscle or an organ. |
 | `data/anatomy/*.json` | The skeleton, the musculature and the viscera. |
 | `blender/anatomy.py` | Four primitives, the skin clip, and the fit check. |
@@ -184,11 +186,16 @@ from the data.
   is right about place, proportion and arrangement, and it is not a dissection
   reference. Where a real muscle has heads, aponeuroses and a pennate fibre pattern,
   this one has a spindle with the right origin and insertion.
-- **Which cut a muscle lands in is measured, not asserted.** The build records each
-  part's bounding box after it has been carved and clipped, and the page runs the same
-  rectangle overlap it uses to line one tradition up against another. That keeps the
-  correspondence honest about being an overlap of boxes — an 88% is "most of this
-  muscle is in that cut", not a butcher's judgement.
+- **Which cut a muscle lands in is measured, not asserted — but it is measured with
+  boxes.** The build records each part's bounding box after carving, and the page runs
+  the same rectangle overlap it uses to line one tradition up against another. An 88%
+  means "most of this muscle's box is inside that cut's box", not a butcher's judgement.
+  Replacing that proxy with real butchery is what `data/composition/` is for: 153 cuts,
+  each with the muscles it contains and the bones it stops at, every claim carrying the
+  verbatim quote behind it. **102 of the 153 are sourced well enough to be rebuilt on
+  muscles today** — see [COVERAGE.md](data/composition/COVERAGE.md) for which, and for
+  why the United States turned out to be the hardest to document and the easiest to
+  define.
 
 ## The anatomy
 

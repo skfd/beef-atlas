@@ -266,3 +266,96 @@ PDF (over the 10 MB fetch limit) · most PDFs return undecoded binary through We
 **Be gentle.** Several traditions are researched in parallel from one IP. Keep to about
 one fetch every three seconds against any single host — `bovine.unl.edu` and
 `mymemory.translated.net` are the ones everybody wants at once.
+
+---
+
+# Second pass: what building the table changed
+
+Seven traditions were authored against the notes above. They corrected several of them.
+Where this section and the one above disagree, **this one wins.**
+
+## Corrections to what is written above
+
+**살치살 is settled, and it is `serratus ventralis`.** The note above says the Korean
+regulation names no muscle. The regulation *in force* does:
+
+> 살치살 윗등심살의 앞다리부위를 분리한 쪽에 붙어있는 배쪽톱니근(복거근)으로 윗등심살부위에서
+> 등가장긴근(배최장근)과의 근막을 따라 분리하여 정형한 것
+> — 식품의약품안전처고시 제2019-113호 [별표 3]
+
+That also makes 살치살 the same muscle as the American Denver steak and Japanese ザブトン.
+The namu.wiki *spinalis* claim is unquotable (403) and is not adopted.
+
+**`law.go.kr` is not closed.** The note above says 고시 2894 is JS-gated — that is a
+*different*, 2007 농림부 고시. The current one is reachable through non-JS siblings:
+
+- `https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000184120` — 본문 as plain text
+- `.../admRulBylInfoR.do?admRulSeq=2100000184120` — lists the four 별표
+- `.../admRulBylContentsInfoR.do?bylSeq=2026095` — [별표 3], as `flDownload.do?flSeq=…` print images
+
+The images are Windows BMPs served as `image/gif`, fetch with a Referer, and are legible
+upscaled. Beef is pages 1–7 (flSeq 52030011 / 52030029 / 52030041 for 대분할, 52030113 /
+52030241 / 52030293 / 52030365 for 소분할).
+
+**UNECE settles two French cuts the note above calls unresolvable.** Through
+`mymemory.translated.net` parallel segments: *basses côtes* is
+`"la noix de bassecôte est composée des m. longissimus dorsi, m. spinalis dorsi, m.
+complexus et m. multifidus dorsi."`, and *aiguillette baronne* is the tri-tip —
+`"longueur du m. tensor fasciae latae (aiguillette baronne) laissée en place."` with
+`"aiguillette baronne (partie de l') 2131"` = `"tri-tip 2131"`.
+
+## The sources that turned out to exist
+
+| Source | Where, and how |
+|---|---|
+| **USDA IMPS Series 100** | Reproduced verbatim in [`imps-items.md`](imps-items.md) — 35 items. `ams.usda.gov` 403s every fetcher including `curl`; the copy came from an earlier pass's WebFetch binary cache. **Quote from the local file.** |
+| **USDA IMPS Series 700** | Same story; item 723 defines cheek meat as "the group of muscles lying external to the upper and lower jaw bones". |
+| **JMGA 部分肉取引規格** | `https://www.jmga.or.jp/standard/beef-partial/` — complete 別表1 分割・整形方法 as HTML. **WebFetch mangles it** (it admits a 「125字以内の制限内で引用」 cap and splices clauses); use `curl`. |
+| **ГОСТ 31797-2012** | `https://base.garant.ru/70654172/` — the whole of Table 1, free. **windows-1251.** The paywall starts at §5.5, past everything useful. |
+| **ГОСТ 7595-79** | `http://omgautovar.narod.ru/gost/maso/3.html` (utf-8) — the scheme the atlas's Russian rectangles are drawn to. |
+| **ГОСТ 32244-2013** | `https://base.garant.ru/71112568/` — subproducts, covers хвост and диафрагма. |
+| **ABIEC *Livro Brasileiro de Cortes Bovinos*** | `https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf` — `Componentes musculares:` **and** `Base óssea:` per cut. 18 MB, over the fetch limit: use `curl` + `pdftotext`, **without `-layout`** (the layout dump interleaves columns and splices unrelated cuts into one line). |
+| **primebeef.ru/cuts/** | A Russian producer catalogue mapping kitchen name → ГОСТ отруб → IMPS code. The trade bridge ГОСТ itself refuses to provide. |
+| **AHDB** | `archive.ahdb.org.uk` renders, and the same guide is on four hostnames (`ahdb.org.uk`, `horticulture.`, `potatoes.`) — useful for spreading the rate limit. |
+
+## Traps found the hard way
+
+**WebFetch does not return raw text.** It runs a small model over the page which
+paraphrases, summarises, **merges adjacent passages** and translates out of the source
+language — silently and plausibly. Three merged quotes were caught in the UK file on
+review and eight assembled ones in the US file. Two agents independently stopped using
+it for quotes and switched to `curl` + a programmatic substring check: Japan verified
+105/105 quotes as literal substrings of saved raw page text, Russia 91/91, Brazil 75/75.
+**That is the method. Use it.**
+
+**`pdftotext` needs `-enc UTF-8`** or the default Latin-1 dump silently drops every CJK
+character.
+
+**ABIEC's multilingual glossary does not extract for CJK or Cyrillic.** The RUSSO /
+RUSSIAN column header is present and the document contains zero Cyrillic; the Korean and
+Chinese cells come out empty (no ToUnicode map); the Japanese column holds katakana
+transliterations of the *English export* names (リブアイ, キューブロール) and contains
+none of ミスジ, ザブトン, ハラミ, イチボ. The glossary rows also decouple from the
+`Componentes musculares:` lines in the reading-order dump. **It is a Brazilian source
+only** — the suggestion that it could bridge into JP/KR/RU was wrong.
+
+**`ahdb.org.uk/rump` and `/silverside-with-salmon-cut` are pork pages** under beef-looking
+slugs. The beef equivalents are `rump-cap-picanha` and
+`silverside-steaks-thin-cut-cut-across-the-grain`.
+
+**mymemory's `macreuse` page** pairs *macreuse à bifteck* with "shoulder clod", which is
+North American usage and will mislead anyone bridging blindly.
+
+## Newly blocked or dead
+
+`digitallibrary.un.org` — 202 plus a JS challenge, and `curl` gets an empty body. Record
+433930 is **the UNECE bovine standard in Russian**, which would be a standard-grade
+FR/EN/RU parallel; nobody has it. · `unece.org` — confirmed 403 to `curl` with a browser
+user-agent on both PDF URL patterns, not just to WebFetch. · `acervodigital.ufpr.br` —
+connection refused; holds a UFPR table *"Principais cortes e seus componentes musculares
+— bovino"* worth retrying from another network. · `meatkings.ru` — DNS dead. ·
+`vsegost.com` and `internet-law.ru/gosts/` — **metadata only, no standard text**; go to
+garant instead. · `gastronomiac.com` *basses-cotes* and *gite* pages — 404, and several
+of its pages truncate at a paywall mid-description. ·
+`pt.wikipedia.org/wiki/Corte_de_carne_bovina` — 404; `Lista_de_tipos_de_carne_bovina`
+exists and names no muscles. · `ulex.co.kr` search-result URLs — 404.
