@@ -1,0 +1,206 @@
+{
+  "culture": "United Kingdom",
+  "id": "uk",
+  "flag": "GB",
+  "blurb": "British butchery breaks the hind leg into individually named muscles rather than selling it as one American-style 'round': silverside on the outside, topside on the inside, thick flank (top rump) at the front, with the shank below sold separately as 'leg'. The loin names are shifted one primal forward of the American ones - what Britain calls rump is the American sirloin, and what Britain calls sirloin is the American short loin, running forward over the last three ribs as the wing rib. The forequarter is split finely too, into fore rib, thin rib, thick rib, chuck and blade, and neck and clod, most of it destined for long braising.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cut_of_beef",
+    "https://en.wikipedia.org/wiki/Silverside_(beef)",
+    "https://en.wikipedia.org/wiki/Rump_steak",
+    "https://en.wikipedia.org/wiki/Sirloin_steak",
+    "https://www.simplybeefandlamb.co.uk/cuts/",
+    "https://www.nationalbeefassociation.com/resources/cuts-of-meat/",
+    "https://www.greatbritishchefs.com/features/beef-cuts-guide",
+    "https://www.campbellsmeat.com/help-guides/beef-cuts/",
+    "https://thegingerpig.co.uk/product/wing-rib/"
+  ],
+  "cuts": [
+    {
+      "id": "oxtail",
+      "name": "Oxtail",
+      "native": "Oxtail",
+      "region": "x 0.00-0.05, the tail itself",
+      "x": [0.00, 0.05],
+      "z": [0.86, 0.98],
+      "full_width": false,
+      "description": "The tail, sold sawn into vertebra sections, each a knuckle of hard-working muscle wrapped around bone and packed with collagen. It needs hours of gentle braising, after which it yields the richest, most gelatinous gravy of any cut.",
+      "dishes": ["oxtail soup", "braised oxtail", "oxtail stew"]
+    },
+    {
+      "id": "silverside",
+      "name": "Silverside",
+      "native": "Silverside",
+      "region": "x 0.02-0.14, outer rear of the hind leg",
+      "x": [0.02, 0.14],
+      "z": [0.42, 0.74],
+      "full_width": true,
+      "description": "The biceps femoris from the outside of the hind leg, named for the silvery sheet of connective tissue over its face that a butcher has to strip off. Very lean and coarse-grained from constant use in propulsion, so it is traditionally brined for salt beef or given a long moist pot-roast rather than roasted dry.",
+      "dishes": ["salt beef", "pot roast", "beef olives", "Sunday roast"]
+    },
+    {
+      "id": "topside",
+      "name": "Topside",
+      "native": "Topside",
+      "region": "x 0.14-0.26, inner face of the hind leg (the x-split from silverside stands in for a medial/lateral divide)",
+      "x": [0.14, 0.26],
+      "z": [0.42, 0.74],
+      "full_width": true,
+      "description": "The big adductor and semimembranosus muscles from the inside of the thigh, boned out alongside silverside and thick flank. Lean but finer-grained and a shade more tender than silverside, it is the classic affordable British roasting joint, barded with fat and served pink, or sliced thin for beef olives.",
+      "dishes": ["roast beef and Yorkshire pudding", "beef olives", "minute steak", "pot roast"]
+    },
+    {
+      "id": "thick-flank",
+      "name": "Thick flank (top rump)",
+      "native": "Thick flank / Top rump",
+      "region": "x 0.26-0.33, front of the thigh above the stifle",
+      "x": [0.26, 0.33],
+      "z": [0.44, 0.64],
+      "full_width": true,
+      "description": "The quadriceps group on the front of the hind leg, between topside and the flank, also sold as top rump. Lean and moderately tough with little marbling, it is best slow-roasted whole, braised in pieces, or sliced thin across the grain for quick stir-frying.",
+      "dishes": ["slow-roast joint", "braising steak", "stir-fry strips", "flash-fry steak"]
+    },
+    {
+      "id": "leg",
+      "name": "Leg",
+      "native": "Leg",
+      "region": "x 0.08-0.26, hind shank below the thigh",
+      "x": [0.08, 0.26],
+      "z": [0.00, 0.42],
+      "full_width": true,
+      "description": "The hind shank - British butchery keeps 'leg' for the back limb and 'shin' for the front, though the two are used identically. Sinewy, gelatinous and almost fat-free from bearing the animal's weight, so it is sold as stewing steak or minced and needs several hours of wet heat.",
+      "dishes": ["stewing steak", "beef stew", "mince", "stock"]
+    },
+    {
+      "id": "rump",
+      "name": "Rump",
+      "native": "Rump",
+      "region": "x 0.08-0.36, over the pelvis from the aitch bone to the sirloin line",
+      "x": [0.08, 0.36],
+      "z": [0.74, 0.94],
+      "full_width": true,
+      "description": "The gluteal muscles capping the pelvis, divided from the leg by a cut straight through the aitch bone and running forward to the sirloin - this is what American butchery calls sirloin. Firmer and more open-textured than sirloin but with markedly more flavour, and tender enough to grill or fry as steak.",
+      "dishes": ["rump steak", "picanha", "roast rump", "stir-fry"]
+    },
+    {
+      "id": "sirloin",
+      "name": "Sirloin",
+      "native": "Sirloin",
+      "region": "x 0.36-0.49, lumbar loin plus the three wing ribs",
+      "x": [0.36, 0.49],
+      "z": [0.74, 0.94],
+      "full_width": true,
+      "description": "The longissimus along the top of the loin, running from the hip bone forward over the last three ribs (the wing rib) - the American short loin, not the American sirloin. Barely worked and well covered in fat, it is the prime British roasting joint and the source of T-bone and porterhouse steaks.",
+      "dishes": ["roast sirloin", "sirloin steak", "T-bone steak", "wing rib roast", "entrecote"]
+    },
+    {
+      "id": "fillet",
+      "name": "Fillet",
+      "native": "Fillet",
+      "region": "x 0.26-0.46, psoas strip under the lumbar vertebrae",
+      "x": [0.26, 0.46],
+      "z": [0.64, 0.74],
+      "full_width": false,
+      "description": "The psoas major, a tapering strip tucked under the lumbar spine on each side, where it does almost no work at all. The tenderest and leanest muscle on the carcass, and the most expensive, so it is cooked fast and rare or wrapped whole in pastry.",
+      "dishes": ["beef Wellington", "fillet steak", "chateaubriand", "tournedos"]
+    },
+    {
+      "id": "thin-flank",
+      "name": "Thin flank",
+      "native": "Thin flank",
+      "region": "x 0.33-0.46, abdominal wall behind the last rib",
+      "x": [0.33, 0.46],
+      "z": [0.44, 0.64],
+      "full_width": true,
+      "description": "The layered abdominal muscle sheet below the loin and behind the last rib, coarse-grained, loosely textured and streaked with fat. Sold as bavette or skirt for fast, hot cooking and slicing across the grain, or trimmed for mince and salt beef.",
+      "dishes": ["bavette steak", "salt beef", "mince", "Cornish pasty"]
+    },
+    {
+      "id": "fore-rib",
+      "name": "Fore rib",
+      "native": "Fore rib",
+      "region": "x 0.49-0.56, upper five ribs ahead of the wing rib",
+      "x": [0.49, 0.56],
+      "z": [0.72, 0.94],
+      "full_width": true,
+      "description": "The five ribs forward of the wing rib, taking the loin muscle where it is still well marbled and capped with the fatty spinalis 'eye'. Lightly worked and generously fatted, it is Britain's great bone-in roast and the source of ribeye steaks.",
+      "dishes": ["roast rib of beef", "cote de boeuf", "ribeye steak", "Sunday roast"]
+    },
+    {
+      "id": "thin-rib",
+      "name": "Thin rib",
+      "native": "Thin rib",
+      "region": "x 0.46-0.56, lower rib plate beneath the fore rib",
+      "x": [0.46, 0.56],
+      "z": [0.44, 0.72],
+      "full_width": true,
+      "description": "The lower ends of the same ribs, below the fore rib and behind the brisket, where thin sheets of muscle alternate with fat and membrane over the bone. Far too sinewy to grill, it is sold as short ribs for long braising or boned out for mince.",
+      "dishes": ["braised short ribs", "mince", "beef casserole"]
+    },
+    {
+      "id": "thick-rib",
+      "name": "Thick rib",
+      "native": "Thick rib",
+      "region": "x 0.56-0.66, behind the shoulder beneath the blade",
+      "x": [0.56, 0.66],
+      "z": [0.54, 0.72],
+      "full_width": true,
+      "description": "The meat over the front five ribs, sitting just below the chuck and blade and forward of the thin rib. A solid, lean block criss-crossed with connective tissue from supporting the shoulder, so it is sold as braising steak and cooked slowly until the sinew turns to gelatine.",
+      "dishes": ["braising steak", "beef casserole", "cottage pie", "steak and ale pie"]
+    },
+    {
+      "id": "chuck-and-blade",
+      "name": "Chuck and blade",
+      "native": "Chuck and blade",
+      "region": "x 0.56-0.67, top of the shoulder over the blade bone",
+      "x": [0.56, 0.67],
+      "z": [0.72, 0.96],
+      "full_width": true,
+      "description": "The central muscle group of the shoulder, wrapped around and over the actual blade bone. Heavily worked and threaded with fat and gristle, which makes it the standard British braising and pie meat - though the feather blade within it, split off its central sinew, grills as flat iron steak.",
+      "dishes": ["steak and ale pie", "braising steak", "flat iron steak", "feather blade", "beef casserole"]
+    },
+    {
+      "id": "neck-and-clod",
+      "name": "Neck and clod",
+      "native": "Neck and clod",
+      "region": "x 0.67-0.82, neck and the point of shoulder",
+      "x": [0.67, 0.82],
+      "z": [0.54, 0.94],
+      "full_width": true,
+      "description": "The neck, or sticking piece, together with the clod at the point of the shoulder - muscles that carry the head all day and are correspondingly coarse and sinew-laden. The cheapest meat on the carcass, sold as stewing steak or mince, and superb once cooked long and slow for the depth it puts into the sauce.",
+      "dishes": ["beef stew", "stewing steak", "mince", "cottage pie", "Scotch broth"]
+    },
+    {
+      "id": "brisket",
+      "name": "Brisket",
+      "native": "Brisket",
+      "region": "x 0.56-0.78, breast between and behind the forelegs",
+      "x": [0.56, 0.78],
+      "z": [0.34, 0.54],
+      "full_width": true,
+      "description": "The breast muscle spanning the chest below the ribs, which takes the animal's weight at the front since cattle have no collarbone. Tough, layered and fatty, it is almost always boned and rolled, then salted or pot-roasted for many hours.",
+      "dishes": ["pot roast", "salt beef beigel", "corned beef", "slow-roast brisket"]
+    },
+    {
+      "id": "shin",
+      "name": "Shin",
+      "native": "Shin",
+      "region": "x 0.58-0.70, foreleg below the elbow",
+      "x": [0.58, 0.70],
+      "z": [0.00, 0.34],
+      "full_width": true,
+      "description": "The foreshank, a bundle of hard lean muscle around the leg bone bound by thick seams of collagen. Inedible cooked quickly, but three or four hours of braising turns that collagen to gelatine and gives the stickiest, richest stew of any cheap cut.",
+      "dishes": ["shin of beef stew", "steak and kidney pudding", "beef casserole", "mince"]
+    },
+    {
+      "id": "ox-cheek",
+      "name": "Ox cheek",
+      "native": "Ox cheek",
+      "region": "x 0.82-0.93, side of the head",
+      "x": [0.82, 0.93],
+      "z": [0.60, 0.78],
+      "full_width": true,
+      "description": "The masseter from the side of the head, worked continuously by an animal that chews the cud for hours a day and therefore dense with connective tissue. Braised gently for four hours or more it becomes meltingly soft and deeply gelatinous, and it has been revived from offal-counter obscurity by British restaurant kitchens.",
+      "dishes": ["braised ox cheek", "ox cheek pie", "beef ragu", "beef bourguignon"]
+    }
+  ]
+}

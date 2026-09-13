@@ -1,0 +1,3133 @@
+[
+ {
+  "culture": "United States",
+  "id": "us",
+  "flag": "US",
+  "blurb": "The American scheme splits the carcass between the 12th and 13th ribs into fore- and hindquarter, then works outward from the spine: the eight primals are chuck, rib, short loin, sirloin, round, brisket, short plate and flank, with the shanks taken off the legs. It is built to maximise big, uniformly sized grilling steaks from the middle meats - the rib and loin are only about a quarter of the carcass but carry the ribeye, strip, T-bone, porterhouse and tenderloin - while the hard-working shoulder, leg and belly are boned out for roasts, barbecue and ground beef. A 1300 lb steer yields an 806 lb carcass and about 638 lb of retail cuts, of which roughly 59 percent are roasts and steaks and 41 percent ground beef and stew meat.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cut_of_beef",
+   "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
+   "https://www.ams.usda.gov/sites/default/files/media/LSimps700.pdf",
+   "https://animalrangeextension.montana.edu/beef/documents/CarcassBreakdown.pdf",
+   "https://www.beefitswhatsfordinner.com/cuts/cut/2946/square-cut-chuck-primal",
+   "https://www.beefitswhatsfordinner.com/cuts/cut/2947/rib-primal",
+   "https://www.beefitswhatsfordinner.com/cuts/cut/44453/loin-primal",
+   "https://www.beefitswhatsfordinner.com/cuts/cut/2949/round-primal",
+   "https://www.beefitswhatsfordinner.com/cuts/cut/2952/flank-primal",
+   "https://www.beefitswhatsfordinner.com/cuts/cut/44467/shank-primal"
+  ],
+  "cuts": [
+   {
+    "id": "round",
+    "name": "Round",
+    "native": "Round",
+    "region": "Hindquarter: x 0.00-0.22, from the tail base forward to the cut made just anterior to the ball of the femur (IMPS 158). That butchery line sits between the hip joint at 0.16 and the hook bone at 0.24, so the primal stops a little short of the 0.24 landmark; it fills the whole rump and thigh above the stifle, z 0.45-0.92.",
+    "x": [
+     0.0,
+     0.22
+    ],
+    "z": [
+     0.45,
+     0.92
+    ],
+    "full_width": true,
+    "description": "The rump and hind leg - the animal's propulsion muscles, so the meat is very lean, close-grained and only moderately tender. Broken into top (inside) round, bottom round or gooseneck, eye of round, sirloin tip (knuckle) and rump, sold as lean roasts, marinated steaks, deli roast beef and a great deal of grind.",
+    "dishes": [
+     "roast beef",
+     "sauerbraten",
+     "London broil",
+     "beef jerky",
+     "ground beef"
+    ],
+    "colour": "#eba08d"
+   },
+   {
+    "id": "hindshank",
+    "name": "Hind Shank",
+    "native": "Hind Shank",
+    "region": "Below the round, x 0.00-0.22, z 0.28-0.45: the lower hind leg, removed from the round by a cut through the stifle joint that follows the seam between the shank and the heel (IMPS 157). Below the hock at z 0.28 only bone and tendon remain.",
+    "x": [
+     0.0,
+     0.22
+    ],
+    "z": [
+     0.28,
+     0.45
+    ],
+    "full_width": true,
+    "description": "Constantly worked leg muscle wrapped around a marrow bone, dense with collagen and extremely tough raw. Sawn into shank cross-cuts and braised or simmered for hours until the connective tissue turns to gelatin.",
+    "dishes": [
+     "osso buco",
+     "beef and barley soup",
+     "braised shank",
+     "beef stock",
+     "caldo de res"
+    ],
+    "colour": "#4d56b8"
+   },
+   {
+    "id": "sirloin",
+    "name": "Sirloin",
+    "native": "Sirloin",
+    "region": "x 0.22-0.36, upper: the posterior section of the full loin (IMPS 181), running from the round cut at the femur ball forward to a straight cut just anterior to the hip cartilage that exposes the gluteus medius, z 0.70-0.92. Divides into top sirloin above and bottom sirloin (tri-tip, ball tip, flap) below.",
+    "x": [
+     0.22,
+     0.36
+    ],
+    "z": [
+     0.7,
+     0.92
+    ],
+    "full_width": true,
+    "description": "The hip end of the back, over the pelvis - more worked than the short loin, so less tender but beefier, with a good fat cap. Grilled and broiled as everyday steaks, or roasted whole as tri-tip.",
+    "dishes": [
+     "sirloin steak",
+     "tri-tip roast (Santa Maria barbecue)",
+     "steak kebabs",
+     "coulotte cap roast",
+     "carne asada"
+    ],
+    "colour": "#8dd164"
+   },
+   {
+    "id": "short_loin",
+    "name": "Short Loin",
+    "native": "Short Loin",
+    "region": "x 0.36-0.46, upper: the anterior section of the loin (IMPS 173), from the sirloin cut at the hip cartilage forward to the natural curvature of the 13th rib, z 0.70-0.92. Because the carcass is quartered between the 12th and 13th ribs, the short loin carries the 13th rib and so reaches a hair forward of the 0.46 last-rib landmark. The tenderloin lies underneath it and runs on into the sirloin.",
+    "x": [
+     0.36,
+     0.46
+    ],
+    "z": [
+     0.7,
+     0.92
+    ],
+    "full_width": true,
+    "description": "The lumbar back, which supports weight but barely moves, so it holds the two most tender muscles on the carcass: the strip loin above the bone and the tenderloin tucked beneath it. Cooked fast and hot - grilled, broiled or pan-seared, never braised.",
+    "dishes": [
+     "T-bone steak",
+     "porterhouse steak",
+     "New York strip steak",
+     "filet mignon",
+     "chateaubriand"
+    ],
+    "colour": "#eb7fc6"
+   },
+   {
+    "id": "flank",
+    "name": "Flank",
+    "native": "Flank",
+    "region": "The thin abdominal sheet under the loin, x 0.22-0.46, z 0.52-0.70, removed from the short loin and sirloin by a straight cut running ventral to the longissimus dorsi and reaching back to the round end, within an inch of the tensor fasciae latae (IMPS 181). A flat wall of muscle on each side of the belly, not a full-width block.",
+    "x": [
+     0.22,
+     0.46
+    ],
+    "z": [
+     0.52,
+     0.7
+    ],
+    "full_width": false,
+    "description": "The abdominal wall that carries the gut - lean, boneless and coarse, with a pronounced long grain. Marinated and grilled or braised, then sliced thinly across the grain; most of the primal by weight is simply ground.",
+    "dishes": [
+     "flank steak",
+     "fajitas",
+     "carne asada",
+     "London broil",
+     "ropa vieja"
+    ],
+    "colour": "#6eb4b8"
+   },
+   {
+    "id": "rib",
+    "name": "Rib",
+    "native": "Rib",
+    "region": "x 0.46-0.56, upper: ribs 6 to 12 inclusive (IMPS 103), separated from the chuck by a straight cut between the 5th and 6th ribs and from the loin along the curvature of the 12th rib, with the short plate cut away below, z 0.70-0.92.",
+    "x": [
+     0.46,
+     0.56
+    ],
+    "z": [
+     0.7,
+     0.92
+    ],
+    "full_width": true,
+    "description": "The thoracic back over the ribcage, used for support rather than locomotion, so it is tender and heavily marbled with intramuscular fat. Roasted whole on the bone as prime rib or broken into the ribeye roll, ribeye cap, blade (lifter) meat, back ribs and rib short ribs.",
+    "dishes": [
+     "prime rib / standing rib roast",
+     "ribeye steak",
+     "cowboy steak",
+     "beef back ribs",
+     "ribeye cap (spinalis)"
+    ],
+    "colour": "#d1b358"
+   },
+   {
+    "id": "short_plate",
+    "name": "Short Plate",
+    "native": "Short Plate",
+    "region": "Immediately ventral to the rib primal (IMPS 121), x 0.46-0.56, z 0.50-0.70, carrying the lower ends of the same seven ribs; the flank end follows the curvature of the 12th rib. A belly sheet on each side rather than a full-width block.",
+    "x": [
+     0.46,
+     0.56
+    ],
+    "z": [
+     0.5,
+     0.7
+    ],
+    "full_width": false,
+    "description": "The lower ribcage and forward belly behind the brisket - fatty layered muscle and rib bone that wants long moist heat, though the diaphragm muscles taken here are grilled hard and fast and sliced thin.",
+    "dishes": [
+     "beef short ribs",
+     "outside skirt steak for fajitas",
+     "inside skirt steak",
+     "hanger steak",
+     "pastrami navel"
+    ],
+    "colour": "#a971eb"
+   },
+   {
+    "id": "chuck",
+    "name": "Chuck",
+    "native": "Chuck",
+    "region": "x 0.56-0.80, upper: the square-cut chuck (IMPS 113) is what remains of the forequarter after the rib, short plate, brisket and foreshank are removed, its rib end a straight cut between the 5th and 6th ribs. It includes the neck forward to the poll at 0.80 unless ordered neck-off (113B/115C), z 0.55-0.92.",
+    "x": [
+     0.56,
+     0.8
+    ],
+    "z": [
+     0.55,
+     0.92
+    ],
+    "full_width": true,
+    "description": "Shoulder, blade and neck - the hardest-working muscle group on the animal, deeply flavoured but shot through with connective tissue and therefore mostly tough. It yields the chuck roll, chuck eye, under blade, shoulder clod, arm and 7-bone blade roasts, chuck tender (mock tender) and chuck short ribs, mostly braised, pot-roasted or ground, though a few seam-cut muscles (flat iron, teres major) are tender enough to grill.",
+    "dishes": [
+     "pot roast",
+     "beef stew",
+     "ground beef for hamburgers",
+     "flat iron steak",
+     "chili con carne"
+    ],
+    "colour": "#63b871"
+   },
+   {
+    "id": "brisket",
+    "name": "Brisket",
+    "native": "Brisket",
+    "region": "The chest floor between and ahead of the forelegs, x 0.56-0.74, z 0.42-0.55: it takes in the anterior sternum and shows the cartilaginous junction of the 1st rib with the sternum plus a cross-section of four ribs (IMPS 118). Brisket is medial and foreshank lateral at the same x, so the split between them is expressed here in z.",
+    "x": [
+     0.56,
+     0.74
+    ],
+    "z": [
+     0.42,
+     0.55
+    ],
+    "full_width": true,
+    "description": "The breast muscle that bears the front weight of an animal with no collarbone - dense, grainy and interleaved with fat and collagen. Sold whole, boneless deckle-on or deckle-off, or split into the flat (first cut) and the fattier point, and it needs many hours of low moist or smoky heat - the whole premise of American barbecue.",
+    "dishes": [
+     "Texas smoked brisket",
+     "corned beef",
+     "pastrami",
+     "braised brisket",
+     "burnt ends"
+    ],
+    "colour": "#d17d88"
+   },
+   {
+    "id": "foreshank",
+    "name": "Fore Shank",
+    "native": "Fore Shank",
+    "region": "The foreleg below the elbow, x 0.56-0.70, z 0.28-0.42, removed from the square-cut chuck by a straight cut exposing a cross-section of the humerus and parted from the brisket along the natural seam (IMPS 117). Lateral to the brisket, which occupies the same x range medially.",
+    "x": [
+     0.56,
+     0.7
+    ],
+    "z": [
+     0.28,
+     0.42
+    ],
+    "full_width": true,
+    "description": "The front leg - among the toughest and leanest meat on the carcass, almost all working muscle sheathed in collagen around a marrow bone. Cross-cut and simmered, where the gelatin it gives up is the point.",
+    "dishes": [
+     "beef stew",
+     "soup bones and stock",
+     "osso buco",
+     "shank cross-cut braise",
+     "pho broth"
+    ],
+    "colour": "#639beb"
+   },
+   {
+    "id": "cheek",
+    "name": "Cheek Meat",
+    "native": "Cheek Meat",
+    "region": "On the head, x 0.86-1.00, z 0.58-0.78: the group of muscles lying external to the upper and lower jaw bones (IMPS 723, variety meats). Not part of any carcass primal - it is harvested at the head table, not off the hanging side.",
+    "x": [
+     0.86,
+     1.0
+    ],
+    "z": [
+     0.58,
+     0.78
+    ],
+    "full_width": true,
+    "description": "The jaw muscle, worked all day by chewing, so it is dense with collagen and impossible to cook quickly. Braised until it collapses into a glossy, gelatinous texture; in the US it is mostly a taqueria and restaurant cut rather than a supermarket one.",
+    "dishes": [
+     "barbacoa tacos",
+     "braised beef cheeks",
+     "birria",
+     "beef cheek ragu"
+    ],
+    "colour": "#9cb858"
+   }
+  ]
+ },
+ {
+  "culture": "United Kingdom",
+  "id": "uk",
+  "flag": "GB",
+  "blurb": "British butchery breaks the hind leg into individually named muscles rather than selling it as one American-style 'round': silverside on the outside, topside on the inside, thick flank (top rump) at the front, with the shank below sold separately as 'leg'. The loin names are shifted one primal forward of the American ones - what Britain calls rump is the American sirloin, and what Britain calls sirloin is the American short loin, running forward over the last three ribs as the wing rib. The forequarter is split finely too, into fore rib, thin rib, thick rib, chuck and blade, and neck and clod, most of it destined for long braising.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cut_of_beef",
+   "https://en.wikipedia.org/wiki/Silverside_(beef)",
+   "https://en.wikipedia.org/wiki/Rump_steak",
+   "https://en.wikipedia.org/wiki/Sirloin_steak",
+   "https://www.simplybeefandlamb.co.uk/cuts/",
+   "https://www.nationalbeefassociation.com/resources/cuts-of-meat/",
+   "https://www.greatbritishchefs.com/features/beef-cuts-guide",
+   "https://www.campbellsmeat.com/help-guides/beef-cuts/",
+   "https://thegingerpig.co.uk/product/wing-rib/"
+  ],
+  "cuts": [
+   {
+    "id": "oxtail",
+    "name": "Oxtail",
+    "native": "Oxtail",
+    "region": "x 0.00-0.05, the tail itself",
+    "x": [
+     0.0,
+     0.05
+    ],
+    "z": [
+     0.86,
+     0.98
+    ],
+    "full_width": false,
+    "description": "The tail, sold sawn into vertebra sections, each a knuckle of hard-working muscle wrapped around bone and packed with collagen. It needs hours of gentle braising, after which it yields the richest, most gelatinous gravy of any cut.",
+    "dishes": [
+     "oxtail soup",
+     "braised oxtail",
+     "oxtail stew"
+    ],
+    "colour": "#eba08d"
+   },
+   {
+    "id": "silverside",
+    "name": "Silverside",
+    "native": "Silverside",
+    "region": "x 0.02-0.14, outer rear of the hind leg",
+    "x": [
+     0.02,
+     0.14
+    ],
+    "z": [
+     0.42,
+     0.74
+    ],
+    "full_width": true,
+    "description": "The biceps femoris from the outside of the hind leg, named for the silvery sheet of connective tissue over its face that a butcher has to strip off. Very lean and coarse-grained from constant use in propulsion, so it is traditionally brined for salt beef or given a long moist pot-roast rather than roasted dry.",
+    "dishes": [
+     "salt beef",
+     "pot roast",
+     "beef olives",
+     "Sunday roast"
+    ],
+    "colour": "#4d56b8"
+   },
+   {
+    "id": "topside",
+    "name": "Topside",
+    "native": "Topside",
+    "region": "x 0.14-0.26, inner face of the hind leg (the x-split from silverside stands in for a medial/lateral divide)",
+    "x": [
+     0.14,
+     0.26
+    ],
+    "z": [
+     0.42,
+     0.74
+    ],
+    "full_width": true,
+    "description": "The big adductor and semimembranosus muscles from the inside of the thigh, boned out alongside silverside and thick flank. Lean but finer-grained and a shade more tender than silverside, it is the classic affordable British roasting joint, barded with fat and served pink, or sliced thin for beef olives.",
+    "dishes": [
+     "roast beef and Yorkshire pudding",
+     "beef olives",
+     "minute steak",
+     "pot roast"
+    ],
+    "colour": "#8dd164"
+   },
+   {
+    "id": "thick-flank",
+    "name": "Thick flank (top rump)",
+    "native": "Thick flank / Top rump",
+    "region": "x 0.26-0.33, front of the thigh above the stifle",
+    "x": [
+     0.26,
+     0.33
+    ],
+    "z": [
+     0.44,
+     0.64
+    ],
+    "full_width": true,
+    "description": "The quadriceps group on the front of the hind leg, between topside and the flank, also sold as top rump. Lean and moderately tough with little marbling, it is best slow-roasted whole, braised in pieces, or sliced thin across the grain for quick stir-frying.",
+    "dishes": [
+     "slow-roast joint",
+     "braising steak",
+     "stir-fry strips",
+     "flash-fry steak"
+    ],
+    "colour": "#eb7fc6"
+   },
+   {
+    "id": "leg",
+    "name": "Leg",
+    "native": "Leg",
+    "region": "x 0.08-0.26, hind shank below the thigh",
+    "x": [
+     0.08,
+     0.26
+    ],
+    "z": [
+     0.0,
+     0.42
+    ],
+    "full_width": true,
+    "description": "The hind shank - British butchery keeps 'leg' for the back limb and 'shin' for the front, though the two are used identically. Sinewy, gelatinous and almost fat-free from bearing the animal's weight, so it is sold as stewing steak or minced and needs several hours of wet heat.",
+    "dishes": [
+     "stewing steak",
+     "beef stew",
+     "mince",
+     "stock"
+    ],
+    "colour": "#6eb4b8"
+   },
+   {
+    "id": "rump",
+    "name": "Rump",
+    "native": "Rump",
+    "region": "x 0.08-0.36, over the pelvis from the aitch bone to the sirloin line",
+    "x": [
+     0.08,
+     0.36
+    ],
+    "z": [
+     0.74,
+     0.94
+    ],
+    "full_width": true,
+    "description": "The gluteal muscles capping the pelvis, divided from the leg by a cut straight through the aitch bone and running forward to the sirloin - this is what American butchery calls sirloin. Firmer and more open-textured than sirloin but with markedly more flavour, and tender enough to grill or fry as steak.",
+    "dishes": [
+     "rump steak",
+     "picanha",
+     "roast rump",
+     "stir-fry"
+    ],
+    "colour": "#d1b358"
+   },
+   {
+    "id": "sirloin",
+    "name": "Sirloin",
+    "native": "Sirloin",
+    "region": "x 0.36-0.49, lumbar loin plus the three wing ribs",
+    "x": [
+     0.36,
+     0.49
+    ],
+    "z": [
+     0.74,
+     0.94
+    ],
+    "full_width": true,
+    "description": "The longissimus along the top of the loin, running from the hip bone forward over the last three ribs (the wing rib) - the American short loin, not the American sirloin. Barely worked and well covered in fat, it is the prime British roasting joint and the source of T-bone and porterhouse steaks.",
+    "dishes": [
+     "roast sirloin",
+     "sirloin steak",
+     "T-bone steak",
+     "wing rib roast",
+     "entrecote"
+    ],
+    "colour": "#a971eb"
+   },
+   {
+    "id": "fillet",
+    "name": "Fillet",
+    "native": "Fillet",
+    "region": "x 0.26-0.46, psoas strip under the lumbar vertebrae",
+    "x": [
+     0.26,
+     0.46
+    ],
+    "z": [
+     0.64,
+     0.74
+    ],
+    "full_width": false,
+    "description": "The psoas major, a tapering strip tucked under the lumbar spine on each side, where it does almost no work at all. The tenderest and leanest muscle on the carcass, and the most expensive, so it is cooked fast and rare or wrapped whole in pastry.",
+    "dishes": [
+     "beef Wellington",
+     "fillet steak",
+     "chateaubriand",
+     "tournedos"
+    ],
+    "colour": "#63b871"
+   },
+   {
+    "id": "thin-flank",
+    "name": "Thin flank",
+    "native": "Thin flank",
+    "region": "x 0.33-0.46, abdominal wall behind the last rib",
+    "x": [
+     0.33,
+     0.46
+    ],
+    "z": [
+     0.44,
+     0.64
+    ],
+    "full_width": true,
+    "description": "The layered abdominal muscle sheet below the loin and behind the last rib, coarse-grained, loosely textured and streaked with fat. Sold as bavette or skirt for fast, hot cooking and slicing across the grain, or trimmed for mince and salt beef.",
+    "dishes": [
+     "bavette steak",
+     "salt beef",
+     "mince",
+     "Cornish pasty"
+    ],
+    "colour": "#d17d88"
+   },
+   {
+    "id": "fore-rib",
+    "name": "Fore rib",
+    "native": "Fore rib",
+    "region": "x 0.49-0.56, upper five ribs ahead of the wing rib",
+    "x": [
+     0.49,
+     0.56
+    ],
+    "z": [
+     0.72,
+     0.94
+    ],
+    "full_width": true,
+    "description": "The five ribs forward of the wing rib, taking the loin muscle where it is still well marbled and capped with the fatty spinalis 'eye'. Lightly worked and generously fatted, it is Britain's great bone-in roast and the source of ribeye steaks.",
+    "dishes": [
+     "roast rib of beef",
+     "cote de boeuf",
+     "ribeye steak",
+     "Sunday roast"
+    ],
+    "colour": "#639beb"
+   },
+   {
+    "id": "thin-rib",
+    "name": "Thin rib",
+    "native": "Thin rib",
+    "region": "x 0.46-0.56, lower rib plate beneath the fore rib",
+    "x": [
+     0.46,
+     0.56
+    ],
+    "z": [
+     0.44,
+     0.72
+    ],
+    "full_width": true,
+    "description": "The lower ends of the same ribs, below the fore rib and behind the brisket, where thin sheets of muscle alternate with fat and membrane over the bone. Far too sinewy to grill, it is sold as short ribs for long braising or boned out for mince.",
+    "dishes": [
+     "braised short ribs",
+     "mince",
+     "beef casserole"
+    ],
+    "colour": "#9cb858"
+   },
+   {
+    "id": "thick-rib",
+    "name": "Thick rib",
+    "native": "Thick rib",
+    "region": "x 0.56-0.66, behind the shoulder beneath the blade",
+    "x": [
+     0.56,
+     0.66
+    ],
+    "z": [
+     0.54,
+     0.72
+    ],
+    "full_width": true,
+    "description": "The meat over the front five ribs, sitting just below the chuck and blade and forward of the thin rib. A solid, lean block criss-crossed with connective tissue from supporting the shoulder, so it is sold as braising steak and cooked slowly until the sinew turns to gelatine.",
+    "dishes": [
+     "braising steak",
+     "beef casserole",
+     "cottage pie",
+     "steak and ale pie"
+    ],
+    "colour": "#d171d1"
+   },
+   {
+    "id": "chuck-and-blade",
+    "name": "Chuck and blade",
+    "native": "Chuck and blade",
+    "region": "x 0.56-0.67, top of the shoulder over the blade bone",
+    "x": [
+     0.56,
+     0.67
+    ],
+    "z": [
+     0.72,
+     0.96
+    ],
+    "full_width": true,
+    "description": "The central muscle group of the shoulder, wrapped around and over the actual blade bone. Heavily worked and threaded with fat and gristle, which makes it the standard British braising and pie meat - though the feather blade within it, split off its central sinew, grills as flat iron steak.",
+    "dishes": [
+     "steak and ale pie",
+     "braising steak",
+     "flat iron steak",
+     "feather blade",
+     "beef casserole"
+    ],
+    "colour": "#8debcf"
+   },
+   {
+    "id": "neck-and-clod",
+    "name": "Neck and clod",
+    "native": "Neck and clod",
+    "region": "x 0.67-0.82, neck and the point of shoulder",
+    "x": [
+     0.67,
+     0.82
+    ],
+    "z": [
+     0.54,
+     0.94
+    ],
+    "full_width": true,
+    "description": "The neck, or sticking piece, together with the clod at the point of the shoulder - muscles that carry the head all day and are correspondingly coarse and sinew-laden. The cheapest meat on the carcass, sold as stewing steak or mince, and superb once cooked long and slow for the depth it puts into the sauce.",
+    "dishes": [
+     "beef stew",
+     "stewing steak",
+     "mince",
+     "cottage pie",
+     "Scotch broth"
+    ],
+    "colour": "#b8794d"
+   },
+   {
+    "id": "brisket",
+    "name": "Brisket",
+    "native": "Brisket",
+    "region": "x 0.56-0.78, breast between and behind the forelegs",
+    "x": [
+     0.56,
+     0.78
+    ],
+    "z": [
+     0.34,
+     0.54
+    ],
+    "full_width": true,
+    "description": "The breast muscle spanning the chest below the ribs, which takes the animal's weight at the front since cattle have no collarbone. Tough, layered and fatty, it is almost always boned and rolled, then salted or pot-roasted for many hours.",
+    "dishes": [
+     "pot roast",
+     "salt beef beigel",
+     "corned beef",
+     "slow-roast brisket"
+    ],
+    "colour": "#7264d1"
+   },
+   {
+    "id": "shin",
+    "name": "Shin",
+    "native": "Shin",
+    "region": "x 0.58-0.70, foreleg below the elbow",
+    "x": [
+     0.58,
+     0.7
+    ],
+    "z": [
+     0.0,
+     0.34
+    ],
+    "full_width": true,
+    "description": "The foreshank, a bundle of hard lean muscle around the leg bone bound by thick seams of collagen. Inedible cooked quickly, but three or four hours of braising turns that collagen to gelatine and gives the stickiest, richest stew of any cheap cut.",
+    "dishes": [
+     "shin of beef stew",
+     "steak and kidney pudding",
+     "beef casserole",
+     "mince"
+    ],
+    "colour": "#91eb7f"
+   },
+   {
+    "id": "ox-cheek",
+    "name": "Ox cheek",
+    "native": "Ox cheek",
+    "region": "x 0.82-0.93, side of the head",
+    "x": [
+     0.82,
+     0.93
+    ],
+    "z": [
+     0.6,
+     0.78
+    ],
+    "full_width": true,
+    "description": "The masseter from the side of the head, worked continuously by an animal that chews the cud for hours a day and therefore dense with connective tissue. Braised gently for four hours or more it becomes meltingly soft and deeply gelatinous, and it has been revived from offal-counter obscurity by British restaurant kitchens.",
+    "dishes": [
+     "braised ox cheek",
+     "ox cheek pie",
+     "beef ragu",
+     "beef bourguignon"
+    ],
+    "colour": "#b86e90"
+   }
+  ]
+ },
+ {
+  "culture": "France",
+  "id": "fr",
+  "flag": "FR",
+  "blurb": "The French découpe follows the seams between individual muscles rather than sawing straight across the bone, so one carcass yields some 29 named morceaux that each correspond to a muscle or a tight group of them — which is why the onglet, the araignée and the merlan exist in France and have no clean English equivalent. Each morceau is then graded by the cooking it wants: griller and rôtir for the lightly worked première catégorie, braiser and mijoter for the middle, bouillir for the collagen-heavy neck, shanks and breast. The finest seam cuts are so small and so fiddly to extract that butchers traditionally kept them back for themselves — the morceaux du boucher.",
+  "sources": [
+   "https://fr.wikipedia.org/wiki/D%C3%A9coupe_du_b%C5%93uf",
+   "https://en.wikipedia.org/wiki/Cut_of_beef",
+   "https://fr.wikipedia.org/wiki/Paleron",
+   "https://www.la-viande.fr/cuisine-achat/cuisiner-viande/cuisiner-boeuf/morceaux-boucher",
+   "https://jeretiens.net/le-nom-des-morceaux-de-boeuf-decoupe-a-la-francaise/",
+   "https://www.lesviandesdubourbonnais.fr/les-morceaux-du-boeuf/",
+   "https://degustonfoin.fr/blogs/recettes-viande-bovine/les-morceaux-du-boeuf"
+  ],
+  "cuts": [
+   {
+    "id": "queue",
+    "name": "Oxtail",
+    "native": "Queue",
+    "region": "Tail base, on the midline just behind and above the rump at x 0.00-0.06, rising from z 0.82 to 0.96.",
+    "x": [
+     0.0,
+     0.06
+    ],
+    "z": [
+     0.82,
+     0.96
+    ],
+    "full_width": false,
+    "description": "The tail's own musculature, worked constantly to swat flies and bound up with bone and cartilage. Pure collagen and bone: strictly a bouillir/mijoter cut given a long, gentle simmer until the gelatine dissolves.",
+    "dishes": [
+     "queue de bœuf en hochepot",
+     "pot-au-feu",
+     "daube de queue de bœuf",
+     "parmentier de queue de bœuf"
+    ],
+    "colour": "#eba08d"
+   },
+   {
+    "id": "rumsteck",
+    "name": "Rump",
+    "native": "Rumsteck",
+    "region": "The top slab over the pelvis, from the tail base forward to the sirloin/short-loin line, x 0.06-0.36, z 0.80-0.92.",
+    "x": [
+     0.06,
+     0.36
+    ],
+    "z": [
+     0.8,
+     0.92
+    ],
+    "full_width": true,
+    "description": "A large, lean, close-grained muscle group capping the pelvis, only moderately worked, so it is tender without being soft. A première catégorie griller/rôtir cut, taken as thick pavés or roasted whole.",
+    "dishes": [
+     "rumsteck grillé",
+     "brochettes de bœuf",
+     "fondue bourguignonne",
+     "rosbif"
+    ],
+    "colour": "#4d56b8"
+   },
+   {
+    "id": "aiguillette-baronne",
+    "name": "Sirloin tip / tri-tip",
+    "native": "Aiguillette baronne",
+    "region": "A long conical piece at the front-lower tip of the rumsteck, between the rump and the noix, x 0.22-0.28, z 0.62-0.74.",
+    "x": [
+     0.22,
+     0.28
+    ],
+    "z": [
+     0.62,
+     0.74
+    ],
+    "full_width": true,
+    "description": "A tapering, needle-shaped muscle at the junction of the back and the hind limb, moderately worked and well flavoured, weighing 800 g to 1.2 kg. Versatile: sliced thin to griller, barded and tied to rôtir, or braised whole in a cocotte.",
+    "dishes": [
+     "aiguillette baronne rôtie",
+     "bœuf à la ficelle",
+     "aiguillette braisée aux carottes"
+    ],
+    "colour": "#8dd164"
+   },
+   {
+    "id": "araignee",
+    "name": "Spider steak",
+    "native": "Araignée",
+    "region": "A small irregular muscle lining the inside of the hip-joint socket, x 0.14-0.21, z 0.62-0.72 — directly over the hip joint at x 0.16.",
+    "x": [
+     0.14,
+     0.21
+    ],
+    "z": [
+     0.62,
+     0.72
+    ],
+    "full_width": false,
+    "description": "An internal muscle lining the hip socket, barely worked and richly marbled; the veined membrane over it looks like a spider's web, hence the name. Only two per carcass and a famous morceau du boucher — denerved, then grilled or pan-seared fast and served saignant.",
+    "dishes": [
+     "araignée grillée",
+     "araignée à l'échalote",
+     "araignée poêlée au beurre"
+    ],
+    "colour": "#eb7fc6"
+   },
+   {
+    "id": "rond-de-gite",
+    "name": "Eye of round",
+    "native": "Rond de gîte",
+    "region": "The hindmost muscle of the thigh, behind the femur and above the gaskin, x 0.00-0.07, z 0.46-0.66.",
+    "x": [
+     0.0,
+     0.07
+    ],
+    "z": [
+     0.46,
+     0.66
+    ],
+    "full_width": true,
+    "description": "Also called the semelle ('shoe sole'), a cylindrical, extremely lean and fine-grained muscle at the very back of the leg with almost no fat. Tender enough to eat raw in tartare or carpaccio, but cooked it tightens quickly, so it is otherwise braised or mijoté.",
+    "dishes": [
+     "carpaccio de bœuf",
+     "tartare",
+     "bœuf mode",
+     "bœuf braisé"
+    ],
+    "colour": "#6eb4b8"
+   },
+   {
+    "id": "gite-a-la-noix",
+    "name": "Silverside",
+    "native": "Gîte à la noix",
+    "region": "The middle-rear of the thigh, x 0.07-0.14, z 0.46-0.64, wrapping the back of the femur ahead of the rond de gîte.",
+    "x": [
+     0.07,
+     0.14
+    ],
+    "z": [
+     0.46,
+     0.64
+    ],
+    "full_width": true,
+    "description": "A long muscle of the rear thigh with short fibres and a fine grain, lean and reasonably tender for a leg muscle. Cut into steaks to griller or barded and tied to rôtir; the firmer end goes to braiser.",
+    "dishes": [
+     "rôti de gîte à la noix",
+     "bœuf à la mode",
+     "steak de gîte",
+     "bœuf braisé aux carottes"
+    ],
+    "colour": "#d1b358"
+   },
+   {
+    "id": "tende-de-tranche",
+    "name": "Topside",
+    "native": "Tende de tranche",
+    "region": "The large muscle on the inner face of the thigh, x 0.14-0.21, z 0.46-0.62 — the medial side of the leg between gaskin and hip.",
+    "x": [
+     0.14,
+     0.21
+    ],
+    "z": [
+     0.46,
+     0.62
+    ],
+    "full_width": true,
+    "description": "The biggest piece of the thigh, on the inner face where the muscles do least work, so the meat is naturally tender and very lean. It hides the two prized morceaux du boucher — the small round poire (500-600 g) and the long flat merlan (800 g-1 kg) — and the whole group is griller/rôtir meat.",
+    "dishes": [
+     "bifteck",
+     "poire et merlan grillés",
+     "fondue bourguignonne",
+     "rôti de tende de tranche",
+     "escalopes de bœuf"
+    ],
+    "colour": "#a971eb"
+   },
+   {
+    "id": "tranche-grasse",
+    "name": "Thick flank / knuckle",
+    "native": "Tranche grasse",
+    "region": "The front of the thigh over the stifle, x 0.21-0.29, z 0.46-0.60, ahead of the femur.",
+    "x": [
+     0.21,
+     0.29
+    ],
+    "z": [
+     0.46,
+     0.6
+    ],
+    "full_width": true,
+    "description": "The quadriceps group at the front of the leg, broken down by the trade into plat de tranche, rond de tranche and mouvant; well used in walking, so firmer and more sinewy than the tende de tranche. Sliced thin it grills, but most of it is braiser/mijoter meat.",
+    "dishes": [
+     "bœuf bourguignon",
+     "paupiettes de bœuf",
+     "bifteck",
+     "daube provençale"
+    ],
+    "colour": "#63b871"
+   },
+   {
+    "id": "gite-arriere",
+    "name": "Hind shank",
+    "native": "Gîte (jarret arrière)",
+    "region": "The whole lower hind leg — gaskin and shank below the thigh, x 0.03-0.13, z 0.06-0.46; the hock sits at z 0.28.",
+    "x": [
+     0.03,
+     0.13
+    ],
+    "z": [
+     0.06,
+     0.46
+    ],
+    "full_width": true,
+    "description": "The lower hind leg — hard-working muscles laced with tendon and collagen around the shank bone and its marrow. Emphatically a bouillir/mijoter cut: hours of gentle wet heat turn the collagen to gelatine and give the broth its body.",
+    "dishes": [
+     "pot-au-feu",
+     "osso-buco de bœuf",
+     "gîte en gelée",
+     "bouillon de bœuf"
+    ],
+    "colour": "#d17d88"
+   },
+   {
+    "id": "faux-filet",
+    "name": "Sirloin / strip loin",
+    "native": "Faux-filet (contre-filet)",
+    "region": "The long back muscle above the lumbar and last thoracic vertebrae, x 0.36-0.46, z 0.80-0.94, between the rumsteck and the ribs.",
+    "x": [
+     0.36,
+     0.46
+    ],
+    "z": [
+     0.8,
+     0.94
+    ],
+    "full_width": true,
+    "description": "The longissimus dorsi running along the top of the spine, a postural muscle that is barely worked and carries a firm cap of fat. A première catégorie griller/rôtir cut with more chew and more flavour than the filet.",
+    "dishes": [
+     "entrecôte faux-filet grillée",
+     "pavé de faux-filet",
+     "rosbif",
+     "contre-filet sauce béarnaise"
+    ],
+    "colour": "#639beb"
+   },
+   {
+    "id": "filet",
+    "name": "Tenderloin",
+    "native": "Filet",
+    "region": "Tucked inside the carcass underneath the lumbar spine, x 0.28-0.46, z 0.70-0.80, beneath the faux-filet and reaching back under the rumsteck.",
+    "x": [
+     0.28,
+     0.46
+    ],
+    "z": [
+     0.7,
+     0.8
+    ],
+    "full_width": false,
+    "description": "The psoas major, slung under the backbone where it never bears weight, which makes it the most tender and least fatty muscle on the animal. The top of the première catégorie: grill or roast it quickly, usually barded because it has no fat of its own.",
+    "dishes": [
+     "tournedos Rossini",
+     "filet de bœuf en croûte",
+     "chateaubriand",
+     "filet mignon",
+     "bœuf Wellington"
+    ],
+    "colour": "#9cb858"
+   },
+   {
+    "id": "bavette-d-aloyau",
+    "name": "Flank steak (loin end)",
+    "native": "Bavette d'aloyau",
+    "region": "The upper flank flap where the abdominal wall meets the loin, x 0.29-0.40, z 0.56-0.70, just below the filet and behind the last rib.",
+    "x": [
+     0.29,
+     0.4
+    ],
+    "z": [
+     0.56,
+     0.7
+    ],
+    "full_width": false,
+    "description": "A flat sheet of abdominal muscle with long, coarse, clearly visible fibres and a deep beefy taste. A deuxième catégorie griller cut treated like a first: seared hard, served saignant and always sliced across the grain.",
+    "dishes": [
+     "bavette à l'échalote",
+     "bavette grillée",
+     "bavette au poivre"
+    ],
+    "colour": "#d171d1"
+   },
+   {
+    "id": "bavette-de-flanchet",
+    "name": "Flank steak (flank end)",
+    "native": "Bavette de flanchet",
+    "region": "The rear-lower flank in front of the thigh, x 0.29-0.36, z 0.44-0.56, below the bavette d'aloyau.",
+    "x": [
+     0.29,
+     0.36
+    ],
+    "z": [
+     0.44,
+     0.56
+    ],
+    "full_width": false,
+    "description": "The rearmost part of the abdominal wall, coarser and more sinewy than the bavette d'aloyau and streaked with connective tissue. Cheaper, and a deuxième/troisième catégorie piece: grilled fast if trimmed well, otherwise mijoté.",
+    "dishes": [
+     "bavette grillée",
+     "bœuf en daube",
+     "bavette marinée"
+    ],
+    "colour": "#8debcf"
+   },
+   {
+    "id": "flanchet",
+    "name": "Flank / plate",
+    "native": "Flanchet",
+    "region": "The abdominal wall under the loin, x 0.36-0.46, z 0.44-0.56, between the last rib and the hind leg.",
+    "x": [
+     0.36,
+     0.46
+    ],
+    "z": [
+     0.44,
+     0.56
+    ],
+    "full_width": false,
+    "description": "Built from the layered muscles of the abdomen alternating with membrane and fat — it holds the animal's belly up, and is tough and gristly for it. A troisième catégorie bouillir/mijoter cut, usually rolled and tied for the pot.",
+    "dishes": [
+     "pot-au-feu",
+     "flanchet en cocotte",
+     "bœuf gros sel"
+    ],
+    "colour": "#b8794d"
+   },
+   {
+    "id": "onglet",
+    "name": "Hanger steak",
+    "native": "Onglet",
+    "region": "The pillars of the diaphragm hanging under the lumbar spine at the last rib, x 0.40-0.46, z 0.56-0.68.",
+    "x": [
+     0.4,
+     0.46
+    ],
+    "z": [
+     0.56,
+     0.68
+    ],
+    "full_width": false,
+    "description": "The crura of the diaphragm, a breathing muscle that works constantly but bears no load, giving long coarse fibres, a central sinew and an almost offal-rich flavour. The archetypal morceau du boucher — grilled very fast and eaten saignant, never past it.",
+    "dishes": [
+     "onglet à l'échalote",
+     "onglet grillé",
+     "onglet sauce au poivre"
+    ],
+    "colour": "#7264d1"
+   },
+   {
+    "id": "hampe",
+    "name": "Skirt steak",
+    "native": "Hampe",
+    "region": "The muscular skirt of the diaphragm along the inside of the lower ribs, x 0.48-0.56, z 0.54-0.64.",
+    "x": [
+     0.48,
+     0.56
+    ],
+    "z": [
+     0.54,
+     0.64
+    ],
+    "full_width": false,
+    "description": "The outer fleshy part of the diaphragm separating thorax from abdomen, in long visible bands that give a deliberate resistance to the tooth. Another morceau du boucher: membrane stripped, grilled or pan-seared very hot, served rare.",
+    "dishes": [
+     "hampe grillée",
+     "hampe à l'échalote",
+     "hampe poêlée persillade"
+    ],
+    "colour": "#91eb7f"
+   },
+   {
+    "id": "entrecote",
+    "name": "Rib steak / prime rib",
+    "native": "Côtes, entrecôtes",
+    "region": "The upper rib cage, x 0.46-0.56, z 0.80-0.94, spanning the ribs between the last rib at x 0.46 and the fifth rib at x 0.56.",
+    "x": [
+     0.46,
+     0.56
+    ],
+    "z": [
+     0.8,
+     0.94
+    ],
+    "full_width": true,
+    "description": "The continuation of the long back muscle over the ribs, generously marbled because the muscle does little work and stores fat between its fibres. Première catégorie griller/rôtir: on the bone it is a côte de bœuf, boned out it is the entrecôte.",
+    "dishes": [
+     "côte de bœuf grillée",
+     "entrecôte marchand de vin",
+     "entrecôte bordelaise",
+     "entrecôte frites"
+    ],
+    "colour": "#b86e90"
+   },
+   {
+    "id": "plat-de-cotes",
+    "name": "Short rib / rib plate",
+    "native": "Plat de côtes",
+    "region": "The lower half of the rib cage down toward the rib ends, x 0.46-0.56, z 0.64-0.80, beneath the entrecôte.",
+    "x": [
+     0.46,
+     0.56
+    ],
+    "z": [
+     0.64,
+     0.8
+    ],
+    "full_width": true,
+    "description": "The flat muscle and fat lying along the lower rib bones, layered and coarse-grained with plenty of connective tissue. A classic troisième catégorie bouillir cut — the piece that gives a pot-au-feu its flavour — sold with or without the bone.",
+    "dishes": [
+     "pot-au-feu",
+     "potée",
+     "bœuf bourguignon",
+     "plat de côtes au gros sel"
+    ],
+    "colour": "#58b3d1"
+   },
+   {
+    "id": "basses-cotes",
+    "name": "Chuck rib / blade end",
+    "native": "Basses côtes",
+    "region": "The first five ribs, high on the back just behind and above the shoulder blade, x 0.56-0.66, z 0.84-0.94.",
+    "x": [
+     0.56,
+     0.66
+    ],
+    "z": [
+     0.84,
+     0.94
+    ],
+    "full_width": true,
+    "description": "Where the back muscle runs out over the forward ribs and breaks into several smaller, well-marbled muscles divided by seams of fat. Dual-purpose: in thin steaks it is a griller cut, in chunks it is one of the best mijoter cuts on the animal.",
+    "dishes": [
+     "basses côtes grillées",
+     "bœuf bourguignon",
+     "carbonade flamande",
+     "daube"
+    ],
+    "colour": "#ebe571"
+   },
+   {
+    "id": "tendron",
+    "name": "Rib tips / short plate",
+    "native": "Tendron, milieu de poitrine",
+    "region": "The mid-breast over the rib cartilages and sternum, x 0.46-0.56, z 0.44-0.54, behind the brisket.",
+    "x": [
+     0.46,
+     0.56
+    ],
+    "z": [
+     0.44,
+     0.54
+    ],
+    "full_width": true,
+    "description": "Alternating layers of muscle, fat and the soft cartilage of the rib ends, taken from the floor of the chest. A troisième catégorie mijoter cut whose cartilage melts to gelatine over long cooking; sliced very thin it can also be grilled.",
+    "dishes": [
+     "tendron de bœuf en cocotte",
+     "pot-au-feu",
+     "tendron braisé",
+     "tendron au barbecue"
+    ],
+    "colour": "#9b63b8"
+   },
+   {
+    "id": "gros-bout-de-poitrine",
+    "name": "Brisket",
+    "native": "Gros bout de poitrine",
+    "region": "The front of the breast below and between the forelegs, x 0.62-0.72, z 0.46-0.56, ahead of the elbow at x 0.62.",
+    "x": [
+     0.62,
+     0.72
+    ],
+    "z": [
+     0.46,
+     0.56
+    ],
+    "full_width": true,
+    "description": "Three pectoral muscles slung under the shoulder that carry much of the animal's forward weight with no collarbone to help, so they are dense, fatty and full of collagen. A bouillir/mijoter cut, and the traditional piece for salting.",
+    "dishes": [
+     "pot-au-feu",
+     "bœuf gros sel",
+     "poitrine salée",
+     "potée auvergnate"
+    ],
+    "colour": "#7dd19d"
+   },
+   {
+    "id": "paleron",
+    "name": "Flat iron / blade",
+    "native": "Paleron",
+    "region": "Flat on the outer face of the shoulder blade, upper-rear shoulder near the neck, x 0.56-0.66, z 0.66-0.84.",
+    "x": [
+     0.56,
+     0.66
+    ],
+    "z": [
+     0.66,
+     0.84
+    ],
+    "full_width": true,
+    "description": "A flat, regular muscle lying against the scapula, split lengthwise by a tough central sheet of gristle that melts into gelatine. The braiser cut par excellence — over two hours of wet heat — though the two half-fillets either side of the nerve also make tender grilling steaks.",
+    "dishes": [
+     "bœuf bourguignon",
+     "carbonade flamande",
+     "daube",
+     "pot-au-feu",
+     "paleron braisé"
+    ],
+    "colour": "#eb6e63"
+   },
+   {
+    "id": "macreuse-a-bifteck",
+    "name": "Chuck tender / shoulder steak",
+    "native": "Macreuse à bifteck",
+    "region": "The forward upper shoulder toward the point of shoulder, x 0.66-0.72, z 0.66-0.88.",
+    "x": [
+     0.66,
+     0.72
+    ],
+    "z": [
+     0.66,
+     0.88
+    ],
+    "full_width": true,
+    "description": "The upper part of the big shoulder mass on the foreleg, moderately worked, lean and fairly firm but with a fine, even grain. A deuxième catégorie griller cut — thin steaks, brochettes, or barded and roasted.",
+    "dishes": [
+     "bifteck de macreuse",
+     "brochettes",
+     "macreuse grillée",
+     "rôti de macreuse"
+    ],
+    "colour": "#586cb8"
+   },
+   {
+    "id": "jumeau-a-bifteck",
+    "name": "Chuck eye / shoulder twin",
+    "native": "Jumeau à bifteck",
+    "region": "Below the shoulder blade on the outer shoulder, x 0.56-0.65, z 0.56-0.66.",
+    "x": [
+     0.56,
+     0.65
+    ],
+    "z": [
+     0.56,
+     0.66
+    ],
+    "full_width": true,
+    "description": "A long muscle with short fibres lying under the blade, called the 'twin' because it runs alongside its tougher counterpart. The tenderer of the pair and a griller cut: quick steaks or escalopes.",
+    "dishes": [
+     "jumeau grillé",
+     "escalopes de bœuf",
+     "brochettes",
+     "bifteck sauce échalote"
+    ],
+    "colour": "#a1d171"
+   },
+   {
+    "id": "jumeau-a-pot-au-feu",
+    "name": "Chuck (stewing twin)",
+    "native": "Jumeau à pot-au-feu",
+    "region": "The deeper, lower half of the twin pair toward the point of shoulder, x 0.65-0.72, z 0.56-0.66.",
+    "x": [
+     0.65,
+     0.72
+    ],
+    "z": [
+     0.56,
+     0.66
+    ],
+    "full_width": true,
+    "description": "The firmer twin, heavily worked and shot through with connective tissue, so it turns unctuous and gelatinous once broken down. Strictly mijoter/bouillir: ragoûts, daubes and the pot itself.",
+    "dishes": [
+     "pot-au-feu",
+     "bœuf bourguignon",
+     "daube",
+     "ragoût de bœuf"
+    ],
+    "colour": "#eb8dd7"
+   },
+   {
+    "id": "macreuse-a-pot-au-feu",
+    "name": "Shoulder clod",
+    "native": "Macreuse à pot-au-feu",
+    "region": "The muscle mass wrapping the humerus on the outer foreleg, behind and above the elbow at x 0.62, z 0.46-0.56.",
+    "x": [
+     0.56,
+     0.62
+    ],
+    "z": [
+     0.46,
+     0.56
+    ],
+    "full_width": true,
+    "description": "A big block of muscle around the humerus of the front limb, worked at every stride and dense with sinew. Firmer than the macreuse à bifteck and a troisième catégorie bouillir cut that needs long, slow simmering to turn tender.",
+    "dishes": [
+     "pot-au-feu",
+     "bœuf mode",
+     "ragoût",
+     "bouillon"
+    ],
+    "colour": "#4db8af"
+   },
+   {
+    "id": "gite-avant",
+    "name": "Fore shank / shin",
+    "native": "Gîte avant (jarret)",
+    "region": "The whole lower foreleg — forearm and shin below the elbow, x 0.58-0.70, z 0.06-0.46; the knee sits at z 0.28.",
+    "x": [
+     0.58,
+     0.7
+    ],
+    "z": [
+     0.06,
+     0.46
+    ],
+    "full_width": true,
+    "description": "The shin of the front leg: lean muscle bundles wrapped in tendon around a marrow bone, about as hard-working as meat gets. A bouillir cut whose collagen is exactly what a good bouillon or a bœuf en gelée needs.",
+    "dishes": [
+     "pot-au-feu",
+     "jarret de bœuf",
+     "bœuf en gelée",
+     "bouillon"
+    ],
+    "colour": "#d1a864"
+   },
+   {
+    "id": "collier",
+    "name": "Neck / chuck",
+    "native": "Collier",
+    "region": "The neck, x 0.72-0.80, z 0.62-0.94, from the point of shoulder forward to the poll.",
+    "x": [
+     0.72,
+     0.8
+    ],
+    "z": [
+     0.62,
+     0.94
+    ],
+    "full_width": true,
+    "description": "The muscles of the encolure, holding up a very heavy head all day, which makes the meat coarse, gelatinous and deeply flavoured. A troisième catégorie mijoter cut — cheap, and one of the tastiest things in a long-cooked stew.",
+    "dishes": [
+     "bœuf bourguignon",
+     "daube",
+     "ragoût",
+     "carbonade flamande",
+     "pot-au-feu"
+    ],
+    "colour": "#a27feb"
+   },
+   {
+    "id": "joue",
+    "name": "Cheek",
+    "native": "Joue (plat de joue)",
+    "region": "The cheek muscle on the side of the head, x 0.80-0.90, z 0.70-0.86, forward of the poll at x 0.80.",
+    "x": [
+     0.8,
+     0.9
+    ],
+    "z": [
+     0.7,
+     0.86
+    ],
+    "full_width": true,
+    "description": "The masseter, chewing cud for hours every day, so it is a dense mesh of muscle and collagen with almost no fat. Sold as an abat, it is braised or confit for several hours until it falls apart into a silky, sticky texture.",
+    "dishes": [
+     "joue de bœuf braisée",
+     "daube de joue au vin rouge",
+     "joue de bœuf confite",
+     "carbonade"
+    ],
+    "colour": "#6eb871"
+   }
+  ]
+ },
+ {
+  "culture": "Brazil",
+  "id": "br",
+  "flag": "BR",
+  "blurb": "The Brazilian scheme is a churrasco scheme: the carcass is broken down to serve a charcoal fire and a skewer, so cuts are defined by their fat cap and their behaviour over coals rather than by the steakhouse geometry of an American or French chart. Its prestige cut is the picanha, the triangular tip of the biceps femoris with its cap of hard fat left on - a piece most other traditions bury anonymously inside the rump. It is also the only major scheme with a cut that exists on zebu cattle alone: the cupim, the fatty hump of Nelore and its crosses.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cut_of_beef",
+   "https://en.wikipedia.org/wiki/Picanha",
+   "https://pt.wikipedia.org/wiki/Lista_de_tipos_de_carne_bovina",
+   "https://pt.wikipedia.org/wiki/Alcatra",
+   "https://pt.wikipedia.org/wiki/Cupim_(carne)",
+   "https://www.scotconsultoria.com.br/noticias/agronegocio-na-midia/42462/o-mapa-do-boi-os-cortes-de-carne-mais-comuns-no-brasil.htm",
+   "https://www.villefort.com.br/content/aprenda-identificar-os-cortes-de-carne-bovina",
+   "https://beefpoint.com.br/especificacoes-dos-cortes-bovinos-parte-2-5418/",
+   "https://www.dicasonline.com/matambre/"
+  ],
+  "cuts": [
+   {
+    "id": "picanha",
+    "name": "Rump cap / top sirloin cap",
+    "native": "Picanha",
+    "region": "The cap over the top of the rump, from the tail base forward to about the hook bone, riding high on the topline above the round.",
+    "x": [
+     0.02,
+     0.2
+    ],
+    "z": [
+     0.74,
+     0.94
+    ],
+    "full_width": true,
+    "description": "The terminal triangular part of the biceps femoris, a hip extensor that works but never carries the animal's weight, covered by a thick wedge of hard fat that Brazilian butchers leave attached - the fat cap is the cut. Bent into a C on a skewer with nothing but coarse salt, or cut into thick steaks and grilled fat-side down so the cap renders back into the meat.",
+    "dishes": [
+     "picanha na brasa",
+     "picanha no espeto",
+     "churrasco de rodízio",
+     "picanha na chapa com alho"
+    ],
+    "colour": "#eba08d"
+   },
+   {
+    "id": "alcatra",
+    "name": "Rump / top sirloin centre",
+    "native": "Alcatra (miolo de alcatra)",
+    "region": "Between the loin and the thigh, above the hip joint from the hook bone back, sold with the picanha and maminha already removed.",
+    "x": [
+     0.2,
+     0.34
+    ],
+    "z": [
+     0.74,
+     0.92
+    ],
+    "full_width": true,
+    "description": "The gluteal mass over the hip, lean and short-fibred and about as tender as a genuinely working muscle gets, which is why Brazilian butchers treat the whole alcatra as the mother cut that picanha, maminha and baby beef are taken from. Grilled as thick steaks or roasted whole; too lean to survive being cut thin and cooked through.",
+    "dishes": [
+     "bife de alcatra",
+     "alcatra na brasa",
+     "picadinho de alcatra",
+     "alcatra assada"
+    ],
+    "colour": "#4d56b8"
+   },
+   {
+    "id": "maminha",
+    "name": "Tri-tip / bottom sirloin tip",
+    "native": "Maminha",
+    "region": "The tapering tip of the alcatra where the rump runs down into the flank, ahead of the stifle and below the sirloin line.",
+    "x": [
+     0.28,
+     0.36
+    ],
+    "z": [
+     0.62,
+     0.74
+    ],
+    "full_width": true,
+    "description": "The soft triangular tail of the rump next to the flank, finer-grained and fattier than the alcatra above it, with the grain swinging round through the piece. Roasted or grilled whole and taken to medium or beyond so the fat softens, then sliced firmly across the grain.",
+    "dishes": [
+     "maminha na brasa",
+     "maminha assada na cerveja",
+     "maminha no espeto"
+    ],
+    "colour": "#8dd164"
+   },
+   {
+    "id": "contrafile",
+    "name": "Striploin / sirloin",
+    "native": "Contrafilé",
+    "region": "Along the back from the sirloin line forward over the lumbar vertebrae and the last ribs to about the fifth rib, sitting on top of the spine.",
+    "x": [
+     0.34,
+     0.56
+    ],
+    "z": [
+     0.74,
+     0.86
+    ],
+    "full_width": true,
+    "description": "The longissimus dorsi, the long back muscle that only holds the spine steady, so it is tender, well flavoured and carries a fat strip down its outer edge. Cooked fast and hot - as bifes on the chapa, as a whole roast on the fire, or bone-in as chuleta.",
+    "dishes": [
+     "bife de chapa",
+     "chuleta",
+     "estrogonofe",
+     "contrafilé grelhado",
+     "bife a cavalo"
+    ],
+    "colour": "#eb7fc6"
+   },
+   {
+    "id": "capa-de-file",
+    "name": "Loin cover / cap over the ribeye",
+    "native": "Capa de filé",
+    "region": "The outer layer lying on top of the contrafilé at its thoracic end, over the ribs just behind the shoulder.",
+    "x": [
+     0.46,
+     0.56
+    ],
+    "z": [
+     0.86,
+     0.94
+    ],
+    "full_width": true,
+    "description": "The tough outer layer of trapezius and latissimus that lies on top of the back muscle over the rib cage - very fatty and full-flavoured, but shot through with sinew, which is why it is graded a second-rate cut rather than sold as a steak. Brazilian kitchens braise it, stew it or grind it, and the fat makes it a favourite for slow ensopados.",
+    "dishes": [
+     "carne de panela",
+     "ensopado de capa de filé",
+     "refogado",
+     "carne moída"
+    ],
+    "colour": "#6eb4b8"
+   },
+   {
+    "id": "file-mignon",
+    "name": "Tenderloin / fillet",
+    "native": "Filé mignon",
+    "region": "Tucked underneath the lumbar vertebrae, inside the loin, running from behind the hip forward to the last rib.",
+    "x": [
+     0.36,
+     0.46
+    ],
+    "z": [
+     0.62,
+     0.74
+    ],
+    "full_width": true,
+    "description": "The psoas, slung under the spine where it barely does any work, which makes it the most tender muscle on the animal and also the mildest and leanest - about two kilos whole. Cut into thick medallions and seared rare, or wrapped in bacon to borrow the fat it does not have.",
+    "dishes": [
+     "filé mignon ao molho madeira",
+     "tournedos",
+     "medalhão com bacon",
+     "estrogonofe de filé"
+    ],
+    "colour": "#d1b358"
+   },
+   {
+    "id": "aba-de-file",
+    "name": "Loin flap / flank flap",
+    "native": "Aba de filé",
+    "region": "The thin abdominal flap hanging off the lower edge of the loin, just behind the last rib and above the flank proper.",
+    "x": [
+     0.36,
+     0.46
+    ],
+    "z": [
+     0.52,
+     0.62
+    ],
+    "full_width": false,
+    "description": "The loose sheet of abdominal wall trimmed from the lower edge of the contrafilé, thin and grainy and threaded with fat and membrane. Mostly ground, or grilled flat and fast over hot coals and cut into strips.",
+    "dishes": [
+     "carne moída",
+     "espetinho",
+     "hambúrguer caseiro"
+    ],
+    "colour": "#a971eb"
+   },
+   {
+    "id": "fraldinha",
+    "name": "Flank steak / bavette",
+    "native": "Fraldinha (vazio)",
+    "region": "The belly wall behind the last rib, where the short loin, the flank and the bottom sirloin meet, hanging at the belly line.",
+    "x": [
+     0.28,
+     0.36
+    ],
+    "z": [
+     0.5,
+     0.62
+    ],
+    "full_width": false,
+    "description": "A bundle of coarse, long-fibred abdominal muscle that holds the gut in - chewy, but exceptionally beefy, with fat running between the bundles. Grilled thick and rare on the churrasqueira or braised long and slow, and always sliced hard across the grain.",
+    "dishes": [
+     "fraldinha na brasa",
+     "vazio na brasa",
+     "espetinho",
+     "estrogonofe",
+     "fraldinha assada de panela"
+    ],
+    "colour": "#63b871"
+   },
+   {
+    "id": "costela",
+    "name": "Rib / short rib plate",
+    "native": "Costela",
+    "region": "The upper thoracic cage between the last rib and the shoulder, the broad-boned part of the rack above the plate.",
+    "x": [
+     0.46,
+     0.6
+    ],
+    "z": [
+     0.62,
+     0.74
+    ],
+    "full_width": true,
+    "description": "Intercostal meat laid between wide rib bones, worked constantly by breathing and laced with fat and collagen, which is exactly why it is the centrepiece of a churrasco de chão. Cooked bone-in for six to twelve hours beside the coals until the collagen melts and the meat leaves the bone on its own.",
+    "dishes": [
+     "costela fogo de chão",
+     "costela no bafo",
+     "costela assada",
+     "cozido de costela"
+    ],
+    "colour": "#d17d88"
+   },
+   {
+    "id": "ponta-de-agulha",
+    "name": "Short plate / rib tips",
+    "native": "Ponta de agulha (costela minga)",
+    "region": "The lower thoracic cage below the costela, the thin-boned, cartilage-rich rib ends running along the bottom of the barrel.",
+    "x": [
+     0.46,
+     0.58
+    ],
+    "z": [
+     0.54,
+     0.62
+    ],
+    "full_width": true,
+    "description": "The cheap tail end of the rib cage - fine bones and cartilage interleaved with fat and hard-working muscle, graded a third-rate cut and priced like one. Called the queen of the barbecue anyway, because hours over low coals turn all that connective tissue to gelatine.",
+    "dishes": [
+     "costela ponta de agulha na brasa",
+     "costelinha assada",
+     "cozido",
+     "feijoada"
+    ],
+    "colour": "#639beb"
+   },
+   {
+    "id": "matambre",
+    "name": "Rib sheet / matambre",
+    "native": "Matambre",
+    "region": "The thin sheet lying between the hide and the ribs along the lower flank, wrapping the ponta de agulha from the outside.",
+    "x": [
+     0.46,
+     0.58
+    ],
+    "z": [
+     0.46,
+     0.54
+    ],
+    "full_width": false,
+    "description": "A pink, membrane-thin sheet of muscle peeled off the outside of the rib cage, carrying its own layer of fat and almost no thickness, so it dries out the moment it is mishandled. Grilled fast over hot coals and dusted with cassava flour for a crust, or rolled around vegetables and sausage and braised.",
+    "dishes": [
+     "matambre na brasa com farofa",
+     "matambre recheado",
+     "matambre à pizza"
+    ],
+    "colour": "#9cb858"
+   },
+   {
+    "id": "cupim",
+    "name": "Zebu hump",
+    "native": "Cupim",
+    "region": "The hump sitting on top of the withers, behind the neck and above the acém - present only on zebu cattle such as Nelore and their crosses.",
+    "x": [
+     0.62,
+     0.74
+    ],
+    "z": [
+     0.88,
+     1.0
+    ],
+    "full_width": true,
+    "note_no_hump": true,
+    "description": "The fat-and-muscle hump that zebu cattle carry over the withers, a marbled mass of fat ribboned through soft muscle with no equivalent anywhere on a European carcass. Roasted whole for hours, wrapped in foil or set beside the coals, until the fat has rendered and the meat can be taken apart with a spoon.",
+    "dishes": [
+     "cupim assado",
+     "cupim na brasa",
+     "cupim ao molho barbecue",
+     "cupim desfiado"
+    ],
+    "colour": "#d171d1"
+   },
+   {
+    "id": "acem",
+    "name": "Chuck",
+    "native": "Acém",
+    "region": "The upper forequarter from the fifth rib forward to the point of shoulder, above the shoulder blade and below the withers.",
+    "x": [
+     0.56,
+     0.72
+    ],
+    "z": [
+     0.74,
+     0.88
+    ],
+    "full_width": true,
+    "description": "The biggest single piece of the forequarter and the most tender part of it, a bundle of neck and shoulder muscles that carry the head - relatively lean, with seams of fat and connective tissue between them. The default Brazilian pot cut: braised, stewed, or ground.",
+    "dishes": [
+     "carne de panela",
+     "picadinho",
+     "carne moída",
+     "ensopado de acém",
+     "bife rolê"
+    ],
+    "colour": "#8debcf"
+   },
+   {
+    "id": "pescoco",
+    "name": "Neck",
+    "native": "Pescoço",
+    "region": "Between the point of shoulder and the poll, the column of muscle running from the chuck forward to the head.",
+    "x": [
+     0.72,
+     0.8
+    ],
+    "z": [
+     0.64,
+     0.88
+    ],
+    "full_width": true,
+    "description": "Dense, coarse-grained muscle that holds a heavy head up all day, so it is full of collagen and sinew and never tender straight off the fire. Reserved for long moist cooking - broths, soups and stews - where the connective tissue is an asset rather than a fault.",
+    "dishes": [
+     "sopa de carne",
+     "caldo de carne",
+     "cozido",
+     "refogado de pescoço"
+    ],
+    "colour": "#b8794d"
+   },
+   {
+    "id": "paleta",
+    "name": "Shoulder / chuck clod",
+    "native": "Paleta",
+    "region": "The shoulder blade and upper foreleg on the side of the animal, ahead of the rib cage and above the front knee.",
+    "x": [
+     0.6,
+     0.7
+    ],
+    "z": [
+     0.44,
+     0.74
+    ],
+    "full_width": false,
+    "description": "The muscles that swing the front leg, short-fibred and lean in the middle - the miolo de paleta - but wrapped in gristle and heavy seams elsewhere. Slow moist heat is the rule, in pot roasts, stews and braises, though the peixinho inside it is fine enough to roast.",
+    "dishes": [
+     "carne de panela",
+     "ensopado de paleta",
+     "paleta desfiada",
+     "cozido"
+    ],
+    "colour": "#7264d1"
+   },
+   {
+    "id": "peito",
+    "name": "Brisket",
+    "native": "Peito",
+    "region": "The chest between and in front of the forelegs, hanging below the point of shoulder at the very bottom of the forequarter.",
+    "x": [
+     0.7,
+     0.78
+    ],
+    "z": [
+     0.46,
+     0.62
+    ],
+    "full_width": true,
+    "description": "Thick, long-fibred muscle bearing most of the animal's front weight with no supporting bone underneath it, topped by a heavy fat cap - tough, and needing hours. Boiled for cozido and puchero, cured for pastrami, or smoked low and slow in the newer Brazilian barbecue houses.",
+    "dishes": [
+     "cozido",
+     "puchero",
+     "peito defumado",
+     "caldo de peito",
+     "pastrami"
+    ],
+    "colour": "#91eb7f"
+   },
+   {
+    "id": "patinho",
+    "name": "Knuckle / thick flank",
+    "native": "Patinho",
+    "region": "The front of the thigh over the femur, above the stifle, at the leading edge of the round where it meets the flank and the rear shank.",
+    "x": [
+     0.2,
+     0.28
+    ],
+    "z": [
+     0.46,
+     0.7
+    ],
+    "full_width": true,
+    "description": "The quadriceps group on the front of the femur - moderately worked, very lean, with a fine even grain and almost no intramuscular fat. The Brazilian all-purpose mincing and cutlet muscle: breadcrumbed as milanesa, ground for kibe and hamburgers, or served raw.",
+    "dishes": [
+     "bife à milanesa",
+     "carne moída",
+     "quibe cru",
+     "almondégas",
+     "escalope"
+    ],
+    "colour": "#b86e90"
+   },
+   {
+    "id": "coxao-mole",
+    "name": "Topside / inside round",
+    "native": "Coxão mole",
+    "region": "The inner face of the hind leg, from the stifle up to the rump, on the medial side of the femur.",
+    "x": [
+     0.12,
+     0.2
+    ],
+    "z": [
+     0.48,
+     0.74
+    ],
+    "full_width": true,
+    "description": "The big adductor and semimembranosus block on the inside of the thigh, which does less work than the outside face and so has shorter, softer fibres, though it is still very lean. Sliced thin for bifes and escalopes, breadcrumbed, roasted, or braised for carne de panela.",
+    "dishes": [
+     "bife à milanesa",
+     "escalope",
+     "carne de panela",
+     "rosbife",
+     "bife acebolado"
+    ],
+    "colour": "#58b3d1"
+   },
+   {
+    "id": "coxao-duro",
+    "name": "Silverside / outside round",
+    "native": "Coxão duro (chã de fora)",
+    "region": "The outer rear face of the hind leg, behind and outside the femur, running from above the hock up to under the picanha.",
+    "x": [
+     0.02,
+     0.12
+    ],
+    "z": [
+     0.48,
+     0.74
+    ],
+    "full_width": true,
+    "description": "The outside of the thigh, the muscle that actually drives the animal forward, so the fibres are long and tough and sheathed in a silver sheet of connective tissue. A second-grade cut that only works with long slow moist cooking, shredded, or ground.",
+    "dishes": [
+     "carne de panela",
+     "carne desfiada",
+     "ensopado",
+     "carne louca"
+    ],
+    "colour": "#ebe571"
+   },
+   {
+    "id": "lagarto",
+    "name": "Eye of round",
+    "native": "Lagarto",
+    "region": "The long rounded muscle on the back of the hind leg between the inside and the outside round, above the hock.",
+    "x": [
+     0.02,
+     0.14
+    ],
+    "z": [
+     0.32,
+     0.48
+    ],
+    "full_width": true,
+    "description": "The semitendinosus, a pale cylinder of long, uniform, almost fat-free fibres - handsome to look at, dry and firm to eat. Braised whole in a pot and sliced paper-thin, shredded, or frozen and shaved for carpaccio.",
+    "dishes": [
+     "lagarto recheado",
+     "carne de panela",
+     "carpaccio",
+     "lagarto ao molho de mostarda",
+     "rosbife"
+    ],
+    "colour": "#9b63b8"
+   },
+   {
+    "id": "ossobuco",
+    "name": "Cross-cut hind shank",
+    "native": "Ossobuco (músculo traseiro)",
+    "region": "The hind shank between the hock and the stifle, sawn straight across the bone.",
+    "x": [
+     0.14,
+     0.24
+    ],
+    "z": [
+     0.28,
+     0.46
+    ],
+    "full_width": true,
+    "description": "The rear leg muscle wrapped round the marrow-filled tibia, all sinew and collagen from constant work, sold as thick cross-cut rounds with a plug of marrow in the middle. Simmered for hours until the tissue turns to gelatine and the marrow melts into the sauce.",
+    "dishes": [
+     "ossobuco à milanesa",
+     "ossobuco com risoto",
+     "cozido",
+     "caldo de músculo"
+    ],
+    "colour": "#7dd19d"
+   },
+   {
+    "id": "musculo",
+    "name": "Fore shank / shin",
+    "native": "Músculo dianteiro (garrão)",
+    "region": "The foreleg below the shoulder, from the elbow down to the front knee.",
+    "x": [
+     0.58,
+     0.68
+    ],
+    "z": [
+     0.28,
+     0.44
+    ],
+    "full_width": true,
+    "description": "Hard-working leg muscle wrapped around bone, the toughest and most collagen-heavy meat on the carcass and also among the most flavourful. Nothing but long moist cooking will do, which makes it the backbone of Brazilian broths, pot roasts and bean stews.",
+    "dishes": [
+     "caldo de carne",
+     "carne de panela",
+     "sopa de músculo",
+     "feijão com músculo",
+     "mocotó"
+    ],
+    "colour": "#eb6e63"
+   },
+   {
+    "id": "rabo",
+    "name": "Oxtail",
+    "native": "Rabo",
+    "region": "The tail itself, hanging behind the rump from the tail base at the rear of the buttock.",
+    "x": [
+     -0.08,
+     0.02
+    ],
+    "z": [
+     0.58,
+     0.93
+    ],
+    "full_width": true,
+    "description": "Vertebrae in a sleeve of working muscle and fat - very little meat per bone, but enormous amounts of collagen and marrow. Cut into rounds and stewed for hours; in Rio it becomes rabada, cooked down and served with watercress.",
+    "dishes": [
+     "rabada com agrião",
+     "rabada com polenta",
+     "ensopado de rabo"
+    ],
+    "colour": "#586cb8"
+   },
+   {
+    "id": "lingua",
+    "name": "Tongue",
+    "native": "Língua",
+    "region": "Inside the head, forward of the poll, running from the jaw toward the nose.",
+    "x": [
+     0.82,
+     0.96
+    ],
+    "z": [
+     0.62,
+     0.74
+    ],
+    "full_width": true,
+    "description": "A solid block of constantly moving muscle inside a tough outer skin, dense and fatty and quite unlike any skeletal cut. Boiled until the skin peels away, then braised in a tomato or wine sauce - a Sunday lunch dish rather than a churrasco one.",
+    "dishes": [
+     "língua ao molho madeira",
+     "língua à jardineira",
+     "língua acebolada"
+    ],
+    "colour": "#a1d171"
+   }
+  ]
+ },
+ {
+  "culture": "Korea",
+  "id": "kr",
+  "flag": "KR",
+  "blurb": "The Korean scheme is written for the grill pan and the stockpot, not the oven: the government fixes ten 대분할 primals and thirty-nine 소분할 subcuts, and the subcuts are named for the way a muscle behaves in the mouth rather than for the bone it came off. Because beef is eaten in thin slices cooked in seconds at the table, or simmered for hours into broth, small muscles that Western butchery buries in trim are lifted out and sold by name. The fine vocabulary is what diners actually order: nobody asks for 양지, they ask for 차돌박이; nobody asks for 등심, they ask for 꽃등심 or 살치살.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cut_of_beef",
+   "https://ko.wikipedia.org/wiki/%EC%87%A0%EA%B3%A0%EA%B8%B0_%EB%B6%80%EC%9C%84",
+   "https://meat.8892-house.com/hanwoo-39-cuts/",
+   "https://www.sirloin.co.kr/magazine/magazine4",
+   "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2894"
+  ],
+  "cuts": [
+   {
+    "id": "kkori",
+    "name": "Oxtail",
+    "native": "꼬리",
+    "romanized": "kkori",
+    "region": "The tail itself, rising from the tail base at x 0.00 above the round.",
+    "x": [
+     0.0,
+     0.04
+    ],
+    "z": [
+     0.72,
+     0.86
+    ],
+    "full_width": true,
+    "description": "A chain of small vertebrae wrapped in hard-working muscle and gelatine, the tail swats flies all summer and is tough in every direction. It is a 부산물 (byproduct) rather than one of the ten primals, and is only ever boiled long enough for the collagen to melt.",
+    "dishes": [
+     "꼬리곰탕",
+     "꼬리찜",
+     "소꼬리 수육"
+    ],
+    "colour": "#eba08d"
+   },
+   {
+    "id": "udun",
+    "name": "Top round / inside round",
+    "native": "우둔",
+    "romanized": "udun",
+    "region": "Inner face of the hind leg, from the tail base at x 0.00 forward to the hip joint at x 0.16, above the hock.",
+    "x": [
+     0.0,
+     0.12
+    ],
+    "z": [
+     0.44,
+     0.72
+    ],
+    "full_width": true,
+    "description": "The inner thigh muscles drive the hind leg but carry almost no fat, so the meat is lean, close-grained and mild, and takes marinade and drying well. One of the ten primals; its 소분할 are 우둔살 and the cylindrical 홍두깨살.",
+    "dishes": [
+     "육회",
+     "장조림",
+     "산적",
+     "육포",
+     "불고기"
+    ],
+    "colour": "#4d56b8"
+   },
+   {
+    "id": "seoldo",
+    "name": "Bottom round / silverside and rump",
+    "native": "설도",
+    "romanized": "seoldo",
+    "region": "Outer and front face of the hind leg, from the hip joint at x 0.16 forward to the hook bone at x 0.24, between the stifle and the rump.",
+    "x": [
+     0.12,
+     0.26
+    ],
+    "z": [
+     0.56,
+     0.8
+    ],
+    "full_width": true,
+    "description": "The outside of the haunch does the pushing when the animal walks, so the grain is coarse and the fat sparse though evenly spread. A primal covering 보섭살, 설기살, 도가니살, 삼각살 and 설기머리살; sliced thin for bulgogi or simmered rather than roasted whole.",
+    "dishes": [
+     "불고기",
+     "국거리",
+     "산적",
+     "장조림"
+    ],
+    "colour": "#8dd164"
+   },
+   {
+    "id": "samgaksal",
+    "name": "Tri-tip",
+    "native": "삼각살",
+    "romanized": "samgak-sal",
+    "region": "The triangular tip at the front-lower corner of the rump, just behind the flank at x 0.24.",
+    "x": [
+     0.18,
+     0.26
+    ],
+    "z": [
+     0.44,
+     0.56
+    ],
+    "full_width": false,
+    "description": "A small triangular muscle at the bottom front of the bottom round, worked less than the rest of the haunch so it keeps some marbling and stays tender enough to grill. A 소분할 of the 설도 primal.",
+    "dishes": [
+     "구이",
+     "불고기",
+     "스테이크"
+    ],
+    "colour": "#eb7fc6"
+   },
+   {
+    "id": "satae",
+    "name": "Shank",
+    "native": "사태",
+    "romanized": "satae",
+    "region": "Hind leg below the stifle, from the hock at z 0.28 up toward the round; the primal also takes in the foreshank, listed separately here as 앞사태.",
+    "x": [
+     0.02,
+     0.16
+    ],
+    "z": [
+     0.1,
+     0.44
+    ],
+    "full_width": true,
+    "description": "The leg muscles below the knee are pure locomotion, laced with tendon and silverskin and almost fat-free, so they are the toughest meat on the animal until the collagen turns to gelatine. A primal comprising 앞사태, 뒷사태, 뭉치사태, 아롱사태 and 상박살; always boiled or braised, never grilled.",
+    "dishes": [
+     "곰탕",
+     "도가니탕",
+     "장조림",
+     "수육",
+     "육개장"
+    ],
+    "colour": "#6eb4b8"
+   },
+   {
+    "id": "chaekkeut",
+    "name": "Striploin",
+    "native": "채끝",
+    "romanized": "chaekkeut",
+    "region": "Strip along the lumbar vertebrae under the topline, from the hook bone at x 0.24 forward to the last rib at x 0.46.",
+    "x": [
+     0.26,
+     0.46
+    ],
+    "z": [
+     0.78,
+     0.92
+    ],
+    "full_width": true,
+    "description": "The back muscle behind the last rib is supported by the spine and barely worked, so it is tender with a firm bite and a clean rim of back fat. A primal in its own right, with 채끝살 as its single 소분할, cut into steaks or grilled in thick slices.",
+    "dishes": [
+     "채끝 스테이크",
+     "로스구이",
+     "샤브샤브"
+    ],
+    "colour": "#d1b358"
+   },
+   {
+    "id": "ansim",
+    "name": "Tenderloin",
+    "native": "안심",
+    "romanized": "ansim",
+    "region": "Hanging under the lumbar vertebrae inside the body cavity, from the hip at x 0.28 forward to the last rib at x 0.46.",
+    "x": [
+     0.28,
+     0.4
+    ],
+    "z": [
+     0.66,
+     0.78
+    ],
+    "full_width": true,
+    "description": "The psoas runs inside the spine and does almost nothing while the animal moves, so it is the softest and leanest muscle on the carcass, with a mild flavour Korean cooks keep unmarinated. A primal (소분할: 안심살) and the most expensive cut by weight.",
+    "dishes": [
+     "안심 스테이크",
+     "구이",
+     "안심 꼬치"
+    ],
+    "colour": "#a971eb"
+   },
+   {
+    "id": "chimasal",
+    "name": "Flank steak",
+    "native": "치마살",
+    "romanized": "chima-sal",
+    "region": "Rear of the flank ahead of the hind leg, below the loin, around x 0.30 at belly level.",
+    "x": [
+     0.26,
+     0.34
+    ],
+    "z": [
+     0.5,
+     0.62
+    ],
+    "full_width": false,
+    "description": "The abdominal wall in front of the haunch is a sheet of long loose fibres that hold the belly in and carry marbling in streaks rather than flecks, giving a springy chew and heavy beef flavour. A 소분할 of 양지; grilled fast and cut across the grain, or stewed as 치마양지.",
+    "dishes": [
+     "구이",
+     "국거리",
+     "장조림"
+    ],
+    "colour": "#63b871"
+   },
+   {
+    "id": "tosisal",
+    "name": "Hanger steak / thick skirt",
+    "native": "토시살",
+    "romanized": "tosi-sal",
+    "region": "Hanging beside the last rib under the spine at x 0.40-0.46, just behind the diaphragm sheet.",
+    "x": [
+     0.4,
+     0.46
+    ],
+    "z": [
+     0.72,
+     0.78
+    ],
+    "full_width": false,
+    "description": "The muscular pillar that works the diaphragm, hanging free off the spine near the kidney, with a coarse open grain and an offal-adjacent depth from sitting against the viscera. A 소분할 of 갈비 and a 특수부위: only a few hundred grams per animal, so it is grilled and nothing else.",
+    "dishes": [
+     "구이",
+     "특수부위 모둠구이"
+    ],
+    "colour": "#d17d88"
+   },
+   {
+    "id": "anchangsal",
+    "name": "Outside skirt / diaphragm",
+    "native": "안창살",
+    "romanized": "anchang-sal",
+    "region": "The diaphragm sheet on the inner face of the last ribs, x 0.40-0.46 in the upper half of the barrel.",
+    "x": [
+     0.4,
+     0.46
+    ],
+    "z": [
+     0.6,
+     0.72
+    ],
+    "full_width": false,
+    "description": "The diaphragm itself is a thin sheet that contracts with every breath and so is worked constantly, giving coarse grain, dark colour and strong flavour under a tough membrane that is peeled off before cooking. A 소분할 of 갈비 and one of the prized 특수부위; grilled over charcoal.",
+    "dishes": [
+     "구이",
+     "특수부위 모둠구이"
+    ],
+    "colour": "#639beb"
+   },
+   {
+    "id": "usamgyeop",
+    "name": "Thin-sliced beef belly",
+    "native": "우삼겹",
+    "romanized": "u-samgyeop",
+    "region": "The lowest layer of the belly wall along the bottom of the barrel, x 0.40-0.50 at the belly line.",
+    "x": [
+     0.4,
+     0.5
+    ],
+    "z": [
+     0.5,
+     0.55
+    ],
+    "full_width": true,
+    "description": "Not one of the official 39 but a menu name for 업진살 shaved paper-thin, showing fat and lean in stripes like pork belly, which is what 삼겹 means. It curls and cooks in seconds on a hot plate and renders enough fat to fry whatever is next to it.",
+    "dishes": [
+     "우삼겹 숙주볶음",
+     "우삼겹 덮밥",
+     "철판구이"
+    ],
+    "colour": "#9cb858"
+   },
+   {
+    "id": "eopjinsal",
+    "name": "Navel end / plate",
+    "native": "업진살",
+    "romanized": "eopjin-sal",
+    "region": "Lower belly wall behind the chest, under the rear ribs at x 0.40-0.50.",
+    "x": [
+     0.4,
+     0.5
+    ],
+    "z": [
+     0.55,
+     0.6
+    ],
+    "full_width": true,
+    "description": "The layered belly wall behind the brisket alternates lean and fat because it holds the gut rather than moving the skeleton; rich but sinewy. A 소분할 of 양지, with 업진안살 the tender inner sheet; grilled thin or braised.",
+    "dishes": [
+     "구이",
+     "찜",
+     "우삼겹"
+    ],
+    "colour": "#d171d1"
+   },
+   {
+    "id": "galbisal",
+    "name": "Boneless rib meat / rib fingers",
+    "native": "갈비살",
+    "romanized": "galbi-sal",
+    "region": "Meat lying between and over the ribs along the lower flank of the rib cage, x 0.50-0.60.",
+    "x": [
+     0.5,
+     0.6
+    ],
+    "z": [
+     0.5,
+     0.6
+    ],
+    "full_width": false,
+    "description": "The intercostal and rib-covering muscles flex the chest with each breath, ending up well marbled and firm-textured; taken off the bone so they can be grilled in strips. A 소분할 of 갈비 and the cut behind most boneless 갈비살 restaurant menus.",
+    "dishes": [
+     "갈비살 구이",
+     "양념갈비",
+     "모둠구이"
+    ],
+    "colour": "#8debcf"
+   },
+   {
+    "id": "galbi",
+    "name": "Ribs",
+    "native": "갈비",
+    "romanized": "galbi",
+    "region": "The rib cage, ribs 1 to 13, on the sides of the barrel between the last rib at x 0.46 and the shoulder at x 0.62.",
+    "x": [
+     0.46,
+     0.62
+    ],
+    "z": [
+     0.6,
+     0.74
+    ],
+    "full_width": true,
+    "description": "Bone-in rib sections where the meat is worked by breathing and shot through with connective tissue and fat, so it rewards either long braising or scoring and marinating before a hot fire. A primal covering 본갈비, 꽃갈비, 참갈비, 갈비살, 마구리 and the specialty muscles 안창살, 토시살 and 제비추리.",
+    "dishes": [
+     "갈비찜",
+     "양념갈비",
+     "갈비탕",
+     "생갈비"
+    ],
+    "colour": "#b8794d"
+   },
+   {
+    "id": "kkotdeungsim",
+    "name": "Marbled ribeye (flower loin)",
+    "native": "꽃등심",
+    "romanized": "kkot-deungsim",
+    "region": "The ribeye core over ribs 6 to 9, between the last rib at x 0.46 and the fifth rib at x 0.56, along the top of the back.",
+    "x": [
+     0.46,
+     0.56
+    ],
+    "z": [
+     0.74,
+     0.92
+    ],
+    "full_width": true,
+    "description": "The middle of the back muscle is held still by the rib cage and is therefore the most marbled part of a hanwoo carcass, its fat flecks fanning out like petals, which is where the name comes from. A 소분할 of 등심 and the benchmark cut for the Korean marbling grade.",
+    "dishes": [
+     "꽃등심 구이",
+     "스테이크",
+     "샤브샤브"
+    ],
+    "colour": "#7264d1"
+   },
+   {
+    "id": "deungsim",
+    "name": "Loin / ribeye",
+    "native": "등심",
+    "romanized": "deungsim",
+    "region": "Along the thoracic vertebrae from the fifth rib at x 0.56 forward toward the shoulder; the whole primal runs x 0.46-0.70, with 꽃등심 as its rear-middle core.",
+    "x": [
+     0.56,
+     0.7
+    ],
+    "z": [
+     0.74,
+     0.86
+    ],
+    "full_width": true,
+    "description": "The long back muscle over the ribs stabilises the spine rather than propelling the animal, so it stays tender while accumulating intramuscular fat. A primal split front to back into 윗등심살, 꽃등심살 and 아랫등심살 plus the 살치살 cap; grilled in slices at the table.",
+    "dishes": [
+     "등심 구이",
+     "스테이크",
+     "샤브샤브",
+     "불고기"
+    ],
+    "colour": "#91eb7f"
+   },
+   {
+    "id": "salchisal",
+    "name": "Chuck flap tail / spinalis",
+    "native": "살치살",
+    "romanized": "salchi-sal",
+    "region": "A thin cap lying on top of the front of the ribeye where the loin meets the shoulder, x 0.58-0.70 along the topline.",
+    "x": [
+     0.58,
+     0.7
+    ],
+    "z": [
+     0.86,
+     0.92
+    ],
+    "full_width": false,
+    "description": "The spinalis dorsi rides on the outside of the front ribeye, a lightly used muscle that marbles harder than anything around it and eats soft and buttery. A 소분할 of 등심 yielding roughly a kilogram per animal, which is why it commands a 특수부위 price.",
+    "dishes": [
+     "살치살 구이",
+     "스테이크"
+    ],
+    "colour": "#b86e90"
+   },
+   {
+    "id": "apdari",
+    "name": "Chuck / shoulder and foreleg",
+    "native": "앞다리",
+    "romanized": "ap-dari",
+    "region": "The shoulder above the elbow at x 0.62-0.70, between the rib cage and the point of shoulder at x 0.72; the primal proper spans roughly x 0.56-0.72, z 0.38-0.78, and this box is the crest of the shoulder above 부채살, with the arm below it ceded to 양지 and 앞사태.",
+    "x": [
+     0.62,
+     0.7
+    ],
+    "z": [
+     0.64,
+     0.74
+    ],
+    "full_width": true,
+    "description": "The shoulder carries most of the animal's weight and swings the foreleg, so it is heavily worked, threaded with fascia and tendon, and chewy rather than tender. A primal covering 꾸리살, 부채살, 앞다리살, 갈비덧살 and 부채덮개살; mostly sliced for bulgogi, stewed or simmered.",
+    "dishes": [
+     "불고기",
+     "국거리",
+     "장조림",
+     "육개장"
+    ],
+    "colour": "#58b3d1"
+   },
+   {
+    "id": "buchaesal",
+    "name": "Top blade / flat iron",
+    "native": "부채살",
+    "romanized": "buchae-sal",
+    "region": "On the outer face of the shoulder blade, x 0.62-0.70 at mid-barrel height, below the chuck.",
+    "x": [
+     0.62,
+     0.7
+    ],
+    "z": [
+     0.56,
+     0.64
+    ],
+    "full_width": false,
+    "description": "The infraspinatus lies flat on the shoulder blade with a line of gristle running down its centre like the ribs of a fan, which gives it its name (commonly written 부챗살); despite sitting in a hard-working primal it is tender and finely marbled. A 소분할 of 앞다리, grilled or dropped into shabu-shabu.",
+    "dishes": [
+     "부채살 구이",
+     "샤브샤브",
+     "스테이크"
+    ],
+    "colour": "#ebe571"
+   },
+   {
+    "id": "yangji",
+    "name": "Brisket, plate and flank",
+    "native": "양지",
+    "romanized": "yangji",
+    "region": "The underline of the animal: the chest floor behind the point of shoulder at x 0.60-0.70, continuing back along the belly toward the flank.",
+    "x": [
+     0.6,
+     0.7
+    ],
+    "z": [
+     0.42,
+     0.56
+    ],
+    "full_width": true,
+    "description": "The chest and belly wall bears the animal's weight between the forelegs and is dense with collagen and hard fat, so it is tough raw and turns silky and broth-making after hours in water. A primal covering 양지머리, 차돌박이, 업진살, 업진안살, 치마살, 치마양지 and 앞치마살; the backbone of Korean beef soups.",
+    "dishes": [
+     "설렁탕",
+     "곰탕",
+     "국거리",
+     "장조림",
+     "육개장"
+    ],
+    "colour": "#9b63b8"
+   },
+   {
+    "id": "chadolbagi",
+    "name": "Brisket point, thin-sliced",
+    "native": "차돌박이",
+    "romanized": "chadolbagi",
+    "region": "The point of the chest in front of and below the forelegs, x 0.70-0.78, under the base of the neck.",
+    "x": [
+     0.7,
+     0.78
+    ],
+    "z": [
+     0.42,
+     0.56
+    ],
+    "full_width": false,
+    "description": "The deep pectoral at the very front of the brisket braces the chest and carries a hard white fat that sits in the lean like an embedded pebble, the 차돌 (quartz) of the name. A 소분할 of 양지; far too tough for a steak, so it is frozen and shaved paper-thin and cooked for a few seconds a side.",
+    "dishes": [
+     "차돌된장찌개",
+     "차돌박이 구이",
+     "차돌 숙주볶음"
+    ],
+    "colour": "#7dd19d"
+   },
+   {
+    "id": "apsatae",
+    "name": "Foreshank",
+    "native": "앞사태",
+    "romanized": "ap-satae",
+    "region": "The foreleg below the elbow at x 0.62, down past the knee at z 0.28 to the hoof.",
+    "x": [
+     0.58,
+     0.68
+    ],
+    "z": [
+     0.08,
+     0.38
+    ],
+    "full_width": true,
+    "description": "The front shank works constantly to carry the forehand and is mostly tendon-bound muscle over bone, tougher and more sinewy than the hind shank. A 소분할 of the 사태 primal, boiled for broth or pressed into slices once it is soft.",
+    "dishes": [
+     "곰탕",
+     "수육",
+     "장조림",
+     "육개장"
+    ],
+    "colour": "#eb6e63"
+   },
+   {
+    "id": "jebichuri",
+    "name": "Neck chain (swallow tail)",
+    "native": "제비추리",
+    "romanized": "jebichuri",
+    "region": "A long strap along the underside of the neck and first thoracic vertebrae, inside the body at x 0.70-0.80.",
+    "x": [
+     0.7,
+     0.8
+    ],
+    "z": [
+     0.64,
+     0.72
+    ],
+    "full_width": false,
+    "description": "The longus colli runs beneath the neck bones and holds the head steady, a narrow strap with a thick tendon down the middle that disappears once cooked, leaving a tender, sweet, deeply beefy strip. Officially a 소분할 of 갈비; two per animal, so it is a 특수부위 sold only for grilling.",
+    "dishes": [
+     "구이",
+     "특수부위 모둠구이"
+    ],
+    "colour": "#586cb8"
+   },
+   {
+    "id": "moksim",
+    "name": "Neck / chuck roll",
+    "native": "목심",
+    "romanized": "moksim",
+    "region": "The neck above the shoulder, from the point of shoulder at x 0.72 forward to the poll at x 0.80.",
+    "x": [
+     0.7,
+     0.8
+    ],
+    "z": [
+     0.72,
+     0.92
+    ],
+    "full_width": true,
+    "description": "The neck lifts and lowers the head all day, so its grain is coarser than the loin's and it carries little marbling but a great deal of beef flavour. A primal with a single 소분할, 목심살, sliced thin for bulgogi and hot pot or simmered for soup.",
+    "dishes": [
+     "불고기",
+     "국거리",
+     "샤브샤브",
+     "구이"
+    ],
+    "colour": "#a1d171"
+   },
+   {
+    "id": "useol",
+    "name": "Tongue",
+    "native": "우설",
+    "romanized": "u-seol",
+    "region": "The tongue in the head, forward of the poll at x 0.80.",
+    "x": [
+     0.8,
+     0.96
+    ],
+    "z": [
+     0.6,
+     0.72
+    ],
+    "full_width": true,
+    "description": "A muscle that moves constantly while grazing, dense and fine-grained under a rough skin that is peeled after boiling, giving a firm but yielding texture. A 부산물 rather than part of the ten primals, boiled and sliced or grilled as a specialty.",
+    "dishes": [
+     "우설 수육",
+     "우설 구이",
+     "우설 편육"
+    ],
+    "colour": "#eb8dd7"
+   }
+  ]
+ },
+ {
+  "culture": "Japan",
+  "id": "jp",
+  "flag": "JP",
+  "blurb": "Japan breaks the carcass into thirteen wholesale 部分肉, eleven of which are the names allowed on a retail label, but what actually drives price is 霜降り — the intramuscular fat, or sashi, scored by the Japan Meat Grading Association as a yield grade A–C plus a meat-quality grade 1–5, so that A5 is the top box. Because the best beef is intensely fatty, cuts are trimmed and sized to be sliced paper-thin for sukiyaki and shabu-shabu or into bite squares for yakiniku, rather than into thick Western steaks. At the table nobody orders “chuck”: the working vocabulary is the yakiniku subcut names — karubi, harami, misuji, zabuton, ichibo — many of them 希少部位, rare cuts yielding only two or three kilos per animal.",
+  "sources": [
+   "https://ja.wikipedia.org/wiki/%E7%89%9B%E8%82%89",
+   "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%A9%E3%83%9F",
+   "https://www.piif.jmtc.or.jp/ushibui/",
+   "https://niku-miyabi.com/news/beef-part/",
+   "https://oumiushi.com/about/japanese_beef",
+   "https://niku-love.jp/beef-part/",
+   "https://iso-labo.com/labo/beaf_parts.html",
+   "https://js-dining.jp/column/yakiniku-bui-ichiran/"
+  ],
+  "cuts": [
+   {
+    "id": "neck",
+    "name": "Neck",
+    "native": "ネック",
+    "romanized": "nekku",
+    "region": "The neck, between the poll at x 0.80 and the point of shoulder at x 0.72, high on the topline.",
+    "x": [
+     0.72,
+     0.82
+    ],
+    "z": [
+     0.74,
+     0.94
+    ],
+    "full_width": true,
+    "description": "One of the thirteen official 部分肉 and among the hardest-working muscles on the animal, so it is coarse-grained, almost free of sashi and firm, but very rich in collagen and beefy flavour. It is almost never sold as a steak cut — it goes to mince, stock and long-simmered dishes.",
+    "dishes": [
+     "nikomi (stew)",
+     "curry",
+     "hamburg",
+     "soup stock"
+    ],
+    "colour": "#eba08d"
+   },
+   {
+    "id": "kata",
+    "name": "Chuck / shoulder clod (arm)",
+    "native": "カタ",
+    "romanized": "kata",
+    "region": "The foreleg from the knee at z 0.28 up to the elbow and shoulder joint at z 0.54, x 0.66–0.74; the front shank sits inside this box.",
+    "x": [
+     0.66,
+     0.74
+    ],
+    "z": [
+     0.28,
+     0.54
+    ],
+    "full_width": false,
+    "description": "The 部分肉 called カタ (also ウデ, arm) is a bundle of well-exercised muscles — lean, slightly tough, modestly marbled but loaded with gelatin and umami — and Japanese butchery counts the front shank within it rather than with スネ. Sold thin-sliced for sukiyaki and as budget yakiniku, or cubed for stews; the rare cuts ミスジ, トウガラシ and クリミ are carved out of it.",
+    "dishes": [
+     "nikomi (stew)",
+     "sukiyaki",
+     "yakiniku",
+     "soup stock"
+    ],
+    "colour": "#4d56b8"
+   },
+   {
+    "id": "misuji",
+    "name": "Top blade / flat iron",
+    "native": "ミスジ",
+    "romanized": "misuji",
+    "region": "On the outer face of the shoulder blade, above the elbow and behind the point of shoulder, x 0.66–0.74, z 0.54–0.66.",
+    "x": [
+     0.66,
+     0.74
+    ],
+    "z": [
+     0.54,
+     0.66
+    ],
+    "full_width": false,
+    "description": "A 希少部位 from the カタ primal that lies flat against the shoulder blade and barely moves, so despite being shoulder meat it is tender and threaded with fine even sashi around the central sinew that gives it its name (three sinews). Only 2–3 kg per animal; grilled briefly over charcoal or served as rare-seared slices.",
+    "dishes": [
+     "yakiniku",
+     "steak",
+     "tataki"
+    ],
+    "colour": "#8dd164"
+   },
+   {
+    "id": "tougarashi",
+    "name": "Chuck tender / shoulder petite tender",
+    "native": "トウガラシ",
+    "romanized": "tougarashi",
+    "region": "On the front face of the shoulder blade at the point of shoulder, x 0.70–0.77, just below the neck line at z 0.66–0.74.",
+    "x": [
+     0.7,
+     0.77
+    ],
+    "z": [
+     0.66,
+     0.74
+    ],
+    "full_width": false,
+    "description": "Named for its chili-pepper shape, this cone of lean muscle sits against the scapula inside the カタ primal; it has very little sashi and a clean red-meat flavour with a slight chew. Prized as a lean yakiniku cut and for roast beef, and one of the 希少部位 sold mainly by specialist shops.",
+    "dishes": [
+     "yakiniku",
+     "roast beef",
+     "steak"
+    ],
+    "colour": "#eb7fc6"
+   },
+   {
+    "id": "kata-rosu",
+    "name": "Chuck roll / chuck eye",
+    "native": "カタロース",
+    "romanized": "kata-rosu",
+    "region": "The upper back over the shoulder, from the fifth-rib line at x 0.58 forward to the neck at x 0.72, along the topline z 0.74–0.92.",
+    "x": [
+     0.58,
+     0.72
+    ],
+    "z": [
+     0.74,
+     0.92
+    ],
+    "full_width": true,
+    "description": "An official 部分肉 that continues the loin muscle forward over the shoulder: fine-grained, generously marbled and full-flavoured, though with more connective tissue running through it than the rib loin. It is the classic sukiyaki and shabu-shabu cut because it slices thin beautifully and costs less than サーロイン.",
+    "dishes": [
+     "sukiyaki",
+     "shabu-shabu",
+     "yakiniku",
+     "steak"
+    ],
+    "colour": "#6eb4b8"
+   },
+   {
+    "id": "zabuton",
+    "name": "Chuck flap / Denver steak",
+    "native": "ザブトン",
+    "romanized": "zabuton",
+    "region": "The rib-side underside of the chuck roll, hanging below the topline at z 0.66–0.74 between x 0.57 and 0.64.",
+    "x": [
+     0.57,
+     0.64
+    ],
+    "z": [
+     0.66,
+     0.74
+    ],
+    "full_width": false,
+    "description": "Also called ハネシタ (under the wing), this square slab — hence cushion — is cut from the rib end of the カタロース and is among the most heavily marbled muscles on the animal, only 4–5 kg per head. Grilled for seconds a side at the yakiniku table so the sashi just melts.",
+    "dishes": [
+     "yakiniku",
+     "sukiyaki",
+     "shabu-shabu"
+    ],
+    "colour": "#d1b358"
+   },
+   {
+    "id": "rib-rosu",
+    "name": "Rib loin / ribeye",
+    "native": "リブロース",
+    "romanized": "ribu-rosu",
+    "region": "The back between the fifth rib at x 0.57 and the last rib at x 0.46, from just under the spine at z 0.72 to the topline at z 0.92.",
+    "x": [
+     0.46,
+     0.57
+    ],
+    "z": [
+     0.72,
+     0.92
+    ],
+    "full_width": true,
+    "description": "One of the three premium 部分肉 and the part of the loin that marbles most readily, with the finest grain and the deepest fat flavour; the eye is ringed by the リブキャップ and マキ. Cut thick for steak, or shaved for the most luxurious sukiyaki and shabu-shabu.",
+    "dishes": [
+     "steak",
+     "sukiyaki",
+     "shabu-shabu",
+     "roast beef",
+     "yakiniku"
+    ],
+    "colour": "#a971eb"
+   },
+   {
+    "id": "sirloin",
+    "name": "Strip loin / sirloin",
+    "native": "サーロイン",
+    "romanized": "saroin",
+    "region": "The back from the last rib at x 0.46 rearward to the hip at x 0.30, along the topline z 0.76–0.92.",
+    "x": [
+     0.3,
+     0.46
+    ],
+    "z": [
+     0.76,
+     0.92
+    ],
+    "full_width": true,
+    "description": "Despite the borrowed name, Japanese サーロイン corresponds to the Anglo strip loin — the loin eye over the lumbar vertebrae, the fillet beneath it counted separately, and the sirloin butt further back belonging to ランイチ. The muscle does almost no work, so it takes the finest, sweetest, most even sashi on the carcass; it is the one cut Japan does treat as a thick steak, though it is shaved for sukiyaki just as often.",
+    "dishes": [
+     "steak",
+     "sukiyaki",
+     "shabu-shabu",
+     "roast beef"
+    ],
+    "colour": "#63b871"
+   },
+   {
+    "id": "hire",
+    "name": "Fillet / tenderloin",
+    "native": "ヒレ",
+    "romanized": "hire",
+    "region": "Inside the body under the lumbar spine, running from the hip at about x 0.26 forward toward the last rib, z 0.64–0.76.",
+    "x": [
+     0.26,
+     0.4
+    ],
+    "z": [
+     0.64,
+     0.76
+    ],
+    "full_width": true,
+    "description": "A 部分肉 that hangs beneath the backbone and bears no load at all, making it the most tender and the leanest of the prime cuts — only about 3% of the carcass, with the thick middle sold as シャトーブリアン. Cooked fast and rare as steak or crumbed as ヒレカツ; too lean for long heat.",
+    "dishes": [
+     "steak",
+     "chateaubriand",
+     "katsu",
+     "roast beef"
+    ],
+    "colour": "#d17d88"
+   },
+   {
+    "id": "katabara",
+    "name": "Brisket / chuck rib (front plate)",
+    "native": "カタバラ",
+    "romanized": "katabara",
+    "region": "The front of the belly and chest, from the fifth-rib line at x 0.56 forward to the brisket behind the elbow at x 0.66, z 0.46–0.66.",
+    "x": [
+     0.56,
+     0.66
+    ],
+    "z": [
+     0.46,
+     0.66
+    ],
+    "full_width": true,
+    "description": "The forward half of the ばら, layered red meat and fat over the first six ribs, coarse-grained and rich; the ブリスケ and the famously fatty 三角バラ, sold as 特上カルビ, both come from here. Simmered for nikujaga and curry, or cut into premium kalbi squares.",
+    "dishes": [
+     "yakiniku",
+     "nikujaga",
+     "curry",
+     "nikomi (stew)"
+    ],
+    "colour": "#639beb"
+   },
+   {
+    "id": "karubi",
+    "name": "Short rib (kalbi)",
+    "native": "カルビ",
+    "romanized": "karubi",
+    "region": "The rib-cage section of the belly, x 0.44–0.56 between the last rib and the mid ribs, z 0.46–0.58.",
+    "x": [
+     0.44,
+     0.56
+    ],
+    "z": [
+     0.46,
+     0.58
+    ],
+    "full_width": true,
+    "description": "Not a butchery term but the yakiniku word, from Korean galbi (rib), for the fatty meat on and between the rib bones of the ばら primal: sweet, juicy and streaked with fat. The default order at any yakiniku restaurant, grilled in bite-sized squares; the strip prised from between the bones is 中落ちカルビ.",
+    "dishes": [
+     "yakiniku",
+     "kalbi",
+     "sukiyaki"
+    ],
+    "colour": "#9cb858"
+   },
+   {
+    "id": "tomobara",
+    "name": "Short plate / flank",
+    "native": "トモバラ",
+    "romanized": "tomobara",
+    "region": "The rear belly hanging below the barrel, x 0.32–0.44, from the belly line z 0.56 down to 0.46.",
+    "x": [
+     0.32,
+     0.44
+    ],
+    "z": [
+     0.46,
+     0.56
+    ],
+    "full_width": true,
+    "description": "The rear half of the ばら and an official 部分肉: thick alternating bands of lean and fat, coarse-grained but among the richest-tasting meat on the animal, and the source of ゲタ, ササニク and カイノミ. Thin-sliced for gyudon and nikomi, or grilled as kalbi.",
+    "dishes": [
+     "yakiniku",
+     "gyudon",
+     "nikomi (stew)",
+     "shabu-shabu"
+    ],
+    "colour": "#d171d1"
+   },
+   {
+    "id": "kainomi",
+    "name": "Inside skirt / flap meat",
+    "native": "カイノミ",
+    "romanized": "kainomi",
+    "region": "The top rear corner of the short plate where it meets the flank and the tail of the fillet, x 0.32–0.40, z 0.56–0.64.",
+    "x": [
+     0.32,
+     0.4
+    ],
+    "z": [
+     0.56,
+     0.64
+    ],
+    "full_width": false,
+    "description": "A shellfish-shaped 希少部位 taken from the part of the トモバラ closest to the ヒレ, so it has the firm sweetness of red meat together with belly-cut marbling — about 2–3 kg per animal. Grilled quickly at the yakiniku table and priced as a premium cut.",
+    "dishes": [
+     "yakiniku",
+     "steak"
+    ],
+    "colour": "#8debcf"
+   },
+   {
+    "id": "harami",
+    "name": "Skirt steak (diaphragm, rib side)",
+    "native": "ハラミ",
+    "romanized": "harami",
+    "region": "The rib-side sheet of the diaphragm, arching inside the body wall at the last ribs, x 0.44–0.56, z 0.58–0.72.",
+    "x": [
+     0.44,
+     0.56
+    ],
+    "z": [
+     0.58,
+     0.72
+    ],
+    "full_width": true,
+    "description": "Anatomically the diaphragm, so Japan classifies it as 内臓肉 (offal) even though it looks and eats like red meat — soft, juicy, coarse-fibred and leaner than kalbi. After karubi it is the most ordered thing at a yakiniku shop, and it anchors the harami teishoku.",
+    "dishes": [
+     "yakiniku",
+     "harami teishoku",
+     "horumon"
+    ],
+    "colour": "#b8794d"
+   },
+   {
+    "id": "sagari",
+    "name": "Hanging tender",
+    "native": "サガリ",
+    "romanized": "sagari",
+    "region": "The pillar of the diaphragm nearer the lumbar vertebrae, hanging inside the body cavity ahead of the kidneys at x 0.40–0.44, z 0.62–0.74.",
+    "x": [
+     0.4,
+     0.44
+    ],
+    "z": [
+     0.62,
+     0.74
+    ],
+    "full_width": true,
+    "description": "The crus of the diaphragm — the same organ as ハラミ but the small thick piece that hangs (下がる) from the spine, only a couple of kilos per animal and likewise sold as 内臓肉. Deeper-flavoured and slightly chewier than harami; a Kansai and Kyushu yakiniku favourite, and often lumped in with harami.",
+    "dishes": [
+     "yakiniku",
+     "horumon"
+    ],
+    "colour": "#7264d1"
+   },
+   {
+    "id": "ranpu",
+    "name": "Rump",
+    "native": "ランプ",
+    "romanized": "ranpu",
+    "region": "The top of the hindquarter above the hip joint, behind the sirloin line, x 0.16–0.26, z 0.66–0.90.",
+    "x": [
+     0.16,
+     0.26
+    ],
+    "z": [
+     0.66,
+     0.9
+    ],
+    "full_width": false,
+    "description": "The upper part of the ランイチ 部分肉 (ランプ plus イチボ), sitting where the loin runs out over the hip — this is the sirloin butt of Anglo butchery. Fine-grained, tender lean meat with a light even sashi and a concentrated beef flavour for a hindquarter cut; served as steak, as thin yakiniku slices and in sukiyaki.",
+    "dishes": [
+     "steak",
+     "yakiniku",
+     "sukiyaki",
+     "roast beef"
+    ],
+    "colour": "#91eb7f"
+   },
+   {
+    "id": "ichibo",
+    "name": "Rump cap / picanha",
+    "native": "イチボ",
+    "romanized": "ichibo",
+    "region": "The rear cap of the rump over the aitch bone at the pin bone, x 0.04–0.16, z 0.62–0.86.",
+    "x": [
+     0.04,
+     0.16
+    ],
+    "z": [
+     0.62,
+     0.86
+    ],
+    "full_width": false,
+    "description": "The lower, rearmost muscle of the ランイチ 部分肉, named after the H-shaped hip bone (H-bone) it caps; lean but carrying a fat cap and fine marbling, tender at the tail end and firmer toward the leg. Grilled as thick yakiniku slices or roasted whole.",
+    "dishes": [
+     "yakiniku",
+     "steak",
+     "roast beef"
+    ],
+    "colour": "#b86e90"
+   },
+   {
+    "id": "uchimomo",
+    "name": "Inside round / topside",
+    "native": "ウチモモ",
+    "romanized": "uchimomo",
+    "region": "The inner face of the hind leg between the stifle at z 0.46 and the rump at z 0.62, x 0.12–0.24.",
+    "x": [
+     0.12,
+     0.24
+    ],
+    "z": [
+     0.46,
+     0.62
+    ],
+    "full_width": false,
+    "description": "An official 部分肉 and the single leanest large muscle on the carcass — a big uniform block of red meat, slightly coarse, with almost no sashi. Sliced thin for sukiyaki and shabu-shabu, roasted as roast beef, or served on lean yakiniku plates.",
+    "dishes": [
+     "roast beef",
+     "sukiyaki",
+     "shabu-shabu",
+     "steak"
+    ],
+    "colour": "#58b3d1"
+   },
+   {
+    "id": "sotomomo",
+    "name": "Outside round / silverside",
+    "native": "ソトモモ",
+    "romanized": "sotomomo",
+    "region": "The outer and rearmost face of the hind leg, x 0.00–0.12, from the stifle at z 0.46 up to z 0.62.",
+    "x": [
+     0.0,
+     0.12
+    ],
+    "z": [
+     0.46,
+     0.62
+    ],
+    "full_width": false,
+    "description": "The hardest-working muscles of the もも, so the grain is coarse, sinew runs through it and it is firm and very lean; it contains ハバキ and カメノコ. Best braised, stir-fried in thin strips or cured — rarely grilled as a steak.",
+    "dishes": [
+     "nikomi (stew)",
+     "stir-fry",
+     "roast beef",
+     "corned beef"
+    ],
+    "colour": "#ebe571"
+   },
+   {
+    "id": "shintama",
+    "name": "Knuckle / thick flank",
+    "native": "シンタマ",
+    "romanized": "shintama",
+    "region": "The ball of muscle on the front of the hind leg around the femur, x 0.24–0.32, z 0.52–0.64.",
+    "x": [
+     0.24,
+     0.32
+    ],
+    "z": [
+     0.52,
+     0.64
+    ],
+    "full_width": false,
+    "description": "A round 部分肉 of four muscles wrapped around the head of the femur — fine-grained, tender and lean for leg meat, and the source of the rare トモサンカク (ヒウチ) and シンシン. Used for roast beef, cutlets and lean yakiniku.",
+    "dishes": [
+     "roast beef",
+     "katsu",
+     "yakiniku",
+     "shabu-shabu"
+    ],
+    "colour": "#9b63b8"
+   },
+   {
+    "id": "shinshin",
+    "name": "Knuckle centre / centre of the ball tip",
+    "native": "シンシン",
+    "romanized": "shinshin",
+    "region": "The core of the knuckle, low on the front of the hind leg just above the stifle, x 0.24–0.32, z 0.46–0.52.",
+    "x": [
+     0.24,
+     0.32
+    ],
+    "z": [
+     0.46,
+     0.52
+    ],
+    "full_width": false,
+    "description": "Literally the core of the シンタマ, this 希少部位 is a small very fine-grained lean muscle with a faint even sashi — firm at first bite but silky once cooked, and only a few hundred grams per animal. Served as rare-seared yakiniku, roast beef or thin steak.",
+    "dishes": [
+     "yakiniku",
+     "roast beef",
+     "steak",
+     "tataki"
+    ],
+    "colour": "#7dd19d"
+   },
+   {
+    "id": "sune",
+    "name": "Shank / shin",
+    "native": "スネ",
+    "romanized": "sune",
+    "region": "The hind leg between the hock at z 0.28 and the stifle at z 0.46, x 0.03–0.18; the foreleg equivalent is counted inside カタ.",
+    "x": [
+     0.03,
+     0.18
+    ],
+    "z": [
+     0.28,
+     0.46
+    ],
+    "full_width": false,
+    "description": "The official 部分肉 ともずね: almost fat-free, shot through with sinew and the toughest meat on the animal, but packed with gelatin and the most concentrated beef flavour. Long-simmered until the connective tissue melts, or trimmed into 牛すじ for oden and dote-yaki.",
+    "dishes": [
+     "nikomi (stew)",
+     "curry",
+     "oden",
+     "gyusuji"
+    ],
+    "colour": "#eb6e63"
+   },
+   {
+    "id": "tan",
+    "name": "Tongue",
+    "native": "タン",
+    "romanized": "tan",
+    "region": "The tongue, inside the head forward of the poll at x 0.84–0.96, z 0.74–0.84.",
+    "x": [
+     0.84,
+     0.96
+    ],
+    "z": [
+     0.74,
+     0.84
+    ],
+    "full_width": true,
+    "description": "Sold as 内臓肉 and graded along its length — タン元 at the root fatty and tender, タン中 balanced, タン先 at the tip lean and firm — with a springy crisp bite unlike any muscle cut. Thin-sliced 塩タン with lemon opens most yakiniku meals; the root end is stewed as tan shichu, a Sendai speciality.",
+    "dishes": [
+     "yakiniku",
+     "shio-tan",
+     "tan shichu (stew)"
+    ],
+    "colour": "#586cb8"
+   },
+   {
+    "id": "teru",
+    "name": "Oxtail",
+    "native": "テール",
+    "romanized": "teru",
+    "region": "The tail, from its base at the top of the rump, x 0.00–0.04, z 0.80–0.92.",
+    "x": [
+     0.0,
+     0.04
+    ],
+    "z": [
+     0.8,
+     0.92
+    ],
+    "full_width": true,
+    "description": "About 2 kg per animal of bony, sinewy, heavily gelatinous meat that is close to inedible without long cooking. Simmered for hours into テールスープ, a staple closing dish at yakiniku restaurants, or braised until the meat drops off the vertebrae.",
+    "dishes": [
+     "tail soup",
+     "nikomi (stew)",
+     "yakiniku"
+    ],
+    "colour": "#a1d171"
+   }
+  ]
+ }
+]

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Beef Atlas — the same cow, cut six ways</title>
+<meta name="description" content="An interactive 3D atlas of how different food cultures divide a beef carcass.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>%F0%9F%90%84</text></svg>">
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.186.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.186.0/examples/jsm/"
+  }
+}
+</script>
+</head>
+<body>
+
+<div id="stage">
+  <canvas id="view"></canvas>
+  <div id="tooltip" hidden></div>
+  <div id="loading"><span></span>Loading the cow…</div>
+</div>
+
+<header id="masthead">
+  <h1>Beef&nbsp;Atlas</h1>
+  <p class="tagline">One animal. Six ways of taking it apart.</p>
+</header>
+
+<nav id="cultures" aria-label="Butchery tradition"></nav>
+
+<aside id="legend" class="panel">
+  <div class="panel-head">
+    <h2 id="legend-title">Cuts</h2>
+    <button id="legend-toggle" class="icon-btn" aria-expanded="true" title="Collapse">–</button>
+  </div>
+  <p id="blurb"></p>
+  <ol id="cut-list"></ol>
+</aside>
+
+<aside id="detail" class="panel" hidden>
+  <button id="detail-close" class="icon-btn" title="Close">×</button>
+  <div id="detail-body"></div>
+</aside>
+
+<div id="controls">
+  <label class="slider">
+    <span>Explode</span>
+    <input id="explode" type="range" min="0" max="100" value="0" aria-label="Explode the carcass">
+  </label>
+  <label class="check">
+    <input id="spin" type="checkbox">
+    <span>Spin</span>
+  </label>
+  <button id="reset" class="text-btn">Reset view</button>
+</div>
+
+<footer id="colophon">
+  <button id="about-btn" class="text-btn">About &amp; sources</button>
+</footer>
+
+<dialog id="about">
+  <h2>About this atlas</h2>
+  <div id="about-body"></div>
+  <form method="dialog"><button class="text-btn">Close</button></form>
+</dialog>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

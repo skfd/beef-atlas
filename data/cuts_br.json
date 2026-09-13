@@ -1,0 +1,551 @@
+{
+  "culture": "Brazil",
+  "id": "br",
+  "flag": "BR",
+  "blurb": "The Brazilian scheme is a churrasco scheme: the carcass is broken down to serve a charcoal fire and a skewer, so cuts are defined by their fat cap and their behaviour over coals rather than by the steakhouse geometry of an American or French chart. Its prestige cut is the picanha, the triangular tip of the biceps femoris with its cap of hard fat left on - a piece most other traditions bury anonymously inside the rump. It is also the only major scheme with a cut that exists on zebu cattle alone: the cupim, the fatty hump of Nelore and its crosses.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cut_of_beef",
+    "https://en.wikipedia.org/wiki/Picanha",
+    "https://pt.wikipedia.org/wiki/Lista_de_tipos_de_carne_bovina",
+    "https://pt.wikipedia.org/wiki/Alcatra",
+    "https://pt.wikipedia.org/wiki/Cupim_(carne)",
+    "https://www.scotconsultoria.com.br/noticias/agronegocio-na-midia/42462/o-mapa-do-boi-os-cortes-de-carne-mais-comuns-no-brasil.htm",
+    "https://www.villefort.com.br/content/aprenda-identificar-os-cortes-de-carne-bovina",
+    "https://beefpoint.com.br/especificacoes-dos-cortes-bovinos-parte-2-5418/",
+    "https://www.dicasonline.com/matambre/"
+  ],
+  "cuts": [
+    {
+      "id": "picanha",
+      "name": "Rump cap / top sirloin cap",
+      "native": "Picanha",
+      "region": "The cap over the top of the rump, from the tail base forward to about the hook bone, riding high on the topline above the round.",
+      "x": [
+        0.02,
+        0.2
+      ],
+      "z": [
+        0.74,
+        0.94
+      ],
+      "full_width": true,
+      "description": "The terminal triangular part of the biceps femoris, a hip extensor that works but never carries the animal's weight, covered by a thick wedge of hard fat that Brazilian butchers leave attached - the fat cap is the cut. Bent into a C on a skewer with nothing but coarse salt, or cut into thick steaks and grilled fat-side down so the cap renders back into the meat.",
+      "dishes": [
+        "picanha na brasa",
+        "picanha no espeto",
+        "churrasco de rodízio",
+        "picanha na chapa com alho"
+      ]
+    },
+    {
+      "id": "alcatra",
+      "name": "Rump / top sirloin centre",
+      "native": "Alcatra (miolo de alcatra)",
+      "region": "Between the loin and the thigh, above the hip joint from the hook bone back, sold with the picanha and maminha already removed.",
+      "x": [
+        0.2,
+        0.34
+      ],
+      "z": [
+        0.74,
+        0.92
+      ],
+      "full_width": true,
+      "description": "The gluteal mass over the hip, lean and short-fibred and about as tender as a genuinely working muscle gets, which is why Brazilian butchers treat the whole alcatra as the mother cut that picanha, maminha and baby beef are taken from. Grilled as thick steaks or roasted whole; too lean to survive being cut thin and cooked through.",
+      "dishes": [
+        "bife de alcatra",
+        "alcatra na brasa",
+        "picadinho de alcatra",
+        "alcatra assada"
+      ]
+    },
+    {
+      "id": "maminha",
+      "name": "Tri-tip / bottom sirloin tip",
+      "native": "Maminha",
+      "region": "The tapering tip of the alcatra where the rump runs down into the flank, ahead of the stifle and below the sirloin line.",
+      "x": [
+        0.28,
+        0.36
+      ],
+      "z": [
+        0.62,
+        0.74
+      ],
+      "full_width": true,
+      "description": "The soft triangular tail of the rump next to the flank, finer-grained and fattier than the alcatra above it, with the grain swinging round through the piece. Roasted or grilled whole and taken to medium or beyond so the fat softens, then sliced firmly across the grain.",
+      "dishes": [
+        "maminha na brasa",
+        "maminha assada na cerveja",
+        "maminha no espeto"
+      ]
+    },
+    {
+      "id": "contrafile",
+      "name": "Striploin / sirloin",
+      "native": "Contrafilé",
+      "region": "Along the back from the sirloin line forward over the lumbar vertebrae and the last ribs to about the fifth rib, sitting on top of the spine.",
+      "x": [
+        0.34,
+        0.56
+      ],
+      "z": [
+        0.74,
+        0.86
+      ],
+      "full_width": true,
+      "description": "The longissimus dorsi, the long back muscle that only holds the spine steady, so it is tender, well flavoured and carries a fat strip down its outer edge. Cooked fast and hot - as bifes on the chapa, as a whole roast on the fire, or bone-in as chuleta.",
+      "dishes": [
+        "bife de chapa",
+        "chuleta",
+        "estrogonofe",
+        "contrafilé grelhado",
+        "bife a cavalo"
+      ]
+    },
+    {
+      "id": "capa-de-file",
+      "name": "Loin cover / cap over the ribeye",
+      "native": "Capa de filé",
+      "region": "The outer layer lying on top of the contrafilé at its thoracic end, over the ribs just behind the shoulder.",
+      "x": [
+        0.46,
+        0.56
+      ],
+      "z": [
+        0.86,
+        0.94
+      ],
+      "full_width": true,
+      "description": "The tough outer layer of trapezius and latissimus that lies on top of the back muscle over the rib cage - very fatty and full-flavoured, but shot through with sinew, which is why it is graded a second-rate cut rather than sold as a steak. Brazilian kitchens braise it, stew it or grind it, and the fat makes it a favourite for slow ensopados.",
+      "dishes": [
+        "carne de panela",
+        "ensopado de capa de filé",
+        "refogado",
+        "carne moída"
+      ]
+    },
+    {
+      "id": "file-mignon",
+      "name": "Tenderloin / fillet",
+      "native": "Filé mignon",
+      "region": "Tucked underneath the lumbar vertebrae, inside the loin, running from behind the hip forward to the last rib.",
+      "x": [
+        0.36,
+        0.46
+      ],
+      "z": [
+        0.62,
+        0.74
+      ],
+      "full_width": true,
+      "description": "The psoas, slung under the spine where it barely does any work, which makes it the most tender muscle on the animal and also the mildest and leanest - about two kilos whole. Cut into thick medallions and seared rare, or wrapped in bacon to borrow the fat it does not have.",
+      "dishes": [
+        "filé mignon ao molho madeira",
+        "tournedos",
+        "medalhão com bacon",
+        "estrogonofe de filé"
+      ]
+    },
+    {
+      "id": "aba-de-file",
+      "name": "Loin flap / flank flap",
+      "native": "Aba de filé",
+      "region": "The thin abdominal flap hanging off the lower edge of the loin, just behind the last rib and above the flank proper.",
+      "x": [
+        0.36,
+        0.46
+      ],
+      "z": [
+        0.52,
+        0.62
+      ],
+      "full_width": false,
+      "description": "The loose sheet of abdominal wall trimmed from the lower edge of the contrafilé, thin and grainy and threaded with fat and membrane. Mostly ground, or grilled flat and fast over hot coals and cut into strips.",
+      "dishes": [
+        "carne moída",
+        "espetinho",
+        "hambúrguer caseiro"
+      ]
+    },
+    {
+      "id": "fraldinha",
+      "name": "Flank steak / bavette",
+      "native": "Fraldinha (vazio)",
+      "region": "The belly wall behind the last rib, where the short loin, the flank and the bottom sirloin meet, hanging at the belly line.",
+      "x": [
+        0.28,
+        0.36
+      ],
+      "z": [
+        0.5,
+        0.62
+      ],
+      "full_width": false,
+      "description": "A bundle of coarse, long-fibred abdominal muscle that holds the gut in - chewy, but exceptionally beefy, with fat running between the bundles. Grilled thick and rare on the churrasqueira or braised long and slow, and always sliced hard across the grain.",
+      "dishes": [
+        "fraldinha na brasa",
+        "vazio na brasa",
+        "espetinho",
+        "estrogonofe",
+        "fraldinha assada de panela"
+      ]
+    },
+    {
+      "id": "costela",
+      "name": "Rib / short rib plate",
+      "native": "Costela",
+      "region": "The upper thoracic cage between the last rib and the shoulder, the broad-boned part of the rack above the plate.",
+      "x": [
+        0.46,
+        0.6
+      ],
+      "z": [
+        0.62,
+        0.74
+      ],
+      "full_width": true,
+      "description": "Intercostal meat laid between wide rib bones, worked constantly by breathing and laced with fat and collagen, which is exactly why it is the centrepiece of a churrasco de chão. Cooked bone-in for six to twelve hours beside the coals until the collagen melts and the meat leaves the bone on its own.",
+      "dishes": [
+        "costela fogo de chão",
+        "costela no bafo",
+        "costela assada",
+        "cozido de costela"
+      ]
+    },
+    {
+      "id": "ponta-de-agulha",
+      "name": "Short plate / rib tips",
+      "native": "Ponta de agulha (costela minga)",
+      "region": "The lower thoracic cage below the costela, the thin-boned, cartilage-rich rib ends running along the bottom of the barrel.",
+      "x": [
+        0.46,
+        0.58
+      ],
+      "z": [
+        0.54,
+        0.62
+      ],
+      "full_width": true,
+      "description": "The cheap tail end of the rib cage - fine bones and cartilage interleaved with fat and hard-working muscle, graded a third-rate cut and priced like one. Called the queen of the barbecue anyway, because hours over low coals turn all that connective tissue to gelatine.",
+      "dishes": [
+        "costela ponta de agulha na brasa",
+        "costelinha assada",
+        "cozido",
+        "feijoada"
+      ]
+    },
+    {
+      "id": "matambre",
+      "name": "Rib sheet / matambre",
+      "native": "Matambre",
+      "region": "The thin sheet lying between the hide and the ribs along the lower flank, wrapping the ponta de agulha from the outside.",
+      "x": [
+        0.46,
+        0.58
+      ],
+      "z": [
+        0.46,
+        0.54
+      ],
+      "full_width": false,
+      "description": "A pink, membrane-thin sheet of muscle peeled off the outside of the rib cage, carrying its own layer of fat and almost no thickness, so it dries out the moment it is mishandled. Grilled fast over hot coals and dusted with cassava flour for a crust, or rolled around vegetables and sausage and braised.",
+      "dishes": [
+        "matambre na brasa com farofa",
+        "matambre recheado",
+        "matambre à pizza"
+      ]
+    },
+    {
+      "id": "cupim",
+      "name": "Zebu hump",
+      "native": "Cupim",
+      "region": "The hump sitting on top of the withers, behind the neck and above the acém - present only on zebu cattle such as Nelore and their crosses.",
+      "x": [
+        0.62,
+        0.74
+      ],
+      "z": [
+        0.88,
+        1.0
+      ],
+      "full_width": true,
+      "note_no_hump": true,
+      "description": "The fat-and-muscle hump that zebu cattle carry over the withers, a marbled mass of fat ribboned through soft muscle with no equivalent anywhere on a European carcass. Roasted whole for hours, wrapped in foil or set beside the coals, until the fat has rendered and the meat can be taken apart with a spoon.",
+      "dishes": [
+        "cupim assado",
+        "cupim na brasa",
+        "cupim ao molho barbecue",
+        "cupim desfiado"
+      ]
+    },
+    {
+      "id": "acem",
+      "name": "Chuck",
+      "native": "Acém",
+      "region": "The upper forequarter from the fifth rib forward to the point of shoulder, above the shoulder blade and below the withers.",
+      "x": [
+        0.56,
+        0.72
+      ],
+      "z": [
+        0.74,
+        0.88
+      ],
+      "full_width": true,
+      "description": "The biggest single piece of the forequarter and the most tender part of it, a bundle of neck and shoulder muscles that carry the head - relatively lean, with seams of fat and connective tissue between them. The default Brazilian pot cut: braised, stewed, or ground.",
+      "dishes": [
+        "carne de panela",
+        "picadinho",
+        "carne moída",
+        "ensopado de acém",
+        "bife rolê"
+      ]
+    },
+    {
+      "id": "pescoco",
+      "name": "Neck",
+      "native": "Pescoço",
+      "region": "Between the point of shoulder and the poll, the column of muscle running from the chuck forward to the head.",
+      "x": [
+        0.72,
+        0.8
+      ],
+      "z": [
+        0.64,
+        0.88
+      ],
+      "full_width": true,
+      "description": "Dense, coarse-grained muscle that holds a heavy head up all day, so it is full of collagen and sinew and never tender straight off the fire. Reserved for long moist cooking - broths, soups and stews - where the connective tissue is an asset rather than a fault.",
+      "dishes": [
+        "sopa de carne",
+        "caldo de carne",
+        "cozido",
+        "refogado de pescoço"
+      ]
+    },
+    {
+      "id": "paleta",
+      "name": "Shoulder / chuck clod",
+      "native": "Paleta",
+      "region": "The shoulder blade and upper foreleg on the side of the animal, ahead of the rib cage and above the front knee.",
+      "x": [
+        0.6,
+        0.7
+      ],
+      "z": [
+        0.44,
+        0.74
+      ],
+      "full_width": false,
+      "description": "The muscles that swing the front leg, short-fibred and lean in the middle - the miolo de paleta - but wrapped in gristle and heavy seams elsewhere. Slow moist heat is the rule, in pot roasts, stews and braises, though the peixinho inside it is fine enough to roast.",
+      "dishes": [
+        "carne de panela",
+        "ensopado de paleta",
+        "paleta desfiada",
+        "cozido"
+      ]
+    },
+    {
+      "id": "peito",
+      "name": "Brisket",
+      "native": "Peito",
+      "region": "The chest between and in front of the forelegs, hanging below the point of shoulder at the very bottom of the forequarter.",
+      "x": [
+        0.7,
+        0.78
+      ],
+      "z": [
+        0.46,
+        0.62
+      ],
+      "full_width": true,
+      "description": "Thick, long-fibred muscle bearing most of the animal's front weight with no supporting bone underneath it, topped by a heavy fat cap - tough, and needing hours. Boiled for cozido and puchero, cured for pastrami, or smoked low and slow in the newer Brazilian barbecue houses.",
+      "dishes": [
+        "cozido",
+        "puchero",
+        "peito defumado",
+        "caldo de peito",
+        "pastrami"
+      ]
+    },
+    {
+      "id": "patinho",
+      "name": "Knuckle / thick flank",
+      "native": "Patinho",
+      "region": "The front of the thigh over the femur, above the stifle, at the leading edge of the round where it meets the flank and the rear shank.",
+      "x": [
+        0.2,
+        0.28
+      ],
+      "z": [
+        0.46,
+        0.7
+      ],
+      "full_width": true,
+      "description": "The quadriceps group on the front of the femur - moderately worked, very lean, with a fine even grain and almost no intramuscular fat. The Brazilian all-purpose mincing and cutlet muscle: breadcrumbed as milanesa, ground for kibe and hamburgers, or served raw.",
+      "dishes": [
+        "bife à milanesa",
+        "carne moída",
+        "quibe cru",
+        "almondégas",
+        "escalope"
+      ]
+    },
+    {
+      "id": "coxao-mole",
+      "name": "Topside / inside round",
+      "native": "Coxão mole",
+      "region": "The inner face of the hind leg, from the stifle up to the rump, on the medial side of the femur.",
+      "x": [
+        0.12,
+        0.2
+      ],
+      "z": [
+        0.48,
+        0.74
+      ],
+      "full_width": true,
+      "description": "The big adductor and semimembranosus block on the inside of the thigh, which does less work than the outside face and so has shorter, softer fibres, though it is still very lean. Sliced thin for bifes and escalopes, breadcrumbed, roasted, or braised for carne de panela.",
+      "dishes": [
+        "bife à milanesa",
+        "escalope",
+        "carne de panela",
+        "rosbife",
+        "bife acebolado"
+      ]
+    },
+    {
+      "id": "coxao-duro",
+      "name": "Silverside / outside round",
+      "native": "Coxão duro (chã de fora)",
+      "region": "The outer rear face of the hind leg, behind and outside the femur, running from above the hock up to under the picanha.",
+      "x": [
+        0.02,
+        0.12
+      ],
+      "z": [
+        0.48,
+        0.74
+      ],
+      "full_width": true,
+      "description": "The outside of the thigh, the muscle that actually drives the animal forward, so the fibres are long and tough and sheathed in a silver sheet of connective tissue. A second-grade cut that only works with long slow moist cooking, shredded, or ground.",
+      "dishes": [
+        "carne de panela",
+        "carne desfiada",
+        "ensopado",
+        "carne louca"
+      ]
+    },
+    {
+      "id": "lagarto",
+      "name": "Eye of round",
+      "native": "Lagarto",
+      "region": "The long rounded muscle on the back of the hind leg between the inside and the outside round, above the hock.",
+      "x": [
+        0.02,
+        0.14
+      ],
+      "z": [
+        0.32,
+        0.48
+      ],
+      "full_width": true,
+      "description": "The semitendinosus, a pale cylinder of long, uniform, almost fat-free fibres - handsome to look at, dry and firm to eat. Braised whole in a pot and sliced paper-thin, shredded, or frozen and shaved for carpaccio.",
+      "dishes": [
+        "lagarto recheado",
+        "carne de panela",
+        "carpaccio",
+        "lagarto ao molho de mostarda",
+        "rosbife"
+      ]
+    },
+    {
+      "id": "ossobuco",
+      "name": "Cross-cut hind shank",
+      "native": "Ossobuco (músculo traseiro)",
+      "region": "The hind shank between the hock and the stifle, sawn straight across the bone.",
+      "x": [
+        0.14,
+        0.24
+      ],
+      "z": [
+        0.28,
+        0.46
+      ],
+      "full_width": true,
+      "description": "The rear leg muscle wrapped round the marrow-filled tibia, all sinew and collagen from constant work, sold as thick cross-cut rounds with a plug of marrow in the middle. Simmered for hours until the tissue turns to gelatine and the marrow melts into the sauce.",
+      "dishes": [
+        "ossobuco à milanesa",
+        "ossobuco com risoto",
+        "cozido",
+        "caldo de músculo"
+      ]
+    },
+    {
+      "id": "musculo",
+      "name": "Fore shank / shin",
+      "native": "Músculo dianteiro (garrão)",
+      "region": "The foreleg below the shoulder, from the elbow down to the front knee.",
+      "x": [
+        0.58,
+        0.68
+      ],
+      "z": [
+        0.28,
+        0.44
+      ],
+      "full_width": true,
+      "description": "Hard-working leg muscle wrapped around bone, the toughest and most collagen-heavy meat on the carcass and also among the most flavourful. Nothing but long moist cooking will do, which makes it the backbone of Brazilian broths, pot roasts and bean stews.",
+      "dishes": [
+        "caldo de carne",
+        "carne de panela",
+        "sopa de músculo",
+        "feijão com músculo",
+        "mocotó"
+      ]
+    },
+    {
+      "id": "rabo",
+      "name": "Oxtail",
+      "native": "Rabo",
+      "region": "The tail itself, hanging behind the rump from the tail base at the rear of the buttock.",
+      "x": [
+        -0.08,
+        0.02
+      ],
+      "z": [
+        0.58,
+        0.93
+      ],
+      "full_width": true,
+      "description": "Vertebrae in a sleeve of working muscle and fat - very little meat per bone, but enormous amounts of collagen and marrow. Cut into rounds and stewed for hours; in Rio it becomes rabada, cooked down and served with watercress.",
+      "dishes": [
+        "rabada com agrião",
+        "rabada com polenta",
+        "ensopado de rabo"
+      ]
+    },
+    {
+      "id": "lingua",
+      "name": "Tongue",
+      "native": "Língua",
+      "region": "Inside the head, forward of the poll, running from the jaw toward the nose.",
+      "x": [
+        0.82,
+        0.96
+      ],
+      "z": [
+        0.62,
+        0.74
+      ],
+      "full_width": true,
+      "description": "A solid block of constantly moving muscle inside a tough outer skin, dense and fatty and quite unlike any skeletal cut. Boiled until the skin peels away, then braised in a tomato or wine sauce - a Sunday lunch dish rather than a churrasco one.",
+      "dishes": [
+        "língua ao molho madeira",
+        "língua à jardineira",
+        "língua acebolada"
+      ]
+    }
+  ]
+}
