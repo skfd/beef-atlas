@@ -111,7 +111,7 @@
      "supports": ["muscles"],
      "quote": "Tensor fascia latae  Tri-tip"}
    ],
-   "dispute": "FINDINGS.md recorded this as unresolved in both directions — nomenclature sourced, muscle not, and the tri-tip equation unproven. The UNECE bovine standard's French cutting text settles it: it names `m. tensor fasciae latae` and glosses it `(aiguillette baronne)` in the same parenthesis, and pairs `aiguillette baronne (partie de l') 2131` with `tri-tip 2131`. So the aiguillette baronne is the tri-tip and it is the tensor fasciae latae. Two caveats worth recording. UNECE's English gloss for the muscle in that cutting instruction is `(tail)`, not `(tri-tip)` — it is the tail of the rump, the same piece under another trade name. And the same page shows `tranche grasse avec aiguillette baronne 2060` = `thick flank 2060`, i.e. UNECE also allows it to be left on the knuckle rather than on the rump, which is why French sources place it variously at the tip of the rumsteck and at the front of the tranche grasse."
+   "dispute": "FINDINGS.md recorded this as unresolved in both directions — nomenclature sourced, muscle not, and the tri-tip equation unproven. The UNECE bovine standard's French cutting text settles it: it names `m. tensor fasciae latae` and glosses it `(aiguillette baronne)` in the same parenthesis, and pairs `aiguillette baronne (partie de l') 2131` with `tri-tip 2131`. So the aiguillette baronne is the tri-tip and it is the tensor fasciae latae. Two caveats worth recording. UNECE's English gloss for the muscle in that cutting instruction is `(tail)`, not `(tri-tip)` — it is the tail of the rump, the same piece under another trade name. The item-2131 segment reads `aiguillette baronne (partie de l')` — *part of* the aiguillette baronne is the tri-tip — so that one line alone would not settle the muscle; the cutting-instruction segment, which names m. tensor fasciae latae outright, is what does. And the same page shows `tranche grasse avec aiguillette baronne 2060` = `thick flank 2060`, i.e. UNECE also allows it to be left on the knuckle rather than on the rump, which is why French sources place it variously at the tip of the rumsteck and at the front of the tranche grasse."
   },
   {
    "id": "araignee",
@@ -333,7 +333,7 @@
     {"url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
      "supports": ["muscles", "bounds"],
      "quote": "désigne le muscle principal (psoas major et minor) à forme cylindrique situé à l'intérieur (côté ventrale) de la longe"},
-    {"url": "https://www.agrireseau.net/bovinsboucherie/documents/Ranking%20of%20Beef%20Muscles%20for%20Tenderness.pdf",
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
      "supports": ["muscles"],
      "quote": "Psoas major  Tenderloin"},
     {"url": "https://agris.fao.org/search/en/providers/122439/records/669e832f00eb85b7d72c0403",
@@ -468,18 +468,18 @@
    "id": "entrecote",
    "muscles": [
     {"id": "longissimus", "role": "defining", "extent": "portion",
-     "from": "rib-06", "to": "rib-11",
-     "note": "the longissimus thoracis; the same muscle is the faux-filet behind the 11th rib and the basses côtes in front of the 6th"},
+     "from": "rib-06", "to": "rib-10",
+     "note": "the longissimus thoracis; the same muscle is the faux-filet from the 11th rib back and the basses côtes in front of the 6th"},
     {"id": "spinalis-dorsi", "role": "major", "extent": "portion",
-     "from": "rib-06", "to": "rib-11",
+     "from": "rib-06", "to": "rib-10",
      "note": "the rib cap that lies along the top of the eye, separated from it by a seam of fat"},
     {"id": "multifidus", "role": "minor", "extent": "portion",
-     "from": "rib-06", "to": "rib-11"},
+     "from": "rib-06", "to": "rib-10"},
     {"id": "iliocostalis", "role": "trace", "extent": "portion",
-     "from": "rib-06", "to": "rib-11",
+     "from": "rib-06", "to": "rib-10",
      "note": "lateral to the longissimus, over the rib bodies"},
     {"id": "intercostalis", "role": "trace", "extent": "portion",
-     "from": "rib-06", "to": "rib-11",
+     "from": "rib-06", "to": "rib-10",
      "note": "only whatever stays between the ribs on a bone-in côte de bœuf"}
    ],
    "unmodelled": [],
@@ -576,7 +576,7 @@
      "supports": ["bounds"],
      "quote": "la partie du quartier avant qui est séparée du bloc d'épaule et de la pointe de poitrine par une coupe franche passant entre la cinquième (5e) et la sixième (6e) côte"}
    ],
-   "dispute": "FINDINGS.md listed the basses côtes as blurb-only. They are not: the UNECE bovine standard's own French text uses `basse côte` / `noix de bassecôte` as the French for the chuck roll and chuck eye, and states the muscle list outright — longissimus dorsi, spinalis dorsi, complexus and multifidus dorsi. That is a standard-grade answer in French, reached through mymemory.translated.net because unece.org is 403. One caution that keeps this from being airtight: the same parallel text shows the term used loosely, with `un morceau de basses côtes sans os` rendered as `the chuck eye roll` in one segment and `la basse côte sans os (2275)` as `the chuck roll` in another — two different UNECE items sharing the French name. Bounds are trade, from CFIA's 5e/6e rib line; the front edge at the first rib is the French convention (`les cinq premières côtes`) and is not quoted."
+   "dispute": "FINDINGS.md listed the basses côtes as blurb-only. They are not: the UNECE bovine standard's own French text uses `basse côte` / `noix de bassecôte` as the French for the chuck roll and chuck eye, and states the muscle list outright — longissimus dorsi, spinalis dorsi, complexus and multifidus dorsi. That is a standard-grade answer in French, reached through mymemory.translated.net because unece.org is 403. One caution that keeps this from being airtight: the same parallel text shows the term used loosely, with `un morceau de basses côtes sans os` rendered as `the chuck eye roll` in one segment and `la basse côte sans os (2275)` as `the chuck roll` in another — two different UNECE items sharing the French name. Bounds are trade, from CFIA's 5e/6e rib line; the front edge at the first rib follows this atlas's own cut description, which puts the basses côtes on the first five ribs, and is not quoted from any source."
   },
   {
    "id": "tendron",
@@ -729,7 +729,7 @@
      "supports": ["bounds"],
      "quote": "La macreuse est une pièce de viande de bœuf située dans l'épaule, du côté opposé aux jumeaux."}
    ],
-   "dispute": "No source consulted names a muscle for the jumeau à bifteck; it is one of the blurb-only shoulder pieces FINDINGS.md flagged, and the French trade's own cut↔muscle table — the Quizlet BP Boucher deck — serves a CAPTCHA. Two positional facts are quotable: gastronomiac puts it `sur le scapulum (palette)` and puts the macreuse `du côté opposé aux jumeaux`, i.e. the two jumeaux are on the scapula side and the macreuse on the humerus side. The muscles are then taken from CFIA's description of the medial-scapula piece (`bas de palette`), which contains teres major, subscapularis and serratus ventralis. That is a bridge across nomenclatures and the assignment should be read as a hypothesis, not a fact. The competing hypothesis, which nothing here settles: several French trade blurbs describe the jumeau as a `muscle long à fibres courtes` under the blade, wording that would fit the deltoideus or a triceps head just as well."
+   "dispute": "No source consulted names a muscle for the jumeau à bifteck; it is one of the blurb-only shoulder pieces FINDINGS.md flagged, and the French trade's own cut↔muscle table — the Quizlet BP Boucher deck — serves a CAPTCHA. Two positional facts are quotable: gastronomiac puts it `sur le scapulum (palette)` and puts the macreuse `du côté opposé aux jumeaux`, i.e. the two jumeaux are on the scapula side and the macreuse on the humerus side. The muscles are then taken from CFIA's description of the medial-scapula piece (`bas de palette`), which contains teres major, subscapularis and serratus ventralis. That is a bridge across nomenclatures and the assignment should be read as a hypothesis, not a fact. The competing hypothesis, which nothing here settles: this atlas's own description of the cut calls it a long muscle with short fibres lying under the blade, wording that would fit the deltoideus or a triceps head just as well. That description is not a source either."
   },
   {
    "id": "jumeau-a-pot-au-feu",
