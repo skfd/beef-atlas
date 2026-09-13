@@ -6,7 +6,6 @@
     "https://en.wikipedia.org/wiki/Cut_of_beef",
     "https://en.wikipedia.org/wiki/Hanger_steak",
     "https://en.wikipedia.org/wiki/Picanha",
-    "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
     "https://www.k-beef.co.kr/web/eng/contents/M040-05",
     "https://fr.wikipedia.org/wiki/Hampe_(viande)",
     "https://fr.wikipedia.org/wiki/Onglet_(viande)",
@@ -431,7 +430,7 @@
       "mirror": true,
       "colour": "#8e2823",
       "blurb": "The huge muscle covering the whole outside of the thigh, from the sacrum and pin bone down to the stifle and hock; it extends the hip and is worked at every step.",
-      "beef": "The bottom round / outside flat in the US, silverside and gîte à la noix in France and Britain, coxao duro in Brazil, 설도 in Korea, ссек in Russia - and its tapering cap, with the fat left on, is the picanha, coulotte or rump cap.",
+      "beef": "The bottom round / outside flat in the US, silverside and gîte à la noix in France and Britain, coxão duro in Brazil, 설도 in Korea, ссек in Russia - and its tapering cap, with the fat left on, is the picanha, coulotte or rump cap.",
       "shape": [
         {
           "t": "fusiform",
@@ -764,7 +763,7 @@
       "mirror": true,
       "colour": "#a4332b",
       "blurb": "A flat muscle filling the hollow behind the spine of the scapula and running to the head of the humerus, which it steadies like a ligament at every stride.",
-      "beef": "The flat iron or top blade - the second most tender muscle in the carcass once its central sheet of gristle is split out. Paleron in France, 부채살 in Korea, ミスジ in Japan, oyster blade in Britain and Australia.",
+      "beef": "The flat iron or top blade - the second most tender muscle in the carcass once its central sheet of gristle is split out. It is the muscle at the heart of the French paleron, 부채살 in Korea, ミスジ in Japan, oyster blade in Britain and Australia.",
       "shape": [
         {
           "t": "fusiform",
@@ -801,7 +800,7 @@
       "mirror": true,
       "colour": "#ac3f34",
       "blurb": "The cone of muscle in front of the scapular spine, reaching down to the greater tubercle of the humerus; it swings the shoulder forward.",
-      "beef": "Chuck tender or mock tender in the US, shoulder petite tender, トウガラシ in Japan (named for its chilli-pepper shape), and part of the French macreuse. Lean and neat-looking but sinewy inside.",
+      "beef": "Chuck tender or mock tender in the US, トウガラシ in Japan (named for its chilli-pepper shape), and part of the French macreuse. Lean and neat-looking but sinewy inside.",
       "shape": [
         {
           "t": "fusiform",
