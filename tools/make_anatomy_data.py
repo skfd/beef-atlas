@@ -17,6 +17,11 @@ import os
 
 SYSTEMS = ("skeleton", "muscle", "viscera")
 
+# Mirrors anatomy.SYSTEM_COLOUR. A part that authored no colour still needs one in
+# the legend swatch, and a row of identical red dots against the bones would be a
+# lie about which system you are looking at.
+FALLBACK = {"skeleton": "#e5ded0", "muscle": "#9a2b27", "viscera": "#af6768"}
+
 
 def write(root):
     measured = {}
@@ -46,7 +51,8 @@ def write(root):
                 "system": part.get("system", system),
                 "group": part.get("group", ""),
                 "depth": int(part.get("depth", 0)),
-                "colour": part.get("colour", ""),
+                "colour": part.get("colour") or FALLBACK.get(
+                    part.get("system", system), "#9a2b27"),
                 "blurb": part.get("blurb", ""),
                 "beef": part.get("beef", ""),
                 "x": [lo[0], hi[0]],

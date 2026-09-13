@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
 
 // The cow is exported in the normalized frame of data/FRAME.md, converted to
 // glTF's Y-up on the way out: x still runs tail to nose, y is up, z is across.
@@ -107,6 +108,15 @@ function resize() {
 
 const loader = new GLTFLoader();
 
+// The anatomy is 115 parts at a detail the muscle bellies deserve -- 14 MB raw,
+// against about 1.1 MB for a whole tradition's cut model. Decimating it to that size
+// would cost the thing being shown, so it ships Draco-compressed at 4 MB and the
+// decoder comes from the same pinned CDN as three.js itself. The cut models are
+// uncompressed and load through the same loader regardless.
+const draco = new DRACOLoader();
+draco.setDecoderPath('https://unpkg.com/three@0.186.0/examples/jsm/libs/draco/');
+loader.setDRACOLoader(draco);
+
 function loadCulture(id) {
   if (models.has(id)) return Promise.resolve(models.get(id));
   return loader.loadAsync(`models/${id}.glb`).then(gltf => {
@@ -151,15 +161,20 @@ function loadAnatomy() {
       o.material.metalness = 0.0;
       if (o.name === 'skin') {
         skin = o;
-        // Drawn last and writing no depth, so the hide is a window rather than
-        // fog: every organ behind it stays fully lit and fully solid.
+        // Back faces only. A translucent hide drawn on both sides hangs a veil in
+        // front of the animal and every muscle behind it goes milky; drawing just
+        // the far wall gives the same full silhouette with nothing between the eye
+        // and the anatomy. It is what an anatomical plate does, and it is why the
+        // hide can sit at a much higher opacity than a front-facing ghost could.
         o.material.transparent = true;
-        o.material.opacity = 0.13;
+        o.material.opacity = 0.38;
         o.material.depthWrite = false;
-        o.material.roughness = 0.85;
-        o.material.side = THREE.DoubleSide;
-        o.material.color.setHex(0xd8cec4);
-        o.renderOrder = 20;
+        o.material.roughness = 0.9;
+        o.material.side = THREE.BackSide;
+        o.material.color.setHex(0x6b5a50);
+        o.renderOrder = -1;
+        o.castShadow = false;
+        o.receiveShadow = false;
         o.material.clippingPlanes = [clipPlane];
         return;
       }
@@ -508,7 +523,7 @@ async function setMode(next, focusPart = null) {
       await loadAnatomy();
     } catch (err) {
       note.textContent = 'The anatomy model could not be loaded.';
-      return;
+      return setMode('cuts');
     }
     note.hidden = true;
     if (selected) select(selected);       // now there is an anatomy to light up
@@ -713,6 +728,10 @@ fetch('data/cultures.json')
     buildCultureTabs();
     buildAbout();
     await showCulture(cultures[0].id);
+    // The atlas opens on the anatomy: the schematic carcass is the abstraction, and
+    // it is one click away. Both models are already in memory by the time the
+    // loading card fades, so the switch between them is instant from then on.
+    await setMode('anatomy');
     loading.classList.add('fading');
     setTimeout(() => { loading.hidden = true; }, 520);
     tick();

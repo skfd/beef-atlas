@@ -54,6 +54,11 @@ const outDir = process.argv[3] || path.join(__dirname, '..', 'build', 'shots');
   await page.waitForSelector('#loading', { state: 'hidden', timeout: 45000 });
   await shot('01-open', 1400);
 
+  // The page opens on the anatomy now, so the cut walk starts by asking for the
+  // schematic model. That switch is itself the first thing worth failing on.
+  await page.click('#modes button[data-mode="cuts"]');
+  await page.waitForSelector('#cut-list li', { state: 'visible', timeout: 10000 });
+
   const cuts = await page.$$('#cut-list li');
   console.log(`legend entries: ${cuts.length}`);
 

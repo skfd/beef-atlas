@@ -1,7 +1,7 @@
 """Build the anatomical cow and export it as one GLB the page can layer.
 
     blender -b --python blender/build_anatomy.py -- [--only skeleton] [--preview]
-                                                    [--part longissimus] [--lod 1.0]
+                                       [--part longissimus] [--lod 1.0] [--raw]
 
 Unlike the cut models there is only one of these: the animal's insides do not change
 when the butchery tradition does, which is the point -- the same longissimus becomes
@@ -30,7 +30,8 @@ import render as rendermod   # noqa: E402
 def parse_args(argv):
     args = argv[argv.index("--") + 1:] if "--" in argv else []
     out = {"out": os.path.join(ROOT, "web", "models"), "only": None, "part": None,
-           "preview": False, "lod": 1.0, "noclip": False, "tag": None}
+           "preview": False, "lod": 1.0, "noclip": False, "tag": None,
+           "raw": False}
     i = 0
     while i < len(args):
         a = args[i]
@@ -46,6 +47,8 @@ def parse_args(argv):
             out["lod"] = float(args[i + 1]); i += 2
         elif a == "--preview":
             out["preview"] = True; i += 1
+        elif a == "--raw":
+            out["raw"] = True; i += 1
         elif a == "--noclip":
             out["noclip"] = True; i += 1
         else:
@@ -79,7 +82,9 @@ def shrink(obj):
 
 
 def decimate(obj, ratio):
-    if ratio >= 1.0 or len(obj.data.polygons) < 400:
+    # Small parts are left alone: a bladder is one 448-face sphere, and halving that
+    # is the difference between an organ and a die.
+    if ratio >= 1.0 or len(obj.data.polygons) < 1500:
         return obj
     m = obj.modifiers.new("decimate", 'DECIMATE')
     m.decimate_type = 'COLLAPSE'
@@ -203,6 +208,13 @@ def main():
         export_cameras=False,
         export_lights=False,
         export_extras=True,
+        # A hundred and fifteen parts at a detail the muscle bellies deserve is
+        # 14 MB raw, against about 1.1 MB for a whole tradition's cut model.
+        # Decimating it down to that size would cost the thing being shown;
+        # Draco gets the same geometry to a comparable download, and the page
+        # already loads three.js itself from the same CDN as the decoder.
+        export_draco_mesh_compression_enable=not opts["raw"],
+        export_draco_mesh_compression_level=6,
     )
 
     out = {"parts": len(made), "faces": sum(r["faces"] for r in report),
