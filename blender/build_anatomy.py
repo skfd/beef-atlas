@@ -1,7 +1,8 @@
 """Build the anatomical cow and export it as one GLB the page can layer.
 
     blender -b --python blender/build_anatomy.py -- [--only skeleton] [--preview]
-                                       [--part longissimus] [--lod 1.0] [--raw]
+                              [--part longissimus] [--lod 1.0] [--raw]
+                              [--cut left|right|both]
 
 Unlike the cut models there is only one of these: the animal's insides do not change
 when the butchery tradition does, which is the point -- the same longissimus becomes
@@ -31,7 +32,7 @@ def parse_args(argv):
     args = argv[argv.index("--") + 1:] if "--" in argv else []
     out = {"out": os.path.join(ROOT, "web", "models"), "only": None, "part": None,
            "preview": False, "lod": 1.0, "noclip": False, "tag": None,
-           "raw": False}
+           "raw": False, "cut": "both"}
     i = 0
     while i < len(args):
         a = args[i]
@@ -47,6 +48,8 @@ def parse_args(argv):
             out["lod"] = float(args[i + 1]); i += 2
         elif a == "--preview":
             out["preview"] = True; i += 1
+        elif a == "--cut":
+            out["cut"] = args[i + 1]; i += 2
         elif a == "--raw":
             out["raw"] = True; i += 1
         elif a == "--noclip":
@@ -94,13 +97,20 @@ def decimate(obj, ratio):
     return obj
 
 
-def halve(cow):
-    """A copy of the hide with the camera-side half removed, for cutaway previews."""
+def halve(cow, side="left"):
+    """A copy of the hide with one half removed, for cutaway previews.
+
+    Which half matters: a ruminant is not symmetric inside. The rumen fills the left
+    of the abdomen and the liver, omasum, abomasum and the entire gut are on the
+    right, so a preview that only ever opens the left cannot show half the organs.
+    """
     dup = cow.copy()
     dup.data = cow.data.copy()
     bpy.context.collection.objects.link(dup)
     dup.name = "__halfskin"
-    bpy.ops.mesh.primitive_cube_add(size=4.0, location=(0.5, -2.0, 0.5))
+    dup.hide_render = False     # the original is hidden by now, and copy() takes that
+    bpy.ops.mesh.primitive_cube_add(
+        size=4.0, location=(0.5, -2.0 if side == "left" else 2.0, 0.5))
     box = bpy.context.active_object
     m = dup.modifiers.new("half", 'BOOLEAN')
     m.operation = 'DIFFERENCE'
@@ -181,13 +191,18 @@ def main():
         # wrong relative to the animal around it; a lung floating on grey tells you
         # nothing about whether it is inside the chest. (display_type = WIRE does
         # not survive into a Workbench render, which is the obvious thing to try.)
-        half = halve(cow)
         cow.hide_render = True
         cam = rendermod.setup_scene()
         tag = opts["tag"] or ("-".join(opts["only"]) if opts["only"] else "all")
-        for view in ("side", "threeq", "front"):
-            rendermod.render(cam, view, os.path.join(prev, f"anat_{tag}_{view}.png"))
-        bpy.data.objects.remove(half, do_unlink=True)
+        for side, views in (("left", ("side", "threeq", "front")),
+                            ("right", ("rside", "rthreeq"))):
+            if opts["cut"] not in (side, "both"):
+                continue
+            half = halve(cow, side)
+            for view in views:
+                rendermod.render(cam, view,
+                                 os.path.join(prev, f"anat_{tag}_{view}.png"))
+            bpy.data.objects.remove(half, do_unlink=True)
         cow.hide_render = False
 
     os.makedirs(opts["out"], exist_ok=True)

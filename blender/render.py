@@ -14,6 +14,10 @@ VIEWS = {
     "threeq": Vector((-0.85, -1.0, 0.42)),
     "front":  Vector((1.0, -0.55, 0.30)),
     "rear":   Vector((-1.0, -0.55, 0.30)),
+    # The animal's right. Half a cow's organs -- liver, omasum, abomasum, the whole
+    # gut -- are on that side and are invisible from every other camera here.
+    "rside":  Vector((0.0, 1.0, 0.0)),
+    "rthreeq": Vector((-0.85, 1.0, 0.42)),
     "top":    Vector((0.0, -0.001, 1.0)),
 }
 

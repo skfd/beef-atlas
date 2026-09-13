@@ -503,3 +503,10 @@ body[data-mode="anatomy"] #c-explode { display: none; }
   #anat-controls { gap: 8px; flex-wrap: wrap; }
   #anat-controls .layers { gap: 6px; }
 }
+
+.d-hint {
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--ink-faint);
+  font-size: 10.5px;
+}

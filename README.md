@@ -1,9 +1,11 @@
 # Beef Atlas
 
-**One animal. Seven ways of taking it apart.** An interactive 3D page showing how the
-United States, the United Kingdom, France, Russia, Brazil, Korea and Japan divide the
-same beef carcass — 153 named cuts drawn on one cow, so the traditions can be compared
-directly rather than as seven unrelated charts.
+**One animal. Seven ways of taking it apart — and what it is made of underneath.** An
+interactive 3D page showing how the United States, the United Kingdom, France, Russia,
+Brazil, Korea and Japan divide the same beef carcass — 153 named cuts drawn on one cow,
+so the traditions can be compared directly rather than as seven unrelated charts — over
+an anatomical model of the same animal, 115 named bones, muscles and organs in the same
+coordinate frame.
 
 ![The US short loin selected, with the equivalent cut in five other traditions](docs/atlas-us-short-loin.png)
 
@@ -16,12 +18,18 @@ is therefore cooked, what it is famous for — and, the part that makes it an at
 **which cuts occupy that same piece of animal everywhere else**. The US short loin is
 91% Russian тонкий край, 82% the British sirloin, 73% Japanese サーロイン, 64% Korean 채끝.
 
-Then switch the model from **Cuts** to **Anatomy** and the carcass opens: the bones,
-muscles and organs that the blocks are actually made of, in the same frame, so the
-short loin lights up the longissimus and the psoas inside it and the longissimus says
-which cut it lands in everywhere. The schematic carcass is still there — it is the
-honest picture of a butchery line, and the anatomy is the honest picture of what the
-line goes through.
+The atlas opens on the **animal**: 41 bones, 49 muscles and 25 organs, built in that
+same frame, so the short loin lights up the longissimus and the psoas inside it and
+the longissimus says which cut it lands in everywhere. The schematic carcass is one
+click away under **Cuts** — it is the honest picture of a butchery line, and the
+anatomy is the honest picture of what the line goes through.
+
+![The anatomy view: 115 named parts under a translucent hide](docs/atlas-anatomy.png)
+
+Peel the superficial muscle away a layer at a time, turn the hide, the organs or the
+skeleton off, or open the near side of the animal with the cutaway:
+
+![The cutaway, with the near half of the animal sliced open](docs/atlas-cutaway.png)
 
 ![The carcass exploded](docs/atlas-exploded.png)
 
@@ -203,8 +211,21 @@ fraction of itself lies outside the hide: a femur poking through an elbow looks 
 from the side and is the first thing you see when the page lets you orbit.
 
 The page shows it with four layer toggles, a peel slider that strips the superficial
-muscle away a layer at a time — forty muscles drawn at once is a red blob — and a
-cutaway plane that opens the near side of the animal.
+muscle away a layer at a time — forty-nine muscles drawn at once is a red blob — and a
+cutaway plane that opens the near side of the animal. It is 115 parts and 229k faces,
+which is 14 MB raw against about 1.1 MB for a whole tradition's cut model; decimating
+it to that size would cost the thing being shown, so it ships Draco-compressed at
+4.2 MB and the decoder comes from the same pinned CDN as three.js.
+
+Which half the preview opens matters, because a ruminant is not symmetric inside: the
+rumen fills the left of the abdomen and the liver, omasum, abomasum and the whole gut
+are on the right. `--cut left|right|both` decides, and `both` is the default.
+
+Two limits of the fit check are worth knowing before you trust it. It runs *after* the
+clip, so for a clipped part it is trivially zero and the real failure signal is the
+build printing `EMPTY`. And the clip does not trim a badly placed part so much as
+delete it: an EXACT boolean against the inset hide returns nothing at all when a part
+is substantially outside.
 
 ## Two Blender traps, in case they bite again
 

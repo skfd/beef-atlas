@@ -51,10 +51,16 @@ Each is `{"system": "...", "sources": [...], "parts": [ ... ]}`.
 | `weld` | voxel size for fusing a multi-piece part, frame units, default 0.0042 |
 | `shape` | one or more primitives, unioned |
 
-Which cuts a muscle belongs to is **not** authored: `tools/make_anatomy_data.py`
-derives it from the part's own bounding box against each tradition's rectangles, the
-same overlap test the page already uses for "the same place, elsewhere". Put the part
-in the right place and the cross-reference follows.
+Which cuts a muscle belongs to is **not** authored. `build_anatomy.py` measures each
+part's bounding box after it has been carved and clipped, `tools/make_anatomy_data.py`
+writes that measurement into `web/data/anatomy.json`, and the page overlaps it with
+each tradition's rectangles — the same test it already uses for "the same place,
+elsewhere", with one difference. A cut and a muscle are nothing like the same size,
+so the page gates on the *smaller* of the two rectangles and then ranks by how much of
+the *cut* the muscle fills. Dividing by the muscle instead rewards short straps: the
+longissimus runs x 0.11 to 0.70 and only a fifth of it is in the US short loin, so it
+would drop out of its own headline cut. Put the part in the right place and the
+cross-reference follows.
 
 ## The four primitives
 
@@ -106,8 +112,10 @@ spindle looks like a muscle. Resist the urge to draw one as a box.
 
 A polygon given as `(x, z)` pairs in the side view, extruded across the body to
 `thick`, centred on `y`. `dome` bows both faces outward in the middle, which is the
-difference between a scapula and a coin. Wind the polygon consistently; it may be
-concave.
+difference between a scapula and a coin — each face is built as the outline, a ring
+pulled in towards the centroid and the centroid itself, and only the inner two move,
+so the part still occupies exactly the rectangle you authored. Wind the polygon
+consistently; it may be concave.
 
 ### `blob` — every organ
 
@@ -121,6 +129,13 @@ concave.
 Ellipsoids — centre then radii, with optional Euler degrees — fused by a voxel remesh
 into one smooth shell. Two or three lumps give a stomach its lobes. Metaballs are the
 obvious tool and `blender/cow.py` records why they are the wrong one.
+
+**Make the lumps overlap hard.** The union of two spheres of radius `r` whose centres
+are `s` apart dips by about `(s/2r)²` at the join, and `smooth` will not take that out
+— it sands the whole organ down instead. A chain where `r` is barely wider than `s`
+comes out as a caterpillar, which is how the rumen looked for three rounds. Aim for
+`r` around three times the spacing and pull the end lumps inward so the sac still
+spans what you meant it to.
 
 ## Building and looking at it
 
@@ -138,9 +153,32 @@ contains it. Look at the renders. A part that is never rendered is not finished.
 `--part semitendinosus,biceps-femoris` builds a subset, which is much faster while
 iterating on one region.
 
+`--cut left|right|both` chooses which half of the hide comes off; `both` is the
+default and also renders `anat_<tag>_rside.png` and `_rthreeq.png`. Which half matters
+more than it sounds: a ruminant is not symmetric inside. The rumen fills the left of
+the abdomen, and the liver, omasum, abomasum, spiral colon, caecum and both kidneys
+are on the right — author those against the right-side pair or you are working blind.
+
 Each part prints its face count and `outside`, the fraction of it poking through the
 hide. Anything over 2% is flagged and is a bug: it is invisible in a side render and
 the first thing you see when the page lets you orbit.
+
+**Two things `outside` will not tell you.** It runs *after* the clip, so for anything
+with `clip` on — every muscle by default — it is trivially 0.0% and means nothing. And
+the clip does not trim a badly placed part so much as delete it: the EXACT boolean
+against the inset hide returns a mesh with no vertices when a part is substantially
+outside, and the build prints `EMPTY <id> -- clipped away entirely` and drops it. For
+a clipped part, **`EMPTY` is the health signal, not `outside`.** Fit the part inside
+the hide yourself and let the clip be a near-no-op.
+
+The hide is also not the shape `FRAME.md` describes. Measured off the mesh the atlas
+actually ships: the belly floor is at z ≈ 0.40 inside, not 0.49; the abdomen is
+±0.155 at rumen height and ±0.185 lower down; at z 0.46 the belly is only ±0.10 wide;
+the neck floor climbs steeply, with nothing below z 0.64 at x 0.78; and the cavity is
+about 0.01 wider on the right all the way from x 0.34 to 0.74. The legs are posed
+staggered, too — hind hooves at x 0.08 and 0.22, fore at 0.62 and 0.67, with different
+y offsets — so `mirror: true` on a limb bone puts one side outside its own leg. Limb
+parts carry two explicit shapes instead.
 
 ## The landmarks worth knowing
 

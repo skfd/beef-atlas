@@ -180,7 +180,11 @@ function loadAnatomy() {
       }
       const part = byId.get(o.name);
       o.castShadow = true;
-      o.receiveShadow = true;
+      // Casting but not receiving. A hundred and fifteen parts packed inside one
+      // body shadow each other into mud the moment the cutaway opens the animal,
+      // and the inside of a chest is exactly what the cutaway exists to show. The
+      // silhouette still lands on the ground, which is all the shadow is for here.
+      o.receiveShadow = false;
       o.material.roughness = part && part.system === 'skeleton' ? 0.42 : 0.58;
       // The cutaway slices the body open; without DoubleSide you look through an
       // opened muscle into an invisible hollow instead of at its cross-section.
@@ -205,14 +209,23 @@ function esc(s) {
     ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
 
-// What fraction of rectangle `a` lies inside rectangle `b`, in the shared frame.
-// Read three ways now: one tradition against another, a cut against the muscles
-// inside it, and a muscle against the cut that contains it.
-function overlapFraction(a, b) {
+// Rectangle overlap in the shared frame, which is the whole trick of the atlas.
+function rectArea(r) {
+  return (r.x[1] - r.x[0]) * (r.z[1] - r.z[0]);
+}
+
+function overlapArea(a, b) {
   const ox = Math.max(0, Math.min(a.x[1], b.x[1]) - Math.max(a.x[0], b.x[0]));
   const oz = Math.max(0, Math.min(a.z[1], b.z[1]) - Math.max(a.z[0], b.z[0]));
-  const area = (a.x[1] - a.x[0]) * (a.z[1] - a.z[0]);
-  return area > 0 ? (ox * oz) / area : 0;
+  return ox * oz;
+}
+
+// What fraction of `a` lies inside `b`. Right for comparing two traditions, whose
+// cuts are the same order of size -- and wrong on its own for comparing a muscle
+// with a cut, see musclesIn.
+function overlapFraction(a, b) {
+  const area = rectArea(a);
+  return area > 0 ? overlapArea(a, b) / area : 0;
 }
 
 function buildCultureTabs() {
@@ -283,24 +296,50 @@ function buildPartList() {
     `Anatomy — ${anatomy.parts.length} parts`;
 }
 
-// The muscles that make up a cut, and the cuts that contain a muscle, are the same
-// rectangle overlap read in the two directions.
+// A cut and a muscle are nothing like the same size, so which denominator you divide
+// the overlap by decides the answer. Dividing by the muscle -- the test that is right
+// between two traditions -- rewards short straps and punishes long ones: the
+// longissimus runs x 0.11 to 0.70 and only 21% of it is in the US short loin, so it
+// would drop below any sensible threshold and the atlas would fail to name the one
+// muscle its own front page leads with, while the 2cm quadratus lumborum topped the
+// list. So: gate on the *smaller* of the two rectangles, which asks "do these two
+// really coincide" symmetrically, and then rank by how much of the cut the muscle
+// fills, which is the question a cut is asking.
+const COINCIDE = 0.25;
+
 function musclesIn(cut) {
   if (!anatomy) return [];
+  const cutArea = rectArea(cut);
   return anatomy.parts
     .filter(p => p.system === 'muscle')
-    .map(part => ({ part, f: overlapFraction(part, cut) }))
-    .filter(m => m.f >= 0.3)
-    .sort((a, b) => b.f - a.f);
+    .map(part => {
+      const o = overlapArea(part, cut);
+      return {
+        part,
+        fill: cutArea > 0 ? o / cutArea : 0,
+        iom: o / Math.max(Math.min(rectArea(part), cutArea), 1e-9),
+      };
+    })
+    .filter(m => m.iom >= COINCIDE)
+    .sort((a, b) => (b.fill - a.fill) || (b.iom - a.iom));
 }
 
+// The same overlap read the other way: of this muscle, how much lands in that cut.
 function cutsFor(part) {
+  const partArea = rectArea(part);
   const out = [];
   for (const c of cultures) {
     const best = c.cuts
-      .map(cut => ({ cut, f: overlapFraction(part, cut) }))
-      .filter(o => o.f >= 0.2)
-      .sort((a, b) => b.f - a.f)[0];
+      .map(cut => {
+        const o = overlapArea(part, cut);
+        return {
+          cut, o,
+          f: partArea > 0 ? o / partArea : 0,
+          iom: o / Math.max(Math.min(rectArea(cut), partArea), 1e-9),
+        };
+      })
+      .filter(m => m.iom >= COINCIDE)
+      .sort((a, b) => b.o - a.o)[0];
     if (best) out.push({ culture: c, ...best });
   }
   return out;
@@ -331,7 +370,7 @@ function renderDetail(cut) {
     `<span class="el-pct">${Math.round(o.f * 100)}%</span></li>`).join('');
 
   const madeOf = musclesIn(cut).slice(0, 8).map(m =>
-    `<li data-part="${esc(m.part.id)}"><span class="el-flag">${Math.round(m.f * 100)}%` +
+    `<li data-part="${esc(m.part.id)}"><span class="el-flag">${Math.round(m.fill * 100)}%` +
     `</span><span class="el-name">${esc(m.part.name)}</span>` +
     `<span class="el-pct">${esc(m.part.latin || '')}</span></li>`).join('');
 
@@ -356,7 +395,7 @@ function renderDetail(cut) {
       ? `<p class="d-note">In life this is a thin sheet of muscle rather than a block.
          The atlas carves it the full width of the body, so treat the slab as
          "whereabouts", not as the shape of the cut.</p>` : '') +
-    (madeOf ? `<p class="d-label">What it is made of</p>
+    (madeOf ? `<p class="d-label">What it is made of <span class="d-hint">— how much of the cut each muscle fills</span></p>
                <ul class="elsewhere muscles">${madeOf}</ul>
                <button class="text-btn see-anatomy">Open it on the animal →</button>` : '') +
     (elsewhere ? `<p class="d-label">The same place, elsewhere</p>

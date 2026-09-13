@@ -226,30 +226,38 @@ def plate(poly, y, thick, dome=0.0, name="plate"):
     """A polygon in the side view -- (x, z) pairs -- given a thickness across the body.
 
     `dome` bows the faces outward in the middle, which is what turns a flat cutout
-    into a scapula rather than a coin.
+    into a scapula rather than a coin. It needs somewhere to bow: an outline on its
+    own has every vertex the same distance from the centroid, so lifting by distance
+    lifts all of them equally and the slab stays exactly as flat as it started. Each
+    face is therefore built as the outline, a ring pulled in towards the centroid,
+    and the centroid itself, and only the inner two are raised. The outline does not
+    move, so the part still occupies precisely the rectangle it was authored in.
     """
     pts = [Vector((p[0], 0.0, p[1])) * SCALE for p in poly]
-    cx = sum(p.x for p in pts) / len(pts)
-    cz = sum(p.z for p in pts) / len(pts)
-    spread = max(max(abs(p.x - cx) for p in pts),
-                 max(abs(p.z - cz) for p in pts)) or 1.0
-    bm = bmesh.new()
-    rings = []
-    for sign in (1, -1):
-        ring = []
-        for p in pts:
-            d = math.hypot(p.x - cx, p.z - cz) / spread
-            lift = dome * SCALE * max(0.0, 1.0 - d * d)
-            ring.append(bm.verts.new((p.x,
-                                      y * SCALE + sign * (thick * SCALE / 2.0 + lift),
-                                      p.z)))
-        rings.append(ring)
-    bm.faces.new(rings[0])
-    bm.faces.new(list(reversed(rings[1])))
     n = len(pts)
+    cx = sum(p.x for p in pts) / n
+    cz = sum(p.z for p in pts) / n
+    half = thick * SCALE / 2.0
+    bm = bmesh.new()
+
+    def face(sign):
+        out = [bm.verts.new((p.x, y * SCALE + sign * half, p.z)) for p in pts]
+        inner, lift = [], dome * SCALE
+        for p in pts:
+            q = Vector((cx, 0.0, cz)).lerp(Vector((p.x, 0.0, p.z)), 0.55)
+            inner.append(bm.verts.new((q.x, y * SCALE + sign * (half + lift * 0.74),
+                                       q.z)))
+        mid = bm.verts.new((cx, y * SCALE + sign * (half + lift), cz))
+        for i in range(n):
+            j = (i + 1) % n
+            bm.faces.new((out[i], out[j], inner[j], inner[i]))
+            bm.faces.new((inner[i], inner[j], mid))
+        return out
+
+    top, bottom = face(1), face(-1)
     for i in range(n):
         j = (i + 1) % n
-        bm.faces.new((rings[0][i], rings[0][j], rings[1][j], rings[1][i]))
+        bm.faces.new((top[i], top[j], bottom[j], bottom[i]))
     bmesh.ops.recalc_face_normals(bm, faces=bm.faces)
     return _link(bm, name)
 

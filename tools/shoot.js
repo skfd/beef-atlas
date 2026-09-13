@@ -160,14 +160,26 @@ const outDir = process.argv[3] || path.join(__dirname, '..', 'build', 'shots');
   // and back the other way: a cut should say what it is made of
   await page.click('#modes button[data-mode="cuts"]');
   await page.waitForTimeout(600);
-  const loinCuts = await page.$$('#cut-list li');
-  await loinCuts[2].click();
+  // Not "did it list anything" but "did it list the right thing". A cut ranked by
+  // the wrong denominator still returns a full list -- it just quietly leaves the
+  // longissimus out of the short loin, which is the sentence this atlas leads with.
+  const loin = await page.$('#cut-list li[data-id="short_loin"]');
+  await loin.click();
   await page.waitForSelector('#detail:not([hidden])', { timeout: 5000 });
-  const madeOf = await page.$$eval('#detail .elsewhere.muscles li', els =>
+  const madeOf = await page.$$eval('#detail .elsewhere.muscles .el-name', els =>
     els.map(e => e.textContent.trim()));
   console.log(`cut "${(await page.textContent('.d-native')).trim()}" is made of ` +
-              `${madeOf.length} muscles: ${madeOf.slice(0, 3).join(' / ')}`);
+              `${madeOf.length} muscles: ${madeOf.slice(0, 4).join(' / ')}`);
   if (!madeOf.length) throw new Error('a cut listed no muscles -- the cross-reference is dead');
+  for (const must of ['Longissimus dorsi', 'Psoas major']) {
+    if (!madeOf.includes(must)) {
+      throw new Error(`the US short loin did not list ${must}: got ${madeOf.join(', ')}`);
+    }
+  }
+  if (madeOf.indexOf('Longissimus dorsi') > 1) {
+    throw new Error(`the longissimus ranked ${madeOf.indexOf('Longissimus dorsi') + 1}` +
+                    ` in the short loin, behind ${madeOf.slice(0, 2).join(' and ')}`);
+  }
   await shot('10-cut-made-of', 700);
 
   await browser.close();

@@ -1,0 +1,2793 @@
+{
+ "parts": [
+  {
+   "id": "cranium",
+   "name": "Cranium",
+   "latin": "Cranium",
+   "system": "skeleton",
+   "group": "head",
+   "depth": 0,
+   "colour": "#e5ded0",
+   "blurb": "The long bovine face: over half the skull lies in front of the eyes as nasal and maxillary bone, with a broad flat frontal carrying the horn bases and the braincase shoved right back to the poll.",
+   "beef": "",
+   "x": [
+    0.8425,
+    0.9847
+   ],
+   "y": [
+    -0.043,
+    0.043
+   ],
+   "z": [
+    0.7834,
+    0.9713
+   ],
+   "faces": 2286
+  },
+  {
+   "id": "mandible",
+   "name": "Mandible",
+   "latin": "Mandibula",
+   "system": "skeleton",
+   "group": "head",
+   "depth": 0,
+   "colour": "#e5ded0",
+   "blurb": "The lower jaw: two long rami joined at the chin and hinged high and far back, so the jaw swings sideways. A cow grinds, it does not bite.",
+   "beef": "",
+   "x": [
+    0.8515,
+    0.9815
+   ],
+   "y": [
+    -0.0542,
+    0.0542
+   ],
+   "z": [
+    0.7637,
+    0.9089
+   ],
+   "faces": 3269
+  },
+  {
+   "id": "horn-core",
+   "name": "Horn core",
+   "latin": "Processus cornualis",
+   "system": "skeleton",
+   "group": "head",
+   "depth": 0,
+   "colour": "#e5ded0",
+   "blurb": "A hollow bony spike grown out of the frontal bone and open into the frontal sinus, so a horn really is an outgrowth of the skull with a keratin sheath over it. Most beef animals are polled or disbudded and never grow one.",
+   "beef": "",
+   "x": [
+    0.8695,
+    0.897
+   ],
+   "y": [
+    -0.0582,
+    0.0621
+   ],
+   "z": [
+    0.9389,
+    0.9648
+   ],
+   "faces": 371
+  },
+  {
+   "id": "hyoid",
+   "name": "Hyoid apparatus",
+   "latin": "Apparatus hyoideus",
+   "system": "skeleton",
+   "group": "head",
+   "depth": 2,
+   "colour": "#e5ded0",
+   "blurb": "A jointed strap of small bones slung from the base of the skull that carries the tongue and the larynx. Nothing else in the body hangs off bone this way.",
+   "beef": "",
+   "x": [
+    0.8771,
+    0.9273
+   ],
+   "y": [
+    -0.0452,
+    0.0452
+   ],
+   "z": [
+    0.7798,
+    0.8736
+   ],
+   "faces": 1233
+  },
+  {
+   "id": "atlas",
+   "name": "Atlas (C1)",
+   "latin": "Atlas",
+   "system": "skeleton",
+   "group": "axial",
+   "depth": 2,
+   "colour": "#e5ded0",
+   "blurb": "The first neck bone: a ring with no body and no spine, just two broad wings. It carries the skull on a pair of rockers, and that joint is the one that nods the head.",
+   "beef": "",
+   "x": [
+    0.8273,
+    0.8887
+   ],
+   "y": [
+    -0.0571,
+    0.0571
+   ],
+   "z": [
+    0.8759,
+    0.9301
+   ],
+   "faces": 1493
+  },
+  {
+   "id": "axis",
+   "name": "Axis (C2)",
+   "latin": "Axis",
+   "system": "skeleton",
+   "group": "axial",
+   "depth": 2,
+   "colour": "#e5ded0",
+   "blurb": "The second neck bone and the longest of the seven, with a peg — the dens — that the atlas pivots on. This is the joint that turns the head sideways.",
+   "beef": "",
+   "x": [
+    0.802,
+    0.8663
+   ],
+   "y": [
+    -0.0233,
+    0.0233
+   ],
+   "z": [
+    0.8573,
+    0.9187
+   ],
+   "faces": 1154
+  },
+  {
+   "id": "cervical-vertebrae",
+   "name": "Cervical vertebrae (C3-C7)",
+   "latin": "Vertebrae cervicales",
+   "system": "skeleton",
+   "group": "axial",
+   "depth": 2,
+   "colour": "#e5ded0",
+   "blurb": "Five big-bodied vertebrae with short spines, carried low in the neck. They are what lets a cow sweep her head to the ground and back up all day; the crest above them is nuchal ligament, not bone.",
+   "beef": "",
+   "x": [
+    0.6827,
+    0.8342
+   ],
+   "y": [
+    -0.0567,
+    0.0567
+   ],
+   "z": [
+    0.7592,
+    0.897
+   ],
+   "faces": 4752
+  },
+  {
+   "id": "thoracic-vertebrae",
+   "name": "Thoracic vertebrae (T1-T13)",
+   "latin": "Vertebrae thoracicae",
+   "system": "skeleton",
+   "group": "axial",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "Thirteen vertebrae, one for each pair of ribs. Their spinous processes lean back and are tallest over T2-T5, which is what lifts the withers above the line of the back; from there they shorten steadily towards the loin.",
+   "beef": "The chine of a rib roast, and the feather bones a butcher lifts out of it.",
+   "x": [
+    0.4383,
+    0.7118
+   ],
+   "y": [
+    -0.0407,
+    0.0407
+   ],
+   "z": [
+    0.7805,
+    0.891
+   ],
+   "faces": 9755
+  },
+  {
+   "id": "lumbar-vertebrae",
+   "name": "Lumbar vertebrae (L1-L6)",
+   "latin": "Vertebrae lumbales",
+   "system": "skeleton",
+   "group": "axial",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "Six vertebrae bridging the unsupported span between the last rib and the pelvis. Their transverse processes are long flat wings that roof the flank, and the longissimus running over them is the most valuable muscle on the animal.",
+   "beef": "The chine of the short loin: the bone that makes a T-bone a T, and the backbone split down a porterhouse.",
+   "x": [
+    0.2939,
+    0.4563
+   ],
+   "y": [
+    -0.0901,
+    0.0901
+   ],
+   "z": [
+    0.7832,
+    0.8648
+   ],
+   "faces": 8140
+  },
+  {
+   "id": "sacrum",
+   "name": "Sacrum",
+   "latin": "Os sacrum",
+   "system": "skeleton",
+   "group": "axial",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "Five vertebrae fused into one wedge and bolted to both halves of the pelvis, so the drive of the hind legs passes straight into the spine.",
+   "beef": "",
+   "x": [
+    0.0803,
+    0.3036
+   ],
+   "y": [
+    -0.0817,
+    0.0817
+   ],
+   "z": [
+    0.789,
+    0.8549
+   ],
+   "faces": 4263
+  },
+  {
+   "id": "caudal-vertebrae",
+   "name": "Caudal vertebrae",
+   "latin": "Vertebrae caudales",
+   "system": "skeleton",
+   "group": "axial",
+   "depth": 0,
+   "colour": "#e5ded0",
+   "blurb": "About eighteen tail bones, losing their arches and processes as they go until the last are plain rods. The tail is a fly swat and a balance pole, and the first few bones are thick enough to feel through the skin.",
+   "beef": "Oxtail: the jointed bones behind rabo de toro and the richest stock on the carcass.",
+   "x": [
+    0.0144,
+    0.0871
+   ],
+   "y": [
+    -0.0127,
+    0.039
+   ],
+   "z": [
+    0.3477,
+    0.8165
+   ],
+   "faces": 528
+  },
+  {
+   "id": "rib-01",
+   "name": "Rib 1",
+   "latin": "Costa 1",
+   "system": "skeleton",
+   "group": "thorax",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "Short, thick and almost upright. With the first thoracic vertebra it frames the doorway the windpipe, gullet and great vessels pass through into the chest.",
+   "beef": "",
+   "x": [
+    0.6731,
+    0.7044
+   ],
+   "y": [
+    -0.0974,
+    0.0974
+   ],
+   "z": [
+    0.5063,
+    0.8007
+   ],
+   "faces": 760
+  },
+  {
+   "id": "rib-02",
+   "name": "Rib 2",
+   "latin": "Costa 2",
+   "system": "skeleton",
+   "group": "thorax",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "Still short and steep, and buried under the shoulder blade: the whole front of the rib cage hangs in a muscular sling with no collarbone anywhere.",
+   "beef": "",
+   "x": [
+    0.6532,
+    0.6949
+   ],
+   "y": [
+    -0.1083,
+    0.1083
+   ],
+   "z": [
+    0.5023,
+    0.8006
+   ],
+   "faces": 760
+  },
+  {
+   "id": "rib-03",
+   "name": "Rib 3",
+   "latin": "Costa 3",
+   "system": "skeleton",
+   "group": "thorax",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "Under the blade, where the chuck begins. With no clavicle, this rib carries the forelimb through muscle alone.",
+   "beef": "",
+   "x": [
+    0.6331,
+    0.6788
+   ],
+   "y": [
+    -0.1281,
+    0.1281
+   ],
+   "z": [
+    0.489,
+    0.8006
+   ],
+   "faces": 760
+  },
+  {
+   "id": "rib-04",
+   "name": "Rib 4",
+   "latin": "Costa 4",
+   "system": "skeleton",
+   "group": "thorax",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "Sits at the deepest part of the brisket, where the breastbone is widest.",
+   "beef": "",
+   "x": [
+    0.6131,
+    0.6585
+   ],
+   "y": [
+    -0.1434,
+    0.1434
+   ],
+   "z": [
+    0.4764,
+    0.8006
+   ],
+   "faces": 760
+  },
+  {
+   "id": "rib-05",
+   "name": "Rib 5",
+   "latin": "Costa 5",
+   "system": "skeleton",
+   "group": "thorax",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "The fifth rib is the chuck-to-rib boundary in American cutting, which is why so many primal maps hinge on it.",
+   "beef": "The chuck/rib line: a rib roast is ribs 6-12 in American cutting.",
+   "x": [
+    0.5931,
+    0.6364
+   ],
+   "y": [
+    -0.1556,
+    0.1556
+   ],
+   "z": [
+    0.4696,
+    0.8006
+   ],
+   "faces": 760
+  },
+  {
+   "id": "rib-06",
+   "name": "Rib 6",
+   "latin": "Costa 6",
+   "system": "skeleton",
+   "group": "thorax",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "First rib of the rib primal in most traditions: a standing rib roast starts here.",
+   "beef": "First bone of a standing rib roast, of cote de boeuf and of 꽃갈비.",
+   "x": [
+    0.5732,
+    0.6124
+   ],
+   "y": [
+    -0.1618,
+    0.1618
+   ],
+   "z": [
+    0.4676,
+    0.8006
+   ],
+   "faces": 760
+  },
+  {
+   "id": "rib-07",
+   "name": "Rib 7",
+   "latin": "Costa 7",
+   "system": "skeleton",
+   "group": "thorax",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "Mid rib cage, at the heart girth, the deepest and widest section of the animal.",
+   "beef": "",
+   "x": [
+    0.5531,
+    0.5884
+   ],
+   "y": [
+    -0.1668,
+    0.1668
+   ],
+   "z": [
+    0.4696,
+    0.8006
+   ],
+   "faces": 760
+  },
+  {
+   "id": "rib-08",
+   "name": "Rib 8",
+   "latin": "Costa 8",
+   "system": "skeleton",
+   "group": "thorax",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "The last sternal rib. Its cartilage still reaches the breastbone, so the eight true ribs end here.",
+   "beef": "",
+   "x": [
+    0.5331,
+    0.5624
+   ],
+   "y": [
+    -0.1699,
+    0.1699
+   ],
+   "z": [
+    0.4762,
+    0.8006
+   ],
+   "faces": 760
+  },
+  {
+   "id": "rib-09",
+   "name": "Rib 9",
+   "latin": "Costa 9",
+   "system": "skeleton",
+   "group": "thorax",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "First of the asternal ribs: its cartilage joins the one in front instead of the sternum, and the costal arch begins.",
+   "beef": "",
+   "x": [
+    0.5127,
+    0.5408
+   ],
+   "y": [
+    -0.1719,
+    0.1719
+   ],
+   "z": [
+    0.487,
+    0.8006
+   ],
+   "faces": 760
+  },
+  {
+   "id": "rib-10",
+   "name": "Rib 10",
+   "latin": "Costa 10",
+   "system": "skeleton",
+   "group": "thorax",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "Asternal, longer and more sharply swept back than the true ribs.",
+   "beef": "",
+   "x": [
+    0.4913,
+    0.5208
+   ],
+   "y": [
+    -0.1739,
+    0.1739
+   ],
+   "z": [
+    0.4995,
+    0.8005
+   ],
+   "faces": 760
+  },
+  {
+   "id": "rib-11",
+   "name": "Rib 11",
+   "latin": "Costa 11",
+   "system": "skeleton",
+   "group": "thorax",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "Asternal, arching over the back of the rumen and the deep flank.",
+   "beef": "",
+   "x": [
+    0.4688,
+    0.5008
+   ],
+   "y": [
+    -0.1759,
+    0.1759
+   ],
+   "z": [
+    0.5038,
+    0.8005
+   ],
+   "faces": 760
+  },
+  {
+   "id": "rib-12",
+   "name": "Rib 12",
+   "latin": "Costa 12",
+   "system": "skeleton",
+   "group": "thorax",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "Asternal, and by here the rib cage is already falling away towards the loin.",
+   "beef": "",
+   "x": [
+    0.4463,
+    0.4808
+   ],
+   "y": [
+    -0.178,
+    0.178
+   ],
+   "z": [
+    0.5059,
+    0.8005
+   ],
+   "faces": 760
+  },
+  {
+   "id": "rib-13",
+   "name": "Rib 13",
+   "latin": "Costa 13",
+   "system": "skeleton",
+   "group": "thorax",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "The last rib: the loin-to-rib boundary in every tradition, and the landmark a grader measures backfat against.",
+   "beef": "A carcass is ribbed between the 12th and 13th to expose the ribeye for grading.",
+   "x": [
+    0.4216,
+    0.4608
+   ],
+   "y": [
+    -0.1739,
+    0.1739
+   ],
+   "z": [
+    0.5067,
+    0.8005
+   ],
+   "faces": 760
+  },
+  {
+   "id": "costal-cartilages",
+   "name": "Costal cartilages",
+   "latin": "Cartilagines costales",
+   "system": "skeleton",
+   "group": "thorax",
+   "depth": 1,
+   "colour": "#ded3bb",
+   "blurb": "The gristly continuation of every rib. The first eight pairs reach the breastbone; the last five lean on the pair in front instead, and together they form the costal arch you can run a hand along at the edge of the ribs.",
+   "beef": "",
+   "x": [
+    0.4158,
+    0.7116
+   ],
+   "y": [
+    -0.0763,
+    0.0763
+   ],
+   "z": [
+    0.4487,
+    0.5838
+   ],
+   "faces": 10271
+  },
+  {
+   "id": "sternum",
+   "name": "Sternum",
+   "latin": "Sternum",
+   "system": "skeleton",
+   "group": "thorax",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "Seven segments in a flat keel along the floor of the chest, from the manubrium at the point of the brisket back to the xiphoid cartilage. The eight true ribs reach it through their cartilages.",
+   "beef": "The breastbone. Brisket is cut from over it, and splitting it is how a carcass is opened.",
+   "x": [
+    0.5342,
+    0.7116
+   ],
+   "y": [
+    -0.0201,
+    0.0201
+   ],
+   "z": [
+    0.4513,
+    0.5406
+   ],
+   "faces": 456
+  },
+  {
+   "id": "ilium",
+   "name": "Ilium",
+   "latin": "Os ilium",
+   "system": "skeleton",
+   "group": "hindlimb",
+   "depth": 0,
+   "colour": "#e5ded0",
+   "blurb": "The wing of the pelvis, running from the hip socket up and forward to the hook bone that stands out at the top of the flank. Its inner face is bolted to the sacrum.",
+   "beef": "The hook bone: the corner a grader presses on, and the point the round is sawn around.",
+   "x": [
+    0.138,
+    0.2794
+   ],
+   "y": [
+    -0.1145,
+    0.1145
+   ],
+   "z": [
+    0.6957,
+    0.8219
+   ],
+   "faces": 4892
+  },
+  {
+   "id": "ischium",
+   "name": "Ischium and pubis",
+   "latin": "Os ischii et os pubis",
+   "system": "skeleton",
+   "group": "hindlimb",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "The back floor of the pelvis. It ends behind in the pin bone, the knob either side of the tail head, and meets its opposite number at the pelvic symphysis under the gut.",
+   "beef": "The aitch bone, levered out when a round is boned and the joint a butcher opens to take the hip apart.",
+   "x": [
+    0.066,
+    0.18
+   ],
+   "y": [
+    -0.093,
+    0.093
+   ],
+   "z": [
+    0.6725,
+    0.7882
+   ],
+   "faces": 6635
+  },
+  {
+   "id": "scapula",
+   "name": "Scapula",
+   "latin": "Scapula",
+   "system": "skeleton",
+   "group": "forelimb",
+   "depth": 0,
+   "colour": "#e5ded0",
+   "blurb": "The shoulder blade: a broad triangle with a ridge, the spine of the scapula, down its outer face. Cattle have no collarbone, so it is joined to the trunk by no bone at all. It rides on the outside of the rib cage in a sling of muscle, sloping down and forward from the withers to the point of the shoulder.",
+   "beef": "The blade bone. Flat iron (부채살) is peeled off its outer face and blade steaks are cut across it.",
+   "x": [
+    0.5701,
+    0.7434
+   ],
+   "y": [
+    -0.1167,
+    0.1168
+   ],
+   "z": [
+    0.6129,
+    0.8111
+   ],
+   "faces": 8278
+  },
+  {
+   "id": "humerus",
+   "name": "Humerus",
+   "latin": "Humerus",
+   "system": "skeleton",
+   "group": "forelimb",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "The arm bone, slanting down and back from the shoulder joint to the elbow. Its big front knob is the point of the shoulder, the landmark that divides chuck from neck.",
+   "beef": "",
+   "x": [
+    0.5961,
+    0.754
+   ],
+   "y": [
+    -0.1148,
+    0.117
+   ],
+   "z": [
+    0.489,
+    0.6701
+   ],
+   "faces": 7446
+  },
+  {
+   "id": "radius-ulna",
+   "name": "Radius and ulna",
+   "latin": "Radius et ulna",
+   "system": "skeleton",
+   "group": "forelimb",
+   "depth": 0,
+   "colour": "#e5ded0",
+   "blurb": "The forearm. In cattle the two bones fuse into one, the ulna reduced to a splint down the back except at the top, where its olecranon stands up behind the joint as the point of the elbow and gives the triceps its lever.",
+   "beef": "The fore shank bone. Osso buco and 사골 are cross-cuts through it, and it is what makes shin beef so gelatinous.",
+   "x": [
+    0.5873,
+    0.6997
+   ],
+   "y": [
+    -0.1,
+    0.094
+   ],
+   "z": [
+    0.3009,
+    0.5786
+   ],
+   "faces": 6138
+  },
+  {
+   "id": "carpus",
+   "name": "Carpus",
+   "latin": "Ossa carpi",
+   "system": "skeleton",
+   "group": "forelimb",
+   "depth": 0,
+   "colour": "#e5ded0",
+   "blurb": "Six small bones in two rows: the front knee, which is anatomically a wrist. It is the joint a cow kneels on and the one that swells first when she goes lame.",
+   "beef": "",
+   "x": [
+    0.587,
+    0.6602
+   ],
+   "y": [
+    -0.0847,
+    0.0775
+   ],
+   "z": [
+    0.284,
+    0.3233
+   ],
+   "faces": 1208
+  },
+  {
+   "id": "metacarpus",
+   "name": "Metacarpus (cannon bone)",
+   "latin": "Os metacarpale III et IV",
+   "system": "skeleton",
+   "group": "forelimb",
+   "depth": 0,
+   "colour": "#e5ded0",
+   "blurb": "The cannon bone: the third and fourth metacarpals fused into one column, with a groove down the front where the join shows. A cow walks on two toes and this single bone carries the weight down to them.",
+   "beef": "One of the four cannon bones simmered for 사골 broth, and the shank end of a foreshank.",
+   "x": [
+    0.588,
+    0.6546
+   ],
+   "y": [
+    -0.0813,
+    0.074
+   ],
+   "z": [
+    0.1138,
+    0.3008
+   ],
+   "faces": 2303
+  },
+  {
+   "id": "fore-phalanges",
+   "name": "Fore phalanges",
+   "latin": "Phalanges",
+   "system": "skeleton",
+   "group": "forelimb",
+   "depth": 0,
+   "colour": "#e5ded0",
+   "blurb": "Three bones in each of the two weight-bearing toes, ending in the coffin bone inside the hoof. The sesamoids behind the fetlock take the strain of the flexor tendons.",
+   "beef": "",
+   "x": [
+    0.5887,
+    0.6713
+   ],
+   "y": [
+    -0.0892,
+    0.0732
+   ],
+   "z": [
+    0.0277,
+    0.1312
+   ],
+   "faces": 2838
+  },
+  {
+   "id": "femur",
+   "name": "Femur",
+   "latin": "Os femoris",
+   "system": "skeleton",
+   "group": "hindlimb",
+   "depth": 2,
+   "colour": "#e5ded0",
+   "blurb": "The thigh bone, the heaviest in the body. Its ball head sits in the hip socket and the great trochanter beside it is the lever every muscle of the round pulls on.",
+   "beef": "",
+   "x": [
+    0.1233,
+    0.2301
+   ],
+   "y": [
+    -0.1702,
+    0.1348
+   ],
+   "z": [
+    0.4542,
+    0.7656
+   ],
+   "faces": 8971
+  },
+  {
+   "id": "patella",
+   "name": "Patella",
+   "latin": "Patella",
+   "system": "skeleton",
+   "group": "hindlimb",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "The kneecap, a sesamoid grown inside the tendon of the quadriceps. In cattle it can be hooked over a ridge on the femur so the animal stands for hours without spending muscle on it.",
+   "beef": "",
+   "x": [
+    0.1694,
+    0.2407
+   ],
+   "y": [
+    -0.15,
+    0.1142
+   ],
+   "z": [
+    0.4808,
+    0.5164
+   ],
+   "faces": 516
+  },
+  {
+   "id": "tibia",
+   "name": "Tibia",
+   "latin": "Tibia",
+   "system": "skeleton",
+   "group": "hindlimb",
+   "depth": 0,
+   "colour": "#e5ded0",
+   "blurb": "The gaskin bone, running down and back from the stifle to the hock. Below the muscle of the second thigh it lies close under the skin for its whole lower half.",
+   "beef": "The hind shank: the sweeter of the two osso buco bones, and 사골 broth.",
+   "x": [
+    0.0431,
+    0.2225
+   ],
+   "y": [
+    -0.1817,
+    0.1241
+   ],
+   "z": [
+    0.2999,
+    0.504
+   ],
+   "faces": 5983
+  },
+  {
+   "id": "fibula",
+   "name": "Fibula",
+   "latin": "Fibula",
+   "system": "skeleton",
+   "group": "hindlimb",
+   "depth": 1,
+   "colour": "#e5ded0",
+   "blurb": "In cattle the fibula is nearly gone: a short spike welded to the top of the tibia, plus a separate nub down at the ankle. A ruminant leg has traded away every bone it can spare for one stiff column.",
+   "beef": "",
+   "x": [
+    0.1126,
+    0.1906
+   ],
+   "y": [
+    -0.1667,
+    0.1224
+   ],
+   "z": [
+    0.4278,
+    0.4794
+   ],
+   "faces": 1120
+  },
+  {
+   "id": "tarsus",
+   "name": "Tarsus (hock)",
+   "latin": "Ossa tarsi",
+   "system": "skeleton",
+   "group": "hindlimb",
+   "depth": 0,
+   "colour": "#e5ded0",
+   "blurb": "The hock: five bones, of which the calcaneus juts back as the point of the hock and gives the Achilles tendon its lever. It is also the hook a carcass hangs from on the rail.",
+   "beef": "",
+   "x": [
+    0.0337,
+    0.1766
+   ],
+   "y": [
+    -0.1854,
+    0.105
+   ],
+   "z": [
+    0.2834,
+    0.3497
+   ],
+   "faces": 1399
+  },
+  {
+   "id": "metatarsus",
+   "name": "Metatarsus (cannon bone)",
+   "latin": "Os metatarsale III et IV",
+   "system": "skeleton",
+   "group": "hindlimb",
+   "depth": 0,
+   "colour": "#e5ded0",
+   "blurb": "The hind cannon bone, longer and rounder in section than the front one. That difference is how a zooarchaeologist tells the two apart in a bone heap.",
+   "beef": "The second pair of 사골 bones, and the shank end of a hind shank.",
+   "x": [
+    0.0456,
+    0.1933
+   ],
+   "y": [
+    -0.1851,
+    0.1023
+   ],
+   "z": [
+    0.1121,
+    0.2928
+   ],
+   "faces": 2413
+  },
+  {
+   "id": "hind-phalanges",
+   "name": "Hind phalanges",
+   "latin": "Phalanges",
+   "system": "skeleton",
+   "group": "hindlimb",
+   "depth": 0,
+   "colour": "#e5ded0",
+   "blurb": "The two hind toes, cloven like the front pair. The outer claw of a hind foot carries more load than the inner, which is why sole ulcers show up there first.",
+   "beef": "",
+   "x": [
+    0.0478,
+    0.225
+   ],
+   "y": [
+    -0.1914,
+    0.1131
+   ],
+   "z": [
+    0.0297,
+    0.1293
+   ],
+   "faces": 2883
+  },
+  {
+   "id": "longissimus",
+   "name": "Longissimus dorsi",
+   "latin": "M. longissimus thoracis et lumborum",
+   "system": "muscle",
+   "group": "back",
+   "depth": 1,
+   "colour": "#9c2b26",
+   "blurb": "The long back muscle, running from the pelvis to the neck either side of the spinous processes. It extends and steadies the spine and barely moves, which is exactly why it stays tender.",
+   "beef": "The loin eye, and the single most valuable muscle on the animal: ribeye and New York strip in the US, entrecôte and faux-filet in France, 등심/채끓 in Korea, リブロース and サーロイン in Japan, contrafilé in Brazil, толстый/тонкий край in Russia.",
+   "x": [
+    0.2344,
+    0.7177
+   ],
+   "y": [
+    -0.1005,
+    0.1016
+   ],
+   "z": [
+    0.7929,
+    0.8789
+   ],
+   "faces": 1295
+  },
+  {
+   "id": "spinalis-dorsi",
+   "name": "Spinalis dorsi",
+   "latin": "M. spinalis et semispinalis thoracis",
+   "system": "muscle",
+   "group": "back",
+   "depth": 1,
+   "colour": "#a8352c",
+   "blurb": "A strap lying along the top of the longissimus over the withers and the fore ribs, tying the thoracic spines together.",
+   "beef": "The ribeye cap or deckle - the fattiest, most prized strip of the rib. 살치살 in Korea, capa de filé in Brazil, chuck flap tail in the US trade, part of the basses côtes in France.",
+   "x": [
+    0.42,
+    0.7419
+   ],
+   "y": [
+    -0.0672,
+    0.0672
+   ],
+   "z": [
+    0.8312,
+    0.8805
+   ],
+   "faces": 964
+  },
+  {
+   "id": "multifidus",
+   "name": "Multifidus",
+   "latin": "Mm. multifidi dorsi",
+   "system": "muscle",
+   "group": "back",
+   "depth": 2,
+   "colour": "#8a2622",
+   "blurb": "Short oblique bundles filling the gutter between the spinous and transverse processes, from the sacrum to the neck; they twist and stabilise one vertebra against the next.",
+   "beef": "Inside the bone of a T-bone or a côte de bœuf, the small dark eye above the vertebral body; sold as part of the chuck roll further forward.",
+   "x": [
+    0.1297,
+    0.7303
+   ],
+   "y": [
+    -0.041,
+    0.041
+   ],
+   "z": [
+    0.788,
+    0.8446
+   ],
+   "faces": 917
+  },
+  {
+   "id": "iliocostalis",
+   "name": "Iliocostalis",
+   "latin": "M. iliocostalis thoracis et lumborum",
+   "system": "muscle",
+   "group": "back",
+   "depth": 2,
+   "colour": "#93302a",
+   "blurb": "The outermost column of the erector spinae, running along the rib angles from the ilium to the neck and bending the trunk sideways.",
+   "beef": "Trimmed off with the rib and chuck as the lifter or blade meat over the ribs; in France it goes into the plat de côtes, in Russia into the покромка.",
+   "x": [
+    0.2198,
+    0.6302
+   ],
+   "y": [
+    -0.1366,
+    0.1372
+   ],
+   "z": [
+    0.7479,
+    0.8082
+   ],
+   "faces": 1047
+  },
+  {
+   "id": "psoas-major",
+   "name": "Psoas major",
+   "latin": "M. psoas major",
+   "system": "muscle",
+   "group": "back",
+   "depth": 2,
+   "colour": "#ab3b31",
+   "blurb": "Slung under the lumbar vertebrae from the last ribs to the lesser trochanter of the femur; it flexes the hip and carries no weight at all, which is the whole reason for its texture.",
+   "beef": "The tenderloin: filet mignon and châteaubriand, filet in France, 안심 in Korea, ヒレ in Japan, filé mignon in Brazil, вырезка in Russia, fillet in Britain. The most tender and least fatty muscle on the carcass.",
+   "x": [
+    0.1542,
+    0.4577
+   ],
+   "y": [
+    -0.0819,
+    0.0819
+   ],
+   "z": [
+    0.6898,
+    0.7627
+   ],
+   "faces": 888
+  },
+  {
+   "id": "psoas-minor",
+   "name": "Psoas minor",
+   "latin": "M. psoas minor",
+   "system": "muscle",
+   "group": "back",
+   "depth": 2,
+   "colour": "#b0453a",
+   "blurb": "A slender strap running alongside and above the psoas major onto the brim of the pelvis, helping to flex the lumbar spine.",
+   "beef": "The chain or side strap peeled off the tenderloin when it is trimmed - not the hanger, which is the diaphragm. Mostly ground or sold as tenderloin tips.",
+   "x": [
+    0.1414,
+    0.4736
+   ],
+   "y": [
+    -0.0469,
+    0.0469
+   ],
+   "z": [
+    0.7413,
+    0.7802
+   ],
+   "faces": 879
+  },
+  {
+   "id": "quadratus-lumborum",
+   "name": "Quadratus lumborum",
+   "latin": "M. quadratus lumborum",
+   "system": "muscle",
+   "group": "back",
+   "depth": 2,
+   "colour": "#85251f",
+   "blurb": "A deep sheet under the lumbar transverse processes, bracing the loin against the sideways pull of the hind limb.",
+   "beef": "Left on the bone when the loin is boned out, or trimmed into the sirloin; it is the scrap of dark meat found under a porterhouse bone.",
+   "x": [
+    0.1938,
+    0.4962
+   ],
+   "y": [
+    -0.05,
+    0.05
+   ],
+   "z": [
+    0.7639,
+    0.7981
+   ],
+   "faces": 896
+  },
+  {
+   "id": "sacrocaudalis",
+   "name": "Sacrocaudalis",
+   "latin": "Mm. sacrocaudales dorsalis et ventralis",
+   "system": "muscle",
+   "group": "back",
+   "depth": 0,
+   "colour": "#8e2d27",
+   "blurb": "The tail's own muscles, arising off the sacrum and running into the caudal vertebrae; they swing the tail all day to keep flies off.",
+   "beef": "Oxtail - queue de bœuf, 꼬리, テール, rabo, хвост. Pure collagen and bone, and the making of a long-simmered broth.",
+   "x": [
+    0.0314,
+    0.098
+   ],
+   "y": [
+    -0.0416,
+    0.0416
+   ],
+   "z": [
+    0.798,
+    0.8596
+   ],
+   "faces": 1334
+  },
+  {
+   "id": "gluteus-medius",
+   "name": "Gluteus medius",
+   "latin": "M. gluteus medius",
+   "system": "muscle",
+   "group": "hindlimb",
+   "depth": 1,
+   "colour": "#a13029",
+   "blurb": "The great hip extensor, filling the wing of the ilium and driving the animal forward at every stride.",
+   "beef": "The heart of the rump: the top sirloin butt centre in the US, rumsteck in France, ランプ in Japan, alcatra in Brazil, кострец in Russia, rump in Britain.",
+   "x": [
+    0.0797,
+    0.3129
+   ],
+   "y": [
+    -0.1069,
+    0.1069
+   ],
+   "z": [
+    0.8003,
+    0.87
+   ],
+   "faces": 979
+  },
+  {
+   "id": "gluteus-superficialis",
+   "name": "Gluteus superficialis",
+   "latin": "M. gluteus superficialis",
+   "system": "muscle",
+   "group": "hindlimb",
+   "depth": 0,
+   "colour": "#932924",
+   "blurb": "In cattle this muscle is fused with the biceps femoris into the gluteobiceps, so it is a cap over the point of the buttock rather than a separate belly; it abducts and extends the hip.",
+   "beef": "The outer skin of the rump - it is taken with the picanha/rump cap in Brazil, with the culotte in France and with the seoldo (설도) in Korea.",
+   "x": [
+    0.0781,
+    0.3055
+   ],
+   "y": [
+    -0.132,
+    0.132
+   ],
+   "z": [
+    0.7507,
+    0.8587
+   ],
+   "faces": 1451
+  },
+  {
+   "id": "tensor-fasciae-latae",
+   "name": "Tensor fasciae latae",
+   "latin": "M. tensor fasciae latae",
+   "system": "muscle",
+   "group": "hindlimb",
+   "depth": 0,
+   "colour": "#aa3e33",
+   "blurb": "A triangular muscle running from the hook bone down into the fascia lata; it tightens the sheet of fascia over the thigh and swings the limb forward.",
+   "beef": "The tri-tip: aiguillette baronne in France, maminha in Brazil, 삼각살 in Korea, bottom sirloin tri-tip in the US, the sirloin tip corner of the UK thick flank.",
+   "x": [
+    0.2012,
+    0.3018
+   ],
+   "y": [
+    -0.1461,
+    0.1461
+   ],
+   "z": [
+    0.5608,
+    0.8445
+   ],
+   "faces": 1458
+  },
+  {
+   "id": "biceps-femoris",
+   "name": "Biceps femoris",
+   "latin": "M. biceps femoris",
+   "system": "muscle",
+   "group": "hindlimb",
+   "depth": 0,
+   "colour": "#8e2823",
+   "blurb": "The huge muscle covering the whole outside of the thigh, from the sacrum and pin bone down to the stifle and hock; it extends the hip and is worked at every step.",
+   "beef": "The bottom round / outside flat in the US, silverside and gîte à la noix in France and Britain, coxão duro in Brazil, 설도 in Korea, ссек in Russia - and its tapering cap, with the fat left on, is the picanha, coulotte or rump cap.",
+   "x": [
+    0.0452,
+    0.1906
+   ],
+   "y": [
+    -0.1545,
+    0.1546
+   ],
+   "z": [
+    0.5308,
+    0.8687
+   ],
+   "faces": 1293
+  },
+  {
+   "id": "semitendinosus",
+   "name": "Semitendinosus",
+   "latin": "M. semitendinosus",
+   "system": "muscle",
+   "group": "hindlimb",
+   "depth": 0,
+   "colour": "#a5342b",
+   "blurb": "A long cylinder down the back of the thigh from the ischium to the tibia, extending the hip and flexing the stifle.",
+   "beef": "The eye of round: rond de gîte or semelle in France, lagarto in Brazil, глазной мускул in Russia, ソトモモ in Japan. Fine-grained and so lean it is used raw for carpaccio and cooked only rare or long.",
+   "x": [
+    0.0418,
+    0.1308
+   ],
+   "y": [
+    -0.1286,
+    0.1286
+   ],
+   "z": [
+    0.5543,
+    0.812
+   ],
+   "faces": 1010
+  },
+  {
+   "id": "semimembranosus",
+   "name": "Semimembranosus",
+   "latin": "M. semimembranosus",
+   "system": "muscle",
+   "group": "hindlimb",
+   "depth": 1,
+   "colour": "#99302a",
+   "blurb": "The big muscle of the inner thigh, from the ischium to the medial femur; it adducts and extends the hip and works less than the outside of the leg.",
+   "beef": "Topside or inside round - tende de tranche in France, 우둔 in Korea, ウチモモ in Japan, coxão mole in Brazil, щуп in Russia. Naturally tender and very lean; the French poire and merlan hide against it.",
+   "x": [
+    0.0561,
+    0.1731
+   ],
+   "y": [
+    -0.1156,
+    0.1156
+   ],
+   "z": [
+    0.5459,
+    0.8349
+   ],
+   "faces": 921
+  },
+  {
+   "id": "adductor",
+   "name": "Adductor",
+   "latin": "M. adductor magnus et brevis",
+   "system": "muscle",
+   "group": "hindlimb",
+   "depth": 2,
+   "colour": "#8d2b26",
+   "blurb": "Deep on the inner thigh between the pelvis and the femur, pulling the leg back under the body.",
+   "beef": "Sold inside the topside/inside round, and the piece a French butcher takes the poire and the merlan from; in Germany and Russia it goes into the огузок.",
+   "x": [
+    0.0944,
+    0.1822
+   ],
+   "y": [
+    -0.0848,
+    0.0848
+   ],
+   "z": [
+    0.5718,
+    0.7807
+   ],
+   "faces": 911
+  },
+  {
+   "id": "obturator-externus",
+   "name": "Obturator externus",
+   "latin": "M. obturatorius externus",
+   "system": "muscle",
+   "group": "hindlimb",
+   "depth": 2,
+   "colour": "#b45248",
+   "blurb": "A small flat muscle covering the obturator foramen on the floor of the pelvis and running into the hip socket; it rotates the thigh outward and bears no load.",
+   "beef": "The araignée or spider steak - a morceau du boucher, two per carcass, webbed with a spidery membrane and richly marbled. In the US it is the oyster or spider steak, in Japan ハツ; grilled fast and eaten saignant.",
+   "x": [
+    0.1189,
+    0.2012
+   ],
+   "y": [
+    -0.0912,
+    0.0912
+   ],
+   "z": [
+    0.6765,
+    0.7325
+   ],
+   "faces": 904
+  },
+  {
+   "id": "quadriceps-femoris",
+   "name": "Quadriceps femoris (vasti)",
+   "latin": "Mm. vastus lateralis, medialis et intermedius",
+   "system": "muscle",
+   "group": "hindlimb",
+   "depth": 1,
+   "colour": "#a83a30",
+   "blurb": "The three vasti wrapping the front and sides of the femur; with the rectus femoris they straighten the stifle and hold the animal up.",
+   "beef": "The knuckle or sirloin tip: tranche grasse in France, シンタマ in Japan, patinho in Brazil, thick flank in Britain, подбедерок in Russia.",
+   "x": [
+    0.1732,
+    0.2759
+   ],
+   "y": [
+    -0.1458,
+    0.1458
+   ],
+   "z": [
+    0.5442,
+    0.7317
+   ],
+   "faces": 994
+  },
+  {
+   "id": "rectus-femoris",
+   "name": "Rectus femoris",
+   "latin": "M. rectus femoris",
+   "system": "muscle",
+   "group": "hindlimb",
+   "depth": 1,
+   "colour": "#b0453a",
+   "blurb": "The one head of the quadriceps that crosses the hip as well as the stifle, running from the ilium straight down to the patella.",
+   "beef": "The centre of the knuckle - シンシン in Japan, the rond de tranche of the French tranche grasse, the core of the US sirloin tip roast.",
+   "x": [
+    0.1838,
+    0.2737
+   ],
+   "y": [
+    -0.1226,
+    0.1226
+   ],
+   "z": [
+    0.5566,
+    0.7772
+   ],
+   "faces": 960
+  },
+  {
+   "id": "gracilis",
+   "name": "Gracilis",
+   "latin": "M. gracilis",
+   "system": "muscle",
+   "group": "hindlimb",
+   "depth": 1,
+   "colour": "#bb5347",
+   "blurb": "A thin flat sheet on the very inside of the thigh, from the pelvic symphysis to the tibia; it draws the leg inward and is paler than the muscles around it.",
+   "beef": "The flat, pale sheet peeled off the inside round - sold with the topside or, trimmed off, ground. In France it is part of the tende de tranche.",
+   "x": [
+    0.0723,
+    0.1827
+   ],
+   "y": [
+    -0.0559,
+    0.0559
+   ],
+   "z": [
+    0.5532,
+    0.7632
+   ],
+   "faces": 917
+  },
+  {
+   "id": "gastrocnemius",
+   "name": "Gastrocnemius",
+   "latin": "M. gastrocnemius",
+   "system": "muscle",
+   "group": "hindlimb",
+   "depth": 0,
+   "colour": "#7d221f",
+   "blurb": "The calf muscle of the gaskin, running from the back of the femur to the point of the hock through the Achilles tendon; it drives the animal forward and never stops working.",
+   "beef": "The heel muscle of the hind shank - gîte or jarret arrière in France, 사태 in Korea, スネ in Japan, ossobuco in Brazil and Italy, голяшка in Russia. All collagen, and the body of a good broth.",
+   "x": [
+    0.153,
+    0.1974
+   ],
+   "y": [
+    -0.12,
+    0.12
+   ],
+   "z": [
+    0.4006,
+    0.5752
+   ],
+   "faces": 1180
+  },
+  {
+   "id": "infraspinatus",
+   "name": "Infraspinatus",
+   "latin": "M. infraspinatus",
+   "system": "muscle",
+   "group": "forelimb",
+   "depth": 1,
+   "colour": "#a4332b",
+   "blurb": "A flat muscle filling the hollow behind the spine of the scapula and running to the head of the humerus, which it steadies like a ligament at every stride.",
+   "beef": "The flat iron or top blade - the second most tender muscle in the carcass once its central sheet of gristle is split out. It is the muscle at the heart of the French paleron, 부채살 in Korea, ミスジ in Japan, oyster blade in Britain and Australia.",
+   "x": [
+    0.5846,
+    0.7165
+   ],
+   "y": [
+    -0.1263,
+    0.127
+   ],
+   "z": [
+    0.6221,
+    0.8474
+   ],
+   "faces": 1350
+  },
+  {
+   "id": "supraspinatus",
+   "name": "Supraspinatus",
+   "latin": "M. supraspinatus",
+   "system": "muscle",
+   "group": "forelimb",
+   "depth": 1,
+   "colour": "#ac3f34",
+   "blurb": "The cone of muscle in front of the scapular spine, reaching down to the greater tubercle of the humerus; it swings the shoulder forward.",
+   "beef": "Chuck tender or mock tender in the US, トウガラシ in Japan (named for its chilli-pepper shape), and part of the French macreuse. Lean and neat-looking but sinewy inside.",
+   "x": [
+    0.6532,
+    0.7458
+   ],
+   "y": [
+    -0.1028,
+    0.1028
+   ],
+   "z": [
+    0.6395,
+    0.851
+   ],
+   "faces": 1438
+  },
+  {
+   "id": "subscapularis",
+   "name": "Subscapularis",
+   "latin": "M. subscapularis",
+   "system": "muscle",
+   "group": "forelimb",
+   "depth": 2,
+   "colour": "#8b2722",
+   "blurb": "The whole inner face of the shoulder blade, between the scapula and the rib cage, pulling the humerus in against the body.",
+   "beef": "Taken with the shoulder clod or the chuck roll; in Japan it falls in the カタロース, in France in the paleron's deeper half.",
+   "x": [
+    0.5858,
+    0.7149
+   ],
+   "y": [
+    -0.079,
+    0.079
+   ],
+   "z": [
+    0.6311,
+    0.8532
+   ],
+   "faces": 877
+  },
+  {
+   "id": "deltoideus",
+   "name": "Deltoid",
+   "latin": "M. deltoideus",
+   "system": "muscle",
+   "group": "forelimb",
+   "depth": 0,
+   "colour": "#97302a",
+   "blurb": "A superficial strap from the spine of the scapula to the deltoid tuberosity of the humerus, flexing the shoulder joint.",
+   "beef": "Sold within the shoulder clod or the arm roast; in Brazil it goes into the paleta, in Russia into the плечевая часть.",
+   "x": [
+    0.5999,
+    0.6909
+   ],
+   "y": [
+    -0.1325,
+    0.1325
+   ],
+   "z": [
+    0.5965,
+    0.8193
+   ],
+   "faces": 1440
+  },
+  {
+   "id": "triceps-brachii",
+   "name": "Triceps brachii",
+   "latin": "M. triceps brachii",
+   "system": "muscle",
+   "group": "forelimb",
+   "depth": 0,
+   "colour": "#92291f",
+   "blurb": "The large wedge behind the humerus, from the caudal border of the scapula to the point of the elbow; it straightens the elbow and takes the shock of landing.",
+   "beef": "The shoulder clod and arm roast - macreuse à pot-au-feu in France, カタ in Japan, paleta in Brazil, плечевая часть in Russia, clod in Britain. Deep-flavoured, and strictly braising meat.",
+   "x": [
+    0.5356,
+    0.6432
+   ],
+   "y": [
+    -0.1531,
+    0.1532
+   ],
+   "z": [
+    0.5492,
+    0.8055
+   ],
+   "faces": 958
+  },
+  {
+   "id": "teres-major",
+   "name": "Teres major",
+   "latin": "M. teres major",
+   "system": "muscle",
+   "group": "forelimb",
+   "depth": 1,
+   "colour": "#b0453a",
+   "blurb": "A small spindle on the caudal border of the scapula running to the medial humerus, drawing the arm backward.",
+   "beef": "The petite tender, bistro filet or shoulder tender - one of the few genuinely tender muscles in the chuck, cut as a small whole roast and grilled.",
+   "x": [
+    0.6057,
+    0.68
+   ],
+   "y": [
+    -0.0856,
+    0.0856
+   ],
+   "z": [
+    0.6305,
+    0.7655
+   ],
+   "faces": 861
+  },
+  {
+   "id": "serratus-ventralis",
+   "name": "Serratus ventralis",
+   "latin": "M. serratus ventralis",
+   "system": "muscle",
+   "group": "forelimb",
+   "depth": 1,
+   "colour": "#a03830",
+   "blurb": "The great fan that slings the trunk between the shoulder blades - cattle have no collarbone, so this muscle, not a joint, is what carries the front of the animal.",
+   "beef": "The Denver steak and boneless short rib of the chuck in the US, ザブトン in Japan, jumeau in France, покромка in Russia. Richly marbled and surprisingly tender for a working muscle.",
+   "x": [
+    0.4703,
+    0.7476
+   ],
+   "y": [
+    -0.1304,
+    0.1304
+   ],
+   "z": [
+    0.6472,
+    0.7922
+   ],
+   "faces": 974
+  },
+  {
+   "id": "latissimus-dorsi",
+   "name": "Latissimus dorsi",
+   "latin": "M. latissimus dorsi",
+   "system": "muscle",
+   "group": "forelimb",
+   "depth": 0,
+   "colour": "#8f2d28",
+   "blurb": "A broad superficial fan from the thoracolumbar fascia forward onto the humerus, pulling the whole forelimb backward under the body.",
+   "beef": "Trimmed as the outer layer of the chuck and rib - it is part of the lifter meat over a rib roast and of the French basses côtes; most of it is ground.",
+   "x": [
+    0.3922,
+    0.6603
+   ],
+   "y": [
+    -0.1392,
+    0.1392
+   ],
+   "z": [
+    0.646,
+    0.8255
+   ],
+   "faces": 1253
+  },
+  {
+   "id": "trapezius",
+   "name": "Trapezius",
+   "latin": "M. trapezius",
+   "system": "muscle",
+   "group": "forelimb",
+   "depth": 0,
+   "colour": "#a63a30",
+   "blurb": "The most superficial muscle of the back, a thin triangle from the nuchal ligament and thoracic spines out to the spine of the scapula; it lifts and steadies the shoulder blade.",
+   "beef": "Skinned off with the fat over the chuck and neck. In zebu cattle it lies over the hump that Brazilians sell as cupim.",
+   "x": [
+    0.4524,
+    0.7975
+   ],
+   "y": [
+    -0.0927,
+    0.0931
+   ],
+   "z": [
+    0.8051,
+    0.8748
+   ],
+   "faces": 1049
+  },
+  {
+   "id": "rhomboideus",
+   "name": "Rhomboideus",
+   "latin": "M. rhomboideus cervicis et thoracis",
+   "system": "muscle",
+   "group": "forelimb",
+   "depth": 1,
+   "colour": "#9a2f28",
+   "blurb": "A thick band under the trapezius running from the nuchal crest and the first thoracic spines to the dorsal border of the scapula, hauling the blade upward.",
+   "beef": "In zebu and zebu-cross cattle this muscle and its fat make the hump: cupim in Brazil, one of the great barbecue cuts. In taurine cattle it is simply chuck.",
+   "x": [
+    0.5365,
+    0.8022
+   ],
+   "y": [
+    -0.0723,
+    0.0732
+   ],
+   "z": [
+    0.8142,
+    0.8898
+   ],
+   "faces": 1399
+  },
+  {
+   "id": "brachiocephalicus",
+   "name": "Brachiocephalicus",
+   "latin": "M. brachiocephalicus",
+   "system": "muscle",
+   "group": "forelimb",
+   "depth": 0,
+   "colour": "#ab4036",
+   "blurb": "The long superficial strap down the side of the neck from the head to the humerus; it swings the foreleg forward and, when the leg is planted, turns the head.",
+   "beef": "Part of the neck and clod - collier in France, 목심 in Korea, ネック in Japan, pescoço in Brazil. Coarse, gelatinous, and the best thing in a long stew.",
+   "x": [
+    0.6683,
+    0.8372
+   ],
+   "y": [
+    -0.0948,
+    0.0948
+   ],
+   "z": [
+    0.6348,
+    0.8017
+   ],
+   "faces": 924
+  },
+  {
+   "id": "omotransversarius",
+   "name": "Omotransversarius",
+   "latin": "M. omotransversarius",
+   "system": "muscle",
+   "group": "forelimb",
+   "depth": 0,
+   "colour": "#b24a3d",
+   "blurb": "A narrow superficial band from the wing of the atlas and the cervical transverse processes to the spine of the scapula, drawing the shoulder forward.",
+   "beef": "Boned out with the neck and clod, and ground; visible as the thin strip over the shoulder when a chuck is seam-butchered.",
+   "x": [
+    0.6518,
+    0.806
+   ],
+   "y": [
+    -0.0967,
+    0.0967
+   ],
+   "z": [
+    0.7369,
+    0.7959
+   ],
+   "faces": 910
+  },
+  {
+   "id": "biceps-brachii",
+   "name": "Biceps brachii",
+   "latin": "M. biceps brachii",
+   "system": "muscle",
+   "group": "forelimb",
+   "depth": 2,
+   "colour": "#a7392f",
+   "blurb": "A spindle in front of the humerus from the scapula to the radius, flexing the elbow and helping to lock the foreleg straight when the animal stands.",
+   "beef": "Inside the arm roast and the shoulder clod, on the front face of the humerus; boned out for braising, or ground.",
+   "x": [
+    0.631,
+    0.687
+   ],
+   "y": [
+    -0.0988,
+    0.0988
+   ],
+   "z": [
+    0.5715,
+    0.6787
+   ],
+   "faces": 960
+  },
+  {
+   "id": "extensor-carpi-radialis",
+   "name": "Extensor carpi radialis",
+   "latin": "M. extensor carpi radialis",
+   "system": "muscle",
+   "group": "forelimb",
+   "depth": 0,
+   "colour": "#832420",
+   "blurb": "The big muscle on the front of the forearm, tapering into a long tendon to the knee; it straightens the carpus at every stride.",
+   "beef": "The fore shank or shin: gîte avant in France, 앞사태 in Korea, スネ in Japan, músculo in Brazil, рулька in Russia. Lean bundles in a sleeve of tendon - bouillon meat.",
+   "x": [
+    0.604,
+    0.6441
+   ],
+   "y": [
+    -0.11,
+    0.1119
+   ],
+   "z": [
+    0.3323,
+    0.5468
+   ],
+   "faces": 1211
+  },
+  {
+   "id": "splenius",
+   "name": "Splenius",
+   "latin": "M. splenius capitis et cervicis",
+   "system": "muscle",
+   "group": "neck",
+   "depth": 1,
+   "colour": "#95291f",
+   "blurb": "A broad triangular sheet from the nuchal ligament and the withers forward to the atlas and the skull; it raises the head, which on a beef animal is heavy work.",
+   "beef": "The neck: collier in France, 목심 in Korea, ネック in Japan, acém and pescoço in Brazil, шея in Russia, neck and clod in Britain.",
+   "x": [
+    0.6393,
+    0.8344
+   ],
+   "y": [
+    -0.0768,
+    0.077
+   ],
+   "z": [
+    0.7802,
+    0.8612
+   ],
+   "faces": 950
+  },
+  {
+   "id": "complexus",
+   "name": "Complexus",
+   "latin": "M. semispinalis capitis",
+   "system": "muscle",
+   "group": "neck",
+   "depth": 2,
+   "colour": "#8a2823",
+   "blurb": "The deep column under the splenius, running from the first thoracic vertebrae to the occiput; with the nuchal ligament it is the cantilever that holds the head out in front of the body.",
+   "beef": "Boned out with the neck, and the source of the neck chain a butcher pulls off the cervical vertebrae; mostly stew and grinding meat.",
+   "x": [
+    0.6274,
+    0.8381
+   ],
+   "y": [
+    -0.059,
+    0.059
+   ],
+   "z": [
+    0.7821,
+    0.8594
+   ],
+   "faces": 889
+  },
+  {
+   "id": "sternocephalicus",
+   "name": "Sternocephalicus",
+   "latin": "M. sternocephalicus",
+   "system": "muscle",
+   "group": "neck",
+   "depth": 0,
+   "colour": "#a83c31",
+   "blurb": "The rope of muscle down the underside of the neck from the sternum to the jaw and mastoid; it pulls the head down to graze.",
+   "beef": "Taken with the neck and the sticking piece - зарез in Russia, part of the collier in France. Tough, stringy, and full of flavour once simmered.",
+   "x": [
+    0.6941,
+    0.8738
+   ],
+   "y": [
+    -0.0651,
+    0.0651
+   ],
+   "z": [
+    0.634,
+    0.7723
+   ],
+   "faces": 934
+  },
+  {
+   "id": "longus-colli",
+   "name": "Longus colli",
+   "latin": "M. longus colli",
+   "system": "muscle",
+   "group": "neck",
+   "depth": 2,
+   "colour": "#b0453a",
+   "blurb": "A deep chain of bundles along the underside of the cervical and first thoracic vertebral bodies, flexing the neck downward.",
+   "beef": "제비추리 (jebichuri, 'swallow's tail') in Korea, a prized grilling strip pulled from the inside of the first ribs; elsewhere it is neck trim and goes into the grinder.",
+   "x": [
+    0.5744,
+    0.8495
+   ],
+   "y": [
+    -0.047,
+    0.047
+   ],
+   "z": [
+    0.7119,
+    0.7682
+   ],
+   "faces": 891
+  },
+  {
+   "id": "masseter",
+   "name": "Masseter",
+   "latin": "M. masseter",
+   "system": "muscle",
+   "group": "head",
+   "depth": 0,
+   "colour": "#9e2f26",
+   "blurb": "The chewing muscle on the side of the jaw. A cow ruminates six to eight hours a day, so this is one of the hardest-working muscles on the animal.",
+   "beef": "Cheek meat: joue de bœuf in France, ox cheek in Britain, cachete or barbacoa in Mexico, 머리고기 in Korea. Braised for hours until it collapses into something silky.",
+   "x": [
+    0.8317,
+    0.9245
+   ],
+   "y": [
+    -0.057,
+    0.0571
+   ],
+   "z": [
+    0.7533,
+    0.8033
+   ],
+   "faces": 1280
+  },
+  {
+   "id": "temporalis",
+   "name": "Temporalis",
+   "latin": "M. temporalis",
+   "system": "muscle",
+   "group": "head",
+   "depth": 0,
+   "colour": "#b04a3e",
+   "blurb": "Fills the temporal fossa on the side of the skull above the eye and closes the jaw with the masseter.",
+   "beef": "Sold with head meat - the small dark nuggets in barbacoa de cabeza and in Korean 머리고기; never a retail cut on its own.",
+   "x": [
+    0.8507,
+    0.9071
+   ],
+   "y": [
+    -0.045,
+    0.045
+   ],
+   "z": [
+    0.7799,
+    0.8121
+   ],
+   "faces": 946
+  },
+  {
+   "id": "pectoralis-profundus",
+   "name": "Deep pectoral",
+   "latin": "M. pectoralis profundus",
+   "system": "muscle",
+   "group": "thorax",
+   "depth": 1,
+   "colour": "#8d2a24",
+   "blurb": "The deep breast muscle, running from the sternum and abdominal tunic forward and up onto the humerus; with no collarbone it is one of the slings that carries the animal's front end.",
+   "beef": "The brisket flat or first cut - gros bout de poitrine in France, 양지 in Korea, カタバラ in Japan, peito in Brazil, грудинка in Russia. The whole premise of Texas barbecue and of corned beef.",
+   "x": [
+    0.48,
+    0.6994
+   ],
+   "y": [
+    -0.09,
+    0.09
+   ],
+   "z": [
+    0.5176,
+    0.6071
+   ],
+   "faces": 888
+  },
+  {
+   "id": "pectoralis-superficialis",
+   "name": "Superficial pectoral",
+   "latin": "M. pectoralis superficialis",
+   "system": "muscle",
+   "group": "thorax",
+   "depth": 0,
+   "colour": "#a13931",
+   "blurb": "The fatty muscle across the point of the breast between the forelegs, holding the limb in against the chest.",
+   "beef": "The brisket point or deckle - 차돌박이 in Korea, sliced paper thin for the grill; burnt ends in the US, and the fattier half of a French gros bout de poitrine.",
+   "x": [
+    0.6407,
+    0.7656
+   ],
+   "y": [
+    -0.0701,
+    0.0701
+   ],
+   "z": [
+    0.5681,
+    0.6736
+   ],
+   "faces": 956
+  },
+  {
+   "id": "rectus-abdominis",
+   "name": "Rectus abdominis",
+   "latin": "M. rectus abdominis",
+   "system": "muscle",
+   "group": "abdomen",
+   "depth": 0,
+   "colour": "#aa4036",
+   "blurb": "The long strap along the floor of the belly from the pubis to the sternum, crossed by tendinous bands; it holds up the enormous weight of the rumen.",
+   "beef": "This is the flank steak: bavette de flanchet in France, 치마살 in Korea, fraldinha in Brazil, пашина in Russia, thin flank in Britain. Long coarse grain, grilled hard and sliced across.",
+   "x": [
+    0.1243,
+    0.6077
+   ],
+   "y": [
+    -0.103,
+    0.103
+   ],
+   "z": [
+    0.5039,
+    0.5521
+   ],
+   "faces": 910
+  },
+  {
+   "id": "obliquus-externus-abdominis",
+   "name": "External oblique",
+   "latin": "M. obliquus externus abdominis",
+   "system": "muscle",
+   "group": "abdomen",
+   "depth": 0,
+   "colour": "#b1483c",
+   "blurb": "The outer of the three sheets of the abdominal wall, its fibres running down and back from the ribs to the linea alba and the hook bone.",
+   "beef": "The outer layer of the flank and plate - flanchet in France, 업진살 in Korea, matambre in Brazil and Argentina, завиток in Russia. Rolled and tied for the pot, or sheeted out for the grill.",
+   "x": [
+    0.2439,
+    0.5966
+   ],
+   "y": [
+    -0.1433,
+    0.1433
+   ],
+   "z": [
+    0.5361,
+    0.7178
+   ],
+   "faces": 989
+  },
+  {
+   "id": "obliquus-internus-abdominis",
+   "name": "Internal oblique",
+   "latin": "M. obliquus internus abdominis",
+   "system": "muscle",
+   "group": "abdomen",
+   "depth": 1,
+   "colour": "#a33a2f",
+   "blurb": "The middle sheet of the belly wall, fanning forward and down from the hook bone to the last ribs; its fibres cross those of the external oblique, which is what makes the abdominal wall strong in every direction.",
+   "beef": "The bavette d'aloyau in France and the flap meat or sirloin flap in the US - カイノミ in Japan, aba de filé in Brazil. Loose-grained, deeply beefy, and treated like a first-class steak despite its grade.",
+   "x": [
+    0.2545,
+    0.491
+   ],
+   "y": [
+    -0.1274,
+    0.1274
+   ],
+   "z": [
+    0.5883,
+    0.7404
+   ],
+   "faces": 985
+  },
+  {
+   "id": "transversus-abdominis",
+   "name": "Transversus abdominis",
+   "latin": "M. transversus abdominis",
+   "system": "muscle",
+   "group": "abdomen",
+   "depth": 2,
+   "colour": "#b45044",
+   "blurb": "The innermost sheet of the abdominal wall, its fibres running straight up and down; it squeezes the abdomen and is what a cow uses to breathe out hard.",
+   "beef": "The inside skirt steak - the American fajita cut, and the thinner of the two skirts. Sold with the flank or plate; in Japan it goes into the トモバラ.",
+   "x": [
+    0.2692,
+    0.4946
+   ],
+   "y": [
+    -0.1073,
+    0.1073
+   ],
+   "z": [
+    0.5898,
+    0.7184
+   ],
+   "faces": 974
+  },
+  {
+   "id": "intercostalis",
+   "name": "Intercostals",
+   "latin": "Mm. intercostales externi et interni",
+   "system": "muscle",
+   "group": "thorax",
+   "depth": 2,
+   "colour": "#8a2722",
+   "blurb": "The two layers of short muscle filling every space between the ribs; they swing the rib cage open and shut with each breath, thirty times a minute, all the animal's life.",
+   "beef": "Rib finger meat - 갈비살 in Korea, the meat between the bones of a plate short rib, the tendron and plat de côtes in France, ponta de agulha in Brazil.",
+   "x": [
+    0.4419,
+    0.6779
+   ],
+   "y": [
+    -0.143,
+    0.143
+   ],
+   "z": [
+    0.569,
+    0.757
+   ],
+   "faces": 988
+  },
+  {
+   "id": "diaphragm",
+   "name": "Diaphragm",
+   "latin": "Diaphragma (pars costalis)",
+   "system": "muscle",
+   "group": "thorax",
+   "depth": 2,
+   "colour": "#b8574a",
+   "blurb": "The dome of muscle and tendon that seals the chest off from the belly and is the engine of breathing: it flattens to draw air in and relaxes to let it out, without ever bearing weight. Its rim is anchored to the last ribs and sternum, its centre is a tendon, and its two pillars reach back under the spine.",
+   "beef": "Its fleshy costal rim is the outside skirt steak - hampe in France, 안창살 in Korea, ハラミ in Japan, диафрагма in Russia. Worked constantly but never loaded, so the grain is long and loose and the flavour almost offal-rich: membrane off, very hot pan, served rare.",
+   "x": [
+    0.4023,
+    0.5377
+   ],
+   "y": [
+    -0.168,
+    0.168
+   ],
+   "z": [
+    0.5155,
+    0.8125
+   ],
+   "faces": 448
+  },
+  {
+   "id": "diaphragm-crus",
+   "name": "Diaphragm, crus",
+   "latin": "Diaphragma (crus dextrum)",
+   "system": "muscle",
+   "group": "thorax",
+   "depth": 2,
+   "colour": "#a5362c",
+   "blurb": "The two pillars of the diaphragm, thick tendinous straps running back from the dome under the spine to the first lumbar vertebrae. They are what the breathing dome pulls against, and they carry none of the animal's weight.",
+   "beef": "The hanger steak - onglet in France, 토시살 in Korea, サガリ in Japan, the butcher's own cut, kept back because there is only one V-shaped piece of it on a carcass. A long, inedible membrane runs down the middle of the V; strip it, grill the two halves hard, and eat them rare.",
+   "x": [
+    0.3838,
+    0.4837
+   ],
+   "y": [
+    -0.0633,
+    0.0633
+   ],
+   "z": [
+    0.6542,
+    0.792
+   ],
+   "faces": 870
+  },
+  {
+   "id": "rumen-dorsal-sac",
+   "name": "Rumen — dorsal sac",
+   "latin": "Saccus dorsalis ruminis",
+   "system": "viscera",
+   "group": "abdomen",
+   "depth": 0,
+   "colour": "#c9ac85",
+   "blurb": "The upper half of the fermentation vat, slung from the roof of the abdomen and reaching from the eighth rib back to the pelvic inlet. The gas cap collects here, and it is what a vet listens for in the left paralumbar fossa — one or two contractions a minute in a healthy cow.",
+   "beef": "Blanket or flat tripe: 양 (yang) in Korea, gras-double in France, the smooth sheet in Italian and Mexican tripe dishes.",
+   "x": [
+    0.1993,
+    0.5206
+   ],
+   "y": [
+    -0.1547,
+    0.0005
+   ],
+   "z": [
+    0.6047,
+    0.7788
+   ],
+   "faces": 6404
+  },
+  {
+   "id": "rumen-ventral-sac",
+   "name": "Rumen — ventral sac",
+   "latin": "Saccus ventralis ruminis",
+   "system": "viscera",
+   "group": "abdomen",
+   "depth": 0,
+   "colour": "#d3bc95",
+   "blurb": "The lower half, resting on the floor of the belly and crossing the midline behind the abomasum. Dorsal and ventral sac together hold 150–200 litres in a mature cow: the rumen alone is most of the abdomen, and it is why a cow is barrel-shaped and why the left flank, not the right, is the one that bulges.",
+   "beef": "The same blanket tripe as the dorsal sac; the caudoventral blind sac is the thickest sheet of it.",
+   "x": [
+    0.1991,
+    0.5663
+   ],
+   "y": [
+    -0.167,
+    0.065
+   ],
+   "z": [
+    0.4225,
+    0.6074
+   ],
+   "faces": 9036
+  },
+  {
+   "id": "reticulum",
+   "name": "Reticulum",
+   "latin": "Reticulum",
+   "system": "viscera",
+   "group": "abdomen",
+   "depth": 1,
+   "colour": "#c3a67f",
+   "blurb": "The honeycomb: the most cranial compartment, lying on the floor of the belly against the diaphragm at about the sixth to eighth rib, a little left of the midline. Only the diaphragm separates it from the pericardium, so a swallowed nail that lodges here can reach the heart — hardware disease.",
+   "beef": "Honeycomb tripe: 벌집양 in Korea, trippa a nido d’ape in Italy, bonnet in Britain, and the piece most cooks mean by menudo.",
+   "x": [
+    0.495,
+    0.6251
+   ],
+   "y": [
+    -0.1024,
+    -0.0019
+   ],
+   "z": [
+    0.4349,
+    0.5272
+   ],
+   "faces": 2124
+  },
+  {
+   "id": "omasum",
+   "name": "Omasum",
+   "latin": "Omasum",
+   "system": "viscera",
+   "group": "abdomen",
+   "depth": 1,
+   "colour": "#c5a87f",
+   "blurb": "The book, or bible: a near-spherical mass of a hundred muscular leaves that wring the water out of the digesta. It is the one forestomach right of the median plane, against the ventral ends of ribs seven to eleven, wedged between the reticulum in front and the abomasum below.",
+   "beef": "Book tripe — 천엽 (cheonyeop), eaten raw with sesame oil in Korea; centopelle in Italy, librillo in Mexico, feuillet in France.",
+   "x": [
+    0.4036,
+    0.5286
+   ],
+   "y": [
+    0.0492,
+    0.1449
+   ],
+   "z": [
+    0.4809,
+    0.6288
+   ],
+   "faces": 2580
+  },
+  {
+   "id": "abomasum",
+   "name": "Abomasum",
+   "latin": "Abomasum",
+   "system": "viscera",
+   "group": "abdomen",
+   "depth": 1,
+   "colour": "#d8c19c",
+   "blurb": "The true stomach, and the only one that secretes acid and pepsin. It lies flat on the abdominal floor from the xiphoid cartilage backwards, mostly right of the midline, its pyloric end curling up and forward on the right. It is also the compartment that goes wrong: a displaced abomasum floats up the left flank between the rumen and the body wall.",
+   "beef": "Reed or leaf tripe — caillette in France, abomaso in Italy; in a suckling calf its lining is the source of rennet.",
+   "x": [
+    0.363,
+    0.6267
+   ],
+   "y": [
+    -0.031,
+    0.1468
+   ],
+   "z": [
+    0.4222,
+    0.5932
+   ],
+   "faces": 728
+  },
+  {
+   "id": "small-intestine",
+   "name": "Small intestine",
+   "latin": "Intestinum tenue",
+   "system": "viscera",
+   "group": "abdomen",
+   "depth": 0,
+   "colour": "#cfae86",
+   "blurb": "Forty metres of duodenum, jejunum and ileum, festooned along a long mesentery and packed into the supraomental recess — the pocket on the RIGHT of the animal between the rumen and the right body wall. Everything the forestomachs have already fermented is absorbed here.",
+   "beef": "곱창 (gopchang), grilled over charcoal in Korea; chinchulines in Argentina, and the casing of every natural-skin sausage.",
+   "x": [
+    0.1934,
+    0.5719
+   ],
+   "y": [
+    0.062,
+    0.1837
+   ],
+   "z": [
+    0.4589,
+    0.6771
+   ],
+   "faces": 1162
+  },
+  {
+   "id": "spiral-colon",
+   "name": "Spiral colon",
+   "latin": "Ansa spiralis coli",
+   "system": "viscera",
+   "group": "abdomen",
+   "depth": 1,
+   "colour": "#c8a883",
+   "blurb": "A ruminant winds its ascending colon into a flat disc the size of a dinner plate, hung in the mesentery on the right: two gyri spiralling inward to a central flexure, then two spiralling back out. Nothing else in a farm animal looks like it, and water is reclaimed the whole way round.",
+   "beef": "Large intestine — 대창 in Korea, chitterlings in the American South, and the gut of tripes à la mode de Caen.",
+   "x": [
+    0.2732,
+    0.4345
+   ],
+   "y": [
+    0.069,
+    0.1441
+   ],
+   "z": [
+    0.5193,
+    0.6725
+   ],
+   "faces": 1282
+  },
+  {
+   "id": "caecum",
+   "name": "Caecum",
+   "latin": "Caecum",
+   "system": "viscera",
+   "group": "abdomen",
+   "depth": 1,
+   "colour": "#c6a47d",
+   "blurb": "A blind cylinder three-quarters of a metre long lying high in the right flank, its closed end pointing backwards at the pelvic inlet. It ferments what the rumen missed. When it fills with gas and twists, a vet finds it by flicking the right paralumbar fossa and listening for a ping.",
+   "beef": "",
+   "x": [
+    0.179,
+    0.4529
+   ],
+   "y": [
+    0.0804,
+    0.1704
+   ],
+   "z": [
+    0.6515,
+    0.747
+   ],
+   "faces": 448
+  },
+  {
+   "id": "descending-colon",
+   "name": "Descending colon and rectum",
+   "latin": "Colon descendens et rectum",
+   "system": "viscera",
+   "group": "abdomen",
+   "depth": 2,
+   "colour": "#c0a07e",
+   "blurb": "The last run of gut, carried forward out of the spiral disc and then straight back beneath the lumbar vertebrae to the pelvis, where the dung is moulded into pellets. An arm in the rectum here, feeling down onto the uterus and ovaries through the wall, is how a cow is pregnancy-checked.",
+   "beef": "",
+   "x": [
+    0.0398,
+    0.4567
+   ],
+   "y": [
+    -0.0258,
+    0.0558
+   ],
+   "z": [
+    0.7,
+    0.76
+   ],
+   "faces": 456
+  },
+  {
+   "id": "liver",
+   "name": "Liver",
+   "latin": "Hepar",
+   "system": "viscera",
+   "group": "abdomen",
+   "depth": 0,
+   "colour": "#6b2f36",
+   "blurb": "Five to eight kilos of liver, pressed flat against the diaphragm and pushed entirely to the RIGHT of the midline by the rumen — in a horse or a dog it straddles the median plane, in a cow it never does. Its lobes are fused into one slab, so a bovine liver has none of the deep fissures a pig’s has.",
+   "beef": "Liver: fegato alla veneziana, foie de bœuf, 간 sliced raw for Korean 간천엽, and liver and onions.",
+   "x": [
+    0.4251,
+    0.5963
+   ],
+   "y": [
+    0.025,
+    0.1686
+   ],
+   "z": [
+    0.5451,
+    0.7908
+   ],
+   "faces": 4422
+  },
+  {
+   "id": "gallbladder",
+   "name": "Gall bladder",
+   "latin": "Vesica biliaris",
+   "system": "viscera",
+   "group": "abdomen",
+   "depth": 1,
+   "colour": "#6f7a3a",
+   "blurb": "Cattle have one and horses do not. It sits in a pocket on the liver’s visceral surface and hangs past the ventral border at about the tenth rib, so a pear of dark green bile is the first thing to see when a beef liver is dropped on the table.",
+   "beef": "",
+   "x": [
+    0.5505,
+    0.5925
+   ],
+   "y": [
+    0.1104,
+    0.1326
+   ],
+   "z": [
+    0.5105,
+    0.5605
+   ],
+   "faces": 448
+  },
+  {
+   "id": "spleen",
+   "name": "Spleen",
+   "latin": "Lien",
+   "system": "viscera",
+   "group": "abdomen",
+   "depth": 0,
+   "colour": "#57303c",
+   "blurb": "Flat, bluish and roughly the shape of a shoe sole, glued to the LEFT dorsal wall of the rumen and lying against the last few ribs. Unlike a horse’s, a cow’s spleen stores almost no blood; it is a lymphoid organ carried along on the outside of the rumen.",
+   "beef": "",
+   "x": [
+    0.446,
+    0.57
+   ],
+   "y": [
+    -0.1634,
+    -0.1115
+   ],
+   "z": [
+    0.592,
+    0.766
+   ],
+   "faces": 92
+  },
+  {
+   "id": "pancreas",
+   "name": "Pancreas",
+   "latin": "Pancreas",
+   "system": "viscera",
+   "group": "abdomen",
+   "depth": 2,
+   "colour": "#c99b7d",
+   "blurb": "A flat, lobulated gland draped across the right side of the abdominal roof behind the liver, wrapped round the portal vein. In cattle its single duct opens into the duodenum well downstream of the bile duct, which is unusual — most species send both down the same opening.",
+   "beef": "",
+   "x": [
+    0.3674,
+    0.4625
+   ],
+   "y": [
+    0.0248,
+    0.1011
+   ],
+   "z": [
+    0.6524,
+    0.6905
+   ],
+   "faces": 1260
+  },
+  {
+   "id": "kidney-right",
+   "name": "Right kidney",
+   "latin": "Ren dexter",
+   "system": "viscera",
+   "group": "urinary",
+   "depth": 2,
+   "colour": "#7c3a45",
+   "blurb": "Fixed under the last rib and the first two or three lumbar transverse processes, held there by peritoneum and a heavy jacket of kidney fat. A bovine kidney is openly lobulated — about twenty lobes you can count on the surface, like a bunch of grapes, where a sheep’s or a horse’s is smooth.",
+   "beef": "Kidney: steak and kidney pudding, rognons de bœuf — and the suet round it is what makes mincemeat and Christmas pudding.",
+   "x": [
+    0.325,
+    0.4428
+   ],
+   "y": [
+    0.0427,
+    0.1054
+   ],
+   "z": [
+    0.6867,
+    0.7553
+   ],
+   "faces": 1963
+  },
+  {
+   "id": "kidney-left",
+   "name": "Left kidney",
+   "latin": "Ren sinister",
+   "system": "viscera",
+   "group": "urinary",
+   "depth": 2,
+   "colour": "#88434e",
+   "blurb": "The surprise of the ruminant abdomen: the rumen is so large that the left kidney never stays on the left. It is shoved across the midline and hangs on its vessels to the RIGHT of the median plane, under the third to fifth lumbar vertebrae — so a cow keeps both kidneys on her right side, and this one swings as the rumen contracts.",
+   "beef": "Comes out with the right kidney, both inside the same sheet of kidney suet.",
+   "x": [
+    0.2588,
+    0.3673
+   ],
+   "y": [
+    0.0307,
+    0.0932
+   ],
+   "z": [
+    0.6265,
+    0.7052
+   ],
+   "faces": 1967
+  },
+  {
+   "id": "bladder",
+   "name": "Urinary bladder",
+   "latin": "Vesica urinaria",
+   "system": "viscera",
+   "group": "urinary",
+   "depth": 1,
+   "colour": "#b9a9b0",
+   "blurb": "Lies on the floor of the pelvis when empty and pushes forward over the pubic brim into the abdomen as it fills. A cow’s urethra is short and wide, which is why urinary stones block steers and bulls and hardly ever block her.",
+   "beef": "",
+   "x": [
+    0.078,
+    0.166
+   ],
+   "y": [
+    -0.04,
+    0.04
+   ],
+   "z": [
+    0.546,
+    0.618
+   ],
+   "faces": 448
+  },
+  {
+   "id": "uterus",
+   "name": "Uterus",
+   "latin": "Uterus bicornis",
+   "system": "viscera",
+   "group": "reproductive",
+   "depth": 2,
+   "colour": "#c08a8f",
+   "blurb": "A short body and two long horns that curl down, forward and outward like a ram’s horns, lying on the bladder at the pelvic inlet. Empty it is a hand’s length; carrying a calf it sinks forward and down into the RIGHT side of the abdomen, because the rumen has taken the left.",
+   "beef": "",
+   "x": [
+    0.0746,
+    0.2313
+   ],
+   "y": [
+    -0.0673,
+    0.0755
+   ],
+   "z": [
+    0.5925,
+    0.6601
+   ],
+   "faces": 1919
+  },
+  {
+   "id": "heart",
+   "name": "Heart",
+   "latin": "Cor",
+   "system": "viscera",
+   "group": "thorax",
+   "depth": 2,
+   "colour": "#8e2b2b",
+   "blurb": "Between the third and sixth ribs, standing on the sternum with its apex down and a little to the left — two to three kilos of muscle, three-fifths of it left of the median plane. Cattle are alone among farm animals in growing two small bones, the ossa cordis, into the heart’s fibrous skeleton.",
+   "beef": "Heart: 염통 grilled in Korea, anticuchos in Peru, cœur de bœuf braised in France — dense, lean, and the cheapest muscle on the animal.",
+   "x": [
+    0.553,
+    0.6616
+   ],
+   "y": [
+    -0.0771,
+    0.0167
+   ],
+   "z": [
+    0.4835,
+    0.6733
+   ],
+   "faces": 3511
+  },
+  {
+   "id": "lung-right",
+   "name": "Right lung",
+   "latin": "Pulmo dexter",
+   "system": "viscera",
+   "group": "thorax",
+   "depth": 0,
+   "colour": "#cf8f96",
+   "blurb": "Distinctly the bigger of the two, with four lobes to the left lung’s two, including an accessory lobe that reaches under the heart across the midline. Cattle lungs have almost no collateral ventilation — each lobule is walled off from its neighbours — which is exactly why pneumonia goes so badly in a feedlot.",
+   "beef": "",
+   "x": [
+    0.5111,
+    0.6911
+   ],
+   "y": [
+    0.0092,
+    0.1603
+   ],
+   "z": [
+    0.4952,
+    0.7884
+   ],
+   "faces": 5518
+  },
+  {
+   "id": "lung-left",
+   "name": "Left lung",
+   "latin": "Pulmo sinister",
+   "system": "viscera",
+   "group": "thorax",
+   "depth": 0,
+   "colour": "#d69aa0",
+   "blurb": "Two lobes, and a deep cardiac notch bitten out of its lower edge where the heart meets the chest wall — that notch is the window a stethoscope listens through. The caudal border runs from the eleventh rib at the top down to the eighth low on the flank, where the diaphragm takes over.",
+   "beef": "",
+   "x": [
+    0.5113,
+    0.689
+   ],
+   "y": [
+    -0.1488,
+    -0.0313
+   ],
+   "z": [
+    0.5227,
+    0.7882
+   ],
+   "faces": 4598
+  },
+  {
+   "id": "thymus",
+   "name": "Thymus",
+   "latin": "Thymus",
+   "system": "viscera",
+   "group": "thorax",
+   "depth": 1,
+   "colour": "#e0c8b4",
+   "blurb": "Large in a calf, running from the front of the chest up both sides of the windpipe into the throat, and all but gone by the time the animal is two. It is an immune organ that works hardest before birth and then quietly shrinks away into fat.",
+   "beef": "Sweetbread — ris de veau. The throat sweetbread is this gland, the heart sweetbread is the pancreas; both are veal rather than beef, because the thymus has already gone in an adult.",
+   "x": [
+    0.6509,
+    0.7567
+   ],
+   "y": [
+    -0.0693,
+    0.0693
+   ],
+   "z": [
+    0.5688,
+    0.6552
+   ],
+   "faces": 3584
+  },
+  {
+   "id": "trachea",
+   "name": "Trachea",
+   "latin": "Trachea",
+   "system": "viscera",
+   "group": "head-neck",
+   "depth": 2,
+   "colour": "#d9d2c4",
+   "blurb": "Fifty-odd cartilage rings down the underside of the neck to a bifurcation inside the chest. Cattle are unusual in having a tracheal bronchus: a branch that leaves the windpipe ahead of the bifurcation and supplies the right cranial lobe on its own.",
+   "beef": "",
+   "x": [
+    0.5885,
+    0.8243
+   ],
+   "y": [
+    -0.0211,
+    0.0211
+   ],
+   "z": [
+    0.579,
+    0.7376
+   ],
+   "faces": 616
+  },
+  {
+   "id": "oesophagus",
+   "name": "Oesophagus",
+   "latin": "Oesophagus",
+   "system": "viscera",
+   "group": "head-neck",
+   "depth": 2,
+   "colour": "#cbb8a6",
+   "blurb": "Runs above the windpipe and a little to its left, over the base of the heart, through the diaphragm and into the cardia at the top of the rumen. In a ruminant it is a two-way street: a cow sends a bolus back up it to chew roughly once a minute through the eight hours a day she spends ruminating.",
+   "beef": "",
+   "x": [
+    0.503,
+    0.8261
+   ],
+   "y": [
+    -0.0548,
+    0.0131
+   ],
+   "z": [
+    0.6388,
+    0.7736
+   ],
+   "faces": 672
+  },
+  {
+   "id": "larynx",
+   "name": "Larynx",
+   "latin": "Larynx",
+   "system": "viscera",
+   "group": "head-neck",
+   "depth": 1,
+   "colour": "#ddd6c6",
+   "blurb": "The box of cartilages at the top of the windpipe that guards the airway and makes the bellow. Its epiglottis has to seat against a bolus travelling the wrong way twice a minute, because a ruminating cow brings her food back up through it all day.",
+   "beef": "",
+   "x": [
+    0.7846,
+    0.8554
+   ],
+   "y": [
+    -0.0254,
+    0.0254
+   ],
+   "z": [
+    0.7145,
+    0.7894
+   ],
+   "faces": 1562
+  },
+  {
+   "id": "tongue",
+   "name": "Tongue",
+   "latin": "Lingua",
+   "system": "viscera",
+   "group": "head-neck",
+   "depth": 1,
+   "colour": "#b9747a",
+   "blurb": "A cow has no upper incisors: she wraps her tongue round a tuft of grass and tears it against a dental pad. It is muscular enough to do that all day and roughened with horny papillae that point backwards, which is why a cow’s lick takes the skin off.",
+   "beef": "Tongue: lengua for tacos de lengua, 탄 and 우설 in Korea, タン塩 grilled with salt and lemon in Japan, lingua salmistrata in Italy, pressed ox tongue in Britain. Two to three kilos, and among the most valuable offal on the animal.",
+   "x": [
+    0.8114,
+    0.9759
+   ],
+   "y": [
+    -0.032,
+    0.032
+   ],
+   "z": [
+    0.783,
+    0.8359
+   ],
+   "faces": 448
+  }
+ ],
+ "missing": [],
+ "sources": [
+  "https://anatomylearner.com/cow-heart-anatomy/",
+  "https://anatomylearner.com/cow-kidney-anatomy/",
+  "https://anatomylearner.com/cow-stomach-anatomy/",
+  "https://bovine.unl.edu/",
+  "https://en.wikipedia.org/wiki/Cut_of_beef",
+  "https://en.wikipedia.org/wiki/Hanger_steak",
+  "https://en.wikipedia.org/wiki/Picanha",
+  "https://en.wikipedia.org/wiki/Withers",
+  "https://en.wikivet.net/Liver_-_Anatomy_%26_Physiology",
+  "https://en.wikivet.net/Renal_Anatomy_-_Anatomy_%26_Physiology",
+  "https://en.wikivet.net/Rumen_-_Anatomy_%26_Physiology",
+  "https://fr.wikipedia.org/wiki/Hampe_(viande)",
+  "https://fr.wikipedia.org/wiki/Onglet_(viande)",
+  "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0215402",
+  "https://open.lib.umn.edu/largeanimalanatomy/chapter/abdomen-2/",
+  "https://pressbooks.umn.edu/ungulateanatomylabguide/chapter/part-2-lungs-and-bronchi/",
+  "https://vet.ucalgary.ca/summercamps/anatomy/thursday/production-animals",
+  "https://veterinaryanatomyguide.com/cow-skeleton/",
+  "https://veterinaryanatomyguide.com/parts-of-the-forelimb-in-cattle/",
+  "https://veterinaryanatomyguide.com/vertebral-formula-of-domestic-animals/",
+  "https://www.beefresearch.org/resources/product-quality/fact-sheets/muscle-profiling",
+  "https://www.chefsteps.com/cuts/beef-top-sirloin-cap",
+  "https://www.k-beef.co.kr/web/eng/contents/M040-05",
+  "https://www.maajournal.com/index.php/maa/article/view/393",
+  "https://www.meatidentifier.com/blog/denver-steak-flat-iron-teres-major-emerging-chuck-cuts-buying-cooking-guide",
+  "https://www.msdvetmanual.com/digestive-system/diseases-of-the-abomasum/left-or-right-displaced-abomasum-and-abomasal-volvulus-in-cattle"
+ ]
+}
