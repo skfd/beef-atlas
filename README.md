@@ -7,6 +7,8 @@ can be compared directly rather than as six unrelated charts.
 
 ![The US short loin selected, with the equivalent cut in five other traditions](docs/atlas-us-short-loin.png)
 
+### → **[Open the atlas](https://skfd.github.io/beef-atlas/)**
+
 **[Read the writeup on how the six traditions differ →](docs/differences.md)**
 
 Pick a cut and the panel tells you what the muscle does on the living animal, how it
@@ -18,8 +20,11 @@ is therefore cooked, what it is famous for — and, the part that makes it an at
 
 ## Running it
 
-The page is static, but it uses ES modules, which browsers refuse to load over
-`file://`. Serve the `web/` folder:
+It is live at **<https://skfd.github.io/beef-atlas/>**, deployed from `web/` by
+`.github/workflows/pages.yml` on every push to `main`.
+
+To run it locally: the page is static, but it uses ES modules, which browsers refuse
+to load over `file://`, so serve the `web/` folder rather than opening the file:
 
 ```sh
 cd web && python -m http.server 8731 --bind 127.0.0.1
