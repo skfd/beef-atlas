@@ -76,6 +76,14 @@ could actually be carved against later.
 A cut-level boundary could not express "longissimus from rib 6 to 12, but spinalis
 whole", which is exactly the common case. Hence per-muscle.
 
+**Known limitation: `from`/`to` can only say which bone a cut crosses, not where along
+it.** Japan's JMGA standard separates かたばら from かたロース about a third of the way
+down the rib — a cut that runs *along* the ribs rather than across them. ザブトン and
+三角バラ are both serratus ventralis over ribs 1–6 and come out with identical bounds,
+distinguishable only by their notes. A dorsoventral term would be needed to fix this,
+and it is deliberately not in the schema yet: it affects a handful of cuts, and adding
+an axis nobody has authored against is how a schema rots.
+
 ### `unmodelled[]`
 
 Muscles the cut genuinely contains that the atlas has not modelled. `latin` plus a

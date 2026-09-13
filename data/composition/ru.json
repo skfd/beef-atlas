@@ -1,7 +1,7 @@
 {
  "culture": "Russia",
  "id": "ru",
- "note": "Russia has the best primary source of any tradition in this atlas, and it answers a slightly different question than expected. GOST 31797-2012 'Myaso. Razdelka govyadiny na otruby' is reachable in full text at https://base.garant.ru/70654172/ - Table 1 complete, items I-IV and 1-24, with the paywall starting only at 5.5 Markirovka - and GOST 7595-79, the retail scheme this atlas's cut file is actually drawn to, is reachable in full at http://omgautovar.narod.ru/gost/maso/3.html. Between them, 16 of the 23 cuts carry a quoted GOST boundary line and 12 are graded standard on bounds, which is the best bounds coverage of any tradition in this table.\n\nWhat GOST 31797-2012 does NOT do is name muscles for the loin. It names no muscle at all for the spinnoy or the poyasnichnyy otrub, so vyrezka = psoas major does fall straight out of it (item 8, poyasnichno-podvzdoshnaya myshtsa) but tonkiy kray = longissimus lumborum does not. Where the standard does name muscles it is excellent and it does so in Russian, muscle by muscle: the hind leg (items 2-7), the tenderloin (item 8) and the shoulder (items 17-21).\n\nThe catch is that GOST uses none of the kitchen names. There is no okovalok, kostrets, oguzok, shchup, ssek, podbederok, tolstyy kray, tonkiy kray, pokromka or chelyshko anywhere in it - only 'verkhnyaya chast tazobedrennogo otruba' and the like. Every kitchen-name cut therefore needs a trade bridge from the market name to a GOST item, and those bridges are graded as the weaker link: a GOST muscle list reached through a trade name is trade, not standard. For four of the hip cuts the bridge is not merely weak but contested - one wholesale price list sells 'Bokovaya chast ... (okovalok)', 'Vneshnyaya chast ... (podbederok)' and 'Vnutrennyaya chast ... (oguzok)', contradicting the mainstream retail usage this atlas's cut file follows on three cuts at once. That disagreement is recorded, not resolved.\n\nWhere the two standards disagree with each other - the spinnoy/poyasnichnyy line (rib 11/12 in 7595-79, rib 13 in 31797-2012), both shanks (mid-bone in 7595-79, at the joint in 31797-2012), the neck (C3-C5 versus the whole neck) and the triceps (in the lopatochnyy otrub for 31797-2012, on the bone of the plechevoy otrub for 7595-79) - both are quoted and the dispute field says which one the drawn rectangle follows. One correction to the cut file's own blurb is reported rather than edited: zavitok is not a kitchen name the standard never mentions, it is item 12 of GOST 31797-2012 with a real boundary along the costal cartilages from the 8th to the 13th rib.",
+ "note": "Russia has the best primary source of any tradition in this atlas, and it answers a slightly different question than expected. GOST 31797-2012 'Myaso. Razdelka govyadiny na otruby' is reachable in full text at https://base.garant.ru/70654172/ - Table 1 complete, items I-IV and 1-24, with the paywall starting only at 5.5 Markirovka - and GOST 7595-79, the retail scheme this atlas's cut file is actually drawn to, is reachable in full at http://omgautovar.narod.ru/gost/maso/3.html. Between them, 16 of the 23 cuts carry a quoted GOST boundary line and 12 are graded standard on bounds, which is the best bounds coverage of any tradition in this table.\n\nWhat GOST 31797-2012 does NOT do is name muscles for the loin. It names no muscle at all for the spinnoy or the poyasnichnyy otrub, so vyrezka = psoas major does fall straight out of it (item 8, poyasnichno-podvzdoshnaya myshtsa) but tonkiy kray = longissimus lumborum does not. Where the standard does name muscles it is excellent and it does so in Russian, muscle by muscle: the hind leg (items 2-7), the tenderloin (item 8) and the shoulder (items 17-21).\n\nThe catch is that GOST uses none of the kitchen names. There is no okovalok, kostrets, oguzok, shchup, ssek, podbederok, tolstyy kray, tonkiy kray, pokromka or chelyshko anywhere in it - only 'verkhnyaya chast tazobedrennogo otruba' and the like. Every kitchen-name cut therefore needs a trade bridge from the market name to a GOST item, and those bridges are graded as the weaker link: a GOST muscle list reached through a trade name is trade, not standard. For four of the hip cuts the bridge is not merely weak but contested - one wholesale price list sells 'Bokovaya chast ... (okovalok)', 'Vneshnyaya chast ... (podbederok)' and 'Vnutrennyaya chast ... (oguzok)', contradicting the mainstream retail usage this atlas's cut file follows on three cuts at once, and a producer's own catalogue (primebeef.ru) independently agrees with the price list on two of them. That disagreement is recorded, not resolved: five cuts end up contested and eight inferred, against three standard and seven trade, which is 43% sourced on muscles. One cut, ssek, was downgraded from trade to contested on review precisely because the bridge its GOST muscle list depends on could not be quoted from any source - an honest contested beats a trade grade resting on an unquoted equation.\n\nWhere the two standards disagree with each other - the spinnoy/poyasnichnyy line (rib 11/12 in 7595-79, rib 13 in 31797-2012), both shanks (mid-bone in 7595-79, at the joint in 31797-2012), the neck (C3-C5 versus the whole neck) and the triceps (in the lopatochnyy otrub for 31797-2012, on the bone of the plechevoy otrub for 7595-79) - both are quoted and the dispute field says which one the drawn rectangle follows. One correction to the cut file's own blurb is reported rather than edited: zavitok is not a kitchen name the standard never mentions, it is item 12 of GOST 31797-2012 with a real boundary along the costal cartilages from the 8th to the 13th rib.",
  "sources": [
   "https://base.garant.ru/70654172/",
   "http://omgautovar.narod.ru/gost/maso/3.html",
@@ -13,6 +13,8 @@
   "https://zelenhutor.ru/blog/blog/gid-po-otrubam-govyadiny-kakoy-dlya-chego/",
   "https://marr.ru/catalog/myaso/govyadina/govyadina-zamorozhennaya-orenbiv-rossiya/kostrets-govyazhiy-bez-kosti-zam/",
   "https://marr.ru/catalog/myaso/govyadina/govyadina-zamorozhennaya-orenbiv-rossiya/",
+  "http://primebeef.ru/cuts/",
+  "https://eda-land.ru/govyadina/chasti/shema-i-nazvaniya/",
   "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf"
  ],
  "cuts": [
@@ -103,6 +105,20 @@
      "quote": "В избранное"
     },
     {
+     "url": "http://primebeef.ru/cuts/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Кострец (Sirloin) МЯКОТЬ БЕДРА (Round) ПАШИНА (Flank) ПОКРОМКА (Short Plate) ГОЛЯШКА (Fore Shank) ГРУДИНКА (Brisket) субпродукты ГОЛЯШКА (Shank) Стейки Рибай Black Angus Стриплойн ШЕЯ (Chuck) Мякоть шеи из мраморной говядины (Chuck Boneless) Наружная часть лопатки, Top Blade, 114D (Top Blade, 114D) Задняя часть лопаточного отруба (Clod, 114E) Филей подлопаточной части Денвер (Under Blade, 116G) Подлопаточный отруб Чак Ай Ролл (Chuck Eye Roll) Стейк Ранчо из мраморной говядины кат. А, охл. (Ranch Steak, 1114E) Стейк порционный Флэт Аэрон (Flat Iron Steak, 114В PSO4) Стейк порционный Чак Ай Ролл (Chuck Eye Roll Steak, 1116D) Стейк Чак Тендер (Chuck Tender, Portioned) Стейк порционный Топ Блейд (Top Blade Steak, 1114D) Стейк порционный Денвер (Denver Steak, 1116G) Cтейк Вегас Стрип (Vegas Strip Steak, 1100) ТОЛСТЫЙ КРАЙ (Rib) Спинной отруб Томагавк, 3-4 ребра (Ribeye, Roast-Ready) Спинной отруб б/к (Ribeye Lip On, 112A) Спинной отруб Рибай на кости (Ribeye, Roast-Ready, 109A) Стейк порционный Рибай (Ribeye Steak, 1112A) Рибай стейк на кости (Ribeye Steak Bone In, 1103) Стейк порционный Томагавк (Tomahawk Steak, 1103B, Long Bone 9) Стейк порционный Ковбой (Cowboy Steak, 1103B) Рёбра мраморной говядины (Back Ribs, 124) ТОНКИЙ КРАЙ (Short Loin) Рёбра Для гриля (Short Ribs, Trimmed 123А) Рёбра Кальби (Short Ribs, Bon In,130) Поясничный отруб Стриплойн б/к (Strip loin, 180 PSO1) Поясничный отруб на кости (Short loin, PSO2) Вырезка Экстра (Tenderloin Defatted, 190) Стейк филе-миньон (Filet Mignon Steak, 1190) Стейк Нью-Йорк (New York Steak, 1180 PSO5) Стейк T-Bone (T-Bone Steak, 1174) Портерхаус стейк (Porterhouse Steak, 1173) Кострец (Sirloin) Мякоть Трай-Тип (Tri-Tip Roast, 185D)"
+    },
+    {
+     "url": "http://primebeef.ru/cuts/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Верхняя часть тазобедренного отруба Топ Сирлойн Батт (Top Sirloin Butt, 184E)"
+    },
+    {
      "url": "http://omgautovar.narod.ru/gost/maso/3.html",
      "supports": [
       "bounds"
@@ -110,7 +126,7 @@
      "quote": "Тазобедренный отруб: передняя граница - по линии отделения поясничного отруба; задняя - поперек берцовой кости на уровне нижней ее трети; нижняя - по линии отделения пашины. В тазобедренный отруб входят: кости таза (подвздошная, лонная, седалищная), крестцовая кость, шестой поясничный и два хвостовых позвонка, бедренная кость, коленная чашечка и верхние 2/3 берцовой кости."
     }
    ],
-   "dispute": "The muscle list is ГОСТ 31797-2012's, but the standard calls this item 'верхняя часть тазобедренного отруба' and never says 'кострец'. The bridge is a wholesale price list (marr.ru), which sells the item as 'Верхняя часть тазобедренного отруба (кострец)'. Because the weaker link in the chain is a trade source, the whole entry is graded trade rather than standard. The boundary ГОСТ gives is a seam, not a saw cut - 'отделенных от подвздошной кости' - so all four named gluteals come away whole."
+   "dispute": "The muscle list is ГОСТ 31797-2012's, but the standard calls this item 'верхняя часть тазобедренного отруба' and never says 'кострец'. Two independent Russian industry sources supply the bridge: a wholesale price list selling 'Верхняя часть тазобедренного отруба (кострец)', and a producer's catalogue whose Кострец section is headed (Sirloin) and contains the верхняя часть as Top Sirloin Butt 184E. Because the weaker link in the chain is a trade source, the whole entry is graded trade rather than standard. The boundary ГОСТ gives is a seam, not a saw cut - 'отделенных от подвздошной кости' - so all four named gluteals come away whole."
   },
   {
    "id": "ssek",
@@ -130,8 +146,8 @@
    ],
    "unmodelled": [],
    "bone_in": false,
-   "evidence": "trade",
-   "bounds_evidence": "trade",
+   "evidence": "contested",
+   "bounds_evidence": "contested",
    "sources": [
     {
      "url": "https://base.garant.ru/70654172/",
@@ -148,6 +164,20 @@
      "quote": "Двуглавая мышца бедра Самая крупная мышца бедра, занимает почти всю наружную (латеральную) поверхность задней части бедра. Выделяют из наручней части тазобедренного отруба"
     },
     {
+     "url": "https://eda-land.ru/govyadina/chasti/shema-i-nazvaniya/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Огузок. Средняя часть бедра, которая, в свою очередь, подразделяется на внутреннюю сторону – щуп, и нижнюю часть – ссек."
+    },
+    {
+     "url": "https://marr.ru/catalog/myaso/govyadina/govyadina-zamorozhennaya-orenbiv-rossiya/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "мин.заказ"
+    },
+    {
      "url": "https://zelenhutor.ru/blog/blog/gid-po-otrubam-govyadiny-kakoy-dlya-chego/",
      "supports": [
       "muscles"
@@ -155,7 +185,7 @@
      "quote": "Ссек и кострец - мясо имеет мало волокон, оно сочное и нежное. Подходит для приготовления жаркого и ромштексов."
     }
    ],
-   "dispute": "ГОСТ 31797-2012 names the muscles of the 'наружная часть тазобедренного отруба'; it does not use the word ссек. The equation ссек = наружная часть is ordinary Russian butcher usage rather than a standard, so the entry is trade. Note that the same wholesale list that names кострец calls the внешняя/наружная part подбедерок instead - Russian trade naming of the hip sub-cuts is not stable; see the огузок and подбедерок entries."
+   "dispute": "Downgraded from trade after review, because the bridge that the muscle list depends on could not be quoted. ГОСТ 31797-2012 names the muscles of the 'наружная часть тазобедренного отруба' - biceps femoris plus semitendinosus - and that is the list carried above, but no source fetched for this table actually says in so many words that ссек is the наружная часть. What the sources do say pulls three ways. (1) eda-land: 'Огузок. Средняя часть бедра, которая, в свою очередь, подразделяется на внутреннюю сторону - щуп, и нижнюю часть - ссек' - ссек is the division of the огузок opposite the щуп, which in ГОСТ terms would be the наружная часть, except that ГОСТ's 'нижняя часть тазобедренного отруба' is a different item again (the gastrocnemius). (2) The marr.ru wholesale list attaches подбедерок, not ссек, to the внешняя часть тазобедренного отруба. (3) Retail blurbs circulate that make ссек the полусухожильная мышца, i.e. the глазной мускул, and equate it with English topside - which would put it on the inside of the leg instead. The biceps femoris reading above is the mainstream butcher usage and the one the drawn rectangle follows, but it is a reading, not a sourced equation."
   },
   {
    "id": "glaznoy-muskul",
@@ -186,9 +216,23 @@
       "muscles"
      ],
      "quote": "Наружная часть тазобедренного отруба бескостная Состоит из двуглавой мышцы бедра и полусухожильной мышцы, расположенных с наружной (латеральной) стороны бедра, покрытых поверхностной пленкой и слоем подкожного жира"
+    },
+    {
+     "url": "http://primebeef.ru/cuts/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Филей наружной части бедра Глазной мускул (Eye of Round, 171C)"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Semitendinosus  Eye of round"
     }
    ],
-   "dispute": "ГОСТ 31797-2012 makes the semitendinosus an отруб in its own right (item 3) and describes exactly the operation the Russian kitchen name records - it is lifted out of the наружная часть, that is, out of the ссек. What ГОСТ does not supply is the name 'глазной мускул'; that comes from the trade, where the item is routinely listed as 'Полусухожильная мышца бедра (глазной мускул)'. Graded trade for that bridge. The boundary is a seam along the whole muscle, not a bone cut, so no from/to applies."
+   "dispute": "ГОСТ 31797-2012 makes the semitendinosus an отруб in its own right (item 3) and describes exactly the operation the Russian kitchen name records - it is lifted out of the наружная часть, that is, out of the ссек - and the shape its name comes from, 'Продолговатая, округлой формы'. What ГОСТ does not supply is the name 'глазной мускул'. That is bridged twice over by trade sources, and the two routes agree: a Russian producer's catalogue lists 'Филей наружной части бедра Глазной мускул (Eye of Round, 171C)', and the Beef Checkoff table gives Semitendinosus = Eye of round. Graded trade for that bridge. The boundary is a seam along the whole muscle rather than a bone cut, so no from/to applies."
   },
   {
    "id": "shchup",
@@ -237,6 +281,13 @@
      "quote": "Внутренняя часть тазобедренного отруба бескостная Состоит из двух толстых мышц - полуперепончатой и приводящей, сросшихся с ними портняжной и гребешковой мышцами, расположенными с внутренней стороны бедра и стройной мышцы, покрывающей все мышцы с внутренней стороны"
     },
     {
+     "url": "https://eda-land.ru/govyadina/chasti/shema-i-nazvaniya/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Огузок. Средняя часть бедра, которая, в свою очередь, подразделяется на внутреннюю сторону – щуп, и нижнюю часть – ссек."
+    },
+    {
      "url": "https://studopediaru.com/4_146130_kulinarnaya-razdelka-i-obvalka-govyazhey-tushi.html",
      "supports": [
       "bounds"
@@ -244,7 +295,7 @@
      "quote": "Разделка передней четвертины."
     }
    ],
-   "dispute": "The five muscles are ГОСТ 31797-2012's list for the 'внутренняя часть тазобедренного отруба', which the кулинарная разделка textbook also carries as a named division of the тазобедренная часть. The word щуп is trade only - and contested: the marr.ru wholesale list sells the внутренняя часть as огузок, not as щуп (see огузок). Graded trade because the name bridge is the weak link, not the muscle list."
+   "dispute": "The five muscles are ГОСТ 31797-2012's list for the 'внутренняя часть тазобедренного отруба', whose muscles it places 'с внутренней стороны бедра'; eda-land puts щуп in the same words, 'подразделяется на внутреннюю сторону - щуп'. That is the bridge, and it is quoted on both sides, which is why this one stays trade where ссек had to be downgraded. The word щуп is trade only, and it is contested: the marr.ru wholesale list and the Primebeef catalogue both sell the внутренняя часть as огузок rather than as щуп (see огузок). The кулинарная разделка textbook carries внутренняя часть as a named division of the тазобедренная часть and names no kitchen equivalent at all."
   },
   {
    "id": "oguzok",
@@ -291,6 +342,20 @@
      "quote": "мин.заказ"
     },
     {
+     "url": "http://primebeef.ru/cuts/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Внутренняя часть тазобедренного отруба Огузок (Beef Round, Top Inside)"
+    },
+    {
+     "url": "https://eda-land.ru/govyadina/chasti/shema-i-nazvaniya/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Огузок. Средняя часть бедра, которая, в свою очередь, подразделяется на внутреннюю сторону – щуп, и нижнюю часть – ссек."
+    },
+    {
      "url": "https://studfile.net/preview/16712235/page:9/",
      "supports": [
       "bounds"
@@ -312,7 +377,7 @@
      "quote": "Внутренняя часть тазобедренного отруба бескостная Состоит из двух толстых мышц - полуперепончатой и приводящей, сросшихся с ними портняжной и гребешковой мышцами, расположенными с внутренней стороны бедра и стройной мышцы, покрывающей все мышцы с внутренней стороны"
     }
    ],
-   "dispute": "Russian sources do not agree what огузок is. (1) The marr.ru wholesale list sells 'Внутренняя часть тазобедренного отруба (огузок)' - огузок is then the semimembranosus block, that is, what other sources call щуп. (2) The товароведение teaching text makes огузок one of three named pieces of the тазобедренный отруб alongside оковалок and кострец, and the retail usage this atlas's cut file follows treats огузок as the parent block that щуп (inside) and ссек (outside) are split out of. Reading (2) is what the drawn rectangle follows. Both are listed rather than one being picked; the muscles above are the union of the two readings and therefore overlap щуп and ссек by construction. No source assigns a muscle to огузок that is not already in one of those two cuts."
+   "dispute": "Russian sources do not agree what огузок is. (1) The marr.ru wholesale list sells 'Внутренняя часть тазобедренного отруба (огузок)' and the Primebeef producer catalogue does the same, glossing it Beef Round, Top Inside - огузок is then the semimembranosus block, that is, what other sources call щуп. (2) eda-land says 'Огузок. Средняя часть бедра, которая, в свою очередь, подразделяется на внутреннюю сторону - щуп, и нижнюю часть - ссек', and the товароведение teaching text makes огузок one of three named pieces of the тазобедренный отруб alongside оковалок and кострец; this is the parent-block reading the atlas's cut file follows. Reading (2) is what the drawn rectangle follows. Both are listed rather than one being picked; the muscles above are the union of the two readings and therefore overlap щуп and ссек by construction. No source assigns a muscle to огузок that is not already in one of those two cuts."
   },
   {
    "id": "podbederok",
@@ -380,9 +445,9 @@
      "id": "gastrocnemius",
      "role": "major",
      "extent": "portion",
-     "from": "femur",
+     "from": "seam",
      "to": "tarsus",
-     "note": "ГОСТ 31797-2012 does NOT put the gastrocnemius in the shank: it makes it item 2, 'нижняя часть тазобедренного отруба', a boneless piece of the hip cut lying under the biceps and semitendinosus. The atlas's голяшка rectangle covers the tibia, so the muscle is split here."
+     "note": "only the distal, tendinous end of it. ГОСТ 31797-2012 does NOT put the gastrocnemius in the shank: it lifts the belly out along a seam as item 2, 'нижняя часть тазобедренного отруба', a boneless piece of the hip cut lying under the biceps and semitendinosus. The atlas's голяшка rectangle covers the tibia, so the muscle is split here."
     }
    ],
    "unmodelled": [
@@ -487,6 +552,13 @@
      "quote": "мин.заказ"
     },
     {
+     "url": "http://primebeef.ru/cuts/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Боковая часть тазобедренного отруба Оковалок, Экстра, мякоть, охлажденная (Knuckle peeled,167А)"
+    },
+    {
      "url": "https://studfile.net/preview/16712235/page:9/",
      "supports": [
       "bounds"
@@ -508,7 +580,7 @@
      "quote": "Боковая часть тазобедренного отруба бескостная Состоит из следующих мышц: четырехглавой бедра, отделенной от переднего края бедренной кости, напрягателя широкой фасции бедра, покрытых поверхностной пленкой и слоем подкожного жира"
     }
    ],
-   "dispute": "Contested in the same way as огузок, and more sharply. (1) The reading this atlas's cut file follows makes оковалок the sirloin - the lumbar meat between the loin proper and the hind leg, 'толстый филей' in the older books - which is the rear end of ГОСТ's поясничный отруб and therefore the back end of the longissimus, the list given above. (2) The marr.ru wholesale list sells 'Боковая часть тазобедренного отруба (оковалок)', which under ГОСТ 31797-2012 is quadriceps femoris plus tensor fasciae latae - the knuckle, i.e. the подбедёрок of this table, and not loin meat at all. (3) The товароведение teaching text places оковалок inside the тазобедренный отруб with кострец and огузок, agreeing with (2) on region and with nobody on muscles. Bounds are inferred: ГОСТ's поясничный отруб has a quoted rear boundary at the ilium, but no standard anywhere splits that отруб into оковалок in front and тонкий край behind, so the front boundary here is the atlas's own line."
+   "dispute": "Contested in the same way as огузок, and more sharply. (1) The reading this atlas's cut file follows makes оковалок the sirloin - the lumbar meat between the loin proper and the hind leg, 'толстый филей' in the older books - which is the rear end of ГОСТ's поясничный отруб and therefore the back end of the longissimus, the list given above. (2) The marr.ru wholesale list sells 'Боковая часть тазобедренного отруба (оковалок)', and the Primebeef producer catalogue independently glosses the same pairing as Knuckle peeled 167A; under ГОСТ 31797-2012 that is quadriceps femoris plus tensor fasciae latae - the knuckle, i.e. the подбедёрок of this table, and not loin meat at all. (3) The товароведение teaching text places оковалок inside the тазобедренный отруб with кострец and огузок, agreeing with (2) on region and with nobody on muscles. Bounds are inferred: ГОСТ's поясничный отруб has a quoted rear boundary at the ilium, but no standard anywhere splits that отруб into оковалок in front and тонкий край behind, so the front boundary here is the atlas's own line."
   },
   {
    "id": "tonkiy-kray",
@@ -565,6 +637,13 @@
      "quote": "Разделка передней четвертины."
     },
     {
+     "url": "http://primebeef.ru/cuts/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "ТОНКИЙ КРАЙ (Short Loin) Кострец (Sirloin) МЯКОТЬ БЕДРА (Round) ПАШИНА (Flank) ПОКРОМКА (Short Plate) ГОЛЯШКА (Fore Shank) ГРУДИНКА (Brisket) субпродукты ГОЛЯШКА (Shank) Стейки Рибай Black Angus Стриплойн ШЕЯ (Chuck) Мякоть шеи из мраморной говядины (Chuck Boneless) Наружная часть лопатки, Top Blade, 114D (Top Blade, 114D) Задняя часть лопаточного отруба (Clod, 114E) Филей подлопаточной части Денвер (Under Blade, 116G) Подлопаточный отруб Чак Ай Ролл (Chuck Eye Roll) Стейк Ранчо из мраморной говядины кат. А, охл. (Ranch Steak, 1114E) Стейк порционный Флэт Аэрон (Flat Iron Steak, 114В PSO4) Стейк порционный Чак Ай Ролл (Chuck Eye Roll Steak, 1116D) Стейк Чак Тендер (Chuck Tender, Portioned) Стейк порционный Топ Блейд (Top Blade Steak, 1114D) Стейк порционный Денвер (Denver Steak, 1116G) Cтейк Вегас Стрип (Vegas Strip Steak, 1100) ТОЛСТЫЙ КРАЙ (Rib) Спинной отруб Томагавк, 3-4 ребра (Ribeye, Roast-Ready) Спинной отруб б/к (Ribeye Lip On, 112A) Спинной отруб Рибай на кости (Ribeye, Roast-Ready, 109A) Стейк порционный Рибай (Ribeye Steak, 1112A) Рибай стейк на кости (Ribeye Steak Bone In, 1103) Стейк порционный Томагавк (Tomahawk Steak, 1103B, Long Bone 9) Стейк порционный Ковбой (Cowboy Steak, 1103B) Рёбра мраморной говядины (Back Ribs, 124) ТОНКИЙ КРАЙ (Short Loin) Рёбра Для гриля (Short Ribs, Trimmed 123А) Рёбра Кальби (Short Ribs, Bon In,130) Поясничный отруб Стриплойн б/к (Strip loin, 180 PSO1)"
+    },
+    {
      "url": "http://omgautovar.narod.ru/gost/maso/3.html",
      "supports": [
       "bounds"
@@ -579,7 +658,7 @@
      "quote": "Поясничный на кости Передняя - между последним грудным (13-м) и первым поясничным позвонками по заднему краю 13-го ребра; задняя - между последним (шестым) поясничным и первым крестцовым позвонками, по переднему (краниальному) краю подвздошной кости (маклока); нижняя - параллельно позвоночному столбу в 75 мм от тел позвонков"
     }
    ],
-   "dispute": "Bounds are standard from both ГОСТ 7595-79 (front at the спинной line between ribs 11 and 12, rear between the 5th and 6th lumbar vertebrae - the scheme the atlas is drawn to) and ГОСТ 31797-2012 (front at the rear edge of rib 13, rear at the ilium). Muscles are trade: the name bridge тонкий край = поясничная часть comes from the кулинарная разделка textbook, and the muscle from a Russian grilling dictionary. ГОСТ 31797-2012 names no muscle whatever for its поясничный отруб."
+   "dispute": "Bounds are standard from both ГОСТ 7595-79 (front at the спинной line between ribs 11 and 12, rear between the 5th and 6th lumbar vertebrae - the scheme the atlas is drawn to) and ГОСТ 31797-2012 (front at the rear edge of rib 13, rear at the ilium). Muscles are trade, on a bridge quoted at every step: the кулинарная разделка textbook gives 'VIII - поясничная часть (тонкий край)', the Primebeef catalogue heads its ТОНКИЙ КРАЙ section (Short Loin) and files the поясничный отруб under it as Strip loin, and a Russian grilling dictionary supplies the muscle. ГОСТ 31797-2012 names no muscle whatever for its поясничный отруб - this is the cut where the expectation that a ГОСТ would hand over longissimus lumborum fails."
   },
   {
    "id": "tolstyy-kray",
@@ -650,6 +729,13 @@
      "quote": "Разделка передней четвертины."
     },
     {
+     "url": "http://primebeef.ru/cuts/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "ТОЛСТЫЙ КРАЙ (Rib) ТОНКИЙ КРАЙ (Short Loin) Кострец (Sirloin) МЯКОТЬ БЕДРА (Round) ПАШИНА (Flank) ПОКРОМКА (Short Plate) ГОЛЯШКА (Fore Shank) ГРУДИНКА (Brisket) субпродукты ГОЛЯШКА (Shank) Стейки Рибай Black Angus Стриплойн ШЕЯ (Chuck) Мякоть шеи из мраморной говядины (Chuck Boneless) Наружная часть лопатки, Top Blade, 114D (Top Blade, 114D) Задняя часть лопаточного отруба (Clod, 114E) Филей подлопаточной части Денвер (Under Blade, 116G) Подлопаточный отруб Чак Ай Ролл (Chuck Eye Roll) Стейк Ранчо из мраморной говядины кат. А, охл. (Ranch Steak, 1114E) Стейк порционный Флэт Аэрон (Flat Iron Steak, 114В PSO4) Стейк порционный Чак Ай Ролл (Chuck Eye Roll Steak, 1116D) Стейк Чак Тендер (Chuck Tender, Portioned) Стейк порционный Топ Блейд (Top Blade Steak, 1114D) Стейк порционный Денвер (Denver Steak, 1116G) Cтейк Вегас Стрип (Vegas Strip Steak, 1100) ТОЛСТЫЙ КРАЙ (Rib) Спинной отруб Томагавк, 3-4 ребра (Ribeye, Roast-Ready)"
+    },
+    {
      "url": "http://omgautovar.narod.ru/gost/maso/3.html",
      "supports": [
       "bounds"
@@ -664,7 +750,7 @@
      "quote": "Спинной на кости Передняя - между шестым и седьмым позвонками и соответствующими им частями ребер; задняя - между последним грудным (13-м) и первым поясничным позвонками по заднему краю 13-го ребра; нижняя - параллельно позвоночному столбу в 75 мм от тел позвонков"
     }
    ],
-   "dispute": "Bounds are standard and the two standards differ by two ribs. ГОСТ 7595-79 ends the спинной отруб between ribs 11 and 12, which is the line the atlas is drawn to; ГОСТ 31797-2012 carries its спинной отруб back to the rear edge of rib 13. Both quoted. The muscle identification is a two-step trade bridge and is graded accordingly: a Russian grilling dictionary equates толстый край with отруб рибай, and the Beef Checkoff table equates ribeye with the longissimus. No Russian source names the muscle for толстый край directly, and ГОСТ 31797-2012 names no muscle at all for either спинной or поясничный - the one place where the expectation that a ГОСТ would hand over longissimus lumborum does not hold."
+   "dispute": "Bounds are standard and the two standards differ by two ribs. ГОСТ 7595-79 ends the спинной отруб between ribs 11 and 12, which is the line the atlas is drawn to; ГОСТ 31797-2012 carries its спинной отруб back to the rear edge of rib 13. Both quoted. The muscle identification is a two-step trade bridge and is graded accordingly: a Russian grilling dictionary equates толстый край with отруб рибай, the Primebeef catalogue heads its ТОЛСТЫЙ КРАЙ section (Rib) and files the спинной отруб under it as Ribeye, and the Beef Checkoff table equates ribeye with the longissimus. No Russian source names the muscle for толстый край directly, and ГОСТ 31797-2012 names no muscle at all for either спинной or поясничный."
   },
   {
    "id": "vyrezka",
@@ -742,9 +828,16 @@
       "muscles"
      ],
      "quote": "мясная обрезь"
+    },
+    {
+     "url": "http://primebeef.ru/cuts/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "ПОКРОМКА (Short Plate) ГОЛЯШКА (Fore Shank) ГРУДИНКА (Brisket) субпродукты ГОЛЯШКА (Shank) Стейки Рибай Black Angus Стриплойн ШЕЯ (Chuck) Мякоть шеи из мраморной говядины (Chuck Boneless) Наружная часть лопатки, Top Blade, 114D (Top Blade, 114D) Задняя часть лопаточного отруба (Clod, 114E) Филей подлопаточной части Денвер (Under Blade, 116G) Подлопаточный отруб Чак Ай Ролл (Chuck Eye Roll) Стейк Ранчо из мраморной говядины кат. А, охл. (Ranch Steak, 1114E) Стейк порционный Флэт Аэрон (Flat Iron Steak, 114В PSO4) Стейк порционный Чак Ай Ролл (Chuck Eye Roll Steak, 1116D) Стейк Чак Тендер (Chuck Tender, Portioned) Стейк порционный Топ Блейд (Top Blade Steak, 1114D) Стейк порционный Денвер (Denver Steak, 1116G) Cтейк Вегас Стрип (Vegas Strip Steak, 1100) ТОЛСТЫЙ КРАЙ (Rib) Спинной отруб Томагавк, 3-4 ребра (Ribeye, Roast-Ready) Спинной отруб б/к (Ribeye Lip On, 112A) Спинной отруб Рибай на кости (Ribeye, Roast-Ready, 109A) Стейк порционный Рибай (Ribeye Steak, 1112A) Рибай стейк на кости (Ribeye Steak Bone In, 1103) Стейк порционный Томагавк (Tomahawk Steak, 1103B, Long Bone 9) Стейк порционный Ковбой (Cowboy Steak, 1103B) Рёбра мраморной говядины (Back Ribs, 124) ТОНКИЙ КРАЙ (Short Loin) Рёбра Для гриля (Short Ribs, Trimmed 123А) Рёбра Кальби (Short Ribs, Bon In,130) Поясничный отруб Стриплойн б/к (Strip loin, 180 PSO1) Поясничный отруб на кости (Short loin, PSO2) Вырезка Экстра (Tenderloin Defatted, 190) Стейк филе-миньон (Filet Mignon Steak, 1190) Стейк Нью-Йорк (New York Steak, 1180 PSO5) Стейк T-Bone (T-Bone Steak, 1174) Портерхаус стейк (Porterhouse Steak, 1173) Кострец (Sirloin) Мякоть Трай-Тип (Tri-Tip Roast, 185D) Стейк Паук из мраморной говядины (Spider Steak) Стейк порционный Пиканья (Coulotte Steak) Верхняя часть тазобедренного отруба Топ Сирлойн Батт (Top Sirloin Butt, 184E) Филей верхней части бедра Пиканья (Top Sirloin Cap, 184D) Трай-тип стейк (Tri-Tip Steak, 1185C) Стейк Топ Сирлойн (Top Sirloin Steak, 1184F) МЯКОТЬ БЕДРА (Round) Мякоть мраморной говядины (Angus Beef pulp) Отбивная (Angus Beef Cube Steak) Шницель (Angus Beef Schnitzel) Стейк Минутка (Beef Braising Steak, 1102) Внутренняя часть тазобедренного отруба Огузок (Beef Round, Top Inside) Боковая часть тазобедренного отруба Оковалок, Экстра, мякоть, охлажденная (Knuckle peeled,167А) Стейк порционный Яблочко (Eye of Round Steak) Наружная часть бедра для запекания (Rump Roast, 171G) Филей наружной части бедра Глазной мускул (Eye of Round, 171C) Стейк порционный Рамп (Rump Steak, 1171D) Мякоть верхней части бедра ( Top Sirloin, 184) ПАШИНА (Flank) Нижняя часть кoстреца Баветт (Flap Boneless, 185A) Стейк Фланк (Flank Steak, 193) ПОКРОМКА (Short Plate) Стейк мясника из диафрагмы, охлажденный ( Hanging Tender, 140) Стейк Мачете из тонкой диафрагмы (Outside Skirt, 121C) Стейк из толстой диафрагмы (Inside Skirt, 121D)"
     }
    ],
-   "dispute": "Bounds are inferred because no standard says where the diaphragm divides into мачете and онглет - no standard divides it at all. ГОСТ 32244-2013 treats 'диафрагма' as a single мякотный субпродукт, and ГОСТ 31797-2012 does not list it among the отрубы, which is exactly why this cut carries no сорт. The muscle grade is standard in the narrow sense that the Russian name of the item is the anatomical name of the structure; the split into the costal sheet and the crura is bovine anatomy, with the trade names мачете and онглет sitting on top of it (compare the French hampe/onglet pair in FINDINGS.md, which separates the same two members cleanly)."
+   "dispute": "Bounds are inferred because no standard says where the diaphragm divides into мачете and онглет - no standard divides it at all. ГОСТ 32244-2013 treats 'диафрагма' as a single мякотный субпродукт, and ГОСТ 31797-2012 does not list it among the отрубы, which is exactly why this cut carries no сорт. The muscle grade is standard in the narrow sense that the Russian name of the item is the anatomical name of the structure; the split into the costal sheet and the crura is bovine anatomy, with the trade names мачете and онглет sitting on top of it (compare the French hampe/onglet pair in FINDINGS.md, which separates the same two members cleanly). One trade detail worth recording: the Primebeef catalogue files all three 'diaphragm' steaks under ПОКРОМКА and labels them 'Стейк мясника ... (Hanging Tender, 140)', 'Стейк Мачете из тонкой диафрагмы (Outside Skirt, 121C)' and 'Стейк из толстой диафрагмы (Inside Skirt, 121D)'. The first two agree with this entry - hanger = crus, мачете = the costal sheet - but the third does not: IMPS 121D inside skirt is the transversus abdominis, a belly muscle and no part of the diaphragm at all, so 'толстая диафрагма' is a trade name and not an anatomical one. It is not carried into the muscle list here; see покромка and пашина, where the transversus actually sits."
   },
   {
    "id": "pokromka",
@@ -814,6 +907,13 @@
      "quote": "При обвалке"
     },
     {
+     "url": "http://primebeef.ru/cuts/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "ПОКРОМКА (Short Plate) ГОЛЯШКА (Fore Shank) ГРУДИНКА (Brisket) субпродукты ГОЛЯШКА (Shank) Стейки Рибай Black Angus Стриплойн ШЕЯ (Chuck) Мякоть шеи из мраморной говядины (Chuck Boneless) Наружная часть лопатки, Top Blade, 114D (Top Blade, 114D) Задняя часть лопаточного отруба (Clod, 114E) Филей подлопаточной части Денвер (Under Blade, 116G) Подлопаточный отруб Чак Ай Ролл (Chuck Eye Roll) Стейк Ранчо из мраморной говядины кат. А, охл. (Ranch Steak, 1114E) Стейк порционный Флэт Аэрон (Flat Iron Steak, 114В PSO4) Стейк порционный Чак Ай Ролл (Chuck Eye Roll Steak, 1116D) Стейк Чак Тендер (Chuck Tender, Portioned) Стейк порционный Топ Блейд (Top Blade Steak, 1114D) Стейк порционный Денвер (Denver Steak, 1116G) Cтейк Вегас Стрип (Vegas Strip Steak, 1100) ТОЛСТЫЙ КРАЙ (Rib) Спинной отруб Томагавк, 3-4 ребра (Ribeye, Roast-Ready) Спинной отруб б/к (Ribeye Lip On, 112A) Спинной отруб Рибай на кости (Ribeye, Roast-Ready, 109A) Стейк порционный Рибай (Ribeye Steak, 1112A) Рибай стейк на кости (Ribeye Steak Bone In, 1103) Стейк порционный Томагавк (Tomahawk Steak, 1103B, Long Bone 9) Стейк порционный Ковбой (Cowboy Steak, 1103B) Рёбра мраморной говядины (Back Ribs, 124) ТОНКИЙ КРАЙ (Short Loin) Рёбра Для гриля (Short Ribs, Trimmed 123А) Рёбра Кальби (Short Ribs, Bon In,130) Поясничный отруб Стриплойн б/к (Strip loin, 180 PSO1) Поясничный отруб на кости (Short loin, PSO2) Вырезка Экстра (Tenderloin Defatted, 190) Стейк филе-миньон (Filet Mignon Steak, 1190) Стейк Нью-Йорк (New York Steak, 1180 PSO5) Стейк T-Bone (T-Bone Steak, 1174) Портерхаус стейк (Porterhouse Steak, 1173) Кострец (Sirloin) Мякоть Трай-Тип (Tri-Tip Roast, 185D) Стейк Паук из мраморной говядины (Spider Steak) Стейк порционный Пиканья (Coulotte Steak) Верхняя часть тазобедренного отруба Топ Сирлойн Батт (Top Sirloin Butt, 184E) Филей верхней части бедра Пиканья (Top Sirloin Cap, 184D) Трай-тип стейк (Tri-Tip Steak, 1185C) Стейк Топ Сирлойн (Top Sirloin Steak, 1184F) МЯКОТЬ БЕДРА (Round) Мякоть мраморной говядины (Angus Beef pulp) Отбивная (Angus Beef Cube Steak) Шницель (Angus Beef Schnitzel) Стейк Минутка (Beef Braising Steak, 1102) Внутренняя часть тазобедренного отруба Огузок (Beef Round, Top Inside) Боковая часть тазобедренного отруба Оковалок, Экстра, мякоть, охлажденная (Knuckle peeled,167А) Стейк порционный Яблочко (Eye of Round Steak) Наружная часть бедра для запекания (Rump Roast, 171G) Филей наружной части бедра Глазной мускул (Eye of Round, 171C) Стейк порционный Рамп (Rump Steak, 1171D) Мякоть верхней части бедра ( Top Sirloin, 184) ПАШИНА (Flank) Нижняя часть кoстреца Баветт (Flap Boneless, 185A) Стейк Фланк (Flank Steak, 193) ПОКРОМКА (Short Plate) Стейк мясника из диафрагмы, охлажденный ( Hanging Tender, 140) Стейк Мачете из тонкой диафрагмы (Outside Skirt, 121C) Стейк из толстой диафрагмы (Inside Skirt, 121D)"
+    },
+    {
      "url": "https://base.garant.ru/70654172/",
      "supports": [
       "bounds"
@@ -821,7 +921,7 @@
      "quote": "Реберный на кости Передняя - по линии отделения шейного отруба; задняя - по заднему краю последнего (13-го) ребра; верхняя - по линии отделения подлопаточного и спинного отрубов на расстоянии 75 мм от тел позвонков параллельно позвоночному столбу с первого ребра по 13-е включительно; нижняя - от первого сегмента грудной кости (рукоятки) через реберные хрящи до восьмого ребра (по линии отделения грудного отруба)"
     }
    ],
-   "dispute": "No source names a muscle for покромка. It is a кулинарная разделка piece, not a ГОСТ отруб: the textbook defines it only by the operation - 'Покромку срезают с реберных костей' - and lists it as what is left of the спинно-реберная часть once толстый край, подлопаточная часть and грудинка are off. The muscle list above is inferred from that position: the layer on the outer face of the middle ribs is intercostal muscle plus the sheets that run over it. Note that the same textbook produces покромка twice, once from the front quarter and once from the rear ('Полученную мякоть разделяют на тонкий край, покромку и пашину'), so the name covers a band along the whole rib cage rather than one block; the rectangle here is the front one. The nearest ГОСТ 31797-2012 item is the реберный отруб, whose boundary is quoted, but the standard does not use the word покромка."
+   "dispute": "No source names a muscle for покромка. It is a кулинарная разделка piece, not a ГОСТ отруб: the textbook defines it only by the operation - 'Покромку срезают с реберных костей' - and lists it as what is left of the спинно-реберная часть once толстый край, подлопаточная часть and грудинка are off. The muscle list above is inferred from that position: the layer on the outer face of the middle ribs is intercostal muscle plus the sheets that run over it. Note that the same textbook produces покромка twice, once from the front quarter and once from the rear ('Полученную мякоть разделяют на тонкий край, покромку и пашину'), so the name covers a band along the whole rib cage rather than one block; the rectangle here is the front one. The nearest ГОСТ 31797-2012 item is the реберный отруб, whose boundary is quoted, but the standard does not use the word покромка. The Primebeef catalogue heads its ПОКРОМКА section (Short Plate), which is the same band read as an export primal, and files the diaphragm steaks under it - confirming the placement without naming a muscle."
   },
   {
    "id": "pashina",
@@ -830,13 +930,15 @@
      "id": "obliquus-internus-abdominis",
      "role": "major",
      "extent": "whole",
-     "note": "Calkins: sirloin butt flap; the US flap meat"
+     "note": "Calkins: sirloin butt flap; the US flap meat, whose fan lies entirely in the flank"
     },
     {
      "id": "obliquus-externus-abdominis",
      "role": "major",
-     "extent": "whole",
-     "note": "the outer sheet of the belly wall"
+     "extent": "portion",
+     "from": "rib-08",
+     "to": "ischium",
+     "note": "the outer sheet of the belly wall; its front runs on over the false ribs into the завиток and the покромка"
     },
     {
      "id": "rectus-abdominis",
@@ -849,8 +951,10 @@
     {
      "id": "transversus-abdominis",
      "role": "minor",
-     "extent": "whole",
-     "note": "the innermost sheet; the US inside skirt"
+     "extent": "portion",
+     "from": "rib-08",
+     "to": "ischium",
+     "note": "the innermost sheet; the US inside skirt, which the Russian trade confusingly sells as 'толстая диафрагма'"
     }
    ],
    "unmodelled": [],
@@ -871,6 +975,13 @@
       "muscles"
      ],
      "quote": "Obliquus internus abdominus  Sirloin butt flap"
+    },
+    {
+     "url": "http://primebeef.ru/cuts/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "ПАШИНА (Flank) ПОКРОМКА (Short Plate) ГОЛЯШКА (Fore Shank) ГРУДИНКА (Brisket) субпродукты ГОЛЯШКА (Shank) Стейки Рибай Black Angus Стриплойн ШЕЯ (Chuck) Мякоть шеи из мраморной говядины (Chuck Boneless) Наружная часть лопатки, Top Blade, 114D (Top Blade, 114D) Задняя часть лопаточного отруба (Clod, 114E) Филей подлопаточной части Денвер (Under Blade, 116G) Подлопаточный отруб Чак Ай Ролл (Chuck Eye Roll) Стейк Ранчо из мраморной говядины кат. А, охл. (Ranch Steak, 1114E) Стейк порционный Флэт Аэрон (Flat Iron Steak, 114В PSO4) Стейк порционный Чак Ай Ролл (Chuck Eye Roll Steak, 1116D) Стейк Чак Тендер (Chuck Tender, Portioned) Стейк порционный Топ Блейд (Top Blade Steak, 1114D) Стейк порционный Денвер (Denver Steak, 1116G) Cтейк Вегас Стрип (Vegas Strip Steak, 1100) ТОЛСТЫЙ КРАЙ (Rib) Спинной отруб Томагавк, 3-4 ребра (Ribeye, Roast-Ready) Спинной отруб б/к (Ribeye Lip On, 112A) Спинной отруб Рибай на кости (Ribeye, Roast-Ready, 109A) Стейк порционный Рибай (Ribeye Steak, 1112A) Рибай стейк на кости (Ribeye Steak Bone In, 1103) Стейк порционный Томагавк (Tomahawk Steak, 1103B, Long Bone 9) Стейк порционный Ковбой (Cowboy Steak, 1103B) Рёбра мраморной говядины (Back Ribs, 124) ТОНКИЙ КРАЙ (Short Loin) Рёбра Для гриля (Short Ribs, Trimmed 123А) Рёбра Кальби (Short Ribs, Bon In,130) Поясничный отруб Стриплойн б/к (Strip loin, 180 PSO1) Поясничный отруб на кости (Short loin, PSO2) Вырезка Экстра (Tenderloin Defatted, 190) Стейк филе-миньон (Filet Mignon Steak, 1190) Стейк Нью-Йорк (New York Steak, 1180 PSO5) Стейк T-Bone (T-Bone Steak, 1174) Портерхаус стейк (Porterhouse Steak, 1173) Кострец (Sirloin) Мякоть Трай-Тип (Tri-Tip Roast, 185D) Стейк Паук из мраморной говядины (Spider Steak) Стейк порционный Пиканья (Coulotte Steak) Верхняя часть тазобедренного отруба Топ Сирлойн Батт (Top Sirloin Butt, 184E) Филей верхней части бедра Пиканья (Top Sirloin Cap, 184D) Трай-тип стейк (Tri-Tip Steak, 1185C) Стейк Топ Сирлойн (Top Sirloin Steak, 1184F) МЯКОТЬ БЕДРА (Round) Мякоть мраморной говядины (Angus Beef pulp) Отбивная (Angus Beef Cube Steak) Шницель (Angus Beef Schnitzel) Стейк Минутка (Beef Braising Steak, 1102) Внутренняя часть тазобедренного отруба Огузок (Beef Round, Top Inside) Боковая часть тазобедренного отруба Оковалок, Экстра, мякоть, охлажденная (Knuckle peeled,167А) Стейк порционный Яблочко (Eye of Round Steak) Наружная часть бедра для запекания (Rump Roast, 171G) Филей наружной части бедра Глазной мускул (Eye of Round, 171C) Стейк порционный Рамп (Rump Steak, 1171D) Мякоть верхней части бедра ( Top Sirloin, 184) ПАШИНА (Flank) Нижняя часть кoстреца Баветт (Flap Boneless, 185A) Стейк Фланк (Flank Steak, 193)"
     },
     {
      "url": "http://omgautovar.narod.ru/gost/maso/3.html",
@@ -894,7 +1005,7 @@
      "quote": "Пашина - (середина, завиток, бочок) – это мякоть, в которой много жира и соединительно-тканных прослоек. Она более жесткая по сравнению с другими частями говядины, но очень вкусная. Перед приготовлением рекомендуется снимать с нее пленку. Отлично идет на фарш, в начинку для мясных пирогов."
     }
    ],
-   "dispute": "Bounds are standard and both standards are quoted; they agree in substance - the cut runs from the stifle to the junction of the true and false parts of the 13th rib and then along the costal arch. Muscles are graded trade on an English-language source: no Russian source fetched for this table names a muscle in the пашина, and ГОСТ 31797-2012 gives the отруб four boundaries and no muscle at all. The Beef Checkoff table names the flank's muscles, and пашина = flank is a straight translation, so the identification is safe even though the chain crosses traditions. The Russian trade source is quoted for the cut's alternative names, which include завиток."
+   "dispute": "Bounds are standard and both standards are quoted; they agree in substance - the cut runs from the stifle to the junction of the true and false parts of the 13th rib and then along the costal arch. Muscles are graded trade on an English-language source: no Russian source fetched for this table names a muscle in the пашина, and ГОСТ 31797-2012 gives the отруб four boundaries and no muscle at all. What makes the cross-tradition chain safe here is that the пашина = flank equation is itself quoted from a Russian source - the Primebeef catalogue heads its ПАШИНА section (Flank) and sells Flank Steak 193 out of it - so only the last link, flank to muscle, is English. The Russian trade source is also quoted for the cut's alternative names, which include завиток."
   },
   {
    "id": "zavitok",
@@ -1026,6 +1137,13 @@
      "quote": "Superficial pectoral  Brisket"
     },
     {
+     "url": "http://primebeef.ru/cuts/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "ГРУДИНКА (Brisket) субпродукты ГОЛЯШКА (Shank) Стейки Рибай Black Angus Стриплойн ШЕЯ (Chuck) Мякоть шеи из мраморной говядины (Chuck Boneless) Наружная часть лопатки, Top Blade, 114D (Top Blade, 114D) Задняя часть лопаточного отруба (Clod, 114E) Филей подлопаточной части Денвер (Under Blade, 116G) Подлопаточный отруб Чак Ай Ролл (Chuck Eye Roll) Стейк Ранчо из мраморной говядины кат. А, охл. (Ranch Steak, 1114E) Стейк порционный Флэт Аэрон (Flat Iron Steak, 114В PSO4) Стейк порционный Чак Ай Ролл (Chuck Eye Roll Steak, 1116D) Стейк Чак Тендер (Chuck Tender, Portioned) Стейк порционный Топ Блейд (Top Blade Steak, 1114D) Стейк порционный Денвер (Denver Steak, 1116G) Cтейк Вегас Стрип (Vegas Strip Steak, 1100) ТОЛСТЫЙ КРАЙ (Rib) Спинной отруб Томагавк, 3-4 ребра (Ribeye, Roast-Ready) Спинной отруб б/к (Ribeye Lip On, 112A) Спинной отруб Рибай на кости (Ribeye, Roast-Ready, 109A) Стейк порционный Рибай (Ribeye Steak, 1112A) Рибай стейк на кости (Ribeye Steak Bone In, 1103) Стейк порционный Томагавк (Tomahawk Steak, 1103B, Long Bone 9) Стейк порционный Ковбой (Cowboy Steak, 1103B) Рёбра мраморной говядины (Back Ribs, 124) ТОНКИЙ КРАЙ (Short Loin) Рёбра Для гриля (Short Ribs, Trimmed 123А) Рёбра Кальби (Short Ribs, Bon In,130) Поясничный отруб Стриплойн б/к (Strip loin, 180 PSO1) Поясничный отруб на кости (Short loin, PSO2) Вырезка Экстра (Tenderloin Defatted, 190) Стейк филе-миньон (Filet Mignon Steak, 1190) Стейк Нью-Йорк (New York Steak, 1180 PSO5) Стейк T-Bone (T-Bone Steak, 1174) Портерхаус стейк (Porterhouse Steak, 1173) Кострец (Sirloin) Мякоть Трай-Тип (Tri-Tip Roast, 185D) Стейк Паук из мраморной говядины (Spider Steak) Стейк порционный Пиканья (Coulotte Steak) Верхняя часть тазобедренного отруба Топ Сирлойн Батт (Top Sirloin Butt, 184E) Филей верхней части бедра Пиканья (Top Sirloin Cap, 184D) Трай-тип стейк (Tri-Tip Steak, 1185C) Стейк Топ Сирлойн (Top Sirloin Steak, 1184F) МЯКОТЬ БЕДРА (Round) Мякоть мраморной говядины (Angus Beef pulp) Отбивная (Angus Beef Cube Steak) Шницель (Angus Beef Schnitzel) Стейк Минутка (Beef Braising Steak, 1102) Внутренняя часть тазобедренного отруба Огузок (Beef Round, Top Inside) Боковая часть тазобедренного отруба Оковалок, Экстра, мякоть, охлажденная (Knuckle peeled,167А) Стейк порционный Яблочко (Eye of Round Steak) Наружная часть бедра для запекания (Rump Roast, 171G) Филей наружной части бедра Глазной мускул (Eye of Round, 171C) Стейк порционный Рамп (Rump Steak, 1171D) Мякоть верхней части бедра ( Top Sirloin, 184) ПАШИНА (Flank) Нижняя часть кoстреца Баветт (Flap Boneless, 185A) Стейк Фланк (Flank Steak, 193) ПОКРОМКА (Short Plate) Стейк мясника из диафрагмы, охлажденный ( Hanging Tender, 140) Стейк Мачете из тонкой диафрагмы (Outside Skirt, 121C) Стейк из толстой диафрагмы (Inside Skirt, 121D) ГОЛЯШКА (Fore Shank) Голяшка мраморной говядины без кости (Shank Meat) Говядина для бульона (Beef For Soup) ГРУДИНКА (Brisket) Грудинка мраморной говядины (Plate Meat) Грудной отруб Брискет б/к"
+    },
+    {
      "url": "http://omgautovar.narod.ru/gost/maso/3.html",
      "supports": [
       "bounds"
@@ -1047,7 +1165,7 @@
      "quote": "Грудинка - здесь пленка и слои жира перемежаются. Всю грудину можно отделить от костей и использовать мясо для приготовления рулетов. А можно нарезать кусочками для отваривания и тушения. Из грудинки получается отличный борщ."
     }
    ],
-   "dispute": "Bounds are standard from both ГОСТ 7595-79 and ГОСТ 31797-2012. The Russian грудной отруб is larger than the American brisket: it runs the whole length of the sternum and the costal cartilages back to the 13th rib, so it is brisket plus plate rather than IMPS 120 alone, and that is why the intercostals are carried here as a minor rather than a trace. Muscles are graded trade on the Beef Checkoff table, since no Russian source fetched here names one; the deep/superficial pectoral pairing and its flat/point correspondence are established in FINDINGS.md and are not in doubt."
+   "dispute": "Bounds are standard from both ГОСТ 7595-79 and ГОСТ 31797-2012. The Russian грудной отруб is larger than the American brisket: it runs the whole length of the sternum and the costal cartilages back to the 13th rib, so it is brisket plus plate rather than IMPS 120 alone, and that is why the intercostals are carried here as a minor rather than a trace. Muscles are graded trade on the Beef Checkoff table, since no Russian source fetched here names one; the грудинка = brisket half of the chain is quoted from a Russian producer catalogue, and the deep/superficial pectoral pairing with its flat/point correspondence is established in FINDINGS.md and is not in doubt."
   },
   {
    "id": "chelyshko",
@@ -1072,8 +1190,8 @@
      "role": "trace",
      "extent": "portion",
      "from": "sternum",
-     "to": "insertion",
-     "note": "its sternal end reaches the manubrium, which is part of why челышко is sinewy at the very front"
+     "to": "seam",
+     "note": "only its sternal end, which reaches the manubrium; the rest of the muscle runs forward up the neck and is cut through rather than followed to its insertion"
     }
    ],
    "unmodelled": [
@@ -1445,37 +1563,38 @@
      "role": "major",
      "extent": "portion",
      "from": "axis",
-     "to": "rib-01",
-     "note": "on the ventral faces of the cervical vertebral bodies; the Korean 제비추리 is the same muscle"
+     "to": "cervical-vertebrae",
+     "note": "on the ventral faces of the cervical vertebral bodies, cut at the same two lines as the rest; the Korean 제비추리 is the same muscle"
     },
     {
      "id": "splenius",
      "role": "major",
      "extent": "portion",
      "from": "axis",
-     "to": "thoracic-vertebrae"
+     "to": "cervical-vertebrae"
     },
     {
      "id": "complexus",
      "role": "major",
      "extent": "portion",
      "from": "axis",
-     "to": "thoracic-vertebrae"
+     "to": "cervical-vertebrae"
     },
     {
      "id": "brachiocephalicus",
      "role": "major",
      "extent": "portion",
-     "from": "cranium",
-     "to": "humerus",
-     "note": "runs the whole length of the neck from the head to the humerus, so the шейный отруб takes the middle of it"
+     "from": "axis",
+     "to": "cervical-vertebrae",
+     "note": "the muscle runs the whole length of the neck from the head to the humerus; ГОСТ 7595-79's шейный отруб takes only the stretch between the зарез line at C2/C3 and its own rear line between C5 and C6"
     },
     {
      "id": "sternocephalicus",
      "role": "major",
      "extent": "portion",
-     "from": "cranium",
-     "to": "sternum"
+     "from": "axis",
+     "to": "cervical-vertebrae",
+     "note": "same two cut lines; its head end goes with the зарез and its sternal end with the грудинка"
     },
     {
      "id": "rhomboideus",
@@ -1504,7 +1623,7 @@
      "role": "minor",
      "extent": "portion",
      "from": "axis",
-     "to": "thoracic-vertebrae",
+     "to": "cervical-vertebrae",
      "note": "the deep cervical multifidi"
     },
     {
@@ -1517,11 +1636,6 @@
     }
    ],
    "unmodelled": [
-    {
-     "latin": "Ligamentum nuchae",
-     "role": "minor",
-     "where": "not a muscle but the yellow elastic cord along the top of the neck from the poll to the withers; the butcher pulls it out of the шейный отруб and it is much of why the cut looks sinewy"
-    },
     {
      "latin": "M. obliquus capitis caudalis",
      "role": "minor",
@@ -1559,7 +1673,7 @@
      "quote": "К сорту 1 относятся: тазобедренный 7; поясничный 2; спинной 3; лопаточный (лопатка, подплечный край) 4; плечевой (плечевая часть и часть предплечья) 5; грудной 6. К сорту 2 относятся: шейный 7; пашина 8. К сорту 3 относятся: зарез 9-, передняя голяшка 10, задняя голяшка 11."
     }
    ],
-   "dispute": "Bounds are standard, and the two standards make the шейный отруб very different sizes. ГОСТ 7595-79 gives it only three vertebrae, C3 to C5, because its лопаточный отруб takes C6 and C7 forward with the shoulder - that is the scheme the atlas is drawn to. ГОСТ 31797-2012 runs the шейный отруб from the C2/C3 line all the way back to the first thoracic vertebra, i.e. the whole neck. Both quoted. No standard and no Russian trade source fetched here names a muscle in the neck, so the list is inferred from bovine anatomy; the ligamentum nuchae is put under unmodelled because it is what the cut is notorious for even though it is not muscle. ГОСТ 7595-79's sort list is quoted: with the пашина, this is one of only two 2-й сорт отрубы."
+   "dispute": "Bounds are standard, and the two standards make the шейный отруб very different sizes. ГОСТ 7595-79 gives it only three vertebrae, C3 to C5, because its лопаточный отруб takes C6 and C7 forward with the shoulder - that is the scheme the atlas is drawn to. ГОСТ 31797-2012 runs the шейный отруб from the C2/C3 line all the way back to the first thoracic vertebra, i.e. the whole neck. Both quoted. No standard and no Russian trade source fetched here names a muscle in the neck, so the list is inferred from bovine anatomy. The yellow elastic ligamentum nuchae runs from the poll to the withers through this отруб and is much of why the cut looks sinewy, but it is not a muscle and so is deliberately kept out of the unmodelled list. ГОСТ 7595-79's sort list is quoted: with the пашина, this is one of only two 2-й сорт отрубы."
   },
   {
    "id": "zarez",
