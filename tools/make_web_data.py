@@ -16,11 +16,23 @@ def write(root):
     sys.path.insert(0, os.path.join(root, "blender"))
     import cuts as cutsmod
 
+    # Anything the carve could not produce geometry for -- a rectangle that
+    # clips away to nothing against the silhouette -- is marked, so the legend
+    # can say so instead of offering an entry that highlights nothing.
+    missing = {}
+    report = os.path.join(root, "build", "build_report.json")
+    if os.path.exists(report):
+        for r in json.load(io.open(report, encoding="utf-8")):
+            missing[r["culture"]] = set(r.get("missing", []))
+
     specs = []
     for f in sorted(glob.glob(os.path.join(root, "data", "cuts_*.json"))):
         spec = json.load(io.open(f, encoding="utf-8"))
+        absent = missing.get(spec["id"], set())
         for idx, colour in enumerate(cutsmod.palette(len(spec["cuts"]))):
             spec["cuts"][idx]["colour"] = cutsmod.hex_colour(colour)
+            if spec["cuts"][idx]["id"] in absent:
+                spec["cuts"][idx]["absent"] = True
         specs.append(spec)
 
     # Biggest schemes last: the page opens on the first one, and the US primals

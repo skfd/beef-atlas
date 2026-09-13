@@ -60,11 +60,21 @@ const outDir = process.argv[3] || path.join(__dirname, '..', 'build', 'shots');
   await page.fill('#explode', '0');
   await page.dispatchEvent('#explode', 'input');
 
-  // hover a cut in the 3D view itself
+  // hover a cut in the 3D view itself, then click it there -- the pointer path
+  // through the canvas is the only proof the raycast picking actually works
+  await page.click('#detail-close');
   await page.mouse.move(720, 430);
   await page.waitForTimeout(400);
   await page.mouse.move(722, 432);
+  const tip = await page.textContent('#tooltip');
+  if (!tip || !tip.trim()) throw new Error('hovering a cut in the 3D view produced no tooltip');
+  console.log(`hover tooltip: ${tip.trim()}`);
   await shot('04-hover');
+
+  await page.mouse.click(722, 432);
+  await page.waitForSelector('#detail:not([hidden])', { timeout: 5000 });
+  console.log(`clicked in 3D, panel shows: ${(await page.textContent('.d-native')).trim()}`);
+  await page.click('#detail-close');
 
   // every culture in turn, and count what actually arrived in each model
   const tabs = await page.$$('#cultures button');

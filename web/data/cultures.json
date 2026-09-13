@@ -3056,7 +3056,8 @@
      "steak",
      "tataki"
     ],
-    "colour": "#7dd19d"
+    "colour": "#7dd19d",
+    "absent": true
    },
    {
     "id": "sune",

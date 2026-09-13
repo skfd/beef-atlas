@@ -121,8 +121,28 @@ def partition(cuts):
                 owner = min(rects, key=lambda k: (_point_rect_distance(cx, cz, rects[k]), k))
             owned[owner].add((i, j))
 
+    # A cut whose rectangle is completely covered by smaller ones wins no cells
+    # at all, and would then appear in the legend with nothing to click. Give it
+    # back the cell at its own centre, taken from whichever neighbour can most
+    # afford to lose one.
+    starved = []
+    for k, r in rects.items():
+        if owned[k]:
+            continue
+        cx, cz = (r[0] + r[1]) / 2.0, (r[2] + r[3]) / 2.0
+        i = max(n for n in range(len(xs) - 1) if xs[n] <= cx) if cx >= xs[0] else 0
+        j = max(n for n in range(len(zs) - 1) if zs[n] <= cz) if cz >= zs[0] else 0
+        i, j = min(i, len(xs) - 2), min(j, len(zs) - 2)
+        donor = next((d for d in owned if (i, j) in owned[d]), None)
+        if donor is None or len(owned[donor]) < 2:
+            continue
+        owned[donor].discard((i, j))
+        owned[k].add((i, j))
+        starved.append(k)
+
     boxes = {k: _merge_cells(v, xs, zs) for k, v in owned.items() if v}
     stats = {
+        "starved_cuts_given_their_centre": sorted(starved),
         "grid": (len(xs) - 1, len(zs) - 1),
         "cells": (len(xs) - 1) * (len(zs) - 1),
         "orphan_cells": orphans,

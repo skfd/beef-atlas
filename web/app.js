@@ -153,6 +153,8 @@ function buildLegend() {
     const romaji = cut.romanized ? ` <span class="cut-en">${esc(cut.romanized)} · ${esc(cut.name)}</span>`
                                  : `<span class="cut-en">${esc(cut.name)}</span>`;
     const showEn = cut.native !== cut.name || cut.romanized;
+    if (cut.absent) li.classList.add('absent');
+    li.title = cut.absent ? 'Not carved on this model — see the panel' : '';
     li.innerHTML =
       `<span class="swatch" style="background:${esc(cut.colour)}"></span>` +
       `<span class="cut-names"><span class="cut-native">${esc(cut.native)}</span>` +
@@ -200,6 +202,11 @@ function renderDetail(cut) {
       ? `<p class="d-note">This model is a European-type animal. Cupim is the fatty
          hump of zebu cattle, which sits on top of the withers — so the shape here
          marks the spot, but the hump itself is missing.</p>` : '') +
+    (cut.absent
+      ? `<p class="d-note">This cut is named in the data but has no shape on the
+         model: the region it was given falls outside the silhouette of this
+         animal, so there was nothing there to carve. The description still
+         applies.</p>` : '') +
     (cut.full_width === false
       ? `<p class="d-note">In life this is a thin sheet of muscle rather than a block.
          The atlas carves it the full width of the body, so treat the slab as

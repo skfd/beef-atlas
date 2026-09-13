@@ -160,6 +160,8 @@ html, body {
 }
 #cut-list li:hover { background: rgba(255, 233, 214, 0.08); }
 #cut-list li[aria-selected="true"] { background: rgba(232, 96, 60, 0.22); }
+#cut-list li.absent .cut-native { color: var(--ink-faint); text-decoration: line-through; }
+#cut-list li.absent .swatch { opacity: 0.35; }
 
 .swatch {
   width: 13px;
