@@ -1,0 +1,1640 @@
+{
+ "culture": "Brazil",
+ "id": "br",
+ "note": "Brazil is the best-documented tradition in this table at muscle level, and the reason is the export trade: ABIEC's bilingual Livro Brasileiro de Cortes Bovinos gives, for nearly every commercial cut, a \"Componentes musculares\" line in Portuguese and a \"Base óssea\" line naming the bones the cut is taken off - a muscle list and a boundary, per cut, out of one document. It is an industry association book rather than a government specification, so everything resting on it is graded `trade`, never `standard`. Fetching it needs a note for whoever comes next: the PDF is 18 MB, over the WebFetch size limit, and has to be pulled with curl and read with pdftotext; every quote here was re-extracted a page at a time and string-matched against the PDF before being written down. Two things the book does not cover: the cuts that stay bone-in and domestic (costela, ponta de agulha) have labelled anatomical plates but no cut entry, and matambre has neither, so its muscle naming comes from the Argentine and Uruguayan trade instead. ABIEC's English column is a rough translation and renders \"grande dorsal\" (latissimus dorsi) as \"rectus capiti dorsalis major\" in two places; the Portuguese is what is quoted.",
+ "sources": [
+  "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+  "https://beefpoint.com.br/entendendo-as-diferencas-dos-cortes-de-carne-bovina-nos-eua-e-brasil-59837/",
+  "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+  "https://argentinebeef.org.ar/en/cuts/matambre",
+  "https://delsurbeef.com/en/matambre/",
+  "http://carnenossa.blogspot.com/2010/09/costilhar-ou-ponta-de-agulha.html"
+ ],
+ "cuts": [
+  {
+   "id": "picanha",
+   "muscles": [
+    {
+     "id": "biceps-femoris",
+     "role": "defining",
+     "extent": "portion",
+     "from": "sacrum",
+     "to": "ischium",
+     "seam": true,
+     "note": "the dorsal (cranial) tip of the gluteobiceps, released by seaming along the connective tissue against the gluteus medius; the rest of the same muscle is the coxao duro"
+    }
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "Componentes musculares: porção dorsal do bíceps femoral."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Base óssea: ísquio, sacro e duas primeiras vértebras coccígeas"
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Corte constituído da porção dorsal do músculo bíceps femoral, obtido durante a preparação da alcatra pela separação do tecido conetivo entre os músculos bíceps femoral e glúteo médio."
+    },
+    {
+     "url": "https://beefpoint.com.br/entendendo-as-diferencas-dos-cortes-de-carne-bovina-nos-eua-e-brasil-59837/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Do traseiro especial é separada a Alcatra, onde é incluso os músculos Gluteus , Tensor da fascia lata e Biceps femoris (Picanha)."
+    }
+   ],
+   "dispute": null,
+   "note": "ABIEC item B1122. The Latin plate in the same book labels the muscle \"M. biceps femoris (syn M. gluteobiceps)\" - cattle have no separately dissectible gluteus superficialis, it is fused into the gluteobiceps, so no part of the picanha is assigned to `gluteus-superficialis` here. The fat cap that makes the cut is not a muscle and is not modelled. This is the Top Sirloin Cap / coulotte, not the tri-tip; the tri-tip is the maminha."
+  },
+  {
+   "id": "alcatra",
+   "muscles": [
+    {
+     "id": "gluteus-medius",
+     "role": "defining",
+     "extent": "whole",
+     "note": "miolo / coração da alcatra - what is left of the full rump once picanha and maminha are taken off"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. gluteus profundus",
+     "role": "major",
+     "where": "deep to the gluteus medius over the ilium and the hip joint; ABIEC names it as the second muscle of the rump heart"
+    },
+    {
+     "latin": "M. gluteus accessorius",
+     "role": "minor",
+     "where": "between the gluteus medius and gluteus profundus at the cranial edge of the ilium"
+    }
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Preparado a partir da alcatra completa pela remoção dos cortes picanha e maminha da alcatra, é constituído dos músculos glúteos médio e profundo."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "Componentes musculares: tensor da fascia lata, glúteos médio, profundo e acessório e porção dorsal do bíceps femoral."
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Gluteus medius  Top sirloin"
+    }
+   ],
+   "dispute": null,
+   "note": "The cut data describes the alcatra sold with picanha and maminha already removed, which is ABIEC's B1121.1 \"Miolo ou Coração da Alcatra\". The second quote is ABIEC's B1120 \"Alcatra Completa\" (full rump), the mother cut that also contains the picanha (biceps femoris) and the maminha (tensor fasciae latae) - those are entered under their own ids here rather than duplicated."
+  },
+  {
+   "id": "maminha",
+   "muscles": [
+    {
+     "id": "tensor-fasciae-latae",
+     "role": "defining",
+     "extent": "whole",
+     "note": "taken off by following the natural seam against the gluteus medius"
+    }
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "Base óssea: ílio."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Componentes musculares: tensor da fascia lata."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Obtido a partir da preparação da alcatra pela separação natural do músculo tensor da fascia lata a partir do músculo glúteo médio."
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Tensor fascia latae  Tri‐tip"
+    }
+   ],
+   "dispute": null,
+   "note": "ABIEC item B1123, exported as \"Rump Tail\" and as the French \"aiguillette baronne\". This muscle is the American tri-tip, so maminha and tri-tip are the same piece - the picanha is not. FINDINGS records the aiguillette baronne / tri-tip equation as unresolved on the French side; the Brazilian side is not in doubt."
+  },
+  {
+   "id": "contrafile",
+   "muscles": [
+    {
+     "id": "longissimus",
+     "role": "defining",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "sacrum",
+     "note": "ABIEC's \"longo dorsal\"; the loin eye from the 6th rib back to the lumbosacral joint, which in the Brazilian break is the whole of the boneless striploin"
+    },
+    {
+     "id": "spinalis-dorsi",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "lumbar-vertebrae",
+     "note": "the \"cordão\" (back chain) removed to make B1112.2; ABIEC's \"espinhais dorsais\""
+    },
+    {
+     "id": "multifidus",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "sacrum"
+    },
+    {
+     "id": "iliocostalis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "lumbar-vertebrae",
+     "note": "part of the \"aba\" (belly chain); removed to make B1112.1"
+    },
+    {
+     "id": "intercostalis",
+     "role": "trace",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-13",
+     "note": "also part of the aba, and gone from the trimmed striploin"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. serratus dorsalis caudalis",
+     "role": "minor",
+     "where": "a thin fan over the last ribs, superficial to the iliocostalis; ABIEC lists it in the striploin's belly chain"
+    },
+    {
+     "latin": "Mm. intertransversarii lumborum",
+     "role": "trace",
+     "where": "between the transverse processes of the lumbar vertebrae, ventrolateral to the longissimus"
+    }
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Componentes musculares: longo dorsal, iliocostais, espinhais dorsais, multífidos, intercostais, serrato dorsal caudal e intertransversos lombares."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Base óssea: oito últimas vértebras torácicas e porção dorsal das costelas correspondentes e vértebras lombares."
+    },
+    {
+     "url": "https://beefpoint.com.br/entendendo-as-diferencas-dos-cortes-de-carne-bovina-nos-eua-e-brasil-59837/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "O Lombo é separado do Traseiro-Serrote na sexta costela até a face anterior do Illium, englobando todo o músculo Longissimus dorsi, do Lombo retira-se os ossos remanescendo o Contrafilé"
+    }
+   ],
+   "dispute": null,
+   "note": "ABIEC item B1112 \"Contrafilé com Cordão e com Aba\". \"Oito últimas vértebras torácicas\" is T6-T13, which is why the anterior bound is rib-06: the Brazilian quarters are split between the 5th and 6th ribs, so the whole thoracic longissimus behind that line stays with the loin. Brazil does not cut a separate rib eye out of the front of the striploin the way the US does - the filé de costela (B1113, rib 6 to 10) is a sub-cut of the contrafilé, not a different primal."
+  },
+  {
+   "id": "capa-de-file",
+   "muscles": [
+    {
+     "id": "trapezius",
+     "role": "defining",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-10",
+     "note": "thoracic portion only; the cervical portion goes with the pescoço and the cupim"
+    },
+    {
+     "id": "rhomboideus",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-10",
+     "note": "thoracic portion; the same muscle is the cupim further forward"
+    },
+    {
+     "id": "latissimus-dorsi",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-10",
+     "note": "ABIEC's \"grande dorsal\""
+    }
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Componentes musculares: porções torácicas dos músculos trapézio e rombóide e grande dorsal."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Base óssea: cartilagem da escápula e apófises espinhais da sexta a décima vértebras torácicas."
+    },
+    {
+     "url": "https://beefpoint.com.br/entendendo-as-diferencas-dos-cortes-de-carne-bovina-nos-eua-e-brasil-59837/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "dos músculos surpeficiais do Filé-de-Costela (Trapezius e Rhomboideus) é removido a Capa-de-Filé"
+    }
+   ],
+   "dispute": null,
+   "note": "ABIEC item B1114, \"Cap of Cube Roll\". ABIEC's own English column renders \"grande dorsal\" as \"rectus capiti dorsalis major\", which is not that muscle - grande dorsal is the latissimus dorsi. The Portuguese is quoted and the English slip is reproduced here rather than corrected, per the table's rule. BeefPoint names only trapezius and rhomboideus and omits the latissimus; its \"surpeficiais\" is a typo in the original."
+  },
+  {
+   "id": "file-mignon",
+   "muscles": [
+    {
+     "id": "psoas-major",
+     "role": "defining",
+     "extent": "whole"
+    },
+    {
+     "id": "psoas-minor",
+     "role": "major",
+     "extent": "whole",
+     "note": "the \"cordão\" or side strap; removed to make B1111.1, tenderloin chain off"
+    },
+    {
+     "id": "quadratus-lumborum",
+     "role": "minor",
+     "extent": "whole",
+     "note": "ABIEC's \"quadrado lombar\""
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. iliacus",
+     "role": "major",
+     "where": "on the ventral face of the ilium, fused with the caudal end of the psoas major to form the iliopsoas"
+    }
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Componentes musculares: m. psoas maior, m. psoas menor, m.ilíaco, m.quadrado lombar."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Base óssea: três últimas vértebras torácicas e porção espinhal das costelas correspondentes, vértebras lombares, ilíaco e fêmur."
+    },
+    {
+     "url": "https://beefpoint.com.br/entendendo-as-diferencas-dos-cortes-de-carne-bovina-nos-eua-e-brasil-59837/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "os músculos Psoas major, Psoas minor e Iliacus também são separados do Lombo formando o Filé Mignon"
+    }
+   ],
+   "dispute": null,
+   "note": "ABIEC item B1111, tenderloin chain on. Agrees with CFIA's filet and with the Argentine trim spec recorded in FINDINGS; ABIEC additionally names the quadratus lumborum, which those two do not."
+  },
+  {
+   "id": "aba-de-file",
+   "muscles": [
+    {
+     "id": "iliocostalis",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "lumbar-vertebrae",
+     "note": "candidate A: ABIEC's \"aba do contrafilé\", the rib-end flap trimmed off the striploin"
+    },
+    {
+     "id": "intercostalis",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-13",
+     "note": "candidate A"
+    },
+    {
+     "id": "obliquus-externus-abdominis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "ilium",
+     "note": "candidate A; labelled on ABIEC's CONTRAFILÉ plate immediately ventral to the iliocostalis"
+    },
+    {
+     "id": "rectus-abdominis",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-13",
+     "to": "ilium",
+     "note": "candidate B: the butchers' reading, in which aba de filé is another name for the bife do vazio"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. serratus dorsalis caudalis",
+     "role": "minor",
+     "where": "a thin fan over the last ribs superficial to the iliocostalis; named by ABIEC as part of the aba"
+    },
+    {
+     "latin": "M. cutaneus trunci",
+     "role": "trace",
+     "where": "the subcutaneous sheet over the flank, immediately outside the external oblique"
+    }
+   ],
+   "bone_in": false,
+   "evidence": "contested",
+   "bounds_evidence": "inferred",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "pela remoção dos músculos intercostais, serrato dorsal caudal e íliocostal, que constituem a aba do contrafilé."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Corte preparado a partir do vazio, constituído pela porção grossa do músculo reto abdominal."
+    },
+    {
+     "url": "https://beefpoint.com.br/entendendo-as-diferencas-dos-cortes-de-carne-bovina-nos-eua-e-brasil-59837/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Ponta de agulha é a região remanescente composta pela costela do traseiro e vazio (flanco)"
+    }
+   ],
+   "dispute": "Two different things are called an \"aba\" and no source reconciles them. (A) ABIEC defines the aba do contrafilé (B1112.1) as the flap removed from the striploin, and names it as \"músculos intercostais, serrato dorsal caudal e íliocostal\" - a rib-end flap, not abdominal wall. (B) Brazilian retail butchery routinely treats \"aba de filé\" as a synonym of \"bife do vazio\", which ABIEC (B1210) defines as \"a porção grossa do músculo reto abdominal\"; that reading matches the atlas's own description of the cut as a sheet of abdominal wall, and is what the region rectangle draws. Both candidates are listed in `muscles`. No Brazilian standard or trade source was found that names muscles under the literal heading \"aba de filé\", so the grade is contested rather than trade.",
+   "note": "Bounds are inferred: ABIEC gives bone bases for the contrafilé and for the bife do vazio, not for a cut called aba de filé."
+  },
+  {
+   "id": "fraldinha",
+   "muscles": [
+    {
+     "id": "rectus-abdominis",
+     "role": "defining",
+     "extent": "portion",
+     "from": "rib-13",
+     "to": "ilium",
+     "note": "candidate A, and the one that matches the atlas's own \"Fraldinha (vazio)\" naming: ABIEC's Bife do Vazio / Flank Steak"
+    },
+    {
+     "id": "obliquus-internus-abdominis",
+     "role": "defining",
+     "extent": "portion",
+     "from": "rib-13",
+     "to": "ilium",
+     "note": "candidate B: BeefPoint, citing Carnes e Cortes (1999) and the Atlas of Topographical Anatomy of the Domestic Animals (1971)"
+    }
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "contested",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "Corte preparado a partir do vazio, constituído pela porção grossa do músculo reto abdominal."
+    },
+    {
+     "url": "https://beefpoint.com.br/entendendo-as-diferencas-dos-cortes-de-carne-bovina-nos-eua-e-brasil-59837/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Ponta de agulha é a região remanescente composta pela costela do traseiro e vazio (flanco), o qual o músculo Obliquus abdominus internus recebe o nome de Fraldinha"
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Corte constituído da porção costal do diafragma e com a remoção do tecido membranoso de revestimento."
+    }
+   ],
+   "dispute": "Three named candidates, and the split is real rather than an error in one source. (A) rectus abdominis - ABIEC B1210 \"Bife do Vazio / Flank Steak\": \"constituído pela porção grossa do músculo reto abdominal\", bone base \"bordo distal da última costela, apófises transversas das vértebras lombares e tuberosidade do íleo\". The atlas names this cut \"Fraldinha (vazio)\", so if fraldinha is the vazio, this is it. (B) obliquus internus abdominis - BeefPoint, citing Carnes e Cortes (1999) and the Atlas of Topographical Anatomy of the Domestic Animals (1971), states flatly that the internal oblique is the muscle that takes the name fraldinha. (C) diaphragm, pars costalis - ABIEC's export nomenclature does not use \"fraldinha\" for any flank cut at all: item B1211 \"Fraldinha\" is the Thin Skirt / Hampe, \"a porção costal do diafragma\", and the flank steak is sold as \"Bife do Vazio\" instead. Candidate C is deliberately left out of `muscles`: it is an export-trade homonym for the outside skirt, which is not where this atlas draws the rectangle. A and B are both kept, and the disagreement between them is the finding.",
+   "note": "Bounds are ABIEC's, from the Bife do Vazio bone base: last rib to the tuber coxae of the ilium. That line is the same for either abdominal candidate, so bounds are graded trade even though the muscle list is contested."
+  },
+  {
+   "id": "costela",
+   "muscles": [
+    {
+     "id": "intercostalis",
+     "role": "defining",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-13",
+     "note": "the meat between the ribs, which is what a churrasco costela mostly is"
+    },
+    {
+     "id": "serratus-ventralis",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-10",
+     "note": "the thoracic fan lying on the outside of the upper ribs"
+    },
+    {
+     "id": "latissimus-dorsi",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-13"
+    },
+    {
+     "id": "iliocostalis",
+     "role": "trace",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-13"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. cutaneus trunci",
+     "role": "minor",
+     "where": "the subcutaneous sheet directly under the hide over the whole lateral rib cage - the matambre, peeled off before the ribs are cut"
+    },
+    {
+     "latin": "Mm. levatores costarum",
+     "role": "trace",
+     "where": "short fans from the thoracic transverse processes to the next rib behind, deep to the iliocostalis"
+    },
+    {
+     "latin": "M. serratus dorsalis cranialis",
+     "role": "trace",
+     "where": "a thin fan over the upper ribs, deep to the rhomboideus and the serratus ventralis"
+    }
+   ],
+   "bone_in": true,
+   "evidence": "trade",
+   "bounds_evidence": "inferred",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "COSTILHAR 7 RIB SET M. iliocostalis (syn. M.longissimus costarum) M. subscapularis M. serratus dorsalis cranialis Mm. intercostales externus et internus"
+    },
+    {
+     "url": "http://carnenossa.blogspot.com/2010/09/costilhar-ou-ponta-de-agulha.html",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Músculos principais: latissimus dorsi, serratus ventralis, cutâneos trunci, reto abdominal, intercostais."
+    }
+   ],
+   "dispute": null,
+   "note": "ABIEC's cut book has no item called \"Costela\" - the rib is sold bone-in and domestically and is not an export item, so the only muscle naming it carries is the labelled COSTILHAR (7 RIB SET) anatomical plate, whose labels are quoted above in the order they read off the page. Because that plate covers the whole rib primal it also labels the loin muscles (longissimus, spinalis, multifidus); those are entered under contrafilé, not here. The second source is a Brazilian butchery table for \"costela do traseiro\" and agrees on intercostals, serratus ventralis, latissimus and cutaneus trunci. Bounds are inferred: rib 6 is the Brazilian fore/hind quarter split and rib 13 is the last rib, but no source draws the costela's own limits in ribs."
+  },
+  {
+   "id": "ponta-de-agulha",
+   "muscles": [
+    {
+     "id": "obliquus-externus-abdominis",
+     "role": "defining",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "ilium"
+    },
+    {
+     "id": "intercostalis",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-13",
+     "note": "the rib-end intercostal meat of the costela minga"
+    },
+    {
+     "id": "obliquus-internus-abdominis",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-13",
+     "to": "ilium"
+    },
+    {
+     "id": "transversus-abdominis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "ilium"
+    },
+    {
+     "id": "rectus-abdominis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "sternum",
+     "to": "ilium"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. cutaneus trunci",
+     "role": "minor",
+     "where": "the subcutaneous sheet outside the external oblique along the lower flank"
+    }
+   ],
+   "bone_in": true,
+   "evidence": "trade",
+   "bounds_evidence": "inferred",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Mm. intercostales externus et internus M. obliquus externus abdominis M. transversus abdominis M. rectus abdominis M. obliquus internus abdominis M. cutaneus trunci"
+    },
+    {
+     "url": "https://beefpoint.com.br/entendendo-as-diferencas-dos-cortes-de-carne-bovina-nos-eua-e-brasil-59837/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Ponta de agulha é a região remanescente composta pela costela do traseiro e vazio (flanco)"
+    }
+   ],
+   "dispute": null,
+   "note": "The quote is the complete label block of ABIEC's anatomical plate headed \"PONTA DA AGULHA (1ª COSTELA) / THIN FLANK - 1st RIB\", reproduced in the order the labels read off the page. ABIEC has no cut item for the ponta de agulha either - like the costela it stays bone-in and domestic - so the plate is the naming source. Bounds are inferred: BeefPoint defines the region as whatever is left of the hindquarter once the loin, rump and round are taken, which is a residue rather than a line."
+  },
+  {
+   "id": "matambre",
+   "muscles": [],
+   "unmodelled": [
+    {
+     "latin": "M. cutaneus trunci",
+     "role": "defining",
+     "where": "a flat non-skeletal sheet lying directly under the hide over most of the lateral rib cage and flank, superficial to the latissimus dorsi and the external oblique; it is the whole of this cut"
+    }
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://argentinebeef.org.ar/en/cuts/matambre",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "Rose (m. Cutaneous Trunci)"
+    },
+    {
+     "url": "https://delsurbeef.com/en/matambre/",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "Cutaneus Trunci (Rose) is a cut extended along the abdominal, costal and brachial regions."
+    }
+   ],
+   "dispute": null,
+   "note": "The atlas does not model the cutaneous trunci, so this cut has no entry in `muscles` at all - the one muscle it is made of sits in `unmodelled`, and that is the honest answer rather than a failure. Brazilian sources place the matambre but do not name it: ABIEC's cut book uses \"matambre\" only as a landmark in the pistola cutting line (\"a incisão desde a extremidade posterior do matambre\") and gives it no item of its own, because it is a southern / River Plate cut rather than an export one. The muscle naming therefore comes from the Argentine and Uruguayan trade, where the same sheet is the matambre / rose meat. One Brazilian butchery table instead gives \"latissimus dorsi\" for matambre; that is a minority reading and is not adopted, since the cut is by definition the layer outside the latissimus."
+  },
+  {
+   "id": "cupim",
+   "muscles": [
+    {
+     "id": "rhomboideus",
+     "role": "defining",
+     "extent": "portion",
+     "from": "rib-01",
+     "to": "rib-05",
+     "note": "the hump is the hypertrophied dorsal end of the rhomboideus; Calkins gives this muscle the single common name \"Hump meat\""
+    },
+    {
+     "id": "trapezius",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-01",
+     "to": "rib-05",
+     "note": "the upper thoracic trapezius over the same spines"
+    }
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Componentes musculares: trapézio, rombóide."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "Corte constituído das massas musculares situadas dorsalmente ao acém, características das raças zebuínas."
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Rhomboideus  Hump meat"
+    },
+    {
+     "url": "https://beefpoint.com.br/entendendo-as-diferencas-dos-cortes-de-carne-bovina-nos-eua-e-brasil-59837/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Em animais Bos indicus a parte superior dos músculos Trapezius e Romboideus pode ser separado dando origem ao corte Cupim"
+    }
+   ],
+   "dispute": null,
+   "note": "The atlas's carcass is a European-type animal with no hump, so there is nothing on this mesh for the cupim's rectangle to sit on: the cut exists only on zebu (Nelore and its crosses), where the rhomboideus and the overlying trapezius are hypertrophied into a fatty mass above the withers. The muscle ids are therefore right and the geometry is not - the modelled rhomboideus here is the ordinary European one, a flat sheet under the scapular cartilage, and rebuilding the cupim on it would give a piece of the wrong size and shape. ABIEC's bone base is \"extremidades sueriores das cinco primeiras apófises espinhais das vértebras torácicas\" (the typo is ABIEC's), i.e. the spines of T1-T5, hence rib-01 to rib-05."
+  },
+  {
+   "id": "acem",
+   "muscles": [
+    {
+     "id": "longissimus",
+     "role": "defining",
+     "extent": "portion",
+     "from": "rib-01",
+     "to": "rib-05",
+     "note": "ABIEC's \"longo dorsal\"; this is the chuck eye, the same muscle that is the contrafilé from rib 6 back"
+    },
+    {
+     "id": "serratus-ventralis",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-01",
+     "to": "rib-05",
+     "note": "the under-blade muscle, sold elsewhere as the Denver steak"
+    },
+    {
+     "id": "trapezius",
+     "role": "major",
+     "extent": "portion",
+     "from": "cervical-vertebrae",
+     "to": "rib-05"
+    },
+    {
+     "id": "rhomboideus",
+     "role": "major",
+     "extent": "portion",
+     "from": "cervical-vertebrae",
+     "to": "rib-05"
+    },
+    {
+     "id": "spinalis-dorsi",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-01",
+     "to": "rib-05",
+     "note": "ABIEC names \"semiespinhal torácico\"; the model's spinalis-dorsi is M. spinalis et semispinalis thoracis, the same complex"
+    },
+    {
+     "id": "iliocostalis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-01",
+     "to": "rib-05"
+    },
+    {
+     "id": "intercostalis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-01",
+     "to": "rib-05"
+    },
+    {
+     "id": "longus-colli",
+     "role": "minor",
+     "extent": "portion",
+     "from": "cervical-vertebrae",
+     "to": "rib-05",
+     "note": "the thoracic end; the cervical end goes with the pescoço"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. scalenus supracostalis",
+     "role": "minor",
+     "where": "from the last cervical transverse processes to the first rib, ventral to the longus colli; ABIEC's \"escaleno supracostal\""
+    },
+    {
+     "latin": "M. serratus dorsalis cranialis",
+     "role": "minor",
+     "where": "a thin fan from the supraspinous ligament to the upper first ribs, deep to the rhomboideus"
+    },
+    {
+     "latin": "Mm. levatores costarum",
+     "role": "trace",
+     "where": "short fans from the thoracic transverse processes to the rib behind, deep to the iliocostalis"
+    }
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Componentes musculares: trapézio, rombóide, serrato ventral, escaleno supracostal, serrato dorsal cranial, iliocostal, longo dorsal, semiespinhal torácico, elevadores das costelas, intercostais, longo do pescoço."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Base óssea: cinco primeiras vértebras torácicas e porção dorsal das cinco primeiras costelas."
+    },
+    {
+     "url": "https://beefpoint.com.br/entendendo-as-diferencas-dos-cortes-de-carne-bovina-nos-eua-e-brasil-59837/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Retirado a paleta temos no dianteiro; Pescoço, Acém (Trapezius, Rhomboideus e Serratus ventralis), Costela do Dianteiro e Peito."
+    }
+   ],
+   "dispute": null,
+   "note": "ABIEC item B2211. Its bone base is exactly T1-T5 and the dorsal part of ribs 1-5, which is the forequarter side of the Brazilian 5th/6th rib split - so the acém and the contrafilé together take the whole length of the longissimus, divided at one saw line, with no separate rib-eye primal in between. BeefPoint names only the three biggest muscles."
+  },
+  {
+   "id": "pescoco",
+   "muscles": [
+    {
+     "id": "splenius",
+     "role": "defining",
+     "extent": "whole",
+     "note": "ABIEC's \"esplênio\""
+    },
+    {
+     "id": "longus-colli",
+     "role": "major",
+     "extent": "portion",
+     "from": "atlas",
+     "to": "rib-01",
+     "note": "the cervical portion; ABIEC's \"longo do pescoço\""
+    },
+    {
+     "id": "brachiocephalicus",
+     "role": "major",
+     "extent": "portion",
+     "from": "cranium",
+     "to": "seam",
+     "note": "cut where the neck is separated from the shoulder, the rest going with the paleta"
+    },
+    {
+     "id": "omotransversarius",
+     "role": "major",
+     "extent": "portion",
+     "from": "atlas",
+     "to": "seam"
+    },
+    {
+     "id": "trapezius",
+     "role": "minor",
+     "extent": "portion",
+     "from": "cervical-vertebrae",
+     "to": "rib-01",
+     "note": "cervical portion only"
+    },
+    {
+     "id": "rhomboideus",
+     "role": "minor",
+     "extent": "portion",
+     "from": "cervical-vertebrae",
+     "to": "rib-01",
+     "note": "cervical portion only"
+    },
+    {
+     "id": "serratus-ventralis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "cervical-vertebrae",
+     "to": "rib-01",
+     "note": "the cervical fan"
+    },
+    {
+     "id": "multifidus",
+     "role": "minor",
+     "extent": "portion",
+     "from": "atlas",
+     "to": "rib-01",
+     "note": "ABIEC's \"multífido cervical\""
+    },
+    {
+     "id": "sternocephalicus",
+     "role": "trace",
+     "extent": "portion",
+     "from": "cranium",
+     "to": "sternum",
+     "note": "ABIEC's list does not name it, but the strap runs the length of this cut; entered as trace on anatomy, not on a source"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. semispinalis cervicis",
+     "role": "major",
+     "where": "dorsal to the multifidus along the cervical vertebrae; the model's `complexus` is the capitis member of the same complex, not this one"
+    },
+    {
+     "latin": "Mm. intertransversarii cervicis",
+     "role": "minor",
+     "where": "between the transverse processes of the cervical vertebrae, deep to the longus colli"
+    },
+    {
+     "latin": "Mm. recti capitis",
+     "role": "minor",
+     "where": "short muscles from the atlas and the axis to the base of the skull"
+    },
+    {
+     "latin": "Mm. obliqui capitis",
+     "role": "minor",
+     "where": "between the atlas and the axis, and from the atlas to the skull"
+    },
+    {
+     "latin": "M. scalenus",
+     "role": "minor",
+     "where": "from the last cervical transverse processes to the first rib, ventral to the longus colli"
+    }
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Componentes musculares: trapézio, omotransverso, braquicefálico, rombóide, serrato ventral, esplênio, longos, oblíquos da cabeça, multífido cervical, semiespinhal cervical, intertransversos cervicais, retos da cabeça, escaleno, longo do pescoço."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Corte constituído das massas musculares inseridas nas vértebras cervicais, borda anterior da primeira costela e extremidade anterior do esterno."
+    }
+   ],
+   "dispute": null,
+   "note": "ABIEC item B2210. The list is unusually long and unusually specific about the deep cervical muscles, most of which the atlas does not model. ABIEC names \"semiespinhal cervical\", not capitis; the model's `complexus` is M. semispinalis capitis, so it is deliberately not claimed here and the cervicis part is listed as unmodelled instead."
+  },
+  {
+   "id": "paleta",
+   "muscles": [
+    {
+     "id": "triceps-brachii",
+     "role": "defining",
+     "extent": "whole",
+     "note": "the miolo / coração da paleta, ABIEC B2113, is the triceps on its own"
+    },
+    {
+     "id": "infraspinatus",
+     "role": "major",
+     "extent": "whole",
+     "note": "the raquete, ABIEC B2111 - the flat iron"
+    },
+    {
+     "id": "supraspinatus",
+     "role": "major",
+     "extent": "whole",
+     "note": "the peixinho, ABIEC B2112 - the chuck tender"
+    },
+    {
+     "id": "subscapularis",
+     "role": "major",
+     "extent": "whole",
+     "note": "the capa da paleta, ABIEC B2114"
+    },
+    {
+     "id": "deltoideus",
+     "role": "minor",
+     "extent": "whole"
+    },
+    {
+     "id": "teres-major",
+     "role": "minor",
+     "extent": "whole",
+     "note": "ABIEC's \"redondos\" covers teres major and teres minor together"
+    },
+    {
+     "id": "latissimus-dorsi",
+     "role": "minor",
+     "extent": "portion",
+     "from": "seam",
+     "to": "humerus",
+     "note": "only the part that follows the shoulder; the rest stays on the rib cage with the costela and the capa de filé"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. cutaneus omobrachialis",
+     "role": "minor",
+     "where": "a subcutaneous sheet over the point of shoulder and upper arm, outside the deltoid and the triceps"
+    },
+    {
+     "latin": "M. tensor fasciae antebrachii",
+     "role": "minor",
+     "where": "a thin strap on the caudal border of the long head of the triceps, running to the olecranon"
+    },
+    {
+     "latin": "M. anconaeus",
+     "role": "trace",
+     "where": "deep to the triceps on the caudal face of the distal humerus, over the elbow"
+    },
+    {
+     "latin": "M. teres minor",
+     "role": "trace",
+     "where": "small, between the infraspinatus and the deltoid at the shoulder joint"
+    },
+    {
+     "latin": "M. coracobrachialis",
+     "role": "trace",
+     "where": "on the medial face of the humerus, deep to the biceps brachii"
+    }
+   ],
+   "bone_in": true,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Componentes musculares: cutâneo omobraquial, deltóide, supraespinhoso, infraespinhoso, redondos, subescapular, grande dorsal, tríceps braquial, tensor da fascia antebraquial e ancôneo."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Componentes ósseos: escápula, úmero, rádio, ulna e carpo."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Corte constituído pela massa muscular situada na fossa infraespinhosa da escápula."
+    },
+    {
+     "url": "https://beefpoint.com.br/entendendo-as-diferencas-dos-cortes-de-carne-bovina-nos-eua-e-brasil-59837/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "desta extraímos a pá constituída pela escapula, úmero e músculos correspondentes os quais darão origem aos cortes: Raquete (Infraspinatus), Peixinho (Supraspinatus) e Coração da Paleta (Tríceps brachii)"
+    }
+   ],
+   "dispute": null,
+   "note": "Two ABIEC items overlap here: A2100 \"Paleta / Shoulder\" is the bone-in primal, whose bones are quoted for the boundary, and B2110 \"Pá / Shoulder Clod\" is the same mass boned out, whose muscle list is quoted. The named sub-cuts each resolve to a single muscle and agree with FINDINGS: raquete = infraspinatus (the flat iron / paleron), peixinho = supraspinatus (chuck tender), miolo da paleta = triceps brachii, capa da paleta = subscapularis. ABIEC's \"grande dorsal\" in the Pá list is the latissimus dorsi again; its English column renders it \"rectus capiti dorsalis major\", reproduced not corrected."
+  },
+  {
+   "id": "peito",
+   "muscles": [
+    {
+     "id": "pectoralis-profundus",
+     "role": "defining",
+     "extent": "whole",
+     "note": "the deep pectoral, the brisket flat in American terms"
+    },
+    {
+     "id": "pectoralis-superficialis",
+     "role": "defining",
+     "extent": "whole",
+     "note": "the superficial pectoral, the brisket point"
+    },
+    {
+     "id": "intercostalis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-01",
+     "to": "rib-05",
+     "note": "only the sternal ends, between the costal cartilages"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. subclavius",
+     "role": "minor",
+     "where": "a flat muscle over the first ribs deep to the superficial pectoral, running forward to the scapula"
+    },
+    {
+     "latin": "M. transversus thoracis",
+     "role": "minor",
+     "where": "on the inner face of the sternum, crossing between the costal cartilages"
+    }
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Componentes musculares: peitorais, subclávio, intercostais, transverso torácico."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Base óssea: seis primeiras esternébras, cartilagens costais correspondentes e extremidades esternais das primeiras costelas."
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Deep pectoral  Brisket"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Superficial pectoral  Brisket"
+    }
+   ],
+   "dispute": null,
+   "note": "ABIEC item B2212 \"Peito / Brisket Point End\". ABIEC writes only \"peitorais\" - the pectoral group - and does not split deep from superficial; its own labelled plate for the brisket region does, naming \"M. pectoralis superficialis (syn. M. pectoralis descendens et transversus)\" and \"M. pectoralis profundus (syn. M. pectoralis ascendens)\", which is why both are entered. Brazil does not cut a separate flat and point the way IMPS 120A/120B does; the ponta do peito (B2213) is what is left after the upper part is taken off, and is not a muscle boundary."
+  },
+  {
+   "id": "patinho",
+   "muscles": [
+    {
+     "id": "quadriceps-femoris",
+     "role": "defining",
+     "extent": "whole",
+     "note": "ABIEC's \"vastos lateral, medial e intermediário\" - exactly the three heads the model groups under this id"
+    },
+    {
+     "id": "rectus-femoris",
+     "role": "defining",
+     "extent": "whole",
+     "note": "ABIEC's \"reto femoral\", the knuckle centre"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. articularis genu",
+     "role": "trace",
+     "where": "a small muscle on the cranial face of the distal femur under the vastus intermedius; labelled on ABIEC's PATINHO plate"
+    },
+    {
+     "latin": "M. cutaneus trunci",
+     "role": "trace",
+     "where": "the subcutaneous sheet passing over the front of the thigh; labelled on ABIEC's PATINHO plate"
+    }
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Componentes musculares: reto femoral, vastos lateral, medial e intermediário."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Base óssea: fêmur e patela."
+    },
+    {
+     "url": "https://beefpoint.com.br/entendendo-as-diferencas-dos-cortes-de-carne-bovina-nos-eua-e-brasil-59837/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Patinho (todo o grupo Quadriceps femoris, Rectus femoris, Vastus medialis, Vastus intermedius e Vastus lateralis)"
+    }
+   ],
+   "dispute": null,
+   "note": "ABIEC item B1127, the knuckle / thick flank. Agrees with Calkins's \"Quadriceps femoris | Knuckle; Sirloin tip\" and \"Rectus femoris | Knuckle center\". Note that CFIA puts the vastus lateralis in the outside round instead - that quirk is recorded in the US table; the Brazilian sources do not share it."
+  },
+  {
+   "id": "coxao-mole",
+   "muscles": [
+    {
+     "id": "semimembranosus",
+     "role": "defining",
+     "extent": "whole"
+    },
+    {
+     "id": "adductor",
+     "role": "major",
+     "extent": "whole",
+     "note": "ABIEC's \"adutor femoral\"; on its own it is sold as coxão mole baby top"
+    },
+    {
+     "id": "gracilis",
+     "role": "major",
+     "extent": "whole",
+     "note": "part of the capa de coxão mole, removed to make B1124.2"
+    },
+    {
+     "id": "obturator-externus",
+     "role": "minor",
+     "extent": "whole",
+     "note": "ABIEC's \"obturadores\""
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. sartorius",
+     "role": "major",
+     "where": "a flat strap on the medial thigh over the adductor; part of the capa de coxão mole - this is the French merlan"
+    },
+    {
+     "latin": "M. pectineus",
+     "role": "minor",
+     "where": "medial thigh between the adductor and the gracilis; the third muscle of the capa"
+    },
+    {
+     "latin": "Mm. gemelli",
+     "role": "trace",
+     "where": "small muscles from the ischium to the trochanteric fossa, deep behind the hip joint"
+    },
+    {
+     "latin": "M. quadratus femoris",
+     "role": "trace",
+     "where": "from the ventral ischium to the caudal femur, deep to the adductor"
+    }
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Componentes musculares: sartório, gracilis, pectíneo, adutor femoral, semimembranoso, gêmeos, obturadores e quadrado femoral."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Base óssea: ísquio, púbis, fêmur e tíbia."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Preparado pela remoção dos músculos gracilis, sartório e pectíneo, que constituem a capa de coxão mole"
+    },
+    {
+     "url": "https://beefpoint.com.br/entendendo-as-diferencas-dos-cortes-de-carne-bovina-nos-eua-e-brasil-59837/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Coxão-mole (Pectineus, Adductor, Semimenbranosus, Gracilis e Sartorius)"
+    }
+   ],
+   "dispute": null,
+   "note": "ABIEC item B1124. The same four muscles CFIA gives for the intérieur de ronde, plus the deep hip group. The \"capa de coxão mole\" that Brazilian butchers peel off is gracilis + sartorius + pectineus, which is a cleaner statement of the inside-round cap than any English-language source in FINDINGS. BeefPoint's \"Semimenbranosus\" is a typo in the original."
+  },
+  {
+   "id": "coxao-duro",
+   "muscles": [
+    {
+     "id": "biceps-femoris",
+     "role": "defining",
+     "extent": "portion",
+     "from": "ilium",
+     "to": "tibia",
+     "note": "the body of the gluteobiceps on the lateral face of the thigh; its dorsal tip, cut off against the gluteus medius, is the picanha"
+    }
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Componentes musculares: bíceps femoral."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "Corte da face lateral do coxão obtido pela liberação do músculo bíceps femoral aderido às faces laterais do fêmur, ventral do osso ilíaco e extremidades proximais da tíbia e fíbula e separação de suas ligações naturais com músculo mole, lagarto e coxão mole."
+    },
+    {
+     "url": "https://beefpoint.com.br/entendendo-as-diferencas-dos-cortes-de-carne-bovina-nos-eua-e-brasil-59837/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Coxão-Duro (porção do Biceps femoris)"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Biceps femoris  Bottom (outside) round"
+    }
+   ],
+   "dispute": null,
+   "note": "ABIEC item B1125.2 \"Coxão Duro sem Lagarto / Flat or Outside Flat\", which is the coxão duro as Brazilian retail sells it - one muscle. The larger B1125 \"Coxão Duro com Lagarto e Músculo Mole\" (full silverside) adds semitendinosus, gastrocnemius and the superficial digital flexor, but the atlas carries the lagarto and the ossobuco as their own cuts, so the single-muscle item is the right match. BeefPoint's \"porção do Biceps femoris\" is the same claim, and says \"porção\" for the same reason the bound here is a portion: the picanha comes off the top of it."
+  },
+  {
+   "id": "lagarto",
+   "muscles": [
+    {
+     "id": "semitendinosus",
+     "role": "defining",
+     "extent": "whole"
+    }
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "Corte constituído pelo músculo semitendinoso, localizado entre o coxão duro e o coxão mole."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Base óssea: tuberosidade isquiática e tuberosidade calcânea (tarso)."
+    },
+    {
+     "url": "https://beefpoint.com.br/entendendo-as-diferencas-dos-cortes-de-carne-bovina-nos-eua-e-brasil-59837/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Lagarto (Semitendinosus)"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Semitendinosus  Eye of round"
+    }
+   ],
+   "dispute": null,
+   "note": "FINDINGS listed lagarto among the cuts expected to stay position-defined; it is not. ABIEC item B1126 names the single muscle outright and gives its two bony ends, the ischiatic tuberosity and the calcaneal tuberosity. The known quirk is geometric, not evidential: the atlas's rectangle for this cut sits low, below where the semitendinosus actually runs on this mesh."
+  },
+  {
+   "id": "ossobuco",
+   "muscles": [
+    {
+     "id": "gastrocnemius",
+     "role": "defining",
+     "extent": "portion",
+     "from": "femur",
+     "to": "tarsus",
+     "note": "the whole length as far as the Achilles tendon; the round takes its proximal heel end"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. soleus",
+     "role": "major",
+     "where": "a flat strap on the lateral face of the gastrocnemius, running with it to the Achilles tendon"
+    },
+    {
+     "latin": "M. flexor digitorum superficialis",
+     "role": "major",
+     "where": "between the heads of the gastrocnemius, caudal to the tibia - ABIEC sells it alone as the bananinha"
+    },
+    {
+     "latin": "M. popliteus",
+     "role": "minor",
+     "where": "behind the stifle, on the caudal face of the proximal tibia, deep to the gastrocnemius"
+    },
+    {
+     "latin": "M. peronaeus longus",
+     "role": "minor",
+     "where": "craniolateral to the tibia, alongside the long digital extensor"
+    },
+    {
+     "latin": "M. peronaeus tertius",
+     "role": "minor",
+     "where": "craniolateral to the tibia, part of the extensor group"
+    },
+    {
+     "latin": "M. extensor digitorum longus",
+     "role": "minor",
+     "where": "in front of and lateral to the tibia"
+    },
+    {
+     "latin": "M. tibialis posterior",
+     "role": "trace",
+     "where": "deep on the caudal face of the tibia, under the deep digital flexor"
+    }
+   ],
+   "bone_in": true,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Componentes musculares: gastrocnêmio, sóleo e flexor digital superficial."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Componentes musculares: extensores digitais, fibular longo, fibular terceiro, extensor digital longo e poplíteo."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Base óssea: tíbia e ossos tarsais."
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Gastrocnemius  Round heel"
+    }
+   ],
+   "dispute": "Sawn across the bone, the Brazilian ossobuco spans two things ABIEC boxes separately: B1128 \"Músculo Mole / Leg of Beef - Heel Muscle\", the mass behind the stifle (gastrocnemius, soleus, superficial digital flexor), and B1129 \"Músculo Duro ou Garrão / Shank\", the mass on the tibia itself (digital extensors, fibularis longus and tertius, popliteus). Both quotes are given and the union is what a cross-cut round actually contains. Only the gastrocnemius is modelled; everything else in either list is unmodelled, which is the same answer the US hind shank reached."
+  },
+  {
+   "id": "musculo",
+   "muscles": [
+    {
+     "id": "biceps-brachii",
+     "role": "major",
+     "extent": "whole",
+     "note": "ABIEC's \"bíceps braquial\""
+    },
+    {
+     "id": "extensor-carpi-radialis",
+     "role": "major",
+     "extent": "portion",
+     "from": "humerus",
+     "to": "carpus",
+     "note": "ABIEC's \"extensor caroradial\", a misprint for carpo-radial"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. brachialis",
+     "role": "major",
+     "where": "spiralling round the lateral face of the humerus from its neck to the proximal radius"
+    },
+    {
+     "latin": "M. coracobrachialis",
+     "role": "minor",
+     "where": "on the medial face of the humerus, deep to the biceps brachii"
+    },
+    {
+     "latin": "M. extensor digitorum communis",
+     "role": "major",
+     "where": "on the craniolateral face of the radius, alongside the extensor carpi radialis"
+    },
+    {
+     "latin": "M. flexor digitorum superficialis",
+     "role": "major",
+     "where": "caudal to the radius and the ulna"
+    },
+    {
+     "latin": "M. flexor digitorum profundus",
+     "role": "major",
+     "where": "caudal to the radius and the ulna, deep to the superficial flexor"
+    },
+    {
+     "latin": "M. flexor carpi ulnaris",
+     "role": "minor",
+     "where": "caudomedial to the ulna, running to the accessory carpal bone"
+    },
+    {
+     "latin": "M. flexor carpi radialis",
+     "role": "minor",
+     "where": "caudomedial to the radius"
+    },
+    {
+     "latin": "M. extensor carpi ulnaris",
+     "role": "minor",
+     "where": "on the caudolateral face of the radius and the ulna"
+    },
+    {
+     "latin": "M. abductor pollicis longus",
+     "role": "trace",
+     "where": "crossing obliquely over the lower cranial face of the radius; ABIEC's \"abdutor longo digital\""
+    },
+    {
+     "latin": "M. pronator teres",
+     "role": "trace",
+     "where": "a small oblique strap on the medial face of the proximal radius"
+    }
+   ],
+   "bone_in": true,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Componentes musculares: bíceps braquial, coracobraquial, braquial, extensores digitais, flexores digitais, extensor caroradial, abdutor longo digital, pronador redondo."
+    },
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Base óssea: úmero, rádio, ulna e carpo."
+    },
+    {
+     "url": "https://beefpoint.com.br/entendendo-as-diferencas-dos-cortes-de-carne-bovina-nos-eua-e-brasil-59837/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "os músculos extensores e flexores são desossados dando origem ao Músculo do Dianteiro"
+    }
+   ],
+   "dispute": null,
+   "note": "ABIEC item B2120 \"Músculo do Dianteiro / Shin\". Unusually for a shank, the source does enumerate the forearm muscles rather than waving at them - eight are named and the digital extensor and flexor groups stand for several more, of which the atlas models two. This is the biggest concentration of unmodelled muscles in the Brazilian table."
+  },
+  {
+   "id": "rabo",
+   "muscles": [
+    {
+     "id": "sacrocaudalis",
+     "role": "defining",
+     "extent": "portion",
+     "from": "sacrum",
+     "to": "insertion",
+     "note": "the dorsal and ventral sacrocaudal muscles are the only skeletal muscle on the tail; the cut takes them from the sacrum back to the tip"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "Mm. intertransversarii caudae",
+     "role": "minor",
+     "where": "between the transverse processes of the caudal vertebrae, lateral to the sacrocaudal muscles"
+    },
+    {
+     "latin": "M. coccygeus",
+     "role": "trace",
+     "where": "from the ischiatic spine to the first caudal vertebrae, part of the pelvic diaphragm at the tail head"
+    }
+   ],
+   "bone_in": true,
+   "evidence": "inferred",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Preparado com as vértebras coccígeas e músculos correspondentes."
+    }
+   ],
+   "dispute": "No source names a muscle. ABIEC's variety-meats item 550 defines the tail entirely by bone - \"as vértebras coccígeas e músculos correspondentes\" - and leaves \"músculos correspondentes\" unexpanded, exactly as the UK oxtail does in FINDINGS. The assignment to `sacrocaudalis` is inference from anatomy rather than from a source: the sacrocaudal dorsal and ventral groups are what runs along the caudal vertebrae, and the model carries them under one id. Bounds are graded trade because the bone limit is stated - ABIEC's carcass and alcatra specs keep the first two coccygeal vertebrae with the rump, so the tail starts behind them."
+  },
+  {
+   "id": "lingua",
+   "muscles": [],
+   "unmodelled": [
+    {
+     "latin": "Mm. linguae (intrinsic lingual musculature)",
+     "role": "defining",
+     "where": "the interwoven longitudinal, transverse and vertical fibres inside the tongue body itself; no modelled muscle corresponds, and the tongue is not a skeletal cut"
+    },
+    {
+     "latin": "M. genioglossus",
+     "role": "major",
+     "where": "fanning from the inner face of the mandibular symphysis back into the tongue"
+    },
+    {
+     "latin": "M. hyoglossus",
+     "role": "major",
+     "where": "from the basihyoid up into the side of the tongue"
+    },
+    {
+     "latin": "M. styloglossus",
+     "role": "minor",
+     "where": "from the stylohyoid forward into the side and tip of the tongue"
+    }
+   ],
+   "bone_in": false,
+   "evidence": "inferred",
+   "bounds_evidence": "inferred",
+   "sources": [
+    {
+     "url": "https://www.abiec.com.br/wp-content/uploads/ABIEC_LIVRO-DE-CORTES_COMPLETO.pdf",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "A peça é preparada após remoção do osso hióide, gorduras, tecido conjuntivo e gânglios regionais."
+    }
+   ],
+   "dispute": "No source names a muscle, and here that is the right answer rather than a gap. ABIEC's item 510 is a variety-meat spec written entirely in terms of trim - the hyoid bone, fat, connective tissue and lymph nodes come off and the piece is graded by weight or colour - and no Brazilian cut standard describes the tongue's own musculature at all. The atlas models no lingual muscle either: `masseter` and `temporalis` are the jaw, not the tongue, so nothing in `muscles` would be honest. The intrinsic and extrinsic lingual muscles are listed as unmodelled from bovine anatomy so that whoever extends muscle.json has the spec. Bounds are inferred for the same reason: the tongue's limits are the hyoid apparatus and the floor of the mouth, neither of which is a boundary along a modelled muscle."
+  }
+ ]
+}
