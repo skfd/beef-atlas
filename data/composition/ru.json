@@ -1,0 +1,1656 @@
+{
+ "culture": "Russia",
+ "id": "ru",
+ "note": "Russia has the best primary source of any tradition in this atlas, and it answers a slightly different question than expected. GOST 31797-2012 'Myaso. Razdelka govyadiny na otruby' is reachable in full text at https://base.garant.ru/70654172/ - Table 1 complete, items I-IV and 1-24, with the paywall starting only at 5.5 Markirovka - and GOST 7595-79, the retail scheme this atlas's cut file is actually drawn to, is reachable in full at http://omgautovar.narod.ru/gost/maso/3.html. Between them, 16 of the 23 cuts carry a quoted GOST boundary line and 12 are graded standard on bounds, which is the best bounds coverage of any tradition in this table.\n\nWhat GOST 31797-2012 does NOT do is name muscles for the loin. It names no muscle at all for the spinnoy or the poyasnichnyy otrub, so vyrezka = psoas major does fall straight out of it (item 8, poyasnichno-podvzdoshnaya myshtsa) but tonkiy kray = longissimus lumborum does not. Where the standard does name muscles it is excellent and it does so in Russian, muscle by muscle: the hind leg (items 2-7), the tenderloin (item 8) and the shoulder (items 17-21).\n\nThe catch is that GOST uses none of the kitchen names. There is no okovalok, kostrets, oguzok, shchup, ssek, podbederok, tolstyy kray, tonkiy kray, pokromka or chelyshko anywhere in it - only 'verkhnyaya chast tazobedrennogo otruba' and the like. Every kitchen-name cut therefore needs a trade bridge from the market name to a GOST item, and those bridges are graded as the weaker link: a GOST muscle list reached through a trade name is trade, not standard. For four of the hip cuts the bridge is not merely weak but contested - one wholesale price list sells 'Bokovaya chast ... (okovalok)', 'Vneshnyaya chast ... (podbederok)' and 'Vnutrennyaya chast ... (oguzok)', contradicting the mainstream retail usage this atlas's cut file follows on three cuts at once. That disagreement is recorded, not resolved.\n\nWhere the two standards disagree with each other - the spinnoy/poyasnichnyy line (rib 11/12 in 7595-79, rib 13 in 31797-2012), both shanks (mid-bone in 7595-79, at the joint in 31797-2012), the neck (C3-C5 versus the whole neck) and the triceps (in the lopatochnyy otrub for 31797-2012, on the bone of the plechevoy otrub for 7595-79) - both are quoted and the dispute field says which one the drawn rectangle follows. One correction to the cut file's own blurb is reported rather than edited: zavitok is not a kitchen name the standard never mentions, it is item 12 of GOST 31797-2012 with a real boundary along the costal cartilages from the 8th to the 13th rib.",
+ "sources": [
+  "https://base.garant.ru/70654172/",
+  "http://omgautovar.narod.ru/gost/maso/3.html",
+  "https://base.garant.ru/71112568/",
+  "https://studopediaru.com/4_146130_kulinarnaya-razdelka-i-obvalka-govyazhey-tushi.html",
+  "https://studfile.net/preview/16712235/page:9/",
+  "https://grill-bbq.ru/dictionary/tolstyj-kraj/",
+  "https://grill-bbq.ru/dictionary/tonkij-kraj/",
+  "https://zelenhutor.ru/blog/blog/gid-po-otrubam-govyadiny-kakoy-dlya-chego/",
+  "https://marr.ru/catalog/myaso/govyadina/govyadina-zamorozhennaya-orenbiv-rossiya/kostrets-govyazhiy-bez-kosti-zam/",
+  "https://marr.ru/catalog/myaso/govyadina/govyadina-zamorozhennaya-orenbiv-rossiya/",
+  "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf"
+ ],
+ "cuts": [
+  {
+   "id": "hvost",
+   "muscles": [
+    {
+     "id": "sacrocaudalis",
+     "role": "defining",
+     "extent": "whole",
+     "note": "the dorsal and ventral tail muscles running out along the caudal vertebrae; no Russian source names them for this item"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "Mm. intertransversarii dorsales et ventrales caudae",
+     "role": "minor",
+     "where": "between the transverse processes of the caudal vertebrae, lateral to the sacrocaudalis"
+    }
+   ],
+   "bone_in": true,
+   "evidence": "inferred",
+   "bounds_evidence": "inferred",
+   "sources": [
+    {
+     "url": "https://base.garant.ru/71112568/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "4.2 В зависимости от особенностей морфологического строения и способов обработки субпродукты подразделяют на:"
+    }
+   ],
+   "dispute": "Хвост is not an отруб at all: ГОСТ 31797-2012 does not list it, and ГОСТ 32244-2013 classes 'хвосты говяжьи' as a мясокостный субпродукт, which is all the quote establishes — it fixes the item as bone-in tail and names no muscle. The muscle entry is anatomy: the caudal vertebrae carry the sacrocaudalis group and little else. Inferred, not sourced."
+  },
+  {
+   "id": "kostrets",
+   "muscles": [
+    {
+     "id": "gluteus-medius",
+     "role": "defining",
+     "extent": "whole",
+     "note": "ГОСТ's 'средняя' ягодичная; the top sirloin / rump muscle"
+    },
+    {
+     "id": "gluteus-superficialis",
+     "role": "major",
+     "extent": "whole",
+     "note": "ГОСТ names 'поверхностная' as a separate member of the group. Bovine anatomy says otherwise - in ruminants the superficial gluteal is fused into the gluteobiceps and is not separately dissectible. Reproduced as the standard writes it."
+    },
+    {
+     "id": "biceps-femoris",
+     "role": "trace",
+     "extent": "portion",
+     "from": "ilium",
+     "to": "femur",
+     "note": "the gluteobiceps complex the superficial gluteal is fused into; ГОСТ assigns the biceps itself to the наружная часть (ссек), not here"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. gluteus accessorius",
+     "role": "minor",
+     "where": "deep to the gluteus medius over the ilium; ГОСТ's 'добавочная'"
+    },
+    {
+     "latin": "M. gluteus profundus",
+     "role": "minor",
+     "where": "deepest of the group, on the ilium above the hip joint; ГОСТ's 'глубокая'"
+    }
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "Верхняя часть тазобедренного отруба бескостная Состоит из группы ягодичных мышц (поверхностная, средняя, добавочная и глубокая), отделенных от подвздошной кости и покрытых поверхностной пленкой и слоем подкожного жира"
+    },
+    {
+     "url": "https://marr.ru/catalog/myaso/govyadina/govyadina-zamorozhennaya-orenbiv-rossiya/kostrets-govyazhiy-bez-kosti-zam/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "В избранное"
+    },
+    {
+     "url": "http://omgautovar.narod.ru/gost/maso/3.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Тазобедренный отруб: передняя граница - по линии отделения поясничного отруба; задняя - поперек берцовой кости на уровне нижней ее трети; нижняя - по линии отделения пашины. В тазобедренный отруб входят: кости таза (подвздошная, лонная, седалищная), крестцовая кость, шестой поясничный и два хвостовых позвонка, бедренная кость, коленная чашечка и верхние 2/3 берцовой кости."
+    }
+   ],
+   "dispute": "The muscle list is ГОСТ 31797-2012's, but the standard calls this item 'верхняя часть тазобедренного отруба' and never says 'кострец'. The bridge is a wholesale price list (marr.ru), which sells the item as 'Верхняя часть тазобедренного отруба (кострец)'. Because the weaker link in the chain is a trade source, the whole entry is graded trade rather than standard. The boundary ГОСТ gives is a seam, not a saw cut - 'отделенных от подвздошной кости' - so all four named gluteals come away whole."
+  },
+  {
+   "id": "ssek",
+   "muscles": [
+    {
+     "id": "biceps-femoris",
+     "role": "defining",
+     "extent": "whole",
+     "note": "ГОСТ: 'Самая крупная мышца бедра, занимает почти всю наружную (латеральную) поверхность задней части бедра'"
+    },
+    {
+     "id": "semitendinosus",
+     "role": "minor",
+     "extent": "whole",
+     "note": "ГОСТ puts the semitendinosus in the наружная часть together with the biceps; this atlas draws it separately as глазной мускул, which is exactly how the standard says it is lifted out - 'Выделяют из наручней части тазобедренного отруба'"
+    }
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Наружная часть тазобедренного отруба бескостная Состоит из двуглавой мышцы бедра и полусухожильной мышцы, расположенных с наружной (латеральной) стороны бедра, покрытых поверхностной пленкой и слоем подкожного жира"
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Двуглавая мышца бедра Самая крупная мышца бедра, занимает почти всю наружную (латеральную) поверхность задней части бедра. Выделяют из наручней части тазобедренного отруба"
+    },
+    {
+     "url": "https://zelenhutor.ru/blog/blog/gid-po-otrubam-govyadiny-kakoy-dlya-chego/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Ссек и кострец - мясо имеет мало волокон, оно сочное и нежное. Подходит для приготовления жаркого и ромштексов."
+    }
+   ],
+   "dispute": "ГОСТ 31797-2012 names the muscles of the 'наружная часть тазобедренного отруба'; it does not use the word ссек. The equation ссек = наружная часть is ordinary Russian butcher usage rather than a standard, so the entry is trade. Note that the same wholesale list that names кострец calls the внешняя/наружная part подбедерок instead - Russian trade naming of the hip sub-cuts is not stable; see the огузок and подбедерок entries."
+  },
+  {
+   "id": "glaznoy-muskul",
+   "muscles": [
+    {
+     "id": "semitendinosus",
+     "role": "defining",
+     "extent": "whole",
+     "note": "ГОСТ: 'Продолговатая, округлой формы' - the round eye the Russian name is taken from; sold at retail as 'полусухожильная мышца бедра (глазной мускул)'"
+    }
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "Полусухожильная мышца бедра Лежит позади двуглавой мышцы и занимает на бедре латерально-каудальное положение. Продолговатая, округлой формы. Выделяют из наручней части тазобедренного отруба"
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Наружная часть тазобедренного отруба бескостная Состоит из двуглавой мышцы бедра и полусухожильной мышцы, расположенных с наружной (латеральной) стороны бедра, покрытых поверхностной пленкой и слоем подкожного жира"
+    }
+   ],
+   "dispute": "ГОСТ 31797-2012 makes the semitendinosus an отруб in its own right (item 3) and describes exactly the operation the Russian kitchen name records - it is lifted out of the наружная часть, that is, out of the ссек. What ГОСТ does not supply is the name 'глазной мускул'; that comes from the trade, where the item is routinely listed as 'Полусухожильная мышца бедра (глазной мускул)'. Graded trade for that bridge. The boundary is a seam along the whole muscle, not a bone cut, so no from/to applies."
+  },
+  {
+   "id": "shchup",
+   "muscles": [
+    {
+     "id": "semimembranosus",
+     "role": "defining",
+     "extent": "whole",
+     "note": "ГОСТ's 'полуперепончатая'; the inside round"
+    },
+    {
+     "id": "adductor",
+     "role": "major",
+     "extent": "whole",
+     "note": "ГОСТ's 'приводящая'"
+    },
+    {
+     "id": "gracilis",
+     "role": "major",
+     "extent": "whole",
+     "note": "ГОСТ: 'стройной мышцы, покрывающей все мышцы с внутренней стороны' - the cap over the whole inside face"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. sartorius",
+     "role": "minor",
+     "where": "a flat strap on the medial thigh, fused to the adductor; ГОСТ's 'портняжная'"
+    },
+    {
+     "latin": "M. pectineus",
+     "role": "minor",
+     "where": "medial thigh between the adductor and the gracilis; ГОСТ's 'гребешковая'"
+    }
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "Внутренняя часть тазобедренного отруба бескостная Состоит из двух толстых мышц - полуперепончатой и приводящей, сросшихся с ними портняжной и гребешковой мышцами, расположенными с внутренней стороны бедра и стройной мышцы, покрывающей все мышцы с внутренней стороны"
+    },
+    {
+     "url": "https://studopediaru.com/4_146130_kulinarnaya-razdelka-i-obvalka-govyazhey-tushi.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Разделка передней четвертины."
+    }
+   ],
+   "dispute": "The five muscles are ГОСТ 31797-2012's list for the 'внутренняя часть тазобедренного отруба', which the кулинарная разделка textbook also carries as a named division of the тазобедренная часть. The word щуп is trade only - and contested: the marr.ru wholesale list sells the внутренняя часть as огузок, not as щуп (see огузок). Graded trade because the name bridge is the weak link, not the muscle list."
+  },
+  {
+   "id": "oguzok",
+   "muscles": [
+    {
+     "id": "semimembranosus",
+     "role": "major",
+     "extent": "whole",
+     "note": "on the marr.ru reading - внутренняя часть тазобедренного отруба - огузок IS the inside-round block, that is, the same meat this table gives щуп"
+    },
+    {
+     "id": "biceps-femoris",
+     "role": "minor",
+     "extent": "whole",
+     "note": "on the textbook reading огузок is the parent block that щуп and ссек are cut out of, so it carries the outside round as well"
+    },
+    {
+     "id": "adductor",
+     "role": "minor",
+     "extent": "whole"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. sartorius",
+     "role": "trace",
+     "where": "medial thigh over the adductor; part of ГОСТ's внутренняя часть"
+    },
+    {
+     "latin": "M. pectineus",
+     "role": "trace",
+     "where": "medial thigh between adductor and gracilis; part of ГОСТ's внутренняя часть"
+    }
+   ],
+   "bone_in": false,
+   "evidence": "contested",
+   "bounds_evidence": "contested",
+   "sources": [
+    {
+     "url": "https://marr.ru/catalog/myaso/govyadina/govyadina-zamorozhennaya-orenbiv-rossiya/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "мин.заказ"
+    },
+    {
+     "url": "https://studfile.net/preview/16712235/page:9/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "отруба проходит до линии отделения поясничной части, пашины и задней голяшки. Относится оковалок, кострец, огузок. Поясничный –"
+    },
+    {
+     "url": "https://zelenhutor.ru/blog/blog/gid-po-otrubam-govyadiny-kakoy-dlya-chego/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Огузок - мясистый волокнистый отруб . Можно делать фарш, тушить"
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Внутренняя часть тазобедренного отруба бескостная Состоит из двух толстых мышц - полуперепончатой и приводящей, сросшихся с ними портняжной и гребешковой мышцами, расположенными с внутренней стороны бедра и стройной мышцы, покрывающей все мышцы с внутренней стороны"
+    }
+   ],
+   "dispute": "Russian sources do not agree what огузок is. (1) The marr.ru wholesale list sells 'Внутренняя часть тазобедренного отруба (огузок)' - огузок is then the semimembranosus block, that is, what other sources call щуп. (2) The товароведение teaching text makes огузок one of three named pieces of the тазобедренный отруб alongside оковалок and кострец, and the retail usage this atlas's cut file follows treats огузок as the parent block that щуп (inside) and ссек (outside) are split out of. Reading (2) is what the drawn rectangle follows. Both are listed rather than one being picked; the muscles above are the union of the two readings and therefore overlap щуп and ссек by construction. No source assigns a muscle to огузок that is not already in one of those two cuts."
+  },
+  {
+   "id": "podbederok",
+   "muscles": [
+    {
+     "id": "quadriceps-femoris",
+     "role": "defining",
+     "extent": "whole",
+     "note": "ГОСТ's 'четырехглавая бедра, отделенной от переднего края бедренной кости' - the knuckle, lifted off the front of the femur"
+    },
+    {
+     "id": "rectus-femoris",
+     "role": "major",
+     "extent": "whole",
+     "note": "the fourth head of the quadriceps, modelled separately here; the knuckle centre"
+    },
+    {
+     "id": "tensor-fasciae-latae",
+     "role": "major",
+     "extent": "whole",
+     "note": "ГОСТ's 'напрягателя широкой фасции бедра'"
+    }
+   ],
+   "unmodelled": [],
+   "bone_in": true,
+   "evidence": "contested",
+   "bounds_evidence": "contested",
+   "sources": [
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "Боковая часть тазобедренного отруба бескостная Состоит из следующих мышц: четырехглавой бедра, отделенной от переднего края бедренной кости, напрягателя широкой фасции бедра, покрытых поверхностной пленкой и слоем подкожного жира"
+    },
+    {
+     "url": "https://marr.ru/catalog/myaso/govyadina/govyadina-zamorozhennaya-orenbiv-rossiya/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "мин.заказ"
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Наружная часть тазобедренного отруба бескостная Состоит из двуглавой мышцы бедра и полусухожильной мышцы, расположенных с наружной (латеральной) стороны бедра, покрытых поверхностной пленкой и слоем подкожного жира"
+    },
+    {
+     "url": "https://zelenhutor.ru/blog/blog/gid-po-otrubam-govyadiny-kakoy-dlya-chego/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Подбедерок - большая сахарная кость и довольно много мяса хорошего вкуса и аромата, но желеобразного, из-за желатина. Идеальный выбор на холодец. Мы на \"Зеленом Хуторе\" варим студень именно из этого"
+    }
+   ],
+   "dispute": "Two incompatible trade readings. (1) Подбедёрок = боковая часть тазобедренного отруба, the knuckle wrapped round the front of the femur: ГОСТ 31797-2012 gives that item as quadriceps femoris plus tensor fasciae latae, and that is the position the drawn rectangle occupies - lower-front thigh above the stifle - so it is the list carried above. (2) The marr.ru wholesale list sells 'Внешняя часть тазобедренного отруба (подбедерок)', which under ГОСТ would make it biceps femoris plus semitendinosus, the ссек of this table. (3) A third trade source describes подбедерок as a big marrow bone for студень, which fits neither cleanly and suggests some butchers sell it bone-in lower on the leg. Graded contested: the ГОСТ muscle lists themselves are not in doubt, only which piece the name is attached to."
+  },
+  {
+   "id": "golyashka",
+   "muscles": [
+    {
+     "id": "gastrocnemius",
+     "role": "major",
+     "extent": "portion",
+     "from": "femur",
+     "to": "tarsus",
+     "note": "ГОСТ 31797-2012 does NOT put the gastrocnemius in the shank: it makes it item 2, 'нижняя часть тазобедренного отруба', a boneless piece of the hip cut lying under the biceps and semitendinosus. The atlas's голяшка rectangle covers the tibia, so the muscle is split here."
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. flexor digitorum profundus",
+     "role": "major",
+     "where": "caudal to the tibia, deep to the gastrocnemius"
+    },
+    {
+     "latin": "M. flexor digitorum superficialis",
+     "role": "major",
+     "where": "caudal to the tibia, superficial to the deep flexor; its tendon is the ахиллово сухожилие ГОСТ 7595-79 has the butcher release before sawing"
+    },
+    {
+     "latin": "M. tibialis cranialis",
+     "role": "minor",
+     "where": "in front of the tibia, lateral to its crest"
+    },
+    {
+     "latin": "M. extensor digitorum longus",
+     "role": "minor",
+     "where": "craniolateral to the tibia, alongside the tibialis cranialis"
+    },
+    {
+     "latin": "M. peroneus tertius",
+     "role": "trace",
+     "where": "a tendinous band on the cranial face of the tibia"
+    }
+   ],
+   "bone_in": true,
+   "evidence": "inferred",
+   "bounds_evidence": "standard",
+   "sources": [
+    {
+     "url": "http://omgautovar.narod.ru/gost/maso/3.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Задняя голяшка: отделяется поперек берцовой кости на уровне нижней ее трети с предварительным отделением ахиллова сухожилия в месте перехода его в мышечную ткань. В заднюю голяшку входят: нижняя треть берцовой кости, кости скакательного сустава и ахиллово сухожилие."
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Задняя голяшка на кости Получают из задней четвертины или пистолетного отруба. Верхняя - по нижнему краю бедренной кости (между бедренной и большой берцовой костями)"
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Нижняя часть тазобедренного отруба бескостная Икроножная мышца, расположенная под двуглавой и полусухожильной"
+    }
+   ],
+   "dispute": "Bounds are standard and the two standards disagree, which is worth recording. ГОСТ 7595-79 - the scheme this atlas's cut file is drawn to - saws across the tibia at the level of its lower third, so its голяшка is only the bottom of the shin; ГОСТ 31797-2012 cuts at the stifle ('по нижнему краю бедренной кости'), so its задняя голяшка is the whole tibia. The drawn rectangle spans hock to stifle, i.e. the 31797 reading. Muscles are inferred: neither standard enumerates the shank, and the one muscle either of them names in this neighbourhood, the икроножная, is explicitly assigned to the hip cut and not to the shank - the opposite of what the US table does, where the round heel is quoted as gastrocnemius and the shank takes the rest of it. The digital flexors and extensors are listed unmodelled from bovine anatomy; nobody sells them by name because the shank is braised on the bone."
+  },
+  {
+   "id": "okovalok",
+   "muscles": [
+    {
+     "id": "longissimus",
+     "role": "defining",
+     "extent": "portion",
+     "from": "lumbar-vertebrae",
+     "to": "ilium",
+     "note": "the rear, lumbar end of the loin eye, behind the тонкий край and in front of the hip; the same muscle is the толстый край over ribs 6-11"
+    },
+    {
+     "id": "multifidus",
+     "role": "minor",
+     "extent": "portion",
+     "from": "lumbar-vertebrae",
+     "to": "sacrum"
+    },
+    {
+     "id": "iliocostalis",
+     "role": "trace",
+     "extent": "portion",
+     "from": "lumbar-vertebrae",
+     "to": "ilium"
+    },
+    {
+     "id": "quadratus-lumborum",
+     "role": "trace",
+     "extent": "portion",
+     "from": "lumbar-vertebrae",
+     "to": "ilium",
+     "note": "under the transverse processes, above the psoas; stays on the carcass in most trims"
+    }
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "contested",
+   "bounds_evidence": "inferred",
+   "sources": [
+    {
+     "url": "https://marr.ru/catalog/myaso/govyadina/govyadina-zamorozhennaya-orenbiv-rossiya/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "мин.заказ"
+    },
+    {
+     "url": "https://studfile.net/preview/16712235/page:9/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "отруба проходит до линии отделения поясничной части, пашины и задней голяшки. Относится оковалок, кострец, огузок. Поясничный –"
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Поясничный на кости Передняя - между последним грудным (13-м) и первым поясничным позвонками по заднему краю 13-го ребра; задняя - между последним (шестым) поясничным и первым крестцовым позвонками, по переднему (краниальному) краю подвздошной кости (маклока); нижняя - параллельно позвоночному столбу в 75 мм от тел позвонков"
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Боковая часть тазобедренного отруба бескостная Состоит из следующих мышц: четырехглавой бедра, отделенной от переднего края бедренной кости, напрягателя широкой фасции бедра, покрытых поверхностной пленкой и слоем подкожного жира"
+    }
+   ],
+   "dispute": "Contested in the same way as огузок, and more sharply. (1) The reading this atlas's cut file follows makes оковалок the sirloin - the lumbar meat between the loin proper and the hind leg, 'толстый филей' in the older books - which is the rear end of ГОСТ's поясничный отруб and therefore the back end of the longissimus, the list given above. (2) The marr.ru wholesale list sells 'Боковая часть тазобедренного отруба (оковалок)', which under ГОСТ 31797-2012 is quadriceps femoris plus tensor fasciae latae - the knuckle, i.e. the подбедёрок of this table, and not loin meat at all. (3) The товароведение teaching text places оковалок inside the тазобедренный отруб with кострец and огузок, agreeing with (2) on region and with nobody on muscles. Bounds are inferred: ГОСТ's поясничный отруб has a quoted rear boundary at the ilium, but no standard anywhere splits that отруб into оковалок in front and тонкий край behind, so the front boundary here is the atlas's own line."
+  },
+  {
+   "id": "tonkiy-kray",
+   "muscles": [
+    {
+     "id": "longissimus",
+     "role": "defining",
+     "extent": "portion",
+     "from": "rib-12",
+     "to": "lumbar-vertebrae",
+     "note": "grill-bbq: 'Содержит длиннейшую мышцу спины, расположенную вдоль позвоночника'; the same muscle is the толстый край in front of rib 12 and the оковалок behind the lumbar vertebrae"
+    },
+    {
+     "id": "multifidus",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-12",
+     "to": "lumbar-vertebrae",
+     "note": "the sub-eye, under the longissimus"
+    },
+    {
+     "id": "iliocostalis",
+     "role": "trace",
+     "extent": "portion",
+     "from": "rib-12",
+     "to": "lumbar-vertebrae"
+    },
+    {
+     "id": "psoas-major",
+     "role": "trace",
+     "extent": "portion",
+     "from": "rib-13",
+     "to": "lumbar-vertebrae",
+     "note": "on the bone the тонкий край carries the front of the tenderloin on the far side of the T-bone, which is what makes the ти-бон and портерхаус steaks; this atlas draws вырезка as its own cut, so it is only a trace here"
+    }
+   ],
+   "unmodelled": [],
+   "bone_in": true,
+   "evidence": "trade",
+   "bounds_evidence": "standard",
+   "sources": [
+    {
+     "url": "https://grill-bbq.ru/dictionary/tonkij-kraj/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "это поясничный отруб"
+    },
+    {
+     "url": "https://studopediaru.com/4_146130_kulinarnaya-razdelka-i-obvalka-govyazhey-tushi.html",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Разделка передней четвертины."
+    },
+    {
+     "url": "http://omgautovar.narod.ru/gost/maso/3.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Поясничный отруб: передняя граница - по линии отделения спинного отруба; задняя - между пятым и шестым поясничными позвонками; нижняя - по линии отделения пашины и грудинки. В поясничный отруб входят два последних грудных позвонка с ребрами (без нижней трети) и пять поясничных позвонков."
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Поясничный на кости Передняя - между последним грудным (13-м) и первым поясничным позвонками по заднему краю 13-го ребра; задняя - между последним (шестым) поясничным и первым крестцовым позвонками, по переднему (краниальному) краю подвздошной кости (маклока); нижняя - параллельно позвоночному столбу в 75 мм от тел позвонков"
+    }
+   ],
+   "dispute": "Bounds are standard from both ГОСТ 7595-79 (front at the спинной line between ribs 11 and 12, rear between the 5th and 6th lumbar vertebrae - the scheme the atlas is drawn to) and ГОСТ 31797-2012 (front at the rear edge of rib 13, rear at the ilium). Muscles are trade: the name bridge тонкий край = поясничная часть comes from the кулинарная разделка textbook, and the muscle from a Russian grilling dictionary. ГОСТ 31797-2012 names no muscle whatever for its поясничный отруб."
+  },
+  {
+   "id": "tolstyy-kray",
+   "muscles": [
+    {
+     "id": "longissimus",
+     "role": "defining",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-11",
+     "note": "ГОСТ 7595-79 puts six thoracic vertebrae, the 6th to the 11th, in the спинной отруб; grill-bbq says толстый край and отруб рибай are the same meat, and Calkins gives Longissimus dorsi = Ribeye"
+    },
+    {
+     "id": "spinalis-dorsi",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-11",
+     "note": "the rib cap, on top of the loin eye"
+    },
+    {
+     "id": "multifidus",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-11"
+    },
+    {
+     "id": "iliocostalis",
+     "role": "trace",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-11"
+    },
+    {
+     "id": "intercostalis",
+     "role": "trace",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-11",
+     "note": "only on the bone-in cut, between the rib bones the ковбой and томагавк steaks are carried on"
+    }
+   ],
+   "unmodelled": [],
+   "bone_in": true,
+   "evidence": "trade",
+   "bounds_evidence": "standard",
+   "sources": [
+    {
+     "url": "https://grill-bbq.ru/dictionary/tolstyj-kraj/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "спинной отруб говядины на границе с поясницей, который содержит мышцы на 4-5 рёбрах, прилегающие к позвоночнику. В России он более известен как «толстый край», но когда вы слышите «корейка» и «отруб рибай», то знайте, что речь идёт об одном и том же мясе. Поскольку мышцы этой зоны минимально задействуются при жизни животного, то мясо толстого края — самое мягкое во всей туше, с наибольшим количеством жировых прожилок. Такой же мягкостью и текстурой обладает только тонкий край"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Longissimus dorsi  Ribeye; Loin eye"
+    },
+    {
+     "url": "https://studopediaru.com/4_146130_kulinarnaya-razdelka-i-obvalka-govyazhey-tushi.html",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Разделка передней четвертины."
+    },
+    {
+     "url": "http://omgautovar.narod.ru/gost/maso/3.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Спинной отруб: передняя граница - по линии отделения лопаточного отруба; задняя - между одиннадцатым и двенадцатым ребрами; нижняя - по линии отделения грудного отруба. В отруб входят: часть пятого и шесть грудных позвонков, начиная с шестого по одиннадцатый, с соответствующими им частями ребер."
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Спинной на кости Передняя - между шестым и седьмым позвонками и соответствующими им частями ребер; задняя - между последним грудным (13-м) и первым поясничным позвонками по заднему краю 13-го ребра; нижняя - параллельно позвоночному столбу в 75 мм от тел позвонков"
+    }
+   ],
+   "dispute": "Bounds are standard and the two standards differ by two ribs. ГОСТ 7595-79 ends the спинной отруб between ribs 11 and 12, which is the line the atlas is drawn to; ГОСТ 31797-2012 carries its спинной отруб back to the rear edge of rib 13. Both quoted. The muscle identification is a two-step trade bridge and is graded accordingly: a Russian grilling dictionary equates толстый край with отруб рибай, and the Beef Checkoff table equates ribeye with the longissimus. No Russian source names the muscle for толстый край directly, and ГОСТ 31797-2012 names no muscle at all for either спинной or поясничный - the one place where the expectation that a ГОСТ would hand over longissimus lumborum does not hold."
+  },
+  {
+   "id": "vyrezka",
+   "muscles": [
+    {
+     "id": "psoas-major",
+     "role": "defining",
+     "extent": "portion",
+     "from": "rib-13",
+     "to": "femur",
+     "note": "ГОСТ: 'Отделяют от последнего ребра до тазобедренного сустава' - from the last rib to the hip joint"
+    },
+    {
+     "id": "psoas-minor",
+     "role": "trace",
+     "extent": "portion",
+     "from": "rib-13",
+     "to": "ilium",
+     "note": "the цепочка / side strap. ГОСТ 31797-2012 does NOT name it - its пояснично-подвздошная мышца is большая поясничная plus подвздошная only. The Russian trade sells both 'вырезка' and 'вырезка без цепочки', so it is in or out by trim spec."
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. iliacus",
+     "role": "major",
+     "where": "fused to the caudal end of the psoas major over the ilium; ГОСТ's 'подвздошная', the second of the two muscles its name пояснично-подвздошная refers to"
+    }
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles",
+      "bounds"
+     ],
+     "quote": "Пояснично-подвздошная мышца (вырезка) Состоит из большой поясничной, расположенной под поперечно-реберными отростками поясничных позвонков, и подвздошной мышц. Отделяют от последнего ребра до тазобедренного сустава"
+    },
+    {
+     "url": "http://omgautovar.narod.ru/gost/maso/3.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Поясничный отруб: передняя граница - по линии отделения спинного отруба; задняя - между пятым и шестым поясничными позвонками; нижняя - по линии отделения пашины и грудинки. В поясничный отруб входят два последних грудных позвонка с ребрами (без нижней трети) и пять поясничных позвонков."
+    }
+   ],
+   "dispute": null
+  },
+  {
+   "id": "diafragma",
+   "muscles": [
+    {
+     "id": "diaphragm",
+     "role": "defining",
+     "extent": "whole",
+     "note": "pars costalis, the sheet on the rib attachment; sold in Russia as мачете, the outside skirt"
+    },
+    {
+     "id": "diaphragm-crus",
+     "role": "defining",
+     "extent": "whole",
+     "note": "the two crura, the thick meaty pillars; sold in Russia as онглет or стейк мясника, the hanger"
+    }
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "inferred",
+   "sources": [
+    {
+     "url": "https://base.garant.ru/71112568/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "мясная обрезь"
+    }
+   ],
+   "dispute": "Bounds are inferred because no standard says where the diaphragm divides into мачете and онглет - no standard divides it at all. ГОСТ 32244-2013 treats 'диафрагма' as a single мякотный субпродукт, and ГОСТ 31797-2012 does not list it among the отрубы, which is exactly why this cut carries no сорт. The muscle grade is standard in the narrow sense that the Russian name of the item is the anatomical name of the structure; the split into the costal sheet and the crura is bovine anatomy, with the trade names мачете and онглет sitting on top of it (compare the French hampe/onglet pair in FINDINGS.md, which separates the same two members cleanly)."
+  },
+  {
+   "id": "pokromka",
+   "muscles": [
+    {
+     "id": "intercostalis",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-12",
+     "note": "the meat between the rib bones, which is most of what is left once the толстый край has been lifted off"
+    },
+    {
+     "id": "obliquus-externus-abdominis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-08",
+     "to": "rib-12",
+     "note": "the outer sheet running forward over the caudal ribs"
+    },
+    {
+     "id": "serratus-ventralis",
+     "role": "trace",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-09",
+     "note": "its caudal digitations reach this far back; the bulk of the muscle is in the лопатка"
+    },
+    {
+     "id": "latissimus-dorsi",
+     "role": "trace",
+     "extent": "portion",
+     "from": "rib-06",
+     "to": "rib-12"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. cutaneus trunci",
+     "role": "minor",
+     "where": "the thin sheet of skin muscle over the whole rib plate, which comes off with покромка rather than staying on the carcass"
+    }
+   ],
+   "bone_in": false,
+   "evidence": "inferred",
+   "bounds_evidence": "trade",
+   "sources": [
+    {
+     "url": "https://studopediaru.com/4_146130_kulinarnaya-razdelka-i-obvalka-govyazhey-tushi.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "срезают с реберных костей, зачищают и обравнивают края. В результате кулинарной разделки и обвалки передней четвертины получают: шейную часть, плечевую и заплечную части лопатки, толстый край, подлопаточную часть, покромку, грудинку, а также кости: шейные, позвоночные, реберные, лопаточную, плечевую, локтевую и лучевую."
+    },
+    {
+     "url": "https://studopediaru.com/4_146130_kulinarnaya-razdelka-i-obvalka-govyazhey-tushi.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Обвалка"
+    },
+    {
+     "url": "https://studopediaru.com/4_146130_kulinarnaya-razdelka-i-obvalka-govyazhey-tushi.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "При обвалке"
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Реберный на кости Передняя - по линии отделения шейного отруба; задняя - по заднему краю последнего (13-го) ребра; верхняя - по линии отделения подлопаточного и спинного отрубов на расстоянии 75 мм от тел позвонков параллельно позвоночному столбу с первого ребра по 13-е включительно; нижняя - от первого сегмента грудной кости (рукоятки) через реберные хрящи до восьмого ребра (по линии отделения грудного отруба)"
+    }
+   ],
+   "dispute": "No source names a muscle for покромка. It is a кулинарная разделка piece, not a ГОСТ отруб: the textbook defines it only by the operation - 'Покромку срезают с реберных костей' - and lists it as what is left of the спинно-реберная часть once толстый край, подлопаточная часть and грудинка are off. The muscle list above is inferred from that position: the layer on the outer face of the middle ribs is intercostal muscle plus the sheets that run over it. Note that the same textbook produces покромка twice, once from the front quarter and once from the rear ('Полученную мякоть разделяют на тонкий край, покромку и пашину'), so the name covers a band along the whole rib cage rather than one block; the rectangle here is the front one. The nearest ГОСТ 31797-2012 item is the реберный отруб, whose boundary is quoted, but the standard does not use the word покромка."
+  },
+  {
+   "id": "pashina",
+   "muscles": [
+    {
+     "id": "obliquus-internus-abdominis",
+     "role": "major",
+     "extent": "whole",
+     "note": "Calkins: sirloin butt flap; the US flap meat"
+    },
+    {
+     "id": "obliquus-externus-abdominis",
+     "role": "major",
+     "extent": "whole",
+     "note": "the outer sheet of the belly wall"
+    },
+    {
+     "id": "rectus-abdominis",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-13",
+     "to": "ischium",
+     "note": "Calkins gives Rectus abdominus = Flank; the front of the same muscle runs on under the завиток and the грудинка to the sternum"
+    },
+    {
+     "id": "transversus-abdominis",
+     "role": "minor",
+     "extent": "whole",
+     "note": "the innermost sheet; the US inside skirt"
+    }
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "standard",
+   "sources": [
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Rectus abdominus  Flank"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Obliquus internus abdominus  Sirloin butt flap"
+    },
+    {
+     "url": "http://omgautovar.narod.ru/gost/maso/3.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Пашина: границы отделения проходят по линии, идущей от коленного сустава до сочленения истинной и ложной частей тринадцатого ребра и далее вдоль реберной дуги до грудной кости."
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Пашина Передняя - по заднему краю последнего (13-го) ребра вдоль реберной дуги; верхняя - параллельно позвоночному столбу в 75 мм от тел позвонков; задняя - параллельно бедренной кости к коленному суставу; нижняя - по белой линии живота"
+    },
+    {
+     "url": "https://zelenhutor.ru/blog/blog/gid-po-otrubam-govyadiny-kakoy-dlya-chego/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Пашина - (середина, завиток, бочок) – это мякоть, в которой много жира и соединительно-тканных прослоек. Она более жесткая по сравнению с другими частями говядины, но очень вкусная. Перед приготовлением рекомендуется снимать с нее пленку. Отлично идет на фарш, в начинку для мясных пирогов."
+    }
+   ],
+   "dispute": "Bounds are standard and both standards are quoted; they agree in substance - the cut runs from the stifle to the junction of the true and false parts of the 13th rib and then along the costal arch. Muscles are graded trade on an English-language source: no Russian source fetched for this table names a muscle in the пашина, and ГОСТ 31797-2012 gives the отруб four boundaries and no muscle at all. The Beef Checkoff table names the flank's muscles, and пашина = flank is a straight translation, so the identification is safe even though the chain crosses traditions. The Russian trade source is quoted for the cut's alternative names, which include завиток."
+  },
+  {
+   "id": "zavitok",
+   "muscles": [
+    {
+     "id": "rectus-abdominis",
+     "role": "defining",
+     "extent": "portion",
+     "from": "rib-08",
+     "to": "rib-13",
+     "note": "ГОСТ takes завиток along the costal cartilages from the 8th to the 13th rib, which is exactly where the rectus abdominis lies on those cartilages"
+    },
+    {
+     "id": "obliquus-externus-abdominis",
+     "role": "major",
+     "extent": "portion",
+     "from": "rib-08",
+     "to": "rib-13"
+    },
+    {
+     "id": "transversus-abdominis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-08",
+     "to": "rib-13"
+    },
+    {
+     "id": "intercostalis",
+     "role": "trace",
+     "extent": "portion",
+     "from": "rib-08",
+     "to": "rib-13",
+     "note": "the false-rib ends; завиток is taken boneless, so only what clings to the cartilage comes with it"
+    }
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "inferred",
+   "bounds_evidence": "standard",
+   "sources": [
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Завиток Получают из нижней части пашины путем отделения бескостного брюшного участка по контуру реберных хрящей от восьмого до 13-го ребра"
+    },
+    {
+     "url": "https://zelenhutor.ru/blog/blog/gid-po-otrubam-govyadiny-kakoy-dlya-chego/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Пашина - (середина, завиток, бочок) – это мякоть, в которой много жира и соединительно-тканных прослоек. Она более жесткая по сравнению с другими частями говядины, но очень вкусная. Перед приготовлением рекомендуется снимать с нее пленку. Отлично идет на фарш, в начинку для мясных пирогов."
+    }
+   ],
+   "dispute": "The cut file's blurb calls завиток an old kitchen name recorded by Brockhaus and treats it as something the standard never mentions. That is not true of the standard now in force, and the correction is reported rather than edited: ГОСТ 31797-2012 lists Завиток as item 12 with a real boundary, 'по контуру реберных хрящей от восьмого до 13-го ребра', taken out of the lower part of the пашина. That makes the bounds standard. What ГОСТ does not do is name a muscle, so the list is inferred from the position: the boneless belly strip over the false-rib cartilages is the caudal rectus abdominis with the oblique and transverse sheets over and under it. The trade source agrees on placement - zelenhutor lists завиток as one of the names for part of the пашина."
+  },
+  {
+   "id": "grudinka",
+   "muscles": [
+    {
+     "id": "pectoralis-profundus",
+     "role": "defining",
+     "extent": "portion",
+     "from": "sternum",
+     "to": "rib-09",
+     "note": "Calkins: Deep pectoral = Brisket; the flat. It runs back from the sternum along the deep face of the chest floor"
+    },
+    {
+     "id": "pectoralis-superficialis",
+     "role": "major",
+     "extent": "portion",
+     "from": "sternum",
+     "to": "rib-05",
+     "note": "Calkins: Superficial pectoral = Brisket; the point, on the outer face"
+    },
+    {
+     "id": "rectus-abdominis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "sternum",
+     "to": "rib-13",
+     "note": "the front end of the same sheet whose back end is the пашина"
+    },
+    {
+     "id": "intercostalis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-01",
+     "to": "rib-13",
+     "note": "ГОСТ 7595-79 puts the sternum, the cartilages and the corresponding parts of all thirteen ribs in the грудной отруб, so the cut is bone-in and carries intercostal meat the length of it"
+    },
+    {
+     "id": "transversus-abdominis",
+     "role": "trace",
+     "extent": "portion",
+     "from": "sternum",
+     "to": "rib-13"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. transversus thoracis",
+     "role": "trace",
+     "where": "on the inner face of the sternum, deep to the deep pectoral"
+    },
+    {
+     "latin": "M. cutaneus trunci",
+     "role": "trace",
+     "where": "the skin muscle over the outer face of the brisket"
+    }
+   ],
+   "bone_in": true,
+   "evidence": "trade",
+   "bounds_evidence": "standard",
+   "sources": [
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Deep pectoral  Brisket"
+    },
+    {
+     "url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Superficial pectoral  Brisket"
+    },
+    {
+     "url": "http://omgautovar.narod.ru/gost/maso/3.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Грудной отруб: передняя граница - по линии отделения плечевого отруба; задняя - вдоль нижней трети тринадцатого ребра; верхняя - по линии, идущей от верхней трети первого к нижней трети последнего (тринадцатого) ребра; нижняя - вдоль реберной дуги до грудной кости. В отруб входят: грудная кость с хрящами и соответствующими частями тринадцати ребер."
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Грудной на кости Верхняя - от первого сегмента грудной кости (рукоятки) через реберные хрящи до восьмого ребра"
+    },
+    {
+     "url": "https://zelenhutor.ru/blog/blog/gid-po-otrubam-govyadiny-kakoy-dlya-chego/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Грудинка - здесь пленка и слои жира перемежаются. Всю грудину можно отделить от костей и использовать мясо для приготовления рулетов. А можно нарезать кусочками для отваривания и тушения. Из грудинки получается отличный борщ."
+    }
+   ],
+   "dispute": "Bounds are standard from both ГОСТ 7595-79 and ГОСТ 31797-2012. The Russian грудной отруб is larger than the American brisket: it runs the whole length of the sternum and the costal cartilages back to the 13th rib, so it is brisket plus plate rather than IMPS 120 alone, and that is why the intercostals are carried here as a minor rather than a trace. Muscles are graded trade on the Beef Checkoff table, since no Russian source fetched here names one; the deep/superficial pectoral pairing and its flat/point correspondence are established in FINDINGS.md and are not in doubt."
+  },
+  {
+   "id": "chelyshko",
+   "muscles": [
+    {
+     "id": "pectoralis-superficialis",
+     "role": "defining",
+     "extent": "portion",
+     "from": "sternum",
+     "to": "rib-04",
+     "note": "the forward tip of the breast at the manubrium; the brisket-point end of the superficial pectoral"
+    },
+    {
+     "id": "pectoralis-profundus",
+     "role": "minor",
+     "extent": "portion",
+     "from": "sternum",
+     "to": "rib-04"
+    },
+    {
+     "id": "sternocephalicus",
+     "role": "trace",
+     "extent": "portion",
+     "from": "sternum",
+     "to": "insertion",
+     "note": "its sternal end reaches the manubrium, which is part of why челышко is sinewy at the very front"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. pectoralis transversus",
+     "role": "minor",
+     "where": "the transverse part of the superficial pectoral group, across the front of the sternum between the two forelegs"
+    },
+    {
+     "latin": "M. sternothyrohyoideus",
+     "role": "trace",
+     "where": "a thin strap running forward from the manubrium under the throat"
+    }
+   ],
+   "bone_in": true,
+   "evidence": "inferred",
+   "bounds_evidence": "inferred",
+   "sources": [
+    {
+     "url": "https://zelenhutor.ru/blog/blog/gid-po-otrubam-govyadiny-kakoy-dlya-chego/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Челышко - волокнистое мясо на тонкой косточке. Идеальный выбор на суп."
+    },
+    {
+     "url": "http://omgautovar.narod.ru/gost/maso/3.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Грудной отруб: передняя граница - по линии отделения плечевого отруба; задняя - вдоль нижней трети тринадцатого ребра; верхняя - по линии, идущей от верхней трети первого к нижней трети последнего (тринадцатого) ребра; нижняя - вдоль реберной дуги до грудной кости. В отруб входят: грудная кость с хрящами и соответствующими частями тринадцати ребер."
+    }
+   ],
+   "dispute": "No source names a muscle for челышко, and no standard names the cut at all - neither ГОСТ 7595-79 nor ГОСТ 31797-2012 subdivides the грудной отруб, so челышко (челышко-соколок) is purely a market name for its forward tip at the point of the sternum. The trade source quoted gives only texture and use, 'волокнистое мясо на тонкой косточке'. The muscles above are inferred from that position: the front of the sternum carries the superficial pectoral group over the deep pectoral, with the sternal head of the sternocephalicus arriving at the manubrium. Bounds are inferred for the same reason - the front boundary is the point of the sternum, the rear one is wherever the butcher stops, and no source fixes it."
+  },
+  {
+   "id": "lopatka",
+   "muscles": [
+    {
+     "id": "supraspinatus",
+     "role": "major",
+     "extent": "whole",
+     "note": "ГОСТ item 18, предостная мышца: 'расположена спереди от лопаточной ости, начинается в предостной ямке лопатки, оканчивается на буграх плечевой кости'"
+    },
+    {
+     "id": "infraspinatus",
+     "role": "major",
+     "extent": "whole",
+     "note": "ГОСТ item 19 pairs it with the deltoid as one piece, 'Сросшиеся друг с другом'; this is the flat-iron muscle the топ-блейд steak is cut from"
+    },
+    {
+     "id": "deltoideus",
+     "role": "minor",
+     "extent": "whole",
+     "note": "ГОСТ item 19, fused to the infraspinatus behind the scapular spine"
+    },
+    {
+     "id": "subscapularis",
+     "role": "major",
+     "extent": "whole",
+     "note": "ГОСТ item 20, подлопаточная, off the medial face of the scapula"
+    },
+    {
+     "id": "teres-major",
+     "role": "minor",
+     "extent": "whole",
+     "note": "ГОСТ item 20, большая круглая; the petite tender"
+    },
+    {
+     "id": "triceps-brachii",
+     "role": "major",
+     "extent": "portion",
+     "from": "scapula",
+     "to": "radius-ulna",
+     "note": "ГОСТ item 17, трехглавая мышца, taken out of the rear of the лопаточный отруб - note that the standard puts the triceps here and NOT in the плечевая часть"
+    },
+    {
+     "id": "serratus-ventralis",
+     "role": "major",
+     "extent": "portion",
+     "from": "cervical-vertebrae",
+     "to": "rib-09",
+     "note": "the under-blade muscle the Вегас-стрип and денвер steaks are cut from; ГОСТ does not name it for this отруб"
+    },
+    {
+     "id": "rhomboideus",
+     "role": "minor",
+     "extent": "portion",
+     "from": "cervical-vertebrae",
+     "to": "thoracic-vertebrae",
+     "note": "the hump meat over the withers; not named by ГОСТ"
+    },
+    {
+     "id": "trapezius",
+     "role": "minor",
+     "extent": "portion",
+     "from": "cervical-vertebrae",
+     "to": "thoracic-vertebrae",
+     "note": "not named by ГОСТ"
+    },
+    {
+     "id": "latissimus-dorsi",
+     "role": "minor",
+     "extent": "portion",
+     "from": "scapula",
+     "to": "rib-09",
+     "note": "not named by ГОСТ"
+    },
+    {
+     "id": "longissimus",
+     "role": "minor",
+     "extent": "portion",
+     "from": "rib-01",
+     "to": "rib-05",
+     "note": "the chuck-eye end of the loin eye; ГОСТ 7595-79 leaves the first four thoracic vertebrae and part of the fifth in the лопаточный отруб, so the front of the longissimus goes with it"
+    },
+    {
+     "id": "spinalis-dorsi",
+     "role": "trace",
+     "extent": "portion",
+     "from": "rib-01",
+     "to": "rib-05"
+    },
+    {
+     "id": "omotransversarius",
+     "role": "trace",
+     "extent": "portion",
+     "from": "cervical-vertebrae",
+     "to": "scapula"
+    },
+    {
+     "id": "brachiocephalicus",
+     "role": "trace",
+     "extent": "portion",
+     "from": "scapula",
+     "to": "humerus",
+     "note": "ГОСТ 31797-2012 assigns it to the плечевая часть of the лопаточный отруб, item 21"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. coracobrachialis",
+     "role": "minor",
+     "where": "on the medial face of the shoulder joint, under the subscapularis; ГОСТ's 'клювовидноплечевая', which it assigns to the плечевая часть, item 21"
+    },
+    {
+     "latin": "M. tensor fasciae antebrachii",
+     "role": "trace",
+     "where": "a thin sheet on the caudal face of the triceps, from the latissimus tendon to the olecranon"
+    },
+    {
+     "latin": "M. anconeus",
+     "role": "trace",
+     "where": "deep to the long head of the triceps at the back of the elbow"
+    }
+   ],
+   "bone_in": true,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Предостная мышца Выделяют из бескостного лопаточного отруба. Имеет конусообразную форму, расположена спереди от лопаточной ости, начинается в предостной ямке лопатки, оканчивается на буграх плечевой кости"
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Заостная и дельтовидная мышцы Выделяют из бескостного лопаточного отруба. Сросшиеся друг с другом, расположены с наружной (латеральной) стороны лопатки позади лопаточной ости"
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Внутренняя часть лопаточного отруба бескостная Отделяют от внутренней (медиальной) стороны лопатки. Мышцы: подлопаточная, большая круглая"
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Трехглавая мышца Выделяют из бескостной задней части лопаточного отруба. Заполняет треугольное пространство между плечевой и локтевой костями. Имеет клиновидную форму, покрыта тонкой поверхностной пленкой"
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Лопаточный с голяшкой на кости Отруб выделяют круговым подрезом: с наружной стороны в виде полукруга по верхнему краю лопаточного хряща; с внутренней - по естественной линии сращения передней конечности с реберной частью"
+    },
+    {
+     "url": "http://omgautovar.narod.ru/gost/maso/3.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Лопаточный отруб: передняя граница - по месту отделения шейного отруба; задняя - между пятым и шестым ребрами; нижняя - по линии, проходящей от верхней трети первого ребра через середину пятого к нижней трети последнего ребра. В отруб входят: лопаточная кость, два шейных (шестой и седьмой позвонки), четыре первых грудных позвонка и частично пятый с соответствующими им частями ребер."
+    }
+   ],
+   "dispute": "ГОСТ 31797-2012 is unusually generous here: items 17 to 21 name the shoulder's muscles outright, which is why this is one of only three cuts in the table graded standard on muscles. What the standard does not name is the serratus ventralis, the rhomboideus, the trapezius and the latissimus - they are in the отруб by position, and each is flagged as such in its note. The two standards bound the отруб differently: ГОСТ 7595-79 saws between ribs 5 and 6 and takes the last two cervical and the first four thoracic vertebrae with it, which is what the drawn rectangle follows; ГОСТ 31797-2012 releases the лопаточный отруб by a circular seam round the scapula and takes no vertebrae at all. Both quoted."
+  },
+  {
+   "id": "plechevaya-chast",
+   "muscles": [
+    {
+     "id": "triceps-brachii",
+     "role": "defining",
+     "extent": "portion",
+     "from": "humerus",
+     "to": "radius-ulna",
+     "note": "CONTESTED: ГОСТ 7595-79's плечевой отруб is a bone-based cut round the humerus and the top half of the radius and ulna, and the triceps fills exactly that space; but ГОСТ 31797-2012's плечевая часть explicitly begins below the triceps, which it sends to the лопаточный отруб as item 17"
+    },
+    {
+     "id": "biceps-brachii",
+     "role": "major",
+     "extent": "whole",
+     "note": "ГОСТ's 'двуглавая плеча'"
+    },
+    {
+     "id": "brachiocephalicus",
+     "role": "major",
+     "extent": "portion",
+     "from": "scapula",
+     "to": "humerus",
+     "note": "ГОСТ's 'плечеголовная'"
+    },
+    {
+     "id": "extensor-carpi-radialis",
+     "role": "minor",
+     "extent": "portion",
+     "from": "humerus",
+     "to": "radius-ulna",
+     "note": "its origin is on the humerus, so the top of it stays with the arm when the shank is sawn off at mid-radius; named by neither standard"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. coracobrachialis",
+     "role": "major",
+     "where": "on the medial face of the shoulder joint under the subscapularis; ГОСТ's 'клювовидноплечевая', the first of the three muscles it names for this item"
+    },
+    {
+     "latin": "M. brachialis",
+     "role": "minor",
+     "where": "spiralling round the lateral face of the humerus between the triceps and the extensor group"
+    },
+    {
+     "latin": "M. tensor fasciae antebrachii",
+     "role": "trace",
+     "where": "a thin sheet on the caudal face of the triceps"
+    }
+   ],
+   "bone_in": true,
+   "evidence": "contested",
+   "bounds_evidence": "standard",
+   "sources": [
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Плечевая часть лопаточного отруба бескостная Верхняя - по линии отделения группы мышц: трехглавой, заостной, дельтовидной и предостной; нижняя - по линии отделения голяшки, между плечевой костью и костями предплечья. Мышцы: клювовидноплечевая, двуглавая плеча, плечеголовная"
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "muscles"
+     ],
+     "quote": "Трехглавая мышца Выделяют из бескостной задней части лопаточного отруба. Заполняет треугольное пространство между плечевой и локтевой костями. Имеет клиновидную форму, покрыта тонкой поверхностной пленкой"
+    },
+    {
+     "url": "http://omgautovar.narod.ru/gost/maso/3.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Плечевой отруб: верхняя граница - по линии отделения лопаточного отруба; нижняя - в поперечном направлении через середину лучевой и локтевой костей. Плечевой отруб отделяется от грудного путем разреза мышечной ткани. В отруб входят: плечевая кость и половина лучевой и локтевой костей."
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Лопаточный с голяшкой на кости Отруб выделяют круговым подрезом: с наружной стороны в виде полукруга по верхнему краю лопаточного хряща; с внутренней - по естественной линии сращения передней конечности с реберной частью"
+    }
+   ],
+   "dispute": "The two standards define different things under nearly the same name, and the difference is the whole triceps. ГОСТ 31797-2012's 'плечевая часть лопаточного отруба' is a boneless piece whose upper boundary is drawn below the triceps, infraspinatus, deltoid and supraspinatus - 'Верхняя - по линии отделения группы мышц: трехглавой, заостной, дельтовидной и предостной' - leaving it three muscles: клювовидноплечевая, двуглавая плеча, плечеголовная. ГОСТ 7595-79's 'плечевой отруб' is a сортовой cut taken on the bone, containing 'плечевая кость и половина лучевой и локтевой костей', and the triceps is anatomically on that bone. The drawn rectangle is the 7595-79 cut, so the triceps is carried here as defining with the conflict flagged; the same muscle is also listed under лопатка, where ГОСТ 31797-2012 puts it. Bounds are standard and not contested: mid-radius below, the лопаточный line above."
+  },
+  {
+   "id": "rulka",
+   "muscles": [
+    {
+     "id": "extensor-carpi-radialis",
+     "role": "major",
+     "extent": "portion",
+     "from": "radius-ulna",
+     "to": "carpus",
+     "note": "the largest muscle belly on the forearm; its upper end stays with the плечевая часть when ГОСТ 7595-79 saws through the middle of the radius and ulna"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. flexor carpi ulnaris",
+     "role": "major",
+     "where": "caudolateral face of the radius and ulna, behind the flexor group"
+    },
+    {
+     "latin": "M. flexor carpi radialis",
+     "role": "major",
+     "where": "medial face of the radius, in front of the ulnaris"
+    },
+    {
+     "latin": "M. flexor digitorum profundus",
+     "role": "major",
+     "where": "the deep flexor mass on the caudal face of the forearm, the bulk of the meat on this cut"
+    },
+    {
+     "latin": "M. flexor digitorum superficialis",
+     "role": "minor",
+     "where": "superficial to the deep flexor on the caudal forearm"
+    },
+    {
+     "latin": "M. extensor digitorum communis",
+     "role": "minor",
+     "where": "craniolateral forearm, alongside the extensor carpi radialis"
+    },
+    {
+     "latin": "M. extensor carpi ulnaris",
+     "role": "minor",
+     "where": "lateral face of the forearm, behind the digital extensors"
+    }
+   ],
+   "bone_in": true,
+   "evidence": "inferred",
+   "bounds_evidence": "standard",
+   "sources": [
+    {
+     "url": "http://omgautovar.narod.ru/gost/maso/3.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Передняя голяшка: отделяется по линии, проходящей в поперечном направлении через середину лучевой и локтевой костей. В переднюю голяшку входят: нижняя половина лучевой и локтевой костей и кости запястья."
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Передняя голяшка на кости Получают из передней четвертины. Верхняя - по нижнему краю плечевой кости (между плечевой костью и костями предплечья)"
+    },
+    {
+     "url": "http://omgautovar.narod.ru/gost/maso/3.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "К сорту 1 относятся: тазобедренный 7; поясничный 2; спинной 3; лопаточный (лопатка, подплечный край) 4; плечевой (плечевая часть и часть предплечья) 5; грудной 6. К сорту 2 относятся: шейный 7; пашина 8. К сорту 3 относятся: зарез 9-, передняя голяшка 10, задняя голяшка 11."
+    }
+   ],
+   "dispute": "Bounds are standard and the two standards disagree exactly as they do for the hind shank. ГОСТ 7595-79 saws the передняя голяшка off through the middle of the radius and ulna, so it is the lower half of the forearm plus the carpus - the line the atlas is drawn to. ГОСТ 31797-2012 cuts at the elbow, 'между плечевой костью и костями предплечья', making its передняя голяшка the whole forearm. Neither names a muscle and no Russian trade source does either, so the muscle grade is inferred. Only one forearm muscle is modelled by the atlas; the rest of the shank is the carpal and digital flexor and extensor group, listed unmodelled from bovine anatomy. ГОСТ 7595-79's sort list is quoted because it is what makes this a 3-й сорт cut alongside зарез and the hind shank."
+  },
+  {
+   "id": "sheya",
+   "muscles": [
+    {
+     "id": "longus-colli",
+     "role": "major",
+     "extent": "portion",
+     "from": "axis",
+     "to": "rib-01",
+     "note": "on the ventral faces of the cervical vertebral bodies; the Korean 제비추리 is the same muscle"
+    },
+    {
+     "id": "splenius",
+     "role": "major",
+     "extent": "portion",
+     "from": "axis",
+     "to": "thoracic-vertebrae"
+    },
+    {
+     "id": "complexus",
+     "role": "major",
+     "extent": "portion",
+     "from": "axis",
+     "to": "thoracic-vertebrae"
+    },
+    {
+     "id": "brachiocephalicus",
+     "role": "major",
+     "extent": "portion",
+     "from": "cranium",
+     "to": "humerus",
+     "note": "runs the whole length of the neck from the head to the humerus, so the шейный отруб takes the middle of it"
+    },
+    {
+     "id": "sternocephalicus",
+     "role": "major",
+     "extent": "portion",
+     "from": "cranium",
+     "to": "sternum"
+    },
+    {
+     "id": "rhomboideus",
+     "role": "minor",
+     "extent": "portion",
+     "from": "cervical-vertebrae",
+     "to": "thoracic-vertebrae",
+     "note": "the cervical part, the hump meat"
+    },
+    {
+     "id": "trapezius",
+     "role": "minor",
+     "extent": "portion",
+     "from": "cervical-vertebrae",
+     "to": "scapula"
+    },
+    {
+     "id": "omotransversarius",
+     "role": "minor",
+     "extent": "portion",
+     "from": "cervical-vertebrae",
+     "to": "scapula"
+    },
+    {
+     "id": "multifidus",
+     "role": "minor",
+     "extent": "portion",
+     "from": "axis",
+     "to": "thoracic-vertebrae",
+     "note": "the deep cervical multifidi"
+    },
+    {
+     "id": "serratus-ventralis",
+     "role": "trace",
+     "extent": "portion",
+     "from": "cervical-vertebrae",
+     "to": "scapula",
+     "note": "its cervical digitations; the bulk of the muscle is in the лопатка"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "Ligamentum nuchae",
+     "role": "minor",
+     "where": "not a muscle but the yellow elastic cord along the top of the neck from the poll to the withers; the butcher pulls it out of the шейный отруб and it is much of why the cut looks sinewy"
+    },
+    {
+     "latin": "M. obliquus capitis caudalis",
+     "role": "minor",
+     "where": "between the atlas and the axis, at the front of the отруб"
+    },
+    {
+     "latin": "M. scalenus",
+     "role": "trace",
+     "where": "on the sides of the last cervical vertebrae, under the longus colli"
+    }
+   ],
+   "bone_in": true,
+   "evidence": "inferred",
+   "bounds_evidence": "standard",
+   "sources": [
+    {
+     "url": "http://omgautovar.narod.ru/gost/maso/3.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Шейный отруб: передняя граница проходит по линии отделения зареза; задняя - между пятым и шестым шейным позвонками. В отруб входят три шейных позвонка (с 3 по 5)."
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Шейный на кости Передняя - между вторым и третьим шейными позвонками; задняя - параллельно первому ребру между последним шейным (седьмым) и первым грудным позвонками"
+    },
+    {
+     "url": "http://omgautovar.narod.ru/gost/maso/3.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "К сорту 1 относятся: тазобедренный 7; поясничный 2; спинной 3; лопаточный (лопатка, подплечный край) 4; плечевой (плечевая часть и часть предплечья) 5; грудной 6. К сорту 2 относятся: шейный 7; пашина 8. К сорту 3 относятся: зарез 9-, передняя голяшка 10, задняя голяшка 11."
+    }
+   ],
+   "dispute": "Bounds are standard, and the two standards make the шейный отруб very different sizes. ГОСТ 7595-79 gives it only three vertebrae, C3 to C5, because its лопаточный отруб takes C6 and C7 forward with the shoulder - that is the scheme the atlas is drawn to. ГОСТ 31797-2012 runs the шейный отруб from the C2/C3 line all the way back to the first thoracic vertebra, i.e. the whole neck. Both quoted. No standard and no Russian trade source fetched here names a muscle in the neck, so the list is inferred from bovine anatomy; the ligamentum nuchae is put under unmodelled because it is what the cut is notorious for even though it is not muscle. ГОСТ 7595-79's sort list is quoted: with the пашина, this is one of only two 2-й сорт отрубы."
+  },
+  {
+   "id": "zarez",
+   "muscles": [
+    {
+     "id": "sternocephalicus",
+     "role": "major",
+     "extent": "portion",
+     "from": "cranium",
+     "to": "axis",
+     "note": "the bleeding cut is made through this muscle, and its head end is most of what зарез is"
+    },
+    {
+     "id": "brachiocephalicus",
+     "role": "minor",
+     "extent": "portion",
+     "from": "cranium",
+     "to": "axis"
+    },
+    {
+     "id": "splenius",
+     "role": "minor",
+     "extent": "portion",
+     "from": "atlas",
+     "to": "axis"
+    },
+    {
+     "id": "complexus",
+     "role": "minor",
+     "extent": "portion",
+     "from": "atlas",
+     "to": "axis"
+    },
+    {
+     "id": "longus-colli",
+     "role": "trace",
+     "extent": "portion",
+     "from": "atlas",
+     "to": "axis",
+     "note": "only its most cranial slips, on the ventral faces of the atlas and the axis"
+    }
+   ],
+   "unmodelled": [
+    {
+     "latin": "M. rectus capitis dorsalis",
+     "role": "minor",
+     "where": "between the occiput and the atlas and axis; the short deep extensors of the head"
+    },
+    {
+     "latin": "M. obliquus capitis cranialis",
+     "role": "minor",
+     "where": "between the wing of the atlas and the occiput"
+    },
+    {
+     "latin": "M. obliquus capitis caudalis",
+     "role": "minor",
+     "where": "between the atlas and the axis"
+    },
+    {
+     "latin": "M. omohyoideus",
+     "role": "trace",
+     "where": "a thin strap running forward under the throat from the neck to the hyoid"
+    }
+   ],
+   "bone_in": true,
+   "evidence": "inferred",
+   "bounds_evidence": "standard",
+   "sources": [
+    {
+     "url": "http://omgautovar.narod.ru/gost/maso/3.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "Зарез: между вторым и третьим шейными позвонками. В зарез входят два первых шейных позвонка."
+    },
+    {
+     "url": "https://base.garant.ru/70654172/",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "23 Шейный бескостный"
+    },
+    {
+     "url": "http://omgautovar.narod.ru/gost/maso/3.html",
+     "supports": [
+      "bounds"
+     ],
+     "quote": "К сорту 1 относятся: тазобедренный 7; поясничный 2; спинной 3; лопаточный (лопатка, подплечный край) 4; плечевой (плечевая часть и часть предплечья) 5; грудной 6. К сорту 2 относятся: шейный 7; пашина 8. К сорту 3 относятся: зарез 9-, передняя голяшка 10, задняя голяшка 11."
+    }
+   ],
+   "dispute": "Bounds are standard and, unusually for this table, the two standards agree exactly: both cut between the second and third cervical vertebrae, leaving the atlas and the axis in the зарез. Muscles are inferred - neither standard names one, and no Russian trade source describes зарез in muscle terms, there being little enough muscle in it that the cut is defined by what it is not. The list above is the head-and-neck group that crosses the atlas and axis, taken from bovine anatomy; the short suboccipital muscles are unmodelled."
+  }
+ ]
+}
