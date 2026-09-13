@@ -1,0 +1,652 @@
+{
+  "culture": "France",
+  "id": "fr",
+  "flag": "FR",
+  "blurb": "The French découpe follows the seams between individual muscles rather than sawing straight across the bone, so one carcass yields some 29 named morceaux that each correspond to a muscle or a tight group of them — which is why the onglet, the araignée and the merlan exist in France and have no clean English equivalent. Each morceau is then graded by the cooking it wants: griller and rôtir for the lightly worked première catégorie, braiser and mijoter for the middle, bouillir for the collagen-heavy neck, shanks and breast. The finest seam cuts are so small and so fiddly to extract that butchers traditionally kept them back for themselves — the morceaux du boucher.",
+  "sources": [
+    "https://fr.wikipedia.org/wiki/D%C3%A9coupe_du_b%C5%93uf",
+    "https://en.wikipedia.org/wiki/Cut_of_beef",
+    "https://fr.wikipedia.org/wiki/Paleron",
+    "https://www.la-viande.fr/cuisine-achat/cuisiner-viande/cuisiner-boeuf/morceaux-boucher",
+    "https://jeretiens.net/le-nom-des-morceaux-de-boeuf-decoupe-a-la-francaise/",
+    "https://www.lesviandesdubourbonnais.fr/les-morceaux-du-boeuf/",
+    "https://degustonfoin.fr/blogs/recettes-viande-bovine/les-morceaux-du-boeuf"
+  ],
+  "cuts": [
+    {
+      "id": "queue",
+      "name": "Oxtail",
+      "native": "Queue",
+      "region": "Tail base, on the midline just behind and above the rump at x 0.00-0.06, rising from z 0.82 to 0.96.",
+      "x": [
+        0.0,
+        0.06
+      ],
+      "z": [
+        0.82,
+        0.96
+      ],
+      "full_width": false,
+      "description": "The tail's own musculature, worked constantly to swat flies and bound up with bone and cartilage. Pure collagen and bone: strictly a bouillir/mijoter cut given a long, gentle simmer until the gelatine dissolves.",
+      "dishes": [
+        "queue de bœuf en hochepot",
+        "pot-au-feu",
+        "daube de queue de bœuf",
+        "parmentier de queue de bœuf"
+      ]
+    },
+    {
+      "id": "rumsteck",
+      "name": "Rump",
+      "native": "Rumsteck",
+      "region": "The top slab over the hip and pin bone, x 0.06-0.30, z 0.74-0.92 — from the tail base forward to just short of the lumbar vertebrae.",
+      "x": [
+        0.06,
+        0.3
+      ],
+      "z": [
+        0.74,
+        0.92
+      ],
+      "full_width": true,
+      "description": "A large, lean, close-grained muscle group capping the pelvis, only moderately worked, so it is tender without being soft. A première catégorie griller/rôtir cut, taken as thick pavés or roasted whole.",
+      "dishes": [
+        "rumsteck grillé",
+        "brochettes de bœuf",
+        "fondue bourguignonne",
+        "rosbif"
+      ]
+    },
+    {
+      "id": "aiguillette-baronne",
+      "name": "Sirloin tip / tri-tip",
+      "native": "Aiguillette baronne",
+      "region": "A long conical piece at the front-lower tip of the rumsteck, between the rump and the noix, x 0.22-0.30, z 0.62-0.74.",
+      "x": [
+        0.22,
+        0.3
+      ],
+      "z": [
+        0.62,
+        0.74
+      ],
+      "full_width": true,
+      "description": "A tapering, needle-shaped muscle at the junction of the back and the hind limb, moderately worked and well flavoured, weighing 800 g to 1.2 kg. Versatile: sliced thin to griller, barded and tied to rôtir, or braised whole in a cocotte.",
+      "dishes": [
+        "aiguillette baronne rôtie",
+        "bœuf à la ficelle",
+        "aiguillette braisée aux carottes"
+      ]
+    },
+    {
+      "id": "araignee",
+      "name": "Spider steak",
+      "native": "Araignée",
+      "region": "A small irregular muscle lining the inside of the hip-joint socket, x 0.14-0.21, z 0.62-0.72 — directly over the hip joint at x 0.16.",
+      "x": [
+        0.14,
+        0.21
+      ],
+      "z": [
+        0.62,
+        0.72
+      ],
+      "full_width": false,
+      "description": "An internal muscle lining the hip socket, barely worked and richly marbled; the veined membrane over it looks like a spider's web, hence the name. Only two per carcass and a famous morceau du boucher — denerved, then grilled or pan-seared fast and served saignant.",
+      "dishes": [
+        "araignée grillée",
+        "araignée à l'échalote",
+        "araignée poêlée au beurre"
+      ]
+    },
+    {
+      "id": "rond-de-gite",
+      "name": "Eye of round",
+      "native": "Rond de gîte",
+      "region": "The hindmost muscle of the thigh, behind the femur, x 0.00-0.07, z 0.34-0.66.",
+      "x": [
+        0.0,
+        0.07
+      ],
+      "z": [
+        0.34,
+        0.66
+      ],
+      "full_width": true,
+      "description": "Also called the semelle ('shoe sole'), a cylindrical, extremely lean and fine-grained muscle at the very back of the leg with almost no fat. Tender enough to eat raw in tartare or carpaccio, but cooked it tightens quickly, so it is otherwise braised or mijoté.",
+      "dishes": [
+        "carpaccio de bœuf",
+        "tartare",
+        "bœuf mode",
+        "bœuf braisé"
+      ]
+    },
+    {
+      "id": "gite-a-la-noix",
+      "name": "Silverside",
+      "native": "Gîte à la noix",
+      "region": "The middle-rear of the thigh, x 0.07-0.14, z 0.34-0.64, wrapping the back of the femur ahead of the rond de gîte.",
+      "x": [
+        0.07,
+        0.14
+      ],
+      "z": [
+        0.34,
+        0.64
+      ],
+      "full_width": true,
+      "description": "A long muscle of the rear thigh with short fibres and a fine grain, lean and reasonably tender for a leg muscle. Cut into steaks to griller or barded and tied to rôtir; the firmer end goes to braiser.",
+      "dishes": [
+        "rôti de gîte à la noix",
+        "bœuf à la mode",
+        "steak de gîte",
+        "bœuf braisé aux carottes"
+      ]
+    },
+    {
+      "id": "tende-de-tranche",
+      "name": "Topside",
+      "native": "Tende de tranche",
+      "region": "The large muscle on the inner face of the thigh, x 0.14-0.21, z 0.38-0.62 — the medial side of the leg between hock and hip.",
+      "x": [
+        0.14,
+        0.21
+      ],
+      "z": [
+        0.38,
+        0.62
+      ],
+      "full_width": true,
+      "description": "The biggest piece of the thigh, on the inner face where the muscles do least work, so the meat is naturally tender and very lean. It hides the two prized morceaux du boucher — the small round poire (500-600 g) and the long flat merlan (800 g-1 kg) — and the whole group is griller/rôtir meat.",
+      "dishes": [
+        "bifteck",
+        "poire et merlan grillés",
+        "fondue bourguignonne",
+        "rôti de tende de tranche",
+        "escalopes de bœuf"
+      ]
+    },
+    {
+      "id": "tranche-grasse",
+      "name": "Thick flank / knuckle",
+      "native": "Tranche grasse",
+      "region": "The front of the thigh over the stifle, x 0.21-0.29, z 0.36-0.60, ahead of the femur.",
+      "x": [
+        0.21,
+        0.29
+      ],
+      "z": [
+        0.36,
+        0.6
+      ],
+      "full_width": true,
+      "description": "The quadriceps group at the front of the leg, broken down by the trade into plat de tranche, rond de tranche and mouvant; well used in walking, so firmer and more sinewy than the tende de tranche. Sliced thin it grills, but most of it is braiser/mijoter meat.",
+      "dishes": [
+        "bœuf bourguignon",
+        "paupiettes de bœuf",
+        "bifteck",
+        "daube provençale"
+      ]
+    },
+    {
+      "id": "gite-arriere",
+      "name": "Hind shank",
+      "native": "Gîte (jarret arrière)",
+      "region": "The rear shank below the hock, x 0.03-0.13, z 0.06-0.34; the hock sits at z 0.28.",
+      "x": [
+        0.03,
+        0.13
+      ],
+      "z": [
+        0.06,
+        0.34
+      ],
+      "full_width": true,
+      "description": "The lower hind leg — hard-working muscles laced with tendon and collagen around the shank bone and its marrow. Emphatically a bouillir/mijoter cut: hours of gentle wet heat turn the collagen to gelatine and give the broth its body.",
+      "dishes": [
+        "pot-au-feu",
+        "osso-buco de bœuf",
+        "gîte en gelée",
+        "bouillon de bœuf"
+      ]
+    },
+    {
+      "id": "faux-filet",
+      "name": "Sirloin / strip loin",
+      "native": "Faux-filet (contre-filet)",
+      "region": "The long back muscle above the lumbar and last thoracic vertebrae, x 0.30-0.46, z 0.80-0.94, between the rumsteck and the ribs.",
+      "x": [
+        0.3,
+        0.46
+      ],
+      "z": [
+        0.8,
+        0.94
+      ],
+      "full_width": true,
+      "description": "The longissimus dorsi running along the top of the spine, a postural muscle that is barely worked and carries a firm cap of fat. A première catégorie griller/rôtir cut with more chew and more flavour than the filet.",
+      "dishes": [
+        "entrecôte faux-filet grillée",
+        "pavé de faux-filet",
+        "rosbif",
+        "contre-filet sauce béarnaise"
+      ]
+    },
+    {
+      "id": "filet",
+      "name": "Tenderloin",
+      "native": "Filet",
+      "region": "Tucked inside the carcass underneath the lumbar spine, x 0.30-0.46, z 0.70-0.80, directly beneath the faux-filet.",
+      "x": [
+        0.3,
+        0.46
+      ],
+      "z": [
+        0.7,
+        0.8
+      ],
+      "full_width": false,
+      "description": "The psoas major, slung under the backbone where it never bears weight, which makes it the most tender and least fatty muscle on the animal. The top of the première catégorie: grill or roast it quickly, usually barded because it has no fat of its own.",
+      "dishes": [
+        "tournedos Rossini",
+        "filet de bœuf en croûte",
+        "chateaubriand",
+        "filet mignon",
+        "bœuf Wellington"
+      ]
+    },
+    {
+      "id": "bavette-d-aloyau",
+      "name": "Flank steak (loin end)",
+      "native": "Bavette d'aloyau",
+      "region": "The upper flank flap where the abdominal wall meets the loin, x 0.30-0.40, z 0.56-0.70, just below the filet and behind the last rib.",
+      "x": [
+        0.3,
+        0.4
+      ],
+      "z": [
+        0.56,
+        0.7
+      ],
+      "full_width": false,
+      "description": "A flat sheet of abdominal muscle with long, coarse, clearly visible fibres and a deep beefy taste. A deuxième catégorie griller cut treated like a first: seared hard, served saignant and always sliced across the grain.",
+      "dishes": [
+        "bavette à l'échalote",
+        "bavette grillée",
+        "bavette au poivre"
+      ]
+    },
+    {
+      "id": "bavette-de-flanchet",
+      "name": "Flank steak (flank end)",
+      "native": "Bavette de flanchet",
+      "region": "The rear-lower flank in front of the thigh, x 0.29-0.36, z 0.44-0.56, below the bavette d'aloyau.",
+      "x": [
+        0.29,
+        0.36
+      ],
+      "z": [
+        0.44,
+        0.56
+      ],
+      "full_width": false,
+      "description": "The rearmost part of the abdominal wall, coarser and more sinewy than the bavette d'aloyau and streaked with connective tissue. Cheaper, and a deuxième/troisième catégorie piece: grilled fast if trimmed well, otherwise mijoté.",
+      "dishes": [
+        "bavette grillée",
+        "bœuf en daube",
+        "bavette marinée"
+      ]
+    },
+    {
+      "id": "flanchet",
+      "name": "Flank / plate",
+      "native": "Flanchet",
+      "region": "The abdominal wall under the loin, x 0.36-0.46, z 0.44-0.56, between the last rib and the hind leg.",
+      "x": [
+        0.36,
+        0.46
+      ],
+      "z": [
+        0.44,
+        0.56
+      ],
+      "full_width": false,
+      "description": "Built from the layered muscles of the abdomen alternating with membrane and fat — it holds the animal's belly up, and is tough and gristly for it. A troisième catégorie bouillir/mijoter cut, usually rolled and tied for the pot.",
+      "dishes": [
+        "pot-au-feu",
+        "flanchet en cocotte",
+        "bœuf gros sel"
+      ]
+    },
+    {
+      "id": "onglet",
+      "name": "Hanger steak",
+      "native": "Onglet",
+      "region": "The pillars of the diaphragm hanging under the lumbar spine at the last rib, x 0.40-0.46, z 0.56-0.68.",
+      "x": [
+        0.4,
+        0.46
+      ],
+      "z": [
+        0.56,
+        0.68
+      ],
+      "full_width": false,
+      "description": "The crura of the diaphragm, a breathing muscle that works constantly but bears no load, giving long coarse fibres, a central sinew and an almost offal-rich flavour. The archetypal morceau du boucher — grilled very fast and eaten saignant, never past it.",
+      "dishes": [
+        "onglet à l'échalote",
+        "onglet grillé",
+        "onglet sauce au poivre"
+      ]
+    },
+    {
+      "id": "hampe",
+      "name": "Skirt steak",
+      "native": "Hampe",
+      "region": "The muscular skirt of the diaphragm along the inside of the lower ribs, x 0.48-0.56, z 0.54-0.64.",
+      "x": [
+        0.48,
+        0.56
+      ],
+      "z": [
+        0.54,
+        0.64
+      ],
+      "full_width": false,
+      "description": "The outer fleshy part of the diaphragm separating thorax from abdomen, in long visible bands that give a deliberate resistance to the tooth. Another morceau du boucher: membrane stripped, grilled or pan-seared very hot, served rare.",
+      "dishes": [
+        "hampe grillée",
+        "hampe à l'échalote",
+        "hampe poêlée persillade"
+      ]
+    },
+    {
+      "id": "entrecote",
+      "name": "Rib steak / prime rib",
+      "native": "Côtes, entrecôtes",
+      "region": "The upper rib cage, x 0.46-0.56, z 0.80-0.94, spanning the ribs between the last rib at x 0.46 and the fifth rib at x 0.56.",
+      "x": [
+        0.46,
+        0.56
+      ],
+      "z": [
+        0.8,
+        0.94
+      ],
+      "full_width": true,
+      "description": "The continuation of the long back muscle over the ribs, generously marbled because the muscle does little work and stores fat between its fibres. Première catégorie griller/rôtir: on the bone it is a côte de bœuf, boned out it is the entrecôte.",
+      "dishes": [
+        "côte de bœuf grillée",
+        "entrecôte marchand de vin",
+        "entrecôte bordelaise",
+        "entrecôte frites"
+      ]
+    },
+    {
+      "id": "plat-de-cotes",
+      "name": "Short rib / rib plate",
+      "native": "Plat de côtes",
+      "region": "The lower half of the rib cage down toward the rib ends, x 0.46-0.56, z 0.64-0.80, beneath the entrecôte.",
+      "x": [
+        0.46,
+        0.56
+      ],
+      "z": [
+        0.64,
+        0.8
+      ],
+      "full_width": true,
+      "description": "The flat muscle and fat lying along the lower rib bones, layered and coarse-grained with plenty of connective tissue. A classic troisième catégorie bouillir cut — the piece that gives a pot-au-feu its flavour — sold with or without the bone.",
+      "dishes": [
+        "pot-au-feu",
+        "potée",
+        "bœuf bourguignon",
+        "plat de côtes au gros sel"
+      ]
+    },
+    {
+      "id": "basses-cotes",
+      "name": "Chuck rib / blade end",
+      "native": "Basses côtes",
+      "region": "The first five ribs, high on the back just behind and above the shoulder blade, x 0.56-0.66, z 0.84-0.94.",
+      "x": [
+        0.56,
+        0.66
+      ],
+      "z": [
+        0.84,
+        0.94
+      ],
+      "full_width": true,
+      "description": "Where the back muscle runs out over the forward ribs and breaks into several smaller, well-marbled muscles divided by seams of fat. Dual-purpose: in thin steaks it is a griller cut, in chunks it is one of the best mijoter cuts on the animal.",
+      "dishes": [
+        "basses côtes grillées",
+        "bœuf bourguignon",
+        "carbonade flamande",
+        "daube"
+      ]
+    },
+    {
+      "id": "tendron",
+      "name": "Rib tips / short plate",
+      "native": "Tendron, milieu de poitrine",
+      "region": "The mid-breast over the rib cartilages and sternum, x 0.46-0.58, z 0.44-0.54.",
+      "x": [
+        0.46,
+        0.58
+      ],
+      "z": [
+        0.44,
+        0.54
+      ],
+      "full_width": true,
+      "description": "Alternating layers of muscle, fat and the soft cartilage of the rib ends, taken from the floor of the chest. A troisième catégorie mijoter cut whose cartilage melts to gelatine over long cooking; sliced very thin it can also be grilled.",
+      "dishes": [
+        "tendron de bœuf en cocotte",
+        "pot-au-feu",
+        "tendron braisé",
+        "tendron au barbecue"
+      ]
+    },
+    {
+      "id": "gros-bout-de-poitrine",
+      "name": "Brisket",
+      "native": "Gros bout de poitrine",
+      "region": "The front of the breast below and between the forelegs, x 0.58-0.72, z 0.44-0.56, ahead of the elbow at x 0.62.",
+      "x": [
+        0.58,
+        0.72
+      ],
+      "z": [
+        0.44,
+        0.56
+      ],
+      "full_width": true,
+      "description": "Three pectoral muscles slung under the shoulder that carry much of the animal's forward weight with no collarbone to help, so they are dense, fatty and full of collagen. A bouillir/mijoter cut, and the traditional piece for salting.",
+      "dishes": [
+        "pot-au-feu",
+        "bœuf gros sel",
+        "poitrine salée",
+        "potée auvergnate"
+      ]
+    },
+    {
+      "id": "paleron",
+      "name": "Flat iron / blade",
+      "native": "Paleron",
+      "region": "Flat on the outer face of the shoulder blade, upper-rear shoulder near the neck, x 0.56-0.66, z 0.66-0.84.",
+      "x": [
+        0.56,
+        0.66
+      ],
+      "z": [
+        0.66,
+        0.84
+      ],
+      "full_width": true,
+      "description": "A flat, regular muscle lying against the scapula, split lengthwise by a tough central sheet of gristle that melts into gelatine. The braiser cut par excellence — over two hours of wet heat — though the two half-fillets either side of the nerve also make tender grilling steaks.",
+      "dishes": [
+        "bœuf bourguignon",
+        "carbonade flamande",
+        "daube",
+        "pot-au-feu",
+        "paleron braisé"
+      ]
+    },
+    {
+      "id": "macreuse-a-bifteck",
+      "name": "Chuck tender / shoulder steak",
+      "native": "Macreuse à bifteck",
+      "region": "The forward upper shoulder toward the point of shoulder, x 0.66-0.72, z 0.66-0.88.",
+      "x": [
+        0.66,
+        0.72
+      ],
+      "z": [
+        0.66,
+        0.88
+      ],
+      "full_width": true,
+      "description": "The upper part of the big shoulder mass on the foreleg, moderately worked, lean and fairly firm but with a fine, even grain. A deuxième catégorie griller cut — thin steaks, brochettes, or barded and roasted.",
+      "dishes": [
+        "bifteck de macreuse",
+        "brochettes",
+        "macreuse grillée",
+        "rôti de macreuse"
+      ]
+    },
+    {
+      "id": "jumeau-a-bifteck",
+      "name": "Chuck eye / shoulder twin",
+      "native": "Jumeau à bifteck",
+      "region": "Below the shoulder blade on the outer shoulder, x 0.56-0.65, z 0.56-0.66.",
+      "x": [
+        0.56,
+        0.65
+      ],
+      "z": [
+        0.56,
+        0.66
+      ],
+      "full_width": true,
+      "description": "A long muscle with short fibres lying under the blade, called the 'twin' because it runs alongside its tougher counterpart. The tenderer of the pair and a griller cut: quick steaks or escalopes.",
+      "dishes": [
+        "jumeau grillé",
+        "escalopes de bœuf",
+        "brochettes",
+        "bifteck sauce échalote"
+      ]
+    },
+    {
+      "id": "jumeau-a-pot-au-feu",
+      "name": "Chuck (stewing twin)",
+      "native": "Jumeau à pot-au-feu",
+      "region": "The deeper, lower half of the twin pair toward the point of shoulder, x 0.65-0.72, z 0.56-0.66.",
+      "x": [
+        0.65,
+        0.72
+      ],
+      "z": [
+        0.56,
+        0.66
+      ],
+      "full_width": true,
+      "description": "The firmer twin, heavily worked and shot through with connective tissue, so it turns unctuous and gelatinous once broken down. Strictly mijoter/bouillir: ragoûts, daubes and the pot itself.",
+      "dishes": [
+        "pot-au-feu",
+        "bœuf bourguignon",
+        "daube",
+        "ragoût de bœuf"
+      ]
+    },
+    {
+      "id": "macreuse-a-pot-au-feu",
+      "name": "Shoulder clod",
+      "native": "Macreuse à pot-au-feu",
+      "region": "The muscle mass wrapping the humerus on the foreleg above the shank, x 0.58-0.70, z 0.30-0.44.",
+      "x": [
+        0.58,
+        0.7
+      ],
+      "z": [
+        0.3,
+        0.44
+      ],
+      "full_width": true,
+      "description": "A big block of muscle on the front limb, worked at every stride and dense with sinew. Firmer than the macreuse à bifteck and a troisième catégorie bouillir cut that needs long, slow simmering to turn tender.",
+      "dishes": [
+        "pot-au-feu",
+        "bœuf mode",
+        "ragoût",
+        "bouillon"
+      ]
+    },
+    {
+      "id": "gite-avant",
+      "name": "Fore shank / shin",
+      "native": "Gîte avant (jarret)",
+      "region": "The foreleg below the knee, x 0.58-0.70, z 0.06-0.30; the knee sits at z 0.28.",
+      "x": [
+        0.58,
+        0.7
+      ],
+      "z": [
+        0.06,
+        0.3
+      ],
+      "full_width": true,
+      "description": "The shin of the front leg: lean muscle bundles wrapped in tendon around a marrow bone, about as hard-working as meat gets. A bouillir cut whose collagen is exactly what a good bouillon or a bœuf en gelée needs.",
+      "dishes": [
+        "pot-au-feu",
+        "jarret de bœuf",
+        "bœuf en gelée",
+        "bouillon"
+      ]
+    },
+    {
+      "id": "collier",
+      "name": "Neck / chuck",
+      "native": "Collier",
+      "region": "The neck, x 0.72-0.80, z 0.62-0.94, from the point of shoulder forward to the poll.",
+      "x": [
+        0.72,
+        0.8
+      ],
+      "z": [
+        0.62,
+        0.94
+      ],
+      "full_width": true,
+      "description": "The muscles of the encolure, holding up a very heavy head all day, which makes the meat coarse, gelatinous and deeply flavoured. A troisième catégorie mijoter cut — cheap, and one of the tastiest things in a long-cooked stew.",
+      "dishes": [
+        "bœuf bourguignon",
+        "daube",
+        "ragoût",
+        "carbonade flamande",
+        "pot-au-feu"
+      ]
+    },
+    {
+      "id": "joue",
+      "name": "Cheek",
+      "native": "Joue (plat de joue)",
+      "region": "The cheek muscle on the side of the head, x 0.80-0.90, z 0.70-0.86, forward of the poll at x 0.80.",
+      "x": [
+        0.8,
+        0.9
+      ],
+      "z": [
+        0.7,
+        0.86
+      ],
+      "full_width": true,
+      "description": "The masseter, chewing cud for hours every day, so it is a dense mesh of muscle and collagen with almost no fat. Sold as an abat, it is braised or confit for several hours until it falls apart into a silky, sticky texture.",
+      "dishes": [
+        "joue de bœuf braisée",
+        "daube de joue au vin rouge",
+        "joue de bœuf confite",
+        "carbonade"
+      ]
+    }
+  ]
+}
