@@ -46,10 +46,14 @@ Z landmarks
 |------|--------------------------------------------------|
 | 0.00 | hoof / ground                                    |
 | 0.28 | knee (front) and hock (rear)                     |
-| 0.52 | belly line — bottom of the barrel                |
-| 0.70 | mid-barrel — the upper/lower primal split        |
-| 0.90 | topline / back                                   |
-| 1.00 | top of the withers                               |
+| 0.49 | belly line — bottom of the barrel                |
+| 0.69 | mid-barrel — the upper/lower primal split        |
+| 0.89 | topline / back                                   |
+| 0.93 | top of the withers, the high point of the mesh   |
+
+The z table above is what the mesh as built actually measures; the cut data was
+written against a nominal 0.52 / 0.70 / 0.90 / 1.00, which is within a couple of
+percent everywhere and is absorbed by the clipping described below.
 
 Y: the barrel is about +/-0.17 wide; a box spanning y -0.5..0.5 takes the full width.
 
