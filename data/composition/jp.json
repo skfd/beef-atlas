@@ -422,7 +422,7 @@
      "where": "a thin skin muscle over the whole flank and brisket; Japanese butchery calls it カッパ and trims it off"}
    ],
    "bone_in": false,
-   "evidence": "standard",
+   "evidence": "trade",
    "bounds_evidence": "standard",
    "sources": [
     {"url": "https://www.jmga.or.jp/standard/beef-partial/",
@@ -444,7 +444,7 @@
      "supports": ["bounds"],
      "quote": "関西では1番リブから6番リブ（6リブ）、関東・海外では1番リブから5番リブ（5リブ）の部分で、関西のほうが若干大きい。"}
    ],
-   "dispute": "Graded standard because JMGA names 深胸筋 and 肋間筋 directly, though only incidentally, as landmarks in the trim instruction; the rest of the list is trade. The same caveat as ザブトン applies to the upper bound: the かたばら／かたロース line runs down the rib at about one third of its length, which the schema cannot express, so 三角バラ and ザブトン share bounds rib-01→rib-06 and are distinguished only in their notes. Rib 6 follows JMGA and the 関西 practice; the 関東 and export convention stops at rib 5."
+   "dispute": "Graded trade, not standard, on purpose. JMGA does name 深胸筋 and 肋間筋 — but only incidentally, as landmarks in the trim instruction, never as an enumeration of what the cut contains the way it does for うちもも. The list itself is toyonishifarm's and bridgeinter's. The same caveat as ザブトン applies to the upper bound: the かたばら／かたロース line runs down the rib at about one third of its length, which the schema cannot express, so 三角バラ and ザブトン share bounds rib-01→rib-06 and are distinguished only in their notes. Rib 6 follows JMGA and the 関西 practice; the 関東 and export convention stops at rib 5."
   },
   {
    "id": "karubi",
@@ -474,7 +474,7 @@
      "supports": ["bounds", "muscles"],
      "quote": "【牛の部分】リブロースのバラ先側、 牛の肋骨についている筋肉（6-12番リブ）"},
     {"url": "https://note.com/bridgeinter/n/n06b650688af8",
-     "supports": ["muscles"],
+     "supports": ["bounds"],
      "quote": "韓国語ではバラの事をカルビと呼ぶ。"},
     {"url": "https://toyonishifarm.co.jp/prt_detail.php?c=boneless_short_rib",
      "supports": ["muscles"],
@@ -511,7 +511,7 @@
      "where": "inner face of the sternum and costal cartilages; bridgeinter names it as a ショートプレート muscle"}
    ],
    "bone_in": false,
-   "evidence": "standard",
+   "evidence": "trade",
    "bounds_evidence": "standard",
    "sources": [
     {"url": "https://www.jmga.or.jp/standard/beef-partial/",
@@ -533,7 +533,7 @@
      "supports": ["muscles"],
      "quote": "【学名】transversus abdominis"}
    ],
-   "dispute": "The rear bound is the most interesting line in the whole Japanese standard: JMGA separates ともばら not at a bone but along the front edge of a muscle — 大腿筋膜張筋（とも三角）の前縁に沿って、寛結節（腸骨の前端）まで — so the tensor fasciae latae is the boundary and stays on the leg side. `to: ilium` is the nearest the schema can put 寛結節. The front bound is the 大分割 line at 第6～第7肋骨間, giving ribs 7–13; bridgeinter's トモバラ span of 6–12 ribs is the trade's looser reckoning and is recorded under `karubi`."
+   "dispute": "Graded trade for the same reason as かたばら: JMGA names 外腹斜筋 and 腹皮筋 only as trim landmarks, so the muscle list is toyonishifarm's, not the standard's. The rear bound, however, is the most interesting line in the whole Japanese standard: JMGA separates ともばら not at a bone but along the front edge of a muscle — 大腿筋膜張筋（とも三角）の前縁に沿って、寛結節（腸骨の前端）まで — so the tensor fasciae latae is the boundary and stays on the leg side. `to: ilium` is the nearest the schema can put 寛結節. The front bound is the 大分割 line at 第6～第7肋骨間, giving ribs 7–13; bridgeinter's トモバラ span of 6–12 ribs is the trade's looser reckoning and is recorded under `karubi`."
   },
   {
    "id": "kainomi",
@@ -609,7 +609,7 @@
      "supports": ["muscles"],
      "quote": "【英語】 Hanging tender（北米）Thick skirt (豪NZ）"},
     {"url": "https://toyonishifarm.co.jp/prt_detail.php?c=hanging_tender",
-     "supports": ["muscles", "bounds"],
+     "supports": ["bounds"],
      "quote": "語源／腰椎からぶら下がっているように見えるため。別名ハンテン"},
     {"url": "https://dolikyou.com/焼肉の解剖学｜焼肉の部位を獣医学生が解説/",
      "supports": ["muscles", "bounds"],
@@ -675,7 +675,7 @@
      "supports": ["muscles"],
      "quote": "主な筋肉／大腿二頭筋"},
     {"url": "https://dolikyou.com/焼肉の解剖学｜焼肉の部位を獣医学生が解説/",
-     "supports": ["muscles", "bounds"],
+     "supports": ["bounds"],
      "quote": "らんいちの肉は寛骨に付着しており、この骨は”H型”に見えることから英語で「エイチボーン」と呼ばれています。"},
     {"url": "https://toyonishifarm.co.jp/prt_detail.php?c=top_sirloin_butt",
      "supports": ["muscles"],
