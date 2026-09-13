@@ -27,21 +27,39 @@ not a research dead end; see below.
 ## Are the quotes real?
 
 *Sourced* above means a verbatim quote stands behind the claim, so the number is worth
-what the quotes are — and the research tool most of this was gathered with paraphrases,
-translates and splices adjacent sentences without saying it has. `tools/verify_quotes.py`
-re-fetches every cited page and requires the quote to be a literal substring of it.
+exactly what the quotes are — and the research tool most of this was gathered with
+paraphrases, translates and splices adjacent sentences without saying it has.
+`tools/verify_quotes.py` re-fetches every cited page and requires the quote to be a
+literal substring of it.
 
-Of the 184 quotes behind the French, British and American entries — the three written
-before that defect was known — **176 verify, 5 did not and have been replaced with what
-the page actually says, and 6 cite a page (Texas A&M) that blocks scripted requests and
-has no Wayback capture.** Those six are kept and marked `unverified`, and a grade may no
-longer rest on a source that cannot be re-read; that alone dropped the British brisket
-from `standard` to `trade`.
+**476 of all 482 quotes verify. Six cannot be checked, and none are wrong.**
 
-None of the five bad quotes changed a muscle list — they were mis-transcriptions, not
-inventions: a paraphrase of AHDB, a CFIA clause label spliced onto a fragment from later
-in the same clause, a two-column table read across as prose, a PDF page number landing
-mid-sentence, and a capitalised glossary entry.
+Getting that number to mean anything took as much work as the research did, because
+four different things made honest quotes look fabricated: stripping tags leaves spaces,
+so an italicised `l'adductor` reads `l' adductor`; AHDB writes every dash as `&ndash;`;
+a PDF "stripped of tags" is binary noise; and a Cloudflare refusal is a kilobyte of
+challenge script, not a short page, so it looks like a real page missing the quote.
+
+Six quotes did turn out to be mis-transcriptions, and are now what the page says — a
+paraphrase of AHDB, a CFIA clause label spliced onto a fragment from later in the same
+clause, a two-column table read across as prose, a PDF page number landing mid-sentence,
+a capitalised glossary entry, and a Korean 요추골 that had lost its 골. **None changed a
+muscle list.** One grade moved: the British brisket fell to `trade`, because AHDB
+publishes no muscle spec for it and everything else behind it was American.
+
+The six unverifiable quotes all cite Texas A&M, which blocks scripted requests and has
+no Wayback capture. They are kept and marked `unverified`, and no grade may rest on one.
+
+### Korea was the whole argument in miniature
+
+The first sweep reported **all 39 Korean quotes as "not on the page."** They were on the
+page. The page is a picture: law.go.kr serves [별표 3] of the 고시 only as scanned images,
+marked `alt="행정규칙 별표 본문이미지"`. Korea is the best-sourced tradition in this table,
+and every one of its 18 `standard` grades sat behind a document no checker could read.
+
+So the beef half of the appendix was transcribed from the images and committed, with the
+images beside it. All 58 Korean quotes now verify. Nothing about Korean butchery was
+unclear at any point — the document is a scan.
 
 ## What the exercise actually proved
 
