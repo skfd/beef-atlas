@@ -48,7 +48,9 @@ def hex_colour(rgba):
 
 # The grid is clipped to this box. It is a little larger than the mesh, so a
 # rectangle that over-extends past the silhouette simply gets clipped by the cow.
-BOUNDS = (-0.05, 1.05, -0.05, 1.00)   # x0, x1, z0, z1
+BOUNDS = (-0.10, 1.10, -0.05, 1.25)   # x0, x1, z0, z1
+# z reaches well past the withers because an imported animal may carry its head
+# above 1.0; anything outside the grid would simply not be carved and vanish.
 
 
 def _rect(cut):
@@ -58,9 +60,17 @@ def _rect(cut):
     return (max(x0, bx0), min(x1, bx1), max(z0, bz0), min(z1, bz1))
 
 
+# Horizontal distance counts for much more than vertical when deciding which cut
+# an unclaimed cell belongs to. A strip of belly hanging below the flank is flank;
+# straight-line distance would hand it to whichever shank happened to be nearest
+# diagonally, which is how an imported cow with a deeper barrel ended up with its
+# udder coloured as hind shank.
+X_WEIGHT = 3.0
+
+
 def _point_rect_distance(px, pz, r):
     x0, x1, z0, z1 = r
-    dx = max(x0 - px, 0.0, px - x1)
+    dx = max(x0 - px, 0.0, px - x1) * X_WEIGHT
     dz = max(z0 - pz, 0.0, pz - z1)
     return (dx * dx + dz * dz) ** 0.5
 

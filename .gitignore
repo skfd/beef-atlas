@@ -2,4 +2,5 @@ build/
 __pycache__/
 tools/_gen_*.py
 *.blend1
-assets/
+assets/*.blend1
+assets/cow_normalized.glb

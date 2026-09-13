@@ -1375,6 +1375,601 @@
   ]
  },
  {
+  "culture": "Russia",
+  "id": "ru",
+  "flag": "RU",
+  "blurb": "Russia is the only tradition in this atlas whose scheme sorts cuts into numbered quality grades that set the shelf price: ГОСТ 7595-79 cuts a side into eleven сортовые отрубы and assigns each to a сорт by the ratio of muscle to connective tissue — 1-й сорт (hip, loin, back, shoulder blade, arm and breast) is 88% of the carcass, 2-й сорт (neck and flank) 7%, and 3-й сорт (зарез and the two shanks) the last 5%, with the shelf price following the sort. Underneath that industrial grid sits a much older kitchen vocabulary the standard never mentions — оковалок, кострец, огузок, щуп, ссек, завиток, челышко — which is what a market butcher actually says, so one piece of meat may carry a GOST name, a Brockhaus-era name and an imported steakhouse name at once. The standard lapsed in 2008 in favour of ГОСТ 31797-2012, but the three sorts and their names survive on price lists, in canteen norms and in every Soviet cookbook still in the kitchen.",
+  "sources": [
+   "http://omgautovar.narod.ru/gost/maso/3.html",
+   "https://studfile.net/preview/2043508/page:9/",
+   "https://studfile.net/preview/16712235/page:9/",
+   "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D0%B2%D1%8F%D0%B4%D0%B8%D0%BD%D0%B0",
+   "https://agrogi.ru/article/chasti-tushi-govyadiny-razdelka/",
+   "https://eda-land.ru/govyadina/chasti/shema-i-nazvaniya/",
+   "https://eda-land.ru/govyadina/chasti/",
+   "https://www.liveinternet.ru/users/bogsve/post352143591/",
+   "https://cafepraga.ru/razdelka-tush-govyadiny-opisanie-chastei-tela-korovy/",
+   "https://food.ru/articles/2492-gid-po-chastjam-govjadiny",
+   "https://foodrumedia.livejournal.com/136493.html",
+   "https://zelenhutor.ru/blog/blog/gid-po-otrubam-govyadiny-kakoy-dlya-chego/",
+   "https://www.gastronom.ru/text/razdelka-govyadiny-kak-vybrat-govyadinu-1004364",
+   "https://www.schiborschi.online/blog/razdelka__kakie_chasti_korovy_brat_dlya_blyud_iz_govyadiny",
+   "https://dic.academic.ru/dic.nsf/brokgauz_efron/129780/%D0%97%D0%B0%D0%B2%D0%B8%D1%82%D0%BE%D0%BA"
+  ],
+  "cuts": [
+   {
+    "id": "hvost",
+    "name": "Oxtail",
+    "native": "Хвост",
+    "romanized": "khvost",
+    "region": "The tail itself, rising from the tail base at the very rear of the rump, x 0.00–0.06, high on the topline at z 0.78–0.92.",
+    "x": [
+     0.0,
+     0.06
+    ],
+    "z": [
+     0.78,
+     0.92
+    ],
+    "full_width": true,
+    "description": "Not a сортовой отруб at all but a субпродукт sold alongside the graded cuts, so it carries no сорт: a string of vertebrae with little meat and a great deal of collagen, cartilage and marrow. Hours of simmering turn it into the gelatinous холодец and a deeply beefy tail soup; it is close to inedible any other way.",
+    "dishes": [
+     "холодец",
+     "хвостовый суп",
+     "бульон",
+     "тушёный хвост"
+    ],
+    "colour": "#eba08d"
+   },
+   {
+    "id": "kostrets",
+    "name": "Rump",
+    "native": "Кострец",
+    "romanized": "kostrets",
+    "region": "The top of the hindquarter over the sacrum and pelvis, from just ahead of the tail base at x 0.06 forward past the hip joint to the hook bone at x 0.24, z 0.68–0.90.",
+    "x": [
+     0.06,
+     0.24
+    ],
+    "z": [
+     0.68,
+     0.9
+    ],
+    "full_width": true,
+    "description": "The upper, rearmost muscle mass of the тазобедренный отруб and therefore 1-й сорт; it does far less work than the leg below it, so the grain is fine and the inner face is the sweetest meat on the hindquarter, though it carries little marbling. Roasted whole as жаркое, sliced into escalopes and medallions, or cut into strips for бефстроганов.",
+    "dishes": [
+     "жаркое",
+     "ростбиф",
+     "эскалоп",
+     "бефстроганов",
+     "прозрачный бульон"
+    ],
+    "colour": "#4d56b8"
+   },
+   {
+    "id": "ssek",
+    "name": "Outside round / silverside",
+    "native": "Ссек",
+    "romanized": "ssek",
+    "region": "The outer and rearmost face of the thigh, behind and below the rump, x 0.00–0.06 at z 0.54–0.68; ссек and щуп are the outside and the inside of the same leg, so a side view has to tile them front-to-back rather than side-by-side.",
+    "x": [
+     0.0,
+     0.06
+    ],
+    "z": [
+     0.54,
+     0.68
+    ],
+    "full_width": false,
+    "description": "The outer half of the огузок, worked at every stride, so its fibres are thicker than щуп's and wrapped in more developed connective tissue — firm, very lean, but with a concentrated flavour. Part of the тазобедренный отруб and so 1-й сорт; best braised slowly, gently boiled, or salted as солонина.",
+    "dishes": [
+     "тушёная говядина",
+     "солонина",
+     "отварная говядина",
+     "бастурма",
+     "гуляш"
+    ],
+    "colour": "#8dd164"
+   },
+   {
+    "id": "glaznoy-muskul",
+    "name": "Eye of round",
+    "native": "Глазной мускул",
+    "romanized": "glaznoy muskul",
+    "region": "The long rear muscle of the thigh running from the pelvis down toward the hock, drawn here as the lower rear corner of the leg at x 0.00–0.06, z 0.42–0.54, immediately under ссек.",
+    "x": [
+     0.0,
+     0.06
+    ],
+    "z": [
+     0.42,
+     0.54
+    ],
+    "full_width": false,
+    "description": "A single cylindrical muscle prised out of the ссек, named for the round eye it shows in cross-section and sometimes sold as лангет; it is uniformly lean, close-grained and almost fat-free, and it turns to rope if hurried. Graded 1-й сорт with the rest of the тазобедренный отруб, it is larded and pot-roasted, braised, or carved wafer-thin after a rare roast.",
+    "dishes": [
+     "тушёная говядина",
+     "гуляш",
+     "ростбиф",
+     "жаркое"
+    ],
+    "colour": "#eb7fc6"
+   },
+   {
+    "id": "shchup",
+    "name": "Inside round / topside",
+    "native": "Щуп",
+    "romanized": "shchup",
+    "region": "The inner face of the thigh between the stifle and the rump, x 0.06–0.14, z 0.44–0.68; it lies on the far side of the leg from ссек, which a side projection cannot show.",
+    "x": [
+     0.06,
+     0.14
+    ],
+    "z": [
+     0.44,
+     0.68
+    ],
+    "full_width": false,
+    "description": "The inside half of the огузок and the finest-grained large block of lean on the carcass — a tender, nearly fat-free slab that carves into broad even slices. 1-й сорт as part of the тазобедренный отруб; used for schnitzels, rolled рулет, slow roasts and braises.",
+    "dishes": [
+     "шницель",
+     "говяжий рулет",
+     "тушёная говядина",
+     "ростбиф",
+     "азу"
+    ],
+    "colour": "#6eb4b8"
+   },
+   {
+    "id": "oguzok",
+    "name": "Rump / mid thigh",
+    "native": "Огузок",
+    "romanized": "oguzok",
+    "region": "The middle of the thigh ahead of щуп and under the rump, x 0.14–0.24 between the hip joint and the hook bone, z 0.56–0.68.",
+    "x": [
+     0.14,
+     0.24
+    ],
+    "z": [
+     0.56,
+     0.68
+    ],
+    "full_width": false,
+    "description": "The boneless middle of the hind leg — the parent cut the butcher then splits into щуп on the inside and ссек on the outside — lean and muscular with a visible grain and a thin fat cover, firmer than the кострец above it. 1-й сорт within the тазобедренный отруб, and the workhorse of braises, гуляш and mince.",
+    "dishes": [
+     "гуляш",
+     "жаркое",
+     "тушёная говядина",
+     "фарш",
+     "ростбиф"
+    ],
+    "colour": "#d1b358"
+   },
+   {
+    "id": "podbederok",
+    "name": "Knuckle / lower thigh",
+    "native": "Подбедерок",
+    "romanized": "podbederok",
+    "region": "The front and lower part of the thigh just above the stifle joint, x 0.14–0.24 and z 0.44–0.56; Russian sources differ over how high on the leg подбедерок reaches.",
+    "x": [
+     0.14,
+     0.24
+    ],
+    "z": [
+     0.44,
+     0.56
+    ],
+    "full_width": false,
+    "description": "The ball of muscle wrapped around the lower femur where the leg meets the belly line — soft on the inner face, coarser and more sinewy on the outer, and leaner than anything above it. Still 1-й сорт as part of the тазобедренный отруб, but it wants long moist heat: азу, гуляш and soup rather than a pan.",
+    "dishes": [
+     "азу",
+     "гуляш",
+     "тушёная говядина",
+     "суп",
+     "фарш"
+    ],
+    "colour": "#a971eb"
+   },
+   {
+    "id": "golyashka",
+    "name": "Hind shank",
+    "native": "Задняя голяшка",
+    "romanized": "zadnyaya golyashka",
+    "region": "The hind leg below the stifle, x 0.03–0.17 from the hock at z 0.28 up to z 0.42; ГОСТ 7595-79 saws it across the tibia at the level of its lower third, 1.5–2 cm above the Achilles tendon.",
+    "x": [
+     0.03,
+     0.17
+    ],
+    "z": [
+     0.28,
+     0.42
+    ],
+    "full_width": false,
+    "description": "One of the three 3-й сорт отрубы that make up the cheapest 5% of the carcass, because it is mostly tendon, bone and gristle around a marrow-filled shin. That is exactly what makes it the standard холодец cut, and cross-sawn it becomes Russian osso buco.",
+    "dishes": [
+     "холодец",
+     "оссобуко",
+     "бульон",
+     "тушёная говядина"
+    ],
+    "colour": "#63b871"
+   },
+   {
+    "id": "okovalok",
+    "name": "Sirloin",
+    "native": "Оковалок",
+    "romanized": "okovalok",
+    "region": "The back over the hip, between the hook bone at x 0.24 and the sirloin/short-loin line at x 0.36, along the topline z 0.70–0.90 — the rear end of the поясничный отруб where it runs into the hip.",
+    "x": [
+     0.24,
+     0.36
+    ],
+    "z": [
+     0.7,
+     0.9
+    ],
+    "full_width": true,
+    "description": "The lumbar meat sitting between the hind leg and the back, also called толстый филей or simply филей in older books: tender, loose-fibred, laced with thin fat seams and lightly marbled, with no coarse sinew. Firmly 1-й сорт, and the canonical cut for бефстроганов, ромштекс and a whole roast.",
+    "dishes": [
+     "бефстроганов",
+     "ромштекс",
+     "ростбиф",
+     "жаркое",
+     "бифштекс"
+    ],
+    "colour": "#d17d88"
+   },
+   {
+    "id": "tonkiy-kray",
+    "name": "Striploin / thin edge",
+    "native": "Тонкий край",
+    "romanized": "tonkiy kray",
+    "region": "The back from the sirloin line at x 0.36 forward to x 0.49 — ГОСТ 7595-79 puts the поясничный/спинной boundary between the 11th and 12th ribs, two ribs ahead of the frame's last-rib mark at 0.46 — along the topline z 0.70–0.90.",
+    "x": [
+     0.36,
+     0.49
+    ],
+    "z": [
+     0.7,
+     0.9
+    ],
+    "full_width": true,
+    "description": "The rear half of the loin eye, over the last ribs and the first lumbar vertebrae: denser-fibred and a little leaner than the толстый край ahead of it, but still tender enough to cook fast. 1-й сорт within the поясничный отруб, and the source of ростбиф, антрекот and the striploin and T-bone steaks that arrived with the steakhouse boom.",
+    "dishes": [
+     "ростбиф",
+     "антрекот",
+     "стейк стриплойн",
+     "медальоны",
+     "шашлык"
+    ],
+    "colour": "#639beb"
+   },
+   {
+    "id": "tolstyy-kray",
+    "name": "Ribeye / thick edge",
+    "native": "Толстый край",
+    "romanized": "tolstyy kray",
+    "region": "The back over the 6th to 11th thoracic vertebrae, from the shoulder-blade line at x 0.57 rearward to x 0.49, along the topline z 0.70–0.90.",
+    "x": [
+     0.49,
+     0.57
+    ],
+    "z": [
+     0.7,
+     0.9
+    ],
+    "full_width": true,
+    "description": "The спинной отруб proper and the most marbled muscle on a Russian carcass — four or five ribs of loin eye, soft, fine-grained and ringed with fat, sold on the bone or off it. 1-й сорт, and the cut that yields рибай, ковбой and томагавк steaks as well as the classic oven ростбиф.",
+    "dishes": [
+     "рибай",
+     "ростбиф",
+     "антрекот",
+     "стейк томагавк",
+     "шашлык"
+    ],
+    "colour": "#9cb858"
+   },
+   {
+    "id": "vyrezka",
+    "name": "Tenderloin",
+    "native": "Вырезка",
+    "romanized": "vyrezka",
+    "region": "Inside the body under the lumbar vertebrae, hanging from the hip at x 0.26 forward to the last ribs at x 0.44, z 0.58–0.70 — beneath the оковалок and тонкий край rather than beside them.",
+    "x": [
+     0.26,
+     0.44
+    ],
+    "z": [
+     0.58,
+     0.7
+    ],
+    "full_width": true,
+    "description": "The psoas pair, which carries no load at all on the living animal, so it is the softest and leanest meat on the carcass and only a couple of percent of it by weight. Graded 1-й сорт with the поясничный отруб but priced far above everything else in that sort; cooked fast and rare or served raw, and it is the cut бефстроганов was invented for.",
+    "dishes": [
+     "бефстроганов",
+     "лангет",
+     "филе-миньон",
+     "шатобриан",
+     "карпаччо",
+     "тартар"
+    ],
+    "colour": "#d171d1"
+   },
+   {
+    "id": "diafragma",
+    "name": "Diaphragm (skirt / hanger)",
+    "native": "Диафрагма",
+    "romanized": "diafragma",
+    "region": "The sheet of muscle arching inside the body wall at the last ribs, x 0.44–0.49, z 0.58–0.70, directly behind the rib cage and above the flank.",
+    "x": [
+     0.44,
+     0.49
+    ],
+    "z": [
+     0.58,
+     0.7
+    ],
+    "full_width": true,
+    "description": "Not a сортовой отруб under ГОСТ 7595-79 — it leaves with the offal and carries no сорт — yet Russian butchers now sell its halves separately as мачете (the outside skirt, long and blade-shaped) and онглет or стейк мясника (the thick hanger). Coarse-grained, nearly fatless and intensely beefy; it has to be grilled hot and fast and sliced across the grain.",
+    "dishes": [
+     "стейк мачете",
+     "стейк онглет",
+     "шашлык",
+     "жаркое"
+    ],
+    "colour": "#8debcf"
+   },
+   {
+    "id": "pokromka",
+    "name": "Rib cap / chuck flap",
+    "native": "Покромка",
+    "romanized": "pokromka",
+    "region": "The band of muscle lying on the outer surface of the middle ribs, left behind once the толстый край has been lifted off the spine: x 0.49–0.57, z 0.60–0.70.",
+    "x": [
+     0.49,
+     0.57
+    ],
+    "z": [
+     0.6,
+     0.7
+    ],
+    "full_width": true,
+    "description": "A flat, layered strip of meat and fat trimmed from the flank side of the rib section — soft, richly interleaved, and threaded with connective tissue, cartilage and small bones. It belongs to the спинной отруб and so counts 1-й сорт on a category-I carcass, but it is cooked as everyday meat: stewed in pots, made into гуляш, or minced.",
+    "dishes": [
+     "гуляш",
+     "жаркое в горшочках",
+     "тушёная говядина",
+     "фарш"
+    ],
+    "colour": "#b8794d"
+   },
+   {
+    "id": "pashina",
+    "name": "Flank",
+    "native": "Пашина",
+    "romanized": "pashina",
+    "region": "The muscular belly wall behind the ribs, x 0.24–0.40 and z 0.46–0.58; ГОСТ 7595-79 takes it off along a line running from the stifle joint to the junction of the true and false parts of the 13th rib.",
+    "x": [
+     0.24,
+     0.4
+    ],
+    "z": [
+     0.46,
+     0.58
+    ],
+    "full_width": true,
+    "description": "One of only two 2-й сорт отрубы — with the neck it makes up just 7% of the carcass — because it is a thin coarse sheet of long fibres full of connective tissue and fat. Traditionally minced, rolled and braised or baked into pies; modern butchers cut a фланк-стейк from its best part and marinate it hard.",
+    "dishes": [
+     "фарш",
+     "говяжий рулет",
+     "тушёная говядина",
+     "фланк-стейк",
+     "начинка для пирогов"
+    ],
+    "colour": "#7264d1"
+   },
+   {
+    "id": "zavitok",
+    "name": "Rear belly (false ribs)",
+    "native": "Завиток",
+    "romanized": "zavitok",
+    "region": "The underside of the barrel behind the last true rib, between the brisket ahead of it and the flank behind it, x 0.40–0.46 at the belly line z 0.46–0.58.",
+    "x": [
+     0.4,
+     0.46
+    ],
+    "z": [
+     0.46,
+     0.58
+    ],
+    "full_width": true,
+    "description": "An old kitchen name, recorded by Brockhaus and Efron as the third of four divisions of the chest and belly counted from the front and among the cheapest parts of the animal: fatty, gristly and thoroughly worked. It falls behind the грудной отруб's rear boundary at the 13th rib, so ГОСТ 7595-79 takes it with the пашина as 2-й сорт — agreeing with the older trade lists, which ranked it second-sort and sent it to the stockpot, where it gives a notably rich щи.",
+    "dishes": [
+     "щи",
+     "бульон",
+     "тушёная говядина",
+     "фарш"
+    ],
+    "colour": "#91eb7f"
+   },
+   {
+    "id": "grudinka",
+    "name": "Brisket",
+    "native": "Грудинка",
+    "romanized": "grudinka",
+    "region": "The floor of the chest along the sternum and the true ribs, from the lower third of the 13th rib at x 0.46 forward to x 0.57, hanging below the barrel at z 0.42–0.58.",
+    "x": [
+     0.46,
+     0.57
+    ],
+    "z": [
+     0.42,
+     0.58
+    ],
+    "full_width": true,
+    "description": "The грудной отруб, 1-й сорт, built of alternating layers of muscle and fat over the breastbone and the thirteen ribs — tough raw, but the fat bastes it and the collagen melts. It is the standard Russian soup meat, what makes борщ and щи taste of beef, and it is also braised whole, stuffed, rolled or salted.",
+    "dishes": [
+     "борщ",
+     "щи",
+     "бульон",
+     "тушёная грудинка",
+     "солонина",
+     "фаршированная грудинка"
+    ],
+    "colour": "#b86e90"
+   },
+   {
+    "id": "chelyshko",
+    "name": "Brisket point",
+    "native": "Челышко",
+    "romanized": "chelyshko",
+    "region": "The forward tip of the breast at the point of the sternum, ahead of the brisket and below the point of shoulder, x 0.57–0.64, z 0.46–0.58.",
+    "x": [
+     0.57,
+     0.64
+    ],
+    "z": [
+     0.46,
+     0.58
+    ],
+    "full_width": true,
+    "description": "Sometimes written челышко-соколок: stringy, strongly-grained meat wrapped around a thin breastbone, with cartilage running through it. ГОСТ 7595-79 counts it inside the 1-й сорт грудной отруб while the older trade lists put it second-sort; either way it is bought for soup, and it is held to be the ideal щи bone.",
+    "dishes": [
+     "суп",
+     "бульон",
+     "щи",
+     "тушёная говядина"
+    ],
+    "colour": "#58b3d1"
+   },
+   {
+    "id": "lopatka",
+    "name": "Shoulder blade (chuck)",
+    "native": "Лопатка",
+    "romanized": "lopatka",
+    "region": "The shoulder and the upper back over it, from the 5th–6th rib line at x 0.57 forward to the neck cut at x 0.72, z 0.64–0.92; the лопаточный отруб takes the first four thoracic vertebrae and part of the fifth with it.",
+    "x": [
+     0.57,
+     0.72
+    ],
+    "z": [
+     0.64,
+     0.92
+    ],
+    "full_width": true,
+    "description": "A 1-й сорт отруб made of several muscles of quite different texture around the flat blade bone: mostly lean, coarse-fibred and sinewy, but with tender pockets. Russian home cooking sends it to soup, гуляш and mince; modern butchers carve топ-блейд, флэт-айрон and Вегас-стрип steaks out of it.",
+    "dishes": [
+     "суп",
+     "гуляш",
+     "тушёная говядина",
+     "котлеты",
+     "стейк топ-блейд",
+     "голубцы"
+    ],
+    "colour": "#ebe571"
+   },
+   {
+    "id": "plechevaya-chast",
+    "name": "Arm / shoulder clod",
+    "native": "Плечевая часть",
+    "romanized": "plechevaya chast",
+    "region": "The upper foreleg — humerus plus the top half of the radius and ulna — from the elbow forward and down, x 0.64–0.74, z 0.38–0.64; ГОСТ 7595-79 divides it from the shank across the middle of the radius and ulna.",
+    "x": [
+     0.64,
+     0.74
+    ],
+    "z": [
+     0.38,
+     0.64
+    ],
+    "full_width": false,
+    "description": "The плечевой отруб, 1-й сорт, sometimes called заплечная часть: hard-working arm muscle, lean, coarse in the grain and generously threaded with sinew and gelatin. It repays boiling and long braising — a classic clear-broth and гуляш cut — and what is left goes to mince.",
+    "dishes": [
+     "бульон",
+     "гуляш",
+     "тушёная говядина",
+     "фарш",
+     "суп"
+    ],
+    "colour": "#9b63b8"
+   },
+   {
+    "id": "rulka",
+    "name": "Fore shank",
+    "native": "Рулька (передняя голяшка)",
+    "romanized": "rulka (perednyaya golyashka)",
+    "region": "The front leg below the middle of the radius and ulna, down to the knee at z 0.28, x 0.64–0.72 — the front-leg twin of the hind голяшка.",
+    "x": [
+     0.64,
+     0.72
+    ],
+    "z": [
+     0.28,
+     0.38
+    ],
+    "full_width": false,
+    "description": "Передняя голяшка in the standard's language and 3-й сорт: narrow, sharply separated muscles bound in thick connective tissue around the shin bone, with very little fat and no tenderness whatsoever. Boiled for hours it yields the gelatin that sets холодец and gives a broth its body.",
+    "dishes": [
+     "холодец",
+     "бульон",
+     "тушёная говядина",
+     "суп"
+    ],
+    "colour": "#7dd19d"
+   },
+   {
+    "id": "sheya",
+    "name": "Neck",
+    "native": "Шея (шейный отруб)",
+    "romanized": "sheya (sheynyy otrub)",
+    "region": "The neck from the 3rd cervical vertebra forward to the 5th–6th, x 0.72–0.79 between the point of shoulder and the poll, z 0.72–0.92.",
+    "x": [
+     0.72,
+     0.79
+    ],
+    "z": [
+     0.72,
+     0.92
+    ],
+    "full_width": true,
+    "description": "With the flank, one of the two 2-й сорт отрубы: a heavily used muscle group, coarse-grained and full of connective tissue, but marbled with fat seams and about the most flavourful beef on the animal. Braised, boiled or minced in Russian home cooking, and increasingly grilled as шашлык or cut into чак-ролл and денвер steaks.",
+    "dishes": [
+     "шашлык",
+     "гуляш",
+     "котлеты",
+     "фарш",
+     "тушёная говядина",
+     "стейк чак-ролл"
+    ],
+    "colour": "#eb6e63"
+   },
+   {
+    "id": "zarez",
+    "name": "Sticking piece (first two neck vertebrae)",
+    "native": "Зарез",
+    "romanized": "zarez",
+    "region": "The very front of the neck at the head, cut between the 2nd and 3rd cervical vertebrae so that only the atlas and axis go with it: a narrow slice at x 0.79–0.85, z 0.74–0.90.",
+    "x": [
+     0.79,
+     0.85
+    ],
+    "z": [
+     0.74,
+     0.9
+    ],
+    "full_width": true,
+    "description": "The 3-й сорт cut that gives the grading scheme its bottom end — the throat end of the neck where the animal is bled, almost all tendon, vessel and fascia over two vertebrae, with very little usable muscle. It is the cheapest thing on the price list and goes to stock, студень and low-grade mince.",
+    "dishes": [
+     "бульон",
+     "студень",
+     "фарш",
+     "суп"
+    ],
+    "colour": "#586cb8"
+   }
+  ]
+ },
+ {
   "culture": "Brazil",
   "id": "br",
   "flag": "BR",
@@ -3056,8 +3651,7 @@
      "steak",
      "tataki"
     ],
-    "colour": "#7dd19d",
-    "absent": true
+    "colour": "#7dd19d"
    },
    {
     "id": "sune",

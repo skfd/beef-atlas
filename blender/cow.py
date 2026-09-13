@@ -36,7 +36,7 @@ IMPORTED = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__
                         "assets", "cow_normalized.blend")
 
 
-def _load_imported(path):
+def _load_imported(path, decimate_ratio=0.0):
     bpy.ops.wm.append(filepath=os.path.join(path, "Object", "cow"),
                       directory=os.path.join(path, "Object"), filename="cow")
     meshes = [o for o in bpy.context.scene.objects if o.type == 'MESH']
@@ -50,6 +50,14 @@ def _load_imported(path):
     cow = bpy.context.active_object
     cow.name = "cow"
     bpy.ops.object.transform_apply(location=True, rotation=True, scale=True)
+    # The asset is kept at full detail; the web build asks for far less, because
+    # each tradition ships every cut as its own mesh and the page downloads one
+    # whole animal per tradition.
+    if decimate_ratio and decimate_ratio < 1.0:
+        m = cow.modifiers.new("decimate", 'DECIMATE')
+        m.decimate_type = 'COLLAPSE'
+        m.ratio = decimate_ratio
+        bpy.ops.object.modifier_apply(modifier=m.name)
     bpy.ops.object.shade_smooth()
     return cow
 
@@ -171,7 +179,7 @@ def _build_body():
 def build_cow(voxel=0.038, smooth_iterations=3, decimate_ratio=0.28):
     _wipe()
     if os.path.exists(IMPORTED):
-        return _load_imported(IMPORTED)
+        return _load_imported(IMPORTED, decimate_ratio)
     parts = [_build_body()]
 
     for side in (1, -1):

@@ -370,9 +370,12 @@ function buildAbout() {
      chart has some diagonal and seam-following lines. And a cut that is really a thin
      sheet of muscle — skirt, flank, hanger — is carved the full width of the body,
      because carving it thin would make it invisible. The panel says so when it applies.</p>
-     <p>The model is procedural: a lofted cross-section profile built in Blender, then
-     partitioned by each tradition's boundaries. Nothing is hand-sculpted, so the same
-     animal really is underneath all six.</p>
+     <p>The animal is <a href="https://sketchfab.com/3d-models/cow-14e616e26823472c809a03042a94b990"
+     target="_blank" rel="noopener">&ldquo;Cow&rdquo; by nandakishor.irnv</a>, used under
+     <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC&nbsp;BY&nbsp;4.0</a>
+     and modified: fitted to a shared coordinate frame, made watertight, and cut into
+     pieces. Every tradition is carved from that same mesh, which is what lets the
+     shapes be compared at all.</p>
      <p>There is a longer writeup on where the six traditions agree and disagree —
      the British false friend, the shoulder, the diaphragm —
      <a href="https://github.com/skfd/beef-atlas/blob/main/docs/differences.md"

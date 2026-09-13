@@ -87,6 +87,50 @@ def import_any(path):
     return [o for o in bpy.context.scene.objects if o.type == 'MESH']
 
 
+def weld(obj):
+    """Merge coincident vertices.
+
+    This has to happen before anything looks at connectivity. glTF and OBJ split
+    a vertex once per distinct normal or UV, so a downloaded mesh routinely has
+    every single face as its own topological island -- one candidate here had
+    90,704 islands across 90,838 faces. Island detection, manifold checks and the
+    boolean solver are all meaningless until the duplicates are merged.
+    """
+    _, _, size = _bounds(obj)
+    bm = bmesh.new()
+    bm.from_mesh(obj.data)
+    before = len(bm.verts)
+    bmesh.ops.remove_doubles(bm, verts=bm.verts[:], dist=size.length * 1e-5)
+    bm.to_mesh(obj.data)
+    after = len(bm.verts)
+    bm.free()
+    return {"verts_before": before, "verts_after": after}
+
+
+def islands_of(obj):
+    bm = bmesh.new()
+    bm.from_mesh(obj.data)
+    seen, islands = set(), []
+    for f in bm.faces:
+        if f.index in seen:
+            continue
+        stack, group = [f], []
+        seen.add(f.index)
+        while stack:
+            cur = stack.pop()
+            group.append(cur)
+            for e in cur.edges:
+                for nf in e.link_faces:
+                    if nf.index not in seen:
+                        seen.add(nf.index)
+                        stack.append(nf)
+        islands.append(group)
+    islands.sort(key=len, reverse=True)
+    sizes = [len(g) for g in islands]
+    bm.free()
+    return sizes
+
+
 def keep_largest_island(obj):
     """Drop all but the biggest connected piece.
 
@@ -166,21 +210,49 @@ def orient(obj, forward, up):
     obj.data.transform(Matrix((fwd, right, upv)).to_4x4())
 
 
-def fit(obj):
+def _withers_height(obj):
+    """Top of the back over the barrel, ignoring the head and horns.
+
+    The bounding box is the wrong measure: a cow carrying its head high is taller
+    at the poll than at the withers, and scaling by the box then sinks the whole
+    body relative to the frame -- which drags every cut boundary down with it.
+    """
+    tops = []
+    for i in range(25):
+        x = 0.28 + 0.44 * i / 24.0
+        hit, loc, _, _ = obj.ray_cast(Vector((x, 0.0, 10.0)), Vector((0, 0, -1)))
+        if hit:
+            tops.append(loc.z)
+    return max(tops) if tops else None
+
+
+def fit(obj, use_withers=True):
     """Sit the animal in the frame: hooves on z=0, nose at x=1, spine on y=0."""
     lo, hi, size = _bounds(obj)
     obj.data.transform(Matrix.Translation(
         Vector((-lo.x, -(lo.y + hi.y) / 2.0, -lo.z))))
-    # Uniform first, on height, so the animal is not distorted...
+    # A provisional uniform scale off the bounding box, so the ray-casts below
+    # have something the right order of magnitude to work against.
     s = TARGET_WITHERS / size.z
     obj.data.transform(Matrix.Diagonal((s, s, s, 1.0)))
-    # ...then x alone, because the frame pins both nose and withers and a real
-    # animal will not hit both at once. The stretch is reported; a few percent is
-    # invisible, and anything large means the model is not a standing bovine.
-    _, _, size2 = _bounds(obj)
-    stretch = TARGET_LENGTH / size2.x
+    obj.data.transform(Matrix.Diagonal((TARGET_LENGTH / _bounds(obj)[2].x, 1.0, 1.0, 1.0)))
+
+    withers = _withers_height(obj) if use_withers else None
+    if withers:
+        # Rescale so the withers, not the crown of the head, lands on the frame's
+        # 0.93. The head is then free to rise above it, which is what a real
+        # animal does and what the cut data already assumes.
+        c = TARGET_WITHERS / withers
+        obj.data.transform(Matrix.Diagonal((c, c, c, 1.0)))
+        s *= c
+
+    lo, hi, _ = _bounds(obj)
+    obj.data.transform(Matrix.Translation(Vector((-lo.x, -(lo.y + hi.y) / 2.0, -lo.z))))
+    stretch = TARGET_LENGTH / _bounds(obj)[2].x
     obj.data.transform(Matrix.Diagonal((stretch, 1.0, 1.0, 1.0)))
-    return {"uniform_scale": round(s, 5), "x_stretch": round(stretch, 4)}
+    return {"uniform_scale": round(s, 5), "x_stretch": round(stretch, 4),
+            "withers_used": round(withers, 4) if withers else None,
+            "height_after": round(_bounds(obj)[2].z, 4)}
 
 
 def solidify(obj, voxel, decimate):
@@ -218,21 +290,29 @@ def validate(obj, rows):
     _, _, size = _bounds(obj)
     if not (0.98 <= size.x <= 1.02):
         problems.append(f"length is {size.x:.3f}, expected 1.00")
-    if not (0.90 <= size.z <= 0.96):
-        problems.append(f"height is {size.z:.3f}, expected {TARGET_WITHERS}")
+    # The overall height may exceed the withers: a cow carrying its head high is
+    # taller at the poll, and that is correct rather than a fault. What must land
+    # on the frame is the topline over the barrel, which is checked below.
+    if not (0.88 <= size.z <= 1.25):
+        problems.append(f"height is {size.z:.3f}, expected between 0.88 and 1.25")
+    backs = [r["top"] for r in rows if 0.20 <= r["x"] <= 0.65 and r["top"]]
+    if not backs:
+        problems.append("no topline found over the barrel")
+    elif not (0.85 <= max(backs) <= 0.96):
+        problems.append(f"topline over the barrel is {max(backs):.3f}, "
+                        f"expected near 0.89 -- the animal is not sitting in the frame")
     if size.y > 0.55 * size.z:
         problems.append(f"width {size.y:.3f} is more than half the height "
                         f"{size.z:.3f} -- the model is probably lying on its side "
                         f"or is not a standing animal")
-    mid = next((r for r in rows if r["x"] == 0.50), None)
+    mid = next((r for r in rows if r["x"] == 0.50), None)  # noqa: E501
     if not mid or mid["belly"] is None or mid["top"] is None:
         problems.append("a ray down the middle of the body hit nothing at x=0.50")
     else:
         if not (0.30 <= mid["belly"] <= 0.66):
             problems.append(f"belly line at x=0.50 is {mid['belly']}, "
                             f"expected near 0.49 -- the animal may be upside down")
-        if mid["top"] < 0.75:
-            problems.append(f"topline at x=0.50 is {mid['top']}, expected near 0.89")
+
     return problems
 
 
@@ -251,13 +331,28 @@ def main():
     for o in meshes:
         o.select_set(True)
     bpy.context.view_layer.objects.active = meshes[0]
+    # glTF nests everything under a chain of empties that carry the Y-up-to-Z-up
+    # rotation and often a scale. Baking those into the meshes and then deleting
+    # the empties is essential: applying a transform to a child does not account
+    # for its parents, so the mesh data can look perfectly normalized while the
+    # object still renders rotated and off-frame.
+    bpy.ops.object.parent_clear(type='CLEAR_KEEP_TRANSFORM')
+    for o in list(bpy.context.scene.objects):
+        if o.type != 'MESH':
+            bpy.data.objects.remove(o, do_unlink=True)
+    bpy.ops.object.select_all(action='DESELECT')
+    for o in meshes:
+        o.select_set(True)
+    bpy.context.view_layer.objects.active = meshes[0]
     if len(meshes) > 1:
         bpy.ops.object.join()
     obj = bpy.context.active_object
     obj.name = "cow"
     bpy.ops.object.transform_apply(location=True, rotation=True, scale=True)
 
-    islands = keep_largest_island(obj) if opts["keep_largest"] else None
+    welded = weld(obj)
+    sizes = islands_of(obj)
+    islands = keep_largest_island(obj) if opts["keep_largest"] else len(sizes)
 
     guess_f, guess_u, evidence = detect_orientation(obj)
     forward = opts["forward"] or guess_f
@@ -289,7 +384,9 @@ def main():
                               use_selection=True, export_apply=True)
 
     print("IMPORT " + json.dumps({
-        "source": src, "islands_found": islands,
+        "source": src, "welded": welded,
+        "islands": {"count": len(sizes), "largest_faces": sizes[:6]},
+        "islands_after_filter": islands,
         "orientation": {"used_forward": forward, "used_up": up,
                         "detected_forward": guess_f, "detected_up": guess_u,
                         "overridden": bool(opts["forward"] or opts["up"]),

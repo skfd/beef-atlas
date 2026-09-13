@@ -1,9 +1,9 @@
 # Beef Atlas
 
-**One animal. Six ways of taking it apart.** An interactive 3D page showing how the
-United States, the United Kingdom, France, Brazil, Korea and Japan divide the same
-beef carcass — 130 named cuts drawn on one procedurally built cow, so the traditions
-can be compared directly rather than as six unrelated charts.
+**One animal. Seven ways of taking it apart.** An interactive 3D page showing how the
+United States, the United Kingdom, France, Russia, Brazil, Korea and Japan divide the
+same beef carcass — 153 named cuts drawn on one cow, so the traditions can be compared
+directly rather than as seven unrelated charts.
 
 ![The US short loin selected, with the equivalent cut in five other traditions](docs/atlas-us-short-loin.png)
 
@@ -14,7 +14,7 @@ can be compared directly rather than as six unrelated charts.
 Pick a cut and the panel tells you what the muscle does on the living animal, how it
 is therefore cooked, what it is famous for — and, the part that makes it an atlas,
 **which cuts occupy that same piece of animal everywhere else**. The US short loin is
-82% the British sirloin, 73% Japanese サーロイン, 64% Korean 채끝.
+91% Russian тонкий край, 82% the British sirloin, 73% Japanese サーロイン, 64% Korean 채끝.
 
 ![The carcass exploded](docs/atlas-exploded.png)
 
@@ -45,7 +45,7 @@ python tools/check_data.py                                   # validate the cut 
 node tools/shoot.js                                          # drive it in Chromium
 ```
 
-The build takes about two minutes for all six traditions and writes `web/models/*.glb`,
+The build takes about three and a half minutes for all seven traditions and writes `web/models/*.glb`,
 `web/data/cultures.json` and `build/build_report.json`. `--only us` does one tradition;
 `--preview` also renders Workbench PNGs into `build/preview/`.
 
@@ -103,7 +103,7 @@ About panel if it is CC-BY.
 |---|---|
 | `data/FRAME.md` | The normalized cow frame. **Read this first.** |
 | `data/cuts_*.json` | One tradition each: names, anatomy, cooking, dishes, sources. |
-| `blender/cow.py` | The cow mesh, a lofted cross-section profile. |
+| `blender/cow.py` | Loads `assets/`, or builds a lofted profile cow if it is absent. |
 | `blender/import_model.py` | Fits a downloaded model into the frame, replacing the above. |
 | `blender/cuts.py` | Turns hand-drawn rectangles into a true partition of the body. |
 | `blender/build.py` | Carves each tradition and exports one GLB per tradition. |
@@ -111,7 +111,7 @@ About panel if it is CC-BY.
 | `tools/` | Data checks, the web data fold-up, the browser test. |
 
 Every cut is expressed as a rectangle in one shared frame — `x` from tail to nose,
-`z` from ground to withers — so the *same numbers mean the same place* in all six
+`z` from ground to withers — so the *same numbers mean the same place* in all seven
 traditions. That shared frame is the whole trick; without it, comparing schemes is
 guesswork.
 
@@ -122,6 +122,8 @@ cell inside no rectangle goes to the nearest one, so the legs and head land some
 instead of vanishing; and the cells are merged back into as few boxes as possible,
 because each one costs a boolean against the whole cow. The result tiles the animal
 exactly once — which is what makes per-cut picking and the exploded view work.
+
+![Russia's 23 cuts, graded into three sorts](docs/atlas-russia.png)
 
 ![Japan's 24 cuts](docs/atlas-japan.png)
 
@@ -163,7 +165,11 @@ Both are in `blender/cow.py`'s docstring, and both cost real time here:
   it; lobes sparse enough to hold it scallop. That is why the body is a loft and not
   metaballs, which was the obvious first choice and the wrong one.
 
-## Sources
+## Attribution and sources
+
+The cow is **["Cow" by nandakishor.irnv](https://sketchfab.com/3d-models/cow-14e616e26823472c809a03042a94b990)**,
+used under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and modified
+(fitted to the frame, made watertight, decimated, carved). See [ATTRIBUTION.md](ATTRIBUTION.md).
 
 Every tradition's data carries the URLs that were actually fetched for it, listed
 under **About & sources** in the page and in the `sources` array of each JSON file.

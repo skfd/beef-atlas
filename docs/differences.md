@@ -1,10 +1,10 @@
-# The same cow, cut six ways
+# The same cow, cut seven ways
 
 *What the Beef Atlas data says about how the United States, the United Kingdom, France,
-Brazil, Korea and Japan disagree about a carcass — and where they don't.*
+Russia, Brazil, Korea and Japan disagree about a carcass — and where they don't.*
 
 Every cut in this project is a rectangle in one shared frame: `x` runs from tail to nose,
-`z` from the ground to the withers. Because all six traditions are drawn on the same
+`z` from the ground to the withers. Because all seven traditions are drawn on the same
 animal, they can be measured against each other. When this piece says the American short
 loin is "82% the British sirloin", it means 82% of the American rectangle is covered by
 the British one.
@@ -32,6 +32,7 @@ The crudest measure is how big an average cut is:
 | United States | 11 | 0.040 | 0.020 | 0.103 |
 | United Kingdom | 17 | 0.033 | 0.006 | 0.076 |
 | Brazil | 24 | 0.018 | 0.008 | 0.036 |
+| Russia | 23 | 0.017 | 0.006 | 0.042 |
 | Korea | 25 | 0.016 | 0.004 | 0.048 |
 | Japan | 24 | 0.016 | 0.005 | 0.029 |
 | France | 29 | 0.015 | 0.006 | 0.048 |
@@ -70,14 +71,17 @@ roasting joints, a small number of them — while using almost none of the same 
 
 Put an American primal down and ask what covers it elsewhere:
 
-| American primal | UK | France | Brazil | Korea | Japan |
-|---|---|---|---|---|---|
-| **Rib** | Fore rib 64% | Côtes/entrecôtes 55% | Contrafilé 55% | 꽃등심 82% | リブロース **91%** |
-| **Short loin** | Sirloin 82% | Faux-filet 55% | Contrafilé 55% | 채끝 64% | サーロイン 73% |
-| **Sirloin** | Rump 82% | Rumsteck 55% | Alcatra 70% | 채끝 45% | サーロイン 31% |
+| American primal | UK | France | Russia | Brazil | Korea | Japan |
+|---|---|---|---|---|---|---|
+| **Rib** | Fore rib 64% | Côtes/entrecôtes 55% | Толстый край 64% | Contrafilé 55% | 꽃등심 82% | リブロース **91%** |
+| **Short loin** | Sirloin 82% | Faux-filet 55% | Тонкий край **91%** | Contrafilé 55% | 채끝 64% | サーロイン 73% |
+| **Sirloin** | Rump 82% | Rumsteck 55% | Оковалок 78% | Alcatra 70% | 채끝 45% | サーロイン 31% |
 
-Japanese リブロース covers the American rib primal at **91%** — the closest correspondence
-between any two traditions in the whole atlas, across the largest cultural distance in it.
+Japanese リブロース covers the American rib primal at **91%**, and Russian **тонкий край**
+covers the American short loin at exactly the same figure — the closest correspondences in
+the whole atlas, across two of the largest cultural distances in it. *Тонкий край* means
+literally "thin edge", named for the shape of the muscle rather than for a place on the
+animal, and it still lands on the same beef as a New York strip.
 
 This is not a coincidence of naming. The loin and rib are the muscles along the spine that
 carry weight but barely move, so they are tender everywhere, expensive everywhere, and
@@ -91,14 +95,14 @@ texture, and what you do with it depends entirely on how you cook.
 
 Count the cuts each tradition places in each band of the body:
 
-| Body zone | US | UK | FR | BR | KR | JP |
-|---|---:|---:|---:|---:|---:|---:|
-| Hind leg & round (x 0.00–0.24) | 4 | 5 | **9** | 8 | 5 | 6 |
-| Sirloin (0.24–0.36) | 2 | 6 | 6 | 5 | 5 | 7 |
-| Loin (0.36–0.46) | 2 | 3 | 5 | 3 | 6 | 7 |
-| Rib (0.46–0.56) | 2 | 3 | 4 | 5 | 5 | 3 |
-| **Shoulder & chuck (0.56–0.72)** | **3** | 5 | 8 | 8 | **11** | 7 |
-| Neck (0.72–0.80) | 2 | 2 | 1 | 3 | 3 | 4 |
+| Body zone | US | UK | FR | RU | BR | KR | JP |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Hind leg & round (x 0.00–0.24) | 4 | 5 | **9** | 8 | 8 | 5 | 6 |
+| Sirloin (0.24–0.36) | 2 | 6 | 6 | 3 | 5 | 5 | 7 |
+| Loin (0.36–0.46) | 2 | 3 | 5 | 5 | 3 | 6 | 7 |
+| Rib (0.46–0.56) | 2 | 3 | 4 | 5 | 5 | 5 | 3 |
+| **Shoulder & chuck (0.56–0.72)** | **3** | 5 | 8 | 7 | 8 | **11** | 7 |
+| Neck (0.72–0.80) | 2 | 2 | 1 | 3 | 3 | 3 | 4 |
 
 Korea names **eleven** cuts where the United States names three. Spelled out:
 
@@ -117,7 +121,7 @@ splits by **how you will cook it**, grill versus stew, and builds that into the 
 other tradition here does that.
 
 The consequence is that the American **chuck** has no good counterpart anywhere: its best
-match in any of the other five is only **54%** (the British *neck and clod*). It is not
+match in any of the other six is only **54%** (the British *neck and clod*). It is not
 that the others disagree about where the shoulder is. It is that nobody else is willing to
 call that much meat one thing.
 
@@ -142,7 +146,35 @@ everyone else treats it as a drawer of individually named muscles.
 a thick fat cap that most traditions bury inside a larger round or rump cut and sell as
 nothing in particular. Brazil made it the prestige cut of the national cuisine.
 
-## 6. The diaphragm is the tell
+## 6. Russia grades where everyone else only names
+
+Every other tradition here answers the question *what is this cut*. The Russian retail
+standard, **ГОСТ 7595-79**, also answers *what is it worth*. It divides a side into eleven
+**сортовые отрубы** and assigns each one of three **сорта** by the ratio of muscle to
+connective tissue:
+
+| Sort | Отрубы | Share of the carcass |
+|---|---|---:|
+| **1-й сорт** | тазобедренный, поясничный, спинной, лопаточный, плечевой, грудной | ~88% |
+| **2-й сорт** | шейный, пашина | ~7% |
+| **3-й сорт** | зарез, передняя голяшка, задняя голяшка | ~5% |
+
+That is a third axis of organisation, alongside France's grading by cooking method and
+Japan's by marbling — and unlike either, it is a **price** grade written into a state
+standard. The US and UK schemes grade nothing at the cut level at all.
+
+Underneath the standard sits an older kitchen vocabulary the GOST never names —
+*оковалок*, *кострец*, *огузок* and its two faces *щуп* and *ссек*, *глазной мускул*,
+*завиток*, *челышко*, *покромка*. Russian cooks use those words; the standard uses the
+eleven отрубы. Both are in the atlas, each subcut carrying the sort of the отруб it falls
+inside.
+
+Two placements are worth flagging. The GOST's spinal/lumbar boundary falls between ribs
+**11 and 12**, two ribs ahead of the last-rib line most other traditions quarter on. And
+*зарез* is only the first two neck vertebrae — the atlas of the neck, which is a far
+smaller and lower-value cut than "neck" implies anywhere else.
+
+## 7. The diaphragm is the tell
 
 The clearest single diagnostic of a cuisine's relationship to beef is whether it bothers to
 name the diaphragm and the belly sheets — thin, strongly-grained, intensely beefy muscles
@@ -154,6 +186,7 @@ that are superb grilled fast and sliced across the grain, and mediocre at everyt
 | **Japan** | カイノミ, **ハラミ**, **サガリ** — three |
 | **Korea** | 토시살, **안창살**, 갈비 — three |
 | **Brazil** | Fraldinha — one |
+| **Russia** | Диафрагма, Завиток, Пашина — three, but the diaphragm leaves with the offal |
 | **UK** | Thin flank — a region, not the muscle |
 | **US** | folded into short plate and flank — none named separately at primal level |
 
@@ -163,10 +196,15 @@ same distinction — ハラミ is the rib-side sheet, サガリ the lumbar crus 
 classified as offal under Japanese law despite eating like red meat. Korea splits 안창살
 (the diaphragm sheet) from 토시살 (the pillar muscle that works it).
 
+Russia is the interesting middle case: *диафрагма* is named, and *завиток* and *пашина*
+are distinguished from each other along the belly, but the diaphragm is classed with the
+offal rather than sold as steak — the same legal quirk Japan has, reached from a completely
+different culinary direction.
+
 Cuisines that cook thin slices over fire name these muscles. Cuisines that roast joints
 don't. That is the rule, and it has almost no exceptions in this data.
 
-## 7. The genuinely unique
+## 8. The genuinely unique
 
 Two cuts in the atlas have no meaningful counterpart anywhere, and both are Brazilian:
 
@@ -178,7 +216,7 @@ Two cuts in the atlas have no meaningful counterpart anywhere, and both are Braz
 - **Rabo** (19%) — oxtail, which the UK (*oxtail*), Korea (꼬리) and Japan (テール) also
   name, but placed differently enough in the frame that the overlap stays low.
 
-## 8. So why?
+## 9. So why?
 
 Three different optimisation targets, visible in the geometry:
 
@@ -205,11 +243,16 @@ verbs.
 **Brazil optimises for churrasco and the fat cap**, which is why a cut most traditions
 discard into a larger one — picanha — is the one on the sign outside.
 
+**Russia optimises for pricing a whole carcass fairly.** Eleven отрубы and three sorts is
+not a cook's taxonomy, it is a shop's: it answers what a given piece should cost, in a
+system where that had to be written down centrally. The cook's vocabulary survived
+alongside it rather than being replaced by it.
+
 ---
 
 *Data and sources: each tradition's `sources` array in `data/cuts_*.json`, and the
-**About & sources** panel in the [atlas itself](../README.md). The backbone is Wikipedia's
-"Cut of beef" and its per-country counterparts, with USDA IMPS Series 100, AHDB,
-la-viande.fr, scotconsultoria, 축산물품질평가원 and the Japan Meat Grading Association
-behind the individual schemes. Every figure in this piece is computed from the atlas data,
-not quoted from a source.*
+**About & sources** panel in the [atlas itself](https://skfd.github.io/beef-atlas/). The
+backbone is Wikipedia's "Cut of beef" and its per-country counterparts, with USDA IMPS
+Series 100, AHDB, la-viande.fr, ГОСТ 7595-79, scotconsultoria, 축산물품질평가원 and the
+Japan Meat Grading Association behind the individual schemes. Every figure in this piece is
+computed from the atlas data, not quoted from a source.*

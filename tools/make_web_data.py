@@ -37,7 +37,7 @@ def write(root):
 
     # Biggest schemes last: the page opens on the first one, and the US primals
     # are the gentlest introduction to what the atlas is showing.
-    order = {"us": 0, "uk": 1, "fr": 2, "br": 3, "kr": 4, "jp": 5}
+    order = {"us": 0, "uk": 1, "fr": 2, "ru": 3, "br": 4, "kr": 5, "jp": 6}
     specs.sort(key=lambda s: order.get(s["id"], 99))
 
     out_dir = os.path.join(root, "web", "data")
