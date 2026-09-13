@@ -16,6 +16,13 @@ is therefore cooked, what it is famous for — and, the part that makes it an at
 **which cuts occupy that same piece of animal everywhere else**. The US short loin is
 91% Russian тонкий край, 82% the British sirloin, 73% Japanese サーロイン, 64% Korean 채끝.
 
+Then switch the model from **Cuts** to **Anatomy** and the carcass opens: the bones,
+muscles and organs that the blocks are actually made of, in the same frame, so the
+short loin lights up the longissimus and the psoas inside it and the longissimus says
+which cut it lands in everywhere. The schematic carcass is still there — it is the
+honest picture of a butchery line, and the anatomy is the honest picture of what the
+line goes through.
+
 ![The carcass exploded](docs/atlas-exploded.png)
 
 ## Running it
@@ -41,13 +48,22 @@ was never installed machine-wide, so nothing needed a UAC prompt. Add it with
 
 ```sh
 python tools/check_data.py                                   # validate the cut data
+python tools/check_anatomy.py                                # validate the anatomy data
 ~/Tools/blender-4.5/blender.exe -b --python blender/build.py -- --preview
+~/Tools/blender-4.5/blender.exe -b --python blender/build_anatomy.py -- --preview
 node tools/shoot.js                                          # drive it in Chromium
 ```
 
 The build takes about three and a half minutes for all seven traditions and writes `web/models/*.glb`,
 `web/data/cultures.json` and `build/build_report.json`. `--only us` does one tradition;
 `--preview` also renders Workbench PNGs into `build/preview/`.
+
+`build_anatomy.py` is the second model and runs once, not once per tradition — the
+animal's insides do not change when the butchery tradition does, which is the whole
+point of them. `--only muscle` does one system, `--part longissimus,psoas-major` a
+handful of parts, and `--preview` renders **cutaways** with the near half of the hide
+booleaned away, because a part is only right or wrong relative to the animal around
+it.
 
 `tools/shoot.js` loads the page in real Chromium, hovers and clicks a cut in the 3D
 view, explodes the carcass and steps through every tradition, failing on any console
@@ -103,6 +119,10 @@ About panel if it is CC-BY.
 |---|---|
 | `data/FRAME.md` | The normalized cow frame. **Read this first.** |
 | `data/cuts_*.json` | One tradition each: names, anatomy, cooking, dishes, sources. |
+| `data/anatomy/AUTHORING.md` | How to author a bone, a muscle or an organ. |
+| `data/anatomy/*.json` | The skeleton, the musculature and the viscera. |
+| `blender/anatomy.py` | Four primitives, the skin clip, and the fit check. |
+| `blender/build_anatomy.py` | Builds every part and exports `web/models/anatomy.glb`. |
 | `blender/cow.py` | Loads `assets/`, or builds a lofted profile cow if it is absent. |
 | `blender/import_model.py` | Fits a downloaded model into the frame, replacing the above. |
 | `blender/cuts.py` | Turns hand-drawn rectangles into a true partition of the body. |
@@ -151,8 +171,40 @@ from the data.
 - **The cow is a European type, with no hump.** Brazilian *cupim* is the fatty hump of
   zebu cattle; its shape marks the spot but the hump itself is missing, and the panel
   says so.
-- **The mesh is stylised**, not an anatomical model. It is built to be recognisable
-  and to have the right proportions, not to be a reference animal.
+- **The anatomy is modelled, not scanned.** Every bone, muscle and organ is built
+  procedurally from published bovine anatomy against the landmarks in `FRAME.md`: it
+  is right about place, proportion and arrangement, and it is not a dissection
+  reference. Where a real muscle has heads, aponeuroses and a pennate fibre pattern,
+  this one has a spindle with the right origin and insertion.
+- **Which cut a muscle lands in is measured, not asserted.** The build records each
+  part's bounding box after it has been carved and clipped, and the page runs the same
+  rectangle overlap it uses to line one tradition up against another. That keeps the
+  correspondence honest about being an overlap of boxes — an 88% is "most of this
+  muscle is in that cut", not a butcher's judgement.
+
+## The anatomy
+
+The second model answers the question the schematic one cannot: what is a ribeye
+actually made of. It is authored as data in the same normalized frame, out of four
+primitives — a swept polyline, a bowed spindle, an extruded side-view polygon and
+fused ellipsoids. [`data/anatomy/AUTHORING.md`](data/anatomy/AUTHORING.md) is the
+reference; there is no mesh to edit, so if a part is wrong the numbers are wrong.
+
+The spindle is the thing that makes it read as anatomy rather than as a bag of shapes.
+A muscle drawn as a spindle with the right origin, insertion and bow looks like a
+muscle. The same muscle drawn as a box looks like the schematic model, which already
+exists.
+
+Two checks keep it honest, and both exist because a side render cannot show the
+failure. Superficial muscles are intersected with the hide shrunk inward 12 mm,
+exactly as `cuts.py` intersects boxes with the body, so the outer layer takes the
+animal's real contour instead of bulging through it. And every part reports what
+fraction of itself lies outside the hide: a femur poking through an elbow looks fine
+from the side and is the first thing you see when the page lets you orbit.
+
+The page shows it with four layer toggles, a peel slider that strips the superficial
+muscle away a layer at a time — forty muscles drawn at once is a red blob — and a
+cutaway plane that opens the near side of the animal.
 
 ## Two Blender traps, in case they bite again
 
