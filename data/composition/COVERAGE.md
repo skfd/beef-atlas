@@ -24,6 +24,25 @@ boundaries are both sourced **and** the cut names at least one muscle the model 
 **Two thirds of the atlas could be rebuilt on muscles today.** The remaining third is
 not a research dead end; see below.
 
+## Are the quotes real?
+
+*Sourced* above means a verbatim quote stands behind the claim, so the number is worth
+what the quotes are — and the research tool most of this was gathered with paraphrases,
+translates and splices adjacent sentences without saying it has. `tools/verify_quotes.py`
+re-fetches every cited page and requires the quote to be a literal substring of it.
+
+Of the 184 quotes behind the French, British and American entries — the three written
+before that defect was known — **176 verify, 5 did not and have been replaced with what
+the page actually says, and 6 cite a page (Texas A&M) that blocks scripted requests and
+has no Wayback capture.** Those six are kept and marked `unverified`, and a grade may no
+longer rest on a source that cannot be re-read; that alone dropped the British brisket
+from `standard` to `trade`.
+
+None of the five bad quotes changed a muscle list — they were mis-transcriptions, not
+inventions: a paraphrase of AHDB, a CFIA clause label spliced onto a fragment from later
+in the same clause, a two-column table read across as prose, a PDF page number landing
+mid-sentence, and a capitalised glossary entry.
+
 ## What the exercise actually proved
 
 **The blocker was never knowledge, it was retrieval.** Every one of the seven traditions
