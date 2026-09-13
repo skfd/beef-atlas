@@ -19,7 +19,7 @@
       "name": "Neck",
       "native": "ネック",
       "romanized": "nekku",
-      "region": "The neck, from the poll at x 0.80 forward-back to the point of shoulder at x 0.72, high on the topline.",
+      "region": "The neck, between the poll at x 0.80 and the point of shoulder at x 0.72, high on the topline.",
       "x": [
         0.72,
         0.82
@@ -29,7 +29,7 @@
         0.94
       ],
       "full_width": true,
-      "description": "One of the thirteen official 部分肉 and the hardest-working muscle on the animal, so it is coarse-grained, almost free of sashi and firm, but very rich in collagen and beefy flavour. It is almost never sold as a steak cut — it goes to mince, stock and long-simmered dishes.",
+      "description": "One of the thirteen official 部分肉 and among the hardest-working muscles on the animal, so it is coarse-grained, almost free of sashi and firm, but very rich in collagen and beefy flavour. It is almost never sold as a steak cut — it goes to mince, stock and long-simmered dishes.",
       "dishes": [
         "nikomi (stew)",
         "curry",
@@ -42,7 +42,7 @@
       "name": "Chuck / shoulder clod (arm)",
       "native": "カタ",
       "romanized": "kata",
-      "region": "The shoulder clod and arm — the foreleg above the knee, from just ahead of the elbow at x 0.66 back to the point of shoulder at x 0.74, z 0.28 up to 0.54.",
+      "region": "The foreleg from the knee at z 0.28 up to the elbow and shoulder joint at z 0.54, x 0.66–0.74; the front shank sits inside this box.",
       "x": [
         0.66,
         0.74
@@ -52,7 +52,7 @@
         0.54
       ],
       "full_width": false,
-      "description": "The 部分肉 called カタ (also ウデ, arm) is a bundle of well-exercised muscles: lean, slightly tough, modestly marbled but loaded with gelatin and umami, and it carries the front shank below it. Sold thin-sliced for sukiyaki and as budget yakiniku, or cubed for stews; the rare cuts ミスジ, トウガラシ and クリミ are carved out of it.",
+      "description": "The 部分肉 called カタ (also ウデ, arm) is a bundle of well-exercised muscles — lean, slightly tough, modestly marbled but loaded with gelatin and umami — and Japanese butchery counts the front shank within it rather than with スネ. Sold thin-sliced for sukiyaki and as budget yakiniku, or cubed for stews; the rare cuts ミスジ, トウガラシ and クリミ are carved out of it.",
       "dishes": [
         "nikomi (stew)",
         "sukiyaki",
@@ -65,7 +65,7 @@
       "name": "Top blade / flat iron",
       "native": "ミスジ",
       "romanized": "misuji",
-      "region": "On the outside of the shoulder blade, under the scapula behind the point of shoulder, z 0.54–0.66.",
+      "region": "On the outer face of the shoulder blade, above the elbow and behind the point of shoulder, x 0.66–0.74, z 0.54–0.66.",
       "x": [
         0.66,
         0.74
@@ -87,7 +87,7 @@
       "name": "Chuck tender / shoulder petite tender",
       "native": "トウガラシ",
       "romanized": "tougarashi",
-      "region": "In front of the shoulder blade at the point of shoulder, x 0.70–0.77, just below the neck line at z 0.66–0.74.",
+      "region": "On the front face of the shoulder blade at the point of shoulder, x 0.70–0.77, just below the neck line at z 0.66–0.74.",
       "x": [
         0.7,
         0.77
@@ -97,7 +97,7 @@
         0.74
       ],
       "full_width": false,
-      "description": "Named for its chili-pepper shape, this cone of lean muscle sits on the front face of the scapula inside the カタ primal; it has very little sashi and a clean red-meat flavour with a slight chew. Prized as a lean yakiniku cut and for roast beef, and one of the 希少部位 sold only by specialist shops.",
+      "description": "Named for its chili-pepper shape, this cone of lean muscle sits against the scapula inside the カタ primal; it has very little sashi and a clean red-meat flavour with a slight chew. Prized as a lean yakiniku cut and for roast beef, and one of the 希少部位 sold mainly by specialist shops.",
       "dishes": [
         "yakiniku",
         "roast beef",
@@ -175,7 +175,7 @@
     },
     {
       "id": "sirloin",
-      "name": "Sirloin (short loin and sirloin)",
+      "name": "Strip loin / sirloin",
       "native": "サーロイン",
       "romanized": "saroin",
       "region": "The back from the last rib at x 0.46 rearward to the hip at x 0.30, along the topline z 0.76–0.92.",
@@ -188,7 +188,7 @@
         0.92
       ],
       "full_width": true,
-      "description": "The Japanese サーロイン covers what Anglo butchery splits into short loin and sirloin, and is regarded as the finest-textured, sweetest meat on the carcass; the muscle does almost no work, so heavy sashi sits in a fine even web. The one cut Japan does treat as a thick steak, though it is shaved for sukiyaki just as often.",
+      "description": "Despite the borrowed name, Japanese サーロイン corresponds to the Anglo strip loin — the loin eye over the lumbar vertebrae, the fillet beneath it counted separately, and the sirloin butt further back belonging to ランイチ. The muscle does almost no work, so it takes the finest, sweetest, most even sashi on the carcass; it is the one cut Japan does treat as a thick steak, though it is shaved for sukiyaki just as often.",
       "dishes": [
         "steak",
         "sukiyaki",
@@ -224,13 +224,13 @@
       "name": "Brisket / chuck rib (front plate)",
       "native": "カタバラ",
       "romanized": "katabara",
-      "region": "The front of the belly and chest, from the fifth-rib line at x 0.56 forward to the brisket behind the elbow at x 0.66, z 0.44–0.66.",
+      "region": "The front of the belly and chest, from the fifth-rib line at x 0.56 forward to the brisket behind the elbow at x 0.66, z 0.46–0.66.",
       "x": [
         0.56,
         0.66
       ],
       "z": [
-        0.44,
+        0.46,
         0.66
       ],
       "full_width": true,
@@ -247,13 +247,13 @@
       "name": "Short rib (kalbi)",
       "native": "カルビ",
       "romanized": "karubi",
-      "region": "The rib-cage section of the belly, x 0.44–0.56 between the last rib and the mid ribs, z 0.44–0.58.",
+      "region": "The rib-cage section of the belly, x 0.44–0.56 between the last rib and the mid ribs, z 0.46–0.58.",
       "x": [
         0.44,
         0.56
       ],
       "z": [
-        0.44,
+        0.46,
         0.58
       ],
       "full_width": true,
@@ -269,13 +269,13 @@
       "name": "Short plate / flank",
       "native": "トモバラ",
       "romanized": "tomobara",
-      "region": "The rear belly hanging below the barrel, x 0.32–0.44, from the belly line z 0.56 down to 0.44.",
+      "region": "The rear belly hanging below the barrel, x 0.32–0.44, from the belly line z 0.56 down to 0.46.",
       "x": [
         0.32,
         0.44
       ],
       "z": [
-        0.44,
+        0.46,
         0.56
       ],
       "full_width": true,
@@ -356,17 +356,17 @@
       "name": "Rump",
       "native": "ランプ",
       "romanized": "ranpu",
-      "region": "The top of the hindquarter above the hip joint, behind the sirloin line, x 0.16–0.26, z 0.68–0.90.",
+      "region": "The top of the hindquarter above the hip joint, behind the sirloin line, x 0.16–0.26, z 0.66–0.90.",
       "x": [
         0.16,
         0.26
       ],
       "z": [
-        0.68,
+        0.66,
         0.9
       ],
       "full_width": false,
-      "description": "The upper part of the ランイチ 部分肉 (ランプ plus イチボ), sitting where the loin runs out over the hip: fine-grained, tender lean meat with a light even sashi and a concentrated beef flavour for a hindquarter cut. Served as steak, as thin yakiniku slices and in sukiyaki.",
+      "description": "The upper part of the ランイチ 部分肉 (ランプ plus イチボ), sitting where the loin runs out over the hip — this is the sirloin butt of Anglo butchery. Fine-grained, tender lean meat with a light even sashi and a concentrated beef flavour for a hindquarter cut; served as steak, as thin yakiniku slices and in sukiyaki.",
       "dishes": [
         "steak",
         "yakiniku",
@@ -389,7 +389,7 @@
         0.86
       ],
       "full_width": false,
-      "description": "The lower, rearmost muscle of the ランイチ, named after the H-shaped hip bone (H-bone) it caps; lean but carrying a fat cap and fine marbling, tender at the tail end and firmer toward the leg. Grilled as thick yakiniku slices or roasted whole.",
+      "description": "The lower, rearmost muscle of the ランイチ 部分肉, named after the H-shaped hip bone (H-bone) it caps; lean but carrying a fat cap and fine marbling, tender at the tail end and firmer toward the leg. Grilled as thick yakiniku slices or roasted whole.",
       "dishes": [
         "yakiniku",
         "steak",
@@ -401,13 +401,13 @@
       "name": "Inside round / topside",
       "native": "ウチモモ",
       "romanized": "uchimomo",
-      "region": "The inner face of the hind leg, x 0.12–0.24 between the shank and the knuckle, z 0.26–0.62.",
+      "region": "The inner face of the hind leg between the stifle at z 0.46 and the rump at z 0.62, x 0.12–0.24.",
       "x": [
         0.12,
         0.24
       ],
       "z": [
-        0.26,
+        0.46,
         0.62
       ],
       "full_width": false,
@@ -424,13 +424,13 @@
       "name": "Outside round / silverside",
       "native": "ソトモモ",
       "romanized": "sotomomo",
-      "region": "The outer and rearmost face of the hind leg, x 0.00–0.12, z 0.24–0.62.",
+      "region": "The outer and rearmost face of the hind leg, x 0.00–0.12, from the stifle at z 0.46 up to z 0.62.",
       "x": [
         0.0,
         0.12
       ],
       "z": [
-        0.24,
+        0.46,
         0.62
       ],
       "full_width": false,
@@ -447,14 +447,14 @@
       "name": "Knuckle / thick flank",
       "native": "シンタマ",
       "romanized": "shintama",
-      "region": "The ball of muscle in front of the femur below the hip, x 0.24–0.32, z 0.44–0.62.",
+      "region": "The ball of muscle on the front of the hind leg around the femur, x 0.24–0.32, z 0.52–0.64.",
       "x": [
         0.24,
         0.32
       ],
       "z": [
-        0.44,
-        0.62
+        0.52,
+        0.64
       ],
       "full_width": false,
       "description": "A round 部分肉 of four muscles wrapped around the head of the femur — fine-grained, tender and lean for leg meat, and the source of the rare トモサンカク (ヒウチ) and シンシン. Used for roast beef, cutlets and lean yakiniku.",
@@ -470,14 +470,14 @@
       "name": "Knuckle centre / centre of the ball tip",
       "native": "シンシン",
       "romanized": "shinshin",
-      "region": "The core of the knuckle, low on the front of the hind leg at x 0.24–0.32, z 0.30–0.44.",
+      "region": "The core of the knuckle, low on the front of the hind leg just above the stifle, x 0.24–0.32, z 0.46–0.52.",
       "x": [
         0.24,
         0.32
       ],
       "z": [
-        0.3,
-        0.44
+        0.46,
+        0.52
       ],
       "full_width": false,
       "description": "Literally the core of the シンタマ, this 希少部位 is a small very fine-grained lean muscle with a faint even sashi — firm at first bite but silky once cooked, and only a few hundred grams per animal. Served as rare-seared yakiniku, roast beef or thin steak.",
@@ -493,14 +493,14 @@
       "name": "Shank / shin",
       "native": "スネ",
       "romanized": "sune",
-      "region": "The hind leg below the stifle, from the hock up to about z 0.24 at x 0.03–0.18; the foreleg equivalent (front shank) sits under the カタ.",
+      "region": "The hind leg between the hock at z 0.28 and the stifle at z 0.46, x 0.03–0.18; the foreleg equivalent is counted inside カタ.",
       "x": [
         0.03,
         0.18
       ],
       "z": [
-        0.02,
-        0.24
+        0.28,
+        0.46
       ],
       "full_width": false,
       "description": "The official 部分肉 ともずね: almost fat-free, shot through with sinew and the toughest meat on the animal, but packed with gelatin and the most concentrated beef flavour. Long-simmered until the connective tissue melts, or trimmed into 牛すじ for oden and dote-yaki.",
