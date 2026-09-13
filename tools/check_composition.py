@@ -79,9 +79,17 @@ def check_cut(cut, muscles, bones, problems, where):
 
     sources = cut.get("sources", [])
     quoted = [s for s in sources if (s.get("quote") or "").strip()]
+    # A source marked `unverified` is one tools/verify_quotes.py could not check against
+    # the page -- blocked at the origin and absent from the Wayback Machine. It may well
+    # be right, but a grade resting only on unre-readable text is exactly the thing this
+    # table promises not to do, so it does not count towards one.
+    checkable = [s for s in quoted if not s.get("unverified")]
     if grade in ("standard", "trade"):
         if not quoted:
             problems.append(f"{tag}: graded {grade} with no verbatim quote behind it")
+        elif not checkable:
+            problems.append(f"{tag}: graded {grade} only on sources that cannot be "
+                            f"re-read -- run tools/verify_quotes.py")
         for s in sources:
             if not s.get("url"):
                 problems.append(f"{tag}: a source has a quote but no url")

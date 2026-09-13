@@ -72,7 +72,7 @@ Five cuts name no muscle the model has, and each is a different kind of honest f
 - **língua** (BR) and **タン** (JP) — the tongue. No standard describes its musculature,
   and the atlas models no lingual muscle at all.
 - **matambre** (BR) — it is entirely *M. cutaneus trunci*, which the model lacks.
-- **테ール** (JP) — JMGA has no tail item; it leaves with the offal.
+- **テール** (JP) — JMGA has no tail item; it leaves with the offal.
 - **araignée** (FR) — still unbroken after two research passes. Every source describes
   where it is and none names the muscle. It is the obturator internus, and no publication
   will say so.

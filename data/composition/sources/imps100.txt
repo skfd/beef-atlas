@@ -1,0 +1,2274 @@
+INSTITUTIONAL MEAT PURCHASE SPECIFICATIONS
+FRESH BEEF SERIES 100
+EFFECTIVE: November 2014
+
+Institutional Meat Purchase Specifications Fresh Beef - Series 100
+
+Section 1.0 1.1 1.2 2.0 2.1 3.0 3.1 3.1.1 3.1.2 3.1.3 3.1.4 3.2 3.2.1 3.2.2 3.2.3 3.3 3.4 3.4.1 3.4.2 3.4.3 3.4.4 3.4.5 3.5 3.5.1 3.5.2 3.6 3.7 3.8 3.9 4.0
+
+Title Introduction
+IMPS Documents Contact Information IMPS Ordering Checklist Checklist Elements Ordering Data to be Specified by the Purchaser Item No., PSO’s & Special Instructions
+Abbreviations Added Ingredients Mechanical Tenderization Aging Grade & Special Requirements Categories Contact Information Grade Designations State of Refrigeration Fat Limitations Carcasses & Quarters Cuts, Roasts, Diced & Special Trim Items Portion-Cuts Comminuted Products & Trimmings Fat Content Verification Portion-Cut Weight, Thickness & Shape Weight & Thickness Shape Weight Range Netting & Tying Packing & Packaging Quality Assurance USDA Certification & Verification
+
+Contents
+
+Page Section
+
+3
+
+4.1
+
+3
+
+5.0
+
+3
+
+6.0
+
+4
+
+6.1
+
+4
+
+6.2
+
+4
+
+6.3
+
+4
+
+6.4
+
+5
+
+6.4.1
+
+5
+
+6.4.2
+
+6
+
+6.4.3
+
+6
+
+6.4.4
+
+7
+
+6.4.5
+
+7
+
+6.4.6
+
+7
+
+6.5
+
+8
+
+6.5.1
+
+8
+
+7.0
+
+8
+
+7.1
+
+8
+
+7.2
+
+8
+
+7.3
+
+9
+
+7.3.1
+
+9
+
+7.3.2
+
+9
+
+7.3.3
+
+10
+
+7.3.4
+
+10
+
+7.3.5
+
+10
+
+7.3.6
+
+11
+
+8.0
+
+18
+
+8.1
+
+19
+
+8.2
+
+19
+
+8.3
+
+19
+
+9.0
+
+Title Contact Information
+Material Requirements Quality
+Excellent Condition Lean Quality Workmanship Fat Trimming
+Peeled/Denuded Peeled/Denuded, Surface Membrane Removed Cuts & Roast Items Bridging & Planing Diced & Portion-Cut Items Seam Fat Objectionable Materials Specified Risk Materials Diagrams Beef Side Skeletal Diagram Beef Side Primal Diagram Primal Separations Diagram Rib-Chuck Separation Chuck-Brisket Separation Rib-Loin Separation Short Plate-Rib Separation Short Loin-Sirloin Separation Loin-Round Separation Cut Descriptions Myology Foodservice Cut Descriptions Portion Cut Descriptions Glossary
+
+Page 19 19 19 19 20 20 20 21 21 21 21 22 22 22 23 24 24 25 26 27 28 29 30 31 32 33 33 33 61 70
+
+2
+
+1.0 Introduction
+1.1 IMPS Documents
+The United States Department of Agriculture (USDA) through its Agricultural Marketing Service (AMS) develops and maintains the Institutional Meat Purchase Specifications (IMPS) for meat and meat products. The complete IMPS series includes the following 11 documents:
+
+General Requirements (GR) Quality Assurance Provisions (QAP) Fresh Beef Fresh Lamb Fresh Veal and Calf Fresh Pork Cured, Cured and Smoked, and Fully Cooked Pork Products Cured, Dried, and Smoked Beef Products Variety Meats and By-Products Sausage Products Fresh Goat
+
+Series 100 Series 200 Series 300 Series 400 Series 500 Series 600 Series 700 Series 800 Series 11
+
+1.2 Contact Information
+These specifications are recommended for use by any meat product procuring activity. For assurance that procured items comply with these detailed requirements, AMS, through its Livestock Poultry and Seed (LPS) Program’s Quality Assessment Division (QAD) provides a voluntary meat certification service and a process verification program. For labeling purposes, only producers who have meat products certified according to the IMPS or operate under an approved IMPS process verified program may use the letters "IMPS" on the product label. Purchasers desiring these services should contact:
+USDA, AMS, LPS Program, QAD 1400 Independence Ave, SW, Room 3932, Stop 0258 Washington, DC 20250 Phone: (202) 720-3271 http://www.ams.usda.gov/AMSv1.0/QAD
+
+3
+
+2.0 IMPS Ordering Checklist
+2.1 Checklist Elements
+The following checklist will assist the purchaser in providing contractual language necessary to describe the IMPS product and service desired. Each element within the checklist is further defined within Section 3.0 - Ordering Data to be Specified by the Purchaser.
+Item Number Special instructions Purchaser Specified Option (PSO) Added ingredients Mechanical Tenderization Aging
+Grade and Special Requirements
+State of Refrigeration (See IMPS GENERAL REQUIREMENTS.) Chilled Frozen
+Fat Limitations
+Portion Cut Weight, Thickness, and Shape
+Weight Range
+Netting and Tying
+Packaging and Packing (See IMPS GENERAL REQUIREMENTS.)
+Quality Assurance (See IMPS QUALITY ASSURANCE PROVISIONS.) Method of examination Acceptable Quality Levels (AQL’s) Certification - (See IMPS GR and QAP.)
+3.0 Ordering Data to be Specified by the Purchaser
+3.1 Item Number, PSO’s & Special Instructions
+The purchaser shall specify: (1) IMPS item number and product name to be purchased, and if applicable, (2) PSO’s, (3) added ingredients, applicable options, modifications, and special instructions to the requirements of the IMPS.
+4
+
+3.1.1 Abbreviations
+In conjunction with other markings that may be required in the GR and by Meat and Poultry Inspection Regulations, the IMPS item number, “Beef”, and the product name listed above shall be used for marking of shipping containers. Abbreviation of the product name is recommended. Abbreviations, when used, shall be as follows:
+
+Bone in – Bn-in Boneless - Bnls Center Cut - Cntr Cut Cover - Cov Deckle – Dkle Defatted - Dfatd Denuded - Dnd Diamond – Dia Divided – Div Extra - Ex Fresh - Fr Frozen - Frz Ground - Grnd
+
+Intermediate - Inter Individual Muscle - IM Neck off – Nk-off Not to Exceed - NTE Oven-Prepared – Oven-Prep Partially - Part Peeled - Pld Porterhouse - Prthse Portion - Portn Regular – Reg Roast-Ready – Rst-Rdy Roast - Rst Round - Rnd
+
+Short Cut – Sh Cut Shoulder - Shld Sirloin - Sirln Skinned - Sknd Special - Sp Square Cut – Sq-Cut Steak - Stk Tenderloin - Tender Triangle Tip – Tri Tip Trimmed - Trmd Untrimmed - Untrmd
+
+The product names and abbreviations listed in this series have been reviewed and approved by USDA; FSIS; Office of Policy and Program Development (OPPD); Labeling and Program Delivery Staff, Washington D.C.
+3.1.2 Added Ingredients
+To enhance product performance, the purchaser may specify ingredients to be added to any IMPS fresh beef item. Ingredients may be added by immersion or injection. The purchaser may specify any one of the following levels of added ingredients within a purchase order:
+
+Option No.
+1 2 3 4 5
+
+Maximum Percentage of Added Ingredients
+7% 10% 12% 15% ≥15%
+
+5
+
+The use of ingredients, method of addition, and product labeling shall comply with FSIS Regulations and Policies.
+3.1.3 Mechanical Tenderization
+To enhance the tenderness of beef products, the purchaser may specify roasts or raw materials to be made into portion cuts to be mechanically tenderized. When specified, the roast or raw materials to be portioned shall be mechanically tenderized by using the multiple probe method (pinning) not more than one time.
+3.1.4 Aging
+The purchaser shall specify the aging type and time desired. For assistance in specifying these parameters, use the following tables.
+
+Type Wet Aging Dry Aging
+
+Description
+Meat is vacuum-packaged in a high moisture-impermeable bag and stored in cooler conditions (33 - 36oF) for a specified length of time.
+Meat is unpackaged and directly exposed to cooler conditions with designated temperature (33 - 36oF), humidity (85 – 90%) and air-flow (positive) controls.
+
+Time 0 – 5 days 5 – 7 days 7 – 15 days >15 days
+
+Description Green
+Moderately aged Aged
+Extremely aged
+
+6
+
+3.2 Grade & Special Requirements
+3.2.1 Categories
+The purchaser may specify any combination of the following grade and special requirement categories when ordering. NOTE: Only one selection per category, per order.
+
+Category
+
+Quality Grade*
+Yield Grade**
+Breed Certification
+
+U.S. U.S. U.S. U.S. Prime Choice Select Standard
+
+1
+
+2
+
+3
+
+4
+
+As Specified by Purchaser
+
+U.S. Commercial
+5
+
+U.S. Utility
+
+U.S. Cutter
+
+U.S. Canner
+
+Other
+
+Marbling
+
+As Specified by Purchaser
+
+Maturity
+Carcass Wt. Range Specified Risk Materials Removal
+Diet***
+
+As Specified by Purchaser As Specified by Purchaser As Specified by Purchaser As Specified by Purchaser
+
+*Quality grades predict palatability of lean and are applied to carcasses. They are determined by evaluation of carcass maturity and quality of lean.
+**Yield grades predict the yield of closely trimmed boneless retail cuts to be derived from the major wholesale cuts.
+***The diet category will allow the purchaser to specify the ingredients included in the animal’s ration.
+3.2.2 Contact Information
+The purchaser may request documentation from the vendor, stating that cuts are derived from carcasses meeting the special requirements. For certification of the special requirements, a verification program must be in place. Contact the Meat Grading and Certification Branch for development of verification programs (refer to Section 1.2 - Contact Information).
+
+7
+
+3.2.3 Grade Designations
+Official grade designations will appear in any one or any combination of the following ways: (1) shipping container markings, or (2) on individual bags or wrapping material. The processor shall comply with Food Safety and Inspection Service (FSIS) grade labeling procedures.
+3.3 State of Refrigeration
+
+Purchaser shall specify the state of refrigeration (chilled or frozen) for delivery of product. (See IMPS GR.)
+
+3.4 Fat Limitations
+
+3.4.1 Carcasses & Quarters
+The purchaser shall specify yield grade and/or maximum fat thickness as described below.
+3.4.2 Cuts, Roasts, Diced, & Special Trim Items
+The purchaser shall specify maximum surface fat thickness requirements unless fat limitations for surface and/or seam fat are indicated in the item descriptions. Maximum fat thickness requirements may be specified in terms of “average” or “at any one point”. Alternative “average” and/or “at any one point” fat limitations may be specified.
+
+Option No.
+1
+
+Maximum Average Thickness ¾-inch (19 mm) "Commodity trim"
+
+Maximum At Any One Point
+1.0 inch (25 mm)
+
+2
+
+¼-inch (6 mm)
+
+½-inch (13 mm)
+
+3
+
+⅛-inch (3 mm)
+
+¼-inch (6 mm)
+
+4 Practically Free (75% lean/seam surface exposed)
+
+⅛-inch (3 mm)
+
+Peeled/Denuded* (remaining fat shall not
+
+5
+
+exceed 1.0 inch (25 mm) in the longest
+
+⅛-inch (3 mm)
+
+dimension and/or ⅛-inch (3 mm) in thickness)
+
+6 Peeled/Denuded, Surface Membrane Removed* (90% lean exposed)
+
+⅛-inch (3 mm)
+
+*See Section 6.4.
+Note: When average fat thicknesses are specified by the purchaser or in item descriptions, the appropriate "Maximum at Any One Point" limitation shall apply.
+
+8
+
+3.4.3 Portion-Cuts
+The purchaser shall specify the maximum (at any one point) thickness of surface fat on the edges of the steak unless fat limitations for surface and/or seam fat are indicated in the detailed item descriptions. Alternative fat limitations may be specified. If not specified, surface fat thickness shall not exceed ¼-inch (6 mm) at any one point.
+
+Option No. 1 2 3
+4
+5
+
+Maximum At Any One Point
+¼-inch (6 mm)
+⅛-inch (3 mm)
+Practically free (75% lean/seam surface exposed and remaining fat shall not exceed ⅛-inch (3 mm)) Peeled/Denuded* (remaining fat shall not exceed 1.0 inch (25 mm) in the longest dimension and/or ⅛-inch (3 mm) in thickness)) Peeled/Denuded, Surface Membrane Removed* (90% lean exposed and remaining fat shall not exceed ⅛-inch (3 mm))
+
+*See Section 6.4.
+
+3.4.4 Comminuted Products & Trimmings
+
+Fat limitations for these items shall be expressed in terms of a fat content percentage. Fat content describes the percentage of fat present in the product. Unless otherwise specified, the fat content shall not exceed 22 percent. However, the purchaser may specify any fat content provided it does not exceed 30 percent and may specify discount ranges.
+
+The purchaser shall specify the fat content analysis to be determined on a (1) composite analysis, or (2) average analysis method (as defined within the IMPS QAP.) If the purchaser does not specify either method, the procedures for average fat content analysis method shall be used.
+
+3.4.5 Fat Content Verification
+The fat content shall be specified by the purchaser and verified by one or any combination of the following PSO’s. If not specified, the fat content shall be verified with PSO #2 requirements.
+
+Option No. 1 2 3
+
+Fat Content
+Fat content shall be declared on the product label along with a nutrition facts panel in accordance with FSIS regulations Contractor shall submit documentation of fat analysis to purchaser
+Fat content certified by AMS (see QAP.)
+
+9
+
+4 Samples selected by AMS and sent to purchaser designated laboratory
+3.5 Portion Cut Weight, Thickness & Shape
+3.5.1 Weight & Thickness
+The purchaser shall specify the portion weight and/or thickness desired. For assistance in specifying weight, see weight range tables. Unless other portion weight and/or thickness tolerances are specified by the purchaser, the following tables shall be used. When both weight and thickness are specified, it is recommended that those requirements be limited to items that are mechanically pressed and/or sliced.
+
+Portion Thickness Tolerances*
+
+Specified Thickness Thickness Tolerance
+
+1 inch (25 mm) or less
+
++/- 3/16-inch (5 mm)
+
+Thickness Uniformity
+3/16-inch (5 mm)
+
+More than 1 inch (25 mm) +/- ¼-inch (6 mm)
+
+¼-inch (6 mm)
+
+* Thickness measurements are not applicable within ¼-inch (6 mm) of the edge. Also, value listed under thickness uniformity is the maximum allowable difference between the thinnest and thickest measurement of an individual steak.
+
+Portion Weight Tolerances
+
+Specified Weight
+
+Weight Tolerance
+
+Less than 6.0 ounces (170 g) +/- ¼ oz. (7 g)
+
+6.0 (170 g) to 12.0 ounces (340 g)
+12.01 (341 g) to 24.0 ounces (680 g)
+
++/- ½ oz. (14 g) +/- ¾ oz. (21 g)
+
+24.01 ounces (681 g) or more +/- 1 oz. (28 g)
+
+Thickness Uniformity* 3/16-inch (5 mm)
+¼-inch (6 mm)
+⅜-inch (9 mm)
+½-inch (13 mm)
+
+3.5.2 Shape
+Unless otherwise specified, the shape of whole muscle portions cuts shall resemble the approximate shape relative to the cut of origin. Cubed and braising steaks which are mechanically pressed and sliced shall be uniform in shape. Unless otherwise specified, patties shall be round.
+
+10
+
+3.6 Weight Range
+Purchaser shall specify IMPS item number, product name, and weight range to be purchased. The following weight ranges are intended as guidelines. Carcass weights are not necessarily related to the weight of cuts within their respective weight range. Other weights or ranges may be specified.
+
+Item No. 100 100A 101 102 102A 103 103A 104 107
+107A
+108 109 109A 109B 109C
+109D
+109E 110 111 112 112A 112C 112D 113 113A
+113B
+113C
+114 114A
+114B
+
+Product Name
+Carcass Carcass, Trimmed Side Forequarter Forequarter, Boneless Rib, Primal Rib, Regular Rib, Oven-Prepared, Regular Rib, Oven-Prepared Rib, Oven-Prepared, Blade Bone In Rib, Oven-Prepared, Boneless Rib, Roast-Ready Rib, Roast-Ready, Special Rib, Blade Meat Rib, Roast-Ready, Cover Off Rib, Roast-Ready, Cover Off, Short Cut (Export Style) Rib, Ribeye Roll, Lip-On, Bone In Rib, Roast-Ready, Boneless Rib, Spencer Roll Rib, Ribeye Roll Rib, Ribeye Roll, Lip-On Rib, Ribeye (IM) Rib, Ribeye Cap (IM) Chuck, Square-Cut Chuck, Square-Cut, Divided Chuck, Square-Cut, Neck-Off, Divided Chuck, Square-Cut, Neck-Off, 2 Piece, Semi Boneless Chuck, Shoulder (Clod)
+Chuck, Shoulder Roast
+Chuck, Shoulder Roast, Special
+
+Foodservice Cuts
+
+A 500-600 475-575 250-300 131-157 104-125
+24-28 18-20 19-22 17-19
+
+Weight Ranges (Pounds)
+
+B
+
+C
+
+600-700
+
+700-800
+
+575-675
+
+675-775
+
+300-350
+
+350-400
+
+157-183
+
+183-210
+
+125-146
+
+146-168
+
+28-33
+
+33-38
+
+20-24
+
+24-27
+
+22-26
+
+26-30
+
+19-23
+
+23-26
+
+17-19
+
+19-23
+
+23-26
+
+13-16 14-16 14-16
+13-15
+
+16-19 16-19 16-19
+15-18
+
+19-22 19-22 19-22 3-up 18-21
+
+12-14
+
+14-17
+
+17-20
+
+11-13 11-13 10-12
+5-6 6-7 4-6 1-2 66-79 66-79
+
+13-16 13-16 12-15
+6-8 7-9 6-8 3-4 79-93 79-93
+
+16-19 16-19 15-18 8-10 9-11 8-10
+93-106 93-106
+
+4-up
+
+35-40
+
+40-47
+
+47-55
+
+33-40 13-15 15-dn
+
+40-46 15-18 15-18
+
+46-50 18-21 18-21
+
+15-dn
+
+15-18
+
+18-21
+
+D 800-up 775-up 400-up 210-up 168-up 38-up 27-up 30-up 26-up 26-up 22-up 22-up 22-up
+21-up 20-up 20-up 19-up 18-up 10-up 11-up 10-up
+106-up 106-up 55-up
+50-up 21-up 21-up
+21-up
+
+Page # 33 33 33 33 33 33 33 34 34
+34
+34 34 34 35 35
+35
+35 35 35 35 36 36 36 36 36
+36
+36
+36 36
+37
+
+11
+
+Item No.
+114C
+114D
+114E 114F 114G 115 115A 115B 115C
+115D
+116 116A 116B 116C 116D 116E 116F
+116G 116H 116I 116K 117 118 119 120 120A
+120B 120C 121 121A
+121B
+
+Product Name
+Chuck, Shoulder (Clod), Trimmed, (2-Piece) Chuck, Shoulder (clod), Top Blade Chuck, Shoulder (Clod), Arm Roast Chuck, Shoulder, Tender (IM) Chuck, Shoulder, Arm, Center Cut (IM) Chuck, Square-Cut, Boneless Chuck, Blade Portion, Boneless Chuck, Arm-Out, Boneless Chuck, Square-Cut, Neck-Off, Boneless Chuck, Square-Cut, Pectoral Meat (IM) Chuck, Square-Cut, Clod-Out, Boneless Chuck, Chuck Roll
+Chuck, Chuck Tender Chuck, Chuck Roll, Untrimmed Chuck, Chuck Eye Roll
+Chuck, Under Blade Roast Chuck, Under Blade, Flat Cut (IM) Chuck, Under Blade, Center Cut (IM) Chuck, Chuck Eye (IM)
+Chuck, Neck Roast
+Chuck Roll, 3-Way
+Foreshank
+Brisket
+Brisket, Deckle-On, Boneless
+Brisket, Deckle-Off, Boneless Brisket, Flat Cut, Boneless (IM) Brisket, Point Cut, Boneless (IM) Brisket, 2 Piece, Boneless
+Plate, Short Plate
+Plate, Short Plate, Boneless
+Plate, Short Plate, Trimmed, Boneless
+
+Foodservice Cuts (continued)
+
+A 12-dn
+
+Weight Ranges (Pounds)
+
+B
+
+C
+
+12-14
+
+14-18
+
+2-dn
+
+2-3
+
+4-5
+
+8-dn
+3-5 54-65 22-25 35-40 48-59
+
+0.5-dn
+
+8-10
+5-7 65-77 25-29 40-47 59-70
+
+10-12
+77-88 29-34 47-55 70-81
+
+0.5-up 7-up
+
+5-dn
+
+5-up
+
+40-48 13-15 1-dn 16-18 8-dn 8-dn
+
+5-dn
+
+48-57 15-18
+1-3 18-20 8-10 8-10
+
+57-65 18-21 3-up 20-22 10-14 10-14
+
+5-up
+
+10-12 7-8
+12-14 9-10 6-8
+4-6
+
+7-dn 4-dn 5-dn
+
+12-16 8-10 14-17 10-12 8-10
+6-8
+
+16-19 10-12 17-20 12-14 10-12
+8-10
+
+7-up 4-up 5-up
+
+3-dn
+6-8 20-27 12-14
+
+3-4
+8-10 27-31 14-16
+
+4-6
+10-12 31-35 16-18
+
+8-12
+
+12-14
+
+14-16
+
+D 18-up 5-up 12-up
+88-up 34-up 55-up 81-up
+65-up 21-up
+22-up 14-up 14-up
+19-up 12-up 20-up 14-up 12-up 10-up 6-up 12-up 35-up 18-up 16-up
+
+12
+
+Page #
+37
+37
+37 37 38 38 38 38 38
+38
+38 38 39 39 39 39 40
+40 40 40 40 40 40 40 40 40
+41 41 41 41
+41
+
+121C Plate, Outside Skirt (IM)
+
+Item No.
+
+Product Name
+
+121D 121E
+121F
+121G 122 122A 123 123A 123B 123C 123D 124 124A 124B 125 126 126A 127 128 130 130A 132 133 134 135 135A 135B 135C 136
+136A
+136C
+136D
+137
+
+Plate, Inside Skirt (IM) Plate, Outside Skirt (IM), Skinned Plate, Short Plate, Short Ribs Removed Plate, Short Plate, Short Ribs Removed, Boneless Plate, Full Plate, Full, Boneless Short Ribs Short Plate, Short Ribs, Trimmed Rib, Short Ribs, Trimmed Rib, Short Ribs Short Ribs, Boneless Rib, Back Ribs Rib, Back Rib, Rib Fingers Plate, Rib Fingers Chuck, Armbone Chuck, Armbone, Boneless Chuck, Armbone, Clod-Out, Boneless Chuck, Cross-Cut Chuck, Cross-Cut, Boneless Chuck, Short Ribs Chuck, Short Ribs, Boneless Triangle Triangle, Boneless Beef Bones Diced Beef Beef for Stewing Beef for Kabobs Beef for Stir Fry Ground Beef Ground Beef and Soy Protein Product Patty Mix
+Beef Patty Mix, NTE 10% Fat
+Pure Beef
+Ground Beef, Special
+
+1-2
+
+2-3
+
+Foodservice Cuts (continued)
+
+3-up
+
+A 1-3 1-2 18-25 10-12 28-37 21-27 2-3
+1-2
+77-88 59-70 46-57 86-103 68-81
+2-3 0.5-1.5 107-129 83-101
+
+Weight Ranges (Pounds)
+
+B
+
+C
+
+3-4
+
+4-up
+
+2-3
+
+3-up
+
+25-28
+
+28-33
+
+12-14
+
+14-16
+
+37-44 27-29
+3-4
+
+44-51 29-32
+4-5
+
+Amount as Specified
+
+Amount as Specified
+
+Amount as Specified
+
+2-3
+
+3-4
+
+Amount as Specified
+
+Amount as Specified
+
+Amount as Specified
+
+88-103
+
+103-118
+
+70-82
+
+82-90
+
+57-69
+
+69-77
+
+103-120
+
+120-138
+
+81-95
+
+95-109
+
+3-4
+
+4-5
+
+1.5-2.5
+
+2.5-3.5
+
+129-150
+
+150-172
+
+101-117
+
+117-134
+
+Amount as Specified
+
+Amount as Specified
+
+Amount as Specified
+
+Amount as Specified
+
+Amount as Specified
+
+Amount as Specified
+
+Amount as Specified
+
+Amount as Specified Amount as Specified Amount as Specified
+13
+
+D
+33-up 16-up 51-up 32-up 5-up
+4-up
+118-up 90-up 77-up 138-up 109-up 5-up 3.5-up 172-up 134-up
+
+41
+Page #
+41 41
+41
+41 41 42 42 42 42 43 43 43 43 43 43 43 43 43 43 43 43 43 44 44 44 44 44 44 45 46
+46 46 47
+
+137A Ground Beef and Soy Protein Product, Special
+
+Item No.
+
+Product Name
+
+138 139 140 155 155A 157 158 158A 158B 159 160 160A 160B 161 161A
+161B 163 163A 164 165 165A
+165B
+166
+166A
+166B
+167
+167A
+
+Beef Trimmings
+Special Trim, Boneless
+Hanging Tender (IM)
+Hindquarter
+Hindquarter, Boneless
+Hindshank
+Round, Primal
+Round, Diamond-Cut
+Round, NY Style
+Round, Primal, Boneless Round, Shank-Off, Partially Boneless Round, Diamond Cut, Shank Off, Partially Boneless Round, Heel and Shank Out, Semi-Boneless Round, Shank Off, Boneless
+Round, Diamond Cut, Shank Off, Boneless
+Round, Heel and Shank Off, Without Sirloin Tip, Boneless Round, Shank Off, 3-Way, Boneless Round, Shank Off, 3-Way, Untrimmed, Boneless Round, Rump and Shank Off Round, Rump and Shank Off, Boneless Round, Rump and Shank Off, Boneless, Special
+Round, Rump and Shank Off, Boneless, Special
+Round, Rump and Shank Off, Boneless
+Round, Rump Partially Removed, Shank Off
+Round, Rump and Shank Partially Off, Handle On
+Round, Sirloin Tip(Knuckle)
+Round, Sirloin Tip (Knuckle), Peeled
+
+Amount as Specified
+
+Foodservice Cuts (continued)
+
+Weight Ranges (Pounds)
+
+A
+119-143 90-108
+7-8 59-71 63-76 50-63 44-53 47-57
+
+3-dn
+
+B
+
+C
+
+Amount as Specified Amount as specified
+
+143-167 108-126
+8-10 71-83 76-89 63-75 53-62
+57-67
+
+167-190 126-143
+10-12 83-95 89-102 75-88 62-71
+67-76
+
+3-up
+
+50-60
+
+60-70
+
+70-80
+
+38-46 42-51
+
+46-54 51-62
+
+54-60 62-71
+
+44-53
+
+53-62
+
+62-71
+
+D
+190-up 143-up 12-up 95-up 102-up 88-up 71-up 76-up 80-up 60-up 71-up 71-up
+
+30-37 41-50 42-50 40-48 35-43 38-46
+
+37-44 50-58 50-58 48-56 43-50 46-54
+
+44-51 58-66 58-66 56-64 50-57 54-60
+
+51-up 66-up 66-up 64-up 57-up 60-up
+
+38-46
+
+46-54
+
+54-60
+
+60-up
+
+35-43 44-52 44-52
+8-9 7-8
+
+43-50 52-61 52-61 9-11 8-10
+
+50-57 61-70 61-70 11-13 10-12
+
+57-up 70-up 70-up 13-up 12-up
+
+14
+
+48
+Page # 48 48 48 48 48 49 49 49 49 49 49 50 50 50 50
+50 50 50 51 51 51
+51
+51
+51
+51
+51
+52
+
+167B Round, Full Sirloin Tip
+
+Item No. 167C 167D
+167E
+167F
+168 169 169A 169B 169C
+169D 169E 170 170A
+171
+171A 171B 171C 171D
+171E 171F 171G 172 172A 173 174 175 176 180 180B 181 181A
+
+Product Name
+Round, Sirloin (Full) Tip Round, Sirloin Tip, Peeled, 2-Piece Round, Sirloin Tip, Center Roast (IM) Round, Sirloin Tip, Side Roast (IM) Round, Top (Inside), Untrimmed Round, Top (Inside)
+Round, Top (Inside), Cap Off
+Round, Top (Inside), Cap (IM) Round, Top (Inside), Front Side (IM) Round, Top (Inside) Soft Side Removed Round, Top (Inside) (IM)
+Round, Bottom (Gooseneck) Round, Bottom (Gooseneck), Heel Out Round, Bottom (Gooseneck), Untrimmed Round, Bottom (Gooseneck), Untrimmed, Heel Out Round, Outside Round (Flat)
+Round, Eye of Round (IM) Round, Outside Round, Side Muscle Removed (IM) Round, Outside Round, Side Roast (IM) Round, Outside Round, Heel Round, Outside Round, Rump (IM) Loin, Full Loin, Trimmed Loin, Full Loin, Diamond Cut, Trimmed Loin, Short Loin
+Loin, Short Loin, Short-Cut
+Loin, Strip Loin
+Loin, Steak Tails
+Loin, Strip Loin, Boneless Loin, Strip Loin, Split, Boneless Loin, Sirloin
+Loin, Top Sirloin
+
+10-12
+
+12-14
+
+14-16
+
+16-up
+
+Foodservice Cuts (continued)
+
+A 9-11 5-7
+2-3
+2-3
+14-17 14-17 12-15
+1-2
+15-16
+18-23 17-20
+18-21
+17-20 8-10 3-dn 6-8
+2-3 3-5 2-3 30-37 35-42 17-24 14-20 11-14 2-3 8-10 8-10 16-19 11-14
+
+Weight Ranges (Pounds)
+
+B
+
+C
+
+11-13
+
+13-15
+
+7-9
+
+9-12
+
+3-5
+
+5-up
+
+3-4
+
+4-up
+
+1-dn
+
+17-20
+17-20 15-18
+2-3
+
+20-23 20-23 18-20
+
+3-up 1-up
+
+5-dn
+
+16-19
+23-27 20-24
+
+19-22
+27-31 24-28
+
+5-up
+
+21-25
+
+25-29
+
+20-24 10-13
+3-5 8-12
+
+24-28 13-16
+
+5-up 12-up
+
+3-5 5-7 3-5 37-45 42-50 24-30 20-25 14-18 3-5 10-12 10-12 19-24 14-17
+15
+
+45-52 50-57 30-35 25-30 18-22
+12-14 12-14 24-28 17-20
+
+5-up 7-up 5-up
+5-up
+
+D 15-up 12-up
+23-up 23-up 20-up
+22-up
+31-up 28-up 29-up 28-up 16-up
+52-up 57-up 35-up 30-up 22-up 14-up 14-up 28-up 20-up
+
+52
+Page # 52 52
+52
+52
+53 53 53 53 53
+53 53 53 53
+53
+54 54 54 54
+54 54 54 54 55 55 55 55 56 56 56 56 57
+
+182 Loin, Sirloin Butt, Boneless
+
+Item No.
+183 184 184A
+184B
+184C 184D 184E
+184F
+185 185A 185B 185C 185D 186 188 189 189A 189B 190 190A
+190B
+191 191A 191B 192 192A 193
+
+Product Name
+Loin, Sirloin Butt, Trimmed, Boneless Loin, Top Sirloin Butt, Boneless Loin, Top Sirloin Butt, Semi Center-Cut, Boneless Loin, Top Sirloin Butt, Center-Cut, Cap Off (IM), Boneless Loin, Top Sirloin Butt, Untrimmed, Boneless
+Loin, Top Sirloin Butt, Cap (IM)
+Loin, Top Sirloin Butt, 2-Piece
+Loin, Top Sirloin Butt, Center-Cut, Seamed, Dorsal Side (IM) Loin, Bottom Sirloin Butt, Boneless Loin, Bottom Sirloin Butt, Flap, Boneless (IM) Loin, Bottom Sirloin Butt, Ball Tip, Boneless Loin, Bottom Sirloin Butt, Tri-Tip, Boneless (IM) Loin, Bottom Sirloin Butt, Tri-Tip, Defatted, Boneless Loin, Bottom Sirloin Butt, Trimmed, Boneless
+Loin, Tenderloin, Bone-in
+Loin, Tenderloin, Full
+Loin, Tenderloin, Full, Side Muscle On, Defatted Loin, Tenderloin, Full, Side Muscle On, Partially Defatted Loin, Tenderloin, Full, Side Muscle Off, Defatted Loin, Tenderloin, Full, Side Muscle Off, Skinned Loin, Tenderloin, Full, Side Muscle Off, Center-Cut, Skinned (IM)
+Loin, Tenderloin, Butt
+Loin, Tenderloin Butt, Defatted
+Loin, Tenderloin Butt, Skinned
+Loin, Tenderloin, Short
+Loin, Tenderloin Tails
+Flank, Flank Steak (IM)
+
+11-14
+
+14-16
+
+Foodservice Cuts (continued)
+
+16-19
+
+A 9-10 8-10 7-9
+
+Weight Ranges (pounds)
+
+B
+
+C
+
+10-13
+
+13-15
+
+10-12
+
+12-14
+
+9-11
+
+11-13
+
+5-7
+
+7-9
+
+9-11
+
+8-10 1-2 8-9
+
+3-dn
+
+10-12 2-3 9-11
+
+12-14 3-4
+11-13
+
+3-up
+
+5-6
+
+6-7
+
+1-3
+
+1.5-3
+
+1.5-3
+
+1.5-3
+
+2-3
+
+3-4
+
+5-dn
+
+4-5
+
+5-6
+
+3-4
+
+4-5
+
+3-4
+
+4-5
+
+2-3
+
+3-4
+
+2-3
+
+3-4
+
+7-8 3-up 3-up 3-up 3-up 4-5
+6-7 5-6 5-6
+
+5-up
+4-up 4-up
+
+under 2
+
+1-2 1-2 2-dn 2-3
+1-dn
+
+2-3
+
+3-4
+
+2-3
+
+3-4
+
+2-3
+
+3-4
+
+Amount as Specified
+
+1-2
+
+2-up
+3-up 4-up 2-up
+
+16
+
+19-up
+D 15-up 14-up 13-up 11-up 14-up 4-up 13-up
+8-up
+5-up 7-up 6-up 6-up
+4-up 4-up
+
+57
+Page # 57 57 57
+57
+58 58 58 58
+58 58 58 58 58 59 59 59 59 59 59 59
+59 59 60 60 60 60 60
+
+194 Flank, Rose Meat (IM)
+
+Amount as Specified
+
+Item No. 1100
+
+Product Name Cubed Steak
+
+Portion Cuts
+
+Suggested Portion Weight Range (Ounces)
+3-8
+
+1101
+
+Cubed Steak, Special
+
+3-8
+
+1102
+
+Braising Steak, Swiss
+
+4-8
+
+1103
+
+Rib, Rib Steak, Bone-In
+
+8-18
+
+1103A
+
+Rib, Rib Steak, Boneless
+
+4-12
+
+1103B
+
+Rib, Rib Steak, Frenched, Bone In
+
+3-16
+
+1112
+
+Rib, Ribeye Roll Steak, Boneless
+
+4-12
+
+1112A
+
+Rib, Ribeye Steak, Lip-On, Boneless
+
+4-12
+
+1112B
+
+Rib, Ribeye Steak, Lip-On, Short Cut, Boneless
+
+4-12
+
+1112C
+
+Rib, Ribeye Steak
+
+4-12
+
+1112D
+
+Rib, Ribeye Cap Steak
+
+4-8
+
+1114D
+
+Chuck, Shoulder, Top Blade Steak
+
+4-12
+
+1114E
+
+Chuck, Shoulder, Arm Steak, Boneless
+
+4-10
+
+1114F
+
+Chuck, Shoulder Tender, Portioned (IM)
+
+2-14
+
+1116D
+
+Chuck, Chuck Eye Roll Steak
+
+4-12
+
+1116G
+
+Chuck, Under Blade, Center-Cut Steak
+
+4-12
+
+1116H
+
+Chuck, Chuck Eye Steak
+
+4-12
+
+1121D
+
+Plate, Inside Skirt Steak (IM), Boneless
+
+4-8
+
+1121E
+
+Plate, Outside Skirt Steak, Skinned (IM)
+
+4-8
+
+1123
+
+Short Ribs, Bone-Ine
+
+3-10
+
+1136
+
+Ground Beef Patties
+
+Desired ounces or number per pound
+
+1130
+
+Chuck, Short Rib, Bone-In
+
+3-10
+
+1136
+
+Ground Beef Patties
+
+Desired ounces or number per pound
+
+1136A
+
+Ground Beef and Soy Protein Product Patties
+
+Desired ounces or number per pound
+
+1136B
+
+Beef Patties
+
+Desired ounces or number per pound
+
+1136C
+
+Beef Patties, NTE 10% Fat
+
+Desired ounces or number per pound
+
+1136D
+
+Pure Beef Patties
+
+Desired ounces or number per pound
+
+1137
+
+Ground Beef Patties, Special
+
+Desired ounces or number per pound
+
+1137A
+
+Ground Beef and Soy Protein Product Patties, Special
+
+Desired ounces or number per pound
+
+1138
+
+Beef Steaks, Flaked and Formed, Frozen
+
+Desired ounces or number per pound
+
+1138A
+
+Beef Sandwich Steaks, Flaked, Chopped, Formed, and Wafer Sliced, Frozen
+
+Desired ounces
+
+1138B
+
+Beef Steaks, Sliced and Formed, Frozen
+
+Desired ounces
+
+1139
+
+Beef Slices
+
+Desired ounces or thickness
+
+1140
+
+Hanger Steaks
+
+4-8
+
+1150
+
+Top Side Steak, Boneless
+
+4-16
+
+1167
+
+Round, Sirloin Tip (Knuckle) Steak
+
+3-10
+
+1167A
+
+Round, Sirloin Tip (Knuckle) Steak, Peeled
+
+3-10
+
+1167D
+
+Round, Sirloin Tip (Knuckle) Steak, Peeled, Special
+
+4-8
+
+1167E
+
+Round, Sirloin Tip (Knuckle), Center Steaks (IM)
+
+4-8
+
+60
+Page # 61 61 61 61 61 61 62 62 62 62 62 63 63 63 63 64 64 64 64 64 64 65 65 65 65 65 65 65 65 65
+66
+66 66 66 66 66 66 66 66
+
+17
+
+1167F 1169 1169A 1169C
+Item No.
+1170A 1171D 1171G 1173 1174 1179 1179A 1180 1180A 1180B 1184 1184A 1184B 1184D
+1184F
+1185A 1185B 1185C 1185D 1188 1189 1189A 1189B 1190 1190A 1190B 1190C
+
+Round, Sirloin Tip (knuckle), Side Steaks (IM) Round, Top (Inside) Round Steak Round, Top (Inside) Cap-Off, Round Steak Round Top (Inside) Round, Front Side Steak
+Portion Cuts (continued)
+
+4-8 3-12 3-12 3-12
+
+Product Name
+Round, Bottom (Gooseneck) Round Steak Round, Outside Round Steaks (IM) Round, Outside Round, Rump Steak (IM) Loin, Porterhouse Steak Loin, T-Bone Steak Loin, Strip Loin Steak, Bone-in Loin, Strip Loin Steak, Center Cut, Bone-In Loin, Strip Loin Steak, Boneless Loin, Strip Loin Steak, Center-Cut, Boneless Beef Loin, Strip Loin Steak, Split, Boneless Loin, Top Sirloin Butt Steak, Boneless Loin, Top Sirloin Butt Steak, Semi Center-Cut, Boneless Loin, Top Sirloin Butt Steak, Center-Cut, Boneless (IM) Loin, Top Sirloin Cap Steak, Boneless (IM) Loin, Top Sirloin Butt Steak, Center-Cut, Seamed, Dorsal Side (IM), Boneless Loin, Bottom Sirloin Butt, Flap Steak (IM) Loin, Bottom Sirloin Butt, Ball Tip Steak Loin, Bottom Sirloin Butt, Tri-Tip Steak (IM) Loin, Bottom Sirloin Butt, Tri-Tip Steak, Defatted (IM) Loin, Tenderloin, Steak, Bone-in Loin, Tenderloin Steak Loin, Tenderloin Steak, Side Muscle On, Defatted Loin, Tenderloin Steak, Side Muscle On, Partially Defatted Loin, Tenderloin Steak, Side Muscle Off, Defatted Loin, Tenderloin Steak, Side Muscle Off, Skinned Loin, Tenderloin Steak, Center-Cut, Skinned Loin, Tenderloin Tips
+
+Suggested Portion Weight Range (Ounces)
+3-24 3-24 3-12 10-12 8-24 8-24 8-24 6-20 6-20 4-12 4-24 4-16 4-16 4-8
+3-8
+3-8 3-10 3-8 3-8 3-8 4-14 3-14 3-14 3-14 3-14 3-14 Amount as Specified
+
+66 67 67 67
+Page #
+67 67 68 68 68 68 68 68 68 68 69 69 69
+69
+69 69 69 69 69 69 69 70 70 70 70 70
+
+3.7 Netting & Tying
+Many of the item descriptions require roasts to be netted or tied to facilitate institutional style cookery methods. The purchaser may specify the netting and tying requirements for such items as needed.
+When tying is required, stretchable netting (or any other equivalent material) shall be used to make roasts firm and compact. Unless otherwise specified, roasts shall be netted so that all portions are held intact, without any portions protruding through the ends
+18
+
+of the netting. Conversely, excess netting at the portion ends shall be no more than 2.0 inches (5.0 cm) in length. Alternatively, roasts may be string tied by loops of twine uniformly spaced at no more than approximately 2.0 inches (5.0 cm) intervals along the items length). When tying does not make roasts firm and compact, lengthwise tying may be used. For net weight verification, netting and tying material shall be included along with packaging materials when determining tare weight.
+3.8 Packaging & Packing
+Purchaser shall specify packaging and packing for delivery of product. (See IMPS GR.)
+3.9 Quality Assurance
+The purchaser may consult the IMPS QAP for options regarding production examination and lot acceptance criteria in terms of acceptable AQLs.
+4.0 USDA Certification and Verification
+4.1 Contact Information
+When requested, the purchaser shall specify within a contract or purchase order that product shall be certified or that the producer is operating under an approved IMPS Process Verified Program by the USDA, AMS, LPS, QAD. The IMPS QAP, http://www.ams.usda.gov/AMSv1.0/getfile?dDocName=STELDEV3003293, will be used to determine compliance. Purchasers desiring these services should contact:
+USDA, AMS, LPS Program, QAD 1400 Independence Ave, SW, Room 3932, Stop 0258 Washington, DC 20250 Phone: (202) 720-3271
+5.0 Material Requirements
+All products offered shall comply with the following material requirements and the individual item descriptions. For certification, product shall be evaluated in accordance with the IMPS QAP.
+6.0 Quality
+6.1 Excellent Condition
+All product offered as meeting the specification requirements must be in excellent condition. For certification, product shall be in the fresh-chilled state (not previously frozen) when examined for excellent condition; e.g., exposed lean and fat surfaces shall be of a color and bloom normally associated with the class, grade, and cut of meat, and typical of meat which has been properly stored and handled. Cut surfaces and naturally exposed lean surfaces shall show no more than slight darkening or discoloration due to dehydration, aging, and/or microbial activity. The fat shall show no more than very slight discoloration due to oxidation or microbial activity. No odors foreign to fresh meat shall be present. Changes in color and odors characteristically associated with vacuum packaged meat in excellent condition shall be
+19
+
+acceptable. Also, product shall show no evidence of freezing, defrosting, or mishandling. Beef must be maintained in excellent condition through processing, storage, and transit.
+Portion-cut and ground items to be delivered frozen may be produced from frozen meat cuts which have been previously certified in the fresh-chilled state, provided such cuts show no evidence of deterioration. Unless otherwise specified, portion cut items shall maintain their approximate original shape. Products thus produced shall be packaged, packed, and returned promptly to the freezer.
+6.2 Lean Quality
+Except for ground and flaked items, dark cutting and/or calloused beef is not acceptable. All beef shall be free of bruises, blood clots, bloody tissue, blood discoloration, exposed blood vessels, cod and/or udder fat, gambrel cord, specified risk materials or any other conditions which would negatively affect the use of the product.
+Beef cuts shall be free of dislocated or enlarged joints or other malformations of the skeletal structure. However, cuts with bones broken during processing are acceptable if the bones are not splintered to the extent that the lean around the fracture is affected.
+6.3 Workmanship
+Except for cuts that are separated through natural seams, all cut surfaces shall form approximate right angles with the skin surface. No more than a slight amount lean, fat, or bone shall be removed or included from an adjacent cut.
+Except for steaks which are cubed and/or knitted or unless otherwise specified in the individual item description, steaks shall be cut in full slices in a straight line reasonably perpendicular to the outer surface and at an approximate right angle to the length of the cut being sliced or portioned. For individual muscle cuts, portions shall be made by slicing perpendicular to the grain (muscle fiber alignment) of the cut. Portion-cut items shall be practically free of: (1) fractures, (2) tag ends, and (3) knife scores. Individual steaks shall remain intact when suspended ½-inch (13 mm) from the outer edge.
+6.4 Fat Trimming
+Trimming of external fat shall be accomplished by smoothly removing the fat following the contour of the underlying muscle surface. Beveling of the edges only is not acceptable. Two terms used for describing fat limitations are: (1) maximum fat thickness at any one point and (2) average fat thickness. Fat thickness requirements may apply to surface fat (external and/or exterior fat in relationship to the item) and seam fat (fat between adjacent muscles within an item) as specified by the purchaser or within the detailed item description.
+6.4.1 Peeled/Denuded
+The term "peeled" implies surface fat and muscle separation through natural seams so that the resulting cut's seamed surface ("silver" or "blue" tissue) is exposed with remaining "flake" fat NTE 1.0 inch (25 mm) in the longest dimension and/or ⅛-inch (3 mm) in depth at any point. The
+20
+
+term "denuded" implies all surface fat is removed so that the resulting cut's seamed surface ("silver" or "blue tissue") is exposed with remaining "flake" fat NTE 1.0 inch (25 mm) in any dimension and/or ⅛-inch (3 mm) in depth at any point. 6.4.2 Peeled/Denuded, Surface Membrane Removed Peeled/denuded, surface membrane removed requires the surface membrane ("silver" or "blue" tissue) to be removed (skinned); the resulting cut surface shall expose at least 90 percent lean with remaining "flake" fat NTE ⅛-inch (3 mm) in depth. 6.4.3 Cuts & Roast Items For cuts and roast items, the maximum fat thickness at any one point is evaluated by visually determining the area of a cut which has the most fat thickness and measure the thickness (depth) at this point. The average fat thickness is evaluated by visually determining the areas of surface fat and taking multiple measurements in these areas only. The average shall be determined by evaluating the amount of surface area that each thickness represents (e.g., if one third of the fat surface was 0.2 inch in depth, one third was 0.3 inch in depth and one third was 0.4 inch in depth, then the average would be 0.3 inch). The actual measurements of fat are made on the edges of the cut and by probing or scoring the overlying surface fat as necessary in a manner that reveals the actual fat thickness and accounts for any natural depression or seam which could affect the measurement.
+6.4.4 Bridging & Planing When a natural depression occurs in a muscle, only the fat above the portion of the depression which is more than ¾-inch (19 mm) in width is considered (this method is known as "bridging"). When a seam of fat occurs between adjacent muscles only the fat above the level of the involved muscles is measured (this method is known as "planing"). However, when fat limitations for Peeled/Denuded or Peeled/Denuded, Surface Membrane Removed are specified, the bridging method shall be used for evaluating fat above a natural depression in a muscle and fat occurring between adjacent muscles.
+21
+
+6.4.5 Diced & Portion-Cut Items
+For the purpose of measuring surface fat, the maximum fat thickness at any one point is evaluated by visually determining the areas on the edges of either side of the dice or portion-cut which have the thickest amount of fat and measuring the thickness (depth) of fat in these areas. The average fat thickness is evaluated by visually determining the various areas of surface fat and taking multiple measurements in these areas. The average shall be determined by evaluating the amount of surface area that each thickness represents.
+The actual measurements of fat are made on the edges of the cut and by probing or scoring the fat surface as necessary in a manner that reveals the actual fat thickness. For steak items, the bridging and/or the planing methods shall be applied to take into account any natural depression occurring in a muscle and/or when a seam of fat occurs between adjacent muscles.
+6.4.6 Seam Fat
+For the purpose of measuring seam fat, when specified, the maximum fat thickness at any one point is evaluated by visually determining the areas of fat between layers of lean (muscles) on any side of the cut which have the thickest (widest) deposits of fat and measuring the width in these areas. The average fat thickness is evaluated by visually determining the various areas of seam fat and taking multiple measurements in these areas. The average shall be determined by evaluating the areas that each thickness (width) represents.
+For steak items, the bridging and/or planing methods shall be applied to take into account the irregular widths of the seam fat within a muscle depression or between adjacent muscles in order to reveal the actual fat thickness (width) of fat within a seam. Seam fat shall be evaluated no closer than ¾-inch (19 mm) from the contour (projected perimeter when symmetrically formed or unformed) of the outer edge of the steak.
+However, when fat limitations for Peeled/Denuded or Peeled/Denuded, Surface Membrane Removed are specified, the bridging method shall be used for evaluating surface fat above a natural depression in a muscle and fat occurring between adjacent muscles.
+6.5 Objectionable Materials
+Trimming for further processing into ground, flaked, chopped, or diced items - The processor shall remove materials that are objectionable and will have a negative impact on quality of the end item. The following objectionable materials shall be excluded: • Major lymph glands (prefemoral, popliteal, and prescapular), thymus gland, and the sciatic
+(ischiatic) nerve (lies medial to the outside round). • All bone, cartilage, and the following heavy connective tissues:
+o White fibrous – Shoulder tendon, elbow tendon, silver skin (outside round), sacrociatic ligament, opaque periosteum, serous membrane (peritoneum), tendinous ends of shanks, gracilis membrane, patellar ligament (associated with the stifle joint), and achilles tendon.
+o Yellow elastin – Back strap and abdominal tunic.
+22
+
+6.5.1 Specified Risk Material FSIS has declared specified risk materials as unfit for human food because they present a sufficient risk of exposing humans to Bovine Spongiform Encephalopathy. In accordance with 9 CFR 310.22, the following specified risk materials shall be completely removed during beef harvest and fabrication: o Cattle 30 months of age and older - All portions of the brain, skull, eyes, trigeminal ganglia, spinal cord, vertebral column (excluding the vertebrae of the tail, the transverse processes of the thoracic and lumbar vertebrae, and the wings of the sacrum), and dorsal root ganglia. o All cattle - The distal ileum of the small intestine and tonsils.
+23
+
+7.0 Diagrams 24
+
+7.2 Beef Side Primal Diagram 25
+
+7.3 Primal Separation Diagrams 26
+
+27
+
+7.3.2 Chuck – Brisket Separation – New Image Coming Soon! 28
+
+29
+
+30
+
+7.3.5 Short Loin – Sirloin Separation – New Image Coming Soon! 31
+
+7.3.6 Loin – Round Separation – New Image Coming Soon! 32
+
+8.0 Cut Descriptions
+8.1 Myology
+A reference for identification of muscles is the University of Nebraska’s "Bovine Myology & Muscle Profiling" Web site (http://bovine.unl.edu) funded by the Beef Checkoff and produced by the National Cattlemen’s Beef Association (www.beef.org).
+8.2 Foodservice Cut Descriptions
+Item No. 100 - Beef Carcass - The carcass shall consist of two matched sides each consisting of a forequarter and a hindquarter. The sides shall be produced by splitting the carcass down the back exposing the spinal groove at least 75 percent of the length of either side. No more than a minor amount of major muscles shall be removed from either side. The quarters are produced by completely or partially separating the forequarters from the hindquarters by a cut following the natural curvature between the 12th and 13th ribs. The diaphragm may be removed. However, if present it shall be firmly attached and the membranous portion shall be trimmed close to the lean. The thymus gland and heart fat shall be closely removed.
+Item No. 100A - Beef Carcass, Trimmed - This item is prepared as described in Item No. 100 except the kidney, kidney knob, adjacent internal fats, and hanging tender are removed. The fat covering the lumbar, sacral, pelvic, and tenderloin regions shall be trimmed NTE 1.0 inch (25 mm) in depth at any point.
+Item No. 101 - Beef Side - This item is as described in Item No. 100 except the side is one matched forequarter and hindquarter. The side shall be trimmed as described in Item No. 100.
+Item No. 102 - Beef Forequarter - The beef forequarter is the anterior portion of the side after severance from the hindquarter as described in Item No. 100. The forequarter shall be trimmed as described in Item No. 100.
+Item No. 102A - Beef Forequarter, Boneless - This item consists of the boneless rib, chuck, brisket, foreshank, and plate. The cut posterior to the 12th rib mark shall follow the natural curvature of the rib. The clod (the large muscle system which lies dorsal and posterior to the elbow joint, ventral and posterior to the ridge of the scapula, and is anterior to the 6th rib) shall be separated as described in Item No. 114. All bones, cartilages, backstrap, prescapular lymph gland, and tendinous ends of the foreshank and clod evidencing less than 75 percent lean on a cross-sectional cut shall be removed. The purchaser shall specify if this item shall remain intact or be separated into cuts.
+Item No. 103 - Beef Rib, Primal - The primal rib is that portion of the forequarter remaining after removal of the cross-cut chuck and short plate and shall contain seven ribs (6th to 12th inclusive), the posterior tip of the blade bone (scapula), and the thoracic vertebra attached to the ribs. The loin end shall follow the natural curvature of the 12th rib. The chuck is removed by a straight cut between the 5th and 6th ribs. The short plate shall be removed by a straight cut which is ventral to, but not more than 6.0 inches (15.0 cm) from, the M. longissimus dorsi at the loin end to a point on the chuck end ventral to, but not more than 10.0 inches (25.4 cm) from, the M. longissimus dorsi. The diaphragm and fat on the ventral surface of the vertebrae shall be removed.
+Item No. 103A - Beef Rib, Regular - This item is prepared as described in Item No. 103 except that the short plate shall be removed by a straight cut which is ventral to, but not more than 3.0 inches (7.5 cm) from the M. longissimus dorsi at the loin end to a point on the chuck end ventral
+33
+
+to, but not more than 4.0 inches (10.0 cm) from, the M. longissimus dorsi. The protruding edge of the chine bone shall be removed.
+Item No. 104 - Beef Rib, Oven-Prepared, Regular - The oven prepared rib is as described in Item No. 103 except that the short plate shall be removed by a straight cut which is ventral to, but not more than 4.0 inches (10.0 cm) from, the M. longissimus dorsi at the loin end to a point on the chuck end ventral to, but not more than 8.0 inches (20.0 cm) from, the M. longissimus dorsi. The chine bone shall be removed such that the lean is exposed between the ribs and the feather bone/vertebrae junctures, leaving the feather bones attached. The blade bone and related cartilage shall be removed.
+Item No. 107 - Beef Rib, Oven-Prepared - This item is prepared as described in Item No. 103 except that the short plate shall be removed by a straight cut which is ventral to, but not more than 3.0 inches (7.5 cm) from the M. longissimus dorsi at the loin end to a point on the chuck end ventral to, but not more than 4.0 inches (10.0 cm) from, the M. longissimus dorsi. The chine bone shall be removed such that the lean is exposed between the ribs and the feather bone/vertebrae junctures, leaving the feather bones attached. The blade bone and related cartilage shall be removed.
+Item No. 107A - Beef Rib, Oven-Prepared, Blade Bone In - This item is as described in Item No. 107 except that the blade bone and related cartilage may remain.
+Item No. 108 - Beef Rib, Oven-Prepared, Boneless - This boneless item is prepared from Item No. 103. The loin end shall be exposed by a cut that follows the natural curvature of the 12th rib mark and that exposes the M. spinalis dorsi not extending more than half the length of the M. longissimus dorsi. On the chuck end, the M. longissimus dorsi shall be at least twice as large as the complexus. Seven rib marks shall be present. The short plate shall be removed by a straight cut that is ventral to, but not more than 3.0 inches (7.5 cm) from, the M. longissimus dorsi at the loin end to a point on the chuck end ventral to, but not more than 4.0 inches (10.0 cm) from, the M. longissimus dorsi. All bones, cartilages, related M. intercostales interni, and backstrap shall be removed. The rib shall be netted or tied when specified.
+Item No. 109 - Beef Rib, Roast-Ready - This item is prepared as described in Item No. 103 except that the short plate shall be removed by a straight cut that is ventral to, but not more than 3.0 inches (7.5 cm) from, the M. longissimus dorsi at the loin end to a point on the chuck end ventral to, but not more than 4.0 inches (10.0 cm) from, the M. longissimus dorsi. The chine bone shall be removed such that the lean is exposed between the ribs and the feather bone/vertebrae junctures, leaving the feather bones attached. The blade bone and related cartilage, backstrap, M. latissimus dorsi, M. infraspinatus, M. subscapularis, M. rhomboideus, and M. trapezius shall be removed. The exterior fat covering (that covered the M. latissimus dorsi and M. trapezius) shall not exceed 1.0 inch (25 mm) in depth at any point. The fat cover may be separated to accommodate removal of the backstrap and returned to its original position. The fat cover shall be trimmed even with the short plate side and shall not have holes larger than 2.0 square inches (12.9 sq cm). The rib shall be netted or tied when specified.
+Item No. 109A - Beef Rib, Roast-Ready, Special - This item is as described in Item No. 109 except that feather bones are removed. The exterior fat covering (that covered the M. latissimus dorsi, M. trapezius, M. longissimus dorsi, and M. spinalis dorsi) shall be separated to facilitate trimming of the underlying fat. The underlying fat covering the M. longissimus dorsi and M. spinalis dorsi shall be trimmed to a uniform thickness for the entire seamed surface. The exterior fat covering shall be returned and positioned so that it extends from the edge of the rib bones where the feather bones were, toward the edges of the rib bones at the short plate side. Fat cover extending beyond the short plate edges of the ribs shall be removed. The fat
+34
+
+cover shall not exceed 1.0 inch (25 mm) in thickness at any point and shall not have holes larger than 2.0 square inches (12.9 sq cm).
+Item No. 109B - Beef Rib, Blade Meat - This item consists of portions of those muscles that are immediately below (M. subscapularis and M. rhomboideus) and above (M. latissimus dorsi, M. infraspinatus, and M. trapezius) the blade bone and related cartilage of the primal rib. The lean surfaces shall be trimmed practically free of fat. All bones and cartilages shall be removed. This item is often referred to as “lifter meat” or “cap and wedge meat”.
+Item No. 109C - Beef Rib, Roast-Ready, Cover Off - This item is prepared as described in Item No. 109A except that the fat cover shall be excluded.
+Item No. 109D - Beef Rib, Roast-Ready, Cover Off, Short Cut (Export Style) - This item is as described in Item 109A except that the fat cover shall be removed and the short plate shall be removed by a straight cut which is ventral to, but not more than 2.0 inches (5.0 cm) from, the M. longissimus dorsi at the loin end to a point on the chuck end ventral to, but not more than 3.0 inches (7.5 cm) from, the M. longissimus dorsi.
+Item No. 109E - Beef Rib, Ribeye Roll, Lip-On, Bone In (Export Style) - This item is as described in Item 109D except that the short plate shall be removed by a straight cut which is ventral to, but not more than 2.0 inches (5.0 cm) from the M. longissimus dorsi. The PSO’s for short plate removal are as follows:
+
+Option No.
+
+Description
+
+1
+
+1.0 in. (25 mm) x 1.0 in. (25 mm)
+
+2 0 in. x 0 in. (product name shall omit reference to "lip-on")
+
+3
+
+Other
+
+Item No. 110 - Beef Rib, Roast-Ready, Boneless - This item is as described in Item No. 108 except that the M. latissimus dorsi, M. infraspinatus, M. subscapularis, M. rhomboideus, and M. trapezius, shall be removed. The exterior fat covering which covered the M. latissimus dorsi and M. trapezius shall be left intact. Fat cover extending beyond the short plate edge shall be removed. The roast shall be netted or tied. Purchaser may specify lip length (short plate) removal.
+Item No. 111 - Beef Rib, Spencer Roll - This item is as described in Item No. 108 except that the muscles (M. latissimus dorsi and M. trapezius) and fat cover overlying the blade pocket shall be removed. The short plate shall be removed by a straight cut that is ventral to, but not more than 2.0 inches (5.0 cm) from, the M. longissimus dorsi at the loin end to a point on the chuck end ventral to, but not more than 1.0 inch (25 mm) from, the M. longissimus dorsi.
+Item No. 112 - Beef Rib, Ribeye Roll - The ribeye roll includes the M. longissimus dorsi, M. spinalis dorsi, M. complexus, and M. multifidus dorsi muscles as described in Item No. 108. The "lip" (M. serratus dorsalis and M. longissimus costarum muscles and related intermuscular fat) on the short plate side shall be removed at the natural seam immediately ventral to the M. longissimus dorsi. This item shall be practically free of surface fat and M. intercostales interni. All other muscles, bones, cartilages, backstrap and the exterior fat cover shall be removed.
+35
+
+Item No. 112A - Beef Rib, Ribeye Roll, Lip-On - This item is the same as Item No. 112 except that the "lip" (M. serratus dorsalis and M. longissimus costarum and related intermuscular fat) remains attached on the short plate side and shall be prepared by a straight cut which is ventral to, but not more than 2.0 inches (5.0 cm) from, the M. longissimus dorsi.
+
+Item No. 112C - Beef Rib, Ribeye (IM) - This item shall consist of the M. longissimus dorsi from any rib eye roll. The M. complexus and M. spinalis dorsi shall be removed by cutting through the natural seams.
+
+Item No. 112D - Beef Rib, Ribeye Cap (IM), - This item shall consist of the M. spinalis dorsi/multifidus dorsi removed from any rib eye roll by cutting through the natural seams.
+
+Option No.
+1
+
+Description M. Complexus muscle included
+
+Item No. 113 - Beef Chuck, Square-Cut - This item is the portion of the forequarter after removal of the rib, short plate, foreshank, and brisket. The rib end of the chuck shall be prepared by a straight cut between the 5th and 6th ribs. The brisket and foreshank shall be removed by a straight cut which is at an approximate right angle to the rib end. Evidence of the cartilaginous juncture of the 1st rib and the sternum shall be present on the brisket side. The thymus gland and heart fat shall be closely removed.
+Item No. 113A - Beef Chuck, Square-Cut, Divided - This item is as described in Item No. 113 except the chuck is separated into the blade portion and the arm portion. The separation shall be made by a cut parallel with the brisket side and ventral to, but not more than 5.0 inches (12.5 cm) or less than 3.0 inches (7.5 cm) from, the M. longissimus dorsi at the rib end.
+Item No. 113B - Beef Chuck, Square-Cut, Neck-Off, Divided - This item is as described in Item No. 113A except the neck is removed from the blade portion by a straight cut, approximately parallel to the rib end, leaving no more than two cervical vertebrae on the blade portion.
+Item No. 113C - Beef Chuck, Square-Cut, Neck-Off, 2 Piece, Semi Boneless - This item shall consist of the blade portion of Item No. 113B and the arm roast as described in Item No. 114E. A blade portion and an arm roast shall be individually packaged and placed into the same container.
+Item No. 114 - Beef Chuck, Shoulder (Clod) - The shoulder (clod) is the large muscle system which lies dorsal and posterior to the elbow joint, ventral and posterior to the ridge of the scapula (blade bone), and is anterior to the 6th rib. The Mm. cutaneous trunci/cutaneous omobrachialis (shoulder rose) shall be removed when the underlying fat exceeds the surface fat thickness specified. The presence of the M. trapezius, M. cutaneous trunci, M. teres major, and the minor muscles over the humerus are optional, however, the M. teres major is generally excluded unless otherwise specified. The tendons on the elbow end shall be trimmed to be even with the lean. All bones and cartilages shall be removed.
+Item No. 114A - Beef Chuck, Shoulder Roast - This item is as described in Item No. 114 except that the shoulder shall be trimmed so that it is not less than 1.0 inch (25 mm) thick at any point, except within ¾-inch (19 mm) of the juncture of the M. trapezius and M. latissimus dorsi. In this instance, the underlying fat must be trimmed to comply with the surface fat thickness
+36
+
+requirements. When smaller roast are specified, the thick (arm) end of the shoulder shall be separated from the thin (blade) end and if necessary, subsequent cuts shall be made at right angles to the blade side splitting the arm end into approximate equal portions. The blade end shall be split lengthwise into approximately equal portions, the ends shall be reversed, the boned surfaces placed together, and if necessary, a subsequent cut(s) shall be made at a right angle to the length of the blade portion into approximate equal portions. All roasts shall be netted or tied.
+Item No. 114B - Beef Chuck, Shoulder Roast, Special - This item is as described in Item No. 114A except that the whole Shoulder shall be split lengthwise, the ends shall be reversed so that the boned surfaces are placed together to produce a uniformly thick roast. The roasts shall be held together by netting or tying. When smaller roasts are specified, the roast shall be divided by a straight cut(s) at a right angle to the length of the shoulder into approximate equal portions.
+Item No. 114C - Beef Chuck, Shoulder (Clod), Trimmed - This item is as described in Item No. 114 except that the Mm. cutaneous trunci/cutaneous omobrachialis (shoulder rose), M. latissimus dorsi, the optional minor muscles (M. trapezius, M. teres major, and muscles over the humerus) shall be removed. To facilitate packaging, the M. infraspinatus may be separated, packaged, and included within the same shipping container.
+Item No. 114D - Beef Chuck, Shoulder (Clod), Top Blade - This item is derived from Item No. 114 and shall consist of the M. infraspinatus, untrimmed.
+
+Option No. 1
+
+Description
+Purchaser may request that this item be further trimmed to remove the internal connective tissue (shoulder tendon). To remove the tissue or tendon it must be completely exposed by a butterfly cut prior to its removal. Purchaser may also request that this item then be separated into two pieces after completely removing the shoulder tendon. After removal of the shoulder tendon, this item is often referred to as the “Flat Iron”.
+
+Item No. 114E - Beef Chuck, Shoulder (Clod), Arm Roast - This item is derived from Item No. 114 and shall consist of the large muscle system of the thick end of the Shoulder (M. triceps brachii long head, M. triceps brachii lateral head and may consist of the M. triceps brachii medial head and M. tensor fascia antibrachii). This item is commonly referred to as the “Clod Heart or Shoulder Center”
+
+Item No. 114F – Beef Chuck, Shoulder, Tender (IM) – This item shall consist of the M. teres major derived from the medial surface of the shoulder (outside shoulder). It shall be removed from the M. latissimus dorsi and M. triceps brachii group by cutting through the natural seams. This item is sometimes referred as a Beef Shoulder, Petite Tender.
+
+Option No. 1
+
+Description
+PSO 1- Purchaser may request this item be trimmed to FLO 6, Peeled/Denuded, Surface membrane removed.
+
+37
+
+Item No. 114G – Beef Chuck, Shoulder, Arm, Center Cut (IM) – This items is derived from Item No. 114E and shall consist of the M. triceps brachii long head muscle.
+Item No. 115 - Beef Chuck, Square-Cut, Boneless - This boneless item is prepared from any chuck item with the brisket and foreshank removed. The full shoulder shall be separated (but included) as described in Item No. 114 and may be separated prior to cutting the brisket side. On the rib end, the M. longissimus dorsi shall be twice as large as the M. complexus. No fewer than 5 rib marks shall be present. The brisket side and rib end shall be straight cuts forming an approximate right angle. On the brisket side, the M. pectoralis profundi shall extend to the 3rd rib mark but not past the 5th rib mark. If specified, the blade portion shall be separated from the arm portion (after separation of the Shoulder) by a straight cut, approximately perpendicular with the rib end, which is ventral to, but not more than 5.0 inches (12.5 cm) or less than 3.0 inches (7.5 cm) from, the M. longissimus dorsi at the rib end. All bones, cartilages, backstrap, prescapular lymph gland, heart fat and thymus gland shall be removed.
+Item No. 115A - Beef Chuck, Blade Portion, Boneless - This item is as described in Item Nos. 115 or 126 except that the arm portion and shoulder shall be excluded.
+Item No. 115B - Beef Chuck, Arm-Out, Boneless - This item is as described in Item Nos. 115 or 126 except that the arm portion shall be excluded.
+Item No. 115C - Beef Chuck, Square-Cut, Neck-Off, Boneless - This item is as described in Item No. 115 except that the neck shall be removed from the blade portion by a straight cut, approximately parallel to the rib end, exposing a cross section of the M. supraspinatus.
+Item No. 115D – Beef Chuck, Square-Cut, Pectoral Meat (IM) – This item consist of the M. pectoralis profundi that remains within the square-cut chuck after the removal of the brisket. It is removed from the chuck by cutting through the natural seams.
+Item No. 116 - Beef Chuck, Square-Cut, Clod-Out, Boneless - This item is prepared as described in Item No. 115 except that the shoulder clod shall be excluded.
+Item No. 116A - Beef Chuck, Chuck Roll - This boneless item consists of the large muscle system of the chuck which lies under the blade bone and contains the M. longissimus dorsi, M. rhomboideus, M. spinalis dorsi, M. complexus, M. multifidus dorsi, M. serratus ventralis, M. subscapularis, and M. splenius. The rib end shall be made by a straight cut exposing the M. longissimus dorsi to be at least twice as large as the M. complexus and forms an approximate right angle with the length of the chuck roll. The neck shall be removed by a straight cut which is approximately parallel with the rib end and is anterior to, but not more than ½-inch (13 mm) from, the M. serratus ventralis. The arm portion shall be removed by a straight cut that is at an approximate right angle to the rib end and is, not more than 3.0 inches (7.5 cm), ventral from the M. longissimus dorsi at the rib end and not more than 4.0 inches (10.0 cm) from the M. complexus at the neck end. All bones, cartilages, backstrap, M. trapezius, M. supraspinatus, M. intercostales interni (rib fingers), and prescapular lymph gland shall be removed. When smaller roasts are specified, the chuck roll shall be divided by cutting through the meat perpendicular to the length of the chuck roll into approximately equal portions. This item shall be netted or tied when specified. The PSO’s are as follows:
+Option No. Description
+38
+
+Arm removed by a straight cut not exceeding 1.0 inch (25 mm)
+
+1
+
+from the M. longissimus dorsi on the rib end and 1.0 inch (25
+
+mm) from the M. complexus on the neck end.
+
+2 Arm removed by straight cut immediately ventral to M. longissimus dorsi and M. complexus.
+
+3
+
+The M. subscapularis shall be removed.
+
+The "hump meat" (dorsal portion of the M. rhomboideus) shall
+
+4
+
+be removed so that the dorsal edge is a straight cut parallel to
+
+the arm (ventral) edge.
+
+Item No. 116B - Beef Chuck, Chuck Tender (IM) - This item consists of the M. supraspinatus which lies dorsal to the medial ridge of the blade bone. The chuck tender shall be separated from the other muscles through the natural seams.
+
+Option No. 1
+
+Description
+PSO 1- The heavy connective tissue on the thick end of the chuck tender shall be exposed and removed by a butterfly cut leaving a score that is no more than 2.0 inches (5.0 cm) into the lean.
+
+Item No. 116C - Beef Chuck, Chuck Roll, Untrimmed - This boneless item is as described in Item No. 116A except that the neck is not removed and the M. longus coli (rope) may remain if it is firmly attached. However, when present, the M. longus coli shall not extend past the first rib mark and shall be trimmed so no portion extends more than 3.0 inches (7.5 cm) from the point where it is attached. The arm side shall be made by a straight cut that is at an approximate right angle to the rib end and is, not more than 4.0 inches (10.0 cm), ventral from the M. longissimus dorsi at the rib end.
+Item No. 116D - Beef Chuck, Chuck Eye Roll - This item is the muscle group from Item No. 116A that consists of the M. longissimus dorsi, M. spinalis dorsi, M. multifidus dorsi, M. complexus, and minor muscles immediately ventral to the M. longissimus dorsi. The chuck eye roll shall be removed from the underblade roll by cutting through the natural seams and shall be practically free of surface fat.
+
+Option No. 1
+
+Description
+The purchaser may specify to have the portion of the chuck eye roll anterior to the M. longissimus dorsi excluded. This remaining portion of the chuck eye roll is sometimes referred to as a “Beef Chuck, Delmonico Roast”.
+
+Item No. 116E - Beef Chuck, Under Blade Roast - This item is derived from Item No. 116A after removal of the chuck eye roll and shall consist of the M. serratus ventralis, M. rhomboideus and M. splenius. The dorsal and ventral edges shall be straight cuts which are approximately parallel with each other, removing the ‘hump meat’ (dorsal portion of the M. rhomboideus).
+39
+
+Item No. 116F – Beef Chuck, Under Blade, Flat Cut (IM) – This item is derived from Item No. 116E and shall consist of the M. splenius. The M. splenius is separated from the M. serratus ventralis and M. rhomboideus by cutting through the natural seams.
+Item No. 116G – Beef Chuck, Under Blade, Center Cut (IM) – This item shall consists of the M. serratus ventralis in its entirety from the Item No. 116A or 116E. This item is sometimes referred to as ‘Denver Cut’.
+
+Option No. 1
+
+Description
+The item may consist of any portion of the item 116G. When the portion consists of the M. serratus ventralis that is associated with the removal of the ventral edge of the Chuck Roll to comply with PSO #1 of IMPS Item No. 116A, it is commonly referred to as the “Edge Roast” or “Chuck Flap”.
+
+Item No. 116H – Beef Chuck, Chuck Eye (IM) – This item shall consist of the M. complexus that is derived from the Chuck Eye Roll.
+Item No. 116I – Beef Chuck, Neck Roast – This item is derived from the anterior end of the untrimmed chuck roll. It is removed as described in Item No. 116A.
+Item No. 116K – Beef Chuck Roll, 3-Way – This item shall consist of the Chuck Eye Roll (Item No. 116D), M. serratus ventralis and M. splenius from the Under Blade (Item No. 116E). The M. serratus ventralis (Item No. 116G ) and M. splenius (Item No. 116F) shall be separated from each other and the M. rhomboideus by cutting through the natural seams. The 3 pieces shall be individually packaged and placed into the same container.
+Item No. 117 - Beef Foreshank - The foreshank shall be removed from the square-cut chuck by a straight cut exposing a cross section of the humerus. The brisket shall be removed by a cut through the natural seam.
+Item No. 118 - Beef Brisket - This item includes the anterior end of the sternum bones, M. pectoralis profundi, and the M. pectoralis superficialis (web muscle). The brisket is separated from the foreshank as specified in Item No. 117. The arm and the short plate sides shall be straight cuts which form an approximate right angle. Evidence of the cartilaginous juncture of the 1st rib and the sternum and the cross section of 4 rib bones shall be present. The heart fat shall be closely removed.
+Item No. 119 - Beef Brisket, Deckle-On, Boneless - This item is prepared from Item No. 118. The arm and the short plate sides shall be straight cuts forming an approximate right angle. The M. pectoralis profundi shall not completely extend to the dorsal edge of the short plate side. All bones and cartilages shall be removed.
+Item No. 120 - Beef Brisket, Deckle-Off, Boneless - This item is as described in Item No. 119 except that the deckle (hard fat and M. intercostales interni on the inside surface) shall be removed at the natural seam exposing the lean surface of the M. pectoralis profundi. The hard fat along the sternum edge shall be trimmed level with the boned surface. The inside lean surface shall be trimmed practically free of fat.
+Item No. 120A - Beef Brisket, Flat Cut, Boneless (IM) - This item may be prepared from any 40
+
+IMPS boneless brisket item and shall consist only of the M. pectoralis profundi. All surfaces shall be trimmed practically free of fat and the item shall be no less than ½-inch (13 mm) thick at any point.
+Item No. 120B - Beef Brisket, Point Cut, Boneless (IM) - This item may be prepared from any IMPS boneless brisket item and shall consist only of the M. pectoralis superficialis (web muscle). All surfaces shall be trimmed practically free of fat and shall be no less than ½-inch (13 mm) thick any point.
+Item No. 120C - Beef Brisket, 2 Piece, Boneless - This item shall consist of Item No. 120A and Item No. 120B packaged together.
+Item No. 121 - Beef Plate, Short Plate - This item is that portion of the forequarter immediately ventral to Item No. 103. The flank end shall follow the natural curvature of the 12th rib. The M. pectoralis profundi shall not completely extend to the dorsal edge of the brisket side. Seven ribs shall be present. The rib side shall be a straight cut which exposes the M. serratus ventralis to be continuous for at least 2 ribs. The diaphragm may be removed. However, if present it shall be firmly attached and the membranous portion shall be trimmed close to the lean.
+Item No. 121A - Beef Plate, Short Plate, Boneless - This item is prepared from Item No. 121. Seven rib marks shall be present. The rib side shall be a straight cut which exposes the M. serratus ventralis to be continuous for at least 2 rib marks. All bones and cartilage shall be removed. Item No. 121B - Beef Plate, Short Plate, Trimmed, Boneless- This item is as described in Item No. 121A except the diaphragm, serous membrane (peritoneum) and the M. transversus abdominis shall be removed.
+Item No. 121C - Beef Plate, Outside Skirt (IM) - This item is removed from the short plate. The outside skirt shall consist of the diaphragm which may have the serous membrane (peritoneum) attached. The membrane portion must be trimmed close to the lean.
+Item No. 121D - Beef Plate, Inside Skirt (IM) - This item shall consist of the M. transversus abdominis only. The serous membrane (peritoneum) shall be removed. The lean surface shall be trimmed practically free of fat.
+Item No. 121E - Beef Plate, Outside Skirt (IM), Skinned - This item is as described in Item No. 121C except that the serous membrane (peritoneum) shall be removed from both sides. The ends shall be squared off.
+Item No. 121F - Beef Plate, Short Plate, Short Ribs Removed - This item is as described in Item No. 121 except that the short rib portion is removed as described in Item No. 123. No more than 5 short ribs may be removed from the anterior end by a straight cut approximately parallel with the ventral side without exposing the M. pectoralis profundi.
+Item No. 121G - Beef Plate, Short Plate, Short Ribs Removed, Boneless - This item is as described in Item No. 121A except the short rib portion is removed as described in Item No. 123. No more than 5 short ribs may be removed from the anterior end by a straight cut approximately parallel with the ventral side without exposing the M. pectoralis profundi. All bones and cartilage shall be removed.
+Item No. 122 - Beef Plate, Full - This item shall consist of the short plate and brisket sections, intact. The flank end shall follow the natural curvature of the 12th rib. The chuck/rib side shall be a straight cut exposing the M. serratus ventralis to be continuous for at least 2 ribs.
+41
+
+Evidence of the cartilaginous juncture of the 1st rib and the sternum shall be present. The heart fat shall be closely removed. The diaphragm may be removed. However, if present it shall be firmly attached and the membranous portion shall be trimmed close to the lean.
+Item No. 122A - Beef Plate, Full, Boneless - The plate shall consist of the boneless short plate and brisket sections, intact. The flank end shall follow the natural curvature of the 12th rib mark. The chuck/rib side shall be a straight cut exposing the M. serratus ventralis to be continuous for at least 2 rib marks. The posterior end of M. pectoralis profundi shall extend to the 3rd rib mark but not past the 5th rib mark. All bones, cartilages, diaphragm, serous membrane (peritoneum), and heart fat shall be removed.
+Item No. 123 - Beef Short Ribs - This item consists of the rib section from any rib and/or plate item and shall contain at least 2 but no more than 5 ribs (ribs 6 through 10). The dorsal side shall be at an approximate right angle to the rib bones and the M. latissimus dorsi shall be continuous across the cut surface. The ventral side shall be a straight cut which is approximately parallel to the dorsal side and does not contain any costal cartilages. The M. cutaneous trunci, diaphragm, and serous membrane (peritoneum) shall be removed. The surface fat shall be trimmed NTE ¼-inch (6 mm) at any point. The purchaser shall specify the number of ribs and the width (distance between the dorsal and ventral sides) of the rib sections.
+Item No. 123A - Beef Short Plate, Short Ribs, Trimmed - This item is as described in Item No. 123 except that it shall be derived from the 6th, 7th, and 8th ribs of the short plate, the M. serratus ventralis shall be continuous across the cut surface for at least 2 ribs on both the dorsal and ventral sides, and the exterior fat cover and the M. latissimus dorsi shall be removed.
+Item No. 123B - Beef Rib, Short Ribs, Trimmed - This item is as described in Item No. 123 except that it shall be derived from the 6th, 7th, and 8th ribs of the primal rib, the M. serratus ventralis shall be exposed and continuous for at least 2 ribs on one side only, and the exterior fat cover and the M. latissimus dorsi shall be removed. This item shall be trimmed practically free of surface fat.
+Item No. 123C - Beef Rib, Short Ribs - This item is as described in Item No. 123 except that it shall be derived from the 6th, 7th, 8th ribs of the primal rib. The M. serratus ventralis shall be exposed and continuous for at least 2 ribs on one side only.
+Item No. 123D - Beef Short Ribs, Boneless (IM) - This item shall consist of the M. serratus ventralis muscle from any IMPS short rib item. The ribs and M. intercostales interni shall be removed.
+Item No. 124 - Beef Rib, Back Ribs - This item is the intact portion of the seven ribs and M. intercostales interni from Item Nos. 109 or 109A. The chine bone (thoracic vertebrae) and feather bones shall be removed exposing the sawed ends of the rib bones. Unless otherwise specified, back ribs shall be no less than 6.0 inches (15.0 cm) or no more than 8.0 inches (20.0 cm) wide at any point.
+Item No. 124A – Beef Rib, Back Rib, Rib Fingers – This item will consist of the M. intercostales interni that are removed from between the back ribs. Purchaser may specify that the costal cartilage be removed.
+Item No. 124B – Beef Plate, Rib Fingers – This item will consist of the M. intercostales interni that are removed from between the rib bones from a short plate.
+42
+
+Item No. 125 - Beef Chuck, Armbone - This item is as described in Item No. 113 except that the foreshank is left intact. The brisket is removed by a cut through the natural seam from the foreshank. The thymus gland and heart fat shall be closely removed.
+Item No. 126 - Beef Chuck, Armbone, Boneless - This boneless item is prepared from Item No. 125 and shall be separated into 3 portions (blade, arm, and shoulder) with the foreshank present. The M. longissimus dorsi shall be twice as large as the M. complexus on the rib end. No fewer than 5 rib marks shall be present. The brisket side and rib end shall be straight cuts forming an approximate right angle. The brisket side shall expose the M. pectoralis profundi extending posterior to the 3rd rib mark but not past the 5th rib mark. The brisket is removed from the foreshank by a cut through the natural seam. The shoulder shall be separated as described in Item No. 114. After the shoulder is removed, the blade portion shall be separated from the arm portion by a straight cut, approximately perpendicular with the rib end, which is ventral to, but not more than 5.0 inches (12.5 cm) or less than 3.0 inches (7.5 cm) from, the M. longissimus dorsi at the rib end. All bones, cartilages, backstrap, prescapular lymph gland, heart fat, thymus gland, and the tendinous end of the shank evidencing less than 75 percent lean on a cross-sectional cut shall be removed.
+Item No. 126A - Beef Chuck, Armbone, Clod-Out, Boneless - This item is as described in Item No. 126 except the shoulder is excluded.
+Item No. 127 - Beef Chuck, Cross-Cut - This item consists of the intact square-cut chuck, foreshank, and brisket and shall contain 5 ribs. The rib end of the chuck shall be a straight cut between the 5th and 6th ribs. The thymus gland and heart fat shall be closely removed.
+Item No. 128 - Beef Chuck, Cross-Cut, Boneless - This item consists of the intact boneless foreshank, brisket, and square-cut chuck with the full clod separated but included. The rib end of the chuck shall be a straight cut which exposes the M. longissimus dorsi to be at least twice as large as the M. complexus. No fewer than 5 rib marks shall be present. The shoulder shall be separated as described in Item No. 114. Unless otherwise specified, the chuck shall be separated into two portions by a straight cut, approximately parallel with the dorsal side, which is ventral to, but not more than 5.0 inches (12.5 cm) or less than 3.0 inches (7.5 cm) from, the M. longissimus dorsi at the rib end. The remainder of the chuck may be separated into 2 portions by a straight cut, approximately parallel to the dorsal side, ventral to, but not more than 3.0 inches (7.5 cm) from, the M. longissimus dorsi. In addition, the shank meat and brisket may be separated when specified by the purchaser. Unless otherwise specified, one of each portion shall be individually wrapped and packed in the same container. All bones, cartilages, backstrap, prescapular lymph gland, and the tendinous end of the shank exposing less than 75 percent lean on a cross-sectional cut shall be removed.
+Item No. 130 - Beef Chuck, Short Ribs - This item may be derived from the arm portion of any IMPS chuck item and shall include ribs 2 through 5, M. intercostales interni, and M. serratus ventralis. This item shall be trimmed practically free of surface fat. The dorsal edge shall have no evidence of the cartilaginous junctures of the ribs and thoracic vertebrae.
+Item No. 130A - Beef Chuck, Short Ribs, Boneless (IM) - This item is prepared from Item No. 130 and shall consist of the M. serratus ventralis from the arm portion of the chuck. The ribs and M. intercostales interni shall be removed. This item shall have at least four rib marks extending to the dorsal and ventral edge of the M. serratus ventralis. This item shall be trimmed practically free of fat and shall be no less than ½-inch (13 mm) thick at any point.
+Item No. 132 - Beef Triangle - This item consists of the forequarter minus the rib. The rib shall be removed by a straight cut between the 5th and 6th ribs and separated from the plate by
+43
+
+a straight cut exposing the cross section of 7 ribs. The flank end shall follow the natural curvature of the remaining portion of the 12th rib. The diaphragm may be removed. However, if present it shall be firmly attached and the membranous portion shall be trimmed close to the lean. The thymus gland and heart fat shall be removed.
+Item No. 133 - Beef Triangle, Boneless - This item is prepared from Item No. 132. The rib shall be removed by a straight cut between the 5th and 6th rib marks exposing the M. longissimus dorsi to be twice as large as the M. complexus and separated from the plate by a straight cut which exposes the cross section of 7 rib marks. No portions of the M. longissimus dorsi or M. pectoralis profundi shall be exposed and the M. serratus ventralis shall be continuous for at least 2 rib marks across the cut surface. The flank end shall follow the natural curvature of the remaining portion of the 12th rib mark. The diaphragm may be removed. However, if present it shall be firmly attached and the membranous portion shall be trimmed close to the lean. The shoulder shall be separated as described in Item No. 114 and included. All bones, cartilages, serous membrane (peritoneum), prescapular lymph gland, thymus gland, backstrap, and the tendinous end of the shank exposing less than 75 percent lean on a cross-sectional cut shall be removed.
+Item No. 134 - Beef Bones - This item consists of any one or combination of shank, femur, or humerus bones sawed into sections of lengths as specified by the purchaser. Marrow shall be exposed on at least one end of each sawed section.
+Item No. 135 - Diced Beef - Diced beef shall be prepared from any portion of the carcass which yields product that meets the end item requirements. Unless otherwise specified, shank, detached Mm. cutaneous, and heel meat shall be excluded. When heel meat is allowed by the purchaser, the M. superficial digital flexor shall be removed from the M. gastrocnemius through the natural seams. To facilitate dicing, meat may be frozen and/or tempered, one time only. The meat shall be either hand diced or mechanically diced (grinding is not permitted). Dices shall be free of bones, cartilages, heavy connective tissue, and lymph glands. Unless otherwise specified, at least 75 percent, by weight, of the resulting dices shall be of a size equivalent to not less than a ¾-inch (19 mm) cube or not more than a 1.5 inches (3.8 cm) cube and no individual surface shall be more than 2.5 inches (6.3 cm) in length. The surface and/or seam fat shall not exceed ½-inch (13 mm) thickness at any point.
+Item No. 135A - Beef for Stewing - This item is as described in Item No. 135 except (unless otherwise specified) at least 85 percent, by weight, of the resulting dices shall be of a size equivalent to not less than a ¾-inch (19 mm) cube or not more than a 1.5 inches (3.8 cm) cube and no individual surface shall be more than 2.5 inches (6.3 cm) in length. The fat thickness of the surface and/or seam fat shall not exceed ¼-inch (6 mm) at any point.
+Item No. 135B - Beef for Kabobs - This item is as described in Item No. 135 except (unless otherwise specified) at least 90 percent, by weight, of the resulting dices shall be of a size equivalent to not less than a 1.0 inch (25 mm) cube or not more than a 1.5 inches (3.8 cm) cube and no individual surface shall be more than 2.5 inches (6.3 cm) in length. The fat thickness of the surface and/or seam fat shall not exceed ⅛-inch (3 mm) at any point.
+Item No. 135C- Beef for Stir Fry - Beef for stir-fry shall be prepared from any portion of the carcass exclusive of shank, detached cutaneous muscles, and heel meat unless otherwise specified. When heel meat is allowed by the purchaser, the M. superficial digital flexor shall be separated and excluded from the M. gastronemius through the natural seams. The meat may be hand sliced or mechanically sliced (grinding is not permitted) to yield pieces that are approximately ½-inch (12 mm) in width, 1 inch (25 mm) thickness, and 3 inches (75 mm) in
+44
+
+length. No individual surface shall be more than 4 inches in length. Slices shall be free of bone, cartilage, heavy connective tissue, and lymph glands. Surface and seam fat shall not exceed ¼ -inch (7mm) at any point.
+
+Option No. Description
+
+Beef for stir-fry shall be made from raw materials that comply
+
+1
+
+with fat limitation option 6, peeled, denuded, surface
+
+membrane removed.
+
+The item shall be made exclusively from Item No. 121D, Inside
+
+Skirt and/or Item No. 193, Flank Steak. All membranous
+
+2
+
+tissue shall be removed.
+
+Item No. 136 - Ground Beef - Unless otherwise specified, ground beef may be derived from boneless meat which has been frozen and stockpiled. The purchaser may specify the maximum amount of frozen boneless meat that can be mixed with fresh-chilled meat prior to final grinding. All objectionable materials listed in the material requirements shall be removed.
+When specified by the purchaser, “finely textured beef”, low temperature rendered beef that is processed from boneless beef trimmings, is allowed to be combined with boneless beef meeting the above material requirements provided it does not exceed 20 percent by weight of the combined finished product. When finely textured beef is used, the following criteria must be met:
+
+Criteria Red Color Fat Content
+
+Description
+The producer of finely textured beef shall assure that the product has a discernible redness in color. The finely textured beef shall maintain the same redness in color until the time of blending and grinding to minimize the effect of the color to the finished ground beef.
+Does not exceed 10% fat.
+
+Grinding equipment shall have sharp knives and plates and be equipped with a bone/collector system. Objectionable material removed during final grinding may not be reintroduced into the finished product. The boneless meat shall be ground at least once through a plate having holes not larger than 1.0 inch (25 mm) in diameter, unless otherwise specified. Alternatively, boneless beef may be chopped or machine cut by any method provided the texture and appearance of the product after final grinding is typical of ground beef prepared by grinding only. Beef shall be thoroughly blended at least once prior to final grinding. However, the ground beef shall not be mixed after final grinding. Unless otherwise specified, final grinding shall be through a plate having holes ⅛-inch (3 mm) in diameter.
+45
+
+The purchaser may specify the use of a bone collector/extruder system on the final grind (3/16-inch (5 mm) or smaller plate) to remove objectionable materials (bone, cartilage, connective tissue, etc.). For certification purposes, the purchaser may waive examination for trimming defects provided the use of a bone collector/extruder system is specified.
+When coarse ground beef is specified, boneless meat shall be ground once through a plate having holes no larger than 1.0 inch (25 mm) and no smaller than ⅝-inch (16 mm) in diameter. Alternatively, the boneless meat may be ground twice, with the smallest plate having holes no larger than 1.0 inch (25 mm) and no smaller than ¾-inch (19 mm) in diameter. Coarse ground meat may be blended after grinding or between grinds to assure uniformity of fat content. The term “coarse ground” shall appear on the product label.
+Unless otherwise specified, the fat content shall be 20 percent fat. The purchaser may specify a different fat content provided it does not exceed 30 percent.
+Item No. 136A – Ground Beef and Soy Protein Product Patty Mix- This item is as described in Item No. 136 except that soy protein product (SPP) shall be added. Source (e.g., soy), Type1/ (flour, concentrate, or isolate), and Texture (granular or textured) of SPP shall be specified by the purchaser. The SPP may be used dry, partially hydrated, or fully hydrated. If not specified, the dry SPP shall be fully hydrated to yield a minimum of 18 percent protein. To determine the maximum amount of water to be mixed with the dry VPP to yield 18 percent protein in the mixture, the following equation shall be used:
+
+Equation
+[(Percent Protein of SPP on “As-Is” Basis / 18) – 1] = x
+x = maximum pounds of water to be added to each pound of dry SPP.
+The SPP shall be hydrated for the length of time listed on the product label. If this information is not available, the product shall be hydrated until all water is absorbed. The purchaser shall specify any level of substitution of hydrated SPP in the combined finished product up to 30 percent. If not specified, the maximum percent of hydrated protein product in the combined finished product shall not exceed 20 percent. The hydrated SPP shall be used in the same working day in which it was hydrated. The hydrated SPP shall be blended with the raw meat (in the specified ratio) following the initial reduction in size.
+SPP hydrated and frozen by the SPP manufacturer may be used provided that: (1) the protein content of the hydrated product (as specifically stated on the manufacturer's label) is not less than 18 percent: (2) the product may be tempered, but not thawed, prior to use; and (3) no additional water may be added.
+
+Type Flour Concentrate Isolate
+
+Protein (%) As-Is Basis 50.0 65.0 85.0
+
+Item No. 136C - Beef Patty Mix, NTE 10% Fat - This item is as described in Item No. 136 except that the fat content shall not exceed 10 percent. Additional ingredients may be added
+46
+
+to enhance product acceptability. Such ingredients shall not exceed 10 percent of the combined finished product. The purchaser may specify the ingredients that will be allowed.
+Item No. 136D – Pure Beef - This item is as described in Item No. 136 except that the finely textured beef that is labeled as partially defatted chopped beef or that does not comply with the criteria listed in Item No. 136 may be used NTE 20 percent by weight of the combined finished product.
+1/Any one or combination of the following types of SPP may be used. When a combination of these are produced by the SPP manufacturer, the amount of each type and minimum protein content (as is basis) of the mixture shall be declared on the manufacturer's label.
+Item No. 137 - Ground Beef, Special - This item is as described in Item No. 136 except that not less than 50 percent, by weight, of any combination of boneless primal rounds, loins, ribs, or square-cut chucks or subprimals derived from the primal portions (e.g., chuck rolls, shoulders, tips, bottom sirloin butts) of the carcass shall be used. The remaining portion, NTE 50 percent by weight, may be composed of trimmings or cuts from any portion of the carcass. The purchaser may specify a grade requirement for the "primal" portion and/or the remaining portion. Formulation requirements shall be determined on a boneless basis. Primal or subprimal cuts which have more than a minor amount of lean removed are not eligible for the primal portion.
+The purchaser may specify one of the following styles if ground beef derived from the primal portion as desired. Product produced in accordance with the following styles shall be labeled accordingly.
+
+Style 1 2
+3
+
+Description
+Ground Beef, Special - As specified above.
+Ground Beef, Chuck - Ground beef chuck may be derived from any portion of any IMPS boneless chuck item. However, shank meat shall not exceed natural proportions (6.0 percent). Additionally, when the purchaser specifies fat content to be 20 percent or less or when the producer's label declares that the fat content of packaged ground beef chuck product is 20 percent or less, then the producer may be allowed to use foreshanks up to 50 percent of the formulation as a source for lean provided the shanks have been mechanically desinewed.
+Ground Beef, Round - Ground beef round may be derived from any portion of any IMPS boneless round item. However, shank meat shall not exceed natural proportions (6.0 percent). Additionally, when the purchaser specifies fat content to be 15 percent or less or when the producer's label declares that the fat content of packaged ground beef round product is 15 percent or less, then the producer may be allowed to use hindshanks up to 50 percent of the formulation as a source for lean provided the shanks have been mechanically desinewed.
+
+47
+
+Ground Beef, Sirloin - Ground beef sirloin may be derived from any portion of any IMPS boneless sirloin item. When the purchaser specifies fat content to be 15 percent or less or 4 when the producer's label declares that the fat content of packaged ground beef sirloin product is 15 percent or less, then the producer may be allowed to use any portion of any IMPS tip item up to 50 percent of the formulation as a lean source.
+
+Item No. 137A – Ground Beef and Soy Protein Product, Special - This item is as described in Item No. 137 except that soy protein product shall be added as described in Item No. 136A.
+Item No. 138 - Beef Trimmings - Beef trimmings may be prepared from any portion of the carcass which yields product that meets end item requirements. All objectionable materials listed in the material requirements shall be removed. Ground product is not permitted. Unless, otherwise specified by the purchaser, trimmings derived from automatic deboning machines and advance lean retrieval systems shall be excluded. The purchaser may specify that the trimmings meet the IMPS microbial requirements for ground beef as specified within the IMPS QAP.
+Item No. 139 - Beef, Special Trim, Boneless - Beef trimmings may be prepared from any portion of the carcass which yields product that meets the end item requirements. Unless otherwise specified, shank and heel meat shall be excluded. When heel meat is allowed by the purchaser, the M. superficial digital flexor shall be removed from the M. gastrocnemius through the natural seams. Unless otherwise specified, trimmings shall consist of pieces which have a surface area on one side which is no less than 8.0 square inches (51.6 sq. cm) and are no less than ½-inch (13 mm) thick at any point. All bones, cartilages, heavy connective tissue, detached Mm. cutaneous, and lymph glands shall be removed. Trimmings shall be practically free of surface and seam fat.
+Item No. 140 – Beef, Hanging Tender (IM) – This item is a soft, grainy textured, elliptical shaped muscle that is attached to the diaphragm and the juncture of the lumbar/thoracic vertebrae.
+
+Option No. 1
+
+Description
+The heavy connective tissue within the center shall be exposed and removed by a butterfly cut. The resulting product is sometimes referred to as “pillars” or “hanger”.
+
+Item No. 155 - Beef Hindquarter - The hindquarter is the posterior portion of the side after severance from the forequarter as described in Item No. 100.
+
+Item No. 155A - Beef Hindquarter, Boneless - This item is prepared from Item No. 155 and shall be boneless. The rib end shall be exposed by a cut that follows the natural curvature of the 12th rib mark and exposes the M. spinalis dorsi not extending more than half the length of the M. longissimus dorsi. The tenderloin shall be excluded unless otherwise specified by the purchaser. All bones, cartilages, prefemoral and popliteal lymph glands, hanging tender, kidney, and kidney knob shall be removed. The tendinous ends of the shank and round tip
+48
+
+shall be cut to evidence no less than 75 percent lean. The purchaser shall specify if this item shall remain intact or be separated into cuts.
+Item No. 157 - Beef Hindshank - This item is prepared from Item No. 158. The hindshank shall be removed by a cut through the stifle joint that follows the natural seam between the shank and the heel (M. gastrocnemius and M. super digital flexor). All hock bones and the gambrel cord shall be removed.
+Item No. 158 - Beef Round, Primal - This item consists of the round (top and bottom round, portion of the tip, rump, heel, and shank). The loin end shall be exposed by a straight cut which is anterior to but not more than 1.0 inch (25 mm) from the posterior end of the protuberance of the femur pocket. The M. tensor fasciae latae shall not extend completely around the outside of the sirloin tip (knuckle). No more than two vertebra shall remain on the round. The M. obliquus abdominis internus (flap muscle) shall be removed. This item is sometimes referred to as the “Beef Hip”.
+Item No. 158A - Beef Round, Diamond-Cut - This item consists of the round (top, bottom, heel, rump, and shank) and the full sirloin tip (knuckle). The loin shall be removed by two straight cuts which expose the ball of the femur (the protuberance may not be severed), and leaves the full sirloin Tip (knuckle) attached. The first cut shall start at a point passing through the 4th sacral vertebra and extend to the ball of the femur. The second cut shall extend from the ball of the femur to a point on the ventral edge exposing the tensor fasciae latae extending completely around the outside of the sirloin tip (knuckle). The M. obliquus abdominis internus (flap muscle) shall be removed. The full sirloin tip (knuckle) may be separated from the round. If separated, it shall be separated as described in Item No. 167, and individually packaged and packed into the same container.
+Item No. 158B – Beef Round, NY Style – This item is as described within Item No. 158A, except that the full tip (sirloin tip) shall be excluded by cutting through the natural seams so that the cut consists of the top, bottom, heel, rump, and shank. When the sirloin tip is removed by cutting through the natural seams and left attached to the bottom sirloin prior to separation of the round from the sirloin, then the sirloin tip may be referred to as beef loin, bottom sirloin, sirloin tip.
+Item No. 159 - Beef Round, Primal, Boneless - This item is prepared from Item No. 158. The M. tensor fasciae latae shall not extend completely around the outside of the sirloin tip (knuckle). The top (inside) round shall include the M. semimembranosus, M. sartorius, M. adductor, M. gracilis, and M. pectineus and shall be separated from the sirloin tip through the natural seam. All bones, cartilages, M. obliquus abdominis internus, the sacrociatic ligament, the lean and fat that overlaid the sacrociatic ligament, the lean and fat (oyster) that overlaid the aitch bone, the thick opaque portion of the M. gracilis membrane, and popliteal and prefemoral lymph glands shall be removed. The tendinous ends of the shank and sirloin tip shall be cut to evidence no less than 75 percent lean. The sirloin tip (knuckle) may be separated. If separated, it shall be separated as described in Item No. 167, and individually packaged and packed into the same container.
+Item No. 160 - Beef Round, Shank-Off, Semi-Boneless - This item is as prepared in Item No. 158 except that the aitch bone, tail bones and the shank shall be removed. The shank is removed at the stifle joint by a cut through the natural seam between the heel and hindshank. The M. tensor fasciae latae shall not extend completely around the outside of the sirloin tip. The aitch bone, oyster (aitch bone overlying fat and lean), tail bones, sacrociatic ligament, the lean and fat that overlaid the ligament, the thick opaque portion of the M. gracilis membrane,
+49
+
+and exposed lymph glands shall be removed. The sirloin tip (knuckle) may be separated. If separated, it shall be separated as described in Item No. 167, and individually packaged and packed into the same container.
+Item No. 160A - Beef Round, Diamond Cut, Shank Off, Semi-Boneless - This item is prepared from Item No. 158A. The tail bones (sacral vertebrae), aitch bone and shank shall be removed. The shank is removed at the stifle joint by a cut through the natural seam between the heel and hindshank. On the loin end, the M. tensor fasciae latae shall extend completely around the outside of the sirloin tip and the M. biceps femoris shall be equal to or smaller than the M. gluteus medius. The sirloin tip may be separated. If separated, the sirloin tip shall be separated as described in Item No. 167, and individually packaged and packed into the same container. The aitch bone (and overlying fat and lean (oyster)), tail bones, sacrociatic ligament, the lean and fat that overlaid the ligament, the thick opaque portion of the M. gracilis membrane, and exposed lymph glands shall be removed.
+Item No. 160B - Beef Round, Heel and Shank-Off, Semi-Boneless - This item is described in Item No. 160 except that the heel is removed by cutting through the natural seams.
+Item No. 161 - Beef Round, Shank Off, Boneless - This item is as prepared in Item No. 159 except that the shank is removed as described in Item No. 160. Unless otherwise specified, the popliteal lymph gland shall be removed.
+Item No. 161A - Beef Round, Diamond Cut, Shank Off, Boneless - This item is as described as in Item No. 160A except that the femur bone and related cartilage shall be removed. Unless otherwise specified, the popliteal lymph gland shall be removed.
+Item No. 161B - Beef Round, Heel and Shank Off, Without Sirloin Tip (Knuckle), Boneless - This item is as described in Item No. 161 except that the heel and sirloin tip shall be removed by cutting through natural seams.
+Item No. 163 - Beef Round, Shank Off, 3-Way, Boneless - This item shall consist of the following IMPS Items that are individually packaged and packed into the same container:
+
+Item No.
+
+Product Name
+
+167
+
+Beef Round, Sirloin Tip (Knuckle)
+
+169
+
+Beef Round, Top (Inside)
+
+170
+
+Beef Round, Bottom (Gooseneck)
+
+Item No. 163A - Round, Shank Off, 3-Way, Untrimmed, Boneless - This item shall consist of the following IMPS Items that are individually packaged and packed into the same container:
+
+Item No. 167 168 171
+
+Product Name
+Beef Round, Sirloin Tip (Knuckle) Beef Round, Top (Inside), Untrimmed Beef Round, Bottom (Gooseneck), Untrimmed
+50
+
+Item No. 164 - Beef Round, Rump and Shank Off - This item is prepared as described in Item No. 158 except that the shank and rump are removed. The shank is removed as described in Item No. 160. The rump is removed from the loin end by a straight cut that exposes a cross section of the M. semitendinosus, a cross-section of the femur bone at a point which is posterior to the ball of the femur, and does not sever the medial portion of the M. rectus femoris but may sever the M. vastus lateralis and/or main portion of the M. rectus femoris. The M. tensor fasciae latae shall not extend completely around the outside of the sirloin tip. The aitch bone (and overlying fat and lean (oyster)), tail bones, sacrociatic ligament, the lean and fat that overlaid the ligament, exposed lymph glands, and the thick opaque portion of the M. gracilis membrane shall be removed. When specified by the purchaser, the sirloin tip may be separated. If separated, the sirloin tip shall be separated as described in Item No. 167, and individually packaged and packed into the same container.
+Item No. 165 - Beef Round, Rump and Shank Off, Boneless - This item is prepared as described in Item No. 164 except that all bones, cartilage, and lymph glands (including the popliteal) shall be removed.
+Item No. 165A - Beef Round, Rump and Shank Off, Boneless, Special - This item is as described in Item No. 164 except that the rump shall be removed without severing any portion of the sirloin tip (the M. vastus lateralis nor the M. rectus femoris). All bones, cartilage, and lymph glands (including the popliteal) shall be removed.
+Item No. 165B - Beef Round, Rump and Shank Off, Boneless, Special - This item is as described in Item No. 165A except that it shall be netted or tied.
+Item No. 166 - Beef Round, Rump and Shank Off, Boneless - This item is as described in Item No. 165 except that it shall be netted or tied.
+Item No. 166A - Beef Round, Rump Partially Removed, Shank Off - This item is as prepared in Item No. 164 except the rump shall be partially removed anterior to the top or inside round exposing the M. semitendinosus, the ball and the protuberance of the femur (the ball may not be severed). The aitch bone (and overlying fat and lean (oyster)), tail bones, sacrociatic ligament (and overlying lean and fat), exposed lymph glands, and the thick opaque portion of the M. gracilis membrane are removed along with the rump.
+Item No. 166B - Beef Round, Rump and Shank Partially Off, Handle On - This item is as described in Item No. 164 except that the rump is removed by a straight cut which exposes the M. semitendinosus, and a cross section of the ball of the femur. This cut does not sever the medial portion of the M. rectus femoris but may sever the M. vastus lateralis and/or main portion of the M. rectus femoris. The shank and heel meat shall be removed from the shank bone by a straight cut perpendicular to the ventral edge of the round that is posterior to, but no more than 2.0 inches (5.0 cm) from, the stifle joint leaving no more than 4.0 inches (10.0 cm) of the shank bone (tibia) exposed and firmly intact. The exposed shank bone shall be trimmed practically free of lean. This item is commonly referred to as “Baron of Beef”.
+Item No. 167 - Beef Round, Sirloin Tip (Knuckle) - This boneless item is prepared from Item No. 158 and consists of the posterior portion of the full sirloin tip (M. vastus intermedius, M. vastus lateralis, M. vastus medialis, and M. rectus femoris). The M. tensor fasciae latae, though not completely extending around the outside of the sirloin tip (knuckle) shall be exposed on the loin end. A portion of the M. sartorius may remain, if firmly attached. The loin end shall expose the M. tensor fasciae latae not completely extending around the outside of the sirloin tip. The sirloin tip is separated from the top (inside) round and bottom (gooseneck)
+51
+
+round between the natural seams. All bones and cartilages shall be removed. The tendinous end shall be removed exposing no less than 75 percent lean. When specified, the sirloin tip shall be split lengthwise into approximate equal portions.
+Item No. 167A - Beef Round, Sirloin Tip, (Knuckle) Peeled - This boneless item is as prepared in Item No. 167 except that the M. tensor fasciae latae muscle, fat, and "skin" tissue are removed. When smaller roast are specified, the sirloin tip shall be split lengthwise into approximate equal portions.
+Option No. Description
+1 The purchaser may specify that the M. vastus medialis and intermedius be removed.
+Item No. 167B - Beef Round, Full Sirloin Tip - This boneless item is prepared from Item No. 158A or 158B and consists of the intact sirloin tip portion of the round and the bottom sirloin (the M. rectus femoris, M. vastus medialis, M. vastus lateralis, M. vastus intermedius) and M. tensor fasciae latae. The sirloin tip is separated from the top (inside) round, bottom (gooseneck) round, and the top sirloin between the natural seams. All bones, cartilages, and the M. obliquus abdominis internus shall be removed. The tendinous end shall be removed exposing no less than 75 percent lean. When smaller roast are specified, the sirloin tip shall be split lengthwise into approximate equal portions. When the sirloin tip is removed by cutting through the natural seams and left attached to the bottom sirloin prior to separation of the round from the sirloin, then the sirloin tip may be referred to as Beef Loin, Bottom Sirloin, Sirloin Tip.
+Option No. Description
+1 The purchaser may specify that the M. vastus medialis and intermedius be removed.
+Item No. 167C - Beef Round, Sirloin (Full) Tip, Trimmed - This item is as described in Item No. 167B except that the M. tensor fascia latae, and skin tissue are removed. This item shall be trimmed practically free of fat. When smaller roast are specified, the sirloin tip shall be split lengthwise into approximate equal portions.
+Item No. 167D - Beef Round, Sirloin Tip (Knuckle), Peeled, 2-Piece - This item is as described in Item Nos. 167A or 167C except that the M. vastus lateralis and the M. rectus femoris are separated by cutting through the seam. The M. sartorius, M. vastus medialis, and M. vastus intermedialis shall be removed by cutting through the natural seams.
+Item No. 167E – Beef Round, Sirloin Tip (Knuckle), Center Roast (IM) – This item shall consist of the M. rectus femoris only from any IMPS Round Sirloin Tip item. It is separated from the muscles of the round as described within IMPS Item 167D.
+Item No. 167F – Beef Round, Sirloin Tip (Knuckle), Side Roast (IM) – This item consists of the M. vastus lateralis from any IMPS Round Sirloin tip item. It is separated from the muscles of the sirloin tip as described within IMPS Item 167D.
+52
+
+Item No. 168 - Beef Round, Top (Inside), Untrimmed - This boneless item consists of the M. semimembranosus, M. sartorius, M. adductor, M. gracilis, and M. pectineus and is separated from the bottom round and sirloin tip through the natural seams. The M. iliopsoas may remain if firmly attached. All bones, cartilages, and exposed lymph glands shall be removed.
+Item No. 169 - Beef Round, Top (Inside) - This boneless item is as described in Item No. 168 except that the thick opaque portion of the M. gracilis membrane shall be removed. When smaller roast are specified, the top round shall be split by no more than 2 lengthwise cuts, and subsequent cuts, if necessary, shall be made girthwise separating the item into approximate equal portions.
+Item No. 169A - Beef Round, Top (Inside), Cap Off - This item is as described in Item No. 169 except that the M. gracilis and the loose (soft) side (M. pectineus and M. sartorius) shall be removed by cutting through the natural seams. This item is often referred to as COSMO (cap-off, side muscle off).
+Option No. Description
+1 The M. adductor shall be removed and excluded by cutting through the natural seams.
+Item No. 169B - Beef Round, Top (Inside), Cap (IM) - This item shall consist of the M. gracilis from the top round that is removed as described in Item No. 169A.
+Item No. 169C – Beef Round, Top (Inside), Front Side Muscle (IM) – This item shall consist of the M. pectineus that is separated from the ventral (loose or soft side) side (adjacent to the sirloin tip) of the top round by cutting through the natural seams.
+Item No. 169D – Beef Round, Top (Inside), Soft Side Removed – This item is as described within Item 169, except that the loose (soft) side (M. pectineus and M. sartorius) shall be removed by cutting through the natural seams.
+Item No. 169E – Beef Round, Top (Inside), One Muscle (IM) – This item consists of the M. adductor removed from the M. semimembranosus by cutting through the natural seam.
+Item No. 170 - Beef Round, Bottom (Gooseneck) - This boneless item consists of the M. semitendinosus, M. biceps femoris, and heel and may contain the M. gluteus medius, M. gluteus accessorius, and M. gluteus profundus. The M. semitendinosus muscle shall not be exposed on the loin end. The top round, sirloin tip, and shank are removed between the natural seams. All bones, cartilages, sacrociatic ligament, the lean and fat that overlaid the sacrociatic ligament, popliteal lymph gland, and the heavy opaque connective tissue separating the bottom round from the sirloin tip shall be removed.
+Item No. 170A - Beef Round, Bottom (Gooseneck), Heel Out - This item is as prepared in Item No. 170 except that the heel is removed. The heel is removed along the natural seam adjacent to the M. semitendinosus and M. biceps femoris. When specified, the bottom round shall be split into approximate equal portions by cutting at an approximate right angle to the length of the item.
+Item No. 171 - Beef Round, Bottom (Gooseneck), Untrimmed - This item is as described in Item No. 170 except that the popliteal lymph gland, and the opaque heavy connective tissue
+53
+
+(silver skin) along the ventral side may remain. All bones and cartilages shall be removed.
+Item No. 171A - Beef Round, Bottom (Gooseneck), Untrimmed, Heel Out - This item is as described in Item No. 171 except that the heel (M. superficial digital flexor and M. gastrocnemius) is removed along the natural seam adjacent to the M. semitendinosus and M. biceps femoris.
+Item No. 171B - Beef Round, Outside Round (Flat)- This boneless item shall consist of the M. biceps femoris, and may contain the M. gluteus medius, M. gluteus profundus and M. gluteus accessorius. The loin end shall expose the M. biceps femoris equal to or larger than the M. gluteus medius (when present). The outside round is separated from the top round, Sirloin tip, heel, and M. semitendinosus (eye of round) between the natural seams. All bones, cartilages, sacrociatic ligament and the lean and fat that overlaid the ligament, the opaque heavy connective tissue (silver skin) along the ventral side, and the popliteal lymph gland shall be removed.
+
+Option No. Description
+
+1
+
+After being trimmed to meet FLO 6 Peeled/Denuded, Surface
+
+Membrane Removed requirements, item may be split into two
+
+parts as in items 171D and 171E
+
+Item No. 171C - Beef Round, Eye of Round (IM) - This boneless item consists of the M. semitendinosus and shall not be severed on either end. The eye is separated from the top and outside rounds and heel between the natural seams.
+Item No. 171D – Beef Round, Outside Round, Side Muscle Removed (IM) – This item is as described in IMPS 171B, except that the side muscle (M. biceps femoris ischiatic head) is removed by cutting through the natural seam.
+Item No. 171E – Beef Round, Outside Round, Side Roast, (IM) – This item shall consist of the M. biceps femoris ischiatic head, which is found on the dorsal portion of IMPS Item No. 171B.
+Item No. 171F – Beef Round, Outside Round, Heel – This item consists of the heel portion of the bottom round (gooseneck). It is separated as described in IMPS No. 170A.
+
+Option No. 1
+
+Description The M. superficial digital flexor shall be removed
+
+Item No. 171G – Beef Round, Outside Round, Rump (IM) – This item shall consist of the anterior portion of the M. biceps femoris of IMPS 171B. The M. gluteus medius, M. gluteus profundis, and M. gluteus accessorius shall be excluded. The rump shall be removed from the outside round by a cut that is at or immediately anterior to the M. biceps femoris ischiatic head.
+Item No. 172 - Beef Loin, Full Loin, Trimmed - This item is that portion of hindquarter remaining after removal of Item No. 158 and shall consist of the short loin, sirloin and the 13th rib. The hanging tender, kidney and kidney knob, and excess internal fat shall be removed. The rib end shall follow the natural curvature of the 13th rib. The flank shall be removed by a
+54
+
+straight cut ventral to, but not more than 6.0 inches (15.0 cm) from, the M. longissimus dorsi at the rib end to a point on the round end which is ventral, to but not more than 1.0 inch (25 mm) from, the M. tensor fasciae latae. The fat covering the lumbar, sacral, and tenderloin regions shall be trimmed NTE 1.0 inch (25 mm) in depth at any point. Fat over the rib (on the inside surface) shall be removed.
+Item No. 172A - Beef Loin, Full Loin, Diamond Cut, Trimmed- This item is as described in Item No. 172 except that the round shall be removed by two straight cuts. The first cut shall start at a point passing through the 4th sacral vertebra and extend to the ball of the femur. The second cut shall extend from the ball of the femur to a point on the ventral edge exposing the M. tensor fasciae latae extending completely around the outside of the sirloin tip (if present).
+Item No. 173 - Beef Loin, Short Loin - This item consists of the anterior section of the loin and contains the 13th rib. The rib end shall follow the natural curvature of the 13th rib. The sirloin shall be removed by a straight cut anterior to the hip cartilage, forming an approximate right angle with the length of the short loin that exposes the M. gluteus medius. The flank shall be removed by a straight cut ventral to but not more than 6.0 inches (15.0 cm) from the M. longissimus dorsi at the rib end to a point on the sirloin end that is ventral to, but not more than 10.0 inches (25.4 cm) from, the M. longissimus dorsi. The fat covering the lumbar, sacral, and tenderloin regions shall be trimmed NTE 1.0 inch (25 mm) in depth at any point. Fat over the rib (on the inside surface) and the hanging tender shall be removed.
+Item No. 174 - Beef Loin, Short Loin, Short-Cut - This item is as prepared in Item No. 173 except that the flank shall be removed by a straight cut ventral, to but not more than 3.0 inches (7.5 cm) from, the M. longissimus dorsi at the rib end to a point on the sirloin end ventral to, but not more than 2.0 inches (5.0 cm) from, the M. longissimus dorsi.
+PSO’s for flank removal by a straight cut are as follows. (Rib end x Sirloin end)
+
+Option No. Description
+
+1
+
+1.0 in. (25 mm) x 1.0 in. (25 mm)
+
+2
+
+1.0 in. (25 mm) x 0 in.
+
+3
+
+Other
+
+Item No. 175 - Beef Loin, Strip Loin, Bone In - This item is as prepared in Item No. 173 except that the tenderloin and the protruding edge of the chine bones are removed. The chine bones shall be removed along the dorsal edge of the spinal grove without scoring the M. longissimus dorsi (when exposed). The flank shall be removed by a straight cut ventral, to but not more than 6.0 inches (15.0 cm) from, the M. longissimus dorsi at the rib end to a point on the sirloin end ventral to, but not more than 4.0 inches (10.0 cm) from, the M. longissimus dorsi.
+The PSO’s for flank removal by a straight cut are as follows. (Rib end x Sirloin end)
+
+Option No. Description
+
+55
+
+1
+
+4 in. (10.0 cm) x 3 in. (7.5 cm)
+
+2
+
+3 in. (7.5 cm) x 2 in. (5.0 cm)
+
+3
+
+1 in. (25 mm) x 1 in.
+
+4
+
+1 x 0
+
+5
+
+0 x 0
+
+6
+
+Other
+
+Item No. 176 – Beef Loin, Steak Tail – This item may contain any combination of the M. obliquus abdominis externus and M. obliquus abdominis internus that are found ventral to the M. longissimus dorsi on the hind quarter. Unless otherwise specified by the purchaser, Fat Limitation Option 4 (FLO 4), Practically Free of Fat (75% lean/seamed surface exposed), shall apply.
+Item No. 180 - Beef Loin, Strip Loin, Boneless - This item is boneless and consist of the anterior section of the loin and contains the 13th rib mark. The hanging tender and tenderloin shall be removed. The rib end shall follow the natural curvature of the 13th rib mark. The sirloin end shall be anterior to the hip cartilage, forming an approximate right angle with the length of the short loin, and exposes the M. gluteus medius. The flank side shall be ventral to, but not more than 3.0 inches (7.5 cm) from the M. longissimus dorsi at the rib end to a point on the sirloin end ventral to, but not more than 2.0 inches (5.0 cm) from the M. longissimus dorsi.
+The PSO’s for flank removal by a straight cut are as follows. (Rib end x Sirloin end)
+
+Option No.
+1 2 3 4 5
+
+Description
+2 in. (5.0 cm) x 1 in. (25 mm) 1 in. (25 mm) x 0 in. 1 in. x 1 in. 0 x 0 Other
+
+Item No. 181 - Beef Loin, Sirloin - This item is the posterior section of the full loin. The short loin shall be removed by a straight cut anterior to the hip cartilage and approximately parallel with the round end exposing the M. gluteus medius. The round shall be removed by a straight cut anterior to the ball and/or protuberance of the femur. The flank shall be removed by a straight cut ventral to, but not more than 10.0 inches (25.4 cm) from, the M. longissimus dorsi on the short loin end to a point on the round end ventral to, but not more than 1.0 inch (25 mm) from, the M. tensor fasciae latae. The fat covering the lumbar, sacral, and tenderloin regions shall be trimmed NTE 1.0 inch (25 mm) in depth at any point.
+56
+
+Item No. 181A - Beef Loin, Top Sirloin, Bone In - This item is described in Item No. 181 except that the bottom sirloin and butt tender are removed. The bottom sirloin shall be removed by a straight cut along the natural seam (between the M. gluteus medius and sirloin tip) and continues to the outside surface leaving a portion of the M. tensor fasciae latae attached to the top sirloin. The butt tender is excluded by separating it from the hip bone. The protruding points of the hip bone socket and the first sacral vertebrae shall be removed to facilitate handling and packaging.
+Item No. 182 - Beef Loin, Sirloin Butt, Boneless - This item is prepared from Item No. 181. The short loin shall be removed by a straight cut anterior to, but not more than 1.0 inch (25 mm) from, the posterior end of the hip pocket and is approximately parallel to the round end exposing the M. gluteus medius. The round shall be removed by a straight cut exposing the M. biceps femoris approximately equal to or larger than the M. gluteus medius. The M. tensor fasciae latae shall not extend completely around the outside of the Sirloin tip. The flank shall be removed by a straight cut ventral to, but not more than 10.0 inches (25.4 cm) from, the M. longissimus dorsi on the short loin end to a point on the round end ventral to, but not more than 1.0 inch (25 mm) from, the M. tensor fasciae latae. All bones, cartilages, tenderloin, and the sacrociatic ligament, and the lean and fat which overlaid the ligament shall be removed.
+Item No. 183 - Beef Loin, Sirloin Butt, Trimmed, Boneless - This item is as described in Item No. 182 except that the M. obliquus abdominis internus and the underlying connective tissue shall be removed. The fat exposed by the removal of the M. obliquus abdominis internus shall be exempt from any specified fat depth requirements.
+Item No. 184 - Beef Loin, Top Sirloin Butt, Boneless - This item is prepared from Item No. 182 and contains the M. gluteus medius, M. gluteus accessorius, M. gluteus profundus, and the M. biceps femoris. The short loin end shall be approximately parallel to the round end exposing the M. gluteus medius. On the round end, the M. biceps femoris shall be approximately equal to or larger than the M. gluteus medius. The bottom sirloin shall be removed by a cutting along the natural seam (between the M. rectus femoris and M. gluteus medius) and continues to the outside surface leaving a portion of the M. tensor fasciae latae attached to the top sirloin butt. The butt tender is also excluded. All bones, cartilages, tenderloin, and the sacrociatic ligament and the lean and fat which overlaid the ligament shall be removed.
+Item No. 184A - Beef Loin, Top Sirloin Butt, Semi Center-Cut, Boneless - This item is as described in Item No. 184 except that the M. biceps femoris (cap) shall be removed. When smaller roasts are specified, this item shall be split lengthwise into approximate equal portions.
+Item No. 184B - Beef Loin, Top Sirloin Butt, Center-Cut, Cap-Off, Boneless (IM) - This item is as describe in Item No. 184 except that all muscles other than the M. gluteus medius shall be removed. The flakes of surface fat remaining over the gluteus medius shall not exceed 1 inch (2.5 cm) in their dimension nor 0.125 inch in depth at any one point. When smaller roast are specified, this item shall be split lengthwise into approximate equal portions.
+Option No. Description
+57
+
+When specified, the dorsal portion of the M. gluteus medius shall 1 be detached, from the main portion, by cutting through the seam. The two pieces shall be packaged and placed within the same
+shipping container.
+Item No. 184C - Beef Loin, Top Sirloin Butt, Untrimmed, Boneless - This item is as described in Item No. 184 except that the sacrociatic ligament may remain.
+Item No. 184D - Beef Loin, Top Sirloin Butt, Cap (IM) - This item shall consist of the M. biceps femoris which is removed from Item No. 184 by cutting through the natural seams. This item is sometimes referred to as the “Coulotte”.
+Item No. 184E - Beef Loin, Top Sirloin Butt, 2 Piece, Boneless - This item is as described in Item No. 184 except that the cap muscle shall be separated from the top sirloin. The pieces shall be trimmed to comply with specified fat thickness requirements and packaged together.
+Item No. 184F – Beef Loin, Top Sirloin Butt, Center-Cut, Seamed, Dorsal Side, Boneless (IM) – This item shall consist of the dorsal portion of the M. gluteus medius and shall be removed, from the main portion, by cutting through the seam. This cut is sometimes referred to as the ‘baseball cut’.
+Item No. 185 - Beef Loin, Bottom Sirloin Butt, Boneless - This item is prepared from Item No. 182 and contains the M. tensor fasciae latae (tri tip); M. vastus medialis, M. vastus lateralis, and M. rectus femoris (ball tip); and the M. obliquus abdominis internus (flap). The short loin side shall be approximately parallel to the round end. The round end shall not expose the M. tensor fasciae latae extending completely around the outside of the sirloin tip. The top sirloin side shall not expose the M. gluteus medius but may expose the M. tensor fasciae latae and/or tip. The flank side shall be exposed by a straight cut that is not more than 4.0 inches (10.0 cm) in length on the short loin end to a point on the round end ventral to but not more than 1.0 inch (25 mm) from the M. tensor fasciae latae. All bones and cartilages shall be removed.
+Item No. 185A - Beef Loin, Bottom Sirloin Butt, Flap, Boneless (IM) - This item consists of the M. obliquus abdominis internus from the hindquarter and bottom sirloin butt which is separated from the ball tip and M. tensor fasciae latae through the natural seam. All bones, cartilages, and heavy connective tissue shall be removed.
+Item No. 185B - Beef Loin, Bottom Sirloin Butt, Ball Tip, Boneless - This item consists of the M. vastus medialis, M. vastus lateralis, and M. rectus femoris (ball tip), from the bottom sirloin butt and or the anterior porting of a full sirloin tip. The M. tensor fasciae latae and M. obliquus abdominis internus are separated from the ball tip through the natural seam. All bones, cartilages, and outside "skin" tissue shall be removed.
+Item No. 185C - Beef Loin, Bottom Sirloin Butt, Tri-Tip, Boneless (IM) - This item consists of the M. tensor fasciae latae from the bottom sirloin butt and is separated from the ball tip and M. obliquus abdominis internus through the natural seam. All bones, cartilages, and connective tissue shall be removed.
+Item No. 185D - Beef Loin, Bottom Sirloin Butt, Tri-Tip, Defatted, Boneless - This item is as described in Item No. 185C except that it shall be trimmed practically free of fat.
+58
+
+Item No. 186 - Beef Loin, Bottom Sirloin Butt, Boneless, Trimmed - This item is as described in Item No. 185 except that the M. obliquus abdominis internus and underlying connective tissue are removed.
+Item No. 188 – Beef Loin, Tenderloin, Bone-in – This item is derived from a short loin and consists of the consists of M. psoas major and M. psoas minor, attached to the transverse process of the lumbar vertebra. The anterior end shall be removed so that the psoas major is no less than 2.5 inches (6.25 cm) in the longest dimension.
+Item No. 189 - Beef Loin, Tenderloin, Full – This item is derived from a full loin as described in either Item Nos. 172 or 172A. The boneless item shall consist of the M. psoas major, M. psoas minor, M. iliacus, and may show the presence of the M. sartorius. The M. obliquus abdominis internus (flap), if present, shall be trimmed level with the fat surface. The sirloin butt end of the tenderloin shall expose the M. psoas major, M. iliacus, and M. sartorius (when present). The surface fat shall be trimmed NTE ¾-inch (19 mm) in depth at any point, from the posterior end to the exposed lymph gland and shall be tapered down to the lean at a point not beyond ¾ of the length of the tenderloin. The tenderloin shall be trimmed free of ragged edges. All bones and cartilages shall be removed. A score into the tenderloin exceeding ½-inch (13 mm) in depth is not acceptable.
+Item No. 189A - Beef Loin, Tenderloin, Full, Side Muscle On, Defatted - This item is as described in Item No. 189 except that it shall be practically free of surface and wing fat (fat lying between the main body of the tenderloin and the M. iliacus (wing muscle).
+Item No. 189B - Beef Loin, Tenderloin, Full, Side Muscle On, Partially Defatted - This item is as described in Item No. 189 except that it shall be practically free of surface fat. The wing fat may remain.
+Item No. 190 - Beef Loin, Tenderloin, Full, Side Muscle Off, Defatted - This item is as described in Item No. 189A except that the M. psoas minor (side muscle) shall be removed. The principal membranous tissue over the M. psoas major shall remain intact.
+Item No. 190A - Beef Loin, Tenderloin, Full, Side Muscle Off, Skinned - This item is as described in Item No. 190 except that the principal membranous tissue covering the M. psoas major shall be removed.
+Item No. 190B - Beef Loin, Tenderloin, Full, Side Muscle Off, Center-Cut, Skinned (IM) - This item is as described in Item No. 190A except that the tenderloin tail (Item No. 192A) and butt tenderloin (Item No. 191A) shall be removed. This item is sometime referred to as a ‘barrel’ cut.
+Item No. 191 - Beef Loin, Tenderloin, Butt - This item shall consist of the sirloin butt portion of the tenderloin. The sirloin, or butt end, shall expose the M. psoas major, M. psoas minor, M. iliacus, and if present, the M. sartorius. Further the obliquus abdominis internus (flap), if also present, shall be trimmed level with the fat surface. The anterior, or short loin, end shall be exposed by a straight cut that exposes the M. psoas major and the M. psoas minor no further along the length of the tenderloin than ½-inch (13 mm) beyond the M. iliacus. The surface fat shall be trimmed NTE ¾-inch (19 mm) in depth at any point. The large lymph gland shall be exposed. All bones, cartilages, and M. quadratus lumborum shall be removed. A score into the tenderloin exceeding ½-inch (13 mm) is not acceptable.
+59
+
+Item No. 191A - Beef Loin, Tenderloin, Butt, Defatted - This item is as describe in Item No. 191 except that the surface and wing fat shall be trimmed practically free.
+Item No. 191B - Beef Loin, Tenderloin, Butt, Skinned - This item is as described in Item No. 191A except that the principal membranous tissue covering the M. psoas major shall be removed.
+Item No. 192 - Beef Loin, Tenderloin, Short - This item shall consist of the short loin portion of the tenderloin and shall consist of the M. psoas major and M. psoas minor. The posterior end shall only expose the M. psoas major and M. psoas minor. The fat shall be trimmed NTE ½-inch (13 mm) in depth at any point over the M. psoas major at the posterior end and shall be tapered down over the M. psoas major to the anterior end of the tenderloin. All bones, cartilages, and ragged edges shall be removed. A score into the tenderloin exceeding ½-inch (13 mm) in depth is not acceptable.
+Item No. 192A - Beef Loin, Tenderloin Tails - This item shall consist of the thin portion of the M. psoas major. The M. psoas minor may remain, if firmly attached.
+Item No. 193 – Beef Flank, Flank Steak (IM) - This item consists of the M. rectus abdominis from the flank region and is separated from the M. transversus abdominis, M. obliquus abdominis internus, and M. obliquus abdominis externus through the natural seams. This item shall be practically free of fat and the membranous tissue.
+Item No. 194 - Beef Chuck and Flank, Rose Meat (IM). This boneless item shall consist of the M. cutaneous trunci and the M. cutaneous omobrachialis muscles, an external muscle that is connected to the posterior deep pectoral muscle and the tendon of the M. latissimus dorsi and to the fascia above the stifle. It lies on the outside of the carcass and spans from the chuck to the flank. It is usually pulled in the fabrication area while the carcass is still hanging and before primal splitting. It is separated from the items 114, 121, and 123. Because of its flat, triangular-like shape, this item is often referred to as the “elephant ear” and “shoulder rose meat” because the meat has a lighter red color than most of the interior muscles of the carcass.
+
+Option No. 1 2
+
+Description
+Product obtained from the chuck primal(s) (M. cutaneous omobrachialis) shall be called “Shoulder Rose” meat
+Purchaser may request that this muscle be completely trimmed of all fat and connective tissue
+
+60
+
+8.3 Portion Cut Descriptions
+To be evaluated for end item requirements as in the IMPS QAP.
+Item No. 1100 - Beef Cubed Steak - Cube steaks shall be prepared from any portion of the carcass which yields product that meets the end item requirements. However, shank and heel meat shall be excluded. Unless otherwise specified, the steaks shall be cubed twice at approximate right angles. Knitting of 2 or more pieces and folding the meat when cubing is permissible. After cubing, surface and seam fat shall not exceed 15 percent of the total area on either side of the steak. Individual steaks shall remain intact when suspended ½-inch (13 mm) from the outer edge. The steaks shall be free of heavy connective tissue, bones, cartilages, and lymph glands. This item may also be referred to as “minute”, “delicated” or “fast fry” steak.
+Item No. 1101 - Beef Cubed Steak, Special - This item is as described in Item No. 1100 except the steaks shall be prepared from any combination of lean from the round, loin, rib, or chuck sections (excluding shank and heel meat) of the carcass. Knitting of two or more pieces and folding the meat when cubing is not permissible. This item may also be referred to as “minute”, “delicated”, or “fast fry” steak.
+Item No. 1102 - Beef Braising Steak, Swiss - Braising steaks shall be prepared from any combination of lean from the round, loin, rib, or chuck sections (excluding shank and heel meat) of the carcass which yields product that meets the end item requirements. The steaks shall be free of heavy connective tissue, bones, cartilages, and lymph glands. When specified, the raw materials or the steaks shall be mechanically tenderized by using the multiple probe method (pinning) not more than one time. Pressing, knitting, or folding two pieces of meat together is not permissible. Surface and seam fat shall not exceed an average of ¼-inch (6 mm) in thickness and the thickness at any one point shall not exceed ½-inch (13 mm). Surface fat, measuring 0.1 inch (2 mm) or more in thickness, shall not exceed 50 percent of the circumference of the steak. Individual steaks shall remain intact when suspended ½-inch (13 mm) from the outer edge. Alternatively, the purchaser may specify surface and seam fat limitations in terms of maximum surface area percentage. Both surface and seam fat of the total cut surface on either side of the steak shall not exceed the percentage specified by the purchaser.
+Item No. 1103 - Beef Rib, Rib Steak, Bone-In - Rib steaks may be prepared from any IMPS bone-in rib item. The blade bone and related cartilage, feather bones, chine bones, backstrap, and those muscles that are immediately below (M. subscapularis and M. rhomboideus) and above (M. latissimus dorsi, M. infraspinatus, and M. trapezius) the blade bone and related cartilages shall be removed. The short ribs shall be removed at a point which is no more than 3.0 inches (7.5 cm) from the ventral edge of the M. longissimus dorsi.
+Item No. 1103A - Beef Rib, Rib Steak, Boneless - Rib steaks shall be as described in Item No. 1103 except that all bones, cartilages, and M. intercostales interni shall be removed.
+Item No. 1103B – Beef Rib, Rib Steak, Frenched, Bone-In – This item is prepared as described in Item No. 1103 except that each steak must be cut between the ribs bones. The rib bone shall be completely trimmed of the M. intercostales interni (frenched) and fat so that the bone is exposed from the ventral edge of the M. longissimus dorsi to the end of the rib bone. This item is often referred to as a “Cowboy Steak”.
+61
+
+Option No. Description
+Purchaser may specify that the rib be prepared as a 1 roast, but instead of being cut into steaks, it remain intact.
+Purchaser may request that the rib be prepared as a 2 roast as in PSO 1 and then partially cut into steaks and the balance left as a roast.
+Purchaser may request that the rib steaks be split into 3 two steaks by a saw cut through the center of one bone.
+Purchaser may request that the item be cut from an 4 Item No. 103 rib with the full rib bone attached. This item is commonly referred to as a Tomahawk Steak.
+Item No. 1112 - Beef Rib, Ribeye Roll Steak, Boneless - Ribeye roll steaks shall be prepared from any IMPS ribeye roll item. The lip shall be removed exposing the natural seam immediately ventral to the M. longissimus dorsi. This item is sometimes referred to as “tail off”.
+Item No. 1112A - Beef Rib, Ribeye Steak, Lip-On, Boneless - Ribeye steaks, lip-on shall be prepared from Item No. 112A. The short rib side shall be exposed by a straight cut which is ventral to, but no more than 2.0 inches (5.0 cm) from, the M. longissimus dorsi leaving the lip firmly attached.
+Item No. 1112B - Beef Rib, Ribeye Steak, Lip-On, Short Cut, Boneless - Ribeye steaks, lip-on shall be as described in Item No. 1112A except that the short rib side shall be exposed by a straight cut which is ventral to, but no more than 1.0 inch (25 mm) from, the M. longissimus dorsi.
+Item No. 1112C – Beef Rib, Ribeye Steak – Ribeye steaks shall be derived from the M. longissimus dorsi from any ribeye roll item. When uniform thickness and portion weights are specified, the ribeye may be portioned by cutting several steaks starting from the anterior end (where the M. longissimus dorsi is smaller in diameter) and stopping at a point where the M. longissimus dorsi is larger and more uniform in diameter. The remainder of the M. longissimus dorsi shall be split by a lengthwise cut into two approximate equal in size sections and then sliced into steaks meeting purchaser specified thickness and weight.
+Item No. 1112D - Beef Rib, Ribeye Cap Steak - Boneless ribeye cap steaks shall be prepared from the Mm. spinalis dorsi/multifidus dorsi muscle from any ribeye roll item. For portioning, slice the ribeye cap at a right angle to the grain or direction of muscle fibers.
+62
+
+Item No. 1114D - Beef Chuck, Shoulder, Top Blade Steak (IM) - Top blade steaks shall be prepared from Item No. 114D.
+Option No. Description
+
+Top Blade Steaks shall be prepared from Item 114D
+
+1
+
+which has been trimmed to comply with PSO #1. This
+
+item is often referred to as the ‘Flat Iron’.
+
+Item No. 1114E – Beef Chuck, Shoulder, Arm Steak, Boneless – The boneless arm steaks shall be prepared from Item No. 114E after the M. triceps brachii medial head has been removed. The steaks will be sliced across the grain of the M. triceps brachii long head.
+
+Option No. 1
+
+Description
+Purchaser may request that this item be prepared from only the M. triceps brachii long head and a small portion of the M. triceps brachii lateral head at the thick end of the clod, after removal of other muscles identified in Item no. 114E. In addition, the heavy part of the elbow tendon should be removed and the item should be trimmed of all fat and connective tissue. These steaks are commonly referred to as “Ranch Steaks”.
+
+Item No. 1114F - Beef Chuck, Shoulder Tender, Portioned (IM)- This item shall be prepared from item No. 114F, Beef Chuck, Shoulder Tender (IM), PSO 1. The individual steaks, sometimes referred to as “Petite Tender Medallions”, shall be prepared by a straight cut across the grain in accordance with the purchaser’s specification with respect to thickness or weight.
+
+Item No. 1116D - Beef Chuck, Chuck Eye Roll Steak, Boneless - Chuck eye roll steaks shall be prepared from Item No. 116D.
+
+Option No. Description
+
+The purchaser may specify steaks to be derived from the
+
+portion of the chuck eye roll that has the M. longissimus dorsi
+
+1
+
+present. The M. longissimus dorsi must be present on at
+
+least one side of the steak. This item is sometimes referred
+
+to as “Beef Chuck, Delmonico Steak”.
+
+63
+
+Steaks made from the chuck eye roll may be by cut into two
+
+pieces by slicing the steaks with cuts that start at the ventral
+
+side and ends at a point on dorsal side (where the feather
+
+bones were). Alternatively, the chuck eye roll may be cut
+
+2
+
+into two approximate equal sized portions by making a
+
+lengthwise cut which starts at the ventral side to a point on the
+
+dorsal edge (where the feather bones were), then sliced into
+
+portions. This item is often referred to as a ‘boneless country
+
+style ribs’.
+
+Item No. 1116G – Beef Chuck, Under Blade, Center Cut Steak – This item shall be prepared from any portion of the serratus ventralis muscle as described within Item No. 116G and made into steaks by slicing across the grain. This item is sometimes referred to as ‘Denver Cut’.
+Item No. 1116H – Beef Chuck, Chuck Eye Steak – This item shall be prepared from the M. complexus as described within Item No. 116H.
+Item No. 1121D - Beef Plate, Inside Skirt Steak , Boneless (IM)- The steaks shall be prepared from Item No. 121D.
+Item No. 1121E - Beef Plate, Outside Skirt Steak, Skinned (IM) - The steaks shall be prepared from Item No. 121E.
+Item No. 1123 - Beef Short Ribs, Bone-In - This item may be prepared from any IMPS beef chuck, rib, or plate short rib item. This item shall consist of the ribs, M. intercostales interni and M. serratus ventralis intact. The M. serratus ventralis shall be continuous across both the dorsal and ventral side of the specified number of ribs. The ribs shall be cut flanken style (e.g., cutting at a right angle to the rib bones) to specified thickness. The purchaser shall specify both the width of the cut and the number of ribs in each portion.
+Purchasers also have the option to request that the bone in short ribs be prepared from product described in Item Nos. 123A, 123B, or 123C.
+Purchasers who desire a boneless short rib should specify that the item be prepared from Item No. 123D or 130A.
+Item No. 1130 Beef Chuck, Short Rib, Bone In - This item may be prepared from a chuck short rib as described in Item No. 130. The bone in short rib shall consist of the ribs, intercostal meat, and the intact M. serratus ventralis muscle. The M. serratus ventralis muscle shall be continuous across both the dorsal and ventral side of the specified portion. The ribs shall be cut flanken-style by cutting them at a right angle to the rib bones. Purchaser may specify both the width of the cut and the number of ribs in each portion.
+Purchasers who desire a boneless chuck short rib should specify that the item be prepared from Item No. 130A.
+The purchaser may specify the following options for Item Nos. 1136, 1136A, 1136B, 1136C,
+64
+
+1137, and 1137A.
+
+Option No. Description
+
+1
+
+Perforations (to facilitate heat transfer during cooking)
+
+2
+
+Shape (oval, round, square, etc.)
+
+3
+
+Style (plate fill method, etc.)
+
+Item No. 1136 - Ground Beef Patties - The patties shall be prepared from Item No. 136. Patties shall be frozen unless specified fresh.
+Item No. 1136A – Ground Beef and Soy Protein Product Patties - The patties shall be prepared from Item No. 136A. Patties shall be frozen unless specified fresh.
+Item No. 1136C - Beef Patties, NTE 10% Fat- The patties shall be prepared from Item No. 136C.
+Item No. 1136D – Pure Beef Patties – The patties shall be prepared from Item No. 136D.
+Item No. 1137 - Ground Beef Patties, Special - The patties shall be prepared from Item No. 137.
+Item No. 1137A - Beef and Soy Protein Product Patties, Special - The patties shall be prepared from Item No. 137A.
+Item No. 1138 - Beef Steaks, Flaked and Formed, Frozen - The steaks shall be prepared from boneless beef that complies with the material requirements of Item No. 136 and shall be flaked (grinding is not permitted) and formed. The flaking and forming process shall be in compliance with FSIS Regulations. Product shall comply with fat content requirements of Item No. 136. The purchaser shall specify shape and weight of steaks. When specified, the flaked and formed steaks may be cubed (the term “cubed” may be included in the product label). When specified the steaks shall be breaded and labeled appropriately. The breading and its application shall be in accordance with FSIS Regulations.
+Item No. 1138A - Beef Sandwich Steaks, Flaked, Chopped, Formed and Wafer Sliced, Frozen - The steaks shall be prepared from boneless beef that complies with the material requirements of Item No. 136. The flaking, chopping, forming, and slicing process shall be in compliance with FSIS Regulations and shall produce steaks which are moderately fine textured. Product shall comply with fat content requirements of Item No. 136. Each steak shall consist of two or more thin slices weighing approximately one ounce each. No more than a minor amount of green/brown/gray rings shall be present. Steaks shall be packaged with paper separators between each steak. Unless otherwise specified, slices shall be approximately 4.75 x 7.5 inches (12.0 x 19.1 cm). The purchaser shall specify weight and/or number of slices per steak.
+Item No. 1138B - Beef Steaks, Sliced and Formed, Frozen - The steak shall be prepared 65
+
+from boneless beef that complies with Item No. 139. The slicing and forming process shall be in accordance with FSIS Regulations. Ingredients may be added for the purpose of tenderizing and binding and shall appear on the product label. The purchaser shall specify weight, shape, and/or thickness of steaks.
+Item No. 1139 – Beef Slices, Frozen – This item shall be derived from IMPS IM cut or cuts specified by the purchaser.
+Item No. 1140 – Beef Hanging Tender Steak - This item shall be prepared from Item No. 140 - Hanging Tender (IM) by straight cuts across the grain along the length of the hanging tender to the specifications of the purchaser for size. The steaks shall be trimmed along the edges and top and bottom sides so that the steaks are free of any heavy connective tissue or loose fat. The steak is sometimes referred to as a “hanger steak”, “onglet steak” or “pillar”.
+Item No. 1150 - Beef Top Side Steak, Boneless - This item may be derived from any IMPS rib or loin item and shall consist of the M. longissimus dorsi and M. multifidus dorsi and may contain the M. gluteus medius and M. spinalis dorsi. All bones, cartilages, backstrap, heavy connective tissue and fat overlying the heavy connective tissue on the dorsal edge of the steaks shall be removed. The boneless rib/loin may be separated by a lengthwise cut into sections to accommodate the cutting of specified portion size (thickness and/or weight) steaks. Unless otherwise specified, this item shall be trimmed practically free of surface fat.
+Item No. 1167 - Beef Round, Sirloin Tip (Knuckle) Steak - The steaks shall be prepared from any IMPS Tip Item. The Tip may be separated lengthwise into sections to accommodate the cutting of specified portion size steaks.
+Item No. 1167A - Beef Round, Sirloin Tip (Knuckle) Steak, Peeled - The steaks shall be prepared from any IMPS Tip Item. The M. tensor fasciae latae, fat, and "skin" tissue shall not be present. The Tip may be separated lengthwise into sections to accommodate the cutting of specified portion size steaks.
+
+Option No. 1
+
+Description
+The purchaser may specify that the Mm. vastus medialis and intermedius be removed.
+
+Item No. 1167D - Beef Round, Sirloin Tip (Knuckle) Steak, Peeled, Special - This item shall be prepared from any IMPS Sirloin Tip (Knuckle) Item. The M. tensor fasciae latae, M. vastus medialis, M. vastus intermedialis, and M. sartorius shall be removed by cutting through the seams. Fat, "skin" tissue, and heavy opaque connective tissue shall be removed. The remaining muscles (M. vastus lateralis and M. rectus femoris) shall be separated by cutting through the natural seam and made into specified portion size or thickness by slicing the pieces at a right angle to the grain (muscle fibers).
+Item No. 1167E – Beef Round, Sirloin Tip (Knuckle), Center Steak (IM) – This item shall consist of the M. rectus femoris only from any IMPS Round Sirloin Tip (Knuckle) Item.
+Item No. 1167F – Beef Round, Sirloin Tip (Knuckle), Side Steak (IM) – This item consists of the M. vastus lateralis from any IMPS Round Sirloin Tip (Knuckle) Item. It is sliced
+66
+
+perpendicular to the grain.
+Item No. 1169 - Beef Round, Top (Inside) Round Steak – The steaks shall be prepared from any IMPS top (inside) round item. The thick opaque portion of the M. gracilis membrane shall be removed. The top round may be separated lengthwise into sections to accommodate the cutting of specified portion size steaks.
+Item No. 1169A – Beef Round, Top (Inside) Cap Off, Round Steak – This item shall be prepared from Item No. 169A. The cap off inside round may be separated lengthwise into sections to accommodate the cutting of specified portion size steaks.
+
+Option No. Description
+
+1
+
+The purchaser may specify the removal of the M. adductor.
+
+Item No. 1169C – Beef Round Top (Inside) Round, Front Side Steak – This item shall be prepared from the M. pectineus from the soft side of the inside round.
+Item No. 1170A - Beef Round, Bottom (Gooseneck) Round Steak - The steaks shall be prepared from Item No. 170A. The bottom round may be separated lengthwise into sections to accommodate the cutting of specified portion size steaks.
+Item No. 1171D – Beef Round, Outside Round Steak (IM) – This item is derived from the M. biceps femoris (with the side muscle (M. biceps femoris ischiatic head) removed) as described in IMPS 171D. The steaks shall be made by slicing perpendicular to the grain of the muscles. This item is sometimes referred to as a “western griller steak”.
+Item No. 1171G – Beef Outside Round, Rump Steak (IM) – This item shall consist of the anterior portion of the M. biceps femoris of IMPS 171B. The M. gluteus medius, M. gluteus profundis, and M. gluteus accessorius shall be excluded. The rump shall be removed from the outside round by a cut that is at or immediately anterior to the M. biceps femoris, ischiatic head.
+The purchaser may specify the following tail length options for Item Nos. 1173, 1174, 1179, 1179A, 1180, and 1180A. If not specified, the tail length will not exceed 1.0 inch (25 mm) from the M. longissimus dorsi.
+
+Option No. Description
+
+1
+
+4.0 inch (10.0 cm)
+
+2
+
+3.0 inch (7.5 cm)
+
+3
+
+2.0 inch (5.0 cm)
+
+4
+
+1.0 inch (25 mm)
+
+5
+
+No tail (trimmed to meet specified fat trim)
+
+67
+
+6
+
+Other
+
+Item No. 1173 - Beef Loin, Porterhouse Steak - The steaks shall be prepared from any IMPS short loin item. The maximum width of the tenderloin shall be at least 1.25 inches (3.2 cm) when measured parallel to the length of the back bone.
+Item No. 1174 - Beef Loin, T- Bone Steak - The steaks shall be prepared from any IMPS short loin item. The maximum width of the tenderloin shall be at least ½-inch (13 mm) when measured parallel to the length of the back bone.
+Item No. 1179 - Beef Loin, Strip Loin Steak, Bone-In - The steaks shall be prepared from any IMPS bone-in strip loin or short loin item. The protruding edge of the chine bone shall be removed so that no portion of the spinal groove is present.
+Item No. 1179A - Beef Loin, Strip Loin Steak, Center-Cut, Bone-In - This item is prepared from any IMPS bone-in strip loin or short loin item that has the posterior portion of the strip loin removed at or anterior to the M. gluteus medius. The M. gluteus medius, if present, may appear only on one side of the steak.
+Item No. 1180 - Beef Loin, Strip Loin Steak, Boneless - The steaks shall be prepared from any IMPS boneless strip loin or short loin item. All bones and cartilages shall be removed.
+Item No. 1180A - Beef Loin, Strip Loin Steak, Center-Cut, Boneless -This item is prepared from any boneless strip loin or short loin item that has the posterior portion of the strip loin removed at or anterior to the M. gluteus medius. The M. gluteus medius, if present, may appear only on one side of the steak.
+
+Item No. 1180B - Beef Loin, Strip Loin Steak, Split, Boneless - This item is prepared from any boneless strip loin that has the tail, and heavy connective tissue overlying the M. longissimus dorsi muscle, removed, and is then split by a lengthwise cut into two approximate equal in size sections. This item is sometimes referred to as “strip steak filet” or “club cut”.
+
+Option No. Description
+
+1
+
+The M. multifidus dorsi shall be removed.
+
+2 that the M. gluteus medius is not present. The posterior end of the strip loin shall be removed so
+
+Item No. 1184 - Beef Loin, Top Sirloin Butt Steak, Boneless - The steaks shall be prepared from Item No. 184. Prior to slicing, the heavy connective tissue closely associated with the protuberance of the femur shall be removed by a straight cut (faced) so that the appearance of the M. gluteus medius is oval in shape. The boneless top sirloin butt may be separated into sections reasonably parallel to the backbone line to accommodate the cutting of specified portion size steaks. The sections shall be cut into steaks reasonably parallel to the cut surface of the round end.
+
+68
+
+Item No. 1184A - Beef Loin, Top Sirloin Butt Steak, Semi Center-Cut, Boneless - The steaks shall be as described in Item No. 1184 except that the M. biceps femoris shall be removed. The M. longissimus dorsi may or may not be present.
+Item No. 1184B - Beef Loin, Top Sirloin Butt Steak, Center-Cut, Boneless (IM) - The steaks shall be as described in Item No. 1184 except that all muscles other than the M. gluteus medius shall be removed.
+Item No. 1184D - Beef Loin, Top Sirloin Cap Steak, Boneless (IM) - This item is sometimes referred to as a "Coulotte Steak.” The steak may be produced from any IMPS sirloin item and shall consist of the M. biceps femoris. The M. biceps femoris shall be removed from the sirloin by cutting through the natural seams and made into specified portion size or thickness by slicing the pieces at a right angle to the grain (muscle fibers).
+Item No. 1184F – Beef Loin, Top Sirloin Butt Steak, Center-Cut, Seamed, Dorsal Side, Boneless (IM) – This item shall consist of steaks made from the dorsal portion of the M. gluteus medius as described in Item No. 184F. This cut is sometimes referred to as the ‘baseball cut’.
+Item No. 1185A - Beef Loin, Bottom Sirloin Butt, Flap Steak (IM) - The steaks shall be prepared from the flap portion (M. obliquus abdominis internus) of the bottom sirloin butt. The triangle (M. tensor fasciae latae) and the ball tip (M. rectus femoris and M. vastus lateralis) shall not be present. The steaks shall be made by cuts which are at approximate right angles to the grain. All bones, cartilages, and connective tissue shall be removed.
+Item No. 1185B - Beef Loin, Bottom Sirloin Butt, Ball Tip Steak - The steaks shall be prepared from the ventral portion (M. rectus femoris and M. vastus lateralis) of the bottom sirloin butt. The M. tensor fasciae latae and M. obliquus abdominis internus shall not be present. The steaks shall be made by cuts which are at approximate right angles to the grain. All bones, cartilages, and outside "skin" tissue shall be removed.
+Item No. 1185C - Beef Loin, Bottom Sirloin Butt, Tri-Tip Steak (IM) - The steaks shall be prepared from the triangle portion (M. tensor fasciae latae) of the bottom sirloin butt. The steaks shall be made by cuts which are at approximate right angles to the grain. All bones, cartilages, and connective tissue shall be removed.
+Item No. 1185D - Beef Loin, Bottom Sirloin Butt, Tri-Tip Steak, Defatted (IM) - This item is as described in Item No. 1185C except that steaks shall be trimmed practically free of fat.
+Item No. 1188 – Beef Loin, Tenderloin Steak, Bone-in – This item is derived from a short loin or Item No. 188 and consists of the consists of M. psoas major and M. psoas minor, attached to the transverse process of the lumbar vertebra. Steaks shall have a diameter of the M. psoas major not less than 1.5 inches (3.7 cm) in the longest dimension.
+Item No. 1189 - Beef Loin, Tenderloin Steak - The steaks shall be prepared from any IMPS tenderloin item. However, the narrowest diameter of the cut surface of the M. psoas major must be at least 1.0 inch (25 mm) (excluding fat). Any fat or lean not firmly attached to the M. psoas major shall be removed. . Maximum surface fat thickness where present shall be ⅛-inch (3 mm) unless otherwise specified by the purchaser.
+Item No. 1189A - Beef Loin, Tenderloin Steak, Side Muscle On, Defatted - The steaks shall be prepared from any IMPS tenderloin item defatted as described in Item No. 189A. The narrowest diameter of the cut surface of the M. psoas major must be at least 1.0 inch (25 mm) (excluding fat).
+69
+
+Item No. 1189B - Beef Loin, Tenderloin Steak, Side Muscle On, Partially Defatted - The steaks shall be prepared from any IMPS tenderloin item defatted as described in Item No. 189B. The narrowest diameter of the cut surface of the M. psoas major must be at least 1.0 inch (25 mm) (excluding fat).
+Item No. 1190 - Beef Loin, Tenderloin Steak, Side Muscle Off, Defatted - This item is prepared from Item No. 190. The narrowest diameter of the cut surface of the M. psoas major must be at least 1.0 inch (25 mm) (excluding fat).
+Item No. 1190A - Beef Loin, Tenderloin Steak, Side Muscle Off, Skinned - This item is prepared from Item No. 190A. The narrowest diameter of the cut surface of the M. psoas major must be at least 1.0 inch (25 mm) (excluding fat).
+Item No. 1190B - Beef Loin, Tenderloin Steak, Full, Side Muscle Off, Center Cut, Skinned (IM) - This item is from Item No. 190B and shall consist of the M. psoas major only.
+Item No. 1190C - Beef Loin, Tenderloin Tips - Tenderloin tips shall be prepared from any tenderloin which meets end item requirements. Tips may consist of any portion of the thin end of the M. psoas major, M. psoas minor or M. iliacus and shall consist of pieces which are no less than 1.5 square inches (9.7 sq cm) and are no less than ½-inch (13 mm) thick at any point.
+9.0 Glossary
+Anterior – Toward the front of the carcass, or forward of.
+Blast Frozen – Products are frozen rapidly at extremely low temperatures (≤ -10oF) in conjunction with high-velocity air movement around the product.
+Block Ready – A cut that is marketed ready for further processing or portioning.
+BRT – Boned, rolled and tied (or netted).
+Butterfly – To split cuts and roasts in half, leaving the halves hinged on one edge.
+Carcass – The dressed, harvested animal containing two “sides”.
+Center Cut – Term used to indicate the interior portion of a cut after removal of outer edges or ends to create a more desirable, uniform portion.
+Chain – The side muscle of the tenderloin.
+Chilled – A temperature related term generally used to describe “fresh” product.
+Chine Bone – A part of the backbone that remains after the carcass is split.
+Comminuted – Reduction of meat particle size, using such methods as grinding, dicing and chopping.
+Dorsal to – Toward the upper or top line of the carcass away from the navel.
+End Cuts – Cuts made from the ends of primal or sub-primal cuts. Ends often lack the uniformity of the adjacent cuts.
+70
+
+Evisceration – The process of removing the internal organs from the carcass during harvest. Frenched – The process by which the bone is exposed after removing the M. intercostales interni and/or the lean and fat surrounding it to provide a decorative appearance. Fresh – Refers to meats that have not been canned, cured, smoked, or cooked. In addition to the above, the product must never have been frozen. Frozen – Refers to meats that have been reduced in temperature to below the freezing temperature of meat (<28oF). IM – Acronym for Individual Muscle designating that a cut is composed of one muscle only. IQF – Acronym for Individually Quick Frozen. Refers to cuts that have been individually quick frozen at extremely low temperatures immediately after processing. Lateral – Away from the median plane that divides the carcass vertically into right and left sides. Medial – Towards the median plane that divides the carcass vertically into right and left sides. Net Weight – Weight of the contents of a container after the weight of the packaging and packing materials has been deducted. Posterior to – Towards the rear of the carcass, or backward of. Primal Cuts – Basic major cuts into which carcasses and sides are separated. Side – One matched half of a beef carcass. Sub-Primal Cuts – Smaller cuts derived from primal cuts. Ventral – Toward the belly of the carcass away from the upper or top line.
+71
+
+
