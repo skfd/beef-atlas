@@ -5,7 +5,6 @@
   "https://veterinaryanatomyguide.com/parts-of-the-forelimb-in-cattle/",
   "https://veterinaryanatomyguide.com/vertebral-formula-of-domestic-animals/",
   "https://vet.ucalgary.ca/summercamps/anatomy/thursday/production-animals",
-  "https://www.imaios.com/en/vet-anatomy/bovine/bovine-osteology",
   "https://www.maajournal.com/index.php/maa/article/view/393",
   "https://en.wikipedia.org/wiki/Withers"
  ],
@@ -18,7 +17,6 @@
    "depth": 0,
    "clip": true,
    "blurb": "The long bovine face: over half the skull lies in front of the eyes as nasal and maxillary bone, with a broad flat frontal carrying the horn bases and the braincase shoved right back to the poll.",
-   "beef": "Head meat and ox cheek are trimmed off it, and the whole head goes for stock.",
    "shape": [
     {
      "t": "blob",
@@ -93,7 +91,6 @@
    "weld": 0.003,
    "smooth": 2,
    "blurb": "The lower jaw: two long rami joined at the chin and hinged high and far back, so the jaw swings sideways. A cow grinds, it does not bite.",
-   "beef": "Cheek meat lies on its outer face; the tongue sits between the two rami.",
    "shape": [
     {
      "t": "tube",
@@ -513,7 +510,6 @@
    "weld": 0.003,
    "smooth": 2,
    "blurb": "Five big-bodied vertebrae with short spines, carried low in the neck. They are what lets a cow sweep her head to the ground and back up all day; the crest above them is nuchal ligament, not bone.",
-   "beef": "The neck chine, split down the middle when a chuck is boned out.",
    "shape": [
     {
      "t": "tube",
@@ -521,52 +517,52 @@
       [
        0.812,
        0.0,
-       0.866
+       0.858
       ],
       [
        0.8,
        0.0,
-       0.857
+       0.841
       ],
       [
        0.788,
        0.0,
-       0.848
+       0.824
       ],
       [
        0.776,
        0.0,
-       0.839
+       0.814
       ],
       [
        0.764,
        0.0,
-       0.83
+       0.804
       ],
       [
        0.752,
        0.0,
-       0.821
+       0.797
       ],
       [
        0.74,
        0.0,
-       0.812
+       0.79
       ],
       [
        0.728,
        0.0,
-       0.805
+       0.787
       ],
       [
        0.716,
        0.0,
-       0.798
+       0.784
       ],
       [
-       0.702,
+       0.7,
        0.0,
-       0.794
+       0.79
       ]
      ],
      "r": [
@@ -589,12 +585,12 @@
       [
        0.812,
        0.0,
-       0.88
+       0.872
       ],
       [
        0.808,
        0.0,
-       0.9
+       0.892
       ]
      ],
      "r": [
@@ -618,12 +614,12 @@
       [
        0.788,
        0.0,
-       0.862
+       0.838
       ],
       [
        0.784,
        0.0,
-       0.882
+       0.858
       ]
      ],
      "r": [
@@ -647,12 +643,12 @@
       [
        0.764,
        0.0,
-       0.844
+       0.818
       ],
       [
        0.76,
        0.0,
-       0.864
+       0.838
       ]
      ],
      "r": [
@@ -676,12 +672,12 @@
       [
        0.74,
        0.0,
-       0.826
+       0.804
       ],
       [
        0.736,
        0.0,
-       0.846
+       0.824
       ]
      ],
      "r": [
@@ -705,12 +701,12 @@
       [
        0.716,
        0.0,
-       0.812
+       0.798
       ],
       [
        0.712,
        0.0,
-       0.832
+       0.818
       ]
      ],
      "r": [
@@ -734,12 +730,12 @@
       [
        0.812,
        0.01,
-       0.86
+       0.852
       ],
       [
        0.806,
        0.052,
-       0.852
+       0.844
       ]
      ],
      "r": [
@@ -763,12 +759,12 @@
       [
        0.812,
        -0.01,
-       0.86
+       0.852
       ],
       [
        0.806,
        -0.052,
-       0.852
+       0.844
       ]
      ],
      "r": [
@@ -792,12 +788,12 @@
       [
        0.788,
        0.01,
-       0.842
+       0.818
       ],
       [
        0.782,
        0.052,
-       0.834
+       0.81
       ]
      ],
      "r": [
@@ -821,12 +817,12 @@
       [
        0.788,
        -0.01,
-       0.842
+       0.818
       ],
       [
        0.782,
        -0.052,
-       0.834
+       0.81
       ]
      ],
      "r": [
@@ -850,12 +846,12 @@
       [
        0.764,
        0.01,
-       0.824
+       0.798
       ],
       [
        0.758,
        0.052,
-       0.816
+       0.79
       ]
      ],
      "r": [
@@ -879,12 +875,12 @@
       [
        0.764,
        -0.01,
-       0.824
+       0.798
       ],
       [
        0.758,
        -0.052,
-       0.816
+       0.79
       ]
      ],
      "r": [
@@ -908,12 +904,12 @@
       [
        0.74,
        0.01,
-       0.806
+       0.784
       ],
       [
        0.734,
        0.052,
-       0.798
+       0.776
       ]
      ],
      "r": [
@@ -937,12 +933,12 @@
       [
        0.74,
        -0.01,
-       0.806
+       0.784
       ],
       [
        0.734,
        -0.052,
-       0.798
+       0.776
       ]
      ],
      "r": [
@@ -966,12 +962,12 @@
       [
        0.716,
        0.01,
-       0.792
+       0.778
       ],
       [
        0.71,
        0.052,
-       0.784
+       0.77
       ]
      ],
      "r": [
@@ -995,12 +991,12 @@
       [
        0.716,
        -0.01,
-       0.792
+       0.778
       ],
       [
        0.71,
        -0.052,
-       0.784
+       0.77
       ]
      ],
      "r": [
@@ -3455,7 +3451,6 @@
    "mirror": true,
    "clip": false,
    "blurb": "Under the blade, where the chuck begins. With no clavicle, this rib carries the forelimb through muscle alone.",
-   "beef": "Chuck short ribs are cut across ribs 2-5.",
    "shape": [
     {
      "t": "tube",
@@ -3521,7 +3516,6 @@
    "mirror": true,
    "clip": false,
    "blurb": "Sits at the deepest part of the brisket, where the breastbone is widest.",
-   "beef": "Brisket lies over ribs 1-5, with the deckle on top of them.",
    "shape": [
     {
      "t": "tube",
@@ -3719,7 +3713,6 @@
    "mirror": true,
    "clip": false,
    "blurb": "Mid rib cage, at the heart girth, the deepest and widest section of the animal.",
-   "beef": "Plate short ribs and 갈비 are cut from the ventral ends of ribs 6-8.",
    "shape": [
     {
      "t": "tube",
@@ -3850,7 +3843,6 @@
    "mirror": true,
    "clip": false,
    "blurb": "First of the asternal ribs: its cartilage joins the one in front instead of the sternum, and the costal arch begins.",
-   "beef": "Back ribs are the dorsal ends of ribs 9-13, left behind when a ribeye is boned out.",
    "shape": [
     {
      "t": "tube",
@@ -4180,7 +4172,6 @@
    "smooth": 2,
    "colour": "#ded3bb",
    "blurb": "The gristly continuation of every rib. The first eight pairs reach the breastbone; the last five lean on the pair in front instead, and together they form the costal arch you can run a hand along at the edge of the ribs.",
-   "beef": "Rib tips, and the gristle that makes plate short ribs and 갈비 what they are.",
    "shape": [
     {
      "t": "tube",
@@ -5018,7 +5009,6 @@
    "weld": 0.003,
    "smooth": 2,
    "blurb": "The arm bone, slanting down and back from the shoulder joint to the elbow. Its big front knob is the point of the shoulder, the landmark that divides chuck from neck.",
-   "beef": "Arm roasts and arm steaks are cut straight across it in the chuck.",
    "shape": [
     {
      "t": "tube",
@@ -5415,7 +5405,6 @@
    "weld": 0.0026,
    "smooth": 1,
    "blurb": "Three bones in each of the two weight-bearing toes, ending in the coffin bone inside the hoof. The sesamoids behind the fetlock take the strain of the flexor tendons.",
-   "beef": "Cow's feet: 우족, boiled down for gelatin.",
    "shape": [
     {
      "t": "tube",
@@ -5533,7 +5522,6 @@
    "weld": 0.0035,
    "smooth": 2,
    "blurb": "The thigh bone, the heaviest in the body. Its ball head sits in the hip socket and the great trochanter beside it is the lever every muscle of the round pulls on.",
-   "beef": "The round is boned around it, and its marrow is the prize in a marrow bone.",
    "shape": [
     {
      "t": "tube",
@@ -5813,7 +5801,6 @@
    "weld": 0.003,
    "smooth": 1,
    "blurb": "The hock: five bones, of which the calcaneus juts back as the point of the hock and gives the Achilles tendon its lever. It is also the hook a carcass hangs from on the rail.",
-   "beef": "The gambrel goes through the tendon above it, and hock gristle goes into stock and 도가니.",
    "shape": [
     {
      "t": "blob",
@@ -6005,7 +5992,6 @@
    "weld": 0.0026,
    "smooth": 1,
    "blurb": "The two hind toes, cloven like the front pair. The outer claw of a hind foot carries more load than the inner, which is why sole ulcers show up there first.",
-   "beef": "Cow's feet: 우족, the hind pair.",
    "shape": [
     {
      "t": "tube",
