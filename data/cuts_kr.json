@@ -1,315 +1,573 @@
 {
-  "culture": "Korea",
-  "id": "kr",
-  "flag": "KR",
-  "blurb": "The Korean scheme is written for the grill pan and the stockpot, not the oven: the government fixes ten 대분할 primals and thirty-nine 소분할 subcuts, and the subcuts are named for the way a muscle behaves in the mouth rather than for the bone it came off. Because beef is eaten in thin slices cooked in seconds at the table, or simmered for hours into broth, small muscles that Western butchery buries in trim are lifted out and sold by name. The fine vocabulary is what diners actually order: nobody asks for 양지, they ask for 차돌박이; nobody asks for 등심, they ask for 꽃등심 or 살치살.",
-  "sources": [
-    "https://en.wikipedia.org/wiki/Cut_of_beef",
-    "https://ko.wikipedia.org/wiki/%EC%87%A0%EA%B3%A0%EA%B8%B0_%EB%B6%80%EC%9C%84",
-    "https://meat.8892-house.com/hanwoo-39-cuts/",
-    "https://www.sirloin.co.kr/magazine/magazine4",
-    "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2894"
-  ],
-  "cuts": [
-    {
-      "id": "kkori",
-      "name": "Oxtail",
-      "native": "꼬리",
-      "romanized": "kkori",
-      "region": "The tail itself, rising from the tail base at x 0.00 above the round.",
-      "x": [0.00, 0.04],
-      "z": [0.72, 0.86],
-      "full_width": true,
-      "description": "A chain of small vertebrae wrapped in hard-working muscle and gelatine, the tail swats flies all summer and is tough in every direction. It is a 부산물 (byproduct) rather than one of the ten primals, and is only ever boiled long enough for the collagen to melt.",
-      "dishes": ["꼬리곰탕", "꼬리찜", "소꼬리 수육"]
-    },
-    {
-      "id": "udun",
-      "name": "Top round / inside round",
-      "native": "우둔",
-      "romanized": "udun",
-      "region": "Inner face of the hind leg, from the tail base at x 0.00 forward to the hip joint at x 0.16, above the hock.",
-      "x": [0.00, 0.12],
-      "z": [0.44, 0.72],
-      "full_width": true,
-      "description": "The inner thigh muscles drive the hind leg but carry almost no fat, so the meat is lean, close-grained and mild, and takes marinade and drying well. One of the ten primals; its 소분할 are 우둔살 and the cylindrical 홍두깨살.",
-      "dishes": ["육회", "장조림", "산적", "육포", "불고기"]
-    },
-    {
-      "id": "seoldo",
-      "name": "Bottom round / silverside and rump",
-      "native": "설도",
-      "romanized": "seoldo",
-      "region": "Outer and front face of the hind leg, from the hip joint at x 0.16 forward to the hook bone at x 0.24, between the stifle and the rump.",
-      "x": [0.12, 0.26],
-      "z": [0.56, 0.80],
-      "full_width": true,
-      "description": "The outside of the haunch does the pushing when the animal walks, so the grain is coarse and the fat sparse though evenly spread. A primal covering 보섭살, 설기살, 도가니살, 삼각살 and 설기머리살; sliced thin for bulgogi or simmered rather than roasted whole.",
-      "dishes": ["불고기", "국거리", "산적", "장조림"]
-    },
-    {
-      "id": "samgaksal",
-      "name": "Tri-tip",
-      "native": "삼각살",
-      "romanized": "samgak-sal",
-      "region": "The triangular tip at the front-lower corner of the rump, just behind the flank at x 0.24.",
-      "x": [0.18, 0.26],
-      "z": [0.44, 0.56],
-      "full_width": false,
-      "description": "A small triangular muscle at the bottom front of the bottom round, worked less than the rest of the haunch so it keeps some marbling and stays tender enough to grill. A 소분할 of the 설도 primal.",
-      "dishes": ["구이", "불고기", "스테이크"]
-    },
-    {
-      "id": "satae",
-      "name": "Shank",
-      "native": "사태",
-      "romanized": "satae",
-      "region": "Hind leg below the stifle, from the hock at z 0.28 up toward the round; the primal also takes in the foreshank, listed separately here as 앞사태.",
-      "x": [0.02, 0.16],
-      "z": [0.10, 0.44],
-      "full_width": true,
-      "description": "The leg muscles below the knee are pure locomotion, laced with tendon and silverskin and almost fat-free, so they are the toughest meat on the animal until the collagen turns to gelatine. A primal comprising 앞사태, 뒷사태, 뭉치사태, 아롱사태 and 상박살; always boiled or braised, never grilled.",
-      "dishes": ["곰탕", "도가니탕", "장조림", "수육", "육개장"]
-    },
-    {
-      "id": "chaekkeut",
-      "name": "Striploin",
-      "native": "채끝",
-      "romanized": "chaekkeut",
-      "region": "Strip along the lumbar vertebrae under the topline, from the hook bone at x 0.24 forward to the last rib at x 0.46.",
-      "x": [0.26, 0.46],
-      "z": [0.78, 0.92],
-      "full_width": true,
-      "description": "The back muscle behind the last rib is supported by the spine and barely worked, so it is tender with a firm bite and a clean rim of back fat. A primal in its own right, with 채끝살 as its single 소분할, cut into steaks or grilled in thick slices.",
-      "dishes": ["채끝 스테이크", "로스구이", "샤브샤브"]
-    },
-    {
-      "id": "ansim",
-      "name": "Tenderloin",
-      "native": "안심",
-      "romanized": "ansim",
-      "region": "Hanging under the lumbar vertebrae inside the body cavity, from the hip at x 0.28 forward to the last rib at x 0.46.",
-      "x": [0.28, 0.40],
-      "z": [0.66, 0.78],
-      "full_width": true,
-      "description": "The psoas runs inside the spine and does almost nothing while the animal moves, so it is the softest and leanest muscle on the carcass, with a mild flavour Korean cooks keep unmarinated. A primal (소분할: 안심살) and the most expensive cut by weight.",
-      "dishes": ["안심 스테이크", "구이", "안심 꼬치"]
-    },
-    {
-      "id": "chimasal",
-      "name": "Flank steak",
-      "native": "치마살",
-      "romanized": "chima-sal",
-      "region": "Rear of the flank ahead of the hind leg, below the loin, around x 0.30 at belly level.",
-      "x": [0.26, 0.34],
-      "z": [0.50, 0.62],
-      "full_width": false,
-      "description": "The abdominal wall in front of the haunch is a sheet of long loose fibres that hold the belly in and carry marbling in streaks rather than flecks, giving a springy chew and heavy beef flavour. A 소분할 of 양지; grilled fast and cut across the grain, or stewed as 치마양지.",
-      "dishes": ["구이", "국거리", "장조림"]
-    },
-    {
-      "id": "tosisal",
-      "name": "Hanger steak / thick skirt",
-      "native": "토시살",
-      "romanized": "tosi-sal",
-      "region": "Hanging beside the last rib under the spine at x 0.40-0.46, just behind the diaphragm sheet.",
-      "x": [0.40, 0.46],
-      "z": [0.72, 0.78],
-      "full_width": false,
-      "description": "The muscular pillar that works the diaphragm, hanging free off the spine near the kidney, with a coarse open grain and an offal-adjacent depth from sitting against the viscera. A 소분할 of 갈비 and a 특수부위: only a few hundred grams per animal, so it is grilled and nothing else.",
-      "dishes": ["구이", "특수부위 모둠구이"]
-    },
-    {
-      "id": "anchangsal",
-      "name": "Outside skirt / diaphragm",
-      "native": "안창살",
-      "romanized": "anchang-sal",
-      "region": "The diaphragm sheet on the inner face of the last ribs, x 0.40-0.46 in the upper half of the barrel.",
-      "x": [0.40, 0.46],
-      "z": [0.60, 0.72],
-      "full_width": false,
-      "description": "The diaphragm itself is a thin sheet that contracts with every breath and so is worked constantly, giving coarse grain, dark colour and strong flavour under a tough membrane that is peeled off before cooking. A 소분할 of 갈비 and one of the prized 특수부위; grilled over charcoal.",
-      "dishes": ["구이", "특수부위 모둠구이"]
-    },
-    {
-      "id": "usamgyeop",
-      "name": "Thin-sliced beef belly",
-      "native": "우삼겹",
-      "romanized": "u-samgyeop",
-      "region": "The lowest layer of the belly wall along the bottom of the barrel, x 0.40-0.50 at the belly line.",
-      "x": [0.40, 0.50],
-      "z": [0.50, 0.55],
-      "full_width": true,
-      "description": "Not one of the official 39 but a menu name for 업진살 shaved paper-thin, showing fat and lean in stripes like pork belly, which is what 삼겹 means. It curls and cooks in seconds on a hot plate and renders enough fat to fry whatever is next to it.",
-      "dishes": ["우삼겹 숙주볶음", "우삼겹 덮밥", "철판구이"]
-    },
-    {
-      "id": "eopjinsal",
-      "name": "Navel end / plate",
-      "native": "업진살",
-      "romanized": "eopjin-sal",
-      "region": "Lower belly wall behind the chest, under the rear ribs at x 0.40-0.50.",
-      "x": [0.40, 0.50],
-      "z": [0.55, 0.60],
-      "full_width": true,
-      "description": "The layered belly wall behind the brisket alternates lean and fat because it holds the gut rather than moving the skeleton; rich but sinewy. A 소분할 of 양지, with 업진안살 the tender inner sheet; grilled thin or braised.",
-      "dishes": ["구이", "찜", "우삼겹"]
-    },
-    {
-      "id": "galbisal",
-      "name": "Boneless rib meat / rib fingers",
-      "native": "갈비살",
-      "romanized": "galbi-sal",
-      "region": "Meat lying between and over the ribs along the lower flank of the rib cage, x 0.50-0.60.",
-      "x": [0.50, 0.60],
-      "z": [0.50, 0.60],
-      "full_width": false,
-      "description": "The intercostal and rib-covering muscles flex the chest with each breath, ending up well marbled and firm-textured; taken off the bone so they can be grilled in strips. A 소분할 of 갈비 and the cut behind most boneless 갈비살 restaurant menus.",
-      "dishes": ["갈비살 구이", "양념갈비", "모둠구이"]
-    },
-    {
-      "id": "galbi",
-      "name": "Ribs",
-      "native": "갈비",
-      "romanized": "galbi",
-      "region": "The rib cage, ribs 1 to 13, on the sides of the barrel between the last rib at x 0.46 and the shoulder at x 0.62.",
-      "x": [0.46, 0.62],
-      "z": [0.60, 0.74],
-      "full_width": true,
-      "description": "Bone-in rib sections where the meat is worked by breathing and shot through with connective tissue and fat, so it rewards either long braising or scoring and marinating before a hot fire. A primal covering 본갈비, 꽃갈비, 참갈비, 갈비살, 마구리 and the specialty muscles 안창살, 토시살 and 제비추리.",
-      "dishes": ["갈비찜", "양념갈비", "갈비탕", "생갈비"]
-    },
-    {
-      "id": "kkotdeungsim",
-      "name": "Marbled ribeye (flower loin)",
-      "native": "꽃등심",
-      "romanized": "kkot-deungsim",
-      "region": "The ribeye core over ribs 6 to 9, between the last rib at x 0.46 and the fifth rib at x 0.56, along the top of the back.",
-      "x": [0.46, 0.56],
-      "z": [0.74, 0.92],
-      "full_width": true,
-      "description": "The middle of the back muscle is held still by the rib cage and is therefore the most marbled part of a hanwoo carcass, its fat flecks fanning out like petals, which is where the name comes from. A 소분할 of 등심 and the benchmark cut for the Korean marbling grade.",
-      "dishes": ["꽃등심 구이", "스테이크", "샤브샤브"]
-    },
-    {
-      "id": "deungsim",
-      "name": "Loin / ribeye",
-      "native": "등심",
-      "romanized": "deungsim",
-      "region": "Along the thoracic vertebrae from the fifth rib at x 0.56 forward toward the shoulder; the whole primal runs x 0.46-0.70, with 꽃등심 as its rear-middle core.",
-      "x": [0.56, 0.70],
-      "z": [0.74, 0.86],
-      "full_width": true,
-      "description": "The long back muscle over the ribs stabilises the spine rather than propelling the animal, so it stays tender while accumulating intramuscular fat. A primal split front to back into 윗등심살, 꽃등심살 and 아랫등심살 plus the 살치살 cap; grilled in slices at the table.",
-      "dishes": ["등심 구이", "스테이크", "샤브샤브", "불고기"]
-    },
-    {
-      "id": "salchisal",
-      "name": "Chuck flap tail / spinalis",
-      "native": "살치살",
-      "romanized": "salchi-sal",
-      "region": "A thin cap lying on top of the front of the ribeye where the loin meets the shoulder, x 0.58-0.70 along the topline.",
-      "x": [0.58, 0.70],
-      "z": [0.86, 0.92],
-      "full_width": false,
-      "description": "The spinalis dorsi rides on the outside of the front ribeye, a lightly used muscle that marbles harder than anything around it and eats soft and buttery. A 소분할 of 등심 yielding roughly a kilogram per animal, which is why it commands a 특수부위 price.",
-      "dishes": ["살치살 구이", "스테이크"]
-    },
-    {
-      "id": "apdari",
-      "name": "Chuck / shoulder and foreleg",
-      "native": "앞다리",
-      "romanized": "ap-dari",
-      "region": "The shoulder above the elbow at x 0.62-0.70, between the rib cage and the point of shoulder at x 0.72; the primal proper spans roughly x 0.56-0.72, z 0.38-0.78, and this box is the crest of the shoulder above 부채살, with the arm below it ceded to 양지 and 앞사태.",
-      "x": [0.62, 0.70],
-      "z": [0.64, 0.74],
-      "full_width": true,
-      "description": "The shoulder carries most of the animal's weight and swings the foreleg, so it is heavily worked, threaded with fascia and tendon, and chewy rather than tender. A primal covering 꾸리살, 부채살, 앞다리살, 갈비덧살 and 부채덮개살; mostly sliced for bulgogi, stewed or simmered.",
-      "dishes": ["불고기", "국거리", "장조림", "육개장"]
-    },
-    {
-      "id": "buchaesal",
-      "name": "Top blade / flat iron",
-      "native": "부채살",
-      "romanized": "buchae-sal",
-      "region": "On the outer face of the shoulder blade, x 0.62-0.70 at mid-barrel height, below the chuck.",
-      "x": [0.62, 0.70],
-      "z": [0.56, 0.64],
-      "full_width": false,
-      "description": "The infraspinatus lies flat on the shoulder blade with a line of gristle running down its centre like the ribs of a fan, which gives it its name (commonly written 부챗살); despite sitting in a hard-working primal it is tender and finely marbled. A 소분할 of 앞다리, grilled or dropped into shabu-shabu.",
-      "dishes": ["부채살 구이", "샤브샤브", "스테이크"]
-    },
-    {
-      "id": "yangji",
-      "name": "Brisket, plate and flank",
-      "native": "양지",
-      "romanized": "yangji",
-      "region": "The underline of the animal: the chest floor behind the point of shoulder at x 0.60-0.70, continuing back along the belly toward the flank.",
-      "x": [0.60, 0.70],
-      "z": [0.42, 0.56],
-      "full_width": true,
-      "description": "The chest and belly wall bears the animal's weight between the forelegs and is dense with collagen and hard fat, so it is tough raw and turns silky and broth-making after hours in water. A primal covering 양지머리, 차돌박이, 업진살, 업진안살, 치마살, 치마양지 and 앞치마살; the backbone of Korean beef soups.",
-      "dishes": ["설렁탕", "곰탕", "국거리", "장조림", "육개장"]
-    },
-    {
-      "id": "chadolbagi",
-      "name": "Brisket point, thin-sliced",
-      "native": "차돌박이",
-      "romanized": "chadolbagi",
-      "region": "The point of the chest in front of and below the forelegs, x 0.70-0.78, under the base of the neck.",
-      "x": [0.70, 0.78],
-      "z": [0.42, 0.56],
-      "full_width": false,
-      "description": "The deep pectoral at the very front of the brisket braces the chest and carries a hard white fat that sits in the lean like an embedded pebble, the 차돌 (quartz) of the name. A 소분할 of 양지; far too tough for a steak, so it is frozen and shaved paper-thin and cooked for a few seconds a side.",
-      "dishes": ["차돌된장찌개", "차돌박이 구이", "차돌 숙주볶음"]
-    },
-    {
-      "id": "apsatae",
-      "name": "Foreshank",
-      "native": "앞사태",
-      "romanized": "ap-satae",
-      "region": "The foreleg below the elbow at x 0.62, down past the knee at z 0.28 to the hoof.",
-      "x": [0.58, 0.68],
-      "z": [0.08, 0.38],
-      "full_width": true,
-      "description": "The front shank works constantly to carry the forehand and is mostly tendon-bound muscle over bone, tougher and more sinewy than the hind shank. A 소분할 of the 사태 primal, boiled for broth or pressed into slices once it is soft.",
-      "dishes": ["곰탕", "수육", "장조림", "육개장"]
-    },
-    {
-      "id": "jebichuri",
-      "name": "Neck chain (swallow tail)",
-      "native": "제비추리",
-      "romanized": "jebichuri",
-      "region": "A long strap along the underside of the neck and first thoracic vertebrae, inside the body at x 0.70-0.80.",
-      "x": [0.70, 0.80],
-      "z": [0.64, 0.72],
-      "full_width": false,
-      "description": "The longus colli runs beneath the neck bones and holds the head steady, a narrow strap with a thick tendon down the middle that disappears once cooked, leaving a tender, sweet, deeply beefy strip. Officially a 소분할 of 갈비; two per animal, so it is a 특수부위 sold only for grilling.",
-      "dishes": ["구이", "특수부위 모둠구이"]
-    },
-    {
-      "id": "moksim",
-      "name": "Neck / chuck roll",
-      "native": "목심",
-      "romanized": "moksim",
-      "region": "The neck above the shoulder, from the point of shoulder at x 0.72 forward to the poll at x 0.80.",
-      "x": [0.70, 0.80],
-      "z": [0.72, 0.92],
-      "full_width": true,
-      "description": "The neck lifts and lowers the head all day, so its grain is coarser than the loin's and it carries little marbling but a great deal of beef flavour. A primal with a single 소분할, 목심살, sliced thin for bulgogi and hot pot or simmered for soup.",
-      "dishes": ["불고기", "국거리", "샤브샤브", "구이"]
-    },
-    {
-      "id": "useol",
-      "name": "Tongue",
-      "native": "우설",
-      "romanized": "u-seol",
-      "region": "The tongue in the head, forward of the poll at x 0.80.",
-      "x": [0.80, 0.96],
-      "z": [0.60, 0.72],
-      "full_width": true,
-      "description": "A muscle that moves constantly while grazing, dense and fine-grained under a rough skin that is peeled after boiling, giving a firm but yielding texture. A 부산물 rather than part of the ten primals, boiled and sliced or grilled as a specialty.",
-      "dishes": ["우설 수육", "우설 구이", "우설 편육"]
-    }
-  ]
+ "culture": "Korea",
+ "id": "kr",
+ "flag": "KR",
+ "blurb": "The Korean scheme is written for the grill pan and the stockpot, not the oven: the government fixes ten 대분할 primals and thirty-nine 소분할 subcuts, and the subcuts are named for the way a muscle behaves in the mouth rather than for the bone it came off. Because beef is eaten in thin slices cooked in seconds at the table, or simmered for hours into broth, small muscles that Western butchery buries in trim are lifted out and sold by name. The fine vocabulary is what diners actually order: nobody asks for 양지, they ask for 차돌박이; nobody asks for 등심, they ask for 꽃등심 or 살치살.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Cut_of_beef",
+  "https://ko.wikipedia.org/wiki/%EC%87%A0%EA%B3%A0%EA%B8%B0_%EB%B6%80%EC%9C%84",
+  "https://meat.8892-house.com/hanwoo-39-cuts/",
+  "https://www.sirloin.co.kr/magazine/magazine4",
+  "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2894"
+ ],
+ "cuts": [
+  {
+   "id": "kkori",
+   "name": "Oxtail",
+   "native": "꼬리",
+   "romanized": "kkori",
+   "region": "The tail itself, rising from the tail base at x 0.00 above the round.",
+   "x": [
+    0.0,
+    0.04
+   ],
+   "z": [
+    0.72,
+    0.86
+   ],
+   "full_width": true,
+   "description": "A chain of small vertebrae wrapped in hard-working muscle and gelatine, the tail swats flies all summer and is tough in every direction. It is a 부산물 (byproduct) rather than one of the ten primals, and is only ever boiled long enough for the collagen to melt.",
+   "dishes": [
+    "꼬리곰탕",
+    "꼬리찜",
+    "소꼬리 수육"
+   ]
+  },
+  {
+   "id": "udun",
+   "name": "Top round / inside round",
+   "native": "우둔",
+   "romanized": "udun",
+   "region": "Inner face of the hind leg, from the tail base at x 0.00 forward to the hip joint at x 0.16, above the hock.",
+   "x": [
+    0.0,
+    0.12
+   ],
+   "z": [
+    0.44,
+    0.72
+   ],
+   "full_width": true,
+   "description": "The inner thigh muscles drive the hind leg but carry almost no fat, so the meat is lean, close-grained and mild, and takes marinade and drying well. One of the ten primals; its 소분할 are 우둔살 and the cylindrical 홍두깨살.",
+   "dishes": [
+    "육회",
+    "장조림",
+    "산적",
+    "육포",
+    "불고기"
+   ]
+  },
+  {
+   "id": "seoldo",
+   "name": "Bottom round / silverside and rump",
+   "native": "설도",
+   "romanized": "seoldo",
+   "region": "Outer and front face of the hind leg, from the hip joint at x 0.16 forward to the hook bone at x 0.24, between the stifle and the rump.",
+   "x": [
+    0.12,
+    0.26
+   ],
+   "z": [
+    0.56,
+    0.8
+   ],
+   "full_width": true,
+   "description": "The outside of the haunch does the pushing when the animal walks, so the grain is coarse and the fat sparse though evenly spread. A primal covering 보섭살, 설기살, 도가니살, 삼각살 and 설기머리살; sliced thin for bulgogi or simmered rather than roasted whole.",
+   "dishes": [
+    "불고기",
+    "국거리",
+    "산적",
+    "장조림"
+   ]
+  },
+  {
+   "id": "samgaksal",
+   "name": "Tri-tip",
+   "native": "삼각살",
+   "romanized": "samgak-sal",
+   "region": "The triangular tip at the front-lower corner of the rump, just behind the flank at x 0.24.",
+   "x": [
+    0.18,
+    0.26
+   ],
+   "z": [
+    0.44,
+    0.56
+   ],
+   "full_width": false,
+   "description": "A small triangular muscle at the bottom front of the bottom round, worked less than the rest of the haunch so it keeps some marbling and stays tender enough to grill. A 소분할 of the 설도 primal.",
+   "dishes": [
+    "구이",
+    "불고기",
+    "스테이크"
+   ]
+  },
+  {
+   "id": "satae",
+   "name": "Shank",
+   "native": "사태",
+   "romanized": "satae",
+   "region": "Hind leg below the stifle, from the hock at z 0.28 up toward the round; the primal also takes in the foreshank, listed separately here as 앞사태.",
+   "x": [
+    0.02,
+    0.16
+   ],
+   "z": [
+    0.1,
+    0.44
+   ],
+   "full_width": true,
+   "description": "The leg muscles below the knee are pure locomotion, laced with tendon and silverskin and almost fat-free, so they are the toughest meat on the animal until the collagen turns to gelatine. A primal comprising 앞사태, 뒷사태, 뭉치사태, 아롱사태 and 상박살; always boiled or braised, never grilled.",
+   "dishes": [
+    "곰탕",
+    "도가니탕",
+    "장조림",
+    "수육",
+    "육개장"
+   ]
+  },
+  {
+   "id": "chaekkeut",
+   "name": "Striploin",
+   "native": "채끝",
+   "romanized": "chaekkeut",
+   "region": "Strip along the lumbar vertebrae under the topline, from the hook bone at x 0.24 forward to the last rib at x 0.46.",
+   "x": [
+    0.26,
+    0.46
+   ],
+   "z": [
+    0.78,
+    0.92
+   ],
+   "full_width": true,
+   "description": "The back muscle behind the last rib is supported by the spine and barely worked, so it is tender with a firm bite and a clean rim of back fat. A primal in its own right, with 채끝살 as its single 소분할, cut into steaks or grilled in thick slices.",
+   "dishes": [
+    "채끝 스테이크",
+    "로스구이",
+    "샤브샤브"
+   ]
+  },
+  {
+   "id": "ansim",
+   "name": "Tenderloin",
+   "native": "안심",
+   "romanized": "ansim",
+   "region": "Hanging under the lumbar vertebrae inside the body cavity, from the hip at x 0.28 forward to the last rib at x 0.46.",
+   "x": [
+    0.28,
+    0.4
+   ],
+   "z": [
+    0.66,
+    0.78
+   ],
+   "full_width": true,
+   "description": "The psoas runs inside the spine and does almost nothing while the animal moves, so it is the softest and leanest muscle on the carcass, with a mild flavour Korean cooks keep unmarinated. A primal (소분할: 안심살) and the most expensive cut by weight.",
+   "dishes": [
+    "안심 스테이크",
+    "구이",
+    "안심 꼬치"
+   ]
+  },
+  {
+   "id": "chimasal",
+   "name": "Flap meat",
+   "native": "치마살",
+   "romanized": "chima-sal",
+   "region": "Rear of the flank ahead of the hind leg, below the loin, around x 0.30 at belly level.",
+   "x": [
+    0.26,
+    0.34
+   ],
+   "z": [
+    0.5,
+    0.62
+   ],
+   "full_width": false,
+   "description": "The internal abdominal oblique, in front of the haunch: a sheet of long loose fibres that hold the belly in and carry marbling in streaks rather than flecks, giving a springy chew and heavy beef flavour. A 소분할 of 양지; grilled fast and cut across the grain, or stewed as 치마양지. English menus call it flank steak, which crosses wires: this muscle is the American flap meat and the French bavette d'aloyau. Flank steak proper is the rectus abdominis, which Korea separates as 앞치마살.",
+   "dishes": [
+    "구이",
+    "국거리",
+    "장조림"
+   ]
+  },
+  {
+   "id": "tosisal",
+   "name": "Hanger steak / thick skirt",
+   "native": "토시살",
+   "romanized": "tosi-sal",
+   "region": "Hanging beside the last rib under the spine at x 0.40-0.46, just behind the diaphragm sheet.",
+   "x": [
+    0.4,
+    0.46
+   ],
+   "z": [
+    0.72,
+    0.78
+   ],
+   "full_width": false,
+   "description": "The muscular pillar that works the diaphragm, hanging free off the spine near the kidney, with a coarse open grain and an offal-adjacent depth from sitting against the viscera. A 소분할 of 갈비 and a 특수부위: only a few hundred grams per animal, so it is grilled and nothing else.",
+   "dishes": [
+    "구이",
+    "특수부위 모둠구이"
+   ]
+  },
+  {
+   "id": "anchangsal",
+   "name": "Outside skirt / diaphragm",
+   "native": "안창살",
+   "romanized": "anchang-sal",
+   "region": "The diaphragm sheet on the inner face of the last ribs, x 0.40-0.46 in the upper half of the barrel.",
+   "x": [
+    0.4,
+    0.46
+   ],
+   "z": [
+    0.6,
+    0.72
+   ],
+   "full_width": false,
+   "description": "The diaphragm itself is a thin sheet that contracts with every breath and so is worked constantly, giving coarse grain, dark colour and strong flavour under a tough membrane that is peeled off before cooking. A 소분할 of 갈비 and one of the prized 특수부위; grilled over charcoal.",
+   "dishes": [
+    "구이",
+    "특수부위 모둠구이"
+   ]
+  },
+  {
+   "id": "usamgyeop",
+   "name": "Thin-sliced beef belly",
+   "native": "우삼겹",
+   "romanized": "u-samgyeop",
+   "region": "The lowest layer of the belly wall along the bottom of the barrel, x 0.40-0.50 at the belly line.",
+   "x": [
+    0.4,
+    0.5
+   ],
+   "z": [
+    0.5,
+    0.55
+   ],
+   "full_width": true,
+   "description": "Not one of the official 39 but a menu name for 업진살 shaved paper-thin, showing fat and lean in stripes like pork belly, which is what 삼겹 means. It curls and cooks in seconds on a hot plate and renders enough fat to fry whatever is next to it.",
+   "dishes": [
+    "우삼겹 숙주볶음",
+    "우삼겹 덮밥",
+    "철판구이"
+   ]
+  },
+  {
+   "id": "eopjinsal",
+   "name": "Navel end / plate",
+   "native": "업진살",
+   "romanized": "eopjin-sal",
+   "region": "Lower belly wall behind the chest, under the rear ribs at x 0.40-0.50.",
+   "x": [
+    0.4,
+    0.5
+   ],
+   "z": [
+    0.55,
+    0.6
+   ],
+   "full_width": true,
+   "description": "The layered belly wall behind the brisket alternates lean and fat because it holds the gut rather than moving the skeleton; rich but sinewy. A 소분할 of 양지, with 업진안살 the tender inner sheet; grilled thin or braised.",
+   "dishes": [
+    "구이",
+    "찜",
+    "우삼겹"
+   ]
+  },
+  {
+   "id": "galbisal",
+   "name": "Boneless rib meat / rib fingers",
+   "native": "갈비살",
+   "romanized": "galbi-sal",
+   "region": "Meat lying between and over the ribs along the lower flank of the rib cage, x 0.50-0.60.",
+   "x": [
+    0.5,
+    0.6
+   ],
+   "z": [
+    0.5,
+    0.6
+   ],
+   "full_width": false,
+   "description": "The intercostal and rib-covering muscles flex the chest with each breath, ending up well marbled and firm-textured; taken off the bone so they can be grilled in strips. A 소분할 of 갈비 and the cut behind most boneless 갈비살 restaurant menus.",
+   "dishes": [
+    "갈비살 구이",
+    "양념갈비",
+    "모둠구이"
+   ]
+  },
+  {
+   "id": "galbi",
+   "name": "Ribs",
+   "native": "갈비",
+   "romanized": "galbi",
+   "region": "The rib cage, ribs 1 to 13, on the sides of the barrel between the last rib at x 0.46 and the shoulder at x 0.62.",
+   "x": [
+    0.46,
+    0.62
+   ],
+   "z": [
+    0.6,
+    0.74
+   ],
+   "full_width": true,
+   "description": "Bone-in rib sections where the meat is worked by breathing and shot through with connective tissue and fat, so it rewards either long braising or scoring and marinating before a hot fire. A primal covering 본갈비, 꽃갈비, 참갈비, 갈비살, 마구리 and the specialty muscles 안창살, 토시살 and 제비추리.",
+   "dishes": [
+    "갈비찜",
+    "양념갈비",
+    "갈비탕",
+    "생갈비"
+   ]
+  },
+  {
+   "id": "kkotdeungsim",
+   "name": "Marbled ribeye (flower loin)",
+   "native": "꽃등심",
+   "romanized": "kkot-deungsim",
+   "region": "The ribeye core over ribs 6 to 9, between the last rib at x 0.46 and the fifth rib at x 0.56, along the top of the back.",
+   "x": [
+    0.46,
+    0.56
+   ],
+   "z": [
+    0.74,
+    0.92
+   ],
+   "full_width": true,
+   "description": "The middle of the back muscle is held still by the rib cage and is therefore the most marbled part of a hanwoo carcass, its fat flecks fanning out like petals, which is where the name comes from. A 소분할 of 등심 and the benchmark cut for the Korean marbling grade.",
+   "dishes": [
+    "꽃등심 구이",
+    "스테이크",
+    "샤브샤브"
+   ]
+  },
+  {
+   "id": "deungsim",
+   "name": "Loin / ribeye",
+   "native": "등심",
+   "romanized": "deungsim",
+   "region": "Along the thoracic vertebrae from the fifth rib at x 0.56 forward toward the shoulder; the whole primal runs x 0.46-0.70, with 꽃등심 as its rear-middle core.",
+   "x": [
+    0.56,
+    0.7
+   ],
+   "z": [
+    0.74,
+    0.86
+   ],
+   "full_width": true,
+   "description": "The long back muscle over the ribs stabilises the spine rather than propelling the animal, so it stays tender while accumulating intramuscular fat. A primal split front to back into 윗등심살, 꽃등심살 and 아랫등심살 plus the 살치살 cap; grilled in slices at the table.",
+   "dishes": [
+    "등심 구이",
+    "스테이크",
+    "샤브샤브",
+    "불고기"
+   ]
+  },
+  {
+   "id": "salchisal",
+   "name": "Chuck flap tail",
+   "native": "살치살",
+   "romanized": "salchi-sal",
+   "region": "A thin cap lying on top of the front of the ribeye where the loin meets the shoulder, x 0.58-0.70 along the topline.",
+   "x": [
+    0.58,
+    0.7
+   ],
+   "z": [
+    0.86,
+    0.92
+   ],
+   "full_width": false,
+   "description": "The serratus ventralis fans from the ribs up toward the shoulder blade, and the regulation separates it from the front ribeye along the fascia between the two. Lightly used, it marbles harder than anything around it and eats soft and buttery. A 소분할 of 등심 yielding roughly a kilogram per animal, which is why it commands a 특수부위 price.",
+   "dishes": [
+    "살치살 구이",
+    "스테이크"
+   ]
+  },
+  {
+   "id": "apdari",
+   "name": "Chuck / shoulder and foreleg",
+   "native": "앞다리",
+   "romanized": "ap-dari",
+   "region": "The shoulder above the elbow at x 0.62-0.70, between the rib cage and the point of shoulder at x 0.72; the primal proper spans roughly x 0.56-0.72, z 0.38-0.78, and this box is the crest of the shoulder above 부채살, with the arm below it ceded to 양지 and 앞사태.",
+   "x": [
+    0.62,
+    0.7
+   ],
+   "z": [
+    0.64,
+    0.74
+   ],
+   "full_width": true,
+   "description": "The shoulder carries most of the animal's weight and swings the foreleg, so it is heavily worked, threaded with fascia and tendon, and chewy rather than tender. A primal covering 꾸리살, 부채살, 앞다리살, 갈비덧살 and 부채덮개살; mostly sliced for bulgogi, stewed or simmered.",
+   "dishes": [
+    "불고기",
+    "국거리",
+    "장조림",
+    "육개장"
+   ]
+  },
+  {
+   "id": "buchaesal",
+   "name": "Top blade / flat iron",
+   "native": "부채살",
+   "romanized": "buchae-sal",
+   "region": "On the outer face of the shoulder blade, x 0.62-0.70 at mid-barrel height, below the chuck.",
+   "x": [
+    0.62,
+    0.7
+   ],
+   "z": [
+    0.56,
+    0.64
+   ],
+   "full_width": false,
+   "description": "The infraspinatus lies flat on the shoulder blade with a line of gristle running down its centre like the ribs of a fan, which gives it its name (commonly written 부챗살); despite sitting in a hard-working primal it is tender and finely marbled. A 소분할 of 앞다리, grilled or dropped into shabu-shabu.",
+   "dishes": [
+    "부채살 구이",
+    "샤브샤브",
+    "스테이크"
+   ]
+  },
+  {
+   "id": "yangji",
+   "name": "Brisket, plate and flank",
+   "native": "양지",
+   "romanized": "yangji",
+   "region": "The underline of the animal: the chest floor behind the point of shoulder at x 0.60-0.70, continuing back along the belly toward the flank.",
+   "x": [
+    0.6,
+    0.7
+   ],
+   "z": [
+    0.42,
+    0.56
+   ],
+   "full_width": true,
+   "description": "The chest and belly wall bears the animal's weight between the forelegs and is dense with collagen and hard fat, so it is tough raw and turns silky and broth-making after hours in water. A primal covering 양지머리, 차돌박이, 업진살, 업진안살, 치마살, 치마양지 and 앞치마살; the backbone of Korean beef soups.",
+   "dishes": [
+    "설렁탕",
+    "곰탕",
+    "국거리",
+    "장조림",
+    "육개장"
+   ]
+  },
+  {
+   "id": "chadolbagi",
+   "name": "Brisket point, thin-sliced",
+   "native": "차돌박이",
+   "romanized": "chadolbagi",
+   "region": "The point of the chest in front of and below the forelegs, x 0.70-0.78, under the base of the neck.",
+   "x": [
+    0.7,
+    0.78
+   ],
+   "z": [
+    0.42,
+    0.56
+   ],
+   "full_width": false,
+   "description": "The superficial pectoral at the very front of the brisket braces the chest and carries a hard white fat that sits in the lean like an embedded pebble, the 차돌 (quartz) of the name. A 소분할 of 양지; far too tough for a steak, so it is frozen and shaved paper-thin and cooked for a few seconds a side.",
+   "dishes": [
+    "차돌된장찌개",
+    "차돌박이 구이",
+    "차돌 숙주볶음"
+   ]
+  },
+  {
+   "id": "apsatae",
+   "name": "Foreshank",
+   "native": "앞사태",
+   "romanized": "ap-satae",
+   "region": "The foreleg below the elbow at x 0.62, down past the knee at z 0.28 to the hoof.",
+   "x": [
+    0.58,
+    0.68
+   ],
+   "z": [
+    0.08,
+    0.38
+   ],
+   "full_width": true,
+   "description": "The front shank works constantly to carry the forehand and is mostly tendon-bound muscle over bone, tougher and more sinewy than the hind shank. A 소분할 of the 사태 primal, boiled for broth or pressed into slices once it is soft.",
+   "dishes": [
+    "곰탕",
+    "수육",
+    "장조림",
+    "육개장"
+   ]
+  },
+  {
+   "id": "jebichuri",
+   "name": "Neck chain (swallow tail)",
+   "native": "제비추리",
+   "romanized": "jebichuri",
+   "region": "A long strap along the underside of the neck and first thoracic vertebrae, inside the body at x 0.70-0.80.",
+   "x": [
+    0.7,
+    0.8
+   ],
+   "z": [
+    0.64,
+    0.72
+   ],
+   "full_width": false,
+   "description": "The longus colli runs beneath the neck bones and holds the head steady, a narrow strap with a thick tendon down the middle that disappears once cooked, leaving a tender, sweet, deeply beefy strip. Officially a 소분할 of 갈비; two per animal, so it is a 특수부위 sold only for grilling.",
+   "dishes": [
+    "구이",
+    "특수부위 모둠구이"
+   ]
+  },
+  {
+   "id": "moksim",
+   "name": "Neck / chuck roll",
+   "native": "목심",
+   "romanized": "moksim",
+   "region": "The neck above the shoulder, from the point of shoulder at x 0.72 forward to the poll at x 0.80.",
+   "x": [
+    0.7,
+    0.8
+   ],
+   "z": [
+    0.72,
+    0.92
+   ],
+   "full_width": true,
+   "description": "The neck lifts and lowers the head all day, so its grain is coarser than the loin's and it carries little marbling but a great deal of beef flavour. A primal with a single 소분할, 목심살, sliced thin for bulgogi and hot pot or simmered for soup.",
+   "dishes": [
+    "불고기",
+    "국거리",
+    "샤브샤브",
+    "구이"
+   ]
+  },
+  {
+   "id": "useol",
+   "name": "Tongue",
+   "native": "우설",
+   "romanized": "u-seol",
+   "region": "The tongue in the head, forward of the poll at x 0.80.",
+   "x": [
+    0.8,
+    0.96
+   ],
+   "z": [
+    0.6,
+    0.72
+   ],
+   "full_width": true,
+   "description": "A muscle that moves constantly while grazing, dense and fine-grained under a rough skin that is peeled after boiling, giving a firm but yielding texture. A 부산물 rather than part of the ten primals, boiled and sliced or grilled as a specialty.",
+   "dishes": [
+    "우설 수육",
+    "우설 구이",
+    "우설 편육"
+   ]
+  }
+ ]
 }
