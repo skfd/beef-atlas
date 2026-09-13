@@ -1,0 +1,892 @@
+{
+ "culture": "France",
+ "id": "fr",
+ "note": "France is the hard case and the interesting one. The découpe follows seams, so several morceaux really are single muscles and can be named exactly — paleron, macreuse à bifteck, rond de gîte, tende de tranche, gîte à la noix, rumsteck, filet, onglet, hampe, joue, aiguillette baronne. But French butchery names pieces, not muscles, and the trade's own cut↔muscle table is the Quizlet BP Boucher deck, which serves a CAPTCHA. So the shoulder's five pieces resolve to two, the neck resolves to none, and the honest answer for the rest is `inferred` with the position quote that was actually published. Two levers did most of the work here beyond what FINDINGS.md already had: VPC article 323's Table 5 footnotes, which pair MQ4 codes with Latin muscles and French cut names, and the UNECE bovine standard reached through mymemory.translated.net's FR/EN parallel segments, which turned out to name muscles for the basses côtes (via `noix de bassecôte`) and to settle the aiguillette baronne = tensor fasciae latae question that FINDINGS.md had recorded as unresolved in both directions.",
+ "sources": [
+  "https://www.viandesetproduitscarnes.com/index.php/fr/process-et-technologies/323-evaluation-du-persille-et-des-qualites-sensorielles-des-carcasses-bovines",
+  "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
+  "https://agris.fao.org/search/en/providers/122439/records/669e832f00eb85b7d72c0403",
+  "https://journees3r.fr/textes3r/20110703-marqueurs-des-qualites-sensorielles-de-la-viande-bovine-en-race-salers/",
+  "https://www.inrae.fr/actualites/biomarqueurs-proteiques-evaluer-persille-tendrete-viande-bovine",
+  "https://mymemory.translated.net/en/English/French/chuck-eye-roll",
+  "https://mymemory.translated.net/en/French/English/aiguillette-baronne",
+  "https://mymemory.translated.net/en/French/English/basses-c%C3%B4tes",
+  "https://mymemory.translated.net/en/French/English/bavette-d-aloyau",
+  "https://mymemory.translated.net/en/French/English/bavette-de-flanchet",
+  "https://mymemory.translated.net/en/French/English/flanchet",
+  "https://mymemory.translated.net/en/French/English/gros-bout-de-poitrine",
+  "https://mymemory.translated.net/en/French/English/plat-de-c%C3%B4tes",
+  "https://mymemory.translated.net/en/French/English/macreuse",
+  "https://mymemory.translated.net/en/French/English/jarret",
+  "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+  "https://fr.wikipedia.org/wiki/Onglet_(viande)",
+  "https://fr.wikipedia.org/wiki/Hampe_(viande)",
+  "https://fr.wikipedia.org/wiki/Joue_de_b%C5%93uf",
+  "https://www.academie-medecine.fr/le-dictionnaire/index.php?q=pilier+du+diaphragme",
+  "https://veteriankey.com/the-diaphragm/",
+  "https://archive.ahdb.org.uk/inside-skirt-transversus-abdominis",
+  "https://meat.tamu.edu/120-beef-brisket-deckle-off-boneless/",
+  "https://www.nationalbeef.com/product/71292/beef-rib-finger-meat-2/",
+  "https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-fra.html?lang=fra&index=alt&srchtxt=MOUVANT+TRANCHE+GRASSE",
+  "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/17077730/",
+  "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8441051/",
+  "https://www.gastronomiac.com/lexique_culinaire/merlan-boucherie/",
+  "https://www.gastronomiac.com/lexique_culinaire/jumeau-boucherie/",
+  "https://www.gastronomiac.com/lexique_culinaire/macreuse-boucherie/",
+  "https://www.gastronomiac.com/lexique_culinaire/araignee-boucherie/",
+  "https://www.gastronomiac.com/lexique_culinaire/collier-boucherie/",
+  "https://www.gastronomiac.com/lexique_culinaire/tendron-boucherie/",
+  "https://www.gastronomiac.com/lexique_culinaire/plat-de-cotes-boucherie/",
+  "https://www.gastronomiac.com/lexique_culinaire/poitrine-boucherie/"
+ ],
+ "cuts": [
+  {
+   "id": "queue",
+   "muscles": [
+    {"id": "sacrocaudalis", "role": "defining", "extent": "portion",
+     "from": "sacrum", "to": "caudal-vertebrae",
+     "note": "the dorsal and ventral sacrocaudal muscles running the length of the tail; the oxtail is severed at the sacrocaudal junction and the whole remaining tail goes with it"}
+   ],
+   "unmodelled": [
+    {"latin": "Mm. intertransversarii dorsales et ventrales caudae", "role": "major",
+     "where": "between the transverse processes of the caudal vertebrae, lateral to the sacrocaudalis"},
+    {"latin": "M. coccygeus", "role": "trace",
+     "where": "from the ischiatic spine to the first caudal vertebrae, at the very base of the tail"}
+   ],
+   "bone_in": true,
+   "evidence": "inferred",
+   "bounds_evidence": "inferred",
+   "sources": [],
+   "dispute": "No source consulted names a muscle for the queue. Every French and UNECE description is bone-defined — it is the tail, severed at the sacrocaudal junction and jointed between the caudal vertebrae — which is exactly the state FINDINGS.md records for the UK oxtail. The muscle list here is derived from bovine anatomy alone: the sacrocaudalis group is what the tail is made of, with the intertransversarii caudae beside it and a sliver of coccygeus at the base. Graded inferred on that basis, not on a beef source."
+  },
+  {
+   "id": "rumsteck",
+   "muscles": [
+    {"id": "gluteus-medius", "role": "defining", "extent": "whole",
+     "note": "the cœur de rumsteck; the same muscle is the US top sirloin and the tail end of it runs forward into the faux-filet"},
+    {"id": "biceps-femoris", "role": "minor", "extent": "portion",
+     "from": "sacrum", "to": "ilium", "seam": true,
+     "note": "the cap over the rump — culotte / coulotte, the US top sirloin cap — seamed off the gluteus medius; butchers take it either with the rumsteck or with the gîte à la noix"}
+   ],
+   "unmodelled": [
+    {"latin": "M. gluteus profundus", "role": "minor",
+     "where": "deep to the gluteus medius, over the hip joint"},
+    {"latin": "M. gluteus accessorius", "role": "trace",
+     "where": "between the gluteus medius and the gluteus profundus"}
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "inferred",
+   "sources": [
+    {"url": "https://www.viandesetproduitscarnes.com/index.php/fr/process-et-technologies/323-evaluation-du-persille-et-des-qualites-sensorielles-des-carcasses-bovines",
+     "supports": ["muscles"],
+     "quote": "MQ4 GM : M. gluteus medius (cœur de rumsteck)"},
+    {"url": "https://agris.fao.org/search/en/providers/122439/records/669e832f00eb85b7d72c0403",
+     "supports": ["muscles"],
+     "quote": "six muscles grillés : le gîte noix ( biceps femoris ), le tende de tranche ( semimembranosus ), le faux-filet ( longissimus ), le rumsteck ( gluteus medius ), le paleron ( infraspinatus ) et le filet ( psoas major )"},
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Gluteus medius  Top sirloin"}
+   ],
+   "dispute": "Muscles are well sourced; the bounds are not. VPC 323 names the gluteus medius as the *cœur* de rumsteck, which implies the commercial rumsteck is larger than that one muscle, and UNECE's French segments confirm it floats: `rumsteck (sans aiguillette baronne) 0178` = `rump (tail off) 0178` and `rumsteck et partie d'aiguillette baronne 2120` = `top sirloin (top butt) 2120`, so the aiguillette baronne is sometimes in and sometimes out. The biceps femoris cap is placed here from anatomy, not from a French source; no source consulted says where the rumsteck/gîte à la noix seam falls on it. Never assigned gluteus superficialis — in cattle it is fused into the gluteobiceps and has no independent identity."
+  },
+  {
+   "id": "aiguillette-baronne",
+   "muscles": [
+    {"id": "tensor-fasciae-latae", "role": "defining", "extent": "whole",
+     "note": "the same muscle is the US tri-tip; UNECE item 2131"}
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://mymemory.translated.net/en/French/English/aiguillette-baronne",
+     "supports": ["muscles"],
+     "quote": "longueur du m. tensor fasciae latae (aiguillette baronne) laissée en place."},
+    {"url": "https://mymemory.translated.net/en/French/English/aiguillette-baronne",
+     "supports": ["muscles", "bounds"],
+     "quote": "aiguillette baronne (partie de l') 2131"},
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Tensor fascia latae  Tri-tip"}
+   ],
+   "dispute": "FINDINGS.md recorded this as unresolved in both directions — nomenclature sourced, muscle not, and the tri-tip equation unproven. The UNECE bovine standard's French cutting text settles it: it names `m. tensor fasciae latae` and glosses it `(aiguillette baronne)` in the same parenthesis, and pairs `aiguillette baronne (partie de l') 2131` with `tri-tip 2131`. So the aiguillette baronne is the tri-tip and it is the tensor fasciae latae. Two caveats worth recording. UNECE's English gloss for the muscle in that cutting instruction is `(tail)`, not `(tri-tip)` — it is the tail of the rump, the same piece under another trade name. And the same page shows `tranche grasse avec aiguillette baronne 2060` = `thick flank 2060`, i.e. UNECE also allows it to be left on the knuckle rather than on the rump, which is why French sources place it variously at the tip of the rumsteck and at the front of the tranche grasse."
+  },
+  {
+   "id": "araignee",
+   "muscles": [
+    {"id": "obturator-externus", "role": "major", "extent": "whole",
+     "note": "placed here from position alone — no source consulted names an obturator for the araignée. The lateral face of the obturator foramen is the only modelled muscle that answers to the published description."}
+   ],
+   "unmodelled": [
+    {"latin": "M. obturatorius internus", "role": "defining",
+     "where": "lining the inner (pelvic) face of the obturator foramen, medial to the obturator externus; this is the muscle the French description of the araignée actually points at, and the atlas has not modelled it"}
+   ],
+   "bone_in": false,
+   "evidence": "inferred",
+   "bounds_evidence": "inferred",
+   "sources": [
+    {"url": "https://www.gastronomiac.com/lexique_culinaire/araignee-boucherie/",
+     "supports": ["bounds"],
+     "quote": "Cette pièce située au niveau de l'aine de l'animal"},
+    {"url": "https://www.gastronomiac.com/lexique_culinaire/araignee-boucherie/",
+     "supports": ["bounds"],
+     "quote": "une araignée pour chaque patte arrière"}
+   ],
+   "dispute": "This is the single most resistant French cut and it stays resistant. FINDINGS.md records nine fetches in which not one source names an obturator; a tenth (gastronomiac) and the untried mymemory/UNECE lever were tried here and added nothing — gastronomiac gives position (`au niveau de l'aine de l'animal`), a count (one per hind leg, ~600 g each) and a human *adductor* analogy, which is not a bovine answer, and puts the rest behind a paywall. UNECE has no French segment for `araignée` at all. The one thing every source agrees on is position: the muscle lining the inner face of the obturator foramen of the pelvis. That is the obturator group, so M. obturatorius internus is listed as the defining muscle in `unmodelled` and the modelled obturator-externus is carried at `major` as its nearest neighbour — both from anatomy, not from a beef source. Note that it is the *fausse* araignée, a different piece, for which sources do supply an obturator; do not transfer that."
+  },
+  {
+   "id": "rond-de-gite",
+   "muscles": [
+    {"id": "semitendinosus", "role": "defining", "extent": "whole",
+     "note": "also called the semelle; the same muscle is the US eye of round"}
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {"url": "https://journees3r.fr/textes3r/20110703-marqueurs-des-qualites-sensorielles-de-la-viande-bovine-en-race-salers/",
+     "supports": ["muscles"],
+     "quote": "le Longissimus thoracis (entrecôte) et le Semitendinosus (rond de gîte)"},
+    {"url": "https://www.viandesetproduitscarnes.com/index.php/fr/process-et-technologies/323-evaluation-du-persille-et-des-qualites-sensorielles-des-carcasses-bovines",
+     "supports": ["muscles"],
+     "quote": "MQ4 ST : M. semitendinosus (rond de gîte)"},
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Semitendinosus  Eye of round"}
+   ],
+   "dispute": null
+  },
+  {
+   "id": "gite-a-la-noix",
+   "muscles": [
+    {"id": "biceps-femoris", "role": "defining", "extent": "portion",
+     "from": "ilium", "to": "tibia", "seam": true,
+     "note": "the caudal thigh body of the gluteobiceps, below the rump cap; the same muscle is the US bottom (outside) round, and its proximal cap is the culotte taken with the rumsteck"}
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "inferred",
+   "sources": [
+    {"url": "https://www.viandesetproduitscarnes.com/index.php/fr/process-et-technologies/323-evaluation-du-persille-et-des-qualites-sensorielles-des-carcasses-bovines",
+     "supports": ["muscles"],
+     "quote": "MQ4 BF : M. biceps femoris (gîte noix)"},
+    {"url": "https://agris.fao.org/search/en/providers/122439/records/669e832f00eb85b7d72c0403",
+     "supports": ["muscles"],
+     "quote": "six muscles grillés : le gîte noix ( biceps femoris ), le tende de tranche ( semimembranosus ), le faux-filet ( longissimus ), le rumsteck ( gluteus medius ), le paleron ( infraspinatus ) et le filet ( psoas major )"},
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Biceps femoris  Bottom (outside) round"}
+   ],
+   "dispute": "Muscle certain, bounds not. In cattle the biceps femoris is part of the gluteobiceps complex, so its dorsal end has no natural seam — the culotte/coulotte is released by a cut the butcher chooses, and no source consulted states where. `ilium`→`tibia` is the whole caudal-thigh body of the muscle minus that cap, taken from anatomy."
+  },
+  {
+   "id": "tende-de-tranche",
+   "muscles": [
+    {"id": "semimembranosus", "role": "defining", "extent": "whole",
+     "note": "the same muscle is the US top (inside) round and the UK topside"},
+    {"id": "adductor", "role": "major", "extent": "whole",
+     "note": "the medial-thigh mass behind the semimembranosus; CFIA counts it as one of the four inside-round muscles"},
+    {"id": "gracilis", "role": "minor", "extent": "whole",
+     "note": "the thin sheet on the inner face of the thigh"}
+   ],
+   "unmodelled": [
+    {"latin": "M. sartorius", "role": "minor",
+     "where": "a flat strap on the medial thigh in front of the gracilis and over the adductor — this is the merlan, one of the two morceaux du boucher hidden in the tende de tranche"},
+    {"latin": "M. pectineus", "role": "trace",
+     "where": "medial thigh, between the adductor and the gracilis"}
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {"url": "https://www.inrae.fr/actualites/biomarqueurs-proteiques-evaluer-persille-tendrete-viande-bovine",
+     "supports": ["muscles"],
+     "quote": "Semimembranosus ou tende de tranche"},
+    {"url": "https://agris.fao.org/search/en/providers/122439/records/669e832f00eb85b7d72c0403",
+     "supports": ["muscles"],
+     "quote": "six muscles grillés : le gîte noix ( biceps femoris ), le tende de tranche ( semimembranosus ), le faux-filet ( longissimus ), le rumsteck ( gluteus medius ), le paleron ( infraspinatus ) et le filet ( psoas major )"},
+    {"url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
+     "supports": ["muscles"],
+     "quote": "Elle renferme quatre (4) muscles : le pectineus, l'adductor, le gracilis et le semimembranosus"},
+    {"url": "https://www.gastronomiac.com/lexique_culinaire/merlan-boucherie/",
+     "supports": ["muscles"],
+     "quote": "Le merlan est un morceau de viande de bœuf à griller, constitué par le muscle couturier"}
+   ],
+   "dispute": "The defining muscle is directly sourced twice in French. The other three come from a bridge: agris's English abstract gives `topside` for tende de tranche, and CFIA's `intérieur de ronde` — the same medial-thigh piece under Canadian nomenclature — lists pectineus, adductor, gracilis and semimembranosus. That bridge is named rather than hidden, which is why this is trade and not standard. Two named sub-pieces are worth recording. The **merlan** is the sartorius (muscle couturier, gastronomiac above; OQLF fiche 8441051 bridges `muscle couturier` to `musculus sartorius`), and the atlas has not modelled the sartorius, so it sits in `unmodelled`. The **poire** has no muscle in any source consulted — OQLF lists it only as a sub-piece of the tende de tranche — and is therefore not assigned at all."
+  },
+  {
+   "id": "tranche-grasse",
+   "muscles": [
+    {"id": "rectus-femoris", "role": "defining", "extent": "whole",
+     "note": "the rond de tranche; the same muscle is the US knuckle centre"},
+    {"id": "quadriceps-femoris", "role": "defining", "extent": "whole",
+     "note": "the three vasti, which the atlas models as one body: vastus medialis is the mouvant (dessus de tranche), vastus lateralis is the plat de tranche, vastus intermedius is buried against the femur"}
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {"url": "https://www.viandesetproduitscarnes.com/index.php/fr/process-et-technologies/323-evaluation-du-persille-et-des-qualites-sensorielles-des-carcasses-bovines",
+     "supports": ["muscles"],
+     "quote": "MQ4 RF : M. rectus femoris (rond de tranche)"},
+    {"url": "https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-fra.html?lang=fra&index=alt&srchtxt=MOUVANT+TRANCHE+GRASSE",
+     "supports": ["muscles"],
+     "quote": "Partie de la tranche grasse du bœuf, correspondant au muscle vaste interne"},
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Quadriceps femoris  Knuckle; Sirloin tip"},
+    {"url": "https://mymemory.translated.net/en/French/English/aiguillette-baronne",
+     "supports": ["bounds"],
+     "quote": "tranche grasse avec aiguillette baronne 2060"}
+   ],
+   "dispute": "Two of the three trade sub-pieces are now sourced, which is an upgrade on FINDINGS.md's record of this cut as unverified. **rond de tranche = rectus femoris** comes straight from VPC 323's Table 5 footnotes. **mouvant = vastus medialis** comes from TERMIUM (`muscle vaste interne`) with OQLF fiche 17077730 bridging `muscle vaste interne` to `musculus vastus medialis`. **plat de tranche = vastus lateralis** remains unverified: the only attribution found is a blurb pointing at HAL hal-01564566, whose full text is behind Anubis, and TERMIUM has no record for the term. It is not separately expressible here in any case, because the atlas models the three vasti as a single `quadriceps-femoris` body. Bounds: UNECE's French text shows the knuckle boundary is not fixed — `tranche grasse avec aiguillette baronne 2060` = `thick flank 2060` puts the tensor fasciae latae inside the thick flank, whereas the French trade sells the aiguillette baronne separately, and this table follows the French practice."
+  },
+  {
+   "id": "gite-arriere",
+   "muscles": [
+    {"id": "gastrocnemius", "role": "defining", "extent": "portion",
+     "from": "femur", "to": "tarsus",
+     "note": "the proximal head is the round heel and is normally left on the thigh; the shank takes the body and the tendon"}
+   ],
+   "unmodelled": [
+    {"latin": "M. flexor digitorum profundus", "role": "major",
+     "where": "caudal to the tibia, deep to the gastrocnemius"},
+    {"latin": "M. flexor digitorum superficialis", "role": "major",
+     "where": "caudal to the tibia, superficial to the deep flexor"},
+    {"latin": "M. tibialis cranialis", "role": "minor",
+     "where": "in front of the tibia, lateral to its crest"},
+    {"latin": "M. extensor digitorum longus", "role": "minor",
+     "where": "craniolateral to the tibia, alongside the tibialis cranialis"},
+    {"latin": "M. popliteus", "role": "trace",
+     "where": "behind the stifle, deep to the gastrocnemius"}
+   ],
+   "bone_in": true,
+   "evidence": "trade",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Gastrocnemius  Round heel"},
+    {"url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
+     "supports": ["bounds"],
+     "quote": "la partie de la cuisse qui est séparée du talon de ronde par une coupe franche à travers le grasset (articulation tibio-fémorale)"},
+    {"url": "https://mymemory.translated.net/en/French/English/jarret",
+     "supports": ["bounds"],
+     "quote": "jarret avant/jarret arrière"}
+   ],
+   "dispute": "Only the gastrocnemius is named by any source, and only through the English `round heel`. The rest of the hind shank is the digital flexor and extensor group, which no beef source enumerates because none of it is sold as a named muscle — it is simmered on the bone. Those are listed as unmodelled from bovine anatomy, not from a beef source; the same treatment as us.json's `hindshank`. Bounds are genuinely standard: CFIA's own French definition of the jarret arrière cuts through the stifle, i.e. the femorotibial joint."
+  },
+  {
+   "id": "faux-filet",
+   "muscles": [
+    {"id": "longissimus", "role": "defining", "extent": "portion",
+     "from": "rib-11", "to": "ilium",
+     "note": "the last three thoracic segments plus all six lumbar; the same muscle in front of the 11th rib is the entrecôte and behind the 5th rib the basses côtes"},
+    {"id": "multifidus", "role": "minor", "extent": "portion",
+     "from": "rib-11", "to": "ilium",
+     "note": "the sub-eye strip under the longissimus, against the vertebral spines"},
+    {"id": "gluteus-medius", "role": "minor", "extent": "portion",
+     "from": "lumbar-vertebrae", "to": "ilium", "seam": true,
+     "note": "CFIA's contre-filet carries the front lip of the gluteus medius; in the French découpe the bulk of it is the rumsteck behind this cut"}
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "inferred",
+   "sources": [
+    {"url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
+     "supports": ["muscles"],
+     "quote": "Il renferme trois (3) muscles : le gluteus medius; le longissimus dorsi; et le multifidus dorsi"},
+    {"url": "https://agris.fao.org/search/en/providers/122439/records/669e832f00eb85b7d72c0403",
+     "supports": ["muscles"],
+     "quote": "six muscles grillés : le gîte noix ( biceps femoris ), le tende de tranche ( semimembranosus ), le faux-filet ( longissimus ), le rumsteck ( gluteus medius ), le paleron ( infraspinatus ) et le filet ( psoas major )"},
+    {"url": "https://www.viandesetproduitscarnes.com/index.php/fr/process-et-technologies/323-evaluation-du-persille-et-des-qualites-sensorielles-des-carcasses-bovines",
+     "supports": ["bounds"],
+     "quote": "MQ4 LTA : MQ4 score du STA (M. longissimus thoracis et lumborum, partie antérieure du faux-filet, 10ème côte)"},
+    {"url": "https://www.viandesetproduitscarnes.com/index.php/fr/process-et-technologies/323-evaluation-du-persille-et-des-qualites-sensorielles-des-carcasses-bovines",
+     "supports": ["bounds"],
+     "quote": "MQ4 LTP : MQ4 score du STP (M. longissimus thoracis et lumborum, partie postérieure du faux-filet, 13ème côte)"}
+   ],
+   "dispute": "Muscles are standard and cited from CFIA's **contre-filet** entry (5.2.1.6), not its *faux-filet* entry — in the same CFIA document `faux-filet` names the Canadian **rib** cut, which is a different piece, and citing it would be wrong. Bounds are inferred and there is a real conflict to record. VPC 323 samples the faux-filet at the 10th rib (anterior) and the 13th rib (posterior), which would make it a thoracic cut ending at the last rib. The French découpe convention places the aloyau line at the 11th rib and puts the bulk of the faux-filet over the lumbar vertebrae, running back to the hip — which is also what this atlas's own rectangle for the cut says. `rib-11`→`ilium` follows the French convention; VPC's two sampling positions are quoted above so the disagreement is visible rather than silently resolved."
+  },
+  {
+   "id": "filet",
+   "muscles": [
+    {"id": "psoas-major", "role": "defining", "extent": "whole",
+     "note": "slung under the lumbar spine; the tête de filet over the ilium is the chateaubriand end"},
+    {"id": "psoas-minor", "role": "minor", "extent": "whole",
+     "note": "the side strap / chaînette, in or out depending on the trim spec"}
+   ],
+   "unmodelled": [
+    {"latin": "M. iliacus", "role": "minor",
+     "where": "fused with the psoas major over the ilium as the iliopsoas; it stays on the butt end of the tenderloin once the side strap is pulled"}
+   ],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
+     "supports": ["muscles", "bounds"],
+     "quote": "désigne le muscle principal (psoas major et minor) à forme cylindrique situé à l'intérieur (côté ventrale) de la longe"},
+    {"url": "https://www.agrireseau.net/bovinsboucherie/documents/Ranking%20of%20Beef%20Muscles%20for%20Tenderness.pdf",
+     "supports": ["muscles"],
+     "quote": "Psoas major  Tenderloin"},
+    {"url": "https://agris.fao.org/search/en/providers/122439/records/669e832f00eb85b7d72c0403",
+     "supports": ["muscles"],
+     "quote": "six muscles grillés : le gîte noix ( biceps femoris ), le tende de tranche ( semimembranosus ), le faux-filet ( longissimus ), le rumsteck ( gluteus medius ), le paleron ( infraspinatus ) et le filet ( psoas major )"}
+   ],
+   "dispute": null
+  },
+  {
+   "id": "bavette-d-aloyau",
+   "muscles": [
+    {"id": "obliquus-internus-abdominis", "role": "defining", "extent": "portion",
+     "from": "ilium", "to": "seam",
+     "note": "the thickest part of the internal oblique where it meets the loin; UNECE 2203 internal flank plate, US flap meat — NOT flank steak"}
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://mymemory.translated.net/en/French/English/bavette-d-aloyau",
+     "supports": ["muscles", "bounds"],
+     "quote": "internal flank plate is prepared from the flank and is the thickest portion of the m. obliquus internus abdominis muscle."},
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Obliquus internus abdominus  Sirloin butt flap"}
+   ],
+   "dispute": "Worth restating because it is the commonest mistranslation in the whole table: the bavette d'aloyau is the US **flap meat / sirloin butt flap**, not the flank steak. The flank steak is the bavette de flanchet, the next cut down, and it is a different muscle."
+  },
+  {
+   "id": "bavette-de-flanchet",
+   "muscles": [
+    {"id": "rectus-abdominis", "role": "defining", "extent": "portion",
+     "from": "costal-cartilages", "to": "ilium",
+     "note": "the flat lean fleshy portion of the straight abdominal muscle; UNECE 2210, this is the US flank steak"}
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://mymemory.translated.net/en/French/English/bavette-de-flanchet",
+     "supports": ["muscles", "bounds"],
+     "quote": "flank steak is prepared from a thin flank (2200) and is the flat lean fleshy portion of the m. rectus abdominis"},
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Rectus abdominus  Flank"},
+    {"url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
+     "supports": ["bounds"],
+     "quote": "la partie du quartier arrière qui est séparée de la longe par une coupe franche plus ou moins parallèle aux vertèbres lombaires débutant à proximité du ganglion lymphatique préfémoral et de la poitrine par une coupe entre la 12e et 13e côte et son cartilage."}
+   ],
+   "dispute": null
+  },
+  {
+   "id": "flanchet",
+   "muscles": [
+    {"id": "obliquus-externus-abdominis", "role": "defining", "extent": "portion",
+     "from": "rib-13", "to": "ilium",
+     "note": "the outermost sheet of the belly wall, the layer that stays once the three bavettes have been taken off"},
+    {"id": "transversus-abdominis", "role": "major", "extent": "portion",
+     "from": "rib-13", "to": "ilium",
+     "note": "the fausse bavette — UNECE inside skirt"},
+    {"id": "obliquus-internus-abdominis", "role": "minor", "extent": "portion",
+     "from": "rib-13", "to": "ilium",
+     "note": "its thick loin end leaves with the bavette d'aloyau"},
+    {"id": "rectus-abdominis", "role": "minor", "extent": "portion",
+     "from": "rib-13", "to": "ilium",
+     "note": "its flat lean portion leaves with the bavette de flanchet"}
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "standard",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://mymemory.translated.net/en/French/English/flanchet",
+     "supports": ["muscles"],
+     "quote": "bavette de flanchet, fausse bavette et bavette d'aloyau"},
+    {"url": "https://archive.ahdb.org.uk/inside-skirt-transversus-abdominis",
+     "supports": ["muscles"],
+     "quote": "Inside skirt (Transversus abdominis)."},
+    {"url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
+     "supports": ["bounds"],
+     "quote": "la partie du quartier arrière qui est séparée de la longe par une coupe franche plus ou moins parallèle aux vertèbres lombaires débutant à proximité du ganglion lymphatique préfémoral et de la poitrine par une coupe entre la 12e et 13e côte et son cartilage."}
+   ],
+   "dispute": "The flanchet is a **primal region, not a muscle** — UNECE's French text divides it into `bavette de flanchet, fausse bavette et bavette d'aloyau` (= flank steak, inside skirt and internal flank plate), all three of which are either separate cuts in this atlas or, in the case of the fausse bavette, folded in here. So the four layers of the abdominal wall are all listed as portions and every one of them overlaps a neighbouring entry; that overlap is real butchery, not a bookkeeping error. The transversus abdominis is graded major because the fausse bavette has no cut of its own in cuts_fr.json."
+  },
+  {
+   "id": "onglet",
+   "muscles": [
+    {"id": "diaphragm-crus", "role": "defining", "extent": "whole",
+     "note": "the two lumbar pillars of the diaphragm, joined by the central sinew; the same piece is the US hanger steak and the Korean 토시살"}
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {"url": "https://fr.wikipedia.org/wiki/Onglet_(viande)",
+     "supports": ["muscles", "bounds"],
+     "quote": "Il correspond à chacun des deux piliers du diaphragme"},
+    {"url": "https://www.academie-medecine.fr/le-dictionnaire/index.php?q=pilier+du+diaphragme",
+     "supports": ["muscles"],
+     "quote": "Il correspond à l'onglée des animaux."}
+   ],
+   "dispute": "There is no onglet/hampe swap, despite the UK trade's `thick skirt` muddying it: the onglet is the pars lumbalis (the crura) and the hampe is the pars costalis. UNL lumps both under a single `Diaphragm` entry and gives it the common names `Skirt, Outside skirt, Hanging Tender`, which is why English-language sources confuse the two; the French pair separates them cleanly."
+  },
+  {
+   "id": "hampe",
+   "muscles": [
+    {"id": "diaphragm", "role": "defining", "extent": "portion",
+     "from": "rib-08", "to": "rib-13",
+     "note": "the pars costalis, the fleshy skirt of the diaphragm along its rib attachment; the same piece is the US outside skirt and the Korean 안창살"}
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {"url": "https://fr.wikipedia.org/wiki/Hampe_(viande)",
+     "supports": ["muscles"],
+     "quote": "Elle correspond au diaphragme et à son attache aux côtes"},
+    {"url": "https://veteriankey.com/the-diaphragm/",
+     "supports": ["bounds"],
+     "quote": "The pars costalis attaches in an oblique direction to the thirteenth through eighth ribs"},
+    {"url": "https://www.whatchefswant.com/wp-content/uploads/2020/09/Outside-Skirt-00100.pdf",
+     "supports": ["muscles"],
+     "quote": "shall consist of the diaphragm including the serous membrane (peritoneum) attached"}
+   ],
+   "dispute": null
+  },
+  {
+   "id": "entrecote",
+   "muscles": [
+    {"id": "longissimus", "role": "defining", "extent": "portion",
+     "from": "rib-06", "to": "rib-11",
+     "note": "the longissimus thoracis; the same muscle is the faux-filet behind the 11th rib and the basses côtes in front of the 6th"},
+    {"id": "spinalis-dorsi", "role": "major", "extent": "portion",
+     "from": "rib-06", "to": "rib-11",
+     "note": "the rib cap that lies along the top of the eye, separated from it by a seam of fat"},
+    {"id": "multifidus", "role": "minor", "extent": "portion",
+     "from": "rib-06", "to": "rib-11"},
+    {"id": "iliocostalis", "role": "trace", "extent": "portion",
+     "from": "rib-06", "to": "rib-11",
+     "note": "lateral to the longissimus, over the rib bodies"},
+    {"id": "intercostalis", "role": "trace", "extent": "portion",
+     "from": "rib-06", "to": "rib-11",
+     "note": "only whatever stays between the ribs on a bone-in côte de bœuf"}
+   ],
+   "unmodelled": [],
+   "bone_in": true,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {"url": "https://journees3r.fr/textes3r/20110703-marqueurs-des-qualites-sensorielles-de-la-viande-bovine-en-race-salers/",
+     "supports": ["muscles"],
+     "quote": "le Longissimus thoracis (entrecôte) et le Semitendinosus (rond de gîte)"},
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Longissimus thoracis  Ribeye"},
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Spinalis dorsi  Rib cap"},
+    {"url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
+     "supports": ["bounds"],
+     "quote": "la partie du quartier avant qui est séparée du bloc d'épaule et de la pointe de poitrine par une coupe franche passant entre la cinquième (5e) et la sixième (6e) côte"}
+   ],
+   "dispute": "Only the longissimus is named for the French cut by a French source; the cap and the lesser back muscles come from the Calkins table via the English `ribeye`, which is the same eye of meat. Bounds: CFIA's French definition of the **côte** fixes the front edge between the 5th and 6th ribs, which is also where French practice puts the basses côtes/côtes line. The back edge at the 11th rib is the aloyau line and is convention, not a quote — and note that this atlas's own rectangle for the cut runs it back to the 13th rib instead; see the faux-filet dispute for the same conflict from the other side."
+  },
+  {
+   "id": "plat-de-cotes",
+   "muscles": [
+    {"id": "intercostalis", "role": "defining", "extent": "portion",
+     "from": "rib-06", "to": "rib-13",
+     "note": "the meat between the rib bodies — the same material sold in the US as rib finger meat and in Korea as 갈비살"},
+    {"id": "serratus-ventralis", "role": "major", "extent": "portion",
+     "from": "rib-06", "to": "rib-09",
+     "note": "its costal digitations sheet over the upper part of the rib plate; the same muscle further forward is the boneless short rib / underblade"},
+    {"id": "obliquus-externus-abdominis", "role": "trace", "extent": "portion",
+     "from": "rib-09", "to": "rib-13",
+     "note": "its costal origin rides over the caudal ribs"},
+    {"id": "latissimus-dorsi", "role": "trace", "extent": "portion",
+     "from": "rib-06", "to": "rib-13",
+     "note": "the thin sheet over the outside of the rib cage, mostly trimmed away"}
+   ],
+   "unmodelled": [
+    {"latin": "M. rectus thoracis", "role": "trace",
+     "where": "on the outer face of the first four ribs, cranial to the deep pectoral"}
+   ],
+   "bone_in": true,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {"url": "https://www.nationalbeef.com/product/71292/beef-rib-finger-meat-2/",
+     "supports": ["muscles", "bounds"],
+     "quote": "derived from the intercostal muscle located between ribs 6 through 12"},
+    {"url": "https://www.gastronomiac.com/lexique_culinaire/plat-de-cotes-boucherie/",
+     "supports": ["bounds"],
+     "quote": "Le plat de côtes comporte la portion moyenne des treize côtes"},
+    {"url": "https://mymemory.translated.net/en/French/English/plat-de-c%C3%B4tes",
+     "supports": ["bounds"],
+     "quote": "plat de côtes (9128)"},
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Serratus ventralis  Boneless short ribs; Inside chuck; Underblade"}
+   ],
+   "dispute": "Only the intercostal layer is directly sourced, and through an American product description (`rib finger meat`) rather than a French one — the same standard FINDINGS.md applied to the Korean 갈비살, and at the same resolution: *Mm. intercostales*, with no source anywhere splitting *externi* from *interni*. Serratus ventralis, external oblique and latissimus are placed from anatomy plus the Calkins `boneless short ribs` row, not from a French source. Bounds disagree mildly: gastronomiac says the plat de côtes takes the middle portion of **all thirteen** ribs, whereas this atlas's rectangle for the cut starts behind the shoulder; `rib-06`→`rib-13` follows the atlas and the National Beef rib range. UNECE's French text gives `plat de côtes (9128)` = `rib plate (9128)` and, tellingly, `plat de côtes et piliers du diaphragme (8146)` = `brisket rib plate and diaphragm crus (8146)` — i.e. in some specs the onglet travels with this cut."
+  },
+  {
+   "id": "basses-cotes",
+   "muscles": [
+    {"id": "longissimus", "role": "defining", "extent": "portion",
+     "from": "rib-01", "to": "rib-05",
+     "note": "the cranial end of the eye of meat — the noix de bassecôte, US chuck eye; it runs out and breaks up over the first ribs"},
+    {"id": "spinalis-dorsi", "role": "major", "extent": "portion",
+     "from": "rib-01", "to": "rib-05"},
+    {"id": "complexus", "role": "major", "extent": "portion",
+     "from": "cervical-vertebrae", "to": "rib-05",
+     "note": "M. semispinalis capitis, which UNECE names as part of the chuck eye; it is the long dorsal neck muscle running forward out of this cut"},
+    {"id": "multifidus", "role": "minor", "extent": "portion",
+     "from": "rib-01", "to": "rib-05"},
+    {"id": "serratus-ventralis", "role": "minor", "extent": "portion",
+     "from": "rib-01", "to": "rib-05",
+     "note": "UNECE trims it back to about 75 mm from the ventral edge when the basses côtes are boned out"}
+   ],
+   "unmodelled": [],
+   "bone_in": true,
+   "evidence": "standard",
+   "bounds_evidence": "trade",
+   "sources": [
+    {"url": "https://mymemory.translated.net/en/English/French/chuck-eye-roll",
+     "supports": ["muscles"],
+     "quote": "la noix de bassecôte est composée des m. longissimus dorsi, m. spinalis dorsi, m. complexus et m. multifidus dorsi."},
+    {"url": "https://mymemory.translated.net/en/English/French/chuck-eye-roll",
+     "supports": ["muscles", "bounds"],
+     "quote": "ce morceau est préparé à partir de la basse côte sans os (2275) par enlèvement d'une partie du m. serratus ventralis à environ 75 mm du bord ventral et une coupe parallèle à la colonne vertébrale."},
+    {"url": "https://mymemory.translated.net/en/French/English/basses-c%C3%B4tes",
+     "supports": ["muscles"],
+     "quote": "cette découpe est tirée de la découpe portant le code 2289 après enlèvement d'un morceau de basses côtes sans os et comprend les m. serratus ventralis, m. rhomboideus et m. splenius."},
+    {"url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
+     "supports": ["bounds"],
+     "quote": "la partie du quartier avant qui est séparée du bloc d'épaule et de la pointe de poitrine par une coupe franche passant entre la cinquième (5e) et la sixième (6e) côte"}
+   ],
+   "dispute": "FINDINGS.md listed the basses côtes as blurb-only. They are not: the UNECE bovine standard's own French text uses `basse côte` / `noix de bassecôte` as the French for the chuck roll and chuck eye, and states the muscle list outright — longissimus dorsi, spinalis dorsi, complexus and multifidus dorsi. That is a standard-grade answer in French, reached through mymemory.translated.net because unece.org is 403. One caution that keeps this from being airtight: the same parallel text shows the term used loosely, with `un morceau de basses côtes sans os` rendered as `the chuck eye roll` in one segment and `la basse côte sans os (2275)` as `the chuck roll` in another — two different UNECE items sharing the French name. Bounds are trade, from CFIA's 5e/6e rib line; the front edge at the first rib is the French convention (`les cinq premières côtes`) and is not quoted."
+  },
+  {
+   "id": "tendron",
+   "muscles": [
+    {"id": "intercostalis", "role": "major", "extent": "portion",
+     "from": "rib-06", "to": "rib-13",
+     "note": "only the ventral ends, where the ribs give way to cartilage"},
+    {"id": "rectus-abdominis", "role": "major", "extent": "portion",
+     "from": "sternum", "to": "costal-cartilages",
+     "note": "its cranial end, running forward onto the sternum and the costal cartilages"},
+    {"id": "obliquus-externus-abdominis", "role": "minor", "extent": "portion",
+     "from": "rib-08", "to": "rib-13"},
+    {"id": "pectoralis-profundus", "role": "trace", "extent": "portion",
+     "from": "sternum", "to": "costal-cartilages",
+     "note": "its caudal tail runs back into the milieu de poitrine"}
+   ],
+   "unmodelled": [
+    {"latin": "M. transversus thoracis", "role": "minor",
+     "where": "on the inner face of the sternum and the costal cartilages, deep to the intercostals"}
+   ],
+   "bone_in": true,
+   "evidence": "inferred",
+   "bounds_evidence": "trade",
+   "sources": [
+    {"url": "https://www.gastronomiac.com/lexique_culinaire/tendron-boucherie/",
+     "supports": ["bounds"],
+     "quote": "Le tendron est un morceau entrelardé et moelleux correspondant à la partie moyenne de la poitrine du bœuf et du veau, situé entre la poitrine proprement dite et le flanchet."},
+    {"url": "https://www.gastronomiac.com/lexique_culinaire/poitrine-boucherie/",
+     "supports": ["bounds"],
+     "quote": "le gros haut de poitrine, le milieu de poitrine et le tendron"},
+    {"url": "https://mymemory.translated.net/en/French/English/tendron",
+     "supports": ["bounds"],
+     "quote": "découpe de poitrine dite australienne, au sens du code nc 0202 30 50, la partie inférieure du quartier avant comprenant la pointe de poitrine, le milieu de poitrine et le tendron"}
+   ],
+   "dispute": "No source consulted names a muscle for the tendron. Every one of them defines it by position and by what it is made of in gross terms — layers of meat, fat and the soft cartilage of the rib ends — and the two that name anything name neighbouring **cuts**, not muscles: gastronomiac places it `entre la poitrine proprement dite et le flanchet`, and the EU/UNECE tariff text lists it as the third member of the lower forequarter beside the pointe de poitrine and the milieu de poitrine. The muscle list here is therefore derived from the position: at the ventral ends of the caudal ribs you have the intercostals, the cranial end of the rectus abdominis, the costal origin of the external oblique, the tail of the deep pectoral, and the transversus thoracis inside the sternum. Bounds are quotable, muscles are not."
+  },
+  {
+   "id": "gros-bout-de-poitrine",
+   "muscles": [
+    {"id": "pectoralis-superficialis", "role": "defining", "extent": "whole",
+     "note": "on the exterior (lateral) portion of the brisket; the US brisket point, IMPS 120B"},
+    {"id": "pectoralis-profundus", "role": "major", "extent": "portion",
+     "from": "sternum", "to": "costal-cartilages", "seam": true,
+     "note": "the medial sheet — the US brisket flat, IMPS 120A; its caudal end runs back into the milieu de poitrine and the tendron"},
+    {"id": "sternocephalicus", "role": "trace", "extent": "portion",
+     "from": "sternum", "to": "cervical-vertebrae",
+     "note": "its sternal end reaches the point of the brisket"}
+   ],
+   "unmodelled": [
+    {"latin": "M. rectus thoracis", "role": "trace",
+     "where": "on the outer face of the first four ribs, dorsal to the deep pectoral"},
+    {"latin": "M. cutaneus trunci", "role": "trace",
+     "where": "the skin muscle sheeting the whole lateral brisket, removed with the trim"}
+   ],
+   "bone_in": true,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {"url": "https://mymemory.translated.net/en/French/English/gros-bout-de-poitrine",
+     "supports": ["bounds"],
+     "quote": "Thick end of brisket"},
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Deep pectoral  Brisket"},
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Superficial pectoral  Brisket"},
+    {"url": "https://meat.tamu.edu/120-beef-brisket-deckle-off-boneless/",
+     "supports": ["muscles"],
+     "quote": "The two muscles … may also be separated by following the natural seam between the muscles to make a 120A Beef Brisket Flat and a 120B Beef Brisket Point."},
+    {"url": "https://www.gastronomiac.com/lexique_culinaire/poitrine-boucherie/",
+     "supports": ["bounds"],
+     "quote": "le gros haut de poitrine, le milieu de poitrine et le tendron"}
+   ],
+   "dispute": "FINDINGS.md had this as blurb-only and it still has no French source naming a muscle. What it has is a bridge, stated rather than hidden: IATE/UNECE gives `gros bout de poitrine` = `thick end of brisket`, and Calkins puts both pectorals on the brisket while TAMU says which is which — deep pectoral medial (flat, 120A), superficial pectoral lateral (point, 120B). That pairing is the one most often published inverted, so it is worth being explicit about. The superficial pectoral is graded defining because the *gros bout* is specifically the thick anterior end where that muscle sits; the deep pectoral is a portion because it keeps running caudally into the milieu de poitrine and the tendron. Grade is trade, not standard, because the bridge does the work."
+  },
+  {
+   "id": "paleron",
+   "muscles": [
+    {"id": "infraspinatus", "role": "defining", "extent": "whole",
+     "note": "the whole muscle, lying flat on the outer face of the scapula behind its spine, split lengthwise by its own central tendon sheet; the same muscle is the US flat iron / top blade, the Korean 부채살 and the Japanese ミスジ"}
+   ],
+   "unmodelled": [
+    {"latin": "M. teres minor", "role": "trace",
+     "where": "a small muscle caudal to the infraspinatus, between it and the long head of the triceps"}
+   ],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {"url": "https://www.viandesetproduitscarnes.com/index.php/fr/process-et-technologies/323-evaluation-du-persille-et-des-qualites-sensorielles-des-carcasses-bovines",
+     "supports": ["muscles"],
+     "quote": "MQ4 INSP : M. infraspinatus (paleron)"},
+    {"url": "https://agris.fao.org/search/en/providers/122439/records/669e832f00eb85b7d72c0403",
+     "supports": ["muscles"],
+     "quote": "six muscles grillés : le gîte noix ( biceps femoris ), le tende de tranche ( semimembranosus ), le faux-filet ( longissimus ), le rumsteck ( gluteus medius ), le paleron ( infraspinatus ) et le filet ( psoas major )"},
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Infraspinatus  Top blade; Flat Iron; Triangle"}
+   ],
+   "dispute": "So it is the **paleron**, not the macreuse, that is the flat-iron muscle. Recorded because fr.wikipedia's *Paleron* page says it `correspond, chez l'homme, au muscle deltoïde` — a human analogy offered as an anatomical answer, and it is not one; the bovine deltoideus is a different, smaller muscle over the scapular spine that the French trade does not sell under this name."
+  },
+  {
+   "id": "macreuse-a-bifteck",
+   "muscles": [
+    {"id": "triceps-brachii", "role": "defining", "extent": "portion",
+     "from": "scapula", "to": "humerus", "seam": true,
+     "note": "the long head only — caput longum, the boule de macreuse, UNECE blade bolar 2302; the lateral and medial heads stay with the macreuse à pot-au-feu and the jumeau à pot-au-feu"}
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {"url": "https://www.viandesetproduitscarnes.com/index.php/fr/process-et-technologies/323-evaluation-du-persille-et-des-qualites-sensorielles-des-carcasses-bovines",
+     "supports": ["muscles"],
+     "quote": "MQ4 TBCL : M. triceps brachii caput longum (macreuse à bifteck)"},
+    {"url": "https://mymemory.translated.net/en/French/English/macreuse",
+     "supports": ["muscles"],
+     "quote": "boule de macreuse"},
+    {"url": "https://mymemory.translated.net/en/French/English/macreuse",
+     "supports": ["muscles"],
+     "quote": "boule de macreuse (2302)"},
+    {"url": "https://www.gastronomiac.com/lexique_culinaire/macreuse-boucherie/",
+     "supports": ["bounds"],
+     "quote": "La macreuse est une pièce de viande de bœuf située dans l'épaule, du côté opposé aux jumeaux."}
+   ],
+   "dispute": "Two independent sources give the long head of the triceps: VPC 323 names it outright, and UNECE's French segments pair `boule de macreuse` with `m. triceps brachii` and `boule de macreuse (2302)` with `blade bolar`. The trap to avoid: CFIA's **macreuse de palette** is a *different cut* and gets supraspinatus or infraspinatus — `le muscles de forme cylindrique (supraspinatus) de la palette … ou le muscle infraspinatus`. Canadian nomenclature must not be transferred onto the French macreuse. The atlas models the triceps as one body, so `caput longum` can only be expressed as a portion with a note; the seam between the heads is real but the model cannot hold it."
+  },
+  {
+   "id": "jumeau-a-bifteck",
+   "muscles": [
+    {"id": "subscapularis", "role": "major", "extent": "whole",
+     "note": "placed from position alone — the medial face of the scapula"},
+    {"id": "teres-major", "role": "minor", "extent": "whole",
+     "note": "on the caudal border of the scapula beside the subscapularis; sold separately in the US as the petite/shoulder tender"}
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "inferred",
+   "bounds_evidence": "trade",
+   "sources": [
+    {"url": "https://www.gastronomiac.com/lexique_culinaire/jumeau-boucherie/",
+     "supports": ["bounds"],
+     "quote": "situé sur le scapulum (palette), comporte des parties plus ou moins tendres"},
+    {"url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
+     "supports": ["muscles"],
+     "quote": "la partie de la palette située à l'intérieur (coté médial) de l'omoplate (scapula) incluant les muscles teres major, subscapularis et serratus ventralis"},
+    {"url": "https://www.gastronomiac.com/lexique_culinaire/macreuse-boucherie/",
+     "supports": ["bounds"],
+     "quote": "La macreuse est une pièce de viande de bœuf située dans l'épaule, du côté opposé aux jumeaux."}
+   ],
+   "dispute": "No source consulted names a muscle for the jumeau à bifteck; it is one of the blurb-only shoulder pieces FINDINGS.md flagged, and the French trade's own cut↔muscle table — the Quizlet BP Boucher deck — serves a CAPTCHA. Two positional facts are quotable: gastronomiac puts it `sur le scapulum (palette)` and puts the macreuse `du côté opposé aux jumeaux`, i.e. the two jumeaux are on the scapula side and the macreuse on the humerus side. The muscles are then taken from CFIA's description of the medial-scapula piece (`bas de palette`), which contains teres major, subscapularis and serratus ventralis. That is a bridge across nomenclatures and the assignment should be read as a hypothesis, not a fact. The competing hypothesis, which nothing here settles: several French trade blurbs describe the jumeau as a `muscle long à fibres courtes` under the blade, wording that would fit the deltoideus or a triceps head just as well."
+  },
+  {
+   "id": "jumeau-a-pot-au-feu",
+   "muscles": [
+    {"id": "triceps-brachii", "role": "major", "extent": "portion",
+     "from": "humerus", "to": "radius-ulna",
+     "note": "placed from position alone — the medial and lateral heads along the humerus, below the long head taken by the macreuse à bifteck"},
+    {"id": "biceps-brachii", "role": "minor", "extent": "whole",
+     "note": "on the cranial face of the humerus"}
+   ],
+   "unmodelled": [
+    {"latin": "M. brachialis", "role": "minor",
+     "where": "spiralling round the lateral face of the humerus under the triceps, between it and the biceps brachii"},
+    {"latin": "M. anconeus", "role": "trace",
+     "where": "in the olecranon fossa, deep to the triceps at the point of the elbow"}
+   ],
+   "bone_in": false,
+   "evidence": "inferred",
+   "bounds_evidence": "trade",
+   "sources": [
+    {"url": "https://www.gastronomiac.com/lexique_culinaire/jumeau-boucherie/",
+     "supports": ["bounds"],
+     "quote": "situé le long de l'humérus (*), gélatineux et moelleux"},
+    {"url": "https://www.gastronomiac.com/lexique_culinaire/jumeau-boucherie/",
+     "supports": ["bounds"],
+     "quote": "Os long constituant le squelette du bras, de l'épaule au coude"}
+   ],
+   "dispute": "Blurb-only, exactly as FINDINGS.md predicted. The one hard fact any source gives is the bone it lies along: gastronomiac says `situé le long de l'humérus` and glosses the humerus as the bone from shoulder to elbow. Everything along that bone that is not already claimed by the macreuse à bifteck (triceps long head) is what is listed here — the other two triceps heads, the biceps brachii, and the brachialis and anconeus as unmodelled. That is an assignment from position, not from a source, and it overlaps the macreuse à pot-au-feu for the same reason: the French shoulder is carved into five named pieces and only two of them (paleron, macreuse à bifteck) are named to a muscle by anybody."
+  },
+  {
+   "id": "macreuse-a-pot-au-feu",
+   "muscles": [
+    {"id": "triceps-brachii", "role": "major", "extent": "portion",
+     "from": "scapula", "to": "humerus",
+     "note": "the lateral head and the clod heart mass over the humerus; placed from position, not from a French source"},
+    {"id": "deltoideus", "role": "minor", "extent": "whole",
+     "note": "over the scapular spine and the point of the shoulder; Calkins calls it outside chuck"},
+    {"id": "brachiocephalicus", "role": "trace", "extent": "portion",
+     "from": "cervical-vertebrae", "to": "humerus",
+     "note": "the strap running from the neck onto the point of the shoulder"}
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "inferred",
+   "bounds_evidence": "trade",
+   "sources": [
+    {"url": "https://www.gastronomiac.com/lexique_culinaire/macreuse-boucherie/",
+     "supports": ["bounds"],
+     "quote": "La macreuse est une pièce de viande de bœuf située dans l'épaule, du côté opposé aux jumeaux."},
+    {"url": "https://www.gastronomiac.com/lexique_culinaire/macreuse-boucherie/",
+     "supports": ["bounds"],
+     "quote": "est utilisée pour les braisés, les carbonades, les daubes et le bœuf mode ; elle est une des viandes du pot-au-feu."},
+    {"url": "https://www.paffa.org/system/ckeditor_assets/attachments/1146/66020_Beef_Muscle_Common_Names.pdf",
+     "supports": ["muscles"],
+     "quote": "Triceps brachii  Clod heart; Shoulder center; Shoulder top; Ranch Cut"}
+   ],
+   "dispute": "No source names a muscle for the gelatinous macreuse specifically. gastronomiac treats `macreuse à bifteck` and `macreuse gélatineuse` as two grades of one shoulder piece, distinguished by cooking method rather than by anatomy, and UNECE's French segments give only `macreuse` = `shoulder (cushion)` and `macreuse à bifteck` = `shoulder clod`. Since VPC 323 has already claimed the triceps long head for the macreuse à bifteck, what is left of the Calkins `clod heart` mass — the lateral head over the humerus — plus the deltoideus and the shoulder end of the brachiocephalicus is what is assigned here. Position-derived, and it deliberately overlaps the jumeau à pot-au-feu, because no source draws the seam between them."
+  },
+  {
+   "id": "gite-avant",
+   "muscles": [
+    {"id": "extensor-carpi-radialis", "role": "major", "extent": "portion",
+     "from": "humerus", "to": "carpus",
+     "note": "the largest named muscle of the forearm, on its cranial face"}
+   ],
+   "unmodelled": [
+    {"latin": "M. flexor carpi ulnaris", "role": "major",
+     "where": "caudomedial forearm, behind the radius-ulna"},
+    {"latin": "M. flexor carpi radialis", "role": "minor",
+     "where": "medial forearm, beside the flexor carpi ulnaris"},
+    {"latin": "M. flexor digitorum profundus", "role": "major",
+     "where": "the deep caudal mass of the forearm, against the ulna"},
+    {"latin": "M. flexor digitorum superficialis", "role": "minor",
+     "where": "caudal forearm, superficial to the deep flexor"},
+    {"latin": "M. extensor digitorum communis", "role": "minor",
+     "where": "craniolateral forearm, beside the extensor carpi radialis"}
+   ],
+   "bone_in": true,
+   "evidence": "inferred",
+   "bounds_evidence": "standard",
+   "sources": [
+    {"url": "https://inspection.canada.ca/etiquetage-des-aliments/etiquetage/industrie/produits-de-viande-et-de-volaille/coupes-de-viande/boeuf/fra/1348582373896/1348589471777",
+     "supports": ["bounds"],
+     "quote": "la partie du quartier avant qui est séparée du bloc d'épaule par une coupe passant légèrement dorsal à l'articulation du coude (l'extrémité distale de l'humérus) et de la pointe de poitrine par une coupe qui longe le contour naturel du coude (olécrane)."},
+    {"url": "https://mymemory.translated.net/en/French/English/jarret",
+     "supports": ["bounds"],
+     "quote": "jarret avant 5030"}
+   ],
+   "dispute": "No source names a muscle for the fore shank, and unlike the hind shank there is no Calkins row to lean on — the Calkins table covers 32 muscles ranked for tenderness and contains nothing below the elbow at the front. The whole muscle list is therefore bovine forelimb anatomy: the carpal and digital flexors and extensors wrapped round the radius-ulna, of which the atlas models only the extensor carpi radialis. Bounds, by contrast, are standard: CFIA's French definition of the jarret avant cuts just dorsal to the elbow at the distal end of the humerus and follows the olecranon, and UNECE gives `jarret avant 5030` = `foreshank 5030`."
+  },
+  {
+   "id": "collier",
+   "muscles": [
+    {"id": "splenius", "role": "major", "extent": "whole",
+     "note": "the broad sheet over the top of the neck; UNECE names it in the chuck immediately behind this cut"},
+    {"id": "complexus", "role": "major", "extent": "portion",
+     "from": "atlas", "to": "thoracic-vertebrae",
+     "note": "M. semispinalis capitis; VPC 323 gives `demi-épineux` as its French butchery name, without saying which cut the piece belongs to"},
+    {"id": "rhomboideus", "role": "major", "extent": "portion",
+     "from": "cervical-vertebrae", "to": "thoracic-vertebrae"},
+    {"id": "brachiocephalicus", "role": "minor", "extent": "portion",
+     "from": "cranium", "to": "cervical-vertebrae",
+     "note": "the neck end only; its shoulder end goes with the macreuse"},
+    {"id": "sternocephalicus", "role": "minor", "extent": "portion",
+     "from": "cranium", "to": "cervical-vertebrae"},
+    {"id": "longus-colli", "role": "minor", "extent": "whole",
+     "note": "the deep ventral neck strap under the vertebrae; the Korean trade sells the same muscle as 제비추리"},
+    {"id": "trapezius", "role": "minor", "extent": "portion",
+     "from": "cervical-vertebrae", "to": "thoracic-vertebrae"},
+    {"id": "omotransversarius", "role": "minor", "extent": "whole"},
+    {"id": "multifidus", "role": "trace", "extent": "portion",
+     "from": "axis", "to": "thoracic-vertebrae"},
+    {"id": "serratus-ventralis", "role": "trace", "extent": "portion",
+     "from": "cervical-vertebrae", "to": "rib-01",
+     "note": "its cervical part only"}
+   ],
+   "unmodelled": [
+    {"latin": "M. rectus capitis dorsalis major", "role": "trace",
+     "where": "between the axis and the occiput, deep to the complexus at the poll"},
+    {"latin": "Mm. scaleni", "role": "trace",
+     "where": "on the sides of the cervical vertebrae, under the longus colli, reaching the first ribs"}
+   ],
+   "bone_in": true,
+   "evidence": "inferred",
+   "bounds_evidence": "trade",
+   "sources": [
+    {"url": "https://www.gastronomiac.com/lexique_culinaire/collier-boucherie/",
+     "supports": ["bounds"],
+     "quote": "la veine maigre, de la veine grasse et d'une partie de la griffe"},
+    {"url": "https://mymemory.translated.net/en/French/English/basses-c%C3%B4tes",
+     "supports": ["muscles"],
+     "quote": "cette découpe est tirée de la découpe portant le code 2289 après enlèvement d'un morceau de basses côtes sans os et comprend les m. serratus ventralis, m. rhomboideus et m. splenius."},
+    {"url": "https://www.viandesetproduitscarnes.com/index.php/fr/process-et-technologies/323-evaluation-du-persille-et-des-qualites-sensorielles-des-carcasses-bovines",
+     "supports": ["muscles"],
+     "quote": "MQ4 SSC : M. semispinalis capitis (demi-épineux)"}
+   ],
+   "dispute": "The collier is the clearest case in the French table of a cut whose documented contents are **butcher's pieces, not muscles**: gastronomiac lists `la veine maigre, de la veine grasse et d'une partie de la griffe`, FINDINGS.md records `la salière, la veine grasse et la veine maigre` from another source, and UNECE's French segments have no entry for `collier` at all — mymemory returns `necklace` and `clamp`. Two pieces of real evidence sit either side of it and neither is a definition. UNECE names m. serratus ventralis, m. rhomboideus and m. splenius for the square-cut chuck once the basses côtes are removed, which is the primal immediately behind the collier, and VPC 323 gives `demi-épineux` as the French butchery name for M. semispinalis capitis — the modelled `complexus` — without saying which cut that piece is sold in. The list here is therefore the cervical musculature from bovine anatomy, weighted by those two hints. Bounds are the seven cervical vertebrae, per gastronomiac."
+  },
+  {
+   "id": "joue",
+   "muscles": [
+    {"id": "masseter", "role": "defining", "extent": "whole",
+     "note": "the whole masseter of one side; the noix de joue and the contre-joue are the two lobes of it either side of the tendinous sheet"}
+   ],
+   "unmodelled": [],
+   "bone_in": false,
+   "evidence": "trade",
+   "bounds_evidence": "trade",
+   "sources": [
+    {"url": "https://fr.wikipedia.org/wiki/Joue_de_b%C5%93uf",
+     "supports": ["muscles"],
+     "quote": "Les joues de bœuf sont les muscles masticateurs et élévateurs du maxillaire inférieur (appelé masséters)"},
+    {"url": "https://fr.wikipedia.org/wiki/Joue_de_b%C5%93uf",
+     "supports": ["muscles", "bounds"],
+     "quote": "La noix de joue (noix de joue et contre joue) est composée uniquement de la masse musculaire des masséters."}
+   ],
+   "dispute": "The source is explicit that the cut is the masseter and **only** the masseter (`composée uniquement de la masse musculaire des masséters`), which is why the temporalis and the pterygoids are not listed even though they are chewing muscles on the same skull — they are not in this piece. Sold in France as an abat rather than as a carcass cut, which is why no meat-cut specification defines it and the grade is trade rather than standard."
+  }
+ ]
+}
