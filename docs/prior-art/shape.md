@@ -28,8 +28,17 @@ boxes, but no cut in any of the seven files has a `boxes` key — the authored u
 rectangle in the sagittal plane plus a `full_width` flag, and [`web/app.js:217`](../../web/app.js)
 intersects those rectangles. The box unions are *derived* at build time by
 [`blender/cuts.py:111`](../../blender/cuts.py) so that overlapping claims tile cleanly, and the mesh only
-clips the silhouette. So the atlas is, underneath, a **2D areal partition problem** — which is lucky,
-because it means the geographic literature in §3 applies literally rather than by analogy.
+clips the silhouette.
+
+`full_width` does not change that, which is worth stating because the field's name suggests otherwise:
+nothing geometric reads it. [`blender/build.py:56`](../../blender/build.py) hardcodes `y_half=0.6` and
+`carve()` is handed only `(x0, x1, z0, z1)`, so **every cut is carved the full width of the animal
+regardless**. The flag's only consumer is [`web/app.js:394`](../../web/app.js), where it prints a note
+telling the reader that this particular cut is a thin sheet in life and the slab is "whereabouts, not the
+shape of the cut". It is an honesty label in the UI, not a parameter.
+
+So the atlas is, underneath, a **2D areal partition problem** — which is lucky, because it means the
+geographic literature in §3 applies literally rather than by analogy.
 
 (`FRAME.md` should be fixed to say so; that is a separate change.)
 
@@ -83,24 +92,33 @@ Searched and absent — a null search, weaker than a blocked fetch, so grey lite
 ## 2. Everything else is anticipated, and one of them ships this month
 
 ### The name is taken, and the product is close
-**"3D Beef Cuts Guide — Steak, Yakiniku & Butcher Atlas"** is live at
-`beefatlas.kittichoteshane.workers.dev` — verified directly, that string is the page's own title. One GLB
-(12,857 verts, 46 selectable entities) carrying **three partitions over one mesh** — Steakhouse 17 cuts,
-Yakiniku 39, Butcher 72 — in EN/JA/TH, with declared `skin` (opacity 0.16) / `skeleton` / `carcass` /
-`cuts` layers and an isolation behaviour that fades the hide and unselected cuts to reveal deep anatomy.
-That is features 1, 3 and 4 at once.
+**"Beef Atlas | 3D Cuts Guide"** — confirmed on the App Store,
+[id6796940694](https://apps.apple.com/us/app/beef-atlas-3d-cuts-guide/id6796940694), developer Kittichote
+Kamalapirat, free, too few ratings to display an average. The free web build is at
+`beefatlas.kittichoteshane.workers.dev`, whose own page title is *"3D Beef Cuts Guide – Steak, Yakiniku &
+Butcher Atlas"*. One GLB (12,857 verts, 46 selectable entities) carrying **three partitions over one
+mesh** — Steakhouse 17 cuts, Yakiniku 39, Butcher 72 — in EN/JA/TH, with declared `skin` (opacity 0.16) /
+`skeleton` / `carcass` / `cuts` layers and an isolation behaviour that fades the hide and unselected cuts
+to reveal deep anatomy. That is features 1, 3 and 4 at once.
 
-Three things keep it apart from this atlas. Its partitions are **registers, not countries** — its own
-catalog names exactly two `restaurantSystems`. Its 62 cross-system relations are **qualitative labels**
-(`exact` 41, `derived` 12, `approximate` 5, `broader` 2, `restaurantDependent` 2), never percentages. And
-it has 0 ratings on every storefront checked.
+Two things keep it apart from this atlas, and both were re-measured here from its public
+`/atlas/atlas-catalog.json` (235,362 bytes). Its partitions are **registers, not countries**:
+`"restaurantSystems": ["steakhouse", "yakiniku"]`, exactly two, over 48 `cutConcepts` and 94
+`anatomicalInstances`. And its 62 cross-system relationships are **qualitative labels** — `exact` 41,
+`derived` 12, `approximate` 5, `broader` 2, `restaurantDependent` 2, confidence `verified` 53 /
+`supported` 8 / `provisional` 1 — with, checked explicitly, **no numeric field anywhere in any of them**.
+They also bind a *term* to a *concept* (`term.en.ribeye` → `concept.ribeye`), which is a terminology
+assertion rather than a comparison of two regions.
 
-⚠️ Two claims here rest on the thread's fetch alone and are **unconfirmed**: that it also ships on iOS
-under the string "Beef Atlas | 3D Cuts Guide" (an independent search surfaced only the unrelated
-[Beef Cuts 3D](https://apps.apple.com/us/app/beef-cuts-3d/id1535823789)), and that its catalog declares its
-geometry `reference.toyonishi.beef-viewer` — "Modified Toyonishi-derived GLB". If the second is true it is
-worth knowing, because **this project will be asked whether its cow is independently authored** (it is —
-procedural, `blender/cow.py`).
+On provenance, the same catalog says so itself, in a `geometryReference` block quoted here verbatim:
+
+> `"id": "reference.toyonishi.beef-viewer"`, `"productionTopology": "toyonishiDetailed"` … "This is the
+> only anatomy topology in the project. Modified Toyonishi-derived GLB/USDZ exports are approved for
+> reviewed iOS and production web distribution."
+
+Recorded because **this project will be asked whether its own cow is independently authored** — it is,
+procedurally generated by [`blender/cow.py`](../../blender/cow.py). The developer's declaration that such
+exports are "approved" is their claim, and nothing here disputes it.
 
 ### UNL did anatomy-keyed cuts in 2004, and shipped the data as JSON
 `https://bovine.unl.edu` is live and further along than expected. **Fetched and counted directly**:
@@ -203,8 +221,10 @@ no longer resolves.
    match.
 4. **Correct round 1.** [`README.md`](README.md) calls Swatland "the only prior work that quantified partial
    equivalence"; §1 above shows he quantified name survival. Fix it rather than leave two files disagreeing.
-5. **Decide about the name.** Another live product answers to *Beef Atlas* in this exact category, shipped
-   a month ago.
+5. **Decide about the name.** Another live product is called *Beef Atlas* in this exact category, on the
+   App Store and the web. It has no ratings yet and this repo is not on a storefront, so there is nothing
+   forcing the issue — but the decision is cheaper now than after a launch. (A thread reported its release
+   as 2026-08-19; the store page did not show me a date, so treat that as unconfirmed.)
 6. **Consider Bohland's S-index**, `S = 1 − 4 Σ W_ij X_ij (1 − X_ij)`, which runs on numbers already
    computed and collapses 153×153 into a 7×7 table that does not penalise France for being a refinement.
 
@@ -213,14 +233,17 @@ no longer resolves.
 Same rules as round 1: every number traceable to a fetched URL, and a negative resting on a blocked fetch
 marked unproven rather than asserted.
 
-**Verified by direct fetch in this session:** the competitor's page title and its three partitions;
-`bovine.unl.edu/muscles.json` (counts recomputed here — 346 pairs over 92 cut names, against the thread's
-355/85; the delimiter is ambiguous, which is itself the point about it being a string).
+**Verified by direct fetch in this session**, not taken from a thread: the competitor's App Store listing,
+its web page title, and its catalog JSON — the two `restaurantSystems`, the 62 relationships and their
+label counts, the absence of any numeric field in them, and the `geometryReference` provenance block.
+Also `bovine.unl.edu/muscles.json`, with counts recomputed here: **346 pairs over 92 cut names**, against
+the thread's 355/85. The gap is the delimiter — the field is comma-separated prose, and two readers split
+it differently, which is exactly the point about it being a string rather than a relation.
 
 **Unproven and marked so in the notes:** Trypuz et al. 2016 is hard-blocked (Springer 303s to an auth wall,
 Semantic Scholar returns a null abstract) — **do not assume it handles multilingual naming or cutting-line
-geometry**. The three CT-atlas papers are paywalled; their internals rest on abstracts. The competitor's iOS
-listing and its Toyonishi geometry provenance rest on one thread's fetch. `unece.org` still 403s everything.
+geometry**. The three CT-atlas papers are paywalled; their internals rest on abstracts. The competitor's
+2026-08-19 release date rests on one thread's fetch. `unece.org` still 403s everything.
 
 **Still unread, and still the one thing that could overturn §1:** Swatland, *Meat Cuts and Muscle Foods: An
 International Glossary*, 258pp. No Google Books preview, zero archive.org copies. His archived Guelph site
