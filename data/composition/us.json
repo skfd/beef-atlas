@@ -81,6 +81,14 @@
           "id": "obturator-externus",
           "role": "trace",
           "extent": "whole"
+        },
+        {
+          "id": "tensor-fasciae-latae",
+          "role": "minor",
+          "extent": "portion",
+          "from": "ilium",
+          "to": "femur",
+          "note": "the knuckle is a round item, not a loin one -- IMPS 167 is Beef Round, Sirloin Tip and is prepared from the round primal, with this muscle named as the landmark on its loin end. The sirloin keeps the rest of it"
         }
       ],
       "unmodelled": [
@@ -135,6 +143,14 @@
           ],
           "quote": "renferme trois (3) muscles principaux : le vastus lateralis, le rectus femoris et le vastus medialis",
           "locator": "5.3.5 Pointe de surlonge"
+        },
+        {
+          "url": "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
+          "supports": [
+            "muscles"
+          ],
+          "quote": "M. tensor fasciae latae, though not completely extending around the outside of the sirloin tip (knuckle) shall be exposed on the loin end.",
+          "locator": "Item No. 167, Beef Round, Sirloin Tip (Knuckle)"
         }
       ],
       "dispute": "IMPS Series 100 is quoted directly now: a copy of the November 2014 PDF was recovered and its text is reproduced in imps-items.md. Bounds: IMPS 158 separates the round from the loin by a cut just anterior to the ball of the femur. That is the boundary used here, but IMPS Series 100 is not fetchable (ams.usda.gov 403, meattrack.com login), so it is graded inferred rather than carrying a quote. Note also that CFIA's extérieur de ronde list includes vastus lateralis, which every other source places in the knuckle; reproduced as written rather than corrected."
@@ -556,6 +572,38 @@
           "extent": "portion",
           "from": "rib-06",
           "to": "rib-12"
+        },
+        {
+          "id": "rhomboideus",
+          "role": "trace",
+          "extent": "portion",
+          "from": "rib-06",
+          "to": "rib-12",
+          "note": "over the withers at the blade end; IMPS 109 strips it to make the rib roast-ready, which is what says it is in the primal in the first place"
+        },
+        {
+          "id": "infraspinatus",
+          "role": "trace",
+          "extent": "portion",
+          "from": "rib-06",
+          "to": "rib-12",
+          "note": "only what clings to the posterior tip of the scapula the primal keeps; the flat iron is the same muscle, taken with the chuck"
+        },
+        {
+          "id": "subscapularis",
+          "role": "trace",
+          "extent": "portion",
+          "from": "rib-06",
+          "to": "rib-12",
+          "note": "likewise the scapular tip only; the chuck takes the body of the muscle"
+        },
+        {
+          "id": "complexus",
+          "role": "trace",
+          "extent": "portion",
+          "from": "rib-06",
+          "to": "rib-12",
+          "note": "the very anterior edge at rib 6, where the neck muscles have not quite run out"
         }
       ],
       "bone_in": true,
@@ -598,6 +646,22 @@
             "bounds"
           ],
           "quote": "Beef Rib Finger Meat is derived from the intercostal muscle located between ribs 6 through 12 and are normally 8\" to 10\" in length."
+        },
+        {
+          "url": "https://www.ams.usda.gov/sites/default/files/media/IMPS_100_Fresh_Beef%5B1%5D.pdf",
+          "supports": [
+            "muscles"
+          ],
+          "quote": "The blade bone and related cartilage, backstrap, M. latissimus dorsi, M. infraspinatus, M. subscapularis, M. rhomboideus, and M. trapezius shall be removed.",
+          "locator": "Item No. 109, Beef Rib, Roast-Ready"
+        },
+        {
+          "url": "https://bovine.unl.edu/muscles.json",
+          "supports": [
+            "muscles"
+          ],
+          "quote": "\"name\":\"Complexus\"",
+          "locator": "muscle 12, retail_cuts: Beef Rib Roast, Beef Rib Steak, ..."
         }
       ],
       "dispute": "IMPS Series 100 is quoted directly now: a copy of the November 2014 PDF was recovered and its text is reproduced in imps-items.md. Bounds: IMPS 103 is ribs 6 to 12 inclusive, separated from the chuck between the 5th and 6th ribs and from the loin along the curvature of the 12th. The National Beef rib-finger description independently confirms 'ribs 6 through 12' for this primal, which is why the intercostal entry carries the bounds flag — but for the primal boundary itself IMPS remains the authority and is not quotable, see `round`."
@@ -827,6 +891,12 @@
           "extent": "portion",
           "from": "sternum",
           "to": "humerus"
+        },
+        {
+          "id": "sternocephalicus",
+          "role": "trace",
+          "extent": "whole",
+          "note": "a neck strap; the square-cut chuck carries the neck, so it comes with it"
         }
       ],
       "unmodelled": [
@@ -896,6 +966,14 @@
             "muscles"
           ],
           "quote": "Rhomboideus  Hump meat"
+        },
+        {
+          "url": "https://bovine.unl.edu/muscles.json",
+          "supports": [
+            "muscles"
+          ],
+          "quote": "\"name\":\"Sternocephalicus\"",
+          "locator": "muscle 108, retail_cuts: Beef Chuck"
         }
       ],
       "dispute": "IMPS Series 100 is quoted directly now: a copy of the November 2014 PDF was recovered and its text is reproduced in imps-items.md. The CFIA quote is for the bloc d'épaule, the Canadian chuck block, whose cutting line matches the American square-cut chuck; it is the only fetchable source that enumerates the chuck's back muscles. The limb and neck muscles beyond that list come from Calkins, one row at a time. Bounds: IMPS 113 is a straight cut between the 5th and 6th ribs — the same not-quotable problem as `round`."

@@ -35,6 +35,28 @@ counterparts, plus:
 
 The same list is shown in the page under **About & sources**.
 
+## The anatomy layer, and who did it first
+
+The idea of keying butchery cuts to individually named muscles is not this project's.
+It is:
+
+> **Bovine Myology and Muscle Profiling** — Jones, Guru, Singh, Carpenter, Calkins &
+> Johnson, University of Nebraska–Lincoln, 2004, funded by The Beef Checkoff.
+> <https://bovine.unl.edu/>
+
+It describes 119 muscles, gives 91 of them the US retail cuts they appear in, and
+carries 197 IMPS subprimals and 143 photographed cross-sections with the muscles
+outlined on them — including serial dissections whose layers are named for the muscle
+just taken off. Its own interactive 3D viewer ran at `/bovine3D` from 2004 until
+August 2011 and has been gone since. This atlas is a different thing — seven traditions
+in one coordinate frame rather than one tradition on photographs — but the layer
+underneath it was their idea first, and where the two disagree, theirs was checked.
+
+It carries no licence statement, so nothing is copied from it. It is used the way a
+second opinion is used: `data/composition/us.json` was checked muscle-by-muscle against
+`bovine.unl.edu/muscles.json`, and the four muscles that check added are cited to it or
+to the IMPS item it sent us back to.
+
 ## This project
 
 Code and data in this repository are the author’s own work. The cow model is not,

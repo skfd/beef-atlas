@@ -16,6 +16,32 @@ the British one.
 > flattened onto the same patch. Where a low number is an artifact of that, this piece
 > says so. Treat them as a measure of *where on the animal*, not of butchery equivalence.
 
+### The measure has a name
+
+It is not homemade. Dividing the shared area by the area of the cut you started from is
+the **non-symmetric conditional overlap** *P(i|j) = |rᵢ ∩ rⱼ| / |rⱼ|* defined by
+[Bohland, Bokil, Allen & Mitra (2009)](https://doi.org/10.1371/journal.pone.0007200) for
+the *brain atlas concordance problem* — comparing several schemes that carve one brain
+into differently-named regions, by registering them all into one coordinate frame and
+"discounting the names of regions and instead comparing their definitions as spatial
+entities". Geographers compute the identical quantity when they translate one set of
+boundaries into another and call it an **allocation factor**, or an areal weight, under
+the heading of *areal interpolation*. The measure here is area, so that method applies
+literally rather than by analogy.
+
+Bohland's reason for preferring it to the symmetric coefficients — Dice, Jaccard — is
+the reason it is right here too: those reach 1 only when two regions are *identically*
+defined, whereas this one reaches 1 on a pure subset. France cuts 29 pieces where
+America cuts 11, so most French cuts are *refinements* of American ones rather than
+rivals to them, and a symmetric index would report near-total disagreement where the
+truth is clean containment.
+
+**It runs in one direction only, and the direction is part of the number.** *P(i|j)* and
+*P(j|i)* are different quantities: a small cut wholly inside a large one is 100% of
+itself and a fraction of the other. Every percentage below is stated as *how much of the
+first cut is covered by the second*, and where both directions matter — §2's British
+false friend is the case — both are given.
+
 ---
 
 ## 1. The short version

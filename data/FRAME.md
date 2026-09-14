@@ -55,8 +55,38 @@ The z table above is what the mesh as built actually measures; the cut data was
 written against a nominal 0.52 / 0.70 / 0.90 / 1.00, which is within a couple of
 percent everywhere and is absorbed by the clipping described below.
 
-Y: the barrel is about +/-0.17 wide; a box spanning y -0.5..0.5 takes the full width.
+Y: the barrel is about +/-0.17 wide. Nothing you author sets y — see below.
 
-A cut is `boxes: [[x0,y0,z0, x1,y1,z1], ...]` — a union, so irregular shapes are
-built from two or three boxes. Boxes are clipped against the cow mesh, so it is safe
-(and normal) to over-extend a box past the silhouette.
+## What a cut actually is
+
+One rectangle in this side view:
+
+    "x": [0.36, 0.46], "z": [0.62, 0.92], "full_width": true
+
+That is the whole geometry. There is no y in the data and no list of boxes: every cut
+is carved the full width of the animal, and `blender/build.py` hardcodes the cutter's
+half-width rather than reading anything from the file. `tools/check_data.py` requires
+`x`, `z` and `full_width` on every cut and will reject anything else.
+
+`full_width` is therefore **not a geometric switch**. Setting it `false` carves exactly
+the same slab; all it does is make `web/app.js` print a note in the panel saying that
+this cut is a thin sheet of muscle in life, so the reader should take the slab as
+whereabouts rather than as the shape of the cut. It is an honesty label. Use it for
+sheets — flank, skirt, the abdominal wall — and leave it `true` for blocks.
+
+Rectangles from different cuts in the same tradition may overlap, and normally do at
+the seams. `blender/cuts.py` resolves that before anything is carved: `partition()`
+lays every rectangle's edges down as a grid, works out which cut owns each cell, and
+merges the cells back into a union of boxes that tiles the tradition exactly once. So
+the box unions are **derived**, never authored — if you go looking for a `boxes` key in
+`data/cuts_*.json` you will not find one.
+
+Those derived boxes are then intersected with the cow mesh, so it is safe (and normal)
+to over-extend a rectangle past the silhouette: a cut that reaches below the belly line
+or past the nose simply comes back clipped to the animal. A cut whose rectangle misses
+the animal altogether carves nothing, and the page says so rather than showing an empty
+slot.
+
+One consequence worth knowing when you read the percentages: because the geometry is a
+rectangle in x and z and the y extent is constant, **the overlap between two cuts is an
+area in this side view**, not a volume. See [`docs/differences.md`](../docs/differences.md).
