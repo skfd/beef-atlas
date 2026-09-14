@@ -1,11 +1,19 @@
 # Prior art
 
-Who else has tried to map one cut across several butchery traditions, how far they got, and what is
-left. Research date **2026-09-13**; six parallel threads, everything traceable to a fetched page.
+Two rounds, asking two different questions.
 
-Read [`landscape.md`](landscape.md) for the survey. [`research-method.md`](research-method.md) says which
-findings are solid and which rest on a blocked fetch. [`notes/`](notes/) is the raw per-thread output,
-kept so every number stays traceable to the URL it came from.
+**Round 1 — names.** Who else has tried to map one cut across several butchery traditions, how far they
+got, and what is left. Seeded with a competitor's website. Research date **2026-09-13**; six parallel
+threads, everything traceable to a fetched page. Read [`landscape.md`](landscape.md) for the survey;
+[`research-method.md`](research-method.md) says which findings are solid and which rest on a blocked
+fetch; [`notes/`](notes/) is the raw per-thread output.
+
+**Round 2 — [`shape.md`](shape.md).** Who else has built *this* — one animal, several traditions in one
+coordinate frame, a number on the overlap between them, named anatomy underneath, in interactive 3D.
+Seeded with the repo itself rather than with a competitor, which turns out to return quite different
+results. Same date, five threads, raw output in [`notes-shape/`](notes-shape/). **Read that one if you
+want to know what is actually novel here**; it supersedes this file wherever the two disagree, and §1
+of it corrects the Swatland claim below.
 
 ## Read this first: what is new here, and what is not
 
@@ -21,16 +29,25 @@ written without knowing this project existed, and this project is that thing** �
 traditions in one coordinate frame, over 115 named anatomical parts, with muscle-overlap percentages
 between traditions. Nothing in the survey does the last part at all. The closest anyone comes:
 
+> **Narrowed by round 2.** Searching for the shape rather than for names found that anatomy-keyed cuts
+> *were* built — UNL Bovine Myology, 2004, 119 muscles — and that a product shipped in 2026-08 puts three
+> partitions on one 3D mesh with a translucent hide. What no one has done is put a **number** on the
+> correspondence. [`shape.md`](shape.md) has the corrected claim.
+
 | | What they do | Where they stop |
 |---|---|---|
 | **UNECE** | anatomy-defined cuts, numeric codes, **5-language index** (EN/FR/RU/ES/ZH) | prose and cutting lines; no muscle model, no overlap, PDFs behind Cloudflare |
 | **AUS-MEAT HAM** | per-cut PDFs cross-walking HAM + UNECE + NAMP + NZ MSG + AHECC, with photos | one tradition; a crosswalk table, not a shared frame |
-| **Swatland 2012** | US vs ten British/Scottish sources **with per-cut concordance scores** | a printed table; the only prior work that quantified partial equivalence at all |
+| **Swatland 2012** | US vs ten British/Scottish sources **with per-cut concordance scores** | a printed table — and the score is binary and requires a **shared name**, so it measures name survival, not partial equivalence. See [`shape.md`](shape.md) §1 |
 | **Weidefleisch** | ~60 cuts keyed by code across de/at/ch/us/uk/fr/it | flat name register, no anatomy |
 | **carneatlas.com** | ~10 countries, per-cut name tables, photo-ID, daily puzzle | names only, no codes, no anatomy; fish section unsourced |
 
-**Swatland's concordance scores are the one piece of genuine methodological prior art** for what this repo
-computes. Worth reading before defending the overlap percentages to anyone.
+~~**Swatland's concordance scores are the one piece of genuine methodological prior art** for what this repo
+computes.~~ **Round 2 overturned this.** His score is 1 if two cuts *share a name* and overlap, 0 otherwise —
+a measure of name survival, and his own next section is headed "Linguistic survival". The real
+methodological ancestor is outside meat entirely: the non-symmetric conditional overlap of
+[Bohland et al. 2009](shape.md) on brain parcellations, which is the same formula `web/app.js` already
+computes. Read [`shape.md`](shape.md) §1 and §3 before defending the percentages to anyone.
 
 ### 2. Two UNECE facts worth having
 - Its species standards carry a **"Multilingual index of products"** in **English / French / Russian /
