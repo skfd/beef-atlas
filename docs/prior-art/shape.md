@@ -231,7 +231,7 @@ no longer resolves.
    match.
 4. **Correct round 1.** [`README.md`](README.md) calls Swatland "the only prior work that quantified partial
    equivalence"; §1 above shows he quantified name survival. Fix it rather than leave two files disagreeing.
-5. **Decide about the name.** Another live product is called *Beef Atlas* in this exact category, on the
+5. **Decide about the name.** — **decided 2026-09-14: the project is now `Beef Phrasebook`.** Another live product is called *Beef Atlas* in this exact category, on the
    App Store and the web. It has no ratings yet and this repo is not on a storefront, so there is nothing
    forcing the issue — but the decision is cheaper now than after a launch. (A thread reported its release
    as 2026-08-19; the store page did not show me a date, so treat that as unconfirmed.)

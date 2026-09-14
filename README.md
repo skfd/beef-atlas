@@ -1,24 +1,30 @@
-# Beef Atlas
+# Beef Phrasebook
 
-**One animal. Seven ways of taking it apart — and what it is made of underneath.** An
-interactive 3D page showing how the United States, the United Kingdom, France, Russia,
-Brazil, Korea and Japan divide the same beef carcass — 153 named cuts drawn on one cow,
-so the traditions can be compared directly rather than as seven unrelated charts — over
-an anatomical model of the same animal, 115 named bones, muscles and organs in the same
-coordinate frame.
+**Seven butchery traditions on one animal, in 3D.** An interactive page showing how the
+United States, the United Kingdom, France, Russia, Brazil, Korea and Japan divide the same
+beef carcass — 153 named cuts drawn on one cow, so the traditions can be compared directly
+rather than as seven unrelated charts — over an anatomical model of the same animal, 115
+named bones, muscles and organs in the same coordinate frame.
+
+It is a phrasebook rather than a chart because the useful question is not *what are the
+American cuts*, it is **what do I ask for over there, and how wrong will it be**. Seven
+traditions would need twenty-one translations between them; instead every tradition is
+drawn against one shared frame, and the answer is read off the overlap.
 
 ![The US short loin selected, with the equivalent cut in five other traditions](docs/atlas-us-short-loin.png)
 
-### → **[Open the atlas](https://skfd.github.io/beef-atlas/)**
+### → **[Open it](https://skfd.github.io/beef-atlas/)**
 
 **[Read the writeup on how the six traditions differ →](docs/differences.md)**
 
 Pick a cut and the panel tells you what the muscle does on the living animal, how it
-is therefore cooked, what it is famous for — and, the part that makes it an atlas,
+is therefore cooked, what it is famous for — and, the part that makes it a phrasebook,
 **which cuts occupy that same piece of animal everywhere else**. The US short loin is
 91% Russian тонкий край, 82% the British sirloin, 73% Japanese サーロイン, 64% Korean 채끝.
+Those numbers are the point: a name table can only say *sirloin ≈ faux-filet*, and a
+percentage can say how much that is worth.
 
-The atlas opens on the **animal**: 41 bones, 49 muscles and 25 organs, built in that
+It opens on the **animal**: 41 bones, 49 muscles and 25 organs, built in that
 same frame, so the short loin lights up the longissimus and the psoas inside it and
 the longissimus says which cut it lands in everywhere. The schematic carcass is one
 click away under **Cuts** — it is the honest picture of a butchery line, and the

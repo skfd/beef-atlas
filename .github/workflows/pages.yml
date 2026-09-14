@@ -1,4 +1,4 @@
-name: Deploy atlas to GitHub Pages
+name: Deploy the phrasebook to GitHub Pages
 
 # The site lives in web/, and Pages will only serve a branch root or /docs --
 # so it is uploaded as an artifact instead of being moved to suit the host.

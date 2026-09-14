@@ -369,11 +369,22 @@ html, body {
 #legend.collapsed #blurb,
 #legend.collapsed #cut-list { display: none; }
 
+/* The tab pill is centred on the viewport and is as wide as seven country names
+   need -- 584px -- so the gutter left of it is (100vw - 584px)/2, and the masthead
+   has to live in that. "Beef Phrasebook" measures 271px at 30px in the serif, so
+   the gutter has to reach ~313px to clear it with air, which needs 1220px of
+   viewport. Below that no font size rescues it -- at 900px the gutter is 132px,
+   which would want a 15px masthead -- so the tabs drop to the bottom rail instead,
+   which is the arrangement the small-screen rule below uses anyway. 88px clears
+   the controls, which sit at bottom 22px and are taller here than they are small. */
+@media (max-width: 1220px) {
+  #cultures { top: auto; bottom: 88px; }
+}
+
 @media (max-width: 900px) {
   #masthead { top: 14px; left: 16px; }
   #masthead h1 { font-size: 22px; }
   .tagline { display: none; }
-  #cultures { top: auto; bottom: 76px; }
   #legend { left: 12px; right: 12px; width: auto; top: 62px; bottom: auto; max-height: 34vh; }
   #detail { left: 12px; right: 12px; width: auto; top: auto; bottom: 120px; max-height: 42vh; }
   #controls { bottom: 16px; gap: 12px; padding: 8px 14px; }

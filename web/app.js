@@ -22,7 +22,7 @@ let meshes = [];             // the pickable cut meshes of the culture on screen
 let hovered = null;
 let selected = null;
 
-// The atlas has two models of one animal. `cuts` is the schematic: the carcass as a
+// The phrasebook has two models of one animal. `cuts` is the schematic: the carcass as a
 // butcher's chart, every block a named cut. `anatomy` is what those blocks are made
 // of. They share the frame, so a cut selected in one lights up the muscles it
 // contains in the other, and a muscle picked in the other says which cut it lands in.
@@ -209,7 +209,7 @@ function esc(s) {
     ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
 
-// Rectangle overlap in the shared frame, which is the whole trick of the atlas.
+// Rectangle overlap in the shared frame, which is the whole trick of it.
 function rectArea(r) {
   return (r.x[1] - r.x[0]) * (r.z[1] - r.z[0]);
 }
@@ -300,7 +300,7 @@ function buildPartList() {
 // the overlap by decides the answer. Dividing by the muscle -- the test that is right
 // between two traditions -- rewards short straps and punishes long ones: the
 // longissimus runs x 0.11 to 0.70 and only 21% of it is in the US short loin, so it
-// would drop below any sensible threshold and the atlas would fail to name the one
+// would drop below any sensible threshold and the page would fail to name the one
 // muscle its own front page leads with, while the 2cm quadratus lumborum topped the
 // list. So: gate on the *smaller* of the two rectangles, which asks "do these two
 // really coincide" symmetrically, and then rank by how much of the cut the muscle
@@ -393,7 +393,7 @@ function renderDetail(cut) {
          applies.</p>` : '') +
     (cut.full_width === false
       ? `<p class="d-note">In life this is a thin sheet of muscle rather than a block.
-         The atlas carves it the full width of the body, so treat the slab as
+         It is carved the full width of the body, so treat the slab as
          "whereabouts", not as the shape of the cut.</p>` : '') +
     (madeOf ? `<p class="d-label">What it is made of <span class="d-hint">— how much of the cut each muscle fills</span></p>
                <ul class="elsewhere muscles">${madeOf}</ul>
@@ -433,12 +433,12 @@ function renderPartDetail(part) {
     (list ? `<p class="d-label">Which cut it lands in</p>
              <ul class="elsewhere">${list}</ul>
              <p class="d-note">Matched by where the muscle actually sits against each
-             tradition's rectangles — the same overlap the atlas uses to line one
+             tradition's rectangles — the same overlap this page uses to line one
              tradition up against another, rather than a hand-written correspondence.</p>`
           : '') +
     (part.system !== 'muscle'
       ? `<p class="d-note">Bones and organs are here for orientation, and because the
-         offal is food in every tradition the atlas covers — they are not carved into
+         offal is food in every tradition here — they are not carved into
          the schematic cut models.</p>` : '');
 
   panel.querySelectorAll('.elsewhere li[data-culture]').forEach(li => {
@@ -767,7 +767,7 @@ fetch('data/cultures.json')
     buildCultureTabs();
     buildAbout();
     await showCulture(cultures[0].id);
-    // The atlas opens on the anatomy: the schematic carcass is the abstraction, and
+    // The phrasebook opens on the anatomy: the schematic carcass is the abstraction, and
     // it is one click away. Both models are already in memory by the time the
     // loading card fades, so the switch between them is instant from then on.
     await setMode('anatomy');
@@ -776,5 +776,5 @@ fetch('data/cultures.json')
     tick();
   })
   .catch(err => {
-    loading.innerHTML = `<p>Could not load the atlas data.<br><small>${esc(err.message)}</small></p>`;
+    loading.innerHTML = `<p>Could not load the data.<br><small>${esc(err.message)}</small></p>`;
   });

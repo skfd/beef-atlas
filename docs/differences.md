@@ -1,6 +1,6 @@
 # The same cow, cut seven ways
 
-*What the Beef Atlas data says about how the United States, the United Kingdom, France,
+*What the Beef Phrasebook data says about how the United States, the United Kingdom, France,
 Russia, Brazil, Korea and Japan disagree about a carcass — and where they don't.*
 
 Every cut in this project is a rectangle in one shared frame: `x` runs from tail to nose,
@@ -72,7 +72,7 @@ whole story in one number, and everything below is the texture of it.
 
 ## 2. The British false friend
 
-**This is the single most useful fact in the atlas, and it catches people constantly.**
+**This is the single most useful fact in the phrasebook, and it catches people constantly.**
 
 British cut names sit *one primal forward* of American ones:
 
@@ -105,7 +105,7 @@ Put an American primal down and ask what covers it elsewhere:
 
 Japanese リブロース covers the American rib primal at **91%**, and Russian **тонкий край**
 covers the American short loin at exactly the same figure — the closest correspondences in
-the whole atlas, across two of the largest cultural distances in it. *Тонкий край* means
+the whole phrasebook, across two of the largest cultural distances in it. *Тонкий край* means
 literally "thin edge", named for the shape of the muscle rather than for a place on the
 animal, and it still lands on the same beef as a New York strip.
 
@@ -153,7 +153,7 @@ call that much meat one thing.
 
 ## 5. Where they diverge: the hind leg
 
-The American **round** is the most parochial cut in the atlas — nothing anywhere covers
+The American **round** is the most parochial cut in the phrasebook — nothing anywhere covers
 more than **34%** of it. Everyone else takes the hind leg apart by muscle:
 
 - **UK** — silverside, topside, thick flank, leg, plus rump above.
@@ -163,7 +163,7 @@ more than **34%** of it. Everyone else takes the hind leg apart by muscle:
 - **Japan** — ランプ, イチボ, ウチモモ, ソトモモ, スネ, テール.
 
 Part of that 34% is the projection artifact: topside and silverside are the inside and the
-outside of the same leg, and a side view cannot separate them, so the atlas tiles them
+outside of the same leg, and a side view cannot separate them, so the phrasebook tiles them
 front-to-back instead. But the direction is real. Only the American and (to a lesser
 extent) Korean schemes treat the hind leg as a single large block to be roasted or ground;
 everyone else treats it as a drawer of individually named muscles.
@@ -192,7 +192,7 @@ standard. The US and UK schemes grade nothing at the cut level at all.
 Underneath the standard sits an older kitchen vocabulary the GOST never names —
 *оковалок*, *кострец*, *огузок* and its two faces *щуп* and *ссек*, *глазной мускул*,
 *завиток*, *челышко*, *покромка*. Russian cooks use those words; the standard uses the
-eleven отрубы. Both are in the atlas, each subcut carrying the sort of the отруб it falls
+eleven отрубы. Both are in the phrasebook, each subcut carrying the sort of the отруб it falls
 inside.
 
 Two placements are worth flagging. The GOST's spinal/lumbar boundary falls between ribs
@@ -232,11 +232,11 @@ don't. That is the rule, and it has almost no exceptions in this data.
 
 ## 8. The genuinely unique
 
-Two cuts in the atlas have no meaningful counterpart anywhere, and both are Brazilian:
+Two cuts in the phrasebook have no meaningful counterpart anywhere, and both are Brazilian:
 
 - **Cupim** (best match 33%) — the fatty hump of zebu (Nelore, *Bos indicus*) cattle, which
   sits on top of the withers. It is not that other traditions cut the hump differently;
-  most of them raise cattle that do not have one. *The atlas cow is a European type, so
+  most of them raise cattle that do not have one. *The cow modelled here is a European type, so
   cupim's shape marks the spot but the hump itself is missing — the page says so when you
   select it.*
 - **Rabo** (19%) — oxtail, which the UK (*oxtail*), Korea (꼬리) and Japan (テール) also
@@ -281,4 +281,4 @@ alongside it rather than being replaced by it.
 backbone is Wikipedia's "Cut of beef" and its per-country counterparts, with USDA IMPS
 Series 100, AHDB, la-viande.fr, ГОСТ 7595-79, scotconsultoria, 축산물품질평가원 and the
 Japan Meat Grading Association behind the individual schemes. Every figure in this piece is
-computed from the atlas data, not quoted from a source.*
+computed from the phrasebook data, not quoted from a source.*
