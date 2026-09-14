@@ -755,7 +755,7 @@ function buildAbout() {
      shapes be compared at all.</p>
      <p>There is a longer writeup on where the six traditions agree and disagree —
      the British false friend, the shoulder, the diaphragm —
-     <a href="https://github.com/skfd/beef-atlas/blob/main/docs/differences.md"
+     <a href="https://github.com/skfd/beef-phrasebook/blob/main/docs/differences.md"
         target="_blank" rel="noopener">here</a>.</p>
      <p class="d-label">Sources fetched for the cut data</p><ul>${sources}</ul>`;
 }

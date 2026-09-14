@@ -277,7 +277,7 @@ alongside it rather than being replaced by it.
 ---
 
 *Data and sources: each tradition's `sources` array in `data/cuts_*.json`, and the
-**About & sources** panel in the [atlas itself](https://skfd.github.io/beef-atlas/). The
+**About & sources** panel in the [page itself](https://skfd.github.io/beef-phrasebook/). The
 backbone is Wikipedia's "Cut of beef" and its per-country counterparts, with USDA IMPS
 Series 100, AHDB, la-viande.fr, ГОСТ 7595-79, scotconsultoria, 축산물품질평가원 and the
 Japan Meat Grading Association behind the individual schemes. Every figure in this piece is

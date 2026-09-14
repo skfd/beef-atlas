@@ -13,7 +13,7 @@ drawn against one shared frame, and the answer is read off the overlap.
 
 ![The US short loin selected, with the equivalent cut in five other traditions](docs/atlas-us-short-loin.png)
 
-### → **[Open it](https://skfd.github.io/beef-atlas/)**
+### → **[Open it](https://skfd.github.io/beef-phrasebook/)**
 
 **[Read the writeup on how the six traditions differ →](docs/differences.md)**
 
@@ -41,7 +41,7 @@ skeleton off, or open the near side of the animal with the cutaway:
 
 ## Running it
 
-It is live at **<https://skfd.github.io/beef-atlas/>**, deployed from `web/` by
+It is live at **<https://skfd.github.io/beef-phrasebook/>**, deployed from `web/` by
 `.github/workflows/pages.yml` on every push to `main`.
 
 To run it locally: the page is static, but it uses ES modules, which browsers refuse
