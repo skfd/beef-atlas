@@ -89,6 +89,16 @@ mostly-but-not-the-same, and no name-equivalence table has a way to say that.
 No meat-science paper computes Dice, Jaccard or any overlap coefficient between two carcass partitions.
 Searched and absent — a null search, weaker than a blocked fetch, so grey literature may exist.
 
+**And the consumer end of the genre does the same thing.** `beefcuts.org` — turned up while checking
+names, and a good example because nothing about it is careless — is a nine-column table of American,
+Brazilian, Argentine, Costa Rican, Mexican, French, Australian, Japanese and Italian cut names, with
+notes in English and Spanish, titled *"Beef Cut Translations"*. Nine traditions, two languages of
+commentary, real per-cut prose about what each is for. **Zero percent signs in the entire page**, and
+no canvas, WebGL or model of any kind. It is the round-1 nine-column genre done well, and it stops
+exactly where all of them stop. The domain currently returns a BunnyCDN "Domain suspended or not
+configured" 403; the reading above is of the
+[2025-03-26 capture](https://web.archive.org/web/20250326204452id_/https://beefcuts.org/).
+
 ## 2. Everything else is anticipated, and one of them ships this month
 
 ### The name is taken, and the product is close
